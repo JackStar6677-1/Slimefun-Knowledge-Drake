@@ -50,6 +50,7 @@ Nothing is invented: if the dump or the code does not say it, it is not in a scr
 | `tools/diff_dumps.py` | "what changed on DrakesCraft" between two dumps |
 | `knowledge/mechanics/` | agent-written, source-cited explanations (first one: ore processing and dust) |
 | `video/` | Remotion project: narrated tutorials and the animated Guide GUI renderer |
+| `docs/VIDEO_PIPELINE.md` | step-by-step instructions for an AI to make a tutorial or reel (starts by interviewing the owner) |
 | `SKILL.md` | how an AI agent uses all of the above |
 
 ## Quick start (Java 21+, Python 3.11+, Node 20+)
