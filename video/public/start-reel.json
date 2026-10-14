@@ -1,0 +1,497 @@
+{
+ "fps": 30,
+ "voice": "es-CL-CatalinaNeural",
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "big",
+   "big": "1ª hora",
+   "small": "en Slimefun",
+   "text": "¿Empezando con Slimefun? Esto es todo lo que necesitas la primera hora.",
+   "audio": "audio/start-reel-hook.mp3",
+   "words": [
+    {
+     "w": "Empezando",
+     "t": 0.096,
+     "d": 0.509
+    },
+    {
+     "w": "con",
+     "t": 0.663,
+     "d": 0.104
+    },
+    {
+     "w": "Slimefun",
+     "t": 0.779,
+     "d": 0.602
+    },
+    {
+     "w": "Esto",
+     "t": 2.188,
+     "d": 0.243
+    },
+    {
+     "w": "es",
+     "t": 2.442,
+     "d": 0.116
+    },
+    {
+     "w": "todo",
+     "t": 2.616,
+     "d": 0.174
+    },
+    {
+     "w": "lo",
+     "t": 2.812,
+     "d": 0.058
+    },
+    {
+     "w": "que",
+     "t": 2.928,
+     "d": 0.058
+    },
+    {
+     "w": "necesitas",
+     "t": 3.009,
+     "d": 0.544
+    },
+    {
+     "w": "la",
+     "t": 3.576,
+     "d": 0.069
+    },
+    {
+     "w": "primera",
+     "t": 3.715,
+     "d": 0.336
+    },
+    {
+     "w": "hora",
+     "t": 4.097,
+     "d": 0.243
+    }
+   ],
+   "seconds": 5.58
+  },
+  {
+   "id": "guide",
+   "kind": "cmd",
+   "cmd": "/sf guide",
+   "small": "abre el libro",
+   "text": "Uno: escribe barra sf guide y abre el libro.",
+   "audio": "audio/start-reel-guide.mp3",
+   "words": [
+    {
+     "w": "Uno",
+     "t": 0.096,
+     "d": 0.266
+    },
+    {
+     "w": "escribe",
+     "t": 0.64,
+     "d": 0.405
+    },
+    {
+     "w": "barra",
+     "t": 1.08,
+     "d": 0.278
+    },
+    {
+     "w": "sf",
+     "t": 1.427,
+     "d": 0.301
+    },
+    {
+     "w": "guide",
+     "t": 1.775,
+     "d": 0.255
+    },
+    {
+     "w": "y",
+     "t": 2.075,
+     "d": 0.058
+    },
+    {
+     "w": "abre",
+     "t": 2.156,
+     "d": 0.185
+    },
+    {
+     "w": "el",
+     "t": 2.388,
+     "d": 0.035
+    },
+    {
+     "w": "libro",
+     "t": 2.423,
+     "d": 0.301
+    }
+   ],
+   "seconds": 3.98
+  },
+  {
+   "id": "ect",
+   "kind": "model",
+   "block": "ENHANCED_CRAFTING_TABLE",
+   "small": "GRATIS · sin investigación",
+   "text": "Dos: la mesa de crafteo mejorada es gratis. Mesa sobre un dispensador, ingredientes dentro, clic derecho.",
+   "audio": "audio/start-reel-ect.mp3",
+   "words": [
+    {
+     "w": "Dos",
+     "t": 0.097,
+     "d": 0.37
+    },
+    {
+     "w": "la",
+     "t": 0.722,
+     "d": 0.139
+    },
+    {
+     "w": "mesa",
+     "t": 0.884,
+     "d": 0.255
+    },
+    {
+     "w": "de",
+     "t": 1.162,
+     "d": 0.069
+    },
+    {
+     "w": "crafteo",
+     "t": 1.289,
+     "d": 0.382
+    },
+    {
+     "w": "mejorada",
+     "t": 1.694,
+     "d": 0.486
+    },
+    {
+     "w": "es",
+     "t": 2.238,
+     "d": 0.104
+    },
+    {
+     "w": "gratis",
+     "t": 2.377,
+     "d": 0.463
+    },
+    {
+     "w": "Mesa",
+     "t": 3.669,
+     "d": 0.289
+    },
+    {
+     "w": "sobre",
+     "t": 3.982,
+     "d": 0.22
+    },
+    {
+     "w": "un",
+     "t": 4.236,
+     "d": 0.093
+    },
+    {
+     "w": "dispensador",
+     "t": 4.352,
+     "d": 0.613
+    },
+    {
+     "w": "ingredientes",
+     "t": 5.255,
+     "d": 0.648
+    },
+    {
+     "w": "dentro",
+     "t": 5.926,
+     "d": 0.324
+    },
+    {
+     "w": "clic",
+     "t": 6.528,
+     "d": 0.185
+    },
+    {
+     "w": "derecho",
+     "t": 6.782,
+     "d": 0.405
+    }
+   ],
+   "seconds": 8.44
+  },
+  {
+   "id": "xp",
+   "kind": "big",
+   "big": "20 niveles",
+   "small": "Grind Stone · Ore Washer · Gold Pan · Ore Crusher",
+   "text": "Tres: con solo 20 niveles desbloqueas el Grind Stone, el Ore Washer, el Gold Pan y el Ore Crusher. Ya puedes hacer polvo.",
+   "audio": "audio/start-reel-xp.mp3",
+   "words": [
+    {
+     "w": "Tres",
+     "t": 0.096,
+     "d": 0.359
+    },
+    {
+     "w": "con",
+     "t": 0.744,
+     "d": 0.116
+    },
+    {
+     "w": "solo",
+     "t": 0.883,
+     "d": 0.22
+    },
+    {
+     "w": "20",
+     "t": 1.138,
+     "d": 0.278
+    },
+    {
+     "w": "niveles",
+     "t": 1.45,
+     "d": 0.347
+    },
+    {
+     "w": "desbloqueas",
+     "t": 1.821,
+     "d": 0.556
+    },
+    {
+     "w": "el",
+     "t": 2.376,
+     "d": 0.069
+    },
+    {
+     "w": "Grind",
+     "t": 2.481,
+     "d": 0.289
+    },
+    {
+     "w": "Stone",
+     "t": 2.781,
+     "d": 0.382
+    },
+    {
+     "w": "el",
+     "t": 3.441,
+     "d": 0.127
+    },
+    {
+     "w": "Ore",
+     "t": 3.58,
+     "d": 0.15
+    },
+    {
+     "w": "Washer",
+     "t": 3.765,
+     "d": 0.44
+    },
+    {
+     "w": "el",
+     "t": 4.46,
+     "d": 0.127
+    },
+    {
+     "w": "Gold",
+     "t": 4.622,
+     "d": 0.243
+    },
+    {
+     "w": "Pan",
+     "t": 4.946,
+     "d": 0.162
+    },
+    {
+     "w": "y",
+     "t": 5.154,
+     "d": 0.035
+    },
+    {
+     "w": "el",
+     "t": 5.2,
+     "d": 0.116
+    },
+    {
+     "w": "Ore",
+     "t": 5.328,
+     "d": 0.15
+    },
+    {
+     "w": "Crusher",
+     "t": 5.548,
+     "d": 0.359
+    },
+    {
+     "w": "Ya",
+     "t": 6.748,
+     "d": 0.127
+    },
+    {
+     "w": "puedes",
+     "t": 6.968,
+     "d": 0.243
+    },
+    {
+     "w": "hacer",
+     "t": 7.211,
+     "d": 0.22
+    },
+    {
+     "w": "polvo",
+     "t": 7.512,
+     "d": 0.289
+    }
+   ],
+   "seconds": 9.04
+  },
+  {
+   "id": "next",
+   "kind": "locked",
+   "items": [
+    "Energy and Electricity",
+    "GPS-based Machines",
+    "Programmable Androids",
+    "Cargo Management"
+   ],
+   "small": "se abren al terminar Basic Machines",
+   "text": "Cuatro: termina Basic Machines y se abren Energía, GPS, Androides y Cargo.",
+   "audio": "audio/start-reel-next.mp3",
+   "words": [
+    {
+     "w": "Cuatro",
+     "t": 0.096,
+     "d": 0.382
+    },
+    {
+     "w": "termina",
+     "t": 0.791,
+     "d": 0.347
+    },
+    {
+     "w": "Basic",
+     "t": 1.173,
+     "d": 0.324
+    },
+    {
+     "w": "Machines",
+     "t": 1.543,
+     "d": 0.509
+    },
+    {
+     "w": "y",
+     "t": 2.087,
+     "d": 0.023
+    },
+    {
+     "w": "se",
+     "t": 2.145,
+     "d": 0.093
+    },
+    {
+     "w": "abren",
+     "t": 2.249,
+     "d": 0.243
+    },
+    {
+     "w": "Energía",
+     "t": 2.515,
+     "d": 0.544
+    },
+    {
+     "w": "GPS",
+     "t": 3.302,
+     "d": 0.706
+    },
+    {
+     "w": "Androides",
+     "t": 4.251,
+     "d": 0.59
+    },
+    {
+     "w": "y",
+     "t": 4.865,
+     "d": 0.023
+    },
+    {
+     "w": "Cargo",
+     "t": 4.957,
+     "d": 0.324
+    }
+   ],
+   "seconds": 6.5
+  },
+  {
+   "id": "cta",
+   "kind": "cta",
+   "ip": "mc.drakescraft.cl",
+   "line": "Java y Bedrock",
+   "text": "Juega en mc punto drakescraft punto cl. Link en la bio.",
+   "audio": "audio/start-reel-cta.mp3",
+   "words": [
+    {
+     "w": "Juega",
+     "t": 0.096,
+     "d": 0.301
+    },
+    {
+     "w": "en",
+     "t": 0.432,
+     "d": 0.069
+    },
+    {
+     "w": "mc",
+     "t": 0.513,
+     "d": 0.301
+    },
+    {
+     "w": "punto",
+     "t": 0.906,
+     "d": 0.243
+    },
+    {
+     "w": "drakescraft",
+     "t": 1.173,
+     "d": 0.556
+    },
+    {
+     "w": "punto",
+     "t": 1.832,
+     "d": 0.255
+    },
+    {
+     "w": "cl.",
+     "t": 2.122,
+     "d": 0.37
+    },
+    {
+     "w": "Link",
+     "t": 2.515,
+     "d": 0.266
+    },
+    {
+     "w": "en",
+     "t": 2.793,
+     "d": 0.046
+    },
+    {
+     "w": "la",
+     "t": 2.874,
+     "d": 0.069
+    },
+    {
+     "w": "bio",
+     "t": 2.978,
+     "d": 0.185
+    }
+   ],
+   "seconds": 4.41
+  }
+ ],
+ "source": {
+  "slimefun": "11.0-Drake-1.21.11-SNAPSHOT",
+  "server": "1.21.11-132-c5eb079 (MC: 1.21.11)",
+  "generated_at": "2026-10-14T21:51:50.686568200Z"
+ }
+}

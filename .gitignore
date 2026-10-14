@@ -16,3 +16,10 @@ video/src/guide.json
 video/src/guide-storyboard.json
 video/src/storyboard.json
 .env
+video/public/blocks/
+video/public/bg/
+video/src/blocks-index.json
+video/src/start-yt.json
+video/src/start-reel.json
+video/src/multiblocks.json
+video/src/reel-promo.json

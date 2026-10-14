@@ -18,7 +18,7 @@ const pop = (f: number, fps: number, d: number) => spring({ frame: f - d, fps, c
 const fade = (f: number, dur: number) => interpolate(f, [0, 12, dur - 12, dur], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
 
 // ---- GUI de cofre estilo Minecraft -------------------------------------------------------------
-type SlotData = { slot: number; key?: string; sf?: boolean; label?: string; n?: number; dim?: boolean; barrier?: boolean; pane?: boolean; glow?: boolean };
+export type SlotData = { slot: number; key?: string; sf?: boolean; label?: string; n?: number; dim?: boolean; barrier?: boolean; pane?: boolean; glow?: boolean };
 const SLOT = 92;
 
 const HAVE = new Set<string>(iconIndex as string[]);
@@ -31,7 +31,7 @@ const Icon: React.FC<{ k?: string; sf?: boolean; size: number; label?: string }>
   );
 };
 
-const ChestGui: React.FC<{ title: string; rows: number; slots: SlotData[]; showFrom?: number }> = ({ title, rows, slots, showFrom = 0 }) => {
+export const ChestGui: React.FC<{ title: string; rows: number; slots: SlotData[]; showFrom?: number }> = ({ title, rows, slots, showFrom = 0 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const bySlot = new Map(slots.map((s) => [s.slot, s]));
@@ -67,7 +67,7 @@ const panes = (rows: number): SlotData[] => {
   for (let i = (rows - 1) * 9; i < rows * 9; i++) out.push({ slot: i, pane: true });
   return out;
 };
-const header = (): SlotData[] => [
+export const header = (): SlotData[] => [
   ...panes(6).filter((s) => ![1, 5, 7, 46, 52].includes(s.slot)),
   { slot: 1, key: "ENCHANTING_TABLE", sf: false, label: "Settings" },
   { slot: 5, key: "NETHER_STAR", sf: false, label: "Favorites" },
@@ -100,7 +100,7 @@ const Frame: React.FC<{ step: string; children: React.ReactNode }> = ({ step, ch
   </AbsoluteFill>
 );
 
-const mainSlots = (page: any, lockedSet?: Set<string>): SlotData[] =>
+export const mainSlots = (page: any, lockedSet?: Set<string>): SlotData[] =>
   page.slots.map((s: any) => ({ slot: s.slot, key: s.key, sf: s.sf, label: s.name, barrier: lockedSet?.has(s.name) ? true : false }));
 
 // ---- escenas ---------------------------------------------------------------------------------
