@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "doc_rules": {
+    "language": "English (player-facing). Spanish only in notes to the owner.",
+    "required_sections": ["Summary", "How it works", "Step by step", "Common mistakes", "Sources"],
+    "citation_format": "Sources lists repo-relative file paths in backticks with optional :line (e.g. `Slimefun4-Drake/src/.../EnergyNet.java:120`). Every number or rule in the page must come from a source or from data/*.json.",
+    "audience": "user = what any player may use; staff = admin commands/cheat items, never in public tutorials"
+  },
+  "topics": [
+    {"id": "research-and-guide", "title": "Slimefun Guide and Researches", "audience": "user", "sources": ["Slimefun4-Drake:**/researches/**", "Slimefun4-Drake:**/guide/**"]},
+    {"id": "enhanced-crafting-and-workbenches", "title": "Enhanced Crafting Table, Magic Workbench, Ancient Altar, Armor Forge", "audience": "user", "sources": ["Slimefun4-Drake:**/multiblocks/**", "Slimefun4-Drake:**/altar/**"]},
+    {"id": "ore-processing-dust-farms", "title": "Ore processing and dust farms (crusher, washer, pan, grind stone)", "audience": "user", "sources": ["Slimefun4-Drake:**/machines/**", "data/slimefun-dump.json"]},
+    {"id": "smeltery-alloys-ingots", "title": "Smeltery, alloys and ingot automation", "audience": "user", "sources": ["Slimefun4-Drake:**/Smeltery*", "data/slimefun-dump.json"]},
+    {"id": "armor-and-tools", "title": "Armor, tools and upgrades", "audience": "user", "sources": ["Slimefun4-Drake:**/armor/**", "Slimefun4-Drake:**/tools/**"]},
+    {"id": "potions-and-food", "title": "Potions, juices, food and composters", "audience": "user", "sources": ["Slimefun4-Drake:**/food/**", "Slimefun4-Drake:**/Juicer*", "Slimefun4-Drake:**/BrewingStand*"]},
+    {"id": "energy-network", "title": "Energy network: generators, capacitors, consumers, regulators", "audience": "user", "sources": ["Slimefun4-Drake:**/networks/energy/**", "Slimefun4-Drake:**/electric/**"]},
+    {"id": "cargo-network", "title": "Cargo network: nodes, channels, filters, automation", "audience": "user", "sources": ["Slimefun4-Drake:**/cargo/**"]},
+    {"id": "androids", "title": "Programmable Androids and scripts", "audience": "user", "sources": ["Slimefun4-Drake:**/androids/**"]},
+    {"id": "gps-and-teleportation", "title": "GPS network, waypoints and teleporters", "audience": "user", "sources": ["Slimefun4-Drake:**/gps/**", "Slimefun4-Drake:**/teleporter/**"]},
+    {"id": "talismans-and-magic", "title": "Talismans, enchantments and magical items", "audience": "user", "sources": ["Slimefun4-Drake:**/talismans/**", "Slimefun4-Drake:**/magical/**"]},
+    {"id": "networks-addon", "title": "Networks (NetworksV6): quantum storage, grids, crafting, auto-crafters", "audience": "user", "sources": ["NetworksV6-Drake:**"]},
+    {"id": "slimetinker", "title": "SlimeTinker: tools, materials, casting", "audience": "user", "sources": ["SlimeTinker:**"]},
+    {"id": "multiverse-chagui", "title": "Multiverse suite by Chagui68: worlds, nets, programming", "audience": "user", "sources": ["Multiverse*:**"]},
+    {"id": "galaxyfun-space", "title": "Galaxyfun / Galactifun: space, planets, rockets, Stargates", "audience": "user", "sources": ["Galaxyfun-drake:**", "Galactifun2:**"]},
+    {"id": "portal-gun", "title": "Portal gun addon", "audience": "user", "sources": ["SFPortalGun-Drake:**"]},
+    {"id": "infinity-expansion", "title": "InfinityExpansion: infinity forge, singularities, storage", "audience": "user", "sources": ["InfinityExpansion*:**"]},
+    {"id": "fluffy-machines-and-others", "title": "FluffyMachines, FoxyMachines, Supreme, LiteXpansion and other tech addons", "audience": "user", "sources": ["FluffyMachines*:**", "FoxyMachines*:**", "Supreme*:**", "LiteXpansion*:**"]},
+    {"id": "automation-blueprints", "title": "End-to-end production lines (dust -> ingots -> alloys -> armor -> potions)", "audience": "user", "sources": ["knowledge/flows/**", "data/slimefun-dump.json"]},
+    {"id": "server-systems-for-players", "title": "DrakesCraft player systems: modes, vaults, claims, ranks as seen by players", "audience": "user", "sources": ["drakescraft-web:guia*.html"]},
+    {"id": "staff-and-admin-tools", "title": "Staff/admin tools (cheat, debug, admin commands)", "audience": "staff", "sources": ["Slimefun4-Drake:**/commands/**"]}
+  ]
+}

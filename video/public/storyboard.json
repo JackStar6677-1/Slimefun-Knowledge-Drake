@@ -1,0 +1,460 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "title",
+   "kind": "title",
+   "title": "From zero to your first dust farm",
+   "subtitle": "Slimefun on DrakesCraft · cobblestone in, nine metal dusts out",
+   "narration": "You start with nothing but the Slimefun Guide. By the end of this video you will have a machine that turns plain cobblestone into nine kinds of metal dust, and sends them to a chest on its own.",
+   "audio": "audio/title.mp3",
+   "seconds": 12.34
+  },
+  {
+   "id": "guide",
+   "kind": "guide",
+   "stats": [
+    {
+     "label": "items to make",
+     "value": 108
+    },
+    {
+     "label": "researches",
+     "value": 45
+    },
+    {
+     "label": "XP levels in total",
+     "value": 878
+    }
+   ],
+   "samples": [
+    {
+     "name": "Ore Washer",
+     "cost": 5
+    },
+    {
+     "name": "Gold Pan",
+     "cost": 5
+    },
+    {
+     "name": "Slimefun Metals",
+     "cost": 6
+    },
+    {
+     "name": "Programmable Androids",
+     "cost": 50
+    },
+    {
+     "name": "Cobblestone Generator",
+     "cost": 40
+    },
+    {
+     "name": "Blistering Ingots",
+     "cost": 38
+    }
+   ],
+   "narration": "Everything begins locked. In the Slimefun Guide you spend experience levels to unlock each research, and only then can you craft the item. This farm needs 45 researches, 878 experience levels in total, and 108 different items. It uses three addons: 100 items from Slimefun itself, 7 from InfinityExpansion and 1 from ExtraTools.",
+   "audio": "audio/guide.mp3",
+   "seconds": 27.7
+  },
+  {
+   "id": "early",
+   "kind": "bars",
+   "bars": [
+    {
+     "label": "Enhanced Crafting Table",
+     "value": 43
+    },
+    {
+     "label": "Smeltery",
+     "value": 40
+    },
+    {
+     "label": "Ore Washer",
+     "value": 8
+    },
+    {
+     "label": "Ore Crusher",
+     "value": 6
+    },
+    {
+     "label": "Heated Pressure Chamber",
+     "value": 4
+    },
+    {
+     "label": "Compressor",
+     "value": 3
+    }
+   ],
+   "narration": "The early game is about metals. Of those 108 items, 43 are crafted in the Enhanced Crafting Table and 40 come out of a Smeltery. Others need the Ore Washer, the Ore Crusher, the Heated Pressure Chamber and the Compressor. Dusts and ingots are the backbone of everything that follows.",
+   "audio": "audio/early.mp3",
+   "seconds": 21.29
+  },
+  {
+   "id": "sources",
+   "kind": "routes",
+   "routes": [
+    {
+     "at": 1,
+     "title": "Crush ore",
+     "note": "no power · Iron and Gold ore only",
+     "steps": [
+      {
+       "label": "Iron Ore",
+       "key": "IRON_ORE",
+       "sf": false
+      },
+      {
+       "label": "Ore Crusher",
+       "key": "ORE_CRUSHER",
+       "sf": true,
+       "tag": "multiblock"
+      },
+      {
+       "label": "2 Iron Dust",
+       "key": "IRON_DUST",
+       "sf": true
+      }
+     ]
+    },
+    {
+     "at": 11,
+     "title": "Pan gravel, then wash",
+     "note": "no power · this is how you make dust from gravel",
+     "steps": [
+      {
+       "label": "Gravel",
+       "key": "GRAVEL",
+       "sf": false
+      },
+      {
+       "label": "Gold Pan",
+       "key": "GOLD_PAN",
+       "sf": true,
+       "tag": "35% Sifted Ore"
+      },
+      {
+       "label": "Sifted Ore",
+       "key": "SIFTED_ORE",
+       "sf": true
+      },
+      {
+       "label": "Ore Washer",
+       "key": "ORE_WASHER",
+       "sf": true,
+       "tag": "multiblock"
+      },
+      {
+       "label": "1 random dust",
+       "key": "COPPER_DUST",
+       "sf": true
+      }
+     ]
+    },
+    {
+     "at": 35,
+     "title": "Electric chain",
+     "note": "same results, up to 10x faster",
+     "steps": [
+      {
+       "label": "Electric Gold Pan",
+       "key": "ELECTRIC_GOLD_PAN_3",
+       "sf": true
+      },
+      {
+       "label": "Electric Dust Washer",
+       "key": "ELECTRIC_DUST_WASHER_3",
+       "sf": true
+      }
+     ]
+    },
+    {
+     "at": 44,
+     "title": "Cobble to dust",
+     "note": "needs lots of power",
+     "steps": [
+      {
+       "label": "Cobblestone x4",
+       "key": "COBBLESTONE",
+       "sf": false
+      },
+      {
+       "label": "Dust Extractor",
+       "key": "DUST_EXTRACTOR",
+       "sf": true
+      },
+      {
+       "label": "2 random dust",
+       "key": "TIN_DUST",
+       "sf": true
+      }
+     ]
+    }
+   ],
+   "narration": "Before the machines, where does dust come from? There are four routes. First, crush iron or gold ore in the Ore Crusher and you get two dust for each ore, with no power. Second, and this is the one most people ask about, gravel. Right-click gravel with a Gold Pan. By default about thirty-five percent of the time you get Sifted Ore; the rest is flint, clay or an iron nugget. Then build the Ore Washer: a dispenser on top, an oak fence in the middle and a cauldron of water below. Put the Sifted Ore in the dispenser and right-click the fence. You get one random dust, from nine kinds, and a stone chunk. Third, the electric Gold Pan and Dust Washer do the same up to ten times faster. And fourth, the Dust Extractor turns plain cobblestone into dust, which is the one we are building today.",
+   "audio": "audio/sources.mp3",
+   "seconds": 54.6
+  },
+  {
+   "id": "power",
+   "kind": "power",
+   "machines": [
+    {
+     "name": "Cobblestone Generator",
+     "addon": "ExtraTools",
+     "use": 36
+    },
+    {
+     "name": "Dust Extractor",
+     "addon": "InfinityExpansion",
+     "use": 480
+    }
+   ],
+   "total": 516,
+   "generators": [
+    {
+     "name": "Solar Generator",
+     "gives": 4,
+     "need": 129
+    },
+    {
+     "name": "Coal Generator",
+     "gives": 16,
+     "need": 33
+    },
+    {
+     "name": "Lava Generator",
+     "gives": 20,
+     "need": 26
+    }
+   ],
+   "narration": "Power is the real cost. The Cobblestone Generator lists 36 joules per second and the Dust Extractor lists 480. Together that is 516. A Solar Generator gives 4 joules per second, so you would need 129 of them. Coal Generators give 16, so 33. Lava Generators give 20, so 26. Plan your generators first, and add capacitors to smooth the flow.",
+   "audio": "audio/power.mp3",
+   "seconds": 30.22
+  },
+  {
+   "id": "cobble",
+   "kind": "recipe",
+   "item": "COBBLESTONE_GENERATOR",
+   "grid": [
+    {
+     "name": "Programmable Android (Miner)",
+     "key": "PROGRAMMABLE_ANDROID_MINER",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Magnesium Ingot",
+     "key": "MAGNESIUM_INGOT",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Programmable Android (Miner)",
+     "key": "PROGRAMMABLE_ANDROID_MINER",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Water Bucket",
+     "key": "WATER_BUCKET",
+     "sf": false,
+     "n": 1
+    },
+    {
+     "name": "Blistering Ingot",
+     "key": "BLISTERING_INGOT_3",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Lava Bucket",
+     "key": "LAVA_BUCKET",
+     "sf": false,
+     "n": 1
+    },
+    {
+     "name": "Programmable Android (Miner)",
+     "key": "PROGRAMMABLE_ANDROID_MINER",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Big Energy Capacitor",
+     "key": "BIG_CAPACITOR",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Programmable Android (Miner)",
+     "key": "PROGRAMMABLE_ANDROID_MINER",
+     "sf": true,
+     "n": 1
+    }
+   ],
+   "label": "Cobblestone Generator",
+   "research": 40,
+   "narration": "First, the Cobblestone Generator from ExtraTools. Its research costs 40 levels. Powered, it produces one cobblestone per cycle and pushes it into its output slots.",
+   "audio": "audio/cobble.mp3",
+   "seconds": 12.7
+  },
+  {
+   "id": "extractor",
+   "kind": "recipe",
+   "item": "DUST_EXTRACTOR",
+   "grid": [
+    {
+     "name": "Electric Ore Grinder (II)",
+     "key": "ELECTRIC_ORE_GRINDER_2",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Electric Gold Pan (III)",
+     "key": "ELECTRIC_GOLD_PAN_3",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Electric Dust Washer (III)",
+     "key": "ELECTRIC_DUST_WASHER_3",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Electric Ore Grinder (II)",
+     "key": "ELECTRIC_ORE_GRINDER_2",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Electric Gold Pan (III)",
+     "key": "ELECTRIC_GOLD_PAN_3",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Electric Dust Washer (III)",
+     "key": "ELECTRIC_DUST_WASHER_3",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Machine Circuit",
+     "key": "MACHINE_CIRCUIT",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Machine Core",
+     "key": "MACHINE_CORE",
+     "sf": true,
+     "n": 1
+    },
+    {
+     "name": "Machine Circuit",
+     "key": "MACHINE_CIRCUIT",
+     "sf": true,
+     "n": 1
+    }
+   ],
+   "label": "Dust Extractor",
+   "research": null,
+   "dusts": [
+    {
+     "name": "Copper",
+     "key": "COPPER_DUST"
+    },
+    {
+     "name": "Zinc",
+     "key": "ZINC_DUST"
+    },
+    {
+     "name": "Tin",
+     "key": "TIN_DUST"
+    },
+    {
+     "name": "Aluminum",
+     "key": "ALUMINUM_DUST"
+    },
+    {
+     "name": "Lead",
+     "key": "LEAD_DUST"
+    },
+    {
+     "name": "Silver",
+     "key": "SILVER_DUST"
+    },
+    {
+     "name": "Gold",
+     "key": "GOLD_DUST"
+    },
+    {
+     "name": "Iron",
+     "key": "IRON_DUST"
+    },
+    {
+     "name": "Magnesium",
+     "key": "MAGNESIUM_DUST"
+    }
+   ],
+   "narration": "Then the star of the farm: the Dust Extractor from InfinityExpansion. You craft it in the Enhanced Crafting Table from a second-tier Electric Ore Grinder, a third-tier Electric Gold Pan and a third-tier Electric Dust Washer, two of each, plus machine circuits and a core. Feed it four blocks of cobblestone, andesite, stone, diorite or granite, and it returns two of a random dust. It can be copper, zinc, tin, aluminum, lead, silver, gold, iron or magnesium.",
+   "audio": "audio/extractor.mp3",
+   "seconds": 34.44
+  },
+  {
+   "id": "storage",
+   "kind": "cargo",
+   "items": [
+    {
+     "name": "Cargo Manager",
+     "research": 30
+    },
+    {
+     "name": "Cargo Node (Input)",
+     "research": 30
+    },
+    {
+     "name": "Cargo Node (Output)",
+     "research": 30
+    },
+    {
+     "name": "Output Chest",
+     "research": 20
+    }
+   ],
+   "narration": "Now automate the storage with a cargo network. Place an Input Node touching the Dust Extractor: input nodes pull items out of the machine. Place an Output Node touching a chest, link them with connector nodes, and put a Cargo Manager in the network. Give both nodes the same channel, from zero to fifteen. The researches cost 30 levels for the manager and 30 for the nodes. Dust now flows into the chest while you do something else.",
+   "audio": "audio/storage.mp3",
+   "seconds": 28.68
+  },
+  {
+   "id": "layout",
+   "kind": "layout",
+   "chain": [
+    "Generators",
+    "Capacitor",
+    "Cobblestone Generator",
+    "Dust Extractor",
+    "Cargo Network",
+    "Chest"
+   ],
+   "narration": "Here is the whole line. Generators feed capacitors, capacitors power the Cobblestone Generator and the Dust Extractor, the cargo network carries the dust, and a chest keeps it. From here, the dust can go to ingots and alloys.",
+   "audio": "audio/layout.mp3",
+   "seconds": 16.97
+  },
+  {
+   "id": "outro",
+   "kind": "outro",
+   "title": "Next: ingots, alloys and armor",
+   "subtitle": "Want unlimited storage? Network Quantum Storage goes from 4K items up to infinity.",
+   "narration": "For bigger setups, the Networks addon offers quantum storage with eight tiers, from four thousand items all the way up to infinite. That is your first dust farm. See you at mc dot drakescraft dot cl.",
+   "audio": "audio/outro.mp3",
+   "seconds": 15.58
+  }
+ ],
+ "source": {
+  "slimefun": "11.0-Drake-1.21.11-SNAPSHOT",
+  "generated": "2026-10-14T21:14:15.755780300Z"
+ },
+ "voice": "en-US-AvaNeural"
+}

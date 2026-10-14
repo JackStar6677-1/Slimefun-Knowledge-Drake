@@ -1,0 +1,7 @@
+name: SlimefunKnowledgeDump
+version: 0.1.0
+main: cl.drakescraft.knowledge.SlimefunDump
+api-version: '1.21'
+depend: [Slimefun]
+softdepend: []
+description: Exporta el registro de Slimefun (items, recetas, energia, investigaciones) a JSON y apaga el servidor.

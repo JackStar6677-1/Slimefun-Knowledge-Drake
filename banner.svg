@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" width="920" height="240" role="img" aria-label="Slimefun Knowledge Drake banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#D8B65A"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="920" height="240" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="920" height="240" fill="url(#bg)"/>
+    <ellipse cx="460" cy="110" rx="380" ry="110" fill="url(#halo)">
+      <animate attributeName="rx" values="340;420;340" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- bloques de "polvo" que suben: fondo en movimiento -->
+    <g opacity="0.55">
+      <rect x="40"  y="250" width="14" height="14" rx="3" fill="#14B8A6"><animate attributeName="y" values="250;-20" dur="7s" repeatCount="indefinite"/></rect>
+      <rect x="120" y="250" width="10" height="10" rx="2" fill="#D8B65A"><animate attributeName="y" values="250;-20" dur="9s" begin="-3s" repeatCount="indefinite"/></rect>
+      <rect x="210" y="250" width="18" height="18" rx="3" fill="#5EEAD4"><animate attributeName="y" values="250;-24" dur="8s" begin="-5s" repeatCount="indefinite"/></rect>
+      <rect x="310" y="250" width="9"  height="9"  rx="2" fill="#D8B65A"><animate attributeName="y" values="250;-20" dur="6s" begin="-2s" repeatCount="indefinite"/></rect>
+      <rect x="560" y="250" width="16" height="16" rx="3" fill="#14B8A6"><animate attributeName="y" values="250;-22" dur="8.5s" begin="-4s" repeatCount="indefinite"/></rect>
+      <rect x="650" y="250" width="11" height="11" rx="2" fill="#5EEAD4"><animate attributeName="y" values="250;-20" dur="7.5s" begin="-1s" repeatCount="indefinite"/></rect>
+      <rect x="760" y="250" width="20" height="20" rx="3" fill="#D8B65A"><animate attributeName="y" values="250;-26" dur="10s" begin="-6s" repeatCount="indefinite"/></rect>
+      <rect x="860" y="250" width="12" height="12" rx="2" fill="#14B8A6"><animate attributeName="y" values="250;-20" dur="6.5s" begin="-3.5s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- receta: tres ingredientes que fluyen hacia el resultado -->
+    <g transform="translate(300,62)">
+      <rect width="34" height="34" rx="5" fill="#12352a" stroke="#D8B65A" stroke-width="2"/>
+      <rect x="46" width="34" height="34" rx="5" fill="#12352a" stroke="#D8B65A" stroke-width="2"/>
+      <rect x="92" width="34" height="34" rx="5" fill="#12352a" stroke="#D8B65A" stroke-width="2"/>
+      <path d="M142 17h40" stroke="url(#ac)" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6">
+        <animate attributeName="stroke-dashoffset" values="24;0" dur="1s" repeatCount="indefinite"/>
+      </path>
+      <path d="M176 8l12 9-12 9" fill="none" stroke="#D8B65A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="198" y="-6" width="46" height="46" rx="6" fill="#12352a" stroke="url(#ac)" stroke-width="3">
+        <animate attributeName="stroke-width" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="221" cy="17" r="8" fill="#14B8A6"><animate attributeName="r" values="7;10;7" dur="2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="460" y="152" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-weight="900" font-size="34" fill="#F8FAFC" letter-spacing="2">
+      SLIMEFUN KNOWLEDGE
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    </text>
+    <text x="460" y="184" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-weight="700" font-size="13" fill="#5EEAD4" letter-spacing="3">
+      RUNTIME-DUMPED RECIPES · GUIDE GUI RENDERER · AUTOMATED TUTORIAL VIDEOS
+    </text>
+
+    <g transform="translate(460,216)" font-family="sans-serif" font-size="10" font-weight="700" fill="#E2E8F0" text-anchor="middle">
+      <rect x="-250" y="-12" width="120" height="20" rx="4" fill="#1E293B" stroke="#14B8A6"/><text x="-190" y="2">DRAKESCRAFT</text>
+      <rect x="-122" y="-12" width="120" height="20" rx="4" fill="#1E293B" stroke="#5EEAD4"/><text x="-62" y="2">64 ADDONS</text>
+      <rect x="6" y="-12" width="120" height="20" rx="4" fill="#1E293B" stroke="#D8B65A"/><text x="66" y="2">PAPER 1.21.11</text>
+      <rect x="134" y="-12" width="120" height="20" rx="4" fill="#1E293B" stroke="#14B8A6"/><text x="194" y="2">MIT TOOLS</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="918" height="238" rx="15" fill="none" stroke="url(#ac)" stroke-width="2" opacity="0.5"/>
+</svg>

@@ -1,0 +1,2498 @@
+{
+ "ui": [
+  {
+   "key": "ENCHANTING_TABLE",
+   "sf": false
+  },
+  {
+   "key": "NETHER_STAR",
+   "sf": false
+  },
+  {
+   "key": "COMPASS",
+   "sf": false
+  },
+  {
+   "key": "ARROW",
+   "sf": false
+  },
+  {
+   "key": "BARRIER",
+   "sf": false
+  }
+ ],
+ "stats": {
+  "groups_total": 270,
+  "top_level": 176,
+  "main_pages": 5,
+  "subgroups": 67,
+  "locked": [
+   "Talismans - Tier II",
+   "Energy and Electricity",
+   "GPS-based Machines",
+   "Programmable Androids",
+   "Cargo Management"
+  ],
+  "nested": [
+   "Better Chests",
+   "Exotic Garden",
+   "DynaTech",
+   "Fluffy Machines",
+   "Supreme 2.0",
+   "FN Amplifications",
+   "Foxy Machines",
+   "Relics of Cthonias",
+   "NotEnoughAddons",
+   "Mob Capturer",
+   "Fast Machines",
+   "DyeBench",
+   "DankTech2"
+  ],
+  "addons": 64
+ },
+ "main_pages": [
+  {
+   "page": 1,
+   "of": 5,
+   "slots": [
+    {
+     "slot": 9,
+     "name": "Simple Utils",
+     "lore": [],
+     "addon": "SimpleUtils",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "COMPOSTER",
+     "sf": false
+    },
+    {
+     "slot": 10,
+     "name": "Weapons",
+     "lore": [
+      "Life Steal I",
+      "Everytime you attack something",
+      "you have a 45% chance to",
+      "recover 2 Hearts of your Health"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "BLADE_OF_VAMPIRES",
+     "sf": true
+    },
+    {
+     "slot": 11,
+     "name": "Useful Items",
+     "lore": [
+      "Size: 18",
+      "ID: <ID>",
+      "Right Click to open"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 15,
+     "key": "MEDIUM_BACKPACK",
+     "sf": true
+    },
+    {
+     "slot": 12,
+     "name": "Basic Machines",
+     "lore": [
+      "A regular Crafting Table cannot",
+      "hold this massive Amount of Power..."
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 33,
+     "key": "ENHANCED_CRAFTING_TABLE",
+     "sf": true
+    },
+    {
+     "slot": 13,
+     "name": "Tools",
+     "lore": [
+      "Auto-Smelting",
+      "Works with Fortune"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 16,
+     "key": "SMELTERS_PICKAXE",
+     "sf": true
+    },
+    {
+     "slot": 14,
+     "name": "Resources",
+     "lore": [
+      "This item can be used in a",
+      "workbench and acts like Lapis Lazuli"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 66,
+     "key": "SYNTHETIC_SAPPHIRE",
+     "sf": true
+    },
+    {
+     "slot": 15,
+     "name": "Christmas (December only)",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 19,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 16,
+     "name": "Halloween (31st October)",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "JACK_O_LANTERN",
+     "sf": false
+    },
+    {
+     "slot": 17,
+     "name": "ExtraGear",
+     "lore": [],
+     "addon": "ExtraGear",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 59,
+     "key": "DIAMOND_SWORD",
+     "sf": false
+    },
+    {
+     "slot": 18,
+     "name": "Food",
+     "lore": [
+      "Tells you stuff about your Future :o"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 19,
+     "key": "FORTUNE_COOKIE",
+     "sf": true
+    },
+    {
+     "slot": 19,
+     "name": "Magical Items",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 27,
+     "key": "ANCIENT_RUNE_ENDER",
+     "sf": true
+    },
+    {
+     "slot": 20,
+     "name": "Magical Armor",
+     "lore": [
+      "Sometimes its here, sometimes there!"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 31,
+     "key": "ENDER_HELMET",
+     "sf": true
+    },
+    {
+     "slot": 21,
+     "name": "Technical Components",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 20,
+     "key": "HEATING_COIL",
+     "sf": true
+    },
+    {
+     "slot": 22,
+     "name": "Miscellaneous",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 42,
+     "key": "CAN",
+     "sf": true
+    },
+    {
+     "slot": 23,
+     "name": "Armor",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 28,
+     "key": "DAMASCUS_STEEL_CHESTPLATE",
+     "sf": true
+    },
+    {
+     "slot": 24,
+     "name": "Talismans - Tier I",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 17,
+     "key": "COMMON_TALISMAN",
+     "sf": true
+    },
+    {
+     "slot": 25,
+     "name": "Easter (April)",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 3,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 26,
+     "name": "Valentine's Day (14th February)",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 27,
+     "name": "Dyed Backpacks",
+     "lore": [],
+     "addon": "DyedBackpacks",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 96,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 28,
+     "name": "Colored Ender Chests",
+     "lore": [],
+     "addon": "ColoredEnderChests",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 8192,
+     "key": "ENDER_CHEST",
+     "sf": false
+    },
+    {
+     "slot": 29,
+     "name": "Better Chests",
+     "lore": [],
+     "addon": "BetterChests",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "CHEST",
+     "sf": false
+    },
+    {
+     "slot": 30,
+     "name": "Magical Gadgets",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 30,
+     "key": "INFUSED_ELYTRA",
+     "sf": true
+    },
+    {
+     "slot": 31,
+     "name": "Technical Gadgets",
+     "lore": [
+      "⇨ Material: Steel",
+      "⇨ ⚡ 0 / 60 J",
+      "⇨ Thrust: 0.5",
+      "Crouch to use"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 28,
+     "key": "STEEL_JETPACK",
+     "sf": true
+    },
+    {
+     "slot": 32,
+     "name": "Talismans - Tier II",
+     "lore": [],
+     "addon": "Slimefun",
+     "locked_by": [
+      "Talismans - Tier I"
+     ],
+     "nested": false,
+     "n_items": 17,
+     "key": "EMERALD",
+     "sf": false
+    },
+    {
+     "slot": 33,
+     "name": "Slimy TreeTaps",
+     "lore": [
+      "> Click to open"
+     ],
+     "addon": "SlimyTreeTaps",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 14,
+     "key": "TREE_TAP",
+     "sf": true
+    },
+    {
+     "slot": 34,
+     "name": "LiteXpansion",
+     "lore": [],
+     "addon": "LiteXpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 64,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 35,
+     "name": "Exotic Garden",
+     "lore": [],
+     "addon": "ExoticGarden",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 36,
+     "name": "Infinity Materials",
+     "lore": [],
+     "addon": "InfinityExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 36,
+     "key": "NETHER_STAR",
+     "sf": false
+    },
+    {
+     "slot": 37,
+     "name": "Basic Machines",
+     "lore": [],
+     "addon": "InfinityExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "LOOM",
+     "sf": false
+    },
+    {
+     "slot": 38,
+     "name": "Advanced Machines",
+     "lore": [],
+     "addon": "InfinityExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 34,
+     "key": "BLAST_FURNACE",
+     "sf": false
+    },
+    {
+     "slot": 39,
+     "name": "Storage",
+     "lore": [],
+     "addon": "InfinityExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "BEEHIVE",
+     "sf": false
+    },
+    {
+     "slot": 40,
+     "name": "Mob Simulation",
+     "lore": [],
+     "addon": "InfinityExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 24,
+     "key": "BEACON",
+     "sf": false
+    },
+    {
+     "slot": 41,
+     "name": "Infinity Materials",
+     "lore": [],
+     "addon": "InfinityExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 19,
+     "key": "NETHERITE_BLOCK",
+     "sf": false
+    },
+    {
+     "slot": 42,
+     "name": "Infinity Technical Recipes",
+     "lore": [],
+     "addon": "InfinityExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 27,
+     "key": "RESPAWN_ANCHOR",
+     "sf": false
+    },
+    {
+     "slot": 43,
+     "name": "DynaTech",
+     "lore": [],
+     "addon": "DynaTech",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "CONDUIT",
+     "sf": false
+    },
+    {
+     "slot": 44,
+     "name": "Simple Material Generators",
+     "lore": [],
+     "addon": "SimpleMaterialGenerators",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 19,
+     "key": "SMOOTH_STONE",
+     "sf": false
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "of": 5,
+   "slots": [
+    {
+     "slot": 9,
+     "name": "TranscEndence",
+     "lore": [],
+     "addon": "TranscEndence",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 34,
+     "key": "PURPUR_BLOCK",
+     "sf": false
+    },
+    {
+     "slot": 10,
+     "name": "Slimefun Warfare - General",
+     "lore": [],
+     "addon": "SlimefunWarfare",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 25,
+     "key": "DIAMOND_SWORD",
+     "sf": false
+    },
+    {
+     "slot": 11,
+     "name": "Slimefun Warfare - Machines",
+     "lore": [],
+     "addon": "SlimefunWarfare",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 7,
+     "key": "STONECUTTER",
+     "sf": false
+    },
+    {
+     "slot": 12,
+     "name": "Slimefun Warfare - Guns",
+     "lore": [],
+     "addon": "SlimefunWarfare",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "CROSSBOW",
+     "sf": false
+    },
+    {
+     "slot": 13,
+     "name": "Slimefun Warfare - Melee Weapons",
+     "lore": [],
+     "addon": "SlimefunWarfare",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 3,
+     "key": "IRON_AXE",
+     "sf": false
+    },
+    {
+     "slot": 14,
+     "name": "Slimefun Warfare - Explosives",
+     "lore": [],
+     "addon": "SlimefunWarfare",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 18,
+     "key": "TNT",
+     "sf": false
+    },
+    {
+     "slot": 15,
+     "name": "Slimefun Warfare - Resources",
+     "lore": [],
+     "addon": "SlimefunWarfare",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 17,
+     "key": "IRON_ORE",
+     "sf": false
+    },
+    {
+     "slot": 16,
+     "name": "Slimefun Warfare - Power Suits",
+     "lore": [],
+     "addon": "SlimefunWarfare",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 19,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 17,
+     "name": "Fluffy Machines",
+     "lore": [],
+     "addon": "FluffyMachines",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "SMOKER",
+     "sf": false
+    },
+    {
+     "slot": 18,
+     "name": "Genetic Chickengineering",
+     "lore": [],
+     "addon": "GeneticChickengineering",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 19,
+     "name": "Avian Biotechnology & Industrial Poultry",
+     "lore": [],
+     "addon": "GeneticChickengineering",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "RESPAWN_ANCHOR",
+     "sf": false
+    },
+    {
+     "slot": 20,
+     "name": "GCE Chicken Directory",
+     "lore": [],
+     "addon": "GeneticChickengineering",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 85,
+     "key": "BLAST_FURNACE",
+     "sf": false
+    },
+    {
+     "slot": 21,
+     "name": "Netheopoiesis Crafting Items",
+     "lore": [],
+     "addon": "Netheopoiesis",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 18,
+     "key": "STICK",
+     "sf": false
+    },
+    {
+     "slot": 22,
+     "name": "Netheopoiesis Tools",
+     "lore": [],
+     "addon": "Netheopoiesis",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 13,
+     "key": "COMPASS",
+     "sf": false
+    },
+    {
+     "slot": 23,
+     "name": "Netheopoiesis Seeds",
+     "lore": [],
+     "addon": "Netheopoiesis",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 123,
+     "key": "MELON_SEEDS",
+     "sf": false
+    },
+    {
+     "slot": 24,
+     "name": "Netheopoiesis Crux'",
+     "lore": [],
+     "addon": "Netheopoiesis",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 12,
+     "key": "MYCELIUM",
+     "sf": false
+    },
+    {
+     "slot": 25,
+     "name": "Netheopoiesis Netheo Balls",
+     "lore": [],
+     "addon": "Netheopoiesis",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 35,
+     "key": "SNOWBALL",
+     "sf": false
+    },
+    {
+     "slot": 26,
+     "name": "Netheopoiesis Seed Pastes",
+     "lore": [],
+     "addon": "Netheopoiesis",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 122,
+     "key": "GLOWSTONE_DUST",
+     "sf": false
+    },
+    {
+     "slot": 27,
+     "name": "Elements",
+     "lore": [],
+     "addon": "ElementManipulation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 85,
+     "key": "PRISMARINE_SHARD",
+     "sf": false
+    },
+    {
+     "slot": 28,
+     "name": "Machines",
+     "lore": [],
+     "addon": "ElementManipulation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 3,
+     "key": "BLAST_FURNACE",
+     "sf": false
+    },
+    {
+     "slot": 29,
+     "name": "Misc",
+     "lore": [],
+     "addon": "ElementManipulation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 5,
+     "key": "LIGHT_WEIGHTED_PRESSURE_PLATE",
+     "sf": false
+    },
+    {
+     "slot": 30,
+     "name": "Junctions - INCORRECT RECIPES",
+     "lore": [],
+     "addon": "ElementManipulation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 33,
+     "key": "SMITHING_TABLE",
+     "sf": false
+    },
+    {
+     "slot": 31,
+     "name": "Electric Spawners",
+     "lore": [],
+     "addon": "ElectricSpawners",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 27,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 32,
+     "name": "Supreme 2.0",
+     "lore": [],
+     "addon": "Supreme",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 33,
+     "name": "FN Amplifications",
+     "lore": [],
+     "addon": "FNAmplifications",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 34,
+     "name": "Alchimia Vitae - General",
+     "lore": [],
+     "addon": "AlchimiaVitae",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 18,
+     "key": "ENCHANTED_BOOK",
+     "sf": false
+    },
+    {
+     "slot": 35,
+     "name": "Alchimia Vitae - Transmutation",
+     "lore": [],
+     "addon": "AlchimiaVitae",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 5,
+     "key": "ENCHANTING_TABLE",
+     "sf": false
+    },
+    {
+     "slot": 36,
+     "name": "Alchimia Vitae - Infusion",
+     "lore": [],
+     "addon": "AlchimiaVitae",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "NETHER_STAR",
+     "sf": false
+    },
+    {
+     "slot": 37,
+     "name": "Foxy Machines",
+     "lore": [],
+     "addon": "FoxyMachines",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "SHEARS",
+     "sf": false
+    },
+    {
+     "slot": 38,
+     "name": "Hidden",
+     "lore": [
+      "Items that should not be accessed directly."
+     ],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 16,
+     "key": "BARRIER",
+     "sf": false
+    },
+    {
+     "slot": 39,
+     "name": "Crafting Items",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 1,
+     "key": "STICK",
+     "sf": false
+    },
+    {
+     "slot": 40,
+     "name": "Tools",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 5,
+     "key": "COMPASS",
+     "sf": false
+    },
+    {
+     "slot": 41,
+     "name": "Machines",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 12,
+     "key": "GLASS",
+     "sf": false
+    },
+    {
+     "slot": 42,
+     "name": "Plants",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 89,
+     "key": "MELON_SEEDS",
+     "sf": false
+    },
+    {
+     "slot": 43,
+     "name": "Bushes",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 82,
+     "key": "SWEET_BERRIES",
+     "sf": false
+    },
+    {
+     "slot": 44,
+     "name": "Trees",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 15,
+     "key": "ACACIA_SAPLING",
+     "sf": false
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "of": 5,
+   "slots": [
+    {
+     "slot": 9,
+     "name": "Produce",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 97,
+     "key": "APPLE",
+     "sf": false
+    },
+    {
+     "slot": 10,
+     "name": "By-Products",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 1034,
+     "key": "BEETROOT_SEEDS",
+     "sf": false
+    },
+    {
+     "slot": 11,
+     "name": "Foods",
+     "lore": [],
+     "addon": "Cultivation",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 50,
+     "key": "BEETROOT_SOUP",
+     "sf": false
+    },
+    {
+     "slot": 12,
+     "name": "Extra Tools",
+     "lore": [],
+     "addon": "ExtraTools",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 8,
+     "key": "DIAMOND_AXE",
+     "sf": false
+    },
+    {
+     "slot": 13,
+     "name": "Workstations",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 7,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 14,
+     "name": "Materials",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 131,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 15,
+     "name": "Molten Metals",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 83,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 16,
+     "name": "Alloy Metals",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 29,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 17,
+     "name": "Casts",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 29,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 18,
+     "name": "Part Building Guide",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 15,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 19,
+     "name": "Tool Building Guide",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "DIAMOND_SWORD",
+     "sf": false
+    },
+    {
+     "slot": 20,
+     "name": "Armour Building Guide",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 5,
+     "key": "DIAMOND_CHESTPLATE",
+     "sf": false
+    },
+    {
+     "slot": 21,
+     "name": "Metal Traits",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 266,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 22,
+     "name": "Mods",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "REDSTONE",
+     "sf": false
+    },
+    {
+     "slot": 23,
+     "name": "Part Dictionary",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 749,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 24,
+     "name": "SlimeTinker Dummy",
+     "lore": [],
+     "addon": "SlimeTinker",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 26,
+     "key": "BARRIER",
+     "sf": false
+    },
+    {
+     "slot": 25,
+     "name": "Lith Era",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 26,
+     "name": "Meso Era",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 27,
+     "name": "Neo Era",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 28,
+     "name": "Axi Era",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 29,
+     "name": "Multiblocks",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 1,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 30,
+     "name": "Resources",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 46,
+     "key": "COAL",
+     "sf": false
+    },
+    {
+     "slot": 31,
+     "name": "Machines",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 43,
+     "key": "STONECUTTER",
+     "sf": false
+    },
+    {
+     "slot": 32,
+     "name": "Generators",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "DAYLIGHT_DETECTOR",
+     "sf": false
+    },
+    {
+     "slot": 33,
+     "name": "Gear",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "CHAINMAIL_CHESTPLATE",
+     "sf": false
+    },
+    {
+     "slot": 34,
+     "name": "Utils & Tools",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "SHEARS",
+     "sf": false
+    },
+    {
+     "slot": 35,
+     "name": "Prime Components",
+     "lore": [],
+     "addon": "SlimeFrame",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 48,
+     "key": "CONDUIT",
+     "sf": false
+    },
+    {
+     "slot": 36,
+     "name": "Crafting Materials",
+     "lore": [],
+     "addon": "NetworksV6-Drake",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 12,
+     "key": "WHITE_STAINED_GLASS",
+     "sf": false
+    },
+    {
+     "slot": 37,
+     "name": "Network Management Tools",
+     "lore": [],
+     "addon": "NetworksV6-Drake",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 12,
+     "key": "PAINTING",
+     "sf": false
+    },
+    {
+     "slot": 38,
+     "name": "Network Items",
+     "lore": [],
+     "addon": "NetworksV6-Drake",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 41,
+     "key": "BLACK_STAINED_GLASS",
+     "sf": false
+    },
+    {
+     "slot": 39,
+     "name": "Network Quantum Storage Devices",
+     "lore": [],
+     "addon": "NetworksV6-Drake",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "WHITE_TERRACOTTA",
+     "sf": false
+    },
+    {
+     "slot": 40,
+     "name": "Disabled/Removed Items",
+     "lore": [],
+     "addon": "NetworksV6-Drake",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 1,
+     "key": "BARRIER",
+     "sf": false
+    },
+    {
+     "slot": 41,
+     "name": "World Edit Slimefun",
+     "lore": [],
+     "addon": "WorldEditSlimefun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 1,
+     "key": "STONE_AXE",
+     "sf": false
+    },
+    {
+     "slot": 42,
+     "name": "Villager Utils",
+     "lore": [],
+     "addon": "VillagerUtil",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 7,
+     "key": "EMERALD_BLOCK",
+     "sf": false
+    },
+    {
+     "slot": 43,
+     "name": "Soul Jars",
+     "lore": [
+      "> Click to open"
+     ],
+     "addon": "SoulJars",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 87,
+     "key": "SOUL_JAR",
+     "sf": true
+    },
+    {
+     "slot": 44,
+     "name": "Abeja forestal",
+     "lore": [],
+     "addon": "SlimyBees",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 21,
+     "key": "HONEYCOMB",
+     "sf": false
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "of": 5,
+   "slots": [
+    {
+     "slot": 9,
+     "name": "Ore Chunks",
+     "lore": [],
+     "addon": "SlimefunOreChunks",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 11,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 10,
+     "name": "Lucky Blocks",
+     "lore": [],
+     "addon": "SlimefunLuckyBlocks",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 11,
+     "name": "Portal Guns Extension",
+     "lore": [
+      "Charged interdimensional technology"
+     ],
+     "addon": "SFPortalGunsExtension",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 3,
+     "key": "LIME_DYE",
+     "sf": false
+    },
+    {
+     "slot": 12,
+     "name": "STB - Blocks and Machines",
+     "lore": [],
+     "addon": "SensibleToolbox",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 39,
+     "key": "PURPLE_STAINED_GLASS",
+     "sf": false
+    },
+    {
+     "slot": 13,
+     "name": "STB - Items",
+     "lore": [],
+     "addon": "SensibleToolbox",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 49,
+     "key": "SHEARS",
+     "sf": false
+    },
+    {
+     "slot": 14,
+     "name": "Relics of Cthonias",
+     "lore": [],
+     "addon": "RelicsOfCthonia",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 15,
+     "name": "Expansión Aleatoria",
+     "lore": [
+      "> Clic para abrir"
+     ],
+     "addon": "RandomExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "COMMAND_BLOCK",
+     "sf": false
+    },
+    {
+     "slot": 16,
+     "name": "Almacenamiento privado",
+     "lore": [
+      "> Clic para abrir"
+     ],
+     "addon": "PrivateStorage",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 24,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 17,
+     "name": "Potion Expansion",
+     "lore": [],
+     "addon": "PotionExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 22,
+     "key": "POTION",
+     "sf": false
+    },
+    {
+     "slot": 18,
+     "name": "Recursos",
+     "lore": [],
+     "addon": "ObsidianExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 7,
+     "key": "OBSIDIAN",
+     "sf": false
+    },
+    {
+     "slot": 19,
+     "name": "Objetos",
+     "lore": [],
+     "addon": "ObsidianExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "NETHERITE_INGOT",
+     "sf": false
+    },
+    {
+     "slot": 20,
+     "name": "Máquinas",
+     "lore": [],
+     "addon": "ObsidianExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 2,
+     "key": "CHISELED_POLISHED_BLACKSTONE",
+     "sf": false
+    },
+    {
+     "slot": 21,
+     "name": "Generadores de Material",
+     "lore": [],
+     "addon": "ObsidianExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 4,
+     "key": "BLACKSTONE_WALL",
+     "sf": false
+    },
+    {
+     "slot": 22,
+     "name": "Botín de Criaturas",
+     "lore": [],
+     "addon": "ObsidianExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 2,
+     "key": "NETHERITE_SWORD",
+     "sf": false
+    },
+    {
+     "slot": 23,
+     "name": "Forja - modo trampa",
+     "lore": [],
+     "addon": "ObsidianExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 5,
+     "key": "SMITHING_TABLE",
+     "sf": false
+    },
+    {
+     "slot": 24,
+     "name": "Armadura de obsidiana",
+     "lore": [
+      "> Haz clic para abrir"
+     ],
+     "addon": "Obsidian-Armor",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 5,
+     "key": "OBSIDIAN",
+     "sf": false
+    },
+    {
+     "slot": 25,
+     "name": "NotEnoughAddons",
+     "lore": [],
+     "addon": "NotEnoughAddons",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "COMMAND_BLOCK",
+     "sf": false
+    },
+    {
+     "slot": 26,
+     "name": "",
+     "lore": [],
+     "addon": "Nexcavate",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 13,
+     "key": "BARRIER",
+     "sf": false
+    },
+    {
+     "slot": 27,
+     "name": "Mob Capturer",
+     "lore": [],
+     "addon": "MobCapturer",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 28,
+     "name": "MagicXpansion - General",
+     "lore": [
+      "⇨ Click to open"
+     ],
+     "addon": "MagicXpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 3,
+     "key": "ENCHANTED_BOOK",
+     "sf": false
+    },
+    {
+     "slot": 29,
+     "name": "MagicXpansion - Resources",
+     "lore": [
+      "⇨ Click to open"
+     ],
+     "addon": "MagicXpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "NETHERITE_INGOT",
+     "sf": false
+    },
+    {
+     "slot": 30,
+     "name": "MagicXpansion - Magical Items",
+     "lore": [
+      "⇨ Click to open"
+     ],
+     "addon": "MagicXpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "BLAZE_POWDER",
+     "sf": false
+    },
+    {
+     "slot": 31,
+     "name": "MagicXpansion - Tools",
+     "lore": [
+      "⇨ Click to open"
+     ],
+     "addon": "MagicXpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 2,
+     "key": "IRON_PICKAXE",
+     "sf": false
+    },
+    {
+     "slot": 32,
+     "name": "MagicXpansion - Weapons",
+     "lore": [
+      "⇨ Click to open"
+     ],
+     "addon": "MagicXpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "NETHERITE_SWORD",
+     "sf": false
+    },
+    {
+     "slot": 33,
+     "name": "MagicXpansion - Machines",
+     "lore": [
+      "⇨ Click to open"
+     ],
+     "addon": "MagicXpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 3,
+     "key": "PISTON",
+     "sf": false
+    },
+    {
+     "slot": 34,
+     "name": "InfernalExpansion",
+     "lore": [],
+     "addon": "InfernalExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "FIREWORK_STAR",
+     "sf": false
+    },
+    {
+     "slot": 35,
+     "name": "IDreamOfEasy",
+     "lore": [],
+     "addon": "IDreamOfEasy",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 52,
+     "key": "CALIBRATED_SCULK_SENSOR",
+     "sf": false
+    },
+    {
+     "slot": 36,
+     "name": "Hotbar Pets",
+     "lore": [
+      "> Click to open"
+     ],
+     "addon": "HotbarPets",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 31,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 37,
+     "name": "Galactifun",
+     "lore": [],
+     "addon": "Galaxyfun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 27,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 38,
+     "name": "Equipment",
+     "lore": [],
+     "addon": "Galaxyfun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 7,
+     "key": "IRON_HELMET",
+     "sf": false
+    },
+    {
+     "slot": 39,
+     "name": "Galactifun Components",
+     "lore": [],
+     "addon": "Galaxyfun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 31,
+     "key": "IRON_INGOT",
+     "sf": false
+    },
+    {
+     "slot": 40,
+     "name": "Galactifun Machines",
+     "lore": [],
+     "addon": "Galaxyfun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 23,
+     "key": "REDSTONE_LAMP",
+     "sf": false
+    },
+    {
+     "slot": 41,
+     "name": "Galactifun Blocks",
+     "lore": [],
+     "addon": "Galaxyfun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "COBBLESTONE",
+     "sf": false
+    },
+    {
+     "slot": 42,
+     "name": "Galactifun Relics",
+     "lore": [],
+     "addon": "Galaxyfun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 2,
+     "key": "CHISELED_POLISHED_BLACKSTONE",
+     "sf": false
+    },
+    {
+     "slot": 43,
+     "name": "Flower Power",
+     "lore": [],
+     "addon": "FlowerPower",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 23,
+     "key": "ALLIUM",
+     "sf": false
+    },
+    {
+     "slot": 44,
+     "name": "Fast Machines",
+     "lore": [],
+     "addon": "FastMachines",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "of": 5,
+   "slots": [
+    {
+     "slot": 9,
+     "name": "EquivalencyTech",
+     "lore": [
+      "> Click to open"
+     ],
+     "addon": "EquivalencyTech",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 8,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 10,
+     "name": "DyeBench",
+     "lore": [],
+     "addon": "DyeBench",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "LOOM",
+     "sf": false
+    },
+    {
+     "slot": 11,
+     "name": "Tecnología médica",
+     "lore": [],
+     "addon": "Drugfun",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 1,
+     "key": "WHEAT",
+     "sf": false
+    },
+    {
+     "slot": 12,
+     "name": "Demonic Expansion",
+     "lore": [
+      "Items"
+     ],
+     "addon": "DemonicExpansion",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "MAGMA_CREAM",
+     "sf": false
+    },
+    {
+     "slot": 13,
+     "name": "DankTech2",
+     "lore": [],
+     "addon": "DankTech2",
+     "locked_by": [],
+     "nested": true,
+     "n_items": 0,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 14,
+     "name": "Crystamae Misc Guides",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 8,
+     "key": "KNOWLEDGE_BOOK",
+     "sf": false
+    },
+    {
+     "slot": 15,
+     "name": "Dummy Crystamae Historia",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "FIRE_CHARGE",
+     "sf": false
+    },
+    {
+     "slot": 16,
+     "name": "Historia Crystals",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 54,
+     "key": "AMETHYST_CLUSTER",
+     "sf": false
+    },
+    {
+     "slot": 17,
+     "name": "Crystamae Raw Materials",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 30,
+     "key": "GOLD_INGOT",
+     "sf": false
+    },
+    {
+     "slot": 18,
+     "name": "Historia Mechanisms",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 17,
+     "key": "DEEPSLATE_TILE_SLAB",
+     "sf": false
+    },
+    {
+     "slot": 19,
+     "name": "Historia Staves and Tool",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 32,
+     "key": "STICK",
+     "sf": false
+    },
+    {
+     "slot": 20,
+     "name": "Magical Tech and Gadgets",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 41,
+     "key": "REDSTONE_LAMP",
+     "sf": false
+    },
+    {
+     "slot": 21,
+     "name": "Crystamae Artistic Magics",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 36,
+     "key": "TIPPED_ARROW",
+     "sf": false
+    },
+    {
+     "slot": 22,
+     "name": "Exalted Items",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 11,
+     "key": "BEACON",
+     "sf": false
+    },
+    {
+     "slot": 23,
+     "name": "Uniques",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 10,
+     "key": "NETHER_STAR",
+     "sf": false
+    },
+    {
+     "slot": 24,
+     "name": "Arcane Runes",
+     "lore": [],
+     "addon": "CrystamaeHistoria",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 26,
+     "key": "ENCHANTING_TABLE",
+     "sf": false
+    },
+    {
+     "slot": 25,
+     "name": "Chest Terminal",
+     "lore": [
+      "> Click to open"
+     ],
+     "addon": "ChestTerminal",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "CHEST_TERMINAL",
+     "sf": true
+    },
+    {
+     "slot": 26,
+     "name": "Bump - Stuff",
+     "lore": [],
+     "addon": "Bump",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 12,
+     "key": "NETHER_STAR",
+     "sf": false
+    },
+    {
+     "slot": 27,
+     "name": "Bump - Food",
+     "lore": [],
+     "addon": "Bump",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 6,
+     "key": "BREAD",
+     "sf": false
+    },
+    {
+     "slot": 28,
+     "name": "Bump - Machine",
+     "lore": [],
+     "addon": "Bump",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 2,
+     "key": "ANVIL",
+     "sf": false
+    },
+    {
+     "slot": 29,
+     "name": "Bump - Tool",
+     "lore": [],
+     "addon": "Bump",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 2,
+     "key": "DIAMOND_PICKAXE",
+     "sf": false
+    },
+    {
+     "slot": 30,
+     "name": "Bump - Armor",
+     "lore": [],
+     "addon": "Bump",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 2,
+     "key": "DIAMOND",
+     "sf": false
+    },
+    {
+     "slot": 31,
+     "name": "Bump - Magic Weapon",
+     "lore": [],
+     "addon": "Bump",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 11,
+     "key": "IRON_SWORD",
+     "sf": false
+    },
+    {
+     "slot": 32,
+     "name": "Never gonna give you up~",
+     "lore": [],
+     "addon": "Bump",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 3,
+     "key": "BARRIER",
+     "sf": false
+    },
+    {
+     "slot": 33,
+     "name": "Destilar",
+     "lore": [
+      "Explora el mundo de la destilación..."
+     ],
+     "addon": "BreweryMenu",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 23,
+     "key": "POTION",
+     "sf": false
+    },
+    {
+     "slot": 34,
+     "name": "Advanced Tech",
+     "lore": [
+      "The Most Advanced Tech in all of SF.",
+      "> Click to open"
+     ],
+     "addon": "AdvancedTech",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 9,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 35,
+     "name": "Energy and Electricity",
+     "lore": [
+      "Requires Cooling!",
+      "⇨ Must be surrounded by Water",
+      "⇨ Must be supplied with Reactor Coolant Cells",
+      "End-Game Generator"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [
+      "Basic Machines"
+     ],
+     "nested": false,
+     "n_items": 77,
+     "key": "NUCLEAR_REACTOR",
+     "sf": true
+    },
+    {
+     "slot": 36,
+     "name": "GPS-based Machines",
+     "lore": [
+      "⇨ ⚡ 16 J Buffer",
+      "⇨ ⚡ 2 J/s"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [
+      "Basic Machines"
+     ],
+     "nested": false,
+     "n_items": 17,
+     "key": "GPS_TRANSMITTER",
+     "sf": true
+    },
+    {
+     "slot": 37,
+     "name": "Programmable Androids",
+     "lore": [
+      "⇨ Function: None",
+      "⇨ Fuel Efficiency: 1.0x"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [
+      "Basic Machines"
+     ],
+     "nested": false,
+     "n_items": 15,
+     "key": "PROGRAMMABLE_ANDROID",
+     "sf": true
+    },
+    {
+     "slot": 38,
+     "name": "Cargo Management",
+     "lore": [
+      "Core Component of an Item Transport Network"
+     ],
+     "addon": "Slimefun",
+     "locked_by": [
+      "Basic Machines"
+     ],
+     "nested": false,
+     "n_items": 12,
+     "key": "CARGO_MANAGER",
+     "sf": true
+    },
+    {
+     "slot": 39,
+     "name": "Eco-Power Generators",
+     "lore": [],
+     "addon": "EcoPower",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 18,
+     "key": "PLAYER_HEAD",
+     "sf": false
+    },
+    {
+     "slot": 40,
+     "name": "Drakes Nanotech",
+     "lore": [
+      "Programmable matter, ARC engineering,",
+      "gamma science and cosmic containment."
+     ],
+     "addon": "DrakesNanotech",
+     "locked_by": [],
+     "nested": false,
+     "n_items": 158,
+     "key": "HEART_OF_THE_SEA",
+     "sf": false
+    }
+   ]
+  }
+ ],
+ "category": {
+  "key": "slimefun:basic_machines",
+  "name": "Basic Machines",
+  "n_items": 33,
+  "slots": [
+   {
+    "slot": 9,
+    "id": "OUTPUT_CHEST",
+    "name": "Output Chest",
+    "key": "OUTPUT_CHEST",
+    "sf": true,
+    "research": 20,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 10,
+    "id": "ENHANCED_CRAFTING_TABLE",
+    "name": "Enhanced Crafting Table",
+    "key": "ENHANCED_CRAFTING_TABLE",
+    "sf": true,
+    "research": null,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 11,
+    "id": "GRIND_STONE",
+    "name": "Grind Stone",
+    "key": "GRIND_STONE",
+    "sf": true,
+    "research": 4,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 12,
+    "id": "ARMOR_FORGE",
+    "name": "Armor Forge",
+    "key": "ARMOR_FORGE",
+    "sf": true,
+    "research": 2,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 13,
+    "id": "ORE_CRUSHER",
+    "name": "Ore Crusher",
+    "key": "ORE_CRUSHER",
+    "sf": true,
+    "research": 6,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 14,
+    "id": "COMPRESSOR",
+    "name": "Compressor",
+    "key": "COMPRESSOR",
+    "sf": true,
+    "research": 9,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 15,
+    "id": "MAKESHIFT_SMELTERY",
+    "name": "Makeshift Smeltery",
+    "key": "MAKESHIFT_SMELTERY",
+    "sf": true,
+    "research": 6,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 16,
+    "id": "SMELTERY",
+    "name": "Smeltery",
+    "key": "SMELTERY",
+    "sf": true,
+    "research": 10,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 17,
+    "id": "IGNITION_CHAMBER",
+    "name": "Automatic Ignition Chamber",
+    "key": "IGNITION_CHAMBER",
+    "sf": true,
+    "research": 12,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 18,
+    "id": "PRESSURE_CHAMBER",
+    "name": "Pressure Chamber",
+    "key": "PRESSURE_CHAMBER",
+    "sf": true,
+    "research": 14,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 19,
+    "id": "MAGIC_WORKBENCH",
+    "name": "Magic Workbench",
+    "key": "MAGIC_WORKBENCH",
+    "sf": true,
+    "research": 12,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 20,
+    "id": "ORE_WASHER",
+    "name": "Ore Washer",
+    "key": "ORE_WASHER",
+    "sf": true,
+    "research": 5,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 21,
+    "id": "TABLE_SAW",
+    "name": "Table Saw",
+    "key": "TABLE_SAW",
+    "sf": true,
+    "research": 4,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 22,
+    "id": "COMPOSTER",
+    "name": "Composter",
+    "key": "COMPOSTER",
+    "sf": true,
+    "research": 3,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 23,
+    "id": "AUTOMATED_PANNING_MACHINE",
+    "name": "Automated Panning Machine",
+    "key": "AUTOMATED_PANNING_MACHINE",
+    "sf": true,
+    "research": 17,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 24,
+    "id": "INDUSTRIAL_MINER",
+    "name": "Industrial Miner",
+    "key": "INDUSTRIAL_MINER",
+    "sf": true,
+    "research": 28,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 25,
+    "id": "ADVANCED_INDUSTRIAL_MINER",
+    "name": "Advanced Industrial Miner",
+    "key": "ADVANCED_INDUSTRIAL_MINER",
+    "sf": true,
+    "research": 36,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 26,
+    "id": "CRUCIBLE",
+    "name": "Crucible",
+    "key": "CRUCIBLE",
+    "sf": true,
+    "research": 13,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 27,
+    "id": "JUICER",
+    "name": "Juicer",
+    "key": "JUICER",
+    "sf": true,
+    "research": 29,
+    "recipe_type": "Multiblock"
+   },
+   {
+    "slot": 28,
+    "id": "ENHANCED_FURNACE",
+    "name": "Enhanced Furnace - I",
+    "key": "ENHANCED_FURNACE",
+    "sf": true,
+    "research": 7,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 29,
+    "id": "ENHANCED_FURNACE_2",
+    "name": "Enhanced Furnace - II",
+    "key": "ENHANCED_FURNACE_2",
+    "sf": true,
+    "research": 7,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 30,
+    "id": "ENHANCED_FURNACE_3",
+    "name": "Enhanced Furnace - III",
+    "key": "ENHANCED_FURNACE_3",
+    "sf": true,
+    "research": 18,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 31,
+    "id": "ENHANCED_FURNACE_4",
+    "name": "Enhanced Furnace - IV",
+    "key": "ENHANCED_FURNACE_4",
+    "sf": true,
+    "research": 18,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 32,
+    "id": "ENHANCED_FURNACE_5",
+    "name": "Enhanced Furnace - V",
+    "key": "ENHANCED_FURNACE_5",
+    "sf": true,
+    "research": 18,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 33,
+    "id": "ENHANCED_FURNACE_6",
+    "name": "Enhanced Furnace - VI",
+    "key": "ENHANCED_FURNACE_6",
+    "sf": true,
+    "research": 18,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 34,
+    "id": "ENHANCED_FURNACE_7",
+    "name": "Enhanced Furnace - VII",
+    "key": "ENHANCED_FURNACE_7",
+    "sf": true,
+    "research": 18,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 35,
+    "id": "ENHANCED_FURNACE_8",
+    "name": "Enhanced Furnace - VIII",
+    "key": "ENHANCED_FURNACE_8",
+    "sf": true,
+    "research": 29,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 36,
+    "id": "ENHANCED_FURNACE_9",
+    "name": "Enhanced Furnace - IX",
+    "key": "ENHANCED_FURNACE_9",
+    "sf": true,
+    "research": 29,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 37,
+    "id": "ENHANCED_FURNACE_10",
+    "name": "Enhanced Furnace - X",
+    "key": "ENHANCED_FURNACE_10",
+    "sf": true,
+    "research": 29,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 38,
+    "id": "ENHANCED_FURNACE_11",
+    "name": "Enhanced Furnace - XI",
+    "key": "ENHANCED_FURNACE_11",
+    "sf": true,
+    "research": 29,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 39,
+    "id": "REINFORCED_FURNACE",
+    "name": "Reinforced Furnace",
+    "key": "REINFORCED_FURNACE",
+    "sf": true,
+    "research": 32,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 40,
+    "id": "CARBONADO_EDGED_FURNACE",
+    "name": "Carbonado Edged Furnace",
+    "key": "CARBONADO_EDGED_FURNACE",
+    "sf": true,
+    "research": 35,
+    "recipe_type": "Enhanced Crafting Table"
+   },
+   {
+    "slot": 41,
+    "id": "BLOCK_PLACER",
+    "name": "Block Placer",
+    "key": "BLOCK_PLACER",
+    "sf": true,
+    "research": 17,
+    "recipe_type": "Enhanced Crafting Table"
+   }
+  ]
+ },
+ "locked_example": {
+  "slot": 32,
+  "name": "Talismans - Tier II",
+  "lore": [],
+  "addon": "Slimefun",
+  "locked_by": [
+   "Talismans - Tier I"
+  ],
+  "nested": false,
+  "n_items": 17,
+  "key": "EMERALD",
+  "sf": false
+ },
+ "recipe": {
+  "id": "ELECTRIC_ORE_GRINDER",
+  "name": "Electric Ore Grinder",
+  "key": "ELECTRIC_ORE_GRINDER",
+  "sf": true,
+  "type_icon": {
+   "key": "ENHANCED_CRAFTING_TABLE",
+   "sf": true
+  },
+  "type": "Enhanced Crafting Table",
+  "type_key": "ENHANCED_CRAFTING_TABLE",
+  "cells": [
+   {
+    "slot": 4,
+    "name": "Diamond Pickaxe",
+    "key": "DIAMOND_PICKAXE",
+    "sf": false,
+    "n": 1
+   },
+   {
+    "slot": 12,
+    "name": "Gilded Iron",
+    "key": "GILDED_IRON",
+    "sf": true,
+    "n": 1
+   },
+   {
+    "slot": 13,
+    "name": "Heating Coil",
+    "key": "HEATING_COIL",
+    "sf": true,
+    "n": 1
+   },
+   {
+    "slot": 14,
+    "name": "Gilded Iron",
+    "key": "GILDED_IRON",
+    "sf": true,
+    "n": 1
+   },
+   {
+    "slot": 21,
+    "name": "Gilded Iron",
+    "key": "GILDED_IRON",
+    "sf": true,
+    "n": 1
+   },
+   {
+    "slot": 22,
+    "name": "Electric Motor",
+    "key": "ELECTRIC_MOTOR",
+    "sf": true,
+    "n": 1
+   },
+   {
+    "slot": 23,
+    "name": "Gilded Iron",
+    "key": "GILDED_IRON",
+    "sf": true,
+    "n": 1
+   }
+  ],
+  "research": 20
+ },
+ "source": {
+  "slimefun": "11.0-Drake-1.21.11-SNAPSHOT",
+  "generated": "2026-10-14T21:51:50.686568200Z"
+ }
+}

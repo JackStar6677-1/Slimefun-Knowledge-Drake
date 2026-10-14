@@ -1,0 +1,9 @@
+{
+ "staff_id_patterns": [],
+ "staff_groups": [],
+ "staff_addons": [],
+ "note": "Marca aqui lo que es solo de staff (comandos admin, items de cheat) para que no entre en contenido publico.",
+ "collapse_addons": [
+  "ColoredEnderChests"
+ ]
+}

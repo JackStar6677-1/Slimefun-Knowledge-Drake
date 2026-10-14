@@ -1,0 +1,94 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "title",
+   "kind": "title",
+   "title": "How the Slimefun Guide works",
+   "subtitle": "Categories, researches and recipes · DrakesCraft",
+   "narration": "Everything in Slimefun starts in one book: the Slimefun Guide. Before you build a single machine, it is worth learning how to read it.",
+   "audio": "audio/guide-title.mp3",
+   "seconds": 9.94
+  },
+  {
+   "id": "menu",
+   "kind": "gui_menu",
+   "page": 1,
+   "callouts": [
+    {
+     "slot": 1,
+     "text": "Settings"
+    },
+    {
+     "slot": 5,
+     "text": "Favorites"
+    },
+    {
+     "slot": 7,
+     "text": "Search"
+    }
+   ],
+   "narration": "This is the main menu. The top row holds your settings, your favorites and the search button. Each category is an icon, with thirty-six categories per page. On DrakesCraft the guide has about 176 categories across 5 pages, because every addon adds its own. Click an icon to open it.",
+   "audio": "audio/guide-menu.mp3",
+   "seconds": 21.72
+  },
+  {
+   "id": "pages",
+   "kind": "gui_pages",
+   "narration": "Use the arrows at the bottom to change pages. The previous arrow and the next arrow sit in the bottom row. There are 5 pages, and the addons we run fill most of them.",
+   "audio": "audio/guide-pages.mp3",
+   "seconds": 12.03
+  },
+  {
+   "id": "locked",
+   "kind": "gui_locked",
+   "locked": [
+    "Talismans - Tier II",
+    "Energy and Electricity",
+    "GPS-based Machines",
+    "Programmable Androids",
+    "Cargo Management"
+   ],
+   "narration": "Some categories show a red barrier instead of an icon. They are locked. Energy and Electricity, GPS-based Machines, Programmable Androids and Cargo Management stay locked until you finish the Basic Machines category, and Talismans Tier Two stays locked until you finish Tier One. That is the guide telling you the order to learn things.",
+   "audio": "audio/guide-locked.mp3",
+   "seconds": 22.88
+  },
+  {
+   "id": "category",
+   "kind": "gui_category",
+   "narration": "Open a category and you see its items, thirty-six per page. Basic Machines has 33. An item you cannot craft yet is shown locked, with a line that says click to unlock and a cost in levels. That cost is the research: you pay experience levels once, and the item is yours forever.",
+   "audio": "audio/guide-category.mp3",
+   "seconds": 20.45
+  },
+  {
+   "id": "recipe",
+   "kind": "gui_recipe",
+   "narration": "Click an unlocked item to see its recipe. The three by three grid is the crafting pattern, the icon on the left shows where to craft it, here the Enhanced Crafting Table, and the item on the right is the result. The Electric Ore Grinder, for example, needs research costing 20 levels.",
+   "audio": "audio/guide-recipe.mp3",
+   "seconds": 19.47
+  },
+  {
+   "id": "extras",
+   "kind": "title",
+   "title": "Search and favorites",
+   "subtitle": "Search any item by name · right-click a recipe to save it to Favorites",
+   "narration": "If you do not know where something is, use the search button and type its name in chat. And when you find a recipe you will need again, right-click it to save it to your favorites.",
+   "audio": "audio/guide-extras.mp3",
+   "seconds": 11.07
+  },
+  {
+   "id": "outro",
+   "kind": "title",
+   "title": "DrakesCraft keeps growing",
+   "subtitle": "This tour is rebuilt from the live server · 64 addons and counting",
+   "narration": "DrakesCraft is always in development, and this tour is generated from the live server, so it stays up to date as we add addons. Next: how multiblocks work, and then your first dust farm.",
+   "audio": "audio/guide-outro.mp3",
+   "seconds": 13.25
+  }
+ ],
+ "source": {
+  "slimefun": "11.0-Drake-1.21.11-SNAPSHOT",
+  "generated": "2026-10-14T21:51:50.686568200Z"
+ },
+ "voice": "en-US-AvaNeural"
+}
