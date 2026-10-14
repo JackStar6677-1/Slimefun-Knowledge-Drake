@@ -171,9 +171,10 @@ def main() -> int:
         elif isinstance(o, list):
             for v in o:
                 yield from walk(v)
-    gj = SB.parent / "guide.json"
-    if gj.exists():
-        wanted |= set(walk(json.loads(gj.read_text(encoding="utf-8"))))
+    for extra in ("guide.json", "reel-icons.json"):
+        gj = SB.parent / extra
+        if gj.exists():
+            wanted |= set(walk(json.loads(gj.read_text(encoding="utf-8"))))
     missing = []
     fallback = []
     for key, is_sf in sorted(wanted):

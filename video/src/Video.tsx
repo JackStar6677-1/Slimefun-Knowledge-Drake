@@ -1,4 +1,5 @@
 import React from "react";
+import { MovingBg } from "./Bg";
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import sb from "./storyboard.json";
 
@@ -24,6 +25,7 @@ const count = (frame: number, delay: number, to: number) =>
 
 const Frame: React.FC<{ children: React.ReactNode; title?: string; step?: string }> = ({ children, title, step }) => (
   <AbsoluteFill style={{ background: BG, fontFamily: FONT, color: CREAM }}>
+    <MovingBg />
     <div style={{ height: 8, background: GOLD }} />
     {step && (
       <div style={{ position: "absolute", top: 40, left: 80, color: GOLD, letterSpacing: 8, fontSize: 28, fontFamily: "Consolas, monospace" }}>
@@ -286,7 +288,7 @@ const KINDS: Record<string, React.FC<{ s: Scene }>> = {
 
 const FadeWrap: React.FC<{ dur: number; children: React.ReactNode }> = ({ dur, children }) => {
   const f = useCurrentFrame();
-  return <AbsoluteFill style={{ opacity: useFade(f, dur) }}>{children}</AbsoluteFill>;
+  return <AbsoluteFill style={{ opacity: useFade(f, dur), transform: `scale(${1 + f / dur * 0.035})`, transformOrigin: "50% 45%" }}>{children}</AbsoluteFill>;
 };
 
 export const Video: React.FC = () => {

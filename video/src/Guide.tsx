@@ -1,4 +1,5 @@
 import React from "react";
+import { MovingBg } from "./Bg";
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import sb from "./guide-storyboard.json";
 import data from "./guide.json";
@@ -91,6 +92,7 @@ const Side: React.FC<{ title: string; lines: string[]; f: number }> = ({ title, 
 
 const Frame: React.FC<{ step: string; children: React.ReactNode }> = ({ step, children }) => (
   <AbsoluteFill style={{ background: BG, fontFamily: FONT, color: CREAM }}>
+    <MovingBg />
     <div style={{ height: 8, background: GOLD }} />
     <div style={{ position: "absolute", top: 40, left: 80, color: GOLD, letterSpacing: 8, fontSize: 28, fontFamily: "Consolas, monospace" }}>{step}</div>
     <div style={{ position: "absolute", bottom: 36, right: 60, color: "#6f8a7e", fontSize: 24 }}>mc.drakescraft.cl</div>
@@ -210,5 +212,5 @@ export const GuideBook: React.FC = () => {
 
 const FadeWrap: React.FC<{ dur: number; children: React.ReactNode }> = ({ dur, children }) => {
   const f = useCurrentFrame();
-  return <AbsoluteFill style={{ opacity: fade(f, dur) }}>{children}</AbsoluteFill>;
+  return <AbsoluteFill style={{ opacity: fade(f, dur), transform: `scale(${1 + f / dur * 0.035})`, transformOrigin: "50% 45%" }}>{children}</AbsoluteFill>;
 };

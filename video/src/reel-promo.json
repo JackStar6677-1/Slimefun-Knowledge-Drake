@@ -1,0 +1,349 @@
+{
+ "fps": 30,
+ "voice": "es-CL-CatalinaNeural",
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "hook",
+   "big": "7.700+",
+   "small": "ítems de Slimefun",
+   "text": "¿Sabías que este servidor de Minecraft tiene casi ocho mil ítems de Slimefun?",
+   "audio": "audio/reel-hook.mp3",
+   "words": [
+    {
+     "w": "Sabías",
+     "t": 0.097,
+     "d": 0.46
+    },
+    {
+     "w": "que",
+     "t": 0.604,
+     "d": 0.071
+    },
+    {
+     "w": "este",
+     "t": 0.71,
+     "d": 0.2
+    },
+    {
+     "w": "servidor",
+     "t": 0.934,
+     "d": 0.413
+    },
+    {
+     "w": "de",
+     "t": 1.383,
+     "d": 0.083
+    },
+    {
+     "w": "Minecraft",
+     "t": 1.489,
+     "d": 0.483
+    },
+    {
+     "w": "tiene",
+     "t": 2.043,
+     "d": 0.212
+    },
+    {
+     "w": "casi",
+     "t": 2.338,
+     "d": 0.259
+    },
+    {
+     "w": "ocho",
+     "t": 2.621,
+     "d": 0.2
+    },
+    {
+     "w": "mil",
+     "t": 2.857,
+     "d": 0.2
+    },
+    {
+     "w": "ítems",
+     "t": 3.069,
+     "d": 0.318
+    },
+    {
+     "w": "de",
+     "t": 3.411,
+     "d": 0.047
+    },
+    {
+     "w": "Slimefun",
+     "t": 3.517,
+     "d": 0.613
+    }
+   ],
+   "seconds": 5.32
+  },
+  {
+   "id": "modes",
+   "kind": "modes",
+   "modes": [
+    "Slimefun",
+    "Clásico",
+    "SkyBlock",
+    "OneBlock",
+    "Laboratorio"
+   ],
+   "addons": 64,
+   "text": "64 addons y cinco modalidades: Slimefun, Clásico, SkyBlock, OneBlock y un laboratorio creativo.",
+   "audio": "audio/reel-modes.mp3",
+   "words": [
+    {
+     "w": "64",
+     "t": 0.097,
+     "d": 0.79
+    },
+    {
+     "w": "addons",
+     "t": 0.887,
+     "d": 0.366
+    },
+    {
+     "w": "y",
+     "t": 1.276,
+     "d": 0.024
+    },
+    {
+     "w": "cinco",
+     "t": 1.335,
+     "d": 0.295
+    },
+    {
+     "w": "modalidades",
+     "t": 1.654,
+     "d": 0.719
+    },
+    {
+     "w": "Slimefun",
+     "t": 2.574,
+     "d": 0.66
+    },
+    {
+     "w": "Clásico",
+     "t": 3.493,
+     "d": 0.495
+    },
+    {
+     "w": "SkyBlock",
+     "t": 4.248,
+     "d": 0.601
+    },
+    {
+     "w": "OneBlock",
+     "t": 5.097,
+     "d": 0.401
+    },
+    {
+     "w": "y",
+     "t": 5.545,
+     "d": 0.047
+    },
+    {
+     "w": "un",
+     "t": 5.628,
+     "d": 0.094
+    },
+    {
+     "w": "laboratorio",
+     "t": 5.758,
+     "d": 0.554
+    },
+    {
+     "w": "creativo",
+     "t": 6.371,
+     "d": 0.472
+    }
+   ],
+   "seconds": 8.01
+  },
+  {
+   "id": "dust",
+   "kind": "dust",
+   "dusts": [
+    "COPPER",
+    "ZINC",
+    "TIN",
+    "ALUMINUM",
+    "LEAD",
+    "SILVER",
+    "GOLD",
+    "IRON",
+    "MAGNESIUM"
+   ],
+   "text": "Convierte simple cobblestone en nueve tipos de polvo de metal, y automatiza todo hasta un cofre.",
+   "audio": "audio/reel-dust.mp3",
+   "words": [
+    {
+     "w": "Convierte",
+     "t": 0.097,
+     "d": 0.448
+    },
+    {
+     "w": "simple",
+     "t": 0.581,
+     "d": 0.295
+    },
+    {
+     "w": "cobblestone",
+     "t": 0.934,
+     "d": 0.519
+    },
+    {
+     "w": "en",
+     "t": 1.512,
+     "d": 0.047
+    },
+    {
+     "w": "nueve",
+     "t": 1.559,
+     "d": 0.259
+    },
+    {
+     "w": "tipos",
+     "t": 1.901,
+     "d": 0.271
+    },
+    {
+     "w": "de",
+     "t": 2.196,
+     "d": 0.047
+    },
+    {
+     "w": "polvo",
+     "t": 2.338,
+     "d": 0.236
+    },
+    {
+     "w": "de",
+     "t": 2.597,
+     "d": 0.071
+    },
+    {
+     "w": "metal",
+     "t": 2.692,
+     "d": 0.354
+    },
+    {
+     "w": "y",
+     "t": 3.317,
+     "d": 0.059
+    },
+    {
+     "w": "automatiza",
+     "t": 3.387,
+     "d": 0.66
+    },
+    {
+     "w": "todo",
+     "t": 4.154,
+     "d": 0.2
+    },
+    {
+     "w": "hasta",
+     "t": 4.366,
+     "d": 0.248
+    },
+    {
+     "w": "un",
+     "t": 4.661,
+     "d": 0.165
+    },
+    {
+     "w": "cofre",
+     "t": 4.826,
+     "d": 0.318
+    }
+   ],
+   "seconds": 6.35
+  },
+  {
+   "id": "cta",
+   "kind": "cta",
+   "ip": "mc.drakescraft.cl",
+   "line": "Java y Bedrock",
+   "text": "Entra ya: mc punto drakescraft punto cl. Java y Bedrock. Link en la bio.",
+   "audio": "audio/reel-cta.mp3",
+   "words": [
+    {
+     "w": "Entra",
+     "t": 0.097,
+     "d": 0.283
+    },
+    {
+     "w": "ya",
+     "t": 0.427,
+     "d": 0.2
+    },
+    {
+     "w": "mc",
+     "t": 0.911,
+     "d": 0.318
+    },
+    {
+     "w": "punto",
+     "t": 1.324,
+     "d": 0.236
+    },
+    {
+     "w": "drakescraft",
+     "t": 1.583,
+     "d": 0.578
+    },
+    {
+     "w": "punto",
+     "t": 2.279,
+     "d": 0.259
+    },
+    {
+     "w": "cl.",
+     "t": 2.574,
+     "d": 0.342
+    },
+    {
+     "w": "Java",
+     "t": 2.939,
+     "d": 0.295
+    },
+    {
+     "w": "y",
+     "t": 3.281,
+     "d": 0.047
+    },
+    {
+     "w": "Bedrock",
+     "t": 3.364,
+     "d": 0.401
+    },
+    {
+     "w": "Link",
+     "t": 4.623,
+     "d": 0.307
+    },
+    {
+     "w": "en",
+     "t": 4.929,
+     "d": 0.059
+    },
+    {
+     "w": "la",
+     "t": 5.024,
+     "d": 0.071
+    },
+    {
+     "w": "bio",
+     "t": 5.13,
+     "d": 0.189
+    }
+   ],
+   "seconds": 6.54
+  }
+ ],
+ "facts": {
+  "unique_items": 7794,
+  "addons": 64
+ }
+}
