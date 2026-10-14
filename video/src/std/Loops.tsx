@@ -39,70 +39,197 @@ export const DustPile: React.FC<{ w: number; h: number }> = ({ w, h }) => {
   );
 };
 
-// ---- 2. pelotas dentro de un circulo que se va consumiendo ----------------------------------------------------------
-const SEGS = 72;
-const RING_FRAMES = 900;
-type Ball = { x: number; y: number; r: number; hue: number; out: boolean };
-const ring: { balls: Ball[][]; segGone: number[] } = (() => {
-  const N = 7;
-  const R = 1;
-  const segGone = new Array(SEGS).fill(Infinity);
-  const st = Array.from({ length: N }).map((_, i) => ({
-    x: (rnd(i, 7) - 0.5) * 0.9, y: (rnd(i, 8) - 0.5) * 0.9, vx: (rnd(i, 9) - 0.5) * 0.02, vy: (rnd(i, 10) - 0.5) * 0.02, r: 0.1 + rnd(i, 11) * 0.06, hue: Math.floor(rnd(i, 12) * 360), out: false,
-  }));
-  const frames: Ball[][] = [];
-  for (let f = 0; f < RING_FRAMES; f++) {
-    for (const b of st) {
-      b.vy += 0.00045;
-      b.x += b.vx;
-      b.y += b.vy;
-      const d = Math.hypot(b.x, b.y);
-      if (!b.out && d + b.r > R) {
-        const a = Math.atan2(b.y, b.x);
-        const seg = Math.floor(((a + Math.PI) / (2 * Math.PI)) * SEGS) % SEGS;
-        if (segGone[seg] > f) {
-          const nx = b.x / d;
-          const ny = b.y / d;
-          const dot = b.vx * nx + b.vy * ny;
-          b.vx -= 2 * dot * nx;
-          b.vy -= 2 * dot * ny;
-          b.vx *= 1.02;
-          b.vy *= 1.02;
-          b.x = nx * (R - b.r - 0.001);
-          b.y = ny * (R - b.r - 0.001);
-          b.hue = (b.hue + 40) % 360;
-          segGone[seg] = f; // el golpe se come el segmento
-          segGone[(seg + 1) % SEGS] = Math.min(segGone[(seg + 1) % SEGS], f + 4);
-          if (b.r > 0.045) b.r *= 0.97;
-        } else {
-          b.out = true; // pasa por el hueco
+// ---- 2. RingLab: una bola desarma varios circulos concentricos, con la fisica y las predicciones a la vista ----------------
+type Ev = { f: number; x: number; y: number; nx: number; ny: number; vx: number; vy: number; ring: number; pass: boolean };
+type Sim = { x: number[]; y: number[]; vx: number[]; vy: number[]; region: number[]; hits: number[]; events: Ev[]; gone: number[][]; radii: number[]; len: number; r: number };
+const hashSeed = (s: string) => {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  return Math.abs(h >>> 0);
+};
+
+const simulate = (seed: number): Sim => {
+  const nRings = 4 + (seed % 3);
+  const radii = Array.from({ length: nRings }).map((_, k) => 0.3 + (0.7 * k) / (nRings - 1));
+  const segs = radii.map((_, k) => 40 + 8 * k);
+  const gone = segs.map((n) => new Array(n).fill(Infinity));
+  const r = 0.03;
+  const speed = 0.02 + rnd(seed, 3) * 0.008;
+  const a0 = rnd(seed, 4) * Math.PI * 2;
+  let x = (rnd(seed, 5) - 0.5) * 0.3;
+  let y = (rnd(seed, 6) - 0.5) * 0.3;
+  let vx = Math.cos(a0) * speed;
+  let vy = Math.sin(a0) * speed;
+  let region = 0;
+  let hits = 0;
+  const out: Sim = { x: [], y: [], vx: [], vy: [], region: [], hits: [], events: [], gone, radii, len: 0, r };
+  const segAt = (k: number) => Math.floor(((Math.atan2(y, x) + Math.PI) / (2 * Math.PI)) * segs[k]) % segs[k];
+  let f = 0;
+  for (; f < 1500; f++) {
+    for (let s = 0; s < 4; s++) {
+      x += vx / 4;
+      y += vy / 4;
+      const d = Math.hypot(x, y) || 1e-9;
+      const outer = radii[region];
+      const inner = region > 0 ? radii[region - 1] : -1;
+      const tryWall = (k: number, sign: number) => {
+        const seg = segAt(k);
+        const alive = gone[k][seg] > f;
+        const nx = (x / d) * sign;
+        const ny = (y / d) * sign;
+        out.events.push({ f, x, y, nx, ny, vx, vy, ring: k, pass: !alive });
+        if (alive) {
+          const dot = vx * nx + vy * ny;
+          vx -= 2 * dot * nx;
+          vy -= 2 * dot * ny;
+          const rr = sign > 0 ? radii[k] - r - 0.002 : radii[k] + r + 0.002;
+          x = (x / d) * rr;
+          y = (y / d) * rr;
+          gone[k][seg] = f;
+          if (rnd(seed + f, 9) > 0.45) gone[k][(seg + 1) % segs[k]] = Math.min(gone[k][(seg + 1) % segs[k]], f + 3);
+          const sp2 = Math.min(0.04, Math.hypot(vx, vy) * 1.012);
+          const sc = sp2 / (Math.hypot(vx, vy) || 1);
+          vx *= sc;
+          vy *= sc;
+          hits++;
         }
+        return alive;
+      };
+      if (d + r > outer) {
+        if (!tryWall(region, 1)) region++;
+      } else if (inner > 0 && d - r < inner) {
+        if (!tryWall(region - 1, -1)) region--;
+      }
+      if (region >= nRings) break;
+    }
+    out.x.push(x);
+    out.y.push(y);
+    out.vx.push(vx);
+    out.vy.push(vy);
+    out.region.push(Math.min(region, nRings - 1));
+    out.hits.push(hits);
+    if (region >= nRings) {
+      f++;
+      break;
+    }
+  }
+  out.len = f;
+  return out;
+};
+
+const simCache = new Map<number, Sim>();
+const getSim = (seed: number): Sim => {
+  if (!simCache.has(seed)) {
+    let best: Sim | null = null;
+    for (let i = 0; i < 80; i++) {
+      // se busca una semilla cuya bola sobreviva (>= 800 cuadros) para que el loop nunca quede vacio
+      const s = simulate(seed + i * 7919);
+      if (!best || s.len > best.len) best = s;
+      if (s.len >= 800) {
+        best = s;
+        break;
       }
     }
-    frames.push(st.map((b) => ({ x: b.x, y: b.y, r: b.r, hue: b.hue, out: b.out })));
+    simCache.set(seed, best as Sim);
   }
-  return { balls: frames, segGone };
-})();
+  return simCache.get(seed) as Sim;
+};
 
-export const RingBounce: React.FC<{ w: number; h: number }> = ({ w, h }) => {
-  const f = useCurrentFrame() % RING_FRAMES;
-  const S = Math.min(w, h) * 0.42;
-  const cx = w / 2;
-  const cy = h / 2;
+export const RingLab: React.FC<{ w: number; h: number; seed: string }> = ({ w, h, seed }) => {
+  const sim = getSim(hashSeed(seed));
+  const cycle = sim.len + 45;
+  const f0 = useCurrentFrame() % cycle;
+  const f = Math.min(f0, sim.len - 1);
+  const resetting = f0 >= sim.len;
+  const S = Math.min(w * 0.5, h) * 0.45;
+  const cx = w * 0.66;
+  const cy = h * 0.52;
+  const nR = sim.radii.length;
+  const next = sim.events.filter((e) => e.f > f);
+  const e1 = next[0];
+  const e2 = next[1];
+  const sp = Math.hypot(sim.vx[f], sim.vy[f]);
+  const total = sim.gone.reduce((a, g) => a + g.length, 0);
+  const alive = sim.gone.reduce((a, g) => a + g.filter((v) => v > f).length, 0);
+  const P = (x: number, y: number) => [cx + x * S, cy + y * S] as const;
+  const fmt = (n: number, d = 3) => (n >= 0 ? "+" : "") + n.toFixed(d);
+  const dotNext = e1 ? e1.vx * e1.nx + e1.vy * e1.ny : 0;
+  const theta = e1 ? (Math.acos(Math.min(1, Math.abs(dotNext) / (Math.hypot(e1.vx, e1.vy) || 1))) * 180) / Math.PI : 0;
+  const rvx = e1 ? e1.vx - 2 * dotNext * e1.nx : 0;
+  const rvy = e1 ? e1.vy - 2 * dotNext * e1.ny : 0;
+  const trail = Array.from({ length: 22 }).map((_, i) => Math.max(0, f - i * 2));
+  const bx = P(sim.x[f], sim.y[f])[0];
+  const by = P(sim.x[f], sim.y[f])[1];
   return (
-    <svg width={w} height={h} style={{ position: "absolute", inset: 0 }}>
-      {Array.from({ length: SEGS }).map((_, s) => {
-        const a0 = (s / SEGS) * Math.PI * 2 - Math.PI;
-        const a1 = ((s + 1) / SEGS) * Math.PI * 2 - Math.PI;
-        const t = ring.segGone[s] <= f ? Math.min(1, (f - ring.segGone[s]) / 10) : 0;
-        if (t >= 1) return null;
-        const r = S * (1 + t * 0.12);
-        const p = (a: number) => `${cx + Math.cos(a) * r},${cy + Math.sin(a) * r}`;
-        return <path key={s} d={`M${p(a0)} L${p(a1)}`} stroke={`hsl(${(s * 5 + f) % 360},90%,62%)`} strokeWidth={14} strokeLinecap="round" opacity={1 - t} />;
-      })}
-      {ring.balls[f].map((b, i) => (
-        <circle key={i} cx={cx + b.x * S} cy={cy + b.y * S} r={b.r * S} fill={`hsl(${b.hue},95%,60%)`} opacity={b.out && cy + b.y * S > h + 80 ? 0 : 1} />
-      ))}
+    <svg width={w} height={h} style={{ position: "absolute", inset: 0, fontFamily: "Consolas, monospace" }}>
+      {sim.radii.map((R, k) =>
+        sim.gone[k].map((g, s) => {
+          const n = sim.gone[k].length;
+          const t = g <= f ? Math.min(1, (f - g) / 12) : 0;
+          if (t >= 1 || resetting) return null;
+          const a0 = (s / n) * Math.PI * 2 - Math.PI;
+          const a1 = ((s + 1) / n) * Math.PI * 2 - Math.PI;
+          const rr = R * (1 + t * 0.1);
+          const [x0, y0] = P(Math.cos(a0) * rr, Math.sin(a0) * rr);
+          const [x1, y1] = P(Math.cos(a1) * rr, Math.sin(a1) * rr);
+          return <path key={`${k}-${s}`} d={`M${x0},${y0} L${x1},${y1}`} stroke={`hsl(${(k * 55 + 160 + f * 0.5) % 360},85%,${58 - t * 20}%)`} strokeWidth={9} strokeLinecap="round" opacity={1 - t} />;
+        }),
+      )}
+      {!resetting && e1 && <line x1={bx} y1={by} x2={P(e1.x, e1.y)[0]} y2={P(e1.x, e1.y)[1]} stroke="#fff" strokeWidth={3} strokeDasharray="10 8" opacity={0.85} />}
+      {!resetting && e1 && e2 && <line x1={P(e1.x, e1.y)[0]} y1={P(e1.x, e1.y)[1]} x2={P(e2.x, e2.y)[0]} y2={P(e2.x, e2.y)[1]} stroke="#5eead4" strokeWidth={2} strokeDasharray="4 8" opacity={0.55} />}
+      {!resetting && e1 && (
+        <g>
+          <circle cx={P(e1.x, e1.y)[0]} cy={P(e1.x, e1.y)[1]} r={16 * (1 + Math.sin(f / 3) * 0.25)} fill="none" stroke={e1.pass ? "#5eead4" : "#ff5a5a"} strokeWidth={3} />
+          <line x1={P(e1.x, e1.y)[0]} y1={P(e1.x, e1.y)[1]} x2={P(e1.x, e1.y)[0] + e1.nx * 46} y2={P(e1.x, e1.y)[1] + e1.ny * 46} stroke="#ffd24a" strokeWidth={3} />
+          <text x={P(e1.x, e1.y)[0] + 14} y={P(e1.x, e1.y)[1] - 14} fill="#fff" fontSize={22} fontWeight={800}>
+            t−{e1.f - f}f
+          </text>
+        </g>
+      )}
+      {!resetting &&
+        trail.map((tf, i) => <circle key={i} cx={P(sim.x[tf], sim.y[tf])[0]} cy={P(sim.x[tf], sim.y[tf])[1]} r={sim.r * S * (1 - i / 26)} fill="#ffd24a" opacity={0.5 - i * 0.02} />)}
+      {!resetting && <circle cx={bx} cy={by} r={sim.r * S} fill="#fff" stroke="#ffd24a" strokeWidth={4} />}
+      <g transform="translate(20,24)" fontSize={25} fill="#bff7ee">
+        <rect x={-8} y={-8} width={430} height={h - 56} rx={12} fill="rgba(3,12,9,.72)" stroke="rgba(255,210,74,.5)" />
+        <text y={18} fill="#ffd24a" fontWeight={800}>
+          SIMULACIÓN · semilla {hashSeed(seed) % 9973}
+        </text>
+        <text y={58}>
+          anillo   {sim.region[f] + 1}/{nR}
+        </text>
+        <text y={90}>golpes   {sim.hits[f]}</text>
+        <text y={122}>
+          segm.    {alive}/{total}
+        </text>
+        <text y={154}>|v|      {sp.toFixed(4)} u/f</text>
+        <text y={186}>E=½mv²  {(0.5 * sp * sp * 1000).toExponential(2)}</text>
+        {e1 && (
+          <>
+            <text y={232} fill="#ffd24a" fontWeight={800}>
+              PRÓXIMO IMPACTO t−{e1.f - f}f
+            </text>
+            <text y={264}>ángulo   {theta.toFixed(1)}°</text>
+            <text y={296}>v·n      {fmt(dotNext, 4)}</text>
+            <text y={336} fill="#ffd24a">
+              v′ = v − 2(v·n)n
+            </text>
+            <text y={368}>
+              v  =({fmt(e1.vx, 3)},{fmt(e1.vy, 3)})
+            </text>
+            <text y={398}>
+              n  =({fmt(e1.nx, 2)},{fmt(e1.ny, 2)})
+            </text>
+            <text y={428}>
+              v′ =({fmt(rvx, 3)},{fmt(rvy, 3)})
+            </text>
+          </>
+        )}
+        {resetting && (
+          <text y={232} fill="#ff8a8a" fontWeight={800}>
+            TODOS LOS ANILLOS ROTOS → reinicio
+          </text>
+        )}
+      </g>
     </svg>
   );
 };
@@ -115,13 +242,13 @@ export const BottomVideo: React.FC<{ file: string }> = ({ file }) => (
 );
 
 export type LoopName = "dust" | "ring" | `video:${string}`;
-export const BottomLoop: React.FC<{ name: LoopName; top?: number }> = ({ name, top = 1230 }) => {
+export const BottomLoop: React.FC<{ name: LoopName; top?: number; seed?: string }> = ({ name, top = 1230, seed = "drakescraft" }) => {
   const { width, height } = useVideoConfig();
   const h = height - top;
   return (
     <div style={{ position: "absolute", left: 0, right: 0, top, height: h, overflow: "hidden", borderTop: "4px solid rgba(255,210,74,.5)", background: "linear-gradient(#0a1c16, #06110d)" }}>
       {name === "dust" && <DustPile w={width} h={h} />}
-      {name === "ring" && <RingBounce w={width} h={h} />}
+      {name === "ring" && <RingLab w={width} h={h} seed={seed} />}
       {name.startsWith("video:") && <BottomVideo file={name.slice(6)} />}
     </div>
   );

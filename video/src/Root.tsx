@@ -3,6 +3,8 @@ import { Video, totalFrames, FPS } from "./Video";
 import { GuideBook, guideFrames } from "./Guide";
 import { PromoReel, reelFrames } from "./Reel";
 import { Test3D } from "./Test3D";
+import { TestRing } from "./TestRing";
+import { PromoV2, promoFrames } from "./Promo";
 import { StartYT, StartReel, startYtFrames, startReelFrames } from "./Start";
 
 export const Root = () => (
@@ -13,5 +15,7 @@ export const Root = () => (
     <Composition id="Test3D" component={Test3D} durationInFrames={120} fps={FPS} width={1920} height={1080} />
     <Composition id="StartYT" component={StartYT} durationInFrames={startYtFrames()} fps={FPS} width={1920} height={1080} />
     <Composition id="StartReel" component={StartReel} durationInFrames={startReelFrames()} fps={FPS} width={1080} height={1920} />
+    <Composition id="TestRing" component={TestRing} durationInFrames={900} fps={FPS} width={1080} height={1920} />
+    <Composition id="PromoV2" component={PromoV2} durationInFrames={promoFrames()} fps={FPS} width={1080} height={1920} />
   </>
 );

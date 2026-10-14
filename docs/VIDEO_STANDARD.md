@@ -32,7 +32,7 @@ Retention rules (from the community): nothing static for more than ~3 s, one ide
 | name | what | source |
 |---|---|---|
 | `dust` | metal dust falling and piling up (resets every 11 s) | procedural, ours |
-| `ring` | balls bouncing in a circle that gets eaten segment by segment | procedural, ours |
+| `ring` | **RingLab**: one ball bounces between 4–6 concentric rings and eats them segment by segment; live HUD with speed, kinetic energy, impact angle, v·n and the reflection formula v′ = v − 2(v·n)n, plus the predicted trajectory of the next two impacts. Deterministic physics seeded from the video title (`seed` prop), so every reel gets a different simulation; the seed search guarantees the ball survives ≥ 800 frames so the loop is never empty | procedural, ours |
 | `video:<file>` | any clip in `video/public/bg/<file>` (muted, looped, cover) | external, see below |
 
 Add a new procedural loop: write a component in `Loops.tsx`, compute its physics once at module load (deterministic seeds so renders are repeatable) and add its name to `LoopName`.
