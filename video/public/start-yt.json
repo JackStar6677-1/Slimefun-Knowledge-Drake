@@ -1472,9 +1472,392 @@
    "seconds": 33.78
   },
   {
+   "id": "output_chest",
+   "kind": "model1",
+   "label": "PASO 5 · PRIMER ALMACENAMIENTO",
+   "head": "Output Chest: crafteo sin atascos",
+   "block": "ORE_CRUSHER_OUTPUT",
+   "points": [
+    "Investigación: 20 niveles de XP",
+    "Colócalo pegado al dispensador (arriba o lados)",
+    "Los productos van directo al cofre",
+    "Evita que la máquina se bloquee por falta de espacio"
+   ],
+   "text": "Para que tus máquinas no se atasquen al craftear stacks, necesitas tu primer almacenamiento: el Output Chest. Cuesta veinte niveles de experiencia y se craftea en la mesa mejorada con cinco lingotes de plomo, una tolva y un cofre. Colócalo pegado al dispensador: arriba, al norte, este, sur u oeste, nunca abajo. Los productos caerán directamente dentro del cofre, evitando que los nueve espacios del dispensador se llenen y la máquina se bloquee.",
+   "audio": "audio/start-yt-output_chest.mp3",
+   "words": [
+    {
+     "w": "Para",
+     "t": 0.099,
+     "d": 0.159
+    },
+    {
+     "w": "que",
+     "t": 0.32,
+     "d": 0.049
+    },
+    {
+     "w": "tus",
+     "t": 0.442,
+     "d": 0.135
+    },
+    {
+     "w": "máquinas",
+     "t": 0.614,
+     "d": 0.466
+    },
+    {
+     "w": "no",
+     "t": 1.116,
+     "d": 0.147
+    },
+    {
+     "w": "se",
+     "t": 1.288,
+     "d": 0.086
+    },
+    {
+     "w": "atasquen",
+     "t": 1.374,
+     "d": 0.417
+    },
+    {
+     "w": "al",
+     "t": 1.802,
+     "d": 0.098
+    },
+    {
+     "w": "craftear",
+     "t": 1.95,
+     "d": 0.38
+    },
+    {
+     "w": "stacks",
+     "t": 2.354,
+     "d": 0.392
+    },
+    {
+     "w": "necesitas",
+     "t": 3.04,
+     "d": 0.588
+    },
+    {
+     "w": "tu",
+     "t": 3.677,
+     "d": 0.061
+    },
+    {
+     "w": "primer",
+     "t": 3.8,
+     "d": 0.257
+    },
+    {
+     "w": "almacenamiento",
+     "t": 4.057,
+     "d": 0.858
+    },
+    {
+     "w": "el",
+     "t": 5.185,
+     "d": 0.123
+    },
+    {
+     "w": "Output",
+     "t": 5.32,
+     "d": 0.392
+    },
+    {
+     "w": "Chest",
+     "t": 5.761,
+     "d": 0.282
+    },
+    {
+     "w": "Cuesta",
+     "t": 6.924,
+     "d": 0.294
+    },
+    {
+     "w": "veinte",
+     "t": 7.243,
+     "d": 0.257
+    },
+    {
+     "w": "niveles",
+     "t": 7.537,
+     "d": 0.38
+    },
+    {
+     "w": "de",
+     "t": 7.953,
+     "d": 0.037
+    },
+    {
+     "w": "experiencia",
+     "t": 8.002,
+     "d": 0.625
+    },
+    {
+     "w": "y",
+     "t": 8.676,
+     "d": 0.025
+    },
+    {
+     "w": "se",
+     "t": 8.738,
+     "d": 0.11
+    },
+    {
+     "w": "craftea",
+     "t": 8.909,
+     "d": 0.392
+    },
+    {
+     "w": "en",
+     "t": 9.375,
+     "d": 0.012
+    },
+    {
+     "w": "la",
+     "t": 9.412,
+     "d": 0.086
+    },
+    {
+     "w": "mesa",
+     "t": 9.522,
+     "d": 0.245
+    },
+    {
+     "w": "mejorada",
+     "t": 9.792,
+     "d": 0.466
+    },
+    {
+     "w": "con",
+     "t": 10.319,
+     "d": 0.147
+    },
+    {
+     "w": "cinco",
+     "t": 10.49,
+     "d": 0.306
+    },
+    {
+     "w": "lingotes",
+     "t": 10.821,
+     "d": 0.466
+    },
+    {
+     "w": "de",
+     "t": 11.311,
+     "d": 0.049
+    },
+    {
+     "w": "plomo",
+     "t": 11.434,
+     "d": 0.319
+    },
+    {
+     "w": "una",
+     "t": 11.998,
+     "d": 0.196
+    },
+    {
+     "w": "tolva",
+     "t": 12.304,
+     "d": 0.282
+    },
+    {
+     "w": "y",
+     "t": 12.623,
+     "d": 0.061
+    },
+    {
+     "w": "un",
+     "t": 12.721,
+     "d": 0.172
+    },
+    {
+     "w": "cofre",
+     "t": 12.892,
+     "d": 0.343
+    },
+    {
+     "w": "Colócalo",
+     "t": 14.105,
+     "d": 0.453
+    },
+    {
+     "w": "pegado",
+     "t": 14.632,
+     "d": 0.319
+    },
+    {
+     "w": "al",
+     "t": 14.951,
+     "d": 0.074
+    },
+    {
+     "w": "dispensador",
+     "t": 15.049,
+     "d": 0.625
+    },
+    {
+     "w": "arriba",
+     "t": 15.944,
+     "d": 0.49
+    },
+    {
+     "w": "al",
+     "t": 16.605,
+     "d": 0.172
+    },
+    {
+     "w": "norte",
+     "t": 16.789,
+     "d": 0.417
+    },
+    {
+     "w": "este",
+     "t": 17.463,
+     "d": 0.331
+    },
+    {
+     "w": "sur",
+     "t": 18.027,
+     "d": 0.233
+    },
+    {
+     "w": "u",
+     "t": 18.272,
+     "d": 0.074
+    },
+    {
+     "w": "oeste",
+     "t": 18.382,
+     "d": 0.441
+    },
+    {
+     "w": "nunca",
+     "t": 19.056,
+     "d": 0.343
+    },
+    {
+     "w": "abajo",
+     "t": 19.473,
+     "d": 0.38
+    },
+    {
+     "w": "Los",
+     "t": 20.711,
+     "d": 0.147
+    },
+    {
+     "w": "productos",
+     "t": 20.931,
+     "d": 0.441
+    },
+    {
+     "w": "caerán",
+     "t": 21.422,
+     "d": 0.294
+    },
+    {
+     "w": "directamente",
+     "t": 21.752,
+     "d": 0.613
+    },
+    {
+     "w": "dentro",
+     "t": 22.402,
+     "d": 0.294
+    },
+    {
+     "w": "del",
+     "t": 22.733,
+     "d": 0.123
+    },
+    {
+     "w": "cofre",
+     "t": 22.917,
+     "d": 0.331
+    },
+    {
+     "w": "evitando",
+     "t": 23.542,
+     "d": 0.441
+    },
+    {
+     "w": "que",
+     "t": 24.032,
+     "d": 0.061
+    },
+    {
+     "w": "los",
+     "t": 24.118,
+     "d": 0.147
+    },
+    {
+     "w": "nueve",
+     "t": 24.289,
+     "d": 0.208
+    },
+    {
+     "w": "espacios",
+     "t": 24.51,
+     "d": 0.441
+    },
+    {
+     "w": "del",
+     "t": 24.988,
+     "d": 0.098
+    },
+    {
+     "w": "dispensador",
+     "t": 25.123,
+     "d": 0.613
+    },
+    {
+     "w": "se",
+     "t": 25.772,
+     "d": 0.123
+    },
+    {
+     "w": "llenen",
+     "t": 25.956,
+     "d": 0.282
+    },
+    {
+     "w": "y",
+     "t": 26.262,
+     "d": 0.049
+    },
+    {
+     "w": "la",
+     "t": 26.336,
+     "d": 0.098
+    },
+    {
+     "w": "máquina",
+     "t": 26.458,
+     "d": 0.404
+    },
+    {
+     "w": "se",
+     "t": 26.875,
+     "d": 0.11
+    },
+    {
+     "w": "bloquee",
+     "t": 27.022,
+     "d": 0.404
+    }
+   ],
+   "seconds": 28.72
+  },
+  {
    "id": "next",
    "kind": "next",
-   "label": "PASO 5 · EL CAMINO",
+   "label": "PASO 6 · EL CAMINO",
    "head": "Lo que se desbloquea después",
    "locked": [
     "Energy and Electricity",
@@ -1482,7 +1865,7 @@
     "Programmable Androids",
     "Cargo Management"
    ],
-   "text": "Cuando termines todos los ítems de Basic Machines se desbloquean Energía y Electricidad, GPS, Androides programables y Cargo. Ese es el camino: máquinas básicas, energía y automatización. En los próximos videos: los multibloques en detalle y tu primera granja de polvo.",
+   "text": "Cuando termines todos los ítems de Basic Machines se desbloquean Energía y Electricidad, GPS, Androides programables y Networks. Ese es el camino: máquinas básicas, energía y automatización con Networks V6 o Multiverse Networks. En los próximos videos: armaduras avanzadas de Supreme, Infinity, reactores nucleares y los Blistering Ingots.",
    "audio": "audio/start-yt-next.mp3",
    "words": [
     {
@@ -1557,141 +1940,176 @@
     },
     {
      "w": "Androides",
-     "t": 6.055,
+     "t": 6.043,
      "d": 0.527
     },
     {
      "w": "programables",
-     "t": 6.655,
-     "d": 0.674
+     "t": 6.643,
+     "d": 0.686
     },
     {
      "w": "y",
-     "t": 7.342,
-     "d": 0.025
+     "t": 7.354,
+     "d": 0.037
     },
     {
-     "w": "Cargo",
-     "t": 7.44,
-     "d": 0.331
+     "w": "Networks",
+     "t": 7.415,
+     "d": 0.649
     },
     {
      "w": "Ese",
-     "t": 8.64,
-     "d": 0.257
+     "t": 8.934,
+     "d": 0.245
     },
     {
      "w": "es",
-     "t": 8.922,
+     "t": 9.203,
      "d": 0.123
     },
     {
      "w": "el",
-     "t": 9.044,
+     "t": 9.326,
      "d": 0.074
     },
     {
      "w": "camino",
-     "t": 9.167,
+     "t": 9.449,
      "d": 0.404
     },
     {
      "w": "máquinas",
-     "t": 9.841,
-     "d": 0.515
+     "t": 10.135,
+     "d": 0.49
     },
     {
      "w": "básicas",
-     "t": 10.38,
-     "d": 0.551
+     "t": 10.649,
+     "d": 0.539
     },
     {
      "w": "energía",
-     "t": 11.176,
-     "d": 0.551
+     "t": 11.446,
+     "d": 0.527
     },
     {
      "w": "y",
-     "t": 11.777,
-     "d": 0.049
+     "t": 12.022,
+     "d": 0.061
     },
     {
      "w": "automatización",
-     "t": 11.838,
-     "d": 0.931
+     "t": 12.083,
+     "d": 0.907
+    },
+    {
+     "w": "con",
+     "t": 12.99,
+     "d": 0.123
+    },
+    {
+     "w": "Networks",
+     "t": 13.113,
+     "d": 0.551
+    },
+    {
+     "w": "V6",
+     "t": 13.676,
+     "d": 0.539
+    },
+    {
+     "w": "o",
+     "t": 14.228,
+     "d": 0.037
+    },
+    {
+     "w": "Multiverse",
+     "t": 14.289,
+     "d": 0.588
+    },
+    {
+     "w": "Networks",
+     "t": 14.902,
+     "d": 0.649
     },
     {
      "w": "En",
-     "t": 13.64,
-     "d": 0.11
+     "t": 16.422,
+     "d": 0.098
     },
     {
      "w": "los",
-     "t": 13.774,
+     "t": 16.544,
      "d": 0.123
     },
     {
      "w": "próximos",
-     "t": 13.971,
+     "t": 16.74,
      "d": 0.441
     },
     {
      "w": "videos",
-     "t": 14.436,
+     "t": 17.206,
      "d": 0.404
     },
     {
-     "w": "los",
-     "t": 15.11,
-     "d": 0.135
+     "w": "armaduras",
+     "t": 17.917,
+     "d": 0.564
     },
     {
-     "w": "multibloques",
-     "t": 15.282,
-     "d": 0.637
-    },
-    {
-     "w": "en",
-     "t": 15.919,
-     "d": 0.074
-    },
-    {
-     "w": "detalle",
-     "t": 16.042,
-     "d": 0.38
-    },
-    {
-     "w": "y",
-     "t": 16.483,
-     "d": 0.025
-    },
-    {
-     "w": "tu",
-     "t": 16.581,
-     "d": 0.061
-    },
-    {
-     "w": "primera",
-     "t": 16.703,
-     "d": 0.331
-    },
-    {
-     "w": "granja",
-     "t": 17.083,
-     "d": 0.343
+     "w": "avanzadas",
+     "t": 18.48,
+     "d": 0.527
     },
     {
      "w": "de",
-     "t": 17.451,
-     "d": 0.074
+     "t": 19.044,
+     "d": 0.061
     },
     {
-     "w": "polvo",
-     "t": 17.61,
-     "d": 0.343
+     "w": "Supreme",
+     "t": 19.13,
+     "d": 0.392
+    },
+    {
+     "w": "Infinity",
+     "t": 19.767,
+     "d": 0.649
+    },
+    {
+     "w": "reactores",
+     "t": 20.699,
+     "d": 0.502
+    },
+    {
+     "w": "nucleares",
+     "t": 21.226,
+     "d": 0.539
+    },
+    {
+     "w": "y",
+     "t": 21.801,
+     "d": 0.037
+    },
+    {
+     "w": "los",
+     "t": 21.863,
+     "d": 0.159
+    },
+    {
+     "w": "Blistering",
+     "t": 22.071,
+     "d": 0.502
+    },
+    {
+     "w": "Ingots",
+     "t": 22.586,
+     "d": 0.49
     }
    ],
-   "seconds": 19.22
+   "seconds": 24.35
   },
   {
    "id": "cta",

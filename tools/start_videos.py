@@ -69,9 +69,13 @@ async def main() -> None:
          "text": f"Con {three} niveles tienes tres máquinas clave. El Grind Stone: una valla de roble sobre un dispensador. El Ore Crusher: una valla de ladrillo del Nether sobre un dispensador, con barras de hierro a los lados; "
                  f"convierte mena de hierro y de oro en dos polvos cada una. Y el Ore Washer: dispensador, valla de roble y caldero con agua, donde el Sifted Ore se convierte en un polvo de metal al azar. "
                  f"Con {c['GOLD_PAN']} niveles más tienes el Gold Pan, para sacar Sifted Ore de la grava. En total, {four} niveles."},
-        {"id": "next", "kind": "next", "label": "PASO 5 · EL CAMINO", "head": "Lo que se desbloquea después", "locked": locked,
-         "text": "Cuando termines todos los ítems de Basic Machines se desbloquean Energía y Electricidad, GPS, Androides programables y Cargo. Ese es el camino: máquinas básicas, energía y automatización. "
-                 "En los próximos videos: los multibloques en detalle y tu primera granja de polvo."},
+        {"id": "output_chest", "kind": "model1", "label": "PASO 5 · PRIMER ALMACENAMIENTO", "head": "Output Chest: crafteo sin atascos", "block": "ORE_CRUSHER_OUTPUT",
+         "points": ["Investigación: 20 niveles de XP", "Colócalo pegado al dispensador (arriba o lados)", "Los productos van directo al cofre", "Evita que la máquina se bloquee por falta de espacio"],
+         "text": "Para que tus máquinas no se atasquen al craftear stacks, necesitas tu primer almacenamiento: el Output Chest. Cuesta veinte niveles de experiencia y se craftea en la mesa mejorada con cinco lingotes de plomo, una tolva y un cofre. "
+                 "Colócalo pegado al dispensador: arriba, al norte, este, sur u oeste, nunca abajo. Los productos caerán directamente dentro del cofre, evitando que los nueve espacios del dispensador se llenen y la máquina se bloquee."},
+        {"id": "next", "kind": "next", "label": "PASO 6 · EL CAMINO", "head": "Lo que se desbloquea después", "locked": locked,
+         "text": "Cuando termines todos los ítems de Basic Machines se desbloquean Energía y Electricidad, GPS, Androides programables y Networks. Ese es el camino: máquinas básicas, energía y automatización con Networks V6 o Multiverse Networks. "
+                 "En los próximos videos: armaduras avanzadas de Supreme, Infinity, reactores nucleares y los Blistering Ingots."},
         {"id": "cta", "kind": "title", "title": "mc.drakescraft.cl", "sub": "Java y Bedrock · únete al Discord",
          "text": "Entra a mc punto drakescraft punto cl, Java y Bedrock, y únete al Discord. ¡Nos vemos dentro!"},
     ]
