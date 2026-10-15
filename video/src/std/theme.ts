@@ -34,8 +34,8 @@ export const T = {
   size: { horizontal: { w: 1920, h: 1080 }, vertical: { w: 1080, h: 1920 } },
   color: THEMES[CURRENT_SEASON].color,
   themeConfig: THEMES[CURRENT_SEASON],
-  font: '"Segoe UI", "Instrument Sans", Arial, sans-serif',
-  fontBlack: '"Segoe UI Black", "Segoe UI", Arial, sans-serif',
+  font: '"Ubuntu", "Ubuntu Sans", "DejaVu Sans", sans-serif',
+  fontBlack: '"Ubuntu", "Ubuntu Sans", "DejaVu Sans", sans-serif',
   reel: { loopTop: 1230, captionTop: 960, maxSeconds: 60, hookSeconds: 3 },
   youtube: { maxSeconds: 240 },
 } as const;

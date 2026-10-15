@@ -6,6 +6,8 @@ import { Test3D } from "./Test3D";
 import { TestRing } from "./TestRing";
 import { PromoV2, promoFrames } from "./Promo";
 import { StartYT, StartReel, startYtFrames, startReelFrames } from "./Start";
+import { NetworksEpisode } from "./NetworksEpisode";
+import { NetworksReel } from "./NetworksReel";
 
 export const Root = () => (
   <>
@@ -17,5 +19,7 @@ export const Root = () => (
     <Composition id="StartReel" component={StartReel} durationInFrames={startReelFrames()} fps={FPS} width={1080} height={1920} />
     <Composition id="TestRing" component={TestRing} durationInFrames={900} fps={FPS} width={1080} height={1920} />
     <Composition id="PromoV2" component={PromoV2} durationInFrames={promoFrames()} fps={FPS} width={1080} height={1920} />
+    <Composition id="NetworksTutorial" component={NetworksEpisode} durationInFrames={900} fps={30} width={1920} height={1080} />
+    <Composition id="NetworksReel" component={NetworksReel} durationInFrames={900} fps={30} width={1080} height={1920} />
   </>
 );

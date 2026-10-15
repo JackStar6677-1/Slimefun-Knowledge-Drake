@@ -7,20 +7,38 @@ entre backticks (antes de Sources) no esta en el volcado.
 """
 from __future__ import annotations
 
+import gzip
 import json
 import pathlib
 import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-REPOS = ROOT.parent
+SEARCH_BASES = [
+    ROOT.parent.parent / "drakescraft",
+    ROOT.parent,
+    ROOT,
+]
 sys.stdout.reconfigure(encoding="utf-8")
 ID_RE = re.compile(r"`([A-Z][A-Z0-9]*(?:_[A-Z0-9]+)+)`")
 
 
+def source_exists(rel: str) -> bool:
+    for base in SEARCH_BASES:
+        if (base / rel).exists():
+            return True
+    return False
+
+
 def main(paths: list[str]) -> int:
     rules = json.loads((ROOT / "knowledge" / "topics.json").read_text(encoding="utf-8"))["doc_rules"]
-    ids = {i["id"] for i in json.loads((ROOT / "data" / "slimefun-dump.json").read_text(encoding="utf-8"))["items"]}
+    dump_path = ROOT / "data" / "slimefun-dump.json"
+    dump_gz = dump_path.with_suffix(".json.gz")
+    if not dump_path.exists() and dump_gz.exists():
+        dump_data = json.loads(gzip.open(dump_gz, "rt", encoding="utf-8").read())
+    else:
+        dump_data = json.loads(dump_path.read_text(encoding="utf-8"))
+    ids = {i["id"] for i in dump_data["items"]}
     bad = 0
     for p in paths:
         f = pathlib.Path(p) if pathlib.Path(p).is_absolute() else ROOT / p
@@ -34,7 +52,7 @@ def main(paths: list[str]) -> int:
         if len(parts) > 1:
             for m in re.finditer(r"`([^`\s]+?\.(?:java|kt|yml|json|md|html))(?::\d+)?`", parts[1]):
                 rel = m.group(1)
-                if not ((REPOS / rel).exists() or (ROOT / rel).exists()):
+                if not source_exists(rel):
                     errs.append(f"cited source does not exist: {rel}")
         for m in ID_RE.finditer(body):
             if m.group(1) not in ids:

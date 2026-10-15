@@ -15,21 +15,35 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-REPOS = ROOT.parent  # carpeta que contiene los clones (DrakesCraft-Labs)
+SEARCH_BASES = [
+    ROOT.parent.parent / "drakescraft",
+    ROOT.parent,
+    ROOT,
+]
 sys.stdout.reconfigure(encoding="utf-8")
 T = json.loads((ROOT / "knowledge" / "topics.json").read_text(encoding="utf-8"))
 EXT = (".java", ".kt", ".yml", ".html", ".md", ".json")
 
 
+import fnmatch
+
 def resolve(spec: str) -> list[str]:
     if ":" not in spec:
-        return sorted(str(p.relative_to(ROOT)) for p in ROOT.glob(spec) if p.is_file())[:30] or [spec]
-    repo, pat = spec.split(":", 1)
+        for base in SEARCH_BASES:
+            matches = [str(p.relative_to(base)) for p in base.glob(spec) if p.is_file()]
+            if matches:
+                return sorted(matches)[:30]
+        return [spec]
+    repo_pat, pat = spec.split(":", 1)
     out = []
-    for d in REPOS.glob(repo):
-        for p in glob.glob(str(d / pat), recursive=True):
-            if p.endswith(EXT) and pathlib.Path(p).is_file():
-                out.append(str(pathlib.Path(p).relative_to(REPOS)).replace("\\", "/"))
+    for base in SEARCH_BASES:
+        if not base.exists():
+            continue
+        matched_dirs = [d for d in base.iterdir() if d.is_dir() and fnmatch.fnmatch(d.name.lower(), repo_pat.lower())]
+        for d in matched_dirs:
+            for p in glob.glob(str(d / pat), recursive=True):
+                if p.endswith(EXT) and pathlib.Path(p).is_file():
+                    out.append(str(pathlib.Path(p).relative_to(base)).replace("\\", "/"))
     return sorted(out)
 
 

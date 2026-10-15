@@ -189,43 +189,43 @@ export const RingLab: React.FC<{ w: number; h: number; seed: string }> = ({ w, h
       {!resetting &&
         trail.map((tf, i) => <circle key={i} cx={P(sim.x[tf], sim.y[tf])[0]} cy={P(sim.x[tf], sim.y[tf])[1]} r={sim.r * S * (1 - i / 26)} fill="#ffd24a" opacity={0.5 - i * 0.02} />)}
       {!resetting && <circle cx={bx} cy={by} r={sim.r * S} fill="#fff" stroke="#ffd24a" strokeWidth={4} />}
-      <g transform="translate(20,24)" fontSize={25} fill="#bff7ee">
-        <rect x={-8} y={-8} width={430} height={h - 56} rx={12} fill="rgba(3,12,9,.72)" stroke="rgba(255,210,74,.5)" />
-        <text y={18} fill="#ffd24a" fontWeight={800}>
+      <g transform="translate(20,24)" fontSize={23} fill="#bff7ee" fontFamily='"Ubuntu Mono", "DejaVu Sans Mono", monospace'>
+        <rect x={-8} y={-8} width={430} height={h - 56} rx={12} fill="rgba(3,12,9,.85)" stroke="rgba(255,210,74,.6)" />
+        <text x={10} y={26} fill="#ffd24a" fontWeight={800}>
           SIMULACIÓN · semilla {hashSeed(seed) % 9973}
         </text>
-        <text y={58}>
+        <text x={10} y={64}>
           anillo   {sim.region[f] + 1}/{nR}
         </text>
-        <text y={90}>golpes   {sim.hits[f]}</text>
-        <text y={122}>
+        <text x={10} y={96}>golpes   {sim.hits[f]}</text>
+        <text x={10} y={128}>
           segm.    {alive}/{total}
         </text>
-        <text y={154}>|v|      {sp.toFixed(4)} u/f</text>
-        <text y={186}>E=½mv²  {(0.5 * sp * sp * 1000).toExponential(2)}</text>
+        <text x={10} y={160}>|v|      {sp.toFixed(4)} u/f</text>
+        <text x={10} y={192}>E=½mv²  {(0.5 * sp * sp * 1000).toExponential(2)}</text>
         {e1 && (
           <>
-            <text y={232} fill="#ffd24a" fontWeight={800}>
+            <text x={10} y={236} fill="#ffd24a" fontWeight={800}>
               PRÓXIMO IMPACTO t−{e1.f - f}f
             </text>
-            <text y={264}>ángulo   {theta.toFixed(1)}°</text>
-            <text y={296}>v·n      {fmt(dotNext, 4)}</text>
-            <text y={336} fill="#ffd24a">
+            <text x={10} y={268}>ángulo   {theta.toFixed(1)}°</text>
+            <text x={10} y={300}>v·n      {fmt(dotNext, 4)}</text>
+            <text x={10} y={338} fill="#ffd24a">
               v′ = v − 2(v·n)n
             </text>
-            <text y={368}>
+            <text x={10} y={370}>
               v  =({fmt(e1.vx, 3)},{fmt(e1.vy, 3)})
             </text>
-            <text y={398}>
+            <text x={10} y={400}>
               n  =({fmt(e1.nx, 2)},{fmt(e1.ny, 2)})
             </text>
-            <text y={428}>
+            <text x={10} y={430}>
               v′ =({fmt(rvx, 3)},{fmt(rvy, 3)})
             </text>
           </>
         )}
         {resetting && (
-          <text y={232} fill="#ff8a8a" fontWeight={800}>
+          <text x={10} y={236} fill="#ff8a8a" fontWeight={800}>
             TODOS LOS ANILLOS ROTOS → reinicio
           </text>
         )}
@@ -237,7 +237,7 @@ export const RingLab: React.FC<{ w: number; h: number; seed: string }> = ({ w, h
 // ---- 3. video externo local (carpeta public/bg/, ver docs/VIDEO_STANDARD.md) --------------------------------------------
 export const BottomVideo: React.FC<{ file: string }> = ({ file }) => (
   <AbsoluteFill>
-    <OffthreadVideo src={staticFile(`bg/${file}`)} muted loop style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+    <OffthreadVideo src={staticFile(`bg/${file}`)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
   </AbsoluteFill>
 );
 

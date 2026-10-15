@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts DustFarm out/dust-farm.mp4"
+    "render": "remotion render src/index.ts DustFarm out/dust-farm.mp4 --concurrency=4 --gl=angle",
+    "render:networks": "remotion render src/index.ts NetworksTutorial out/networks-v6-tutorial.mp4 --concurrency=4 --gl=angle"
   },
   "dependencies": {
     "@react-three/fiber": "8.17.10",

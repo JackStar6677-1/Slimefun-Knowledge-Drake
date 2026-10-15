@@ -23,3 +23,10 @@ video/src/start-yt.json
 video/src/start-reel.json
 video/src/multiblocks.json
 video/src/reel-promo.json
+video/src/reel-icons.json
+video/out/
+.venv/
+
+# Generated video outputs
+video/out/
+video/scripts/__pycache__/
