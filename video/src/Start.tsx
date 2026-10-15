@@ -153,6 +153,8 @@ export const StartYT: React.FC = () => {
   let at = 0;
   return (
     <AbsoluteFill style={{ background: C.bg }}>
+      {/* Música ambiente generativa Lo-Fi propia de DrakesCraft suave de fondo */}
+      <Audio src={staticFile("audio/ambient_music.wav")} volume={0.16} loop />
       {(yt as any).scenes.map((s: any) => {
         const dur = Math.round(s.seconds * FPS);
         const from = at;
@@ -247,6 +249,8 @@ export const StartReel: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: "#04100c" }}>
       <MovingBg vertical intensity={1.3} />
+      {/* Música ambiente generativa Lo-Fi propia integrada */}
+      <Audio src={staticFile("audio/ambient_music.wav")} volume={0.18} loop />
       {(reel as any).scenes.map((s: any) => {
         const dur = Math.round(s.seconds * FPS);
         const from = at;
