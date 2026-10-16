@@ -1,0 +1,3780 @@
+{
+  "sections": [
+    {
+      "id": "c2_p01_intro",
+      "title": "EL MITO DEL JUEGO DE BLOQUES",
+      "subtitle": "OpenJDK 21 64-Bit & ZGC Generacional",
+      "badge": "01 // SYS_PROFILE: OPENJDK_21_64BIT",
+      "text": "A nivel de superficie, Minecraft parece un juego de bloques simple. Pero desde la perspectiva de la computación, el modelo cambia drásticamente.",
+      "spoken_text": "A nivel de superficie, Minecraft suele catalogarse como un simple juego de gestión de bloques y mecánicas básicas. Pero cuando se analiza desde la perspectiva de la computación, el modelo cambia drásticamente.",
+      "file": "cap2_p01_intro.mp3",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "jvm_stack",
+      "duration": 12.24,
+      "words": [
+        {
+          "word": "A",
+          "start": 0.099,
+          "duration": 0.085791
+        },
+        {
+          "word": "nivel",
+          "start": 0.221583,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 0.491166,
+          "duration": 0.061291
+        },
+        {
+          "word": "superficie",
+          "start": 0.564708,
+          "duration": 0.61275
+        },
+        {
+          "word": "Minecraft",
+          "start": 1.447041,
+          "duration": 0.465666
+        },
+        {
+          "word": "suele",
+          "start": 1.925,
+          "duration": 0.220583
+        },
+        {
+          "word": "catalogarse",
+          "start": 2.206875,
+          "duration": 0.576
+        },
+        {
+          "word": "como",
+          "start": 2.831875,
+          "duration": 0.208333
+        },
+        {
+          "word": "un",
+          "start": 3.052458,
+          "duration": 0.110291
+        },
+        {
+          "word": "simple",
+          "start": 3.18725,
+          "duration": 0.306375
+        },
+        {
+          "word": "juego",
+          "start": 3.518125,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 3.8,
+          "duration": 0.061291
+        },
+        {
+          "word": "gestión",
+          "start": 3.873541,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 4.314708,
+          "duration": 0.049
+        },
+        {
+          "word": "bloques",
+          "start": 4.4005,
+          "duration": 0.355375
+        },
+        {
+          "word": "y",
+          "start": 4.768125,
+          "duration": 0.01225
+        },
+        {
+          "word": "mecánicas",
+          "start": 4.817166,
+          "duration": 0.563708
+        },
+        {
+          "word": "básicas",
+          "start": 5.417666,
+          "duration": 0.526958
+        },
+        {
+          "word": "Pero",
+          "start": 6.83825,
+          "duration": 0.183833
+        },
+        {
+          "word": "cuando",
+          "start": 7.071083,
+          "duration": 0.208333
+        },
+        {
+          "word": "se",
+          "start": 7.291666,
+          "duration": 0.085791
+        },
+        {
+          "word": "analiza",
+          "start": 7.377458,
+          "duration": 0.453416
+        },
+        {
+          "word": "desde",
+          "start": 7.855375,
+          "duration": 0.183833
+        },
+        {
+          "word": "la",
+          "start": 8.063708,
+          "duration": 0.073541
+        },
+        {
+          "word": "perspectiva",
+          "start": 8.198541,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 8.76225,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 8.848041,
+          "duration": 0.061291
+        },
+        {
+          "word": "computación",
+          "start": 8.958333,
+          "duration": 0.61275
+        },
+        {
+          "word": "el",
+          "start": 9.791666,
+          "duration": 0.098041
+        },
+        {
+          "word": "modelo",
+          "start": 9.914208,
+          "duration": 0.306375
+        },
+        {
+          "word": "cambia",
+          "start": 10.294125,
+          "duration": 0.281875
+        },
+        {
+          "word": "drásticamente",
+          "start": 10.6005,
+          "duration": 0.747541
+        }
+      ]
+    },
+    {
+      "id": "c2_p02_budget",
+      "title": "EL PRESUPUESTO POR TICK",
+      "subtitle": "50.00 ms inflexibles por ciclo computacional",
+      "badge": "02 // BUDGET: 50.00 MS / TICK",
+      "text": "El motor corre sobre un bucle síncrono de 20 ciclos por segundo. El hilo principal tiene una ventana estricta de 50 ms para evaluar física, entidades, máquinas y transacciones de estado de cada jugador conectado.",
+      "spoken_text": "El motor del juego corre sobre un bucle síncrono inflexible: cada segundo contiene exactamente veinte ciclos de cómputo. Eso significa que el hilo principal tiene una ventana estricta de cincuenta milisegundos para evaluar la física, el movimiento de entidades, las máquinas y las transacciones de estado de cada jugador conectado.",
+      "file": "cap2_p02_budget.mp3",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "tick_budget",
+      "duration": 17.952,
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.122541
+        },
+        {
+          "word": "motor",
+          "start": 0.246083,
+          "duration": 0.245083
+        },
+        {
+          "word": "del",
+          "start": 0.527958,
+          "duration": 0.098041
+        },
+        {
+          "word": "juego",
+          "start": 0.6505,
+          "duration": 0.269625
+        },
+        {
+          "word": "corre",
+          "start": 0.993625,
+          "duration": 0.196083
+        },
+        {
+          "word": "sobre",
+          "start": 1.214208,
+          "duration": 0.245083
+        },
+        {
+          "word": "un",
+          "start": 1.483833,
+          "duration": 0.098041
+        },
+        {
+          "word": "bucle",
+          "start": 1.606375,
+          "duration": 0.245083
+        },
+        {
+          "word": "síncrono",
+          "start": 1.876,
+          "duration": 0.404416
+        },
+        {
+          "word": "inflexible",
+          "start": 2.304916,
+          "duration": 0.539208
+        },
+        {
+          "word": "cada",
+          "start": 3.101458,
+          "duration": 0.183833
+        },
+        {
+          "word": "segundo",
+          "start": 3.297541,
+          "duration": 0.343125
+        },
+        {
+          "word": "contiene",
+          "start": 3.689708,
+          "duration": 0.367666
+        },
+        {
+          "word": "exactamente",
+          "start": 4.094125,
+          "duration": 0.66175
+        },
+        {
+          "word": "veinte",
+          "start": 4.792666,
+          "duration": 0.269625
+        },
+        {
+          "word": "ciclos",
+          "start": 5.08675,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 5.478916,
+          "duration": 0.049
+        },
+        {
+          "word": "cómputo",
+          "start": 5.589208,
+          "duration": 0.428916
+        },
+        {
+          "word": "Eso",
+          "start": 6.875,
+          "duration": 0.232833
+        },
+        {
+          "word": "significa",
+          "start": 7.132333,
+          "duration": 0.539208
+        },
+        {
+          "word": "que",
+          "start": 7.745083,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 7.843125,
+          "duration": 0.098041
+        },
+        {
+          "word": "hilo",
+          "start": 7.953416,
+          "duration": 0.171583
+        },
+        {
+          "word": "principal",
+          "start": 8.186291,
+          "duration": 0.428916
+        },
+        {
+          "word": "tiene",
+          "start": 8.688708,
+          "duration": 0.171583
+        },
+        {
+          "word": "una",
+          "start": 8.884791,
+          "duration": 0.134791
+        },
+        {
+          "word": "ventana",
+          "start": 9.044125,
+          "duration": 0.343125
+        },
+        {
+          "word": "estricta",
+          "start": 9.41175,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 9.816166,
+          "duration": 0.085791
+        },
+        {
+          "word": "cincuenta",
+          "start": 9.926458,
+          "duration": 0.416666
+        },
+        {
+          "word": "milisegundos",
+          "start": 10.367666,
+          "duration": 0.625
+        },
+        {
+          "word": "para",
+          "start": 11.066166,
+          "duration": 0.134791
+        },
+        {
+          "word": "evaluar",
+          "start": 11.25,
+          "duration": 0.343125
+        },
+        {
+          "word": "la",
+          "start": 11.605375,
+          "duration": 0.061291
+        },
+        {
+          "word": "física",
+          "start": 11.703416,
+          "duration": 0.441166
+        },
+        {
+          "word": "el",
+          "start": 12.365208,
+          "duration": 0.110291
+        },
+        {
+          "word": "movimiento",
+          "start": 12.5,
+          "duration": 0.490208
+        },
+        {
+          "word": "de",
+          "start": 13.026958,
+          "duration": 0.073541
+        },
+        {
+          "word": "entidades",
+          "start": 13.11275,
+          "duration": 0.526958
+        },
+        {
+          "word": "las",
+          "start": 13.848041,
+          "duration": 0.159333
+        },
+        {
+          "word": "máquinas",
+          "start": 14.044125,
+          "duration": 0.428916
+        },
+        {
+          "word": "y",
+          "start": 14.485291,
+          "duration": 0.0245
+        },
+        {
+          "word": "las",
+          "start": 14.546583,
+          "duration": 0.098041
+        },
+        {
+          "word": "transacciones",
+          "start": 14.705875,
+          "duration": 0.563708
+        },
+        {
+          "word": "de",
+          "start": 15.318625,
+          "duration": 0.049
+        },
+        {
+          "word": "estado",
+          "start": 15.428916,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 15.784333,
+          "duration": 0.061291
+        },
+        {
+          "word": "cada",
+          "start": 15.931375,
+          "duration": 0.183833
+        },
+        {
+          "word": "jugador",
+          "start": 16.127458,
+          "duration": 0.392166
+        },
+        {
+          "word": "conectado",
+          "start": 16.568625,
+          "duration": 0.490208
+        }
+      ]
+    },
+    {
+      "id": "c2_p03_drift",
+      "title": "DEUDA COMPUTACIONAL & TICK DRIFT",
+      "subtitle": "Colapso del tiempo versus estabilidad en producción",
+      "badge": "03 // TARGET: 20.00 TPS CONSTANT",
+      "text": "Si un bloque excede la ventana, se acumula deuda computacional y ocurre tick drift. Esto no es una partida casual: es una prueba de estrés de sistemas distribuidos y concurrencia en producción.",
+      "spoken_text": "Si la lógica de un bloque o una tubería excede esa ventana por un milisegundo, el servidor acumula deuda computacional. Si la deuda se sostiene, el tiempo colapsa en el infame tick drift. Lo que están viendo en pantalla no es una partida casual; es una prueba de estrés de sistemas distribuidos y concurrencia ejecutándose en producción.",
+      "file": "cap2_p03_drift.mp3",
+      "action": "walk",
+      "camera": "wide",
+      "diagram": "spark_histogram",
+      "duration": 18.936,
+      "words": [
+        {
+          "word": "Si",
+          "start": 0.099,
+          "duration": 0.171583
+        },
+        {
+          "word": "la",
+          "start": 0.307333,
+          "duration": 0.085791
+        },
+        {
+          "word": "lógica",
+          "start": 0.405375,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 0.822041,
+          "duration": 0.073541
+        },
+        {
+          "word": "un",
+          "start": 0.932333,
+          "duration": 0.098041
+        },
+        {
+          "word": "bloque",
+          "start": 1.054916,
+          "duration": 0.318625
+        },
+        {
+          "word": "o",
+          "start": 1.385791,
+          "duration": 0.073541
+        },
+        {
+          "word": "una",
+          "start": 1.471583,
+          "duration": 0.171583
+        },
+        {
+          "word": "tubería",
+          "start": 1.704416,
+          "duration": 0.355375
+        },
+        {
+          "word": "excede",
+          "start": 2.072041,
+          "duration": 0.281875
+        },
+        {
+          "word": "esa",
+          "start": 2.439708,
+          "duration": 0.147041
+        },
+        {
+          "word": "ventana",
+          "start": 2.611291,
+          "duration": 0.367666
+        },
+        {
+          "word": "por",
+          "start": 3.052458,
+          "duration": 0.098041
+        },
+        {
+          "word": "un",
+          "start": 3.16275,
+          "duration": 0.098041
+        },
+        {
+          "word": "milisegundo",
+          "start": 3.309791,
+          "duration": 0.58825
+        },
+        {
+          "word": "el",
+          "start": 4.118625,
+          "duration": 0.122541
+        },
+        {
+          "word": "servidor",
+          "start": 4.241166,
+          "duration": 0.416666
+        },
+        {
+          "word": "acumula",
+          "start": 4.657833,
+          "duration": 0.441166
+        },
+        {
+          "word": "deuda",
+          "start": 5.123541,
+          "duration": 0.257333
+        },
+        {
+          "word": "computacional",
+          "start": 5.442166,
+          "duration": 0.723041
+        },
+        {
+          "word": "Si",
+          "start": 7.034333,
+          "duration": 0.171583
+        },
+        {
+          "word": "la",
+          "start": 7.230375,
+          "duration": 0.073541
+        },
+        {
+          "word": "deuda",
+          "start": 7.328416,
+          "duration": 0.245083
+        },
+        {
+          "word": "se",
+          "start": 7.573541,
+          "duration": 0.110291
+        },
+        {
+          "word": "sostiene",
+          "start": 7.696083,
+          "duration": 0.490208
+        },
+        {
+          "word": "el",
+          "start": 8.406875,
+          "duration": 0.134791
+        },
+        {
+          "word": "tiempo",
+          "start": 8.602958,
+          "duration": 0.245083
+        },
+        {
+          "word": "colapsa",
+          "start": 8.897041,
+          "duration": 0.379916
+        },
+        {
+          "word": "en",
+          "start": 9.276958,
+          "duration": 0.061291
+        },
+        {
+          "word": "el",
+          "start": 9.3505,
+          "duration": 0.085791
+        },
+        {
+          "word": "infame",
+          "start": 9.436291,
+          "duration": 0.355375
+        },
+        {
+          "word": "tick",
+          "start": 9.877458,
+          "duration": 0.122541
+        },
+        {
+          "word": "drift",
+          "start": 10.049,
+          "duration": 0.269625
+        },
+        {
+          "word": "Lo",
+          "start": 11.188708,
+          "duration": 0.134791
+        },
+        {
+          "word": "que",
+          "start": 11.384791,
+          "duration": 0.049
+        },
+        {
+          "word": "están",
+          "start": 11.482833,
+          "duration": 0.220583
+        },
+        {
+          "word": "viendo",
+          "start": 11.752458,
+          "duration": 0.232833
+        },
+        {
+          "word": "en",
+          "start": 11.985291,
+          "duration": 0.110291
+        },
+        {
+          "word": "pantalla",
+          "start": 12.107833,
+          "duration": 0.392166
+        },
+        {
+          "word": "no",
+          "start": 12.5245,
+          "duration": 0.110291
+        },
+        {
+          "word": "es",
+          "start": 12.671583,
+          "duration": 0.110291
+        },
+        {
+          "word": "una",
+          "start": 12.806375,
+          "duration": 0.122541
+        },
+        {
+          "word": "partida",
+          "start": 12.990208,
+          "duration": 0.355375
+        },
+        {
+          "word": "casual",
+          "start": 13.394625,
+          "duration": 0.392166
+        },
+        {
+          "word": "es",
+          "start": 14.007333,
+          "duration": 0.110291
+        },
+        {
+          "word": "una",
+          "start": 14.142166,
+          "duration": 0.122541
+        },
+        {
+          "word": "prueba",
+          "start": 14.33825,
+          "duration": 0.196083
+        },
+        {
+          "word": "de",
+          "start": 14.558833,
+          "duration": 0.061291
+        },
+        {
+          "word": "estrés",
+          "start": 14.693625,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 15.01225,
+          "duration": 0.049
+        },
+        {
+          "word": "sistemas",
+          "start": 15.085791,
+          "duration": 0.416666
+        },
+        {
+          "word": "distribuidos",
+          "start": 15.551458,
+          "duration": 0.563708
+        },
+        {
+          "word": "y",
+          "start": 16.127458,
+          "duration": 0.01225
+        },
+        {
+          "word": "concurrencia",
+          "start": 16.201,
+          "duration": 0.526958
+        },
+        {
+          "word": "ejecutándose",
+          "start": 16.752458,
+          "duration": 0.698541
+        },
+        {
+          "word": "en",
+          "start": 17.46325,
+          "duration": 0.098041
+        },
+        {
+          "word": "producción",
+          "start": 17.561291,
+          "duration": 0.490208
+        }
+      ]
+    },
+    {
+      "id": "c2_p04_operador",
+      "title": "EL OPERADOR: INGENIERÍA DE DÍA",
+      "subtitle": "Infraestructura física, redes y switches institucionales",
+      "badge": "04 // OPERADOR: JACK · SYSADMIN & SRE",
+      "text": "Soy Jack. De día administro infraestructura física, switches gestionables, servidores hipervisores y redes institucionales para cientos de usuarios concurrentes.",
+      "spoken_text": "Mi nombre es Jack. De lunes a viernes, durante el día, mi trabajo consiste en administrar la infraestructura física, switches gestionables, servidores hipervisores y las plataformas de red institucional para una entidad educativa con cientos de usuarios concurrentes.",
+      "file": "cap2_p04_operador.mp3",
+      "action": "desk",
+      "camera": "close",
+      "diagram": "network_topology",
+      "duration": 15.216,
+      "words": [
+        {
+          "word": "Mi",
+          "start": 0.099,
+          "duration": 0.134791
+        },
+        {
+          "word": "nombre",
+          "start": 0.258333,
+          "duration": 0.281875
+        },
+        {
+          "word": "es",
+          "start": 0.589208,
+          "duration": 0.073541
+        },
+        {
+          "word": "Jack",
+          "start": 0.68725,
+          "duration": 0.269625
+        },
+        {
+          "word": "De",
+          "start": 1.86275,
+          "duration": 0.159333
+        },
+        {
+          "word": "lunes",
+          "start": 2.046583,
+          "duration": 0.281833
+        },
+        {
+          "word": "a",
+          "start": 2.328416,
+          "duration": 0.03675
+        },
+        {
+          "word": "viernes",
+          "start": 2.401958,
+          "duration": 0.416666
+        },
+        {
+          "word": "durante",
+          "start": 3.076,
+          "duration": 0.294083
+        },
+        {
+          "word": "el",
+          "start": 3.370083,
+          "duration": 0.073541
+        },
+        {
+          "word": "día",
+          "start": 3.492666,
+          "duration": 0.257333
+        },
+        {
+          "word": "mi",
+          "start": 3.982833,
+          "duration": 0.098041
+        },
+        {
+          "word": "trabajo",
+          "start": 4.142166,
+          "duration": 0.306375
+        },
+        {
+          "word": "consiste",
+          "start": 4.497541,
+          "duration": 0.453416
+        },
+        {
+          "word": "en",
+          "start": 4.951,
+          "duration": 0.08575
+        },
+        {
+          "word": "administrar",
+          "start": 5.03675,
+          "duration": 0.563708
+        },
+        {
+          "word": "la",
+          "start": 5.61275,
+          "duration": 0.049
+        },
+        {
+          "word": "infraestructura",
+          "start": 5.686291,
+          "duration": 0.6495
+        },
+        {
+          "word": "física",
+          "start": 6.360291,
+          "duration": 0.465666
+        },
+        {
+          "word": "switches",
+          "start": 7.046583,
+          "duration": 0.392166
+        },
+        {
+          "word": "gestionables",
+          "start": 7.451,
+          "duration": 0.63725
+        },
+        {
+          "word": "servidores",
+          "start": 8.284333,
+          "duration": 0.551458
+        },
+        {
+          "word": "hipervisores",
+          "start": 8.835791,
+          "duration": 0.66175
+        },
+        {
+          "word": "y",
+          "start": 9.509791,
+          "duration": 0.0245
+        },
+        {
+          "word": "las",
+          "start": 9.571083,
+          "duration": 0.122541
+        },
+        {
+          "word": "plataformas",
+          "start": 9.754916,
+          "duration": 0.514708
+        },
+        {
+          "word": "de",
+          "start": 10.318625,
+          "duration": 0.073541
+        },
+        {
+          "word": "red",
+          "start": 10.428916,
+          "duration": 0.171583
+        },
+        {
+          "word": "institucional",
+          "start": 10.61275,
+          "duration": 0.686291
+        },
+        {
+          "word": "para",
+          "start": 11.384791,
+          "duration": 0.159333
+        },
+        {
+          "word": "una",
+          "start": 11.568625,
+          "duration": 0.122541
+        },
+        {
+          "word": "entidad",
+          "start": 11.703416,
+          "duration": 0.355375
+        },
+        {
+          "word": "educativa",
+          "start": 12.071083,
+          "duration": 0.490208
+        },
+        {
+          "word": "con",
+          "start": 12.622541,
+          "duration": 0.134791
+        },
+        {
+          "word": "cientos",
+          "start": 12.781875,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 13.1495,
+          "duration": 0.049
+        },
+        {
+          "word": "usuarios",
+          "start": 13.210791,
+          "duration": 0.392166
+        },
+        {
+          "word": "concurrentes",
+          "start": 13.651958,
+          "duration": 0.674
+        }
+      ]
+    },
+    {
+      "id": "c2_p05_disciplina",
+      "title": "DISCIPLINA OPERATIVA SRE",
+      "subtitle": "Trazabilidad de incidentes y repositorio Maven propio",
+      "badge": "05 // ARTIFACT: maven.drakescraft.cl",
+      "text": "Esa disciplina que exige trazabilidad de incidentes, respaldos atómicos y redundancia ante fallos la aplico por las noches: repositorio Maven propio, compilación Java y operaciones SRE.",
+      "spoken_text": "Esa misma disciplina operativa, la que exige trazabilidad de incidentes, políticas de respaldo consistentes y redundancia ante fallos, es la que aplico cuando termina mi jornada laboral. Por las noches no entro a jugar; entro a construir, auditar y operar software.",
+      "file": "cap2_p05_disciplina.mp3",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "maven_pipeline",
+      "duration": 15.048,
+      "words": [
+        {
+          "word": "Esa",
+          "start": 0.099,
+          "duration": 0.220583
+        },
+        {
+          "word": "misma",
+          "start": 0.344125,
+          "duration": 0.232833
+        },
+        {
+          "word": "disciplina",
+          "start": 0.601458,
+          "duration": 0.441166
+        },
+        {
+          "word": "operativa",
+          "start": 1.054916,
+          "duration": 0.576
+        },
+        {
+          "word": "la",
+          "start": 1.851458,
+          "duration": 0.110291
+        },
+        {
+          "word": "que",
+          "start": 2.023041,
+          "duration": 0.049
+        },
+        {
+          "word": "exige",
+          "start": 2.121083,
+          "duration": 0.294125
+        },
+        {
+          "word": "trazabilidad",
+          "start": 2.476458,
+          "duration": 0.6005
+        },
+        {
+          "word": "de",
+          "start": 3.101458,
+          "duration": 0.049
+        },
+        {
+          "word": "incidentes",
+          "start": 3.18725,
+          "duration": 0.526958
+        },
+        {
+          "word": "políticas",
+          "start": 3.959333,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 4.46175,
+          "duration": 0.049
+        },
+        {
+          "word": "respaldo",
+          "start": 4.547541,
+          "duration": 0.379916
+        },
+        {
+          "word": "consistentes",
+          "start": 4.964208,
+          "duration": 0.674
+        },
+        {
+          "word": "y",
+          "start": 5.63825,
+          "duration": 0.0245
+        },
+        {
+          "word": "redundancia",
+          "start": 5.6995,
+          "duration": 0.551458
+        },
+        {
+          "word": "ante",
+          "start": 6.251,
+          "duration": 0.171583
+        },
+        {
+          "word": "fallos",
+          "start": 6.447041,
+          "duration": 0.392166
+        },
+        {
+          "word": "es",
+          "start": 7.059791,
+          "duration": 0.122541
+        },
+        {
+          "word": "la",
+          "start": 7.206875,
+          "duration": 0.073541
+        },
+        {
+          "word": "que",
+          "start": 7.341666,
+          "duration": 0.049
+        },
+        {
+          "word": "aplico",
+          "start": 7.390666,
+          "duration": 0.355375
+        },
+        {
+          "word": "cuando",
+          "start": 7.819625,
+          "duration": 0.220583
+        },
+        {
+          "word": "termina",
+          "start": 8.101458,
+          "duration": 0.318625
+        },
+        {
+          "word": "mi",
+          "start": 8.444625,
+          "duration": 0.085791
+        },
+        {
+          "word": "jornada",
+          "start": 8.554916,
+          "duration": 0.453416
+        },
+        {
+          "word": "laboral",
+          "start": 9.020583,
+          "duration": 0.428916
+        },
+        {
+          "word": "Por",
+          "start": 10.306375,
+          "duration": 0.159333
+        },
+        {
+          "word": "las",
+          "start": 10.490208,
+          "duration": 0.122541
+        },
+        {
+          "word": "noches",
+          "start": 10.63725,
+          "duration": 0.306375
+        },
+        {
+          "word": "no",
+          "start": 10.968125,
+          "duration": 0.110291
+        },
+        {
+          "word": "entro",
+          "start": 11.102958,
+          "duration": 0.196083
+        },
+        {
+          "word": "a",
+          "start": 11.311291,
+          "duration": 0.0245
+        },
+        {
+          "word": "jugar",
+          "start": 11.360291,
+          "duration": 0.306375
+        },
+        {
+          "word": "entro",
+          "start": 11.88725,
+          "duration": 0.220583
+        },
+        {
+          "word": "a",
+          "start": 12.120083,
+          "duration": 0.0245
+        },
+        {
+          "word": "construir",
+          "start": 12.205875,
+          "duration": 0.465666
+        },
+        {
+          "word": "auditar",
+          "start": 12.916666,
+          "duration": 0.428916
+        },
+        {
+          "word": "y",
+          "start": 13.370083,
+          "duration": 0.049
+        },
+        {
+          "word": "operar",
+          "start": 13.431375,
+          "duration": 0.318625
+        },
+        {
+          "word": "software",
+          "start": 13.7745,
+          "duration": 0.392166
+        }
+      ]
+    },
+    {
+      "id": "c2_p06_testbed",
+      "title": "UN BANCO DE PRUEBAS DE INGENIERÍA",
+      "subtitle": "Dockerización y exploración de límites de la JVM",
+      "badge": "06 // OPERATIONAL: CONTAINERIZED STACKS",
+      "text": "DrakesCraft no es una red comercial de minijuegos. Es un banco de pruebas de ingeniería de software para explorar los límites reales de la JVM bajo condiciones extremas.",
+      "spoken_text": "Para mí, DrakesCraft nunca fue pensado como una red comercial con microtransacciones. Fue concebido desde el primer día como un banco de pruebas de ingeniería de software para explorar los límites reales del ecosistema de la máquina virtual de Java bajo condiciones extremas.",
+      "file": "cap2_p06_testbed.mp3",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "docker_stacks",
+      "duration": 15.096,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.183833
+        },
+        {
+          "word": "mí",
+          "start": 0.319625,
+          "duration": 0.147041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 0.71175,
+          "duration": 0.58825
+        },
+        {
+          "word": "nunca",
+          "start": 1.3245,
+          "duration": 0.269625
+        },
+        {
+          "word": "fue",
+          "start": 1.618625,
+          "duration": 0.122541
+        },
+        {
+          "word": "pensado",
+          "start": 1.802458,
+          "duration": 0.367666
+        },
+        {
+          "word": "como",
+          "start": 2.219125,
+          "duration": 0.196083
+        },
+        {
+          "word": "una",
+          "start": 2.427458,
+          "duration": 0.183833
+        },
+        {
+          "word": "red",
+          "start": 2.623541,
+          "duration": 0.147041
+        },
+        {
+          "word": "comercial",
+          "start": 2.831875,
+          "duration": 0.428916
+        },
+        {
+          "word": "con",
+          "start": 3.322041,
+          "duration": 0.110291
+        },
+        {
+          "word": "microtransacciones",
+          "start": 3.481375,
+          "duration": 0.980375
+        },
+        {
+          "word": "Fue",
+          "start": 5.367666,
+          "duration": 0.159333
+        },
+        {
+          "word": "concebido",
+          "start": 5.576,
+          "duration": 0.465666
+        },
+        {
+          "word": "desde",
+          "start": 6.066166,
+          "duration": 0.183833
+        },
+        {
+          "word": "el",
+          "start": 6.25,
+          "duration": 0.061291
+        },
+        {
+          "word": "primer",
+          "start": 6.384791,
+          "duration": 0.232833
+        },
+        {
+          "word": "día",
+          "start": 6.666666,
+          "duration": 0.171583
+        },
+        {
+          "word": "como",
+          "start": 6.8995,
+          "duration": 0.208333
+        },
+        {
+          "word": "un",
+          "start": 7.107833,
+          "duration": 0.110291
+        },
+        {
+          "word": "banco",
+          "start": 7.254916,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 7.549,
+          "duration": 0.073541
+        },
+        {
+          "word": "pruebas",
+          "start": 7.696083,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 8.002458,
+          "duration": 0.049
+        },
+        {
+          "word": "ingeniería",
+          "start": 8.076,
+          "duration": 0.563708
+        },
+        {
+          "word": "de",
+          "start": 8.651958,
+          "duration": 0.073541
+        },
+        {
+          "word": "software",
+          "start": 8.76225,
+          "duration": 0.367666
+        },
+        {
+          "word": "para",
+          "start": 9.215666,
+          "duration": 0.110291
+        },
+        {
+          "word": "explorar",
+          "start": 9.36275,
+          "duration": 0.416666
+        },
+        {
+          "word": "los",
+          "start": 9.803916,
+          "duration": 0.134791
+        },
+        {
+          "word": "límites",
+          "start": 9.9755,
+          "duration": 0.392166
+        },
+        {
+          "word": "reales",
+          "start": 10.367666,
+          "duration": 0.306375
+        },
+        {
+          "word": "del",
+          "start": 10.710791,
+          "duration": 0.098041
+        },
+        {
+          "word": "ecosistema",
+          "start": 10.808833,
+          "duration": 0.58825
+        },
+        {
+          "word": "de",
+          "start": 11.421583,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 11.519625,
+          "duration": 0.073541
+        },
+        {
+          "word": "máquina",
+          "start": 11.617666,
+          "duration": 0.330875
+        },
+        {
+          "word": "virtual",
+          "start": 11.985291,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 12.426458,
+          "duration": 0.061291
+        },
+        {
+          "word": "Java",
+          "start": 12.51225,
+          "duration": 0.257333
+        },
+        {
+          "word": "bajo",
+          "start": 12.806375,
+          "duration": 0.196083
+        },
+        {
+          "word": "condiciones",
+          "start": 13.051458,
+          "duration": 0.58825
+        },
+        {
+          "word": "extremas",
+          "start": 13.639708,
+          "duration": 0.563708
+        }
+      ]
+    },
+    {
+      "id": "c2_p07_slimefun",
+      "title": "EL SUBSISTEMA SLIMEFUN 4",
+      "subtitle": "Lógica por bloque procesada enteramente en el servidor",
+      "badge": "07 // SUBSYSTEM: SLIMEFUN 4 RUNTIME",
+      "text": "Slimefun introduce tecnología industrial, redes energéticas y almacenamiento digital sin requerir mods externos en el cliente: todo se procesa íntegramente en el servidor.",
+      "spoken_text": "Dentro del ecosistema existe un marco de trabajo llamado Slimefun. Slimefun añade capas de tecnología industrial, redes de transporte de energía y almacenamiento digital sin exigirle al cliente que instale mods externos: todo se procesa en el servidor.",
+      "file": "cap2_p07_slimefun.mp3",
+      "action": "walk",
+      "camera": "wide",
+      "diagram": "slimefun_energy",
+      "duration": 14.784,
+      "words": [
+        {
+          "word": "Dentro",
+          "start": 0.099,
+          "duration": 0.330875
+        },
+        {
+          "word": "del",
+          "start": 0.454416,
+          "duration": 0.098041
+        },
+        {
+          "word": "ecosistema",
+          "start": 0.552458,
+          "duration": 0.551458
+        },
+        {
+          "word": "existe",
+          "start": 1.116166,
+          "duration": 0.379916
+        },
+        {
+          "word": "un",
+          "start": 1.508333,
+          "duration": 0.085791
+        },
+        {
+          "word": "marco",
+          "start": 1.643125,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 1.96175,
+          "duration": 0.085791
+        },
+        {
+          "word": "trabajo",
+          "start": 2.096583,
+          "duration": 0.343125
+        },
+        {
+          "word": "llamado",
+          "start": 2.488708,
+          "duration": 0.318625
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.819625,
+          "duration": 0.563708
+        },
+        {
+          "word": "Slimefun",
+          "start": 4.252458,
+          "duration": 0.526958
+        },
+        {
+          "word": "añade",
+          "start": 4.791666,
+          "duration": 0.281875
+        },
+        {
+          "word": "capas",
+          "start": 5.147041,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 5.441166,
+          "duration": 0.049
+        },
+        {
+          "word": "tecnología",
+          "start": 5.551458,
+          "duration": 0.539208
+        },
+        {
+          "word": "industrial",
+          "start": 6.102958,
+          "duration": 0.526958
+        },
+        {
+          "word": "redes",
+          "start": 6.8995,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 7.169125,
+          "duration": 0.049
+        },
+        {
+          "word": "transporte",
+          "start": 7.267166,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 7.769625,
+          "duration": 0.073541
+        },
+        {
+          "word": "energía",
+          "start": 7.916666,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 8.382333,
+          "duration": 0.061291
+        },
+        {
+          "word": "almacenamiento",
+          "start": 8.443625,
+          "duration": 0.710791
+        },
+        {
+          "word": "digital",
+          "start": 9.191166,
+          "duration": 0.416666
+        },
+        {
+          "word": "sin",
+          "start": 9.620083,
+          "duration": 0.183833
+        },
+        {
+          "word": "exigirle",
+          "start": 9.803916,
+          "duration": 0.502458
+        },
+        {
+          "word": "al",
+          "start": 10.306375,
+          "duration": 0.110291
+        },
+        {
+          "word": "cliente",
+          "start": 10.465666,
+          "duration": 0.318625
+        },
+        {
+          "word": "que",
+          "start": 10.857833,
+          "duration": 0.073541
+        },
+        {
+          "word": "instale",
+          "start": 10.968125,
+          "duration": 0.367666
+        },
+        {
+          "word": "mods",
+          "start": 11.372541,
+          "duration": 0.232833
+        },
+        {
+          "word": "externos",
+          "start": 11.605375,
+          "duration": 0.539208
+        },
+        {
+          "word": "todo",
+          "start": 12.438708,
+          "duration": 0.171583
+        },
+        {
+          "word": "se",
+          "start": 12.622541,
+          "duration": 0.098041
+        },
+        {
+          "word": "procesa",
+          "start": 12.794125,
+          "duration": 0.404416
+        },
+        {
+          "word": "en",
+          "start": 13.210791,
+          "duration": 0.06125
+        },
+        {
+          "word": "el",
+          "start": 13.272041,
+          "duration": 0.110291
+        },
+        {
+          "word": "servidor",
+          "start": 13.382333,
+          "duration": 0.514708
+        }
+      ]
+    },
+    {
+      "id": "c2_p08_ruptura",
+      "title": "EL PUNTO DE RUPTURA EN 1.21.x",
+      "subtitle": "Sobrecarga de metadatos persistentes y Garbage Collection",
+      "badge": "08 // BREAKING POINT: GC OVERHEAD",
+      "text": "En versiones 1.21.x, Slimefun se consideraba inviable: miles de bloques consultando metadatos por tick saturan el Garbage Collector en horas. Muchos optan por rendirse o congelar versiones antiguas. Nosotros fuimos al fondo.",
+      "spoken_text": "Sin embargo, en las comunidades técnicas de servidores, Slimefun en versiones modernas como la uno punto veintiuno tiene una reputación conocida: es considerado inviable. La sobrecarga de miles de bloques consultando metadatos persistentes en cada tick suele saturar el recolector de basura tradicional, degradando el servidor en cuestión de horas. La respuesta habitual de muchos administradores es rendirse: congelar el servidor en versiones antiguas de hace años o desactivar la mitad de las máquinas.",
+      "file": "cap2_p08_ruptura.mp3",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "gc_pause_graph",
+      "duration": 27.096,
+      "words": [
+        {
+          "word": "Sin",
+          "start": 0.099,
+          "duration": 0.183833
+        },
+        {
+          "word": "embargo",
+          "start": 0.282833,
+          "duration": 0.416666
+        },
+        {
+          "word": "en",
+          "start": 0.920083,
+          "duration": 0.085791
+        },
+        {
+          "word": "las",
+          "start": 1.030375,
+          "duration": 0.110291
+        },
+        {
+          "word": "comunidades",
+          "start": 1.177458,
+          "duration": 0.514708
+        },
+        {
+          "word": "técnicas",
+          "start": 1.753416,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 2.206875,
+          "duration": 0.049
+        },
+        {
+          "word": "servidores",
+          "start": 2.268125,
+          "duration": 0.58825
+        },
+        {
+          "word": "Slimefun",
+          "start": 3.064708,
+          "duration": 0.490208
+        },
+        {
+          "word": "en",
+          "start": 3.554916,
+          "duration": 0.085791
+        },
+        {
+          "word": "versiones",
+          "start": 3.677458,
+          "duration": 0.428916
+        },
+        {
+          "word": "modernas",
+          "start": 4.143125,
+          "duration": 0.404416
+        },
+        {
+          "word": "como",
+          "start": 4.596583,
+          "duration": 0.196083
+        },
+        {
+          "word": "la",
+          "start": 4.817166,
+          "duration": 0.098041
+        },
+        {
+          "word": "uno",
+          "start": 4.939708,
+          "duration": 0.147041
+        },
+        {
+          "word": "punto",
+          "start": 5.184791,
+          "duration": 0.232833
+        },
+        {
+          "word": "veintiuno",
+          "start": 5.442166,
+          "duration": 0.416666
+        },
+        {
+          "word": "tiene",
+          "start": 5.932333,
+          "duration": 0.196083
+        },
+        {
+          "word": "una",
+          "start": 6.152958,
+          "duration": 0.171583
+        },
+        {
+          "word": "reputación",
+          "start": 6.33675,
+          "duration": 0.551458
+        },
+        {
+          "word": "conocida",
+          "start": 6.88825,
+          "duration": 0.514708
+        },
+        {
+          "word": "es",
+          "start": 7.599,
+          "duration": 0.110291
+        },
+        {
+          "word": "considerado",
+          "start": 7.758333,
+          "duration": 0.514708
+        },
+        {
+          "word": "inviable",
+          "start": 8.309791,
+          "duration": 0.416666
+        },
+        {
+          "word": "La",
+          "start": 9.607833,
+          "duration": 0.134791
+        },
+        {
+          "word": "sobrecarga",
+          "start": 9.742666,
+          "duration": 0.514708
+        },
+        {
+          "word": "de",
+          "start": 10.281875,
+          "duration": 0.073541
+        },
+        {
+          "word": "miles",
+          "start": 10.392166,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 10.674,
+          "duration": 0.061291
+        },
+        {
+          "word": "bloques",
+          "start": 10.772041,
+          "duration": 0.306375
+        },
+        {
+          "word": "consultando",
+          "start": 11.115208,
+          "duration": 0.539208
+        },
+        {
+          "word": "metadatos",
+          "start": 11.678916,
+          "duration": 0.465666
+        },
+        {
+          "word": "persistentes",
+          "start": 12.218125,
+          "duration": 0.6495
+        },
+        {
+          "word": "en",
+          "start": 12.867666,
+          "duration": 0.147041
+        },
+        {
+          "word": "cada",
+          "start": 13.026958,
+          "duration": 0.183833
+        },
+        {
+          "word": "tick",
+          "start": 13.284333,
+          "duration": 0.122541
+        },
+        {
+          "word": "suele",
+          "start": 13.431375,
+          "duration": 0.257333
+        },
+        {
+          "word": "saturar",
+          "start": 13.701,
+          "duration": 0.392125
+        },
+        {
+          "word": "el",
+          "start": 14.093125,
+          "duration": 0.110291
+        },
+        {
+          "word": "recolector",
+          "start": 14.215666,
+          "duration": 0.490208
+        },
+        {
+          "word": "de",
+          "start": 14.742666,
+          "duration": 0.061291
+        },
+        {
+          "word": "basura",
+          "start": 14.828416,
+          "duration": 0.355375
+        },
+        {
+          "word": "tradicional",
+          "start": 15.232833,
+          "duration": 0.58825
+        },
+        {
+          "word": "degradando",
+          "start": 16.066166,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 16.495083,
+          "duration": 0.073541
+        },
+        {
+          "word": "servidor",
+          "start": 16.580875,
+          "duration": 0.392166
+        },
+        {
+          "word": "en",
+          "start": 16.973041,
+          "duration": 0.147041
+        },
+        {
+          "word": "cuestión",
+          "start": 17.120083,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 17.51225,
+          "duration": 0.098041
+        },
+        {
+          "word": "horas",
+          "start": 17.622541,
+          "duration": 0.367666
+        },
+        {
+          "word": "La",
+          "start": 18.884791,
+          "duration": 0.122541
+        },
+        {
+          "word": "respuesta",
+          "start": 19.031875,
+          "duration": 0.392125
+        },
+        {
+          "word": "habitual",
+          "start": 19.424,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 19.803916,
+          "duration": 0.049
+        },
+        {
+          "word": "muchos",
+          "start": 19.877458,
+          "duration": 0.318625
+        },
+        {
+          "word": "administradores",
+          "start": 20.196083,
+          "duration": 0.747541
+        },
+        {
+          "word": "es",
+          "start": 20.943625,
+          "duration": 0.085791
+        },
+        {
+          "word": "rendirse",
+          "start": 21.041666,
+          "duration": 0.465666
+        },
+        {
+          "word": "congelar",
+          "start": 21.764708,
+          "duration": 0.404416
+        },
+        {
+          "word": "el",
+          "start": 22.169125,
+          "duration": 0.085791
+        },
+        {
+          "word": "servidor",
+          "start": 22.254916,
+          "duration": 0.404416
+        },
+        {
+          "word": "en",
+          "start": 22.659333,
+          "duration": 0.085791
+        },
+        {
+          "word": "versiones",
+          "start": 22.781875,
+          "duration": 0.441166
+        },
+        {
+          "word": "antiguas",
+          "start": 23.223041,
+          "duration": 0.441166
+        },
+        {
+          "word": "de",
+          "start": 23.71325,
+          "duration": 0.061291
+        },
+        {
+          "word": "hace",
+          "start": 23.823541,
+          "duration": 0.196083
+        },
+        {
+          "word": "años",
+          "start": 24.056375,
+          "duration": 0.294125
+        },
+        {
+          "word": "o",
+          "start": 24.3505,
+          "duration": 0.03675
+        },
+        {
+          "word": "desactivar",
+          "start": 24.424,
+          "duration": 0.551458
+        },
+        {
+          "word": "la",
+          "start": 24.98775,
+          "duration": 0.073541
+        },
+        {
+          "word": "mitad",
+          "start": 25.098041,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 25.441166,
+          "duration": 0.061291
+        },
+        {
+          "word": "las",
+          "start": 25.526958,
+          "duration": 0.134791
+        },
+        {
+          "word": "máquinas",
+          "start": 25.698541,
+          "duration": 0.490208
+        }
+      ]
+    },
+    {
+      "id": "c2_p09_addons",
+      "title": "80+ ADDONS SIMULTÁNEOS ACTIVOS",
+      "subtitle": "Logística, química, energía y computación espacial",
+      "badge": "09 // RUNTIME: 84 CONCURRENT ADDONS",
+      "text": "Adaptamos el ecosistema a 1.21.11 con más de 80 addons simultáneos y concurrentes: redes logísticas masivas, química avanzada y módulos espaciales, sostenidos con profiling estricto.",
+      "spoken_text": "Nosotros decidimos tomar el camino de la ingeniería. Llevamos el entorno a Minecraft uno punto veintiuno punto once integrando más de ochenta addons simultáneos y activos: desde logística de redes masivas hasta química avanzada y computación espacial. No se logró con suerte, sino aplicando perfilado estricto.",
+      "file": "cap2_p09_addons.mp3",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "addon_matrix",
+      "duration": 17.616,
+      "words": [
+        {
+          "word": "Nosotros",
+          "start": 0.099,
+          "duration": 0.453416
+        },
+        {
+          "word": "decidimos",
+          "start": 0.576958,
+          "duration": 0.453416
+        },
+        {
+          "word": "tomar",
+          "start": 1.091666,
+          "duration": 0.232833
+        },
+        {
+          "word": "el",
+          "start": 1.3245,
+          "duration": 0.110291
+        },
+        {
+          "word": "camino",
+          "start": 1.459333,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 1.802458,
+          "duration": 0.073541
+        },
+        {
+          "word": "la",
+          "start": 1.9005,
+          "duration": 0.049
+        },
+        {
+          "word": "ingeniería",
+          "start": 1.986291,
+          "duration": 0.58825
+        },
+        {
+          "word": "Llevamos",
+          "start": 3.443625,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 3.872541,
+          "duration": 0.073541
+        },
+        {
+          "word": "entorno",
+          "start": 3.946083,
+          "duration": 0.404416
+        },
+        {
+          "word": "a",
+          "start": 4.3505,
+          "duration": 0.01225
+        },
+        {
+          "word": "Minecraft",
+          "start": 4.3995,
+          "duration": 0.465666
+        },
+        {
+          "word": "uno",
+          "start": 4.889708,
+          "duration": 0.122541
+        },
+        {
+          "word": "punto",
+          "start": 5.098041,
+          "duration": 0.220583
+        },
+        {
+          "word": "veintiuno",
+          "start": 5.343125,
+          "duration": 0.392166
+        },
+        {
+          "word": "punto",
+          "start": 5.821083,
+          "duration": 0.245083
+        },
+        {
+          "word": "once",
+          "start": 6.066166,
+          "duration": 0.208333
+        },
+        {
+          "word": "integrando",
+          "start": 6.28675,
+          "duration": 0.465666
+        },
+        {
+          "word": "más",
+          "start": 6.776958,
+          "duration": 0.171583
+        },
+        {
+          "word": "de",
+          "start": 6.997541,
+          "duration": 0.03675
+        },
+        {
+          "word": "ochenta",
+          "start": 7.046583,
+          "duration": 0.379875
+        },
+        {
+          "word": "addons",
+          "start": 7.426458,
+          "duration": 0.257333
+        },
+        {
+          "word": "simultáneos",
+          "start": 7.683833,
+          "duration": 0.6005
+        },
+        {
+          "word": "y",
+          "start": 8.296583,
+          "duration": 0.0245
+        },
+        {
+          "word": "activos",
+          "start": 8.333333,
+          "duration": 0.453416
+        },
+        {
+          "word": "desde",
+          "start": 9.056375,
+          "duration": 0.171583
+        },
+        {
+          "word": "logística",
+          "start": 9.264708,
+          "duration": 0.514708
+        },
+        {
+          "word": "de",
+          "start": 9.803916,
+          "duration": 0.085791
+        },
+        {
+          "word": "redes",
+          "start": 9.914208,
+          "duration": 0.245083
+        },
+        {
+          "word": "masivas",
+          "start": 10.196083,
+          "duration": 0.465666
+        },
+        {
+          "word": "hasta",
+          "start": 10.66175,
+          "duration": 0.183833
+        },
+        {
+          "word": "química",
+          "start": 10.906875,
+          "duration": 0.367666
+        },
+        {
+          "word": "avanzada",
+          "start": 11.28675,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 11.776958,
+          "duration": 0.01225
+        },
+        {
+          "word": "computación",
+          "start": 11.8505,
+          "duration": 0.539208
+        },
+        {
+          "word": "espacial",
+          "start": 12.401958,
+          "duration": 0.502458
+        },
+        {
+          "word": "No",
+          "start": 13.76225,
+          "duration": 0.183833
+        },
+        {
+          "word": "se",
+          "start": 13.958333,
+          "duration": 0.110291
+        },
+        {
+          "word": "logró",
+          "start": 14.093125,
+          "duration": 0.220583
+        },
+        {
+          "word": "con",
+          "start": 14.36275,
+          "duration": 0.122541
+        },
+        {
+          "word": "suerte",
+          "start": 14.497541,
+          "duration": 0.404416
+        },
+        {
+          "word": "sino",
+          "start": 15.147041,
+          "duration": 0.232833
+        },
+        {
+          "word": "aplicando",
+          "start": 15.379916,
+          "duration": 0.416666
+        },
+        {
+          "word": "perfilado",
+          "start": 15.857833,
+          "duration": 0.428916
+        },
+        {
+          "word": "estricto",
+          "start": 16.299,
+          "duration": 0.428916
+        }
+      ]
+    },
+    {
+      "id": "c2_p10_tuning",
+      "title": "TUNING JVM: ZGC GENERACIONAL",
+      "subtitle": "Latencia menor a 1 ms y memoria off-heap",
+      "badge": "10 // TUNING: GENERATIONAL ZGC",
+      "text": "ZGC generacional de ultra-baja latencia (<1ms de pausa), reescritura de listeners conflictivos y estructuras concurrentes off-heap en memoria: estabilidad matemática constante.",
+      "spoken_text": "Configuramos recolección de basura generacional de ultra-baja latencia para mitigar pausas en el hilo de cómputo, reescribimos listeners de eventos conflictivos y reubicamos accesos de almacenamiento a estructuras concurrentes en memoria. El resultado es estabilidad matemática constante.",
+      "file": "cap2_p10_tuning.mp3",
+      "action": "desk",
+      "camera": "close",
+      "diagram": "zgc_telemetry",
+      "duration": 15.456,
+      "words": [
+        {
+          "word": "Configuramos",
+          "start": 0.099,
+          "duration": 0.61275
+        },
+        {
+          "word": "recolección",
+          "start": 0.71175,
+          "duration": 0.465666
+        },
+        {
+          "word": "de",
+          "start": 1.226458,
+          "duration": 0.049
+        },
+        {
+          "word": "basura",
+          "start": 1.3,
+          "duration": 0.343125
+        },
+        {
+          "word": "generacional",
+          "start": 1.655375,
+          "duration": 0.61275
+        },
+        {
+          "word": "de",
+          "start": 2.317166,
+          "duration": 0.061291
+        },
+        {
+          "word": "ultra-baja",
+          "start": 2.402958,
+          "duration": 0.502458
+        },
+        {
+          "word": "latencia",
+          "start": 2.917666,
+          "duration": 0.441166
+        },
+        {
+          "word": "para",
+          "start": 3.420083,
+          "duration": 0.134791
+        },
+        {
+          "word": "mitigar",
+          "start": 3.579416,
+          "duration": 0.392166
+        },
+        {
+          "word": "pausas",
+          "start": 4.069625,
+          "duration": 0.343125
+        },
+        {
+          "word": "en",
+          "start": 4.41275,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 4.486291,
+          "duration": 0.110291
+        },
+        {
+          "word": "hilo",
+          "start": 4.608833,
+          "duration": 0.171583
+        },
+        {
+          "word": "de",
+          "start": 4.817166,
+          "duration": 0.061291
+        },
+        {
+          "word": "cómputo",
+          "start": 4.939708,
+          "duration": 0.441166
+        },
+        {
+          "word": "reescribimos",
+          "start": 5.601458,
+          "duration": 0.563708
+        },
+        {
+          "word": "listeners",
+          "start": 6.201958,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 6.643125,
+          "duration": 0.03675
+        },
+        {
+          "word": "eventos",
+          "start": 6.741166,
+          "duration": 0.318625
+        },
+        {
+          "word": "conflictivos",
+          "start": 7.084333,
+          "duration": 0.58825
+        },
+        {
+          "word": "y",
+          "start": 7.684791,
+          "duration": 0.03675
+        },
+        {
+          "word": "reubicamos",
+          "start": 7.758333,
+          "duration": 0.563708
+        },
+        {
+          "word": "accesos",
+          "start": 8.322041,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 8.751,
+          "duration": 0.03675
+        },
+        {
+          "word": "almacenamiento",
+          "start": 8.78775,
+          "duration": 0.735291
+        },
+        {
+          "word": "a",
+          "start": 9.523041,
+          "duration": 0.0245
+        },
+        {
+          "word": "estructuras",
+          "start": 9.572041,
+          "duration": 0.490208
+        },
+        {
+          "word": "concurrentes",
+          "start": 10.099,
+          "duration": 0.61275
+        },
+        {
+          "word": "en",
+          "start": 10.71175,
+          "duration": 0.073541
+        },
+        {
+          "word": "memoria",
+          "start": 10.822041,
+          "duration": 0.416666
+        },
+        {
+          "word": "El",
+          "start": 12.107833,
+          "duration": 0.159333
+        },
+        {
+          "word": "resultado",
+          "start": 12.279416,
+          "duration": 0.502458
+        },
+        {
+          "word": "es",
+          "start": 12.794125,
+          "duration": 0.110291
+        },
+        {
+          "word": "estabilidad",
+          "start": 12.904416,
+          "duration": 0.514708
+        },
+        {
+          "word": "matemática",
+          "start": 13.455875,
+          "duration": 0.551458
+        },
+        {
+          "word": "constante",
+          "start": 14.056375,
+          "duration": 0.502458
+        }
+      ]
+    },
+    {
+      "id": "c2_p11_topologia",
+      "title": "TOPOLOGÍA DISTRIBUIDA",
+      "subtitle": "Nodo de cómputo en Dallas interconectado con Linux Central",
+      "badge": "11 // TOPOLOGY: DALLAS <--> CENTRAL",
+      "text": "Separación estricta de responsabilidades: nodo de cómputo en Dallas para el tick loop puro, interconectado a nuestro servidor central Linux.",
+      "spoken_text": "Para sostener este nivel de carga sin intervención constante, la arquitectura no descansa en una sola máquina aislada. Separamos responsabilidades de forma estricta entre nodos especializados.",
+      "file": "cap2_p11_topologia.mp3",
+      "action": "walk",
+      "camera": "wide",
+      "diagram": "distributed_arch",
+      "duration": 11.304,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.208333
+        },
+        {
+          "word": "sostener",
+          "start": 0.307333,
+          "duration": 0.428916
+        },
+        {
+          "word": "este",
+          "start": 0.736291,
+          "duration": 0.208333
+        },
+        {
+          "word": "nivel",
+          "start": 0.981375,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 1.2755,
+          "duration": 0.061291
+        },
+        {
+          "word": "carga",
+          "start": 1.410291,
+          "duration": 0.269625
+        },
+        {
+          "word": "sin",
+          "start": 1.692166,
+          "duration": 0.159291
+        },
+        {
+          "word": "intervención",
+          "start": 1.851458,
+          "duration": 0.551458
+        },
+        {
+          "word": "constante",
+          "start": 2.415208,
+          "duration": 0.514708
+        },
+        {
+          "word": "la",
+          "start": 3.13825,
+          "duration": 0.122541
+        },
+        {
+          "word": "arquitectura",
+          "start": 3.285291,
+          "duration": 0.576
+        },
+        {
+          "word": "no",
+          "start": 3.885791,
+          "duration": 0.110291
+        },
+        {
+          "word": "descansa",
+          "start": 4.020583,
+          "duration": 0.502458
+        },
+        {
+          "word": "en",
+          "start": 4.535291,
+          "duration": 0.061291
+        },
+        {
+          "word": "una",
+          "start": 4.608833,
+          "duration": 0.183833
+        },
+        {
+          "word": "sola",
+          "start": 4.804916,
+          "duration": 0.257333
+        },
+        {
+          "word": "máquina",
+          "start": 5.08675,
+          "duration": 0.355375
+        },
+        {
+          "word": "aislada",
+          "start": 5.442166,
+          "duration": 0.490208
+        },
+        {
+          "word": "Separamos",
+          "start": 6.801458,
+          "duration": 0.526958
+        },
+        {
+          "word": "responsabilidades",
+          "start": 7.328416,
+          "duration": 0.833333
+        },
+        {
+          "word": "de",
+          "start": 8.198541,
+          "duration": 0.049
+        },
+        {
+          "word": "forma",
+          "start": 8.272041,
+          "duration": 0.257333
+        },
+        {
+          "word": "estricta",
+          "start": 8.553916,
+          "duration": 0.379916
+        },
+        {
+          "word": "entre",
+          "start": 8.933833,
+          "duration": 0.208333
+        },
+        {
+          "word": "nodos",
+          "start": 9.178916,
+          "duration": 0.318625
+        },
+        {
+          "word": "especializados",
+          "start": 9.497541,
+          "duration": 0.894625
+        }
+      ]
+    },
+    {
+      "id": "c2_p12_saori",
+      "title": "AGENTE CENTINELA SRE (SAORI)",
+      "subtitle": "Auditoría de sockets y mitigación autónoma de incidentes",
+      "badge": "12 // SENTINEL: SRE DAEMON",
+      "text": "Instancia de juego aislada en Dallas por núcleo. En Linux central: bases de datos WAL y el daemon centinela SAORI, auditando sockets y mitigando anomalías automáticamente 24/7.",
+      "spoken_text": "En el nodo de Dallas corre la instancia pura de juego, aislada para maximizar el rendimiento por núcleo. En nuestro servidor central Linux orquestamos los microservicios, bases de datos transaccionales y un agente centinela S-R-E llamado SAORI. Este daemon monitorea el socket, valida la consistencia de memoria y, si detecta una anomalía de concurrencia, ejecuta mitigaciones forenses sin necesidad de una intervención manual de madrugada.",
+      "file": "cap2_p12_saori.mp3",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "sentinel_flow",
+      "duration": 24.792,
+      "words": [
+        {
+          "word": "En",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "el",
+          "start": 0.246083,
+          "duration": 0.110291
+        },
+        {
+          "word": "nodo",
+          "start": 0.356375,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 0.613708,
+          "duration": 0.073541
+        },
+        {
+          "word": "Dallas",
+          "start": 0.724,
+          "duration": 0.232833
+        },
+        {
+          "word": "corre",
+          "start": 1.018125,
+          "duration": 0.196083
+        },
+        {
+          "word": "la",
+          "start": 1.238708,
+          "duration": 0.049
+        },
+        {
+          "word": "instancia",
+          "start": 1.3245,
+          "duration": 0.416666
+        },
+        {
+          "word": "pura",
+          "start": 1.826958,
+          "duration": 0.159333
+        },
+        {
+          "word": "de",
+          "start": 2.010791,
+          "duration": 0.061291
+        },
+        {
+          "word": "juego",
+          "start": 2.096583,
+          "duration": 0.330875
+        },
+        {
+          "word": "aislada",
+          "start": 2.697041,
+          "duration": 0.428916
+        },
+        {
+          "word": "para",
+          "start": 3.1995,
+          "duration": 0.134791
+        },
+        {
+          "word": "maximizar",
+          "start": 3.358833,
+          "duration": 0.563708
+        },
+        {
+          "word": "el",
+          "start": 3.922541,
+          "duration": 0.110291
+        },
+        {
+          "word": "rendimiento",
+          "start": 4.045083,
+          "duration": 0.539208
+        },
+        {
+          "word": "por",
+          "start": 4.657833,
+          "duration": 0.110291
+        },
+        {
+          "word": "núcleo",
+          "start": 4.792666,
+          "duration": 0.392166
+        },
+        {
+          "word": "En",
+          "start": 6.066166,
+          "duration": 0.110291
+        },
+        {
+          "word": "nuestro",
+          "start": 6.201,
+          "duration": 0.269625
+        },
+        {
+          "word": "servidor",
+          "start": 6.482833,
+          "duration": 0.367666
+        },
+        {
+          "word": "central",
+          "start": 6.86275,
+          "duration": 0.367625
+        },
+        {
+          "word": "Linux",
+          "start": 7.230375,
+          "duration": 0.330875
+        },
+        {
+          "word": "orquestamos",
+          "start": 7.573541,
+          "duration": 0.514708
+        },
+        {
+          "word": "los",
+          "start": 8.125,
+          "duration": 0.098041
+        },
+        {
+          "word": "microservicios",
+          "start": 8.259791,
+          "duration": 0.759791
+        },
+        {
+          "word": "bases",
+          "start": 9.301458,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 9.595583,
+          "duration": 0.061291
+        },
+        {
+          "word": "datos",
+          "start": 9.693625,
+          "duration": 0.245083
+        },
+        {
+          "word": "transaccionales",
+          "start": 10.0,
+          "duration": 0.784333
+        },
+        {
+          "word": "y",
+          "start": 10.821083,
+          "duration": 0.03675
+        },
+        {
+          "word": "un",
+          "start": 10.882333,
+          "duration": 0.098041
+        },
+        {
+          "word": "agente",
+          "start": 10.980375,
+          "duration": 0.343125
+        },
+        {
+          "word": "centinela",
+          "start": 11.348041,
+          "duration": 0.563708
+        },
+        {
+          "word": "S-R-E",
+          "start": 11.960791,
+          "duration": 0.490208
+        },
+        {
+          "word": "llamado",
+          "start": 12.48775,
+          "duration": 0.367666
+        },
+        {
+          "word": "SAORI",
+          "start": 12.879916,
+          "duration": 0.367666
+        },
+        {
+          "word": "Este",
+          "start": 14.105375,
+          "duration": 0.257333
+        },
+        {
+          "word": "daemon",
+          "start": 14.3995,
+          "duration": 0.208333
+        },
+        {
+          "word": "monitorea",
+          "start": 14.656875,
+          "duration": 0.477916
+        },
+        {
+          "word": "el",
+          "start": 15.134791,
+          "duration": 0.073541
+        },
+        {
+          "word": "socket",
+          "start": 15.220583,
+          "duration": 0.355375
+        },
+        {
+          "word": "valida",
+          "start": 15.882333,
+          "duration": 0.306375
+        },
+        {
+          "word": "la",
+          "start": 16.201,
+          "duration": 0.061291
+        },
+        {
+          "word": "consistencia",
+          "start": 16.311291,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 16.88725,
+          "duration": 0.049
+        },
+        {
+          "word": "memoria",
+          "start": 16.973041,
+          "duration": 0.404416
+        },
+        {
+          "word": "y",
+          "start": 17.401958,
+          "duration": 0.085791
+        },
+        {
+          "word": "si",
+          "start": 17.647041,
+          "duration": 0.122541
+        },
+        {
+          "word": "detecta",
+          "start": 17.818625,
+          "duration": 0.404416
+        },
+        {
+          "word": "una",
+          "start": 18.247541,
+          "duration": 0.171583
+        },
+        {
+          "word": "anomalía",
+          "start": 18.431375,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 18.909333,
+          "duration": 0.073541
+        },
+        {
+          "word": "concurrencia",
+          "start": 19.031875,
+          "duration": 0.63725
+        },
+        {
+          "word": "ejecuta",
+          "start": 19.889708,
+          "duration": 0.441166
+        },
+        {
+          "word": "mitigaciones",
+          "start": 20.355375,
+          "duration": 0.6005
+        },
+        {
+          "word": "forenses",
+          "start": 20.992666,
+          "duration": 0.416666
+        },
+        {
+          "word": "sin",
+          "start": 21.409333,
+          "duration": 0.183791
+        },
+        {
+          "word": "necesidad",
+          "start": 21.593125,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 22.120083,
+          "duration": 0.061291
+        },
+        {
+          "word": "una",
+          "start": 22.205875,
+          "duration": 0.122541
+        },
+        {
+          "word": "intervención",
+          "start": 22.352958,
+          "duration": 0.576
+        },
+        {
+          "word": "manual",
+          "start": 22.965666,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 23.308833,
+          "duration": 0.049
+        },
+        {
+          "word": "madrugada",
+          "start": 23.382333,
+          "duration": 0.539208
+        }
+      ]
+    },
+    {
+      "id": "c2_p13_wal",
+      "title": "POLÍTICA DE PERSISTENCIA ATÓMICA",
+      "subtitle": "Bases de datos WAL y cero pérdida de inventarios",
+      "badge": "13 // STORAGE: ATOMIC WAL BACKUPS",
+      "text": "Preservación absoluta del progreso: inventarios y fábricas auditados como transacciones financieras con Write-Ahead Logging (WAL). Cero tolerancia a rollbacks.",
+      "spoken_text": "Nuestra política fundamental es la preservación absoluta del progreso. Un jugador puede invertir doscientas horas diseñando una refinería automatizada: el sistema trata su inventario y sus chunks como transacciones financieras. No toleramos rollbacks arbitrarios ni desastres de corrupción.",
+      "file": "cap2_p13_wal.mp3",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "wal_storage",
+      "duration": 16.704,
+      "words": [
+        {
+          "word": "Nuestra",
+          "start": 0.099,
+          "duration": 0.294125
+        },
+        {
+          "word": "política",
+          "start": 0.454416,
+          "duration": 0.404416
+        },
+        {
+          "word": "fundamental",
+          "start": 0.883333,
+          "duration": 0.551458
+        },
+        {
+          "word": "es",
+          "start": 1.434791,
+          "duration": 0.110291
+        },
+        {
+          "word": "la",
+          "start": 1.569625,
+          "duration": 0.061291
+        },
+        {
+          "word": "preservación",
+          "start": 1.692166,
+          "duration": 0.551458
+        },
+        {
+          "word": "absoluta",
+          "start": 2.255875,
+          "duration": 0.477958
+        },
+        {
+          "word": "del",
+          "start": 2.758333,
+          "duration": 0.110291
+        },
+        {
+          "word": "progreso",
+          "start": 2.942166,
+          "duration": 0.477958
+        },
+        {
+          "word": "Un",
+          "start": 4.289208,
+          "duration": 0.134791
+        },
+        {
+          "word": "jugador",
+          "start": 4.424,
+          "duration": 0.404416
+        },
+        {
+          "word": "puede",
+          "start": 4.914208,
+          "duration": 0.159333
+        },
+        {
+          "word": "invertir",
+          "start": 5.085791,
+          "duration": 0.404416
+        },
+        {
+          "word": "doscientas",
+          "start": 5.526958,
+          "duration": 0.502458
+        },
+        {
+          "word": "horas",
+          "start": 6.041666,
+          "duration": 0.171583
+        },
+        {
+          "word": "diseñando",
+          "start": 6.25,
+          "duration": 0.477958
+        },
+        {
+          "word": "una",
+          "start": 6.740208,
+          "duration": 0.171583
+        },
+        {
+          "word": "refinería",
+          "start": 6.924,
+          "duration": 0.526958
+        },
+        {
+          "word": "automatizada",
+          "start": 7.451,
+          "duration": 0.723041
+        },
+        {
+          "word": "el",
+          "start": 8.406875,
+          "duration": 0.122541
+        },
+        {
+          "word": "sistema",
+          "start": 8.541666,
+          "duration": 0.379916
+        },
+        {
+          "word": "trata",
+          "start": 8.995083,
+          "duration": 0.232833
+        },
+        {
+          "word": "su",
+          "start": 9.240208,
+          "duration": 0.085791
+        },
+        {
+          "word": "inventario",
+          "start": 9.3505,
+          "duration": 0.514708
+        },
+        {
+          "word": "y",
+          "start": 9.901958,
+          "duration": 0.03675
+        },
+        {
+          "word": "sus",
+          "start": 9.96325,
+          "duration": 0.171583
+        },
+        {
+          "word": "chunks",
+          "start": 10.183833,
+          "duration": 0.269625
+        },
+        {
+          "word": "como",
+          "start": 10.502458,
+          "duration": 0.159333
+        },
+        {
+          "word": "transacciones",
+          "start": 10.710791,
+          "duration": 0.58825
+        },
+        {
+          "word": "financieras",
+          "start": 11.335791,
+          "duration": 0.698541
+        },
+        {
+          "word": "No",
+          "start": 12.928916,
+          "duration": 0.159333
+        },
+        {
+          "word": "toleramos",
+          "start": 13.1495,
+          "duration": 0.416666
+        },
+        {
+          "word": "rollbacks",
+          "start": 13.566166,
+          "duration": 0.379916
+        },
+        {
+          "word": "arbitrarios",
+          "start": 13.946083,
+          "duration": 0.6005
+        },
+        {
+          "word": "ni",
+          "start": 14.583333,
+          "duration": 0.073541
+        },
+        {
+          "word": "desastres",
+          "start": 14.705875,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 15.220583,
+          "duration": 0.049
+        },
+        {
+          "word": "corrupción",
+          "start": 15.318625,
+          "duration": 0.502458
+        }
+      ]
+    },
+    {
+      "id": "c2_p14_crossplay",
+      "title": "INTEROPERABILIDAD JAVA & BEDROCK",
+      "subtitle": "Puerto unificado 25565 con traducción binaria en caliente",
+      "badge": "14 // PROTOCOL: JAVA & BEDROCK UNIFIED",
+      "text": "Interoperabilidad total: Java y Bedrock unificados en el puerto 25565. Traducción binaria de paquetes en caliente para jugar en PC, consolas o móviles sin clientes modificados.",
+      "spoken_text": "Además, eliminamos barreras de entrada mediante interoperabilidad completa de red. Usuarios en Java Edition y en Bedrock Edition ingresan al mismo espacio y operan las mismas máquinas a través del puerto estándar veinticinco quinientos sesenta y cinco, sin configuraciones complejas.",
+      "file": "cap2_p14_crossplay.mp3",
+      "action": "walk",
+      "camera": "wide",
+      "diagram": "crossplay_protocol",
+      "duration": 15.144,
+      "words": [
+        {
+          "word": "Además",
+          "start": 0.099,
+          "duration": 0.453416
+        },
+        {
+          "word": "eliminamos",
+          "start": 0.809791,
+          "duration": 0.477958
+        },
+        {
+          "word": "barreras",
+          "start": 1.3245,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 1.716666,
+          "duration": 0.03675
+        },
+        {
+          "word": "entrada",
+          "start": 1.753416,
+          "duration": 0.343125
+        },
+        {
+          "word": "mediante",
+          "start": 2.121083,
+          "duration": 0.355375
+        },
+        {
+          "word": "interoperabilidad",
+          "start": 2.488708,
+          "duration": 0.747541
+        },
+        {
+          "word": "completa",
+          "start": 3.297541,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 3.726458,
+          "duration": 0.085791
+        },
+        {
+          "word": "red",
+          "start": 3.849,
+          "duration": 0.208333
+        },
+        {
+          "word": "Usuarios",
+          "start": 4.951,
+          "duration": 0.502416
+        },
+        {
+          "word": "en",
+          "start": 5.453416,
+          "duration": 0.110291
+        },
+        {
+          "word": "Java",
+          "start": 5.563708,
+          "duration": 0.196083
+        },
+        {
+          "word": "Edition",
+          "start": 5.772041,
+          "duration": 0.343125
+        },
+        {
+          "word": "y",
+          "start": 6.127458,
+          "duration": 0.06125
+        },
+        {
+          "word": "en",
+          "start": 6.188708,
+          "duration": 0.085791
+        },
+        {
+          "word": "Bedrock",
+          "start": 6.335791,
+          "duration": 0.269583
+        },
+        {
+          "word": "Edition",
+          "start": 6.605375,
+          "duration": 0.355375
+        },
+        {
+          "word": "ingresan",
+          "start": 6.973041,
+          "duration": 0.428916
+        },
+        {
+          "word": "al",
+          "start": 7.401958,
+          "duration": 0.098041
+        },
+        {
+          "word": "mismo",
+          "start": 7.53675,
+          "duration": 0.208333
+        },
+        {
+          "word": "espacio",
+          "start": 7.769625,
+          "duration": 0.392166
+        },
+        {
+          "word": "y",
+          "start": 8.198541,
+          "duration": 0.049
+        },
+        {
+          "word": "operan",
+          "start": 8.259791,
+          "duration": 0.294125
+        },
+        {
+          "word": "las",
+          "start": 8.578416,
+          "duration": 0.134791
+        },
+        {
+          "word": "mismas",
+          "start": 8.75,
+          "duration": 0.281875
+        },
+        {
+          "word": "máquinas",
+          "start": 9.068625,
+          "duration": 0.416666
+        },
+        {
+          "word": "a",
+          "start": 9.485291,
+          "duration": 0.03675
+        },
+        {
+          "word": "través",
+          "start": 9.571083,
+          "duration": 0.257333
+        },
+        {
+          "word": "del",
+          "start": 9.865208,
+          "duration": 0.085791
+        },
+        {
+          "word": "puerto",
+          "start": 10.049,
+          "duration": 0.208333
+        },
+        {
+          "word": "estándar",
+          "start": 10.257333,
+          "duration": 0.392166
+        },
+        {
+          "word": "veinticinco",
+          "start": 10.686291,
+          "duration": 0.539208
+        },
+        {
+          "word": "quinientos",
+          "start": 11.28675,
+          "duration": 0.416666
+        },
+        {
+          "word": "sesenta",
+          "start": 11.703416,
+          "duration": 0.367666
+        },
+        {
+          "word": "y",
+          "start": 12.107833,
+          "duration": 0.01225
+        },
+        {
+          "word": "cinco",
+          "start": 12.144625,
+          "duration": 0.367666
+        },
+        {
+          "word": "sin",
+          "start": 12.732833,
+          "duration": 0.220583
+        },
+        {
+          "word": "configuraciones",
+          "start": 12.953416,
+          "duration": 0.698541
+        },
+        {
+          "word": "complejas",
+          "start": 13.688708,
+          "duration": 0.551458
+        }
+      ]
+    },
+    {
+      "id": "c2_p15_vision",
+      "title": "HOJA DE RUTA & TEMPORADA 2",
+      "subtitle": "Calibración empírica proyectada hacia mediados de 2027",
+      "badge": "15 // CONNECT: play.drakescraft.cl",
+      "text": "DrakesCraft es el laboratorio de encuentro entre infraestructura crítica y simulación persistente. Todo lo desplegado hoy es la base de calibración para la Temporada 2 (mediados de 2027).",
+      "spoken_text": "DrakesCraft es el laboratorio donde documentamos lo que ocurre cuando la infraestructura de misión crítica se encuentra con un entorno de simulación persistente. Todo lo que tenemos desplegado hoy es la base de calibración para nuestra Temporada Dos, proyectada hacia mediados de dos mil veintisiete.",
+      "file": "cap2_p15_vision.mp3",
+      "action": "desk",
+      "camera": "normal",
+      "diagram": "roadmap_timeline",
+      "duration": 15.6,
+      "words": [
+        {
+          "word": "DrakesCraft",
+          "start": 0.099,
+          "duration": 0.686291
+        },
+        {
+          "word": "es",
+          "start": 0.797541,
+          "duration": 0.147041
+        },
+        {
+          "word": "el",
+          "start": 0.944625,
+          "duration": 0.06125
+        },
+        {
+          "word": "laboratorio",
+          "start": 1.005875,
+          "duration": 0.58825
+        },
+        {
+          "word": "donde",
+          "start": 1.618625,
+          "duration": 0.220583
+        },
+        {
+          "word": "documentamos",
+          "start": 1.863708,
+          "duration": 0.625
+        },
+        {
+          "word": "lo",
+          "start": 2.5255,
+          "duration": 0.061291
+        },
+        {
+          "word": "que",
+          "start": 2.648041,
+          "duration": 0.049
+        },
+        {
+          "word": "ocurre",
+          "start": 2.709333,
+          "duration": 0.318625
+        },
+        {
+          "word": "cuando",
+          "start": 3.101458,
+          "duration": 0.196083
+        },
+        {
+          "word": "la",
+          "start": 3.322041,
+          "duration": 0.049
+        },
+        {
+          "word": "infraestructura",
+          "start": 3.407833,
+          "duration": 0.6495
+        },
+        {
+          "word": "de",
+          "start": 4.081875,
+          "duration": 0.073541
+        },
+        {
+          "word": "misión",
+          "start": 4.192166,
+          "duration": 0.343125
+        },
+        {
+          "word": "crítica",
+          "start": 4.547541,
+          "duration": 0.379916
+        },
+        {
+          "word": "se",
+          "start": 4.927458,
+          "duration": 0.110291
+        },
+        {
+          "word": "encuentra",
+          "start": 5.03775,
+          "duration": 0.404416
+        },
+        {
+          "word": "con",
+          "start": 5.503416,
+          "duration": 0.122541
+        },
+        {
+          "word": "un",
+          "start": 5.626,
+          "duration": 0.122541
+        },
+        {
+          "word": "entorno",
+          "start": 5.748541,
+          "duration": 0.428916
+        },
+        {
+          "word": "de",
+          "start": 6.201958,
+          "duration": 0.085791
+        },
+        {
+          "word": "simulación",
+          "start": 6.31225,
+          "duration": 0.576
+        },
+        {
+          "word": "persistente",
+          "start": 6.9005,
+          "duration": 0.61275
+        },
+        {
+          "word": "Todo",
+          "start": 8.394625,
+          "duration": 0.220583
+        },
+        {
+          "word": "lo",
+          "start": 8.627458,
+          "duration": 0.061291
+        },
+        {
+          "word": "que",
+          "start": 8.73775,
+          "duration": 0.049
+        },
+        {
+          "word": "tenemos",
+          "start": 8.848041,
+          "duration": 0.257333
+        },
+        {
+          "word": "desplegado",
+          "start": 9.117666,
+          "duration": 0.514708
+        },
+        {
+          "word": "hoy",
+          "start": 9.644625,
+          "duration": 0.110291
+        },
+        {
+          "word": "es",
+          "start": 9.779416,
+          "duration": 0.098041
+        },
+        {
+          "word": "la",
+          "start": 9.914208,
+          "duration": 0.073541
+        },
+        {
+          "word": "base",
+          "start": 10.0245,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 10.269625,
+          "duration": 0.061291
+        },
+        {
+          "word": "calibración",
+          "start": 10.392166,
+          "duration": 0.58825
+        },
+        {
+          "word": "para",
+          "start": 11.017166,
+          "duration": 0.147041
+        },
+        {
+          "word": "nuestra",
+          "start": 11.188708,
+          "duration": 0.245083
+        },
+        {
+          "word": "Temporada",
+          "start": 11.482833,
+          "duration": 0.453416
+        },
+        {
+          "word": "Dos",
+          "start": 11.960791,
+          "duration": 0.232833
+        },
+        {
+          "word": "proyectada",
+          "start": 12.4755,
+          "duration": 0.526958
+        },
+        {
+          "word": "hacia",
+          "start": 13.014708,
+          "duration": 0.196083
+        },
+        {
+          "word": "mediados",
+          "start": 13.235291,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 13.688708,
+          "duration": 0.049
+        },
+        {
+          "word": "dos",
+          "start": 13.7745,
+          "duration": 0.134791
+        },
+        {
+          "word": "mil",
+          "start": 13.946083,
+          "duration": 0.147041
+        },
+        {
+          "word": "veintisiete",
+          "start": 14.129916,
+          "duration": 0.563708
+        }
+      ]
+    },
+    {
+      "id": "c2_p16_outro",
+      "title": "BIENVENIDOS AL LABORATORIO",
+      "subtitle": "Transmisión concluida · Documentación técnica abierta",
+      "badge": "16 // STATUS: END TRANSMISSION",
+      "text": "En próximos episodios analizaremos el código de los plugins, matrices de compatibilidad y pipelines. Conéctate en play.drakescraft.cl:25565. Bienvenidos al laboratorio.",
+      "spoken_text": "En los próximos capítulos analizaremos a fondo el código fuente, las matrices de compatibilidad de los addons y el diseño de los pipelines que mantienen este sistema funcionando. Si valoran los sistemas bien diseñados, bienvenidos al laboratorio.",
+      "file": "cap2_p16_outro.mp3",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "final_card",
+      "duration": 13.608,
+      "words": [
+        {
+          "word": "En",
+          "start": 0.099,
+          "duration": 0.110291
+        },
+        {
+          "word": "los",
+          "start": 0.246083,
+          "duration": 0.098041
+        },
+        {
+          "word": "próximos",
+          "start": 0.417666,
+          "duration": 0.379916
+        },
+        {
+          "word": "capítulos",
+          "start": 0.822041,
+          "duration": 0.490208
+        },
+        {
+          "word": "analizaremos",
+          "start": 1.31225,
+          "duration": 0.63725
+        },
+        {
+          "word": "a",
+          "start": 1.9495,
+          "duration": 0.03675
+        },
+        {
+          "word": "fondo",
+          "start": 2.023041,
+          "duration": 0.220583
+        },
+        {
+          "word": "el",
+          "start": 2.243625,
+          "duration": 0.073541
+        },
+        {
+          "word": "código",
+          "start": 2.390666,
+          "duration": 0.318625
+        },
+        {
+          "word": "fuente",
+          "start": 2.746083,
+          "duration": 0.343125
+        },
+        {
+          "word": "las",
+          "start": 3.322041,
+          "duration": 0.134791
+        },
+        {
+          "word": "matrices",
+          "start": 3.481375,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 3.910291,
+          "duration": 0.049
+        },
+        {
+          "word": "compatibilidad",
+          "start": 3.996083,
+          "duration": 0.710791
+        },
+        {
+          "word": "de",
+          "start": 4.719125,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 4.792666,
+          "duration": 0.159291
+        },
+        {
+          "word": "addons",
+          "start": 4.951958,
+          "duration": 0.367666
+        },
+        {
+          "word": "y",
+          "start": 5.331875,
+          "duration": 0.049
+        },
+        {
+          "word": "el",
+          "start": 5.393125,
+          "duration": 0.085791
+        },
+        {
+          "word": "diseño",
+          "start": 5.515666,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 5.895583,
+          "duration": 0.073541
+        },
+        {
+          "word": "los",
+          "start": 5.993625,
+          "duration": 0.110291
+        },
+        {
+          "word": "pipelines",
+          "start": 6.165208,
+          "duration": 0.490208
+        },
+        {
+          "word": "que",
+          "start": 6.704416,
+          "duration": 0.061291
+        },
+        {
+          "word": "mantienen",
+          "start": 6.790208,
+          "duration": 0.465666
+        },
+        {
+          "word": "este",
+          "start": 7.255875,
+          "duration": 0.220583
+        },
+        {
+          "word": "sistema",
+          "start": 7.501,
+          "duration": 0.392166
+        },
+        {
+          "word": "funcionando",
+          "start": 7.917666,
+          "duration": 0.58825
+        },
+        {
+          "word": "Si",
+          "start": 9.375,
+          "duration": 0.171583
+        },
+        {
+          "word": "valoran",
+          "start": 9.583333,
+          "duration": 0.330875
+        },
+        {
+          "word": "los",
+          "start": 9.951,
+          "duration": 0.08575
+        },
+        {
+          "word": "sistemas",
+          "start": 10.03675,
+          "duration": 0.416666
+        },
+        {
+          "word": "bien",
+          "start": 10.490208,
+          "duration": 0.134791
+        },
+        {
+          "word": "diseñados",
+          "start": 10.66175,
+          "duration": 0.539208
+        },
+        {
+          "word": "bienvenidos",
+          "start": 11.458333,
+          "duration": 0.551458
+        },
+        {
+          "word": "al",
+          "start": 12.009791,
+          "duration": 0.073541
+        },
+        {
+          "word": "laboratorio",
+          "start": 12.095583,
+          "duration": 0.61275
+        }
+      ]
+    }
+  ],
+  "total_duration": 266.592
+}

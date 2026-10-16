@@ -11,6 +11,7 @@ import { NetworksReel } from "./NetworksReel";
 import { PresentationShort } from "./PresentationShort";
 import { PresentationLong, TOTAL_LONG_FRAMES } from "./PresentationLong";
 import { Capitulo1, TOTAL_CAPITULO1_FRAMES } from "./Capitulo1";
+import { Capitulo2, TOTAL_CAPITULO2_FRAMES } from "./Capitulo2";
 
 export const Root = () => (
   <>
@@ -27,5 +28,6 @@ export const Root = () => (
     <Composition id="PresentationShort" component={PresentationShort} durationInFrames={1440} fps={30} width={1080} height={1920} />
     <Composition id="PresentationLong" component={PresentationLong} durationInFrames={TOTAL_LONG_FRAMES} fps={30} width={1920} height={1080} />
     <Composition id="Capitulo1" component={Capitulo1} durationInFrames={TOTAL_CAPITULO1_FRAMES} fps={30} width={1920} height={1080} />
+    <Composition id="Capitulo2" component={Capitulo2} durationInFrames={TOTAL_CAPITULO2_FRAMES} fps={30} width={1280} height={720} />
   </>
 );

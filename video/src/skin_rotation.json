@@ -1,5 +1,59 @@
 {
-  "player": "JackStar6677",
-  "total_skins": 0,
-  "skins": []
+  "skins": [
+    {
+      "id": "skin_01",
+      "folder": "skins_parts/skin_01_parts",
+      "hash": "02b9c82de55e8e35"
+    },
+    {
+      "id": "skin_02",
+      "folder": "skins_parts/skin_02_parts",
+      "hash": "0b6c2ad8f28ec580"
+    },
+    {
+      "id": "skin_03",
+      "folder": "skins_parts/skin_03_parts",
+      "hash": "1e35c6182b0ce762"
+    },
+    {
+      "id": "skin_04",
+      "folder": "skins_parts/skin_04_parts",
+      "hash": "65f6cb3e6a94772d"
+    },
+    {
+      "id": "skin_05",
+      "folder": "skins_parts/skin_05_parts",
+      "hash": "b00e4a63c13f8b3f"
+    },
+    {
+      "id": "skin_06",
+      "folder": "skins_parts/skin_06_parts",
+      "hash": "b0ed83f5b936d77b"
+    },
+    {
+      "id": "skin_07",
+      "folder": "skins_parts/skin_07_parts",
+      "hash": "b4ab2c5a8c738271"
+    },
+    {
+      "id": "skin_08",
+      "folder": "skins_parts/skin_08_parts",
+      "hash": "beab578823f743dd"
+    },
+    {
+      "id": "skin_09",
+      "folder": "skins_parts/skin_09_parts",
+      "hash": "d0cc78c5f0329538"
+    },
+    {
+      "id": "skin_10",
+      "folder": "skins_parts/skin_10_parts",
+      "hash": "e02720139d0a4b34"
+    },
+    {
+      "id": "skin_11",
+      "folder": "skins_parts/skin_11_parts",
+      "hash": "e27cfc61a6568799"
+    }
+  ]
 }
