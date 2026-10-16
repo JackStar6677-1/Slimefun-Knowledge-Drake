@@ -22,9 +22,9 @@ export const ShortSfCargoRules: React.FC = () => {
 
   const { pos, rot, action } = useMemo(() => {
     return {
-      pos: [0, -0.15, 1.3] as [number, number, number],
+      pos: [0, -0.42, 0.2] as [number, number, number],
       rot: [0, Math.sin(frame * 0.04) * 0.15, 0] as [number, number, number],
-      action: (frame % 120 < 60 ? "interact" : "idle") as SteveAction,
+      action: (frame % 300 < 100 ? "explain" : frame % 300 < 200 ? "point" : "nod") as SteveAction,
     };
   }, [frame]);
 
@@ -91,7 +91,7 @@ export const ShortSfCargoRules: React.FC = () => {
         <ThreeCanvas
           width={680}
           height={820}
-          camera={{ position: [0, 1.25, 4.3], fov: 38 }}
+          camera={{ position: [0, 0.85, 4.2], fov: 36 }}
           style={{ background: "transparent" }}
         >
           <ambientLight intensity={1.3} />
@@ -109,11 +109,11 @@ export const ShortSfCargoRules: React.FC = () => {
             <meshBasicMaterial color="#38bdf8" />
           </mesh>
 
-          <group position={[0, -0.1, 0]}>
+          <group position={[0, -0.15, 0]}>
             <Steve3D
               position={pos}
               rotation={rot}
-              scale={1.05}
+              scale={0.62}
               action={action}
               skinFolder="skins_parts/skin_06_parts"
             />

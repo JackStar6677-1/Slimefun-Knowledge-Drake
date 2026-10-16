@@ -22,7 +22,7 @@ export type SlotData = { slot: number; key?: string; sf?: boolean; label?: strin
 const SLOT = 92;
 
 const HAVE = new Set<string>(iconIndex as string[]);
-const Icon: React.FC<{ k?: string; sf?: boolean; size: number; label?: string }> = ({ k, sf, size, label }) => {
+export const Icon: React.FC<{ k?: string; sf?: boolean; size: number; label?: string }> = ({ k, sf, size, label }) => {
   if (!k) return null;
   return HAVE.has(`${sf ? "sf" : "mc"}/${k}`) ? (
     <Img src={staticFile(`icons/${sf ? "sf" : "mc"}/${k}.png`)} style={{ width: size, height: size, imageRendering: "pixelated" }} />
@@ -31,28 +31,100 @@ const Icon: React.FC<{ k?: string; sf?: boolean; size: number; label?: string }>
   );
 };
 
-export const ChestGui: React.FC<{ title: string; rows: number; slots: SlotData[]; showFrom?: number }> = ({ title, rows, slots, showFrom = 0 }) => {
+export const ChestGui: React.FC<{
+  title: string;
+  rows: number;
+  slots: SlotData[];
+  showFrom?: number;
+  slotSize?: number;
+  scale?: number;
+}> = ({ title, rows, slots, showFrom = 0, slotSize = 92, scale = 1 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const bySlot = new Map(slots.map((s) => [s.slot, s]));
-  const w = 9 * SLOT + 36;
+  const slotPx = slotSize;
+  const w = 9 * slotPx + 36;
   return (
-    <div style={{ width: w, background: "#c6c6c6", border: "6px solid", borderColor: "#fff #555 #555 #fff", borderRadius: 6, padding: 12, boxSizing: "border-box", fontFamily: FONT }}>
-      <div style={{ color: "#3f3f3f", fontSize: 30, fontWeight: 700, padding: "4px 6px 10px" }}>{title}</div>
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(9, ${SLOT}px)`, gridAutoRows: SLOT }}>
+    <div
+      style={{
+        width: w,
+        background: "#c6c6c6",
+        border: "5px solid",
+        borderColor: "#fff #555 #555 #fff",
+        borderRadius: 6,
+        padding: 10,
+        boxSizing: "border-box",
+        fontFamily: FONT,
+        transform: scale !== 1 ? `scale(${scale})` : undefined,
+        transformOrigin: "top left",
+        boxShadow: "0 10px 25px rgba(0,0,0,0.6)",
+      }}
+    >
+      <div
+        style={{
+          color: "#3f3f3f",
+          fontSize: Math.round(slotPx * 0.32),
+          fontWeight: 800,
+          padding: "2px 6px 8px",
+          letterSpacing: 1,
+        }}
+      >
+        {title}
+      </div>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: `repeat(9, ${slotPx}px)`,
+          gridAutoRows: slotPx,
+        }}
+      >
         {Array.from({ length: rows * 9 }).map((_, i) => {
           const s = bySlot.get(i);
           const appear = pop(f, fps, showFrom + (i % 9) * 1 + Math.floor(i / 9) * 2);
+          const iconSize = Math.max(16, slotPx - 18);
           return (
-            <div key={i} style={{ width: SLOT, height: SLOT, boxSizing: "border-box", background: s?.pane ? "#3b3b3b" : "#8b8b8b", border: "3px solid", borderColor: "#373737 #fff #fff #373737",
-              display: "flex", alignItems: "center", justifyContent: "center", position: "relative", opacity: Math.min(1, appear + 0.001),
-              outline: s?.glow ? `5px solid ${GOLD}` : "none", outlineOffset: -5 }}>
+            <div
+              key={i}
+              style={{
+                width: slotPx,
+                height: slotPx,
+                boxSizing: "border-box",
+                background: s?.pane ? "#3b3b3b" : "#8b8b8b",
+                border: "2px solid",
+                borderColor: "#373737 #fff #fff #373737",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                position: "relative",
+                opacity: Math.min(1, appear + 0.001),
+                outline: s?.glow ? `3px solid ${GOLD}` : "none",
+                outlineOffset: -3,
+              }}
+            >
               {s && !s.pane && (
                 <div style={{ opacity: s.dim ? 0.35 : 1, transform: `scale(${0.6 + 0.4 * appear})` }}>
-                  {s.barrier ? <Icon k="BARRIER" sf={false} size={SLOT - 30} label="locked" /> : <Icon k={s.key} sf={s.sf} size={SLOT - 30} label={s.label} />}
+                  {s.barrier ? (
+                    <Icon k="BARRIER" sf={false} size={iconSize} label="locked" />
+                  ) : (
+                    <Icon k={s.key} sf={s.sf} size={iconSize} label={s.label} />
+                  )}
                 </div>
               )}
-              {s?.n && s.n > 1 ? <span style={{ position: "absolute", right: 5, bottom: 2, color: "#fff", fontWeight: 800, fontSize: 22, textShadow: "2px 2px #333" }}>{s.n}</span> : null}
+              {s?.n && s.n > 1 ? (
+                <span
+                  style={{
+                    position: "absolute",
+                    right: 3,
+                    bottom: 1,
+                    color: "#fff",
+                    fontWeight: 800,
+                    fontSize: Math.round(slotPx * 0.3),
+                    textShadow: "1px 1px #333",
+                  }}
+                >
+                  {s.n}
+                </span>
+              ) : null}
             </div>
           );
         })}

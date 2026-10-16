@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
-tools/gen_all_thumbnails.py — Generador de miniaturas profesionales (1280x720) para:
-  - Capítulo 3: El Enjambre Centinela SAORI
-  - Capítulo 4: Código Propio & Cero Rollbacks
-  - Slimefun Capítulo 1: La Guía Maestra & Multibloques
+tools/gen_all_thumbnails.py — Generador de miniaturas visuales de alto impacto (1280x720)
+Enfocado en figuras prominentes, elementos icónicos de Minecraft, glow vibrante y tipografía audaz sin exceso de texto.
 """
 import os
 import pathlib
@@ -11,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PUBLIC_DIR = ROOT / "video" / "public"
-SKINS_DIR = PUBLIC_DIR / "jack_parts"
+OUT_DIR = ROOT / "video" / "out"
 
 def get_font(size, bold=True):
     font_paths = [
@@ -27,114 +25,164 @@ def get_font(size, bold=True):
                 continue
     return ImageFont.load_default()
 
-def create_thumbnail(title, subtitle, badge, accent_color, out_name, details=[]):
+def draw_glow_rect(draw, bbox, color, radius=16, width=4):
+    x0, y0, x1, y1 = bbox
+    # Multiple fading outlines for neon glow effect
+    r, g, b = color[:3]
+    for i in range(4, 0, -1):
+        alpha = int(35 / i)
+        draw.rounded_rectangle([x0 - i, y0 - i, x1 + i, y1 + i], radius=radius, outline=(r, g, b, alpha), width=width + i)
+    draw.rounded_rectangle(bbox, radius=radius, outline=color, width=width)
+
+def create_high_impact_thumbnail(
+    main_title,
+    badge_text,
+    accent_color,
+    out_name,
+    featured_tags=[],
+    mc_icons=[]
+):
     width, height = 1280, 720
-    im = Image.new("RGBA", (width, height), (5, 9, 20, 255))
+    im = Image.new("RGBA", (width, height), (6, 11, 25, 255))
     draw = ImageDraw.Draw(im)
 
-    # 1. Grid tecnológico de fondo
-    for x in range(0, width, 50):
-        draw.line([(x, 0), (x, height)], fill=(20, 30, 55, 120), width=1)
-    for y in range(0, height, 50):
-        draw.line([(0, y), (width, y)], fill=(20, 30, 55, 120), width=1)
+    # 1. Gradiente radial y grid espacial de fondo
+    for x in range(0, width, 48):
+        draw.line([(x, 0), (x, height)], fill=(16, 26, 48, 90), width=1)
+    for y in range(0, height, 48):
+        draw.line([(0, y), (width, y)], fill=(16, 26, 48, 90), width=1)
 
-    # 2. Resplandor de acento lateral
-    glow_box = [(width - 450, 40), (width - 40, height - 40)]
-    draw.rounded_rectangle(glow_box, radius=24, fill=(15, 23, 42, 220), outline=accent_color, width=3)
+    # Resplandor de acento central/derecho
+    glow_bg = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    glow_draw = ImageDraw.Draw(glow_bg)
+    r, g, b = accent_color[:3]
+    glow_draw.ellipse([width - 550, 60, width + 50, height - 60], fill=(r, g, b, 45))
+    glow_draw.ellipse([80, 100, 500, 520], fill=(r, g, b, 25))
+    glow_bg = glow_bg.filter(ImageFilter.GaussianBlur(50))
+    im = Image.alpha_composite(im, glow_bg)
+    draw = ImageDraw.Draw(im)
 
-    # 3. Textos y Badges
-    font_badge = get_font(20, bold=True)
-    font_title = get_font(44, bold=True)
-    font_sub = get_font(22, bold=False)
-    font_detail = get_font(18, bold=True)
-    font_brand = get_font(26, bold=True)
+    # 2. Tipografías audaces para YouTube
+    font_badge = get_font(22, bold=True)
+    font_main = get_font(72, bold=True)
+    font_sub = get_font(32, bold=True)
+    font_tag = get_font(20, bold=True)
+    font_brand = get_font(22, bold=True)
 
-    # Badge de cabecera
-    draw.rounded_rectangle([(70, 70), (450, 115)], radius=8, fill=accent_color)
-    draw.text((85, 78), badge, font=font_badge, fill=(2, 6, 23, 255))
+    # 3. Badge superior llamativo
+    badge_w = 420
+    draw.rounded_rectangle([(70, 65), (70 + badge_w, 115)], radius=12, fill=accent_color)
+    draw.text((95, 75), badge_text, font=font_badge, fill=(2, 6, 23, 255))
 
-    # Título principal
-    draw.text((70, 150), title, font=font_title, fill=(255, 255, 255, 255))
+    # 4. Título Principal Masivo (Impacto a primera vista)
+    # Sombra del texto
+    draw.text((74, 144), main_title[0], font=font_main, fill=(0, 0, 0, 180))
+    draw.text((70, 140), main_title[0], font=font_main, fill=(255, 255, 255, 255))
 
-    # Subtítulo
-    draw.text((70, 220), subtitle, font=font_sub, fill=(148, 163, 184, 255))
+    if len(main_title) > 1:
+        draw.text((74, 234), main_title[1], font=font_main, fill=(0, 0, 0, 180))
+        draw.text((70, 230), main_title[1], font=font_main, fill=accent_color)
 
-    # Puntos clave técnicos en la columna izquierda
-    y_pos = 290
-    for det in details:
-        draw.rounded_rectangle([(70, y_pos), (750, y_pos + 55)], radius=10, fill=(15, 23, 42, 230), outline=(56, 189, 248, 80), width=1)
-        draw.text((95, y_pos + 14), det, font=font_detail, fill=(226, 232, 240, 255))
-        y_pos += 72
+    # 5. Etiquetas estilo "Pills" llamativas (máximo 3, cortas)
+    pill_y = 350
+    for tag in featured_tags:
+        pill_w = 260
+        draw.rounded_rectangle([(70, pill_y), (70 + pill_w, pill_y + 54)], radius=12, fill=(15, 23, 42, 230), outline=accent_color, width=2)
+        draw.text((95, pill_y + 14), tag, font=font_tag, fill=(255, 255, 255, 255))
+        pill_y += 72
+
+    # 6. Íconos y Figuras de Minecraft en el tercio derecho
+    card_right = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    card_draw = ImageDraw.Draw(card_right)
+    card_box = [(width - 520, 60), (width - 60, height - 60)]
+    card_draw.rounded_rectangle(card_box, radius=24, fill=(10, 16, 32, 235), outline=accent_color, width=3)
+    card_right = Image.alpha_composite(im, card_right)
+    draw = ImageDraw.Draw(card_right)
+
+    # Compositar íconos de Minecraft agrandados con pixel-art
+    icon_positions = [
+        (width - 450, 120, 160),
+        (width - 250, 120, 160),
+        (width - 380, 310, 220),
+    ]
+
+    for i, icon_rel in enumerate(mc_icons[:3]):
+        icon_path = PUBLIC_DIR / icon_rel
+        if icon_path.exists():
+            try:
+                icon_img = Image.open(icon_path).convert("RGBA")
+                target_size = icon_positions[i][2]
+                icon_resized = icon_img.resize((target_size, target_size), Image.Resampling.NEAREST)
+                card_right.paste(icon_resized, (icon_positions[i][0], icon_positions[i][1]), icon_resized)
+            except Exception as e:
+                print(f"Error loading icon {icon_path}: {e}")
 
     # Brand Footer
-    draw.text((70, height - 75), "DRAKESCRAFT LABS // play.drakescraft.cl:25565", font=font_brand, fill=accent_color)
+    draw.text((70, height - 70), "DRAKESCRAFT LABS  //  play.drakescraft.cl", font=font_brand, fill=accent_color)
+    draw.text((width - 450, height - 70), "100% VANILLA  ·  JAVA & BEDROCK", font=font_brand, fill=(148, 163, 184, 255))
 
-    # Guardar thumbnail PNG
     out_path = PUBLIC_DIR / out_name
-    im.convert("RGB").save(str(out_path), "PNG")
-    print(f"[OK] Miniatura generada: {out_path} ({out_path.stat().st_size / 1024:.1f} KB)")
+    card_right.convert("RGB").save(str(out_path), "PNG")
+    print(f"[OK] Miniatura de alto impacto generada: {out_path} ({out_path.stat().st_size / 1024:.1f} KB)")
 
 def main():
     print("=" * 60)
-    print("GENERANDO MINIATURAS PROFESIONALES PARA CAPÍTULOS 3, 4 Y SLIMEFUN 1")
+    print("GENERANDO MINIATURAS VISUALES DE ALTO IMPACTO (SIN EXCESO DE TEXTO)")
     print("=" * 60)
 
-    # Capítulo 3
-    create_thumbnail(
-        title="CAPÍTULO 3 // EL ENJAMBRE SAORI",
-        subtitle="Server Autonomous Orchestrator for Resilient Infrastructure",
-        badge="DRAKESCRAFT SRE // 24/7 NOMINAL",
-        accent_color=(6, 182, 212, 255),
-        out_name="thumbnail_capitulo3.png",
-        details=[
-            "✔ Socket Raw en Dallas // Sondeo por segundo en 25565",
-            "✔ Diagnóstico Forense // Spark Profiler & Thread Dumps",
-            "✔ Crossplay Unificado // Java & Bedrock sin Desincronización"
-        ]
-    )
-
-    # Capítulo 4
-    create_thumbnail(
-        title="CAPÍTULO 4 // CÓDIGO PROPIO & CERO ROLLBACKS",
-        subtitle="Maven Propio · Patch Atómico Networks v6 · Persistencia WAL",
-        badge="SRE CREED // ZERO DATA LOSS",
-        accent_color=(168, 85, 247, 255),
-        out_name="thumbnail_capitulo4.png",
-        details=[
-            "✔ Repositorio Maven Dedicado // maven.drakescraft.cl (Java 21)",
-            "✔ Patch Networks v6 // Buffer de Confirmación Atómica contra Dupes",
-            "✔ Cero Pérdida de Datos // Write-Ahead Logging & Persistencia Real"
-        ]
-    )
-
-    # Slimefun Capítulo 1
-    create_thumbnail(
-        title="SLIMEFUN 1.21 // GUÍA MAESTRA & MULTIBLOQUES",
-        subtitle="El Tutorial Completo: Guía /sf, GUI Real de MC, Multibloques & Comandos",
-        badge="DRAKESCRAFT TUTORIAL // PASO A PASO",
-        accent_color=(16, 185, 129, 255),
+    # 1. Slimefun Capítulo 1
+    create_high_impact_thumbnail(
+        main_title=["SLIMEFUN 1.21", "GUÍA MAESTRA"],
+        badge_text="DRAKESCRAFT  //  CAPÍTULO 1",
+        accent_color=(16, 185, 129, 255), # Emerald Green
         out_name="thumbnail_sf_capitulo1.png",
-        details=[
-            "✔ Comandos de Inicio // /rtp, /sethome y protección /ps",
-            "✔ Guía y Menú de Investigaciones // /sf guide & Warps de XP (/pwarp)",
-            "✔ Multibloques Iniciales // Mesa Mejorada, Grindstone, Smeltery y Forja"
+        featured_tags=[
+            "✦ MULTIBLOQUES 3D",
+            "✦ GUI 100% VANILLA",
+            "✦ COMANDOS & CLAIMS"
+        ],
+        mc_icons=[
+            "icons/sf/ENHANCED_CRAFTING_TABLE.png",
+            "icons/sf/ARMOR_FORGE.png",
+            "icons/sf/ORE_CRUSHER.png"
         ]
     )
 
-    # Slimefun Capítulo 2
-    create_thumbnail(
-        title="SLIMEFUN 1.21 // REDES ELÉCTRICAS & ENERGÍA",
-        subtitle="EnergyNet: Reguladores, Capacitores, Paneles Solares & Hornos Eléctricos",
-        badge="DRAKESCRAFT TUTORIAL // CAPÍTULO 2",
-        accent_color=(245, 158, 11, 255),
-        out_name="thumbnail_sf_capitulo2.png",
-        details=[
-            "✔ Energy Regulator // El cerebro que coordina la red sin lag",
-            "✔ Almacenamiento // Bancos de Capacitores Pequeños a Carbonado",
-            "✔ Primeras Máquinas // Generadores Solares, Térmicos y Hornos Eléctricos"
+    # 2. Capítulo 3: SAORI Enjambre
+    create_high_impact_thumbnail(
+        main_title=["SAORI // IA", "CENTINELA SRE"],
+        badge_text="INGENIERÍA DEL LAB  //  CAPÍTULO 3",
+        accent_color=(6, 182, 212, 255), # Cyan Neon
+        out_name="thumbnail_capitulo3.png",
+        featured_tags=[
+            "⚡ SONDEO RAW 25565",
+            "⚡ SPARK PROFILER",
+            "⚡ AUTO-HEALING"
+        ],
+        mc_icons=[
+            "icons/mc/NETHER_STAR.png",
+            "icons/sf/GPS_TRANSMITTER.png",
+            "icons/mc/BEACON.png"
+        ]
+    )
+
+    # 3. Capítulo 4: Cero Rollbacks
+    create_high_impact_thumbnail(
+        main_title=["CERO ROLLBACKS", "CÓDIGO PROPIO"],
+        badge_text="INGENIERÍA DEL LAB  //  CAPÍTULO 4",
+        accent_color=(245, 158, 11, 255), # Gold / Amber
+        out_name="thumbnail_capitulo4.png",
+        featured_tags=[
+            "🛡️ REPO MAVEN PROPIO",
+            "🛡️ ATOMIC BUFFER",
+            "🛡️ JAVA 21 LTS"
+        ],
+        mc_icons=[
+            "icons/mc/ENCHANTED_BOOK.png",
+            "icons/mc/DIAMOND.png",
+            "icons/sf/DAMASCUS_STEEL_CHESTPLATE.png"
         ]
     )
 
 if __name__ == "__main__":
     main()
-

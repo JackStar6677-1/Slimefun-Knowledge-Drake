@@ -20,42 +20,46 @@ SECTIONS = [
     {
         "id": "sf1_p01_bienvenida",
         "file": "sf1_p01_bienvenida.mp3",
-        "title": "BIENVENIDOS A DRAKESCRAFT",
-        "subtitle": "Conexión oficial: play.drakescraft.cl:25565 (Java & Bedrock)",
-        "badge": "01 // CONEXIÓN: PLAY.DRAKESCRAFT.CL",
+        "title": "BIENVENIDOS A DRAKESCRAFT: LOBBY & MODALIDADES",
+        "subtitle": "Conexión: play.drakescraft.cl:25565 // Usa /lobby y /modalidades",
+        "badge": "01 // CONEXIÓN & LOBBY: /MODALIDADES",
         "spoken_text": (
-            "Bienvenidos al verdadero capítulo uno de nuestra guía técnica en DrakesCraft. "
-            "A partir de este episodio dejamos atrás los diagnósticos de servidor para enseñarte, paso a paso, "
-            "a dominar Slimefun y sobrevivir en nuestro clúster técnico. "
-            "Recuerda que puedes conectarte tanto desde Java como desde Bedrock en el puerto dos cinco cinco seis cinco."
+            "Bienvenidos al verdadero capítulo uno de nuestra guía oficial de Slimefun en DrakesCraft. "
+            "Al conectarte en play punto drakescraft punto c e l en el puerto dos cinco cinco seis cinco, "
+            "no apareces directamente en el mundo de supervivencia, sino en el Lobby principal. "
+            "Desde el Lobby debes usar el comando barra modalidades para abrir el selector y elegir tu servidor. "
+            "Mucha atención: las modalidades que tienen Slimefun son tres: Slimefun Survival, OneBlock y SkyBlock. "
+            "Nuestra modalidad Clásico es supervivencia vanilla tradicional y no tiene Slimefun."
         ),
         "text": (
-            "Bienvenidos al verdadero capítulo 1 de nuestra guía técnica en DrakesCraft. "
-            "A partir de hoy aprenderás, paso a paso, a dominar Slimefun y sobrevivir en nuestro clúster técnico. "
-            "Conéctate desde Java o Bedrock en el puerto 25565."
+            "Conéctate a play.drakescraft.cl:25565 (Java & Bedrock). "
+            "Apareces en el Lobby principal (/lobby). Usa /modalidades para elegir tu servidor. "
+            "Modalidades CON Slimefun: Slimefun Survival, OneBlock y SkyBlock. "
+            "¡Ojo! La modalidad Clásico es 100% Vanilla y NO tiene Slimefun."
         ),
-        "action": "idle",
+        "action": "explain",
         "camera": "close",
-        "diagram": "welcome_screen"
+        "diagram": "modalidades_menu"
     },
     {
         "id": "sf1_p02_comandos_inicio",
         "file": "sf1_p02_comandos_inicio.mp3",
-        "title": "COMANDOS DE SUPERVIVENCIA ESENCIALES",
-        "subtitle": "/rtp para mundo abierto, /sethome y /spawn",
-        "badge": "02 // COMANDOS BÁSICOS: /RTP & /SETHOME",
+        "title": "INICIO EN SLIMEFUN & COMANDOS ESENCIALES",
+        "subtitle": "/rtp para mundo salvaje, /sethome para tu base y /home",
+        "badge": "02 // COMANDOS DE SUPERVIVENCIA: /RTP & /SETHOME",
         "spoken_text": (
-            "Al entrar al servidor aparecerás en el Spawn principal. "
-            "Para comenzar tu aventura, escribe barra rtp en el chat. "
-            "Este comando te teletransportará de forma aleatoria y completamente segura a una zona virgen del mundo de supervivencia. "
-            "Una vez encuentres un terreno que te guste, utiliza barra sethome para fijar tu base y regresar cuando quieras con barra home."
+            "Una vez que ingresas a la modalidad Slimefun desde el selector, comenzarás tu aventura. "
+            "Para salir al mundo salvaje y buscar recursos, escribe barra rtp en el chat. "
+            "Este comando te teletransportará de forma aleatoria y completamente segura a una zona virgen. "
+            "Cuando encuentres un terreno que te guste, utiliza barra sethome con un nombre para fijar tu base y volver cuando quieras con barra home. "
+            "Y si deseas regresar al inicio o cambiar de servidor, barra lobby te llevará al punto de encuentro."
         ),
         "text": (
-            "Al entrar aparecerás en el Spawn. Para comenzar, escribe /rtp en el chat. "
-            "Te teletransportará de forma aleatoria y segura a una zona virgen del mundo de supervivencia. "
-            "Fija tu base con /sethome y regresa cuando quieras con /home."
+            "Al ingresar a la modalidad Slimefun, escribe /rtp para teletransportarte de forma aleatoria y segura al mundo salvaje. "
+            "Fija tu base con /sethome <nombre> y regresa cuando quieras con /home <nombre>. "
+            "Para volver al selector en cualquier momento, usa /lobby o /modalidades."
         ),
-        "action": "interact",
+        "action": "point",
         "camera": "normal",
         "diagram": "commands_hud"
     },

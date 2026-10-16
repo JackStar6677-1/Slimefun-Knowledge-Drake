@@ -21,10 +21,12 @@ export const ShortSfStart: React.FC = () => {
   const { fps } = useVideoConfig();
 
   const { pos, rot, action } = useMemo(() => {
+    const currentAction: SteveAction =
+      frame % 300 < 100 ? "explain" : frame % 300 < 200 ? "point" : "nod";
     return {
-      pos: [0, -0.15, 1.3] as [number, number, number],
-      rot: [0, Math.sin(frame * 0.04) * 0.15, 0] as [number, number, number],
-      action: (frame % 120 < 60 ? "interact" : "idle") as SteveAction,
+      pos: [0, -0.42, 0.2] as [number, number, number],
+      rot: [0, Math.sin(frame * 0.03) * 0.18, 0] as [number, number, number],
+      action: currentAction,
     };
   }, [frame]);
 
@@ -86,12 +88,12 @@ export const ShortSfStart: React.FC = () => {
         </div>
       </div>
 
-      {/* 4. Escena 3D Superior (Jack Presentador + Encuadre sin recortes) */}
+      {/* 4. Escena 3D Superior (Jack Presentador con escala 0.62 y encuadre amplio sin recortes) */}
       <div style={{ position: "absolute", top: 120, left: 0, width: 680, height: 820, zIndex: 10 }}>
         <ThreeCanvas
           width={680}
           height={820}
-          camera={{ position: [0, 1.25, 4.3], fov: 38 }}
+          camera={{ position: [0, 0.85, 4.2], fov: 36 }}
           style={{ background: "transparent" }}
         >
           <ambientLight intensity={1.3} />
@@ -109,11 +111,11 @@ export const ShortSfStart: React.FC = () => {
             <meshBasicMaterial color="#22c55e" />
           </mesh>
 
-          <group position={[0, -0.1, 0]}>
+          <group position={[0, -0.15, 0]}>
             <Steve3D
               position={pos}
               rotation={rot}
-              scale={1.05}
+              scale={0.62}
               action={action}
               skinFolder="skins_parts/skin_01_parts"
             />

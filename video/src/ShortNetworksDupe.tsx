@@ -86,7 +86,7 @@ export const ShortNetworksDupe: React.FC = () => {
         <ThreeCanvas
           width={680}
           height={820}
-          camera={{ position: [0, 1.25, 4.3], fov: 38 }}
+          camera={{ position: [0, 0.85, 4.2], fov: 36 }}
           style={{ background: "transparent" }}
         >
           <ambientLight intensity={1.3} />
@@ -117,11 +117,11 @@ export const ShortNetworksDupe: React.FC = () => {
             </mesh>
           </group>
 
-          <group position={[0, -0.1, 0]}>
+          <group position={[0, -0.15, 0]}>
             <Steve3D
               position={pos}
               rotation={rot}
-              scale={1.05}
+              scale={0.62}
               action={action}
               heldItemMaterial="PUSHER"
               skinFolder="skins_parts/skin_01_parts"

@@ -6,598 +6,883 @@
   "scenes": [
     {
       "id": "sf1_p01_bienvenida",
-      "title": "BIENVENIDOS A DRAKESCRAFT",
-      "subtitle": "Conexión oficial: play.drakescraft.cl:25565 (Java & Bedrock)",
-      "badge": "01 // CONEXIÓN: PLAY.DRAKESCRAFT.CL",
-      "text": "Bienvenidos al verdadero capítulo 1 de nuestra guía técnica en DrakesCraft. A partir de hoy aprenderás, paso a paso, a dominar Slimefun y sobrevivir en nuestro clúster técnico. Conéctate desde Java o Bedrock en el puerto 25565.",
-      "spoken_text": "Bienvenidos al verdadero capítulo uno de nuestra guía técnica en DrakesCraft. A partir de este episodio dejamos atrás los diagnósticos de servidor para enseñarte, paso a paso, a dominar Slimefun y sobrevivir en nuestro clúster técnico. Recuerda que puedes conectarte tanto desde Java como desde Bedrock en el puerto dos cinco cinco seis cinco.",
-      "action": "idle",
+      "title": "BIENVENIDOS A DRAKESCRAFT: LOBBY & MODALIDADES",
+      "subtitle": "Conexión: play.drakescraft.cl:25565 // Usa /lobby y /modalidades",
+      "badge": "01 // CONEXIÓN & LOBBY: /MODALIDADES",
+      "text": "Conéctate a play.drakescraft.cl:25565 (Java & Bedrock). Apareces en el Lobby principal (/lobby). Usa /modalidades para elegir tu servidor. Modalidades CON Slimefun: Slimefun Survival, OneBlock y SkyBlock. ¡Ojo! La modalidad Clásico es 100% Vanilla y NO tiene Slimefun.",
+      "spoken_text": "Bienvenidos al verdadero capítulo uno de nuestra guía oficial de Slimefun en DrakesCraft. Al conectarte en play punto drakescraft punto c e l en el puerto dos cinco cinco seis cinco, no apareces directamente en el mundo de supervivencia, sino en el Lobby principal. Desde el Lobby debes usar el comando barra modalidades para abrir el selector y elegir tu servidor. Mucha atención: las modalidades que tienen Slimefun son tres: Slimefun Survival, OneBlock y SkyBlock. Nuestra modalidad Clásico es supervivencia vanilla tradicional y no tiene Slimefun.",
+      "action": "explain",
       "camera": "close",
-      "diagram": "welcome_screen",
+      "diagram": "modalidades_menu",
       "audio_file": "sf1_p01_bienvenida.mp3",
-      "duration": 19.368,
-      "frames": 596,
+      "duration": 31.608,
+      "frames": 963,
       "words": [
         {
           "word": "Bienvenidos",
           "start": 0.099,
-          "duration": 0.58825
+          "duration": 0.576
         },
         {
           "word": "al",
-          "start": 0.68725,
+          "start": 0.675,
           "duration": 0.073541
         },
         {
           "word": "verdadero",
-          "start": 0.797541,
+          "start": 0.785291,
           "duration": 0.441166
         },
         {
           "word": "capítulo",
-          "start": 1.28775,
+          "start": 1.2755,
           "duration": 0.453416
         },
         {
           "word": "uno",
-          "start": 1.765666,
+          "start": 1.753416,
           "duration": 0.171583
         },
         {
           "word": "de",
-          "start": 1.96175,
+          "start": 1.9495,
           "duration": 0.073541
         },
         {
           "word": "nuestra",
-          "start": 2.059791,
-          "duration": 0.269625
+          "start": 2.047541,
+          "duration": 0.257333
         },
         {
           "word": "guía",
-          "start": 2.366166,
+          "start": 2.341666,
           "duration": 0.183833
         },
         {
-          "word": "técnica",
-          "start": 2.635791,
-          "duration": 0.392166
-        },
-        {
-          "word": "en",
-          "start": 3.064708,
-          "duration": 0.061291
-        },
-        {
-          "word": "DrakesCraft",
-          "start": 3.175,
-          "duration": 0.61275
-        },
-        {
-          "word": "A",
-          "start": 4.656875,
-          "duration": 0.110291
-        },
-        {
-          "word": "partir",
-          "start": 4.828416,
-          "duration": 0.318625
+          "word": "oficial",
+          "start": 2.55,
+          "duration": 0.367666
         },
         {
           "word": "de",
-          "start": 5.196083,
-          "duration": 0.085791
-        },
-        {
-          "word": "este",
-          "start": 5.343125,
-          "duration": 0.159333
-        },
-        {
-          "word": "episodio",
-          "start": 5.502458,
-          "duration": 0.465666
-        },
-        {
-          "word": "dejamos",
-          "start": 5.992666,
-          "duration": 0.392125
-        },
-        {
-          "word": "atrás",
-          "start": 6.384791,
-          "duration": 0.257333
-        },
-        {
-          "word": "los",
-          "start": 6.691166,
-          "duration": 0.110291
-        },
-        {
-          "word": "diagnósticos",
-          "start": 6.83825,
-          "duration": 0.58825
-        },
-        {
-          "word": "de",
-          "start": 7.46325,
-          "duration": 0.049
-        },
-        {
-          "word": "servidor",
-          "start": 7.5245,
-          "duration": 0.428916
-        },
-        {
-          "word": "para",
-          "start": 8.026958,
-          "duration": 0.110291
-        },
-        {
-          "word": "enseñarte",
-          "start": 8.1495,
-          "duration": 0.526958
-        },
-        {
-          "word": "paso",
-          "start": 8.946083,
-          "duration": 0.208333
-        },
-        {
-          "word": "a",
-          "start": 9.154416,
+          "start": 2.966666,
           "duration": 0.03675
-        },
-        {
-          "word": "paso",
-          "start": 9.276958,
-          "duration": 0.294125
-        },
-        {
-          "word": "a",
-          "start": 9.779416,
-          "duration": 0.061291
-        },
-        {
-          "word": "dominar",
-          "start": 9.865208,
-          "duration": 0.367625
         },
         {
           "word": "Slimefun",
-          "start": 10.232833,
-          "duration": 0.526958
-        },
-        {
-          "word": "y",
-          "start": 10.772041,
-          "duration": 0.03675
-        },
-        {
-          "word": "sobrevivir",
-          "start": 10.845583,
-          "duration": 0.502458
+          "start": 3.064708,
+          "duration": 0.514708
         },
         {
           "word": "en",
-          "start": 11.348041,
+          "start": 3.579416,
           "duration": 0.098041
         },
         {
-          "word": "nuestro",
-          "start": 11.470583,
-          "duration": 0.257333
+          "word": "DrakesCraft",
+          "start": 3.726458,
+          "duration": 0.61275
         },
         {
-          "word": "clúster",
-          "start": 11.789208,
-          "duration": 0.343125
-        },
-        {
-          "word": "técnico",
-          "start": 12.218125,
-          "duration": 0.416666
-        },
-        {
-          "word": "Recuerda",
-          "start": 13.517166,
-          "duration": 0.416666
-        },
-        {
-          "word": "que",
-          "start": 13.982833,
-          "duration": 0.073541
-        },
-        {
-          "word": "puedes",
-          "start": 14.129916,
-          "duration": 0.208333
+          "word": "Al",
+          "start": 5.196083,
+          "duration": 0.134791
         },
         {
           "word": "conectarte",
-          "start": 14.375,
+          "start": 5.379916,
           "duration": 0.490208
         },
         {
-          "word": "tanto",
-          "start": 14.951,
-          "duration": 0.232833
+          "word": "en",
+          "start": 5.882333,
+          "duration": 0.122541
         },
         {
-          "word": "desde",
-          "start": 15.208333,
-          "duration": 0.208333
+          "word": "play",
+          "start": 6.017166,
+          "duration": 0.122541
         },
         {
-          "word": "Java",
-          "start": 15.441166,
+          "word": "punto",
+          "start": 6.2255,
           "duration": 0.220583
         },
         {
-          "word": "como",
-          "start": 15.723041,
-          "duration": 0.183833
+          "word": "drakescraft",
+          "start": 6.470583,
+          "duration": 0.539208
         },
         {
-          "word": "desde",
-          "start": 15.931375,
-          "duration": 0.208333
+          "word": "punto",
+          "start": 7.107833,
+          "duration": 0.257333
         },
         {
-          "word": "Bedrock",
-          "start": 16.176458,
-          "duration": 0.330875
+          "word": "c",
+          "start": 7.377458,
+          "duration": 0.134791
+        },
+        {
+          "word": "e",
+          "start": 7.585791,
+          "duration": 0.01225
+        },
+        {
+          "word": "l",
+          "start": 7.647041,
+          "duration": 0.134791
         },
         {
           "word": "en",
-          "start": 16.507333,
-          "duration": 0.085791
+          "start": 7.818625,
+          "duration": 0.073541
         },
         {
           "word": "el",
-          "start": 16.593125,
+          "start": 7.892166,
           "duration": 0.098041
         },
         {
           "word": "puerto",
-          "start": 16.776958,
+          "start": 8.076,
           "duration": 0.257333
         },
         {
           "word": "dos",
-          "start": 17.058833,
-          "duration": 0.171541
+          "start": 8.357833,
+          "duration": 0.147041
         },
         {
           "word": "cinco",
-          "start": 17.230375,
-          "duration": 0.306375
+          "start": 8.504916,
+          "duration": 0.294125
         },
         {
           "word": "cinco",
-          "start": 17.561291,
-          "duration": 0.318625
+          "start": 8.823541,
+          "duration": 0.269625
         },
         {
           "word": "seis",
-          "start": 17.904416,
-          "duration": 0.220583
+          "start": 9.117666,
+          "duration": 0.208333
         },
         {
           "word": "cinco",
-          "start": 18.125,
+          "start": 9.326,
           "duration": 0.367666
+        },
+        {
+          "word": "no",
+          "start": 9.901958,
+          "duration": 0.134791
+        },
+        {
+          "word": "apareces",
+          "start": 10.061291,
+          "duration": 0.416666
+        },
+        {
+          "word": "directamente",
+          "start": 10.514708,
+          "duration": 0.61275
+        },
+        {
+          "word": "en",
+          "start": 11.139708,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 11.2255,
+          "duration": 0.098041
+        },
+        {
+          "word": "mundo",
+          "start": 11.348041,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 11.617666,
+          "duration": 0.073541
+        },
+        {
+          "word": "supervivencia",
+          "start": 11.715666,
+          "duration": 0.735291
+        },
+        {
+          "word": "sino",
+          "start": 12.659333,
+          "duration": 0.232833
+        },
+        {
+          "word": "en",
+          "start": 12.892166,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 12.977958,
+          "duration": 0.098041
+        },
+        {
+          "word": "Lobby",
+          "start": 13.076,
+          "duration": 0.220583
+        },
+        {
+          "word": "principal",
+          "start": 13.370083,
+          "duration": 0.514708
+        },
+        {
+          "word": "Desde",
+          "start": 14.742666,
+          "duration": 0.257333
+        },
+        {
+          "word": "el",
+          "start": 15.0,
+          "duration": 0.073541
+        },
+        {
+          "word": "Lobby",
+          "start": 15.073541,
+          "duration": 0.232833
+        },
+        {
+          "word": "debes",
+          "start": 15.355375,
+          "duration": 0.269625
+        },
+        {
+          "word": "usar",
+          "start": 15.63725,
+          "duration": 0.232833
+        },
+        {
+          "word": "el",
+          "start": 15.870083,
+          "duration": 0.085791
+        },
+        {
+          "word": "comando",
+          "start": 16.004916,
+          "duration": 0.343125
+        },
+        {
+          "word": "barra",
+          "start": 16.372541,
+          "duration": 0.220583
+        },
+        {
+          "word": "modalidades",
+          "start": 16.617666,
+          "duration": 0.61275
+        },
+        {
+          "word": "para",
+          "start": 17.303916,
+          "duration": 0.134791
+        },
+        {
+          "word": "abrir",
+          "start": 17.48775,
+          "duration": 0.220583
+        },
+        {
+          "word": "el",
+          "start": 17.708333,
+          "duration": 0.110291
+        },
+        {
+          "word": "selector",
+          "start": 17.818625,
+          "duration": 0.428916
+        },
+        {
+          "word": "y",
+          "start": 18.272041,
+          "duration": 0.073541
+        },
+        {
+          "word": "elegir",
+          "start": 18.345583,
+          "duration": 0.318625
+        },
+        {
+          "word": "tu",
+          "start": 18.75,
+          "duration": 0.073541
+        },
+        {
+          "word": "servidor",
+          "start": 18.848041,
+          "duration": 0.514708
+        },
+        {
+          "word": "Mucha",
+          "start": 20.245083,
+          "duration": 0.269625
+        },
+        {
+          "word": "atención",
+          "start": 20.514708,
+          "duration": 0.502458
+        },
+        {
+          "word": "las",
+          "start": 21.23775,
+          "duration": 0.147041
+        },
+        {
+          "word": "modalidades",
+          "start": 21.409333,
+          "duration": 0.563708
+        },
+        {
+          "word": "que",
+          "start": 22.022041,
+          "duration": 0.061291
+        },
+        {
+          "word": "tienen",
+          "start": 22.156875,
+          "duration": 0.220583
+        },
+        {
+          "word": "Slimefun",
+          "start": 22.377458,
+          "duration": 0.502458
+        },
+        {
+          "word": "son",
+          "start": 22.892166,
+          "duration": 0.232833
+        },
+        {
+          "word": "tres",
+          "start": 23.13725,
+          "duration": 0.281875
+        },
+        {
+          "word": "Slimefun",
+          "start": 23.590666,
+          "duration": 0.502458
+        },
+        {
+          "word": "Survival",
+          "start": 24.105375,
+          "duration": 0.58825
+        },
+        {
+          "word": "OneBlock",
+          "start": 24.877458,
+          "duration": 0.379916
+        },
+        {
+          "word": "y",
+          "start": 25.281875,
+          "duration": 0.049
+        },
+        {
+          "word": "SkyBlock",
+          "start": 25.343125,
+          "duration": 0.551458
+        },
+        {
+          "word": "Nuestra",
+          "start": 26.776958,
+          "duration": 0.306375
+        },
+        {
+          "word": "modalidad",
+          "start": 27.107833,
+          "duration": 0.428916
+        },
+        {
+          "word": "Clásico",
+          "start": 27.585791,
+          "duration": 0.392166
+        },
+        {
+          "word": "es",
+          "start": 28.002458,
+          "duration": 0.06125
+        },
+        {
+          "word": "supervivencia",
+          "start": 28.063708,
+          "duration": 0.66175
+        },
+        {
+          "word": "vanilla",
+          "start": 28.75,
+          "duration": 0.306375
+        },
+        {
+          "word": "tradicional",
+          "start": 29.105375,
+          "duration": 0.563708
+        },
+        {
+          "word": "y",
+          "start": 29.681375,
+          "duration": 0.049
+        },
+        {
+          "word": "no",
+          "start": 29.767166,
+          "duration": 0.122541
+        },
+        {
+          "word": "tiene",
+          "start": 29.96325,
+          "duration": 0.171583
+        },
+        {
+          "word": "Slimefun",
+          "start": 30.183833,
+          "duration": 0.551458
         }
       ]
     },
     {
       "id": "sf1_p02_comandos_inicio",
-      "title": "COMANDOS DE SUPERVIVENCIA ESENCIALES",
-      "subtitle": "/rtp para mundo abierto, /sethome y /spawn",
-      "badge": "02 // COMANDOS BÁSICOS: /RTP & /SETHOME",
-      "text": "Al entrar aparecerás en el Spawn. Para comenzar, escribe /rtp en el chat. Te teletransportará de forma aleatoria y segura a una zona virgen del mundo de supervivencia. Fija tu base con /sethome y regresa cuando quieras con /home.",
-      "spoken_text": "Al entrar al servidor aparecerás en el Spawn principal. Para comenzar tu aventura, escribe barra rtp en el chat. Este comando te teletransportará de forma aleatoria y completamente segura a una zona virgen del mundo de supervivencia. Una vez encuentres un terreno que te guste, utiliza barra sethome para fijar tu base y regresar cuando quieras con barra home.",
-      "action": "interact",
+      "title": "INICIO EN SLIMEFUN & COMANDOS ESENCIALES",
+      "subtitle": "/rtp para mundo salvaje, /sethome para tu base y /home",
+      "badge": "02 // COMANDOS DE SUPERVIVENCIA: /RTP & /SETHOME",
+      "text": "Al ingresar a la modalidad Slimefun, escribe /rtp para teletransportarte de forma aleatoria y segura al mundo salvaje. Fija tu base con /sethome <nombre> y regresa cuando quieras con /home <nombre>. Para volver al selector en cualquier momento, usa /lobby o /modalidades.",
+      "spoken_text": "Una vez que ingresas a la modalidad Slimefun desde el selector, comenzarás tu aventura. Para salir al mundo salvaje y buscar recursos, escribe barra rtp en el chat. Este comando te teletransportará de forma aleatoria y completamente segura a una zona virgen. Cuando encuentres un terreno que te guste, utiliza barra sethome con un nombre para fijar tu base y volver cuando quieras con barra home. Y si deseas regresar al inicio o cambiar de servidor, barra lobby te llevará al punto de encuentro.",
+      "action": "point",
       "camera": "normal",
       "diagram": "commands_hud",
       "audio_file": "sf1_p02_comandos_inicio.mp3",
-      "duration": 20.928,
-      "frames": 642,
+      "duration": 28.176,
+      "frames": 860,
       "words": [
         {
-          "word": "Al",
-          "start": 0.099,
-          "duration": 0.147041
-        },
-        {
-          "word": "entrar",
-          "start": 0.246083,
-          "duration": 0.318625
-        },
-        {
-          "word": "al",
-          "start": 0.564708,
-          "duration": 0.098041
-        },
-        {
-          "word": "servidor",
-          "start": 0.66275,
-          "duration": 0.392166
-        },
-        {
-          "word": "aparecerás",
-          "start": 1.054916,
-          "duration": 0.600458
-        },
-        {
-          "word": "en",
-          "start": 1.655375,
-          "duration": 0.073541
-        },
-        {
-          "word": "el",
-          "start": 1.728916,
-          "duration": 0.098041
-        },
-        {
-          "word": "Spawn",
-          "start": 1.851458,
-          "duration": 0.281875
-        },
-        {
-          "word": "principal",
-          "start": 2.145583,
-          "duration": 0.490208
-        },
-        {
-          "word": "Para",
-          "start": 3.492666,
-          "duration": 0.183833
-        },
-        {
-          "word": "comenzar",
-          "start": 3.73775,
-          "duration": 0.404416
-        },
-        {
-          "word": "tu",
-          "start": 4.215666,
-          "duration": 0.049
-        },
-        {
-          "word": "aventura",
-          "start": 4.264708,
-          "duration": 0.502458
-        },
-        {
-          "word": "escribe",
-          "start": 4.96325,
-          "duration": 0.392166
-        },
-        {
-          "word": "barra",
-          "start": 5.392166,
-          "duration": 0.232833
-        },
-        {
-          "word": "rtp",
-          "start": 5.686291,
-          "duration": 0.502458
-        },
-        {
-          "word": "en",
-          "start": 6.21325,
-          "duration": 0.06125
-        },
-        {
-          "word": "el",
-          "start": 6.2745,
-          "duration": 0.147041
-        },
-        {
-          "word": "chat",
-          "start": 6.433833,
-          "duration": 0.220583
-        },
-        {
-          "word": "Este",
-          "start": 7.53675,
-          "duration": 0.245083
-        },
-        {
-          "word": "comando",
-          "start": 7.830875,
-          "duration": 0.343125
-        },
-        {
-          "word": "te",
-          "start": 8.223041,
-          "duration": 0.061291
-        },
-        {
-          "word": "teletransportará",
-          "start": 8.345583,
-          "duration": 0.759791
-        },
-        {
-          "word": "de",
-          "start": 9.129916,
-          "duration": 0.085791
-        },
-        {
-          "word": "forma",
-          "start": 9.240208,
-          "duration": 0.281875
-        },
-        {
-          "word": "aleatoria",
-          "start": 9.546583,
-          "duration": 0.441166
-        },
-        {
-          "word": "y",
-          "start": 10.01225,
-          "duration": 0.0245
-        },
-        {
-          "word": "completamente",
-          "start": 10.110291,
-          "duration": 0.6005
-        },
-        {
-          "word": "segura",
-          "start": 10.735291,
-          "duration": 0.416666
-        },
-        {
-          "word": "a",
-          "start": 11.164208,
-          "duration": 0.03675
-        },
-        {
-          "word": "una",
-          "start": 11.2255,
-          "duration": 0.183833
-        },
-        {
-          "word": "zona",
-          "start": 11.421583,
-          "duration": 0.245083
-        },
-        {
-          "word": "virgen",
-          "start": 11.703416,
-          "duration": 0.294125
-        },
-        {
-          "word": "del",
-          "start": 12.046583,
-          "duration": 0.098041
-        },
-        {
-          "word": "mundo",
-          "start": 12.169125,
-          "duration": 0.257333
-        },
-        {
-          "word": "de",
-          "start": 12.451,
-          "duration": 0.073541
-        },
-        {
-          "word": "supervivencia",
-          "start": 12.549,
-          "duration": 0.759791
-        },
-        {
           "word": "Una",
-          "start": 14.178916,
+          "start": 0.099,
           "duration": 0.171583
         },
         {
           "word": "vez",
-          "start": 14.375,
-          "duration": 0.159333
+          "start": 0.295083,
+          "duration": 0.134791
+        },
+        {
+          "word": "que",
+          "start": 0.491166,
+          "duration": 0.049
+        },
+        {
+          "word": "ingresas",
+          "start": 0.564708,
+          "duration": 0.441166
+        },
+        {
+          "word": "a",
+          "start": 1.005875,
+          "duration": 0.03675
+        },
+        {
+          "word": "la",
+          "start": 1.054916,
+          "duration": 0.073541
+        },
+        {
+          "word": "modalidad",
+          "start": 1.152958,
+          "duration": 0.441166
+        },
+        {
+          "word": "Slimefun",
+          "start": 1.606375,
+          "duration": 0.526958
+        },
+        {
+          "word": "desde",
+          "start": 2.170083,
+          "duration": 0.183833
+        },
+        {
+          "word": "el",
+          "start": 2.366166,
+          "duration": 0.073541
+        },
+        {
+          "word": "selector",
+          "start": 2.439708,
+          "duration": 0.441166
+        },
+        {
+          "word": "comenzarás",
+          "start": 3.13825,
+          "duration": 0.526958
+        },
+        {
+          "word": "tu",
+          "start": 3.726458,
+          "duration": 0.049
+        },
+        {
+          "word": "aventura",
+          "start": 3.7755,
+          "duration": 0.514708
+        },
+        {
+          "word": "Para",
+          "start": 5.171583,
+          "duration": 0.208333
+        },
+        {
+          "word": "salir",
+          "start": 5.379916,
+          "duration": 0.294083
+        },
+        {
+          "word": "al",
+          "start": 5.674,
+          "duration": 0.085791
+        },
+        {
+          "word": "mundo",
+          "start": 5.784333,
+          "duration": 0.245083
+        },
+        {
+          "word": "salvaje",
+          "start": 6.041666,
+          "duration": 0.441166
+        },
+        {
+          "word": "y",
+          "start": 6.507333,
+          "duration": 0.0245
+        },
+        {
+          "word": "buscar",
+          "start": 6.568625,
+          "duration": 0.306375
+        },
+        {
+          "word": "recursos",
+          "start": 6.875,
+          "duration": 0.526958
+        },
+        {
+          "word": "escribe",
+          "start": 7.585791,
+          "duration": 0.379916
+        },
+        {
+          "word": "barra",
+          "start": 8.002458,
+          "duration": 0.232833
+        },
+        {
+          "word": "rtp",
+          "start": 8.296583,
+          "duration": 0.502458
+        },
+        {
+          "word": "en",
+          "start": 8.823541,
+          "duration": 0.0735
+        },
+        {
+          "word": "el",
+          "start": 8.897041,
+          "duration": 0.147041
+        },
+        {
+          "word": "chat",
+          "start": 9.056375,
+          "duration": 0.220583
+        },
+        {
+          "word": "Este",
+          "start": 10.159333,
+          "duration": 0.245083
+        },
+        {
+          "word": "comando",
+          "start": 10.453416,
+          "duration": 0.343125
+        },
+        {
+          "word": "te",
+          "start": 10.845583,
+          "duration": 0.061291
+        },
+        {
+          "word": "teletransportará",
+          "start": 10.968125,
+          "duration": 0.772041
+        },
+        {
+          "word": "de",
+          "start": 11.764708,
+          "duration": 0.085791
+        },
+        {
+          "word": "forma",
+          "start": 11.875,
+          "duration": 0.281875
+        },
+        {
+          "word": "aleatoria",
+          "start": 12.181375,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 12.659333,
+          "duration": 0.0245
+        },
+        {
+          "word": "completamente",
+          "start": 12.757333,
+          "duration": 0.6005
+        },
+        {
+          "word": "segura",
+          "start": 13.382333,
+          "duration": 0.416666
+        },
+        {
+          "word": "a",
+          "start": 13.811291,
+          "duration": 0.03675
+        },
+        {
+          "word": "una",
+          "start": 13.872541,
+          "duration": 0.183833
+        },
+        {
+          "word": "zona",
+          "start": 14.068625,
+          "duration": 0.232833
+        },
+        {
+          "word": "virgen",
+          "start": 14.33825,
+          "duration": 0.343125
+        },
+        {
+          "word": "Cuando",
+          "start": 15.539208,
+          "duration": 0.208333
         },
         {
           "word": "encuentres",
-          "start": 14.534333,
-          "duration": 0.465666
+          "start": 15.747541,
+          "duration": 0.477958
         },
         {
           "word": "un",
-          "start": 15.01225,
+          "start": 16.23775,
           "duration": 0.122541
         },
         {
           "word": "terreno",
-          "start": 15.147041,
+          "start": 16.372541,
           "duration": 0.294125
         },
         {
           "word": "que",
-          "start": 15.490208,
+          "start": 16.715666,
           "duration": 0.049
         },
         {
           "word": "te",
-          "start": 15.58825,
-          "duration": 0.049
+          "start": 16.813708,
+          "duration": 0.061291
         },
         {
           "word": "guste",
-          "start": 15.674,
+          "start": 16.91175,
           "duration": 0.330875
         },
         {
           "word": "utiliza",
-          "start": 16.25,
+          "start": 17.5,
           "duration": 0.404416
         },
         {
           "word": "barra",
-          "start": 16.691166,
+          "start": 17.941166,
           "duration": 0.220583
         },
         {
           "word": "sethome",
-          "start": 16.924,
-          "duration": 0.379916
+          "start": 18.174,
+          "duration": 0.367666
+        },
+        {
+          "word": "con",
+          "start": 18.615208,
+          "duration": 0.134791
+        },
+        {
+          "word": "un",
+          "start": 18.75,
+          "duration": 0.122541
+        },
+        {
+          "word": "nombre",
+          "start": 18.872541,
+          "duration": 0.269625
         },
         {
           "word": "para",
-          "start": 17.377458,
+          "start": 19.203416,
           "duration": 0.134791
         },
         {
           "word": "fijar",
-          "start": 17.53675,
-          "duration": 0.269625
+          "start": 19.36275,
+          "duration": 0.281875
         },
         {
           "word": "tu",
-          "start": 17.892166,
+          "start": 19.730375,
           "duration": 0.049
         },
         {
           "word": "base",
-          "start": 17.977958,
+          "start": 19.816166,
           "duration": 0.257333
         },
         {
           "word": "y",
-          "start": 18.272041,
-          "duration": 0.049
+          "start": 20.098041,
+          "duration": 0.0245
         },
         {
-          "word": "regresar",
-          "start": 18.345583,
-          "duration": 0.441166
+          "word": "volver",
+          "start": 20.159333,
+          "duration": 0.318625
         },
         {
           "word": "cuando",
-          "start": 18.860291,
-          "duration": 0.208333
+          "start": 20.551458,
+          "duration": 0.220583
         },
         {
           "word": "quieras",
-          "start": 19.142166,
+          "start": 20.845583,
           "duration": 0.232833
         },
         {
           "word": "con",
-          "start": 19.424,
+          "start": 21.139708,
           "duration": 0.122541
         },
         {
           "word": "barra",
-          "start": 19.607833,
+          "start": 21.311291,
           "duration": 0.183833
         },
         {
           "word": "home",
-          "start": 19.816166,
+          "start": 21.519625,
           "duration": 0.245083
+        },
+        {
+          "word": "Y",
+          "start": 22.634791,
+          "duration": 0.085791
+        },
+        {
+          "word": "si",
+          "start": 22.745083,
+          "duration": 0.085791
+        },
+        {
+          "word": "deseas",
+          "start": 22.879916,
+          "duration": 0.330875
+        },
+        {
+          "word": "regresar",
+          "start": 23.223041,
+          "duration": 0.392166
+        },
+        {
+          "word": "al",
+          "start": 23.615208,
+          "duration": 0.085791
+        },
+        {
+          "word": "inicio",
+          "start": 23.71325,
+          "duration": 0.355375
+        },
+        {
+          "word": "o",
+          "start": 24.068625,
+          "duration": 0.0245
+        },
+        {
+          "word": "cambiar",
+          "start": 24.154416,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 24.509791,
+          "duration": 0.073541
+        },
+        {
+          "word": "servidor",
+          "start": 24.607833,
+          "duration": 0.465666
+        },
+        {
+          "word": "barra",
+          "start": 25.355375,
+          "duration": 0.208333
+        },
+        {
+          "word": "lobby",
+          "start": 25.58825,
+          "duration": 0.208333
+        },
+        {
+          "word": "te",
+          "start": 25.870083,
+          "duration": 0.061291
+        },
+        {
+          "word": "llevará",
+          "start": 25.968125,
+          "duration": 0.330875
+        },
+        {
+          "word": "al",
+          "start": 26.299,
+          "duration": 0.073541
+        },
+        {
+          "word": "punto",
+          "start": 26.458333,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 26.740208,
+          "duration": 0.061291
+        },
+        {
+          "word": "encuentro",
+          "start": 26.813708,
+          "duration": 0.477958
         }
       ]
     },

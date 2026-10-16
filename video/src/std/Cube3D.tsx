@@ -5,11 +5,11 @@ import * as THREE from "three";
 import blockIndex from "../blocks-index.json";
 
 export type VoxelCell = { x: number; y: number; z?: number; material: string };
-type FaceMap = Record<string, string>;
-const INDEX = blockIndex as Record<string, { shape: string; faces: FaceMap }>;
+export type FaceMap = Record<string, string>;
+export const INDEX = blockIndex as Record<string, { shape: string; faces: FaceMap }>;
 
 /** Carga todas las texturas necesarias (con delayRender para que el render espere) y las deja en filtro "nearest" (pixel art). */
-const useTextures = (paths: string[]) => {
+export const useTextures = (paths: string[]) => {
   const [tex, setTex] = useState<Record<string, THREE.Texture>>({});
   const key = paths.join("|");
   useEffect(() => {
@@ -43,10 +43,10 @@ const useTextures = (paths: string[]) => {
   return tex;
 };
 
-const mat = (t: THREE.Texture | undefined, color = "#8a8a8a", extra: Partial<THREE.MeshLambertMaterialParameters> = {}) =>
+export const mat = (t: THREE.Texture | undefined, color = "#8a8a8a", extra: Partial<THREE.MeshLambertMaterialParameters> = {}) =>
   new THREE.MeshLambertMaterial({ map: t, color: t ? "#ffffff" : color, ...extra });
 
-const Block: React.FC<{ cell: VoxelCell; tex: Record<string, THREE.Texture>; scale: number }> = ({ cell, tex, scale }) => {
+export const Block: React.FC<{ cell: VoxelCell; tex: Record<string, THREE.Texture>; scale: number }> = ({ cell, tex, scale }) => {
   const info = INDEX[cell.material];
   const faces = info?.faces ?? {};
   const one = Object.keys(faces).length === 1 ? tex[Object.values(faces)[0]] : undefined;

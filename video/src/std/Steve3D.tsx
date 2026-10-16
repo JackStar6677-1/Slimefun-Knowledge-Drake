@@ -2,7 +2,18 @@ import React, { useEffect, useMemo, useState } from "react";
 import * as THREE from "three";
 import { continueRender, delayRender, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 
-export type SteveAction = "idle" | "walk" | "interact" | "hold" | "place_block" | "desk";
+export type SteveAction =
+  | "idle"
+  | "walk"
+  | "interact"
+  | "hold"
+  | "place_block"
+  | "desk"
+  | "explain"
+  | "point"
+  | "craft"
+  | "nod"
+  | "look_machine";
 
 interface SteveProps {
   position?: [number, number, number];
@@ -140,6 +151,22 @@ export const Steve3D: React.FC<SteveProps> = ({
       const yaw = -0.15;
       return [pitch, yaw, 0.1] as [number, number, number];
     }
+    if (action === "point") {
+      // Brazo derecho señalando horizontalmente hacia la derecha / pantalla
+      return [-Math.PI / 2.3, -0.45, 0.35] as [number, number, number];
+    }
+    if (action === "explain") {
+      // Gesticulación oratoria natural y viva con la mano derecha
+      const pitch = -Math.PI / 4.2 + Math.sin(frame * 0.12) * 0.28;
+      const yaw = -0.22 + Math.cos(frame * 0.09) * 0.15;
+      const roll = 0.2 + Math.sin(frame * 0.1) * 0.12;
+      return [pitch, yaw, roll] as [number, number, number];
+    }
+    if (action === "craft") {
+      // Movimiento rítmico de ensamblado en mesa de trabajo
+      const pitch = -Math.PI / 2.8 + Math.sin(frame * 0.22) * 0.35;
+      return [pitch, -0.2, 0.15] as [number, number, number];
+    }
     if (action === "hold") {
       return [-Math.PI / 4, -0.1, 0.1] as [number, number, number];
     }
@@ -150,9 +177,24 @@ export const Steve3D: React.FC<SteveProps> = ({
       return [walkCycle * 0.6, 0, 0.05] as [number, number, number];
     }
     return [breathCycle, 0, 0.05] as [number, number, number];
-  }, [action, interactProgress, punchAnim, walkCycle, breathCycle]);
+  }, [action, interactProgress, punchAnim, walkCycle, breathCycle, frame]);
 
   const leftArmRotation = useMemo(() => {
+    if (action === "point") {
+      return [breathCycle, 0.1, -0.1] as [number, number, number];
+    }
+    if (action === "explain") {
+      // Gesticulación oratoria de la mano izquierda en contrapunto
+      const pitch = -Math.PI / 4.8 + Math.sin(frame * 0.11 + 1.2) * 0.24;
+      const yaw = 0.18 + Math.cos(frame * 0.08 + 1.0) * 0.14;
+      const roll = -0.18 - Math.sin(frame * 0.1 + 0.8) * 0.1;
+      return [pitch, yaw, roll] as [number, number, number];
+    }
+    if (action === "craft") {
+      // Mano izquierda trabajando de forma alternada
+      const pitch = -Math.PI / 2.8 + Math.sin(frame * 0.22 + Math.PI) * 0.35;
+      return [pitch, 0.2, -0.15] as [number, number, number];
+    }
     if (action === "desk") {
       return [-Math.PI / 3.2, 0.2, -0.1] as [number, number, number];
     }
@@ -160,25 +202,50 @@ export const Steve3D: React.FC<SteveProps> = ({
       return [-walkCycle * 0.6, 0, -0.05] as [number, number, number];
     }
     return [-breathCycle, 0, -0.05] as [number, number, number];
-  }, [action, walkCycle, breathCycle]);
+  }, [action, walkCycle, breathCycle, frame]);
 
   const rightLegRotation = useMemo(() => {
     if (action === "walk") {
       return [-walkCycle * 0.55, 0, 0] as [number, number, number];
     }
-    return [0, 0, 0] as [number, number, number];
-  }, [action, walkCycle]);
+    // Suave cambio de peso corporal al estar de pie
+    return [Math.sin(frame * 0.03) * 0.03, 0, 0] as [number, number, number];
+  }, [action, walkCycle, frame]);
 
   const leftLegRotation = useMemo(() => {
     if (action === "walk") {
       return [walkCycle * 0.55, 0, 0] as [number, number, number];
     }
-    return [0, 0, 0] as [number, number, number];
-  }, [action, walkCycle]);
+    return [-Math.sin(frame * 0.03) * 0.03, 0, 0] as [number, number, number];
+  }, [action, walkCycle, frame]);
 
   const headRotation = useMemo(() => {
     if (action === "interact" || action === "place_block") {
       return [0.15, -0.15, 0] as [number, number, number];
+    }
+    if (action === "point") {
+      // Mirar hacia la dirección señalada
+      return [0.08, -0.38, 0] as [number, number, number];
+    }
+    if (action === "look_machine") {
+      // Mirar con curiosidad hacia el multibloque 3D
+      return [0.06, 0.42, 0.04] as [number, number, number];
+    }
+    if (action === "craft") {
+      // Mirar hacia abajo hacia el objeto que construye
+      return [0.38, 0, 0] as [number, number, number];
+    }
+    if (action === "nod") {
+      // Asentir con la cabeza rítmicamente
+      return [Math.sin(frame * 0.2) * 0.22, 0, 0] as [number, number, number];
+    }
+    if (action === "explain") {
+      // Movimiento oratorio de cabeza fluido
+      return [
+        Math.sin(frame * 0.09) * 0.09,
+        Math.sin(frame * 0.06) * 0.16,
+        Math.sin(frame * 0.04) * 0.05,
+      ] as [number, number, number];
     }
     return [Math.sin(frame * 0.04) * 0.05, Math.sin(frame * 0.03) * 0.1, 0] as [number, number, number];
   }, [action, frame]);
