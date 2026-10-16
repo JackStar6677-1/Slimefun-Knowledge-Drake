@@ -121,5 +121,20 @@ def main():
         ]
     )
 
+    # Slimefun Capítulo 2
+    create_thumbnail(
+        title="SLIMEFUN 1.21 // REDES ELÉCTRICAS & ENERGÍA",
+        subtitle="EnergyNet: Reguladores, Capacitores, Paneles Solares & Hornos Eléctricos",
+        badge="DRAKESCRAFT TUTORIAL // CAPÍTULO 2",
+        accent_color=(245, 158, 11, 255),
+        out_name="thumbnail_sf_capitulo2.png",
+        details=[
+            "✔ Energy Regulator // El cerebro que coordina la red sin lag",
+            "✔ Almacenamiento // Bancos de Capacitores Pequeños a Carbonado",
+            "✔ Primeras Máquinas // Generadores Solares, Térmicos y Hornos Eléctricos"
+        ]
+    )
+
 if __name__ == "__main__":
     main()
+

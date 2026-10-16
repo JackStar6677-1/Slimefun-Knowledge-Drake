@@ -19,6 +19,7 @@ import { ShortArchitecture, ARCH_FRAMES } from "./ShortArchitecture";
 import { Capitulo3, TOTAL_CAPITULO3_FRAMES } from "./Capitulo3";
 import { Capitulo4, TOTAL_CAPITULO4_FRAMES } from "./Capitulo4";
 import { SlimefunCapitulo1, TOTAL_SF_CAPITULO1_FRAMES } from "./SlimefunCapitulo1";
+import { SlimefunCapitulo2, TOTAL_SF_CAPITULO2_FRAMES } from "./SlimefunCapitulo2";
 
 export const Root = () => (
   <>
@@ -39,6 +40,7 @@ export const Root = () => (
     <Composition id="Capitulo3" component={Capitulo3} durationInFrames={TOTAL_CAPITULO3_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="Capitulo4" component={Capitulo4} durationInFrames={TOTAL_CAPITULO4_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="SlimefunCapitulo1" component={SlimefunCapitulo1} durationInFrames={TOTAL_SF_CAPITULO1_FRAMES} fps={30} width={1280} height={720} />
+    <Composition id="SlimefunCapitulo2" component={SlimefunCapitulo2} durationInFrames={TOTAL_SF_CAPITULO2_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="ShortSaori" component={ShortSaori} durationInFrames={SAORI_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortNetworksDupe" component={ShortNetworksDupe} durationInFrames={NETWORKS_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortCustomGui" component={ShortCustomGui} durationInFrames={CUSTOMGUI_FRAMES} fps={30} width={1080} height={1920} />

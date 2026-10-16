@@ -1,0 +1,3038 @@
+{
+  "chapter": 2,
+  "series": "Slimefun Masterclass",
+  "title": "Slimefun en DrakesCraft: Capítulo 2 — Redes Eléctricas, Energía & Automatización Básica",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "sf2_p01_intro",
+      "title": "EL SALTO A LA ELECTRICIDAD",
+      "subtitle": "Dejar atrás el crafteo manual para entrar a la era industrial",
+      "badge": "01 // ERA INDUSTRIAL: LA RED ELÉCTRICA",
+      "text": "Bienvenidos al Capítulo 2 de Slimefun en DrakesCraft. En el episodio anterior aprendiste a fabricar con multibloques manuales. Para procesar miles de minerales y construir reactores, el trabajo manual no basta. Hoy daremos el gran salto tecnológico: tu primera red de energía eléctrica automatizada.",
+      "spoken_text": "Bienvenidos al Capítulo dos de nuestra guía de Slimefun en DrakesCraft. En el episodio anterior aprendiste a craftear tus primeros materiales usando multibloques manuales. Pero si quieres procesar miles de minerales y construir reactores, el trabajo manual por clic no es suficiente. Hoy daremos el gran salto tecnológico: aprenderás a diseñar tu primera red de energía eléctrica automatizada.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "energy_intro",
+      "audio_file": "sf2_p01_intro.mp3",
+      "duration": 22.464,
+      "frames": 688,
+      "words": [
+        {
+          "word": "Bienvenidos",
+          "start": 0.099,
+          "duration": 0.551458
+        },
+        {
+          "word": "al",
+          "start": 0.6505,
+          "duration": 0.073541
+        },
+        {
+          "word": "Capítulo",
+          "start": 0.773041,
+          "duration": 0.428916
+        },
+        {
+          "word": "dos",
+          "start": 1.226458,
+          "duration": 0.171583
+        },
+        {
+          "word": "de",
+          "start": 1.422541,
+          "duration": 0.061291
+        },
+        {
+          "word": "nuestra",
+          "start": 1.508333,
+          "duration": 0.257333
+        },
+        {
+          "word": "guía",
+          "start": 1.802458,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 2.047541,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.182333,
+          "duration": 0.514708
+        },
+        {
+          "word": "en",
+          "start": 2.697041,
+          "duration": 0.098041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 2.844125,
+          "duration": 0.61275
+        },
+        {
+          "word": "En",
+          "start": 4.313708,
+          "duration": 0.134791
+        },
+        {
+          "word": "el",
+          "start": 4.460791,
+          "duration": 0.085791
+        },
+        {
+          "word": "episodio",
+          "start": 4.546583,
+          "duration": 0.428916
+        },
+        {
+          "word": "anterior",
+          "start": 4.9755,
+          "duration": 0.367625
+        },
+        {
+          "word": "aprendiste",
+          "start": 5.343125,
+          "duration": 0.477958
+        },
+        {
+          "word": "a",
+          "start": 5.821083,
+          "duration": 0.049
+        },
+        {
+          "word": "craftear",
+          "start": 5.919125,
+          "duration": 0.367666
+        },
+        {
+          "word": "tus",
+          "start": 6.360291,
+          "duration": 0.098041
+        },
+        {
+          "word": "primeros",
+          "start": 6.531875,
+          "duration": 0.318625
+        },
+        {
+          "word": "materiales",
+          "start": 6.88725,
+          "duration": 0.539208
+        },
+        {
+          "word": "usando",
+          "start": 7.451,
+          "duration": 0.318625
+        },
+        {
+          "word": "multibloques",
+          "start": 7.794125,
+          "duration": 0.576
+        },
+        {
+          "word": "manuales",
+          "start": 8.394625,
+          "duration": 0.514708
+        },
+        {
+          "word": "Pero",
+          "start": 9.816166,
+          "duration": 0.159333
+        },
+        {
+          "word": "si",
+          "start": 9.98775,
+          "duration": 0.098041
+        },
+        {
+          "word": "quieres",
+          "start": 10.147041,
+          "duration": 0.220583
+        },
+        {
+          "word": "procesar",
+          "start": 10.428916,
+          "duration": 0.379916
+        },
+        {
+          "word": "miles",
+          "start": 10.833333,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 11.102958,
+          "duration": 0.061291
+        },
+        {
+          "word": "minerales",
+          "start": 11.201,
+          "duration": 0.514708
+        },
+        {
+          "word": "y",
+          "start": 11.727958,
+          "duration": 0.01225
+        },
+        {
+          "word": "construir",
+          "start": 11.801458,
+          "duration": 0.416666
+        },
+        {
+          "word": "reactores",
+          "start": 12.218125,
+          "duration": 0.514708
+        },
+        {
+          "word": "el",
+          "start": 12.904416,
+          "duration": 0.122541
+        },
+        {
+          "word": "trabajo",
+          "start": 13.063708,
+          "duration": 0.330875
+        },
+        {
+          "word": "manual",
+          "start": 13.419125,
+          "duration": 0.306375
+        },
+        {
+          "word": "por",
+          "start": 13.811291,
+          "duration": 0.110291
+        },
+        {
+          "word": "clic",
+          "start": 14.007333,
+          "duration": 0.196083
+        },
+        {
+          "word": "no",
+          "start": 14.240208,
+          "duration": 0.134791
+        },
+        {
+          "word": "es",
+          "start": 14.41175,
+          "duration": 0.073541
+        },
+        {
+          "word": "suficiente",
+          "start": 14.485291,
+          "duration": 0.6005
+        },
+        {
+          "word": "Hoy",
+          "start": 15.955875,
+          "duration": 0.134791
+        },
+        {
+          "word": "daremos",
+          "start": 16.127458,
+          "duration": 0.379875
+        },
+        {
+          "word": "el",
+          "start": 16.507333,
+          "duration": 0.085791
+        },
+        {
+          "word": "gran",
+          "start": 16.605375,
+          "duration": 0.220583
+        },
+        {
+          "word": "salto",
+          "start": 16.83825,
+          "duration": 0.294125
+        },
+        {
+          "word": "tecnológico",
+          "start": 17.193625,
+          "duration": 0.63725
+        },
+        {
+          "word": "aprenderás",
+          "start": 18.063708,
+          "duration": 0.551458
+        },
+        {
+          "word": "a",
+          "start": 18.615208,
+          "duration": 0.0245
+        },
+        {
+          "word": "diseñar",
+          "start": 18.676458,
+          "duration": 0.379916
+        },
+        {
+          "word": "tu",
+          "start": 19.129916,
+          "duration": 0.049
+        },
+        {
+          "word": "primera",
+          "start": 19.240208,
+          "duration": 0.306375
+        },
+        {
+          "word": "red",
+          "start": 19.558833,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 19.816166,
+          "duration": 0.061291
+        },
+        {
+          "word": "energía",
+          "start": 19.914208,
+          "duration": 0.416666
+        },
+        {
+          "word": "eléctrica",
+          "start": 20.367666,
+          "duration": 0.453416
+        },
+        {
+          "word": "automatizada",
+          "start": 20.821083,
+          "duration": 0.759791
+        }
+      ]
+    },
+    {
+      "id": "sf2_p02_regulator",
+      "title": "EL REGULADOR DE ENERGÍA",
+      "subtitle": "La antena maestra que coordina toda la red EnergyNet",
+      "badge": "02 // CORE COMPONENT: ENERGY REGULATOR",
+      "text": "Toda red eléctrica en Slimefun requiere una pieza central: el Regulador de Energía. Detecta automáticamente generadores, capacitores y máquinas conectadas a su alrededor. Cada segundo calcula la energía producida y la distribuye a las máquinas activas. Solo necesitas colocar un regulador por cada red de tu base.",
+      "spoken_text": "Toda red eléctrica en Slimefun requiere obligatoriamente una pieza central: el Regulador de Energía. Es una antena tecnológica que detecta automáticamente todos los generadores, capacitores y máquinas conectadas a su alrededor. Cada segundo calcula cuánta energía entra al sistema y la distribuye equitativamente hacia las máquinas que la demandan. Solo necesitas colocar uno por cada red de tu base.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "energy_regulator",
+      "audio_file": "sf2_p02_regulator.mp3",
+      "duration": 23.04,
+      "frames": 706,
+      "words": [
+        {
+          "word": "Toda",
+          "start": 0.099,
+          "duration": 0.220583
+        },
+        {
+          "word": "red",
+          "start": 0.344125,
+          "duration": 0.171583
+        },
+        {
+          "word": "eléctrica",
+          "start": 0.527958,
+          "duration": 0.490166
+        },
+        {
+          "word": "en",
+          "start": 1.018125,
+          "duration": 0.073541
+        },
+        {
+          "word": "Slimefun",
+          "start": 1.103916,
+          "duration": 0.502458
+        },
+        {
+          "word": "requiere",
+          "start": 1.606375,
+          "duration": 0.330875
+        },
+        {
+          "word": "obligatoriamente",
+          "start": 1.96175,
+          "duration": 0.796583
+        },
+        {
+          "word": "una",
+          "start": 2.770583,
+          "duration": 0.171583
+        },
+        {
+          "word": "pieza",
+          "start": 3.027958,
+          "duration": 0.245083
+        },
+        {
+          "word": "central",
+          "start": 3.285291,
+          "duration": 0.453416
+        },
+        {
+          "word": "el",
+          "start": 3.947041,
+          "duration": 0.134791
+        },
+        {
+          "word": "Regulador",
+          "start": 4.094125,
+          "duration": 0.465666
+        },
+        {
+          "word": "de",
+          "start": 4.596583,
+          "duration": 0.085791
+        },
+        {
+          "word": "Energía",
+          "start": 4.755875,
+          "duration": 0.526958
+        },
+        {
+          "word": "Es",
+          "start": 6.151958,
+          "duration": 0.147041
+        },
+        {
+          "word": "una",
+          "start": 6.323541,
+          "duration": 0.122541
+        },
+        {
+          "word": "antena",
+          "start": 6.446083,
+          "duration": 0.294125
+        },
+        {
+          "word": "tecnológica",
+          "start": 6.789208,
+          "duration": 0.58825
+        },
+        {
+          "word": "que",
+          "start": 7.438708,
+          "duration": 0.061291
+        },
+        {
+          "word": "detecta",
+          "start": 7.53675,
+          "duration": 0.355375
+        },
+        {
+          "word": "automáticamente",
+          "start": 7.892166,
+          "duration": 0.796583
+        },
+        {
+          "word": "todos",
+          "start": 8.78675,
+          "duration": 0.208333
+        },
+        {
+          "word": "los",
+          "start": 9.031875,
+          "duration": 0.085791
+        },
+        {
+          "word": "generadores",
+          "start": 9.154416,
+          "duration": 0.6005
+        },
+        {
+          "word": "capacitores",
+          "start": 9.9755,
+          "duration": 0.6495
+        },
+        {
+          "word": "y",
+          "start": 10.63725,
+          "duration": 0.0245
+        },
+        {
+          "word": "máquinas",
+          "start": 10.698541,
+          "duration": 0.379916
+        },
+        {
+          "word": "conectadas",
+          "start": 11.139708,
+          "duration": 0.551458
+        },
+        {
+          "word": "a",
+          "start": 11.691166,
+          "duration": 0.049
+        },
+        {
+          "word": "su",
+          "start": 11.752458,
+          "duration": 0.085791
+        },
+        {
+          "word": "alrededor",
+          "start": 11.83825,
+          "duration": 0.551458
+        },
+        {
+          "word": "Cada",
+          "start": 13.259791,
+          "duration": 0.208333
+        },
+        {
+          "word": "segundo",
+          "start": 13.480375,
+          "duration": 0.343125
+        },
+        {
+          "word": "calcula",
+          "start": 13.872541,
+          "duration": 0.392166
+        },
+        {
+          "word": "cuánta",
+          "start": 14.326,
+          "duration": 0.196041
+        },
+        {
+          "word": "energía",
+          "start": 14.522041,
+          "duration": 0.416666
+        },
+        {
+          "word": "entra",
+          "start": 14.938708,
+          "duration": 0.171583
+        },
+        {
+          "word": "al",
+          "start": 15.110291,
+          "duration": 0.098041
+        },
+        {
+          "word": "sistema",
+          "start": 15.208333,
+          "duration": 0.404416
+        },
+        {
+          "word": "y",
+          "start": 15.63725,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 15.710791,
+          "duration": 0.073541
+        },
+        {
+          "word": "distribuye",
+          "start": 15.808833,
+          "duration": 0.477958
+        },
+        {
+          "word": "equitativamente",
+          "start": 16.335791,
+          "duration": 0.808833
+        },
+        {
+          "word": "hacia",
+          "start": 17.193625,
+          "duration": 0.220583
+        },
+        {
+          "word": "las",
+          "start": 17.426458,
+          "duration": 0.134791
+        },
+        {
+          "word": "máquinas",
+          "start": 17.598041,
+          "duration": 0.367666
+        },
+        {
+          "word": "que",
+          "start": 18.026958,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 18.125,
+          "duration": 0.061291
+        },
+        {
+          "word": "demandan",
+          "start": 18.210791,
+          "duration": 0.477958
+        },
+        {
+          "word": "Solo",
+          "start": 19.546583,
+          "duration": 0.281875
+        },
+        {
+          "word": "necesitas",
+          "start": 19.852958,
+          "duration": 0.477958
+        },
+        {
+          "word": "colocar",
+          "start": 20.392166,
+          "duration": 0.343125
+        },
+        {
+          "word": "uno",
+          "start": 20.747541,
+          "duration": 0.147041
+        },
+        {
+          "word": "por",
+          "start": 20.968125,
+          "duration": 0.110291
+        },
+        {
+          "word": "cada",
+          "start": 21.164208,
+          "duration": 0.232833
+        },
+        {
+          "word": "red",
+          "start": 21.421583,
+          "duration": 0.159333
+        },
+        {
+          "word": "de",
+          "start": 21.629916,
+          "duration": 0.049
+        },
+        {
+          "word": "tu",
+          "start": 21.740208,
+          "duration": 0.061291
+        },
+        {
+          "word": "base",
+          "start": 21.83825,
+          "duration": 0.294125
+        }
+      ]
+    },
+    {
+      "id": "sf2_p03_capacitors",
+      "title": "ALMACENAMIENTO CON CAPACITORES",
+      "subtitle": "Bancos de baterías para acumular reservas de Joules",
+      "badge": "03 // STORAGE: CAPACITOR BANKS",
+      "text": "La energía no consumida de inmediato se perdería sin capacitores: baterías industriales medidas en Joules. Comienzas con el Capacitor Pequeño de 16 J, avanzas al Mediano y Grande, hasta los bancos de Carbonado de más de 1.000 J para soportar la noche o picos de demanda.",
+      "spoken_text": "La energía que tus generadores producen y que no se consume de inmediato se perdería si no tienes capacitores. Los capacitores actúan como grandes baterías industriales medidas en Joules. Comienzas con el Capacitor Pequeño de dieciséis Joules, avanzas al Mediano y Grande, hasta alcanzar los bancos de Carbonado de más de mil Joules de capacidad para soportar la noche o picos de consumo masivo.",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "capacitor_banks",
+      "audio_file": "sf2_p03_capacitors.mp3",
+      "duration": 22.008,
+      "frames": 675,
+      "words": [
+        {
+          "word": "La",
+          "start": 0.099,
+          "duration": 0.134791
+        },
+        {
+          "word": "energía",
+          "start": 0.282833,
+          "duration": 0.379916
+        },
+        {
+          "word": "que",
+          "start": 0.71175,
+          "duration": 0.061291
+        },
+        {
+          "word": "tus",
+          "start": 0.834333,
+          "duration": 0.122541
+        },
+        {
+          "word": "generadores",
+          "start": 0.969125,
+          "duration": 0.539208
+        },
+        {
+          "word": "producen",
+          "start": 1.581875,
+          "duration": 0.404416
+        },
+        {
+          "word": "y",
+          "start": 1.998541,
+          "duration": 0.049
+        },
+        {
+          "word": "que",
+          "start": 2.108833,
+          "duration": 0.073541
+        },
+        {
+          "word": "no",
+          "start": 2.206875,
+          "duration": 0.122541
+        },
+        {
+          "word": "se",
+          "start": 2.341666,
+          "duration": 0.098041
+        },
+        {
+          "word": "consume",
+          "start": 2.488708,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 2.868625,
+          "duration": 0.061291
+        },
+        {
+          "word": "inmediato",
+          "start": 2.978916,
+          "duration": 0.428916
+        },
+        {
+          "word": "se",
+          "start": 3.420083,
+          "duration": 0.098041
+        },
+        {
+          "word": "perdería",
+          "start": 3.591666,
+          "duration": 0.441166
+        },
+        {
+          "word": "si",
+          "start": 4.045083,
+          "duration": 0.134791
+        },
+        {
+          "word": "no",
+          "start": 4.216666,
+          "duration": 0.122541
+        },
+        {
+          "word": "tienes",
+          "start": 4.4005,
+          "duration": 0.232833
+        },
+        {
+          "word": "capacitores",
+          "start": 4.670083,
+          "duration": 0.759791
+        },
+        {
+          "word": "Los",
+          "start": 6.335791,
+          "duration": 0.159333
+        },
+        {
+          "word": "capacitores",
+          "start": 6.531875,
+          "duration": 0.563708
+        },
+        {
+          "word": "actúan",
+          "start": 7.095583,
+          "duration": 0.367666
+        },
+        {
+          "word": "como",
+          "start": 7.46325,
+          "duration": 0.171583
+        },
+        {
+          "word": "grandes",
+          "start": 7.671583,
+          "duration": 0.294125
+        },
+        {
+          "word": "baterías",
+          "start": 8.002458,
+          "duration": 0.477958
+        },
+        {
+          "word": "industriales",
+          "start": 8.492666,
+          "duration": 0.551458
+        },
+        {
+          "word": "medidas",
+          "start": 9.068625,
+          "duration": 0.428916
+        },
+        {
+          "word": "en",
+          "start": 9.497541,
+          "duration": 0.122541
+        },
+        {
+          "word": "Joules",
+          "start": 9.620083,
+          "duration": 0.465666
+        },
+        {
+          "word": "Comienzas",
+          "start": 10.992666,
+          "duration": 0.441166
+        },
+        {
+          "word": "con",
+          "start": 11.482833,
+          "duration": 0.098041
+        },
+        {
+          "word": "el",
+          "start": 11.580875,
+          "duration": 0.085791
+        },
+        {
+          "word": "Capacitor",
+          "start": 11.691166,
+          "duration": 0.490208
+        },
+        {
+          "word": "Pequeño",
+          "start": 12.242666,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 12.610291,
+          "duration": 0.061291
+        },
+        {
+          "word": "dieciséis",
+          "start": 12.720583,
+          "duration": 0.453416
+        },
+        {
+          "word": "Joules",
+          "start": 13.198541,
+          "duration": 0.404416
+        },
+        {
+          "word": "avanzas",
+          "start": 13.78675,
+          "duration": 0.416666
+        },
+        {
+          "word": "al",
+          "start": 14.203416,
+          "duration": 0.085791
+        },
+        {
+          "word": "Mediano",
+          "start": 14.326,
+          "duration": 0.330875
+        },
+        {
+          "word": "y",
+          "start": 14.693625,
+          "duration": 0.01225
+        },
+        {
+          "word": "Grande",
+          "start": 14.742666,
+          "duration": 0.330875
+        },
+        {
+          "word": "hasta",
+          "start": 15.294125,
+          "duration": 0.196083
+        },
+        {
+          "word": "alcanzar",
+          "start": 15.490208,
+          "duration": 0.453416
+        },
+        {
+          "word": "los",
+          "start": 15.968125,
+          "duration": 0.122541
+        },
+        {
+          "word": "bancos",
+          "start": 16.127458,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 16.458333,
+          "duration": 0.049
+        },
+        {
+          "word": "Carbonado",
+          "start": 16.556375,
+          "duration": 0.465666
+        },
+        {
+          "word": "de",
+          "start": 17.046583,
+          "duration": 0.085791
+        },
+        {
+          "word": "más",
+          "start": 17.156875,
+          "duration": 0.171583
+        },
+        {
+          "word": "de",
+          "start": 17.377458,
+          "duration": 0.049
+        },
+        {
+          "word": "mil",
+          "start": 17.46325,
+          "duration": 0.159333
+        },
+        {
+          "word": "Joules",
+          "start": 17.647041,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 18.026958,
+          "duration": 0.061291
+        },
+        {
+          "word": "capacidad",
+          "start": 18.13725,
+          "duration": 0.502458
+        },
+        {
+          "word": "para",
+          "start": 18.71325,
+          "duration": 0.134791
+        },
+        {
+          "word": "soportar",
+          "start": 18.860291,
+          "duration": 0.490208
+        },
+        {
+          "word": "la",
+          "start": 19.36275,
+          "duration": 0.085791
+        },
+        {
+          "word": "noche",
+          "start": 19.485291,
+          "duration": 0.294125
+        },
+        {
+          "word": "o",
+          "start": 19.791666,
+          "duration": 0.03675
+        },
+        {
+          "word": "picos",
+          "start": 19.926458,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 20.220583,
+          "duration": 0.049
+        },
+        {
+          "word": "consumo",
+          "start": 20.318625,
+          "duration": 0.367666
+        },
+        {
+          "word": "masivo",
+          "start": 20.710791,
+          "duration": 0.404416
+        }
+      ]
+    },
+    {
+      "id": "sf2_p04_solar",
+      "title": "GENERACIÓN SOLAR LIMPIA",
+      "subtitle": "Paneles solares básicos para arrancar tu base",
+      "badge": "04 // GENERATORS: SOLAR POWER",
+      "text": "Tu primer generador recomendado es el Generador Solar. Se fabrica en la Mesa Mejorada con celdas fotovoltaicas, motores eléctricos y aluminio. Genera 4 J/s de forma limpia y gratuita durante el día sin gastar combustible. Ideal para alimentar tus primeras máquinas de procesamiento mientras minas.",
+      "spoken_text": "Tu primer generador eléctrico recomendado es el Generador Solar. Se craftea en la Mesa Mejorada usando celdas fotovoltaicas, motores eléctricos y lingotes de aluminio. Produce cuatro Joules por segundo de forma gratuita durante las horas de luz solar directa sin consumir combustible. Es la fuente perfecta para alimentar tus primeras máquinas de procesamiento mientras minas.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "solar_generator",
+      "audio_file": "sf2_p04_solar.mp3",
+      "duration": 21.336,
+      "frames": 655,
+      "words": [
+        {
+          "word": "Tu",
+          "start": 0.099,
+          "duration": 0.098041
+        },
+        {
+          "word": "primer",
+          "start": 0.258333,
+          "duration": 0.232833
+        },
+        {
+          "word": "generador",
+          "start": 0.503416,
+          "duration": 0.453416
+        },
+        {
+          "word": "eléctrico",
+          "start": 0.956875,
+          "duration": 0.477958
+        },
+        {
+          "word": "recomendado",
+          "start": 1.459333,
+          "duration": 0.576
+        },
+        {
+          "word": "es",
+          "start": 2.059791,
+          "duration": 0.134791
+        },
+        {
+          "word": "el",
+          "start": 2.194625,
+          "duration": 0.073541
+        },
+        {
+          "word": "Generador",
+          "start": 2.280375,
+          "duration": 0.477958
+        },
+        {
+          "word": "Solar",
+          "start": 2.782833,
+          "duration": 0.379916
+        },
+        {
+          "word": "Se",
+          "start": 4.044125,
+          "duration": 0.159333
+        },
+        {
+          "word": "craftea",
+          "start": 4.252458,
+          "duration": 0.367625
+        },
+        {
+          "word": "en",
+          "start": 4.620083,
+          "duration": 0.03675
+        },
+        {
+          "word": "la",
+          "start": 4.693625,
+          "duration": 0.061291
+        },
+        {
+          "word": "Mesa",
+          "start": 4.779416,
+          "duration": 0.220583
+        },
+        {
+          "word": "Mejorada",
+          "start": 5.0245,
+          "duration": 0.416666
+        },
+        {
+          "word": "usando",
+          "start": 5.465666,
+          "duration": 0.355375
+        },
+        {
+          "word": "celdas",
+          "start": 5.833333,
+          "duration": 0.318625
+        },
+        {
+          "word": "fotovoltaicas",
+          "start": 6.188708,
+          "duration": 0.784333
+        },
+        {
+          "word": "motores",
+          "start": 7.169125,
+          "duration": 0.453416
+        },
+        {
+          "word": "eléctricos",
+          "start": 7.622541,
+          "duration": 0.576
+        },
+        {
+          "word": "y",
+          "start": 8.210791,
+          "duration": 0.0245
+        },
+        {
+          "word": "lingotes",
+          "start": 8.272041,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 8.71325,
+          "duration": 0.06125
+        },
+        {
+          "word": "aluminio",
+          "start": 8.7745,
+          "duration": 0.477958
+        },
+        {
+          "word": "Produce",
+          "start": 10.134791,
+          "duration": 0.355375
+        },
+        {
+          "word": "cuatro",
+          "start": 10.551458,
+          "duration": 0.220583
+        },
+        {
+          "word": "Joules",
+          "start": 10.796583,
+          "duration": 0.343125
+        },
+        {
+          "word": "por",
+          "start": 11.21325,
+          "duration": 0.073541
+        },
+        {
+          "word": "segundo",
+          "start": 11.299,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 11.691166,
+          "duration": 0.085791
+        },
+        {
+          "word": "forma",
+          "start": 11.801458,
+          "duration": 0.257333
+        },
+        {
+          "word": "gratuita",
+          "start": 12.083333,
+          "duration": 0.428916
+        },
+        {
+          "word": "durante",
+          "start": 12.53675,
+          "duration": 0.294125
+        },
+        {
+          "word": "las",
+          "start": 12.855375,
+          "duration": 0.159333
+        },
+        {
+          "word": "horas",
+          "start": 13.026958,
+          "duration": 0.196083
+        },
+        {
+          "word": "de",
+          "start": 13.272041,
+          "duration": 0.049
+        },
+        {
+          "word": "luz",
+          "start": 13.345583,
+          "duration": 0.098041
+        },
+        {
+          "word": "solar",
+          "start": 13.443625,
+          "duration": 0.306375
+        },
+        {
+          "word": "directa",
+          "start": 13.78675,
+          "duration": 0.355375
+        },
+        {
+          "word": "sin",
+          "start": 14.154416,
+          "duration": 0.208333
+        },
+        {
+          "word": "consumir",
+          "start": 14.36275,
+          "duration": 0.392166
+        },
+        {
+          "word": "combustible",
+          "start": 14.816166,
+          "duration": 0.551458
+        },
+        {
+          "word": "Es",
+          "start": 16.25,
+          "duration": 0.147041
+        },
+        {
+          "word": "la",
+          "start": 16.421583,
+          "duration": 0.073541
+        },
+        {
+          "word": "fuente",
+          "start": 16.519625,
+          "duration": 0.245083
+        },
+        {
+          "word": "perfecta",
+          "start": 16.826,
+          "duration": 0.404416
+        },
+        {
+          "word": "para",
+          "start": 17.291666,
+          "duration": 0.147041
+        },
+        {
+          "word": "alimentar",
+          "start": 17.4755,
+          "duration": 0.441166
+        },
+        {
+          "word": "tus",
+          "start": 17.990208,
+          "duration": 0.098041
+        },
+        {
+          "word": "primeras",
+          "start": 18.16175,
+          "duration": 0.343125
+        },
+        {
+          "word": "máquinas",
+          "start": 18.529416,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 18.958333,
+          "duration": 0.049
+        },
+        {
+          "word": "procesamiento",
+          "start": 19.056375,
+          "duration": 0.6005
+        },
+        {
+          "word": "mientras",
+          "start": 19.681375,
+          "duration": 0.330875
+        },
+        {
+          "word": "minas",
+          "start": 20.03675,
+          "duration": 0.379916
+        }
+      ]
+    },
+    {
+      "id": "sf2_p05_combustion",
+      "title": "ENERGÍA CONTINUA: GENERADORES DE CARBÓN Y LAVA",
+      "subtitle": "Producción constante las veinticuatro horas del día",
+      "badge": "05 // GENERATORS: COAL & LAVA THERMAL",
+      "text": "Cuando cae la noche o expandes tu base subterránea, necesitas generadores térmicos. El Generador de Carbón entrega 16 J/s quemando carbón o carbón vegetal. El Generador de Lava produce 24 J/s continuos con cubos de lava, asegurando energía 24/7.",
+      "spoken_text": "Cuando cae la noche o expandes tus máquinas a cavernas subterráneas, el sol no te alcanzará. Aquí entran los generadores térmicos. El Generador de Carbón entrega dieciséis Joules por segundo quemando carbón o carbón vegetal. Y el Generador de Lava produce veinticuatro Joules por segundo continuos usando cubos de lava, garantizando energía estable sin interrupciones.",
+      "action": "interact",
+      "camera": "wide",
+      "diagram": "thermal_generators",
+      "audio_file": "sf2_p05_combustion.mp3",
+      "duration": 21.408,
+      "frames": 657,
+      "words": [
+        {
+          "word": "Cuando",
+          "start": 0.099,
+          "duration": 0.257333
+        },
+        {
+          "word": "cae",
+          "start": 0.417666,
+          "duration": 0.159333
+        },
+        {
+          "word": "la",
+          "start": 0.601458,
+          "duration": 0.085791
+        },
+        {
+          "word": "noche",
+          "start": 0.724,
+          "duration": 0.281875
+        },
+        {
+          "word": "o",
+          "start": 1.018125,
+          "duration": 0.0245
+        },
+        {
+          "word": "expandes",
+          "start": 1.067166,
+          "duration": 0.404416
+        },
+        {
+          "word": "tus",
+          "start": 1.520583,
+          "duration": 0.122541
+        },
+        {
+          "word": "máquinas",
+          "start": 1.679916,
+          "duration": 0.416666
+        },
+        {
+          "word": "a",
+          "start": 2.096583,
+          "duration": 0.03675
+        },
+        {
+          "word": "cavernas",
+          "start": 2.194625,
+          "duration": 0.330875
+        },
+        {
+          "word": "subterráneas",
+          "start": 2.5255,
+          "duration": 0.66175
+        },
+        {
+          "word": "el",
+          "start": 3.383333,
+          "duration": 0.134791
+        },
+        {
+          "word": "sol",
+          "start": 3.542666,
+          "duration": 0.220583
+        },
+        {
+          "word": "no",
+          "start": 3.7755,
+          "duration": 0.122541
+        },
+        {
+          "word": "te",
+          "start": 3.959333,
+          "duration": 0.049
+        },
+        {
+          "word": "alcanzará",
+          "start": 4.008333,
+          "duration": 0.551458
+        },
+        {
+          "word": "Aquí",
+          "start": 5.453416,
+          "duration": 0.306375
+        },
+        {
+          "word": "entran",
+          "start": 5.772041,
+          "duration": 0.245083
+        },
+        {
+          "word": "los",
+          "start": 6.053916,
+          "duration": 0.098041
+        },
+        {
+          "word": "generadores",
+          "start": 6.176458,
+          "duration": 0.539208
+        },
+        {
+          "word": "térmicos",
+          "start": 6.764708,
+          "duration": 0.514708
+        },
+        {
+          "word": "El",
+          "start": 8.198541,
+          "duration": 0.147041
+        },
+        {
+          "word": "Generador",
+          "start": 8.345583,
+          "duration": 0.441166
+        },
+        {
+          "word": "de",
+          "start": 8.823541,
+          "duration": 0.061291
+        },
+        {
+          "word": "Carbón",
+          "start": 8.946083,
+          "duration": 0.281875
+        },
+        {
+          "word": "entrega",
+          "start": 9.227958,
+          "duration": 0.379916
+        },
+        {
+          "word": "dieciséis",
+          "start": 9.644625,
+          "duration": 0.465666
+        },
+        {
+          "word": "Joules",
+          "start": 10.134791,
+          "duration": 0.330875
+        },
+        {
+          "word": "por",
+          "start": 10.539208,
+          "duration": 0.085791
+        },
+        {
+          "word": "segundo",
+          "start": 10.63725,
+          "duration": 0.318625
+        },
+        {
+          "word": "quemando",
+          "start": 11.004916,
+          "duration": 0.343125
+        },
+        {
+          "word": "carbón",
+          "start": 11.409333,
+          "duration": 0.318625
+        },
+        {
+          "word": "o",
+          "start": 11.740208,
+          "duration": 0.049
+        },
+        {
+          "word": "carbón",
+          "start": 11.8505,
+          "duration": 0.318625
+        },
+        {
+          "word": "vegetal",
+          "start": 12.205875,
+          "duration": 0.453416
+        },
+        {
+          "word": "Y",
+          "start": 13.517166,
+          "duration": 0.110291
+        },
+        {
+          "word": "el",
+          "start": 13.627458,
+          "duration": 0.098041
+        },
+        {
+          "word": "Generador",
+          "start": 13.7255,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 14.215666,
+          "duration": 0.073541
+        },
+        {
+          "word": "Lava",
+          "start": 14.313708,
+          "duration": 0.183833
+        },
+        {
+          "word": "produce",
+          "start": 14.558833,
+          "duration": 0.343125
+        },
+        {
+          "word": "veinticuatro",
+          "start": 14.926458,
+          "duration": 0.514708
+        },
+        {
+          "word": "Joules",
+          "start": 15.465666,
+          "duration": 0.355375
+        },
+        {
+          "word": "por",
+          "start": 15.894625,
+          "duration": 0.085791
+        },
+        {
+          "word": "segundo",
+          "start": 15.992666,
+          "duration": 0.343125
+        },
+        {
+          "word": "continuos",
+          "start": 16.384791,
+          "duration": 0.453416
+        },
+        {
+          "word": "usando",
+          "start": 16.8505,
+          "duration": 0.318625
+        },
+        {
+          "word": "cubos",
+          "start": 17.242666,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 17.5245,
+          "duration": 0.061291
+        },
+        {
+          "word": "lava",
+          "start": 17.610291,
+          "duration": 0.294125
+        },
+        {
+          "word": "garantizando",
+          "start": 18.13725,
+          "duration": 0.551458
+        },
+        {
+          "word": "energía",
+          "start": 18.688708,
+          "duration": 0.428916
+        },
+        {
+          "word": "estable",
+          "start": 19.129916,
+          "duration": 0.379916
+        },
+        {
+          "word": "sin",
+          "start": 19.534333,
+          "duration": 0.171541
+        },
+        {
+          "word": "interrupciones",
+          "start": 19.705875,
+          "duration": 0.796583
+        }
+      ]
+    },
+    {
+      "id": "sf2_p06_wiring",
+      "title": "CÓMO CONECTAR TU RED SIN CABLES",
+      "subtitle": "Transferencia por bloques contiguos y relés de energía",
+      "badge": "06 // TOPOLOGY: WIRELESS ENERGY TRANSFER",
+      "text": "Slimefun no te obliga a llenar tu base de tuberías caóticas: la energía fluye por bloques adyacentes. Coloca un generador junto a un capacitor, y este junto a tu horno eléctrico. Para distancias mayores, usa cables y relés para extender la red por toda tu base.",
+      "spoken_text": "Una gran ventaja del diseño de Slimefun es que no necesitas llenar tu base de tuberías desordenadas. La energía fluye de forma natural a través de bloques adyacentes de la red. Puedes colocar un generador al lado de un capacitor, y el capacitor al lado de tu horno eléctrico. Para distancias mayores, puedes usar cables y relés de energía para llevar la corriente hasta donde la necesites.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "network_topology",
+      "audio_file": "sf2_p06_wiring.mp3",
+      "duration": 22.104,
+      "frames": 678,
+      "words": [
+        {
+          "word": "Una",
+          "start": 0.099,
+          "duration": 0.171583
+        },
+        {
+          "word": "gran",
+          "start": 0.295083,
+          "duration": 0.171583
+        },
+        {
+          "word": "ventaja",
+          "start": 0.491166,
+          "duration": 0.355375
+        },
+        {
+          "word": "del",
+          "start": 0.871083,
+          "duration": 0.122541
+        },
+        {
+          "word": "diseño",
+          "start": 1.042666,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 1.398041,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 1.508333,
+          "duration": 0.490208
+        },
+        {
+          "word": "es",
+          "start": 2.010791,
+          "duration": 0.122541
+        },
+        {
+          "word": "que",
+          "start": 2.182333,
+          "duration": 0.061291
+        },
+        {
+          "word": "no",
+          "start": 2.268125,
+          "duration": 0.110291
+        },
+        {
+          "word": "necesitas",
+          "start": 2.402958,
+          "duration": 0.514708
+        },
+        {
+          "word": "llenar",
+          "start": 2.954416,
+          "duration": 0.245083
+        },
+        {
+          "word": "tu",
+          "start": 3.285291,
+          "duration": 0.061291
+        },
+        {
+          "word": "base",
+          "start": 3.383333,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 3.652958,
+          "duration": 0.061291
+        },
+        {
+          "word": "tuberías",
+          "start": 3.7755,
+          "duration": 0.392166
+        },
+        {
+          "word": "desordenadas",
+          "start": 4.216666,
+          "duration": 0.772041
+        },
+        {
+          "word": "La",
+          "start": 5.894625,
+          "duration": 0.134791
+        },
+        {
+          "word": "energía",
+          "start": 6.078416,
+          "duration": 0.367666
+        },
+        {
+          "word": "fluye",
+          "start": 6.470583,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 6.789208,
+          "duration": 0.085791
+        },
+        {
+          "word": "forma",
+          "start": 6.8995,
+          "duration": 0.257333
+        },
+        {
+          "word": "natural",
+          "start": 7.181375,
+          "duration": 0.343125
+        },
+        {
+          "word": "a",
+          "start": 7.5245,
+          "duration": 0.049
+        },
+        {
+          "word": "través",
+          "start": 7.622541,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 7.916666,
+          "duration": 0.049
+        },
+        {
+          "word": "bloques",
+          "start": 8.002458,
+          "duration": 0.355375
+        },
+        {
+          "word": "adyacentes",
+          "start": 8.357833,
+          "duration": 0.563708
+        },
+        {
+          "word": "de",
+          "start": 8.958333,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 9.044125,
+          "duration": 0.085791
+        },
+        {
+          "word": "red",
+          "start": 9.142166,
+          "duration": 0.196083
+        },
+        {
+          "word": "Puedes",
+          "start": 10.245083,
+          "duration": 0.245083
+        },
+        {
+          "word": "colocar",
+          "start": 10.526958,
+          "duration": 0.318625
+        },
+        {
+          "word": "un",
+          "start": 10.857833,
+          "duration": 0.110291
+        },
+        {
+          "word": "generador",
+          "start": 10.968125,
+          "duration": 0.490208
+        },
+        {
+          "word": "al",
+          "start": 11.458333,
+          "duration": 0.098041
+        },
+        {
+          "word": "lado",
+          "start": 11.556375,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 11.86275,
+          "duration": 0.085791
+        },
+        {
+          "word": "un",
+          "start": 11.973041,
+          "duration": 0.134791
+        },
+        {
+          "word": "capacitor",
+          "start": 12.107833,
+          "duration": 0.551458
+        },
+        {
+          "word": "y",
+          "start": 12.892166,
+          "duration": 0.0735
+        },
+        {
+          "word": "el",
+          "start": 12.965666,
+          "duration": 0.085791
+        },
+        {
+          "word": "capacitor",
+          "start": 13.076,
+          "duration": 0.514666
+        },
+        {
+          "word": "al",
+          "start": 13.590666,
+          "duration": 0.098041
+        },
+        {
+          "word": "lado",
+          "start": 13.688708,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 13.982833,
+          "duration": 0.073541
+        },
+        {
+          "word": "tu",
+          "start": 14.142166,
+          "duration": 0.085791
+        },
+        {
+          "word": "horno",
+          "start": 14.240208,
+          "duration": 0.208333
+        },
+        {
+          "word": "eléctrico",
+          "start": 14.460791,
+          "duration": 0.490208
+        },
+        {
+          "word": "Para",
+          "start": 15.833333,
+          "duration": 0.183833
+        },
+        {
+          "word": "distancias",
+          "start": 16.041666,
+          "duration": 0.428916
+        },
+        {
+          "word": "mayores",
+          "start": 16.507333,
+          "duration": 0.441166
+        },
+        {
+          "word": "puedes",
+          "start": 17.205875,
+          "duration": 0.245083
+        },
+        {
+          "word": "usar",
+          "start": 17.46325,
+          "duration": 0.208333
+        },
+        {
+          "word": "cables",
+          "start": 17.757333,
+          "duration": 0.330875
+        },
+        {
+          "word": "y",
+          "start": 18.08825,
+          "duration": 0.01225
+        },
+        {
+          "word": "relés",
+          "start": 18.13725,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 18.455875,
+          "duration": 0.049
+        },
+        {
+          "word": "energía",
+          "start": 18.529416,
+          "duration": 0.404416
+        },
+        {
+          "word": "para",
+          "start": 18.995083,
+          "duration": 0.134791
+        },
+        {
+          "word": "llevar",
+          "start": 19.166666,
+          "duration": 0.245083
+        },
+        {
+          "word": "la",
+          "start": 19.424,
+          "duration": 0.073541
+        },
+        {
+          "word": "corriente",
+          "start": 19.571083,
+          "duration": 0.416666
+        },
+        {
+          "word": "hasta",
+          "start": 20.01225,
+          "duration": 0.196083
+        },
+        {
+          "word": "donde",
+          "start": 20.232833,
+          "duration": 0.208333
+        },
+        {
+          "word": "la",
+          "start": 20.477958,
+          "duration": 0.073541
+        },
+        {
+          "word": "necesites",
+          "start": 20.576,
+          "duration": 0.625
+        }
+      ]
+    },
+    {
+      "id": "sf2_p07_machines",
+      "title": "PRIMERAS MÁQUINAS: HORNO Y LAVADOR ELÉCTRICO",
+      "subtitle": "Procesamiento automático a alta velocidad",
+      "badge": "07 // AUTOMATION: ELECTRIC MACHINES",
+      "text": "Con tu red lista, conecta tus primeras máquinas industriales. El Horno Eléctrico funde menas en fracciones de segundo con 8 J/tick. El Lavador de Minerales Eléctrico procesa grava y polvos con agua automáticamente, multiplicando pepitas de oro y recursos sin mover un solo dedo.",
+      "spoken_text": "Una vez que tu regulador y capacitores están listos, conectas tus primeras máquinas industriales. El Horno Eléctrico funde menas y comida en fracciones de segundo consumiendo ocho Joules por tick. Y el Lavador de Minerales Eléctrico procesa automáticamente grava y polvo mineral con agua, multiplicando pepitas de oro y polvos sin esfuerzo.",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "electric_machines",
+      "audio_file": "sf2_p07_machines.mp3",
+      "duration": 18.864,
+      "frames": 580,
+      "words": [
+        {
+          "word": "Una",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "vez",
+          "start": 0.270583,
+          "duration": 0.134791
+        },
+        {
+          "word": "que",
+          "start": 0.454416,
+          "duration": 0.049
+        },
+        {
+          "word": "tu",
+          "start": 0.564708,
+          "duration": 0.049
+        },
+        {
+          "word": "regulador",
+          "start": 0.63825,
+          "duration": 0.441166
+        },
+        {
+          "word": "y",
+          "start": 1.091666,
+          "duration": 0.03675
+        },
+        {
+          "word": "capacitores",
+          "start": 1.189708,
+          "duration": 0.63725
+        },
+        {
+          "word": "están",
+          "start": 1.826958,
+          "duration": 0.232833
+        },
+        {
+          "word": "listos",
+          "start": 2.084333,
+          "duration": 0.367666
+        },
+        {
+          "word": "conectas",
+          "start": 2.672541,
+          "duration": 0.392166
+        },
+        {
+          "word": "tus",
+          "start": 3.126,
+          "duration": 0.110291
+        },
+        {
+          "word": "primeras",
+          "start": 3.309791,
+          "duration": 0.343125
+        },
+        {
+          "word": "máquinas",
+          "start": 3.689708,
+          "duration": 0.404416
+        },
+        {
+          "word": "industriales",
+          "start": 4.106375,
+          "duration": 0.674
+        },
+        {
+          "word": "El",
+          "start": 5.686291,
+          "duration": 0.134791
+        },
+        {
+          "word": "Horno",
+          "start": 5.833333,
+          "duration": 0.220583
+        },
+        {
+          "word": "Eléctrico",
+          "start": 6.053916,
+          "duration": 0.453416
+        },
+        {
+          "word": "funde",
+          "start": 6.531875,
+          "duration": 0.245083
+        },
+        {
+          "word": "menas",
+          "start": 6.813708,
+          "duration": 0.318625
+        },
+        {
+          "word": "y",
+          "start": 7.144625,
+          "duration": 0.01225
+        },
+        {
+          "word": "comida",
+          "start": 7.230375,
+          "duration": 0.306375
+        },
+        {
+          "word": "en",
+          "start": 7.53675,
+          "duration": 0.085791
+        },
+        {
+          "word": "fracciones",
+          "start": 7.622541,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 8.11275,
+          "duration": 0.049
+        },
+        {
+          "word": "segundo",
+          "start": 8.186291,
+          "duration": 0.343125
+        },
+        {
+          "word": "consumiendo",
+          "start": 8.578416,
+          "duration": 0.539208
+        },
+        {
+          "word": "ocho",
+          "start": 9.129916,
+          "duration": 0.220583
+        },
+        {
+          "word": "Joules",
+          "start": 9.38725,
+          "duration": 0.330875
+        },
+        {
+          "word": "por",
+          "start": 9.791666,
+          "duration": 0.085791
+        },
+        {
+          "word": "tick",
+          "start": 9.951,
+          "duration": 0.196083
+        },
+        {
+          "word": "Y",
+          "start": 11.053916,
+          "duration": 0.134791
+        },
+        {
+          "word": "el",
+          "start": 11.188708,
+          "duration": 0.085791
+        },
+        {
+          "word": "Lavador",
+          "start": 11.2745,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 11.642166,
+          "duration": 0.061291
+        },
+        {
+          "word": "Minerales",
+          "start": 11.740208,
+          "duration": 0.514708
+        },
+        {
+          "word": "Eléctrico",
+          "start": 12.254916,
+          "duration": 0.441166
+        },
+        {
+          "word": "procesa",
+          "start": 12.745083,
+          "duration": 0.330875
+        },
+        {
+          "word": "automáticamente",
+          "start": 13.076,
+          "duration": 0.747541
+        },
+        {
+          "word": "grava",
+          "start": 13.860291,
+          "duration": 0.257333
+        },
+        {
+          "word": "y",
+          "start": 14.154416,
+          "duration": 0.0245
+        },
+        {
+          "word": "polvo",
+          "start": 14.276958,
+          "duration": 0.220583
+        },
+        {
+          "word": "mineral",
+          "start": 14.534333,
+          "duration": 0.343125
+        },
+        {
+          "word": "con",
+          "start": 14.926458,
+          "duration": 0.122541
+        },
+        {
+          "word": "agua",
+          "start": 15.061291,
+          "duration": 0.294125
+        },
+        {
+          "word": "multiplicando",
+          "start": 15.551458,
+          "duration": 0.61275
+        },
+        {
+          "word": "pepitas",
+          "start": 16.2255,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 16.642166,
+          "duration": 0.085791
+        },
+        {
+          "word": "oro",
+          "start": 16.740208,
+          "duration": 0.183833
+        },
+        {
+          "word": "y",
+          "start": 16.960791,
+          "duration": 0.03675
+        },
+        {
+          "word": "polvos",
+          "start": 17.095583,
+          "duration": 0.294125
+        },
+        {
+          "word": "sin",
+          "start": 17.389708,
+          "duration": 0.134791
+        },
+        {
+          "word": "esfuerzo",
+          "start": 17.5245,
+          "duration": 0.465666
+        }
+      ]
+    },
+    {
+      "id": "sf2_p08_ingots",
+      "title": "LA FÁBRICA ELÉCTRICA DE LINGOTES",
+      "subtitle": "Compactación industrial y aleaciones automáticas",
+      "badge": "08 // INDUSTRY: ELECTRIC INGOT FACTORY",
+      "text": "La cúspide de esta fase es la Fábrica Eléctrica de Lingotes. Reemplaza las fundiciones manuales, transformando polvos minerales directamente en lingotes refinados. Combinando Horno Eléctrico y Fábrica de Lingotes, tu base se convierte en una refinería industrial continua.",
+      "spoken_text": "La cúspide de la fase básica es la Fábrica Eléctrica de Lingotes. Esta máquina reemplaza las combinaciones manuales de la fundición para transformar polvos metálicos directamente en lingotes refinados. Combinando un Horno Eléctrico con una Fábrica de Lingotes, tu taller se convierte en una línea de ensamblaje continua.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "ingot_factory",
+      "audio_file": "sf2_p08_ingots.mp3",
+      "duration": 17.976,
+      "frames": 554,
+      "words": [
+        {
+          "word": "La",
+          "start": 0.099,
+          "duration": 0.134791
+        },
+        {
+          "word": "cúspide",
+          "start": 0.307333,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 0.66275,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 0.760791,
+          "duration": 0.073541
+        },
+        {
+          "word": "fase",
+          "start": 0.858833,
+          "duration": 0.257333
+        },
+        {
+          "word": "básica",
+          "start": 1.152958,
+          "duration": 0.379916
+        },
+        {
+          "word": "es",
+          "start": 1.557333,
+          "duration": 0.085791
+        },
+        {
+          "word": "la",
+          "start": 1.679916,
+          "duration": 0.085791
+        },
+        {
+          "word": "Fábrica",
+          "start": 1.790208,
+          "duration": 0.379916
+        },
+        {
+          "word": "Eléctrica",
+          "start": 2.206875,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 2.684791,
+          "duration": 0.073541
+        },
+        {
+          "word": "Lingotes",
+          "start": 2.782833,
+          "duration": 0.526958
+        },
+        {
+          "word": "Esta",
+          "start": 4.203416,
+          "duration": 0.245083
+        },
+        {
+          "word": "máquina",
+          "start": 4.473041,
+          "duration": 0.355375
+        },
+        {
+          "word": "reemplaza",
+          "start": 4.840666,
+          "duration": 0.477958
+        },
+        {
+          "word": "las",
+          "start": 5.318625,
+          "duration": 0.110291
+        },
+        {
+          "word": "combinaciones",
+          "start": 5.465666,
+          "duration": 0.551458
+        },
+        {
+          "word": "manuales",
+          "start": 6.053916,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 6.458333,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 6.544125,
+          "duration": 0.061291
+        },
+        {
+          "word": "fundición",
+          "start": 6.629916,
+          "duration": 0.490208
+        },
+        {
+          "word": "para",
+          "start": 7.156875,
+          "duration": 0.147041
+        },
+        {
+          "word": "transformar",
+          "start": 7.352958,
+          "duration": 0.539208
+        },
+        {
+          "word": "polvos",
+          "start": 7.990208,
+          "duration": 0.257333
+        },
+        {
+          "word": "metálicos",
+          "start": 8.284333,
+          "duration": 0.526958
+        },
+        {
+          "word": "directamente",
+          "start": 8.860291,
+          "duration": 0.63725
+        },
+        {
+          "word": "en",
+          "start": 9.509791,
+          "duration": 0.049
+        },
+        {
+          "word": "lingotes",
+          "start": 9.583333,
+          "duration": 0.428916
+        },
+        {
+          "word": "refinados",
+          "start": 10.01225,
+          "duration": 0.58825
+        },
+        {
+          "word": "Combinando",
+          "start": 11.507333,
+          "duration": 0.490208
+        },
+        {
+          "word": "un",
+          "start": 12.009791,
+          "duration": 0.098041
+        },
+        {
+          "word": "Horno",
+          "start": 12.120083,
+          "duration": 0.220583
+        },
+        {
+          "word": "Eléctrico",
+          "start": 12.340666,
+          "duration": 0.453416
+        },
+        {
+          "word": "con",
+          "start": 12.855375,
+          "duration": 0.122541
+        },
+        {
+          "word": "una",
+          "start": 12.977958,
+          "duration": 0.159333
+        },
+        {
+          "word": "Fábrica",
+          "start": 13.16175,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 13.578416,
+          "duration": 0.061291
+        },
+        {
+          "word": "Lingotes",
+          "start": 13.664208,
+          "duration": 0.490208
+        },
+        {
+          "word": "tu",
+          "start": 14.375,
+          "duration": 0.061291
+        },
+        {
+          "word": "taller",
+          "start": 14.497541,
+          "duration": 0.232833
+        },
+        {
+          "word": "se",
+          "start": 14.742666,
+          "duration": 0.110291
+        },
+        {
+          "word": "convierte",
+          "start": 14.901958,
+          "duration": 0.428916
+        },
+        {
+          "word": "en",
+          "start": 15.355375,
+          "duration": 0.073541
+        },
+        {
+          "word": "una",
+          "start": 15.441166,
+          "duration": 0.196083
+        },
+        {
+          "word": "línea",
+          "start": 15.6495,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 15.968125,
+          "duration": 0.061291
+        },
+        {
+          "word": "ensamblaje",
+          "start": 16.078416,
+          "duration": 0.502458
+        },
+        {
+          "word": "continua",
+          "start": 16.629916,
+          "duration": 0.465666
+        }
+      ]
+    },
+    {
+      "id": "sf2_p09_sre_tips",
+      "title": "BUENAS PRÁCTICAS SRE PARA ENERGÍA",
+      "subtitle": "Topología limpia y cero sobrecarga de ticks en el clúster",
+      "badge": "09 // SRE GUIDE: ZERO TICK OVERHEAD",
+      "text": "Consejo SRE fundamental: nunca conectes dos Reguladores de Energía en el mismo circuito cerrado. Tener dos cerebros en la misma red obliga a la JVM a recalcular rutas, generando lag innecesario. Mantén tus redes delimitadas por zonas, y tu base correrá a 20.0 TPS impecables.",
+      "spoken_text": "Como administrador de sistemas, te daré un consejo crucial: nunca conectes dos reguladores de energía en el mismo circuito cerrado. Tener dos cerebros compitiendo por la misma red obliga a la máquina virtual de Java a recalcular rutas continuamente, generando lag de ticks. Mantén tus redes delimitadas por zonas o fábricas, y tu base correrá a veinte punto cero TPS permanentes.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "sre_tips",
+      "audio_file": "sf2_p09_sre_tips.mp3",
+      "duration": 21.744,
+      "frames": 667,
+      "words": [
+        {
+          "word": "Como",
+          "start": 0.099,
+          "duration": 0.196083
+        },
+        {
+          "word": "administrador",
+          "start": 0.295083,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 0.883333,
+          "duration": 0.073541
+        },
+        {
+          "word": "sistemas",
+          "start": 0.969125,
+          "duration": 0.539208
+        },
+        {
+          "word": "te",
+          "start": 1.765666,
+          "duration": 0.049
+        },
+        {
+          "word": "daré",
+          "start": 1.839208,
+          "duration": 0.196083
+        },
+        {
+          "word": "un",
+          "start": 2.059791,
+          "duration": 0.134791
+        },
+        {
+          "word": "consejo",
+          "start": 2.194625,
+          "duration": 0.379916
+        },
+        {
+          "word": "crucial",
+          "start": 2.623541,
+          "duration": 0.428916
+        },
+        {
+          "word": "nunca",
+          "start": 3.285291,
+          "duration": 0.281875
+        },
+        {
+          "word": "conectes",
+          "start": 3.628416,
+          "duration": 0.392166
+        },
+        {
+          "word": "dos",
+          "start": 4.081875,
+          "duration": 0.147041
+        },
+        {
+          "word": "reguladores",
+          "start": 4.228916,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 4.829416,
+          "duration": 0.049
+        },
+        {
+          "word": "energía",
+          "start": 4.939708,
+          "duration": 0.441166
+        },
+        {
+          "word": "en",
+          "start": 5.380875,
+          "duration": 0.061291
+        },
+        {
+          "word": "el",
+          "start": 5.442166,
+          "duration": 0.098041
+        },
+        {
+          "word": "mismo",
+          "start": 5.576958,
+          "duration": 0.257333
+        },
+        {
+          "word": "circuito",
+          "start": 5.858833,
+          "duration": 0.441166
+        },
+        {
+          "word": "cerrado",
+          "start": 6.31225,
+          "duration": 0.416666
+        },
+        {
+          "word": "Tener",
+          "start": 7.610291,
+          "duration": 0.245083
+        },
+        {
+          "word": "dos",
+          "start": 7.904416,
+          "duration": 0.134791
+        },
+        {
+          "word": "cerebros",
+          "start": 8.039208,
+          "duration": 0.392166
+        },
+        {
+          "word": "compitiendo",
+          "start": 8.455875,
+          "duration": 0.514708
+        },
+        {
+          "word": "por",
+          "start": 9.031875,
+          "duration": 0.098041
+        },
+        {
+          "word": "la",
+          "start": 9.166666,
+          "duration": 0.061291
+        },
+        {
+          "word": "misma",
+          "start": 9.252458,
+          "duration": 0.281875
+        },
+        {
+          "word": "red",
+          "start": 9.546583,
+          "duration": 0.159333
+        },
+        {
+          "word": "obliga",
+          "start": 9.718125,
+          "duration": 0.330875
+        },
+        {
+          "word": "a",
+          "start": 10.061291,
+          "duration": 0.06125
+        },
+        {
+          "word": "la",
+          "start": 10.122541,
+          "duration": 0.085791
+        },
+        {
+          "word": "máquina",
+          "start": 10.232833,
+          "duration": 0.318625
+        },
+        {
+          "word": "virtual",
+          "start": 10.58825,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 10.980375,
+          "duration": 0.061291
+        },
+        {
+          "word": "Java",
+          "start": 11.066166,
+          "duration": 0.257333
+        },
+        {
+          "word": "a",
+          "start": 11.360291,
+          "duration": 0.0245
+        },
+        {
+          "word": "recalcular",
+          "start": 11.409333,
+          "duration": 0.526958
+        },
+        {
+          "word": "rutas",
+          "start": 11.936291,
+          "duration": 0.281875
+        },
+        {
+          "word": "continuamente",
+          "start": 12.279416,
+          "duration": 0.710791
+        },
+        {
+          "word": "generando",
+          "start": 13.198541,
+          "duration": 0.477958
+        },
+        {
+          "word": "lag",
+          "start": 13.71325,
+          "duration": 0.147041
+        },
+        {
+          "word": "de",
+          "start": 13.897041,
+          "duration": 0.061291
+        },
+        {
+          "word": "ticks",
+          "start": 14.031875,
+          "duration": 0.294125
+        },
+        {
+          "word": "Mantén",
+          "start": 15.220583,
+          "duration": 0.404416
+        },
+        {
+          "word": "tus",
+          "start": 15.625,
+          "duration": 0.134791
+        },
+        {
+          "word": "redes",
+          "start": 15.759791,
+          "duration": 0.232833
+        },
+        {
+          "word": "delimitadas",
+          "start": 16.029416,
+          "duration": 0.514708
+        },
+        {
+          "word": "por",
+          "start": 16.617666,
+          "duration": 0.098041
+        },
+        {
+          "word": "zonas",
+          "start": 16.727958,
+          "duration": 0.318625
+        },
+        {
+          "word": "o",
+          "start": 17.046583,
+          "duration": 0.03675
+        },
+        {
+          "word": "fábricas",
+          "start": 17.120083,
+          "duration": 0.490208
+        },
+        {
+          "word": "y",
+          "start": 17.867666,
+          "duration": 0.049
+        },
+        {
+          "word": "tu",
+          "start": 17.990208,
+          "duration": 0.061291
+        },
+        {
+          "word": "base",
+          "start": 18.08825,
+          "duration": 0.220583
+        },
+        {
+          "word": "correrá",
+          "start": 18.370083,
+          "duration": 0.343125
+        },
+        {
+          "word": "a",
+          "start": 18.71325,
+          "duration": 0.01225
+        },
+        {
+          "word": "veinte",
+          "start": 18.76225,
+          "duration": 0.257333
+        },
+        {
+          "word": "punto",
+          "start": 19.117666,
+          "duration": 0.245083
+        },
+        {
+          "word": "cero",
+          "start": 19.375,
+          "duration": 0.245083
+        },
+        {
+          "word": "TPS",
+          "start": 19.693625,
+          "duration": 0.428916
+        },
+        {
+          "word": "permanentes",
+          "start": 20.196083,
+          "duration": 0.63725
+        }
+      ]
+    },
+    {
+      "id": "sf2_p10_conclusion",
+      "title": "LISTOS PARA LA METALURGIA AVANZADA",
+      "subtitle": "Tu base eléctrica está activa en play.drakescraft.cl",
+      "badge": "10 // NEXT: METALLURGY & CARGO LOGISTICS",
+      "text": "Con tu red de energía, generadores solares y capacitores activos, entraste de lleno a la era industrial. En el Capítulo 3 dominaremos la metalurgia avanzada, aleaciones de acero de Damasco y logística de transporte. ¡Comienza a construir tu red eléctrica en play.drakescraft.cl!",
+      "spoken_text": "Con tu red de energía, generadores solares y capacitores en marcha, has desbloqueado la era industrial. En el Capítulo tres nos adentraremos en la metalurgia avanzada, aleaciones de acero de Damasco, y la logística con nodos de transporte de ítems. Empieza a construir tu red eléctrica hoy mismo en play punto drakescraft punto ce ele.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "chapter2_final",
+      "audio_file": "sf2_p10_conclusion.mp3",
+      "duration": 19.776,
+      "frames": 608,
+      "words": [
+        {
+          "word": "Con",
+          "start": 0.099,
+          "duration": 0.196083
+        },
+        {
+          "word": "tu",
+          "start": 0.307333,
+          "duration": 0.073541
+        },
+        {
+          "word": "red",
+          "start": 0.393125,
+          "duration": 0.171583
+        },
+        {
+          "word": "de",
+          "start": 0.589208,
+          "duration": 0.061291
+        },
+        {
+          "word": "energía",
+          "start": 0.66275,
+          "duration": 0.514708
+        },
+        {
+          "word": "generadores",
+          "start": 1.398041,
+          "duration": 0.539208
+        },
+        {
+          "word": "solares",
+          "start": 1.93725,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 2.390666,
+          "duration": 0.01225
+        },
+        {
+          "word": "capacitores",
+          "start": 2.476458,
+          "duration": 0.66175
+        },
+        {
+          "word": "en",
+          "start": 3.13825,
+          "duration": 0.073541
+        },
+        {
+          "word": "marcha",
+          "start": 3.273041,
+          "duration": 0.355375
+        },
+        {
+          "word": "has",
+          "start": 3.83675,
+          "duration": 0.110291
+        },
+        {
+          "word": "desbloqueado",
+          "start": 3.996083,
+          "duration": 0.551458
+        },
+        {
+          "word": "la",
+          "start": 4.572041,
+          "duration": 0.098041
+        },
+        {
+          "word": "era",
+          "start": 4.731375,
+          "duration": 0.134791
+        },
+        {
+          "word": "industrial",
+          "start": 4.902958,
+          "duration": 0.551458
+        },
+        {
+          "word": "En",
+          "start": 6.323541,
+          "duration": 0.134791
+        },
+        {
+          "word": "el",
+          "start": 6.458333,
+          "duration": 0.110291
+        },
+        {
+          "word": "Capítulo",
+          "start": 6.580875,
+          "duration": 0.416666
+        },
+        {
+          "word": "tres",
+          "start": 7.071083,
+          "duration": 0.171583
+        },
+        {
+          "word": "nos",
+          "start": 7.254916,
+          "duration": 0.159291
+        },
+        {
+          "word": "adentraremos",
+          "start": 7.414208,
+          "duration": 0.6005
+        },
+        {
+          "word": "en",
+          "start": 8.014708,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 8.1005,
+          "duration": 0.049
+        },
+        {
+          "word": "metalurgia",
+          "start": 8.174,
+          "duration": 0.490208
+        },
+        {
+          "word": "avanzada",
+          "start": 8.676458,
+          "duration": 0.526958
+        },
+        {
+          "word": "aleaciones",
+          "start": 9.424,
+          "duration": 0.526958
+        },
+        {
+          "word": "de",
+          "start": 9.98775,
+          "duration": 0.049
+        },
+        {
+          "word": "acero",
+          "start": 10.049,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 10.392166,
+          "duration": 0.061291
+        },
+        {
+          "word": "Damasco",
+          "start": 10.490208,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 11.151958,
+          "duration": 0.073541
+        },
+        {
+          "word": "la",
+          "start": 11.25,
+          "duration": 0.085791
+        },
+        {
+          "word": "logística",
+          "start": 11.360291,
+          "duration": 0.514708
+        },
+        {
+          "word": "con",
+          "start": 11.948541,
+          "duration": 0.122541
+        },
+        {
+          "word": "nodos",
+          "start": 12.071083,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 12.389708,
+          "duration": 0.061291
+        },
+        {
+          "word": "transporte",
+          "start": 12.5,
+          "duration": 0.526958
+        },
+        {
+          "word": "de",
+          "start": 13.051458,
+          "duration": 0.085791
+        },
+        {
+          "word": "ítems",
+          "start": 13.198541,
+          "duration": 0.404416
+        },
+        {
+          "word": "Empieza",
+          "start": 14.509791,
+          "duration": 0.465666
+        },
+        {
+          "word": "a",
+          "start": 14.9755,
+          "duration": 0.0245
+        },
+        {
+          "word": "construir",
+          "start": 15.061291,
+          "duration": 0.404416
+        },
+        {
+          "word": "tu",
+          "start": 15.551458,
+          "duration": 0.085791
+        },
+        {
+          "word": "red",
+          "start": 15.6495,
+          "duration": 0.171583
+        },
+        {
+          "word": "eléctrica",
+          "start": 15.833333,
+          "duration": 0.502458
+        },
+        {
+          "word": "hoy",
+          "start": 16.348041,
+          "duration": 0.110291
+        },
+        {
+          "word": "mismo",
+          "start": 16.495083,
+          "duration": 0.281875
+        },
+        {
+          "word": "en",
+          "start": 16.801458,
+          "duration": 0.110291
+        },
+        {
+          "word": "play",
+          "start": 16.936291,
+          "duration": 0.134791
+        },
+        {
+          "word": "punto",
+          "start": 17.156875,
+          "duration": 0.245083
+        },
+        {
+          "word": "drakescraft",
+          "start": 17.438708,
+          "duration": 0.551458
+        },
+        {
+          "word": "punto",
+          "start": 18.08825,
+          "duration": 0.269625
+        },
+        {
+          "word": "ce",
+          "start": 18.382333,
+          "duration": 0.245083
+        },
+        {
+          "word": "ele",
+          "start": 18.651958,
+          "duration": 0.220583
+        }
+      ]
+    }
+  ]
+}

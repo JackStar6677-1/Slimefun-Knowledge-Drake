@@ -1,0 +1,249 @@
+{
+  "regulators": [
+    {
+      "id": "ENERGY_REGULATOR",
+      "name": "Energy Regulator",
+      "energy": {},
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "STB_REGULATORUPGRADE",
+      "name": "Regulator Upgrade",
+      "energy": {},
+      "recipe_type": "minecraft:shaped"
+    },
+    {
+      "id": "GRAVITON_FIELD_REGULATOR",
+      "name": "Graviton Field Regulator",
+      "energy": {
+        "type": "CONSUMER",
+        "capacity": 2000000000
+      },
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    }
+  ],
+  "generators": [
+    {
+      "id": "SOLAR_PANEL",
+      "name": "Photovoltaic Cell",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SOLAR_HELMET",
+      "name": "Solar Helmet",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SOLAR_GENERATOR",
+      "name": "Solar Generator",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SOLAR_GENERATOR_2",
+      "name": "Advanced Solar Generator",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SOLAR_GENERATOR_3",
+      "name": "Carbonado Solar Generator",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SOLAR_GENERATOR_4",
+      "name": "Energized Solar Generator",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "COAL_GENERATOR",
+      "name": "Coal Generator",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "COAL_GENERATOR_2",
+      "name": "Coal Generator (II)",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "BIO_REACTOR",
+      "name": "Bio Reactor",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "MAGNESIUM_GENERATOR",
+      "name": "Magnesium-powered Generator",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "LAVA_GENERATOR",
+      "name": "Lava Generator",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "LAVA_GENERATOR_2",
+      "name": "Lava Generator (II)",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "COMBUSTION_REACTOR",
+      "name": "Combustion Reactor",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "REACTOR_COLLANT_CELL",
+      "name": "Reactor Coolant Cell",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:freezer"
+    },
+    {
+      "id": "NUCLEAR_REACTOR",
+      "name": "Nuclear Reactor",
+      "production": 0,
+      "buffer": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    }
+  ],
+  "capacitors": [
+    {
+      "id": "SMALL_CAPACITOR",
+      "name": "Small Energy Capacitor",
+      "capacity": 128,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "MEDIUM_CAPACITOR",
+      "name": "Medium Energy Capacitor",
+      "capacity": 512,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "BIG_CAPACITOR",
+      "name": "Big Energy Capacitor",
+      "capacity": 1024,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "LARGE_CAPACITOR",
+      "name": "Large Energy Capacitor",
+      "capacity": 8192,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "CARBONADO_EDGED_CAPACITOR",
+      "name": "Carbonado Edged Energy Capacitor",
+      "capacity": 65536,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "ENERGIZED_CAPACITOR",
+      "name": "Energized Energy Capacitor",
+      "capacity": 524288,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "INFINITY_CAPACITOR",
+      "name": "Infinite Capacitor",
+      "capacity": 2000000000,
+      "recipe_type": "infinityexpansion:infinity_forge"
+    },
+    {
+      "id": "VOID_CAPACITOR",
+      "name": "Void Capacitor",
+      "capacity": 16000000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SUPREME_AURUM_CAPACITOR",
+      "name": "Aurum Capacitor",
+      "capacity": 1000000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SUPREME_TITANIUM_CAPACITOR",
+      "name": "Titanium Capacitor",
+      "capacity": 4000000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_CAPACITOR",
+      "name": "Adamantium Capacitor",
+      "capacity": 16000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SUPREME_THORNIUM_CAPACITOR",
+      "name": "Thornium Capacitor",
+      "capacity": 1000000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "SUPREME_SUPREME_CAPACITOR",
+      "name": "Supreme Capacitor",
+      "capacity": 16000000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "NTW_CAPACITOR_1",
+      "name": "Network Capacitor (1)",
+      "capacity": 1000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "NTW_CAPACITOR_2",
+      "name": "Network Capacitor (2)",
+      "capacity": 10000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "NTW_CAPACITOR_3",
+      "name": "Network Capacitor (3)",
+      "capacity": 100000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "NTW_CAPACITOR_4",
+      "name": "Network Capacitor (4)",
+      "capacity": 1000000,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    },
+    {
+      "id": "IDOE_CREATIVE_CAPACITOR",
+      "name": "Condensador Creativo",
+      "capacity": 2147483647,
+      "recipe_type": "slimefun:null"
+    },
+    {
+      "id": "MICRO_ARC_CAPACITOR",
+      "name": "Micro ARC Capacitor",
+      "capacity": 0,
+      "recipe_type": "slimefun:enhanced_crafting_table"
+    }
+  ],
+  "consumers": []
+}
