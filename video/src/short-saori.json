@@ -1,0 +1,499 @@
+{
+  "id": "short_saori_es",
+  "title": "¿Qué significa SAORI? El Cerebro SRE de DrakesCraft",
+  "lang": "es",
+  "file": "short_saori_es.mp3",
+  "duration": 36.144,
+  "words": [
+    {
+      "word": "Muchos",
+      "start": 0.098083,
+      "duration": 0.348541
+    },
+    {
+      "word": "en",
+      "start": 0.446625,
+      "duration": 0.060083
+    },
+    {
+      "word": "la",
+      "start": 0.542791,
+      "duration": 0.048083
+    },
+    {
+      "word": "comunidad",
+      "start": 0.650958,
+      "duration": 0.396625
+    },
+    {
+      "word": "piensan",
+      "start": 1.13175,
+      "duration": 0.372583
+    },
+    {
+      "word": "que",
+      "start": 1.504333,
+      "duration": 0.060083
+    },
+    {
+      "word": "SAORI",
+      "start": 1.588458,
+      "duration": 0.348541
+    },
+    {
+      "word": "es",
+      "start": 1.961041,
+      "duration": 0.084125
+    },
+    {
+      "word": "sólo",
+      "start": 2.045208,
+      "duration": 0.252416
+    },
+    {
+      "word": "un",
+      "start": 2.309625,
+      "duration": 0.096166
+    },
+    {
+      "word": "nombre",
+      "start": 2.417791,
+      "duration": 0.252416
+    },
+    {
+      "word": "femenino",
+      "start": 2.69425,
+      "duration": 0.456708
+    },
+    {
+      "word": "al",
+      "start": 3.150958,
+      "duration": 0.084125
+    },
+    {
+      "word": "azar",
+      "start": 3.235083,
+      "duration": 0.336541
+    },
+    {
+      "word": "Pero",
+      "start": 4.435083,
+      "duration": 0.16825
+    },
+    {
+      "word": "en",
+      "start": 4.603375,
+      "duration": 0.072125
+    },
+    {
+      "word": "DrakesCraft",
+      "start": 4.723541,
+      "duration": 0.576916
+    },
+    {
+      "word": "cada",
+      "start": 5.576916,
+      "duration": 0.192291
+    },
+    {
+      "word": "letra",
+      "start": 5.78125,
+      "duration": 0.240375
+    },
+    {
+      "word": "tiene",
+      "start": 6.09375,
+      "duration": 0.16825
+    },
+    {
+      "word": "un",
+      "start": 6.274041,
+      "duration": 0.120208
+    },
+    {
+      "word": "propósito",
+      "start": 6.39425,
+      "duration": 0.48075
+    },
+    {
+      "word": "de",
+      "start": 6.899041,
+      "duration": 0.060083
+    },
+    {
+      "word": "ingeniería",
+      "start": 6.995208,
+      "duration": 0.613
+    },
+    {
+      "word": "SAORI",
+      "start": 8.461541,
+      "duration": 0.372583
+    },
+    {
+      "word": "son",
+      "start": 8.870208,
+      "duration": 0.16825
+    },
+    {
+      "word": "siglas",
+      "start": 9.0625,
+      "duration": 0.420666
+    },
+    {
+      "word": "Server",
+      "start": 9.6875,
+      "duration": 0.336541
+    },
+    {
+      "word": "Autonomous",
+      "start": 10.024041,
+      "duration": 0.456708
+    },
+    {
+      "word": "Orchestrator",
+      "start": 10.48075,
+      "duration": 0.540875
+    },
+    {
+      "word": "for",
+      "start": 11.057708,
+      "duration": 0.15625
+    },
+    {
+      "word": "Resilient",
+      "start": 11.238,
+      "duration": 0.46875
+    },
+    {
+      "word": "Infrastructure",
+      "start": 11.73075,
+      "duration": 0.661041
+    },
+    {
+      "word": "Es",
+      "start": 13.257208,
+      "duration": 0.14425
+    },
+    {
+      "word": "nuestro",
+      "start": 13.413458,
+      "duration": 0.240375
+    },
+    {
+      "word": "enjambre",
+      "start": 13.653833,
+      "duration": 0.372583
+    },
+    {
+      "word": "multi-agente",
+      "start": 14.0625,
+      "duration": 0.613
+    },
+    {
+      "word": "que",
+      "start": 14.735583,
+      "duration": 0.060083
+    },
+    {
+      "word": "vigila",
+      "start": 14.83175,
+      "duration": 0.3125
+    },
+    {
+      "word": "el",
+      "start": 15.15625,
+      "duration": 0.072125
+    },
+    {
+      "word": "clúster",
+      "start": 15.288458,
+      "duration": 0.348541
+    },
+    {
+      "word": "las",
+      "start": 15.661041,
+      "duration": 0.120208
+    },
+    {
+      "word": "veinticuatro",
+      "start": 15.817291,
+      "duration": 0.540875
+    },
+    {
+      "word": "horas",
+      "start": 16.370208,
+      "duration": 0.192291
+    },
+    {
+      "word": "del",
+      "start": 16.598541,
+      "duration": 0.108166
+    },
+    {
+      "word": "día",
+      "start": 16.754791,
+      "duration": 0.264416
+    },
+    {
+      "word": "Audita",
+      "start": 17.872583,
+      "duration": 0.396625
+    },
+    {
+      "word": "el",
+      "start": 18.26925,
+      "duration": 0.084125
+    },
+    {
+      "word": "socket",
+      "start": 18.365375,
+      "duration": 0.3005
+    },
+    {
+      "word": "de",
+      "start": 18.713958,
+      "duration": 0.072125
+    },
+    {
+      "word": "red",
+      "start": 18.810083,
+      "duration": 0.204333
+    },
+    {
+      "word": "analiza",
+      "start": 19.254791,
+      "duration": 0.444708
+    },
+    {
+      "word": "la",
+      "start": 19.711541,
+      "duration": 0.096166
+    },
+    {
+      "word": "recolección",
+      "start": 19.83175,
+      "duration": 0.492791
+    },
+    {
+      "word": "de",
+      "start": 20.372583,
+      "duration": 0.048083
+    },
+    {
+      "word": "basura",
+      "start": 20.444708,
+      "duration": 0.336541
+    },
+    {
+      "word": "de",
+      "start": 20.79325,
+      "duration": 0.060083
+    },
+    {
+      "word": "la",
+      "start": 20.889416,
+      "duration": 0.072125
+    },
+    {
+      "word": "máquina",
+      "start": 20.985583,
+      "duration": 0.3125
+    },
+    {
+      "word": "virtual",
+      "start": 21.334125,
+      "duration": 0.3245
+    },
+    {
+      "word": "de",
+      "start": 21.694708,
+      "duration": 0.060083
+    },
+    {
+      "word": "Java",
+      "start": 21.778833,
+      "duration": 0.3125
+    },
+    {
+      "word": "detecta",
+      "start": 22.307708,
+      "duration": 0.372583
+    },
+    {
+      "word": "anomalías",
+      "start": 22.680291,
+      "duration": 0.552875
+    },
+    {
+      "word": "y",
+      "start": 23.245208,
+      "duration": 0.024041
+    },
+    {
+      "word": "aplica",
+      "start": 23.28125,
+      "duration": 0.3125
+    },
+    {
+      "word": "mitigaciones",
+      "start": 23.617791,
+      "duration": 0.600958
+    },
+    {
+      "word": "forenses",
+      "start": 24.254791,
+      "duration": 0.408666
+    },
+    {
+      "word": "sin",
+      "start": 24.663458,
+      "duration": 0.180291
+    },
+    {
+      "word": "necesidad",
+      "start": 24.84375,
+      "duration": 0.492791
+    },
+    {
+      "word": "de",
+      "start": 25.348541,
+      "duration": 0.072125
+    },
+    {
+      "word": "reiniciar",
+      "start": 25.45675,
+      "duration": 0.444708
+    },
+    {
+      "word": "a",
+      "start": 25.901458,
+      "duration": 0.072125
+    },
+    {
+      "word": "ciegas",
+      "start": 25.997583,
+      "duration": 0.348541
+    },
+    {
+      "word": "ni",
+      "start": 26.382208,
+      "duration": 0.072125
+    },
+    {
+      "word": "interrumpir",
+      "start": 26.466333,
+      "duration": 0.516833
+    },
+    {
+      "word": "a",
+      "start": 26.983166,
+      "duration": 0.060083
+    },
+    {
+      "word": "los",
+      "start": 27.055291,
+      "duration": 0.120208
+    },
+    {
+      "word": "jugadores",
+      "start": 27.211541,
+      "duration": 0.600958
+    },
+    {
+      "word": "Cero",
+      "start": 28.689916,
+      "duration": 0.288458
+    },
+    {
+      "word": "pérdida",
+      "start": 29.0625,
+      "duration": 0.336541
+    },
+    {
+      "word": "de",
+      "start": 29.423083,
+      "duration": 0.060083
+    },
+    {
+      "word": "datos",
+      "start": 29.53125,
+      "duration": 0.372583
+    },
+    {
+      "word": "cero",
+      "start": 30.084125,
+      "duration": 0.252416
+    },
+    {
+      "word": "rollbacks",
+      "start": 30.348541,
+      "duration": 0.528833
+    },
+    {
+      "word": "Conéctate",
+      "start": 31.766833,
+      "duration": 0.492791
+    },
+    {
+      "word": "en",
+      "start": 32.259625,
+      "duration": 0.120208
+    },
+    {
+      "word": "play",
+      "start": 32.391833,
+      "duration": 0.132208
+    },
+    {
+      "word": "punto",
+      "start": 32.608166,
+      "duration": 0.228375
+    },
+    {
+      "word": "drakescraft",
+      "start": 32.860583,
+      "duration": 0.528833
+    },
+    {
+      "word": "punto",
+      "start": 33.485583,
+      "duration": 0.240375
+    },
+    {
+      "word": "ce",
+      "start": 33.738,
+      "duration": 0.228375
+    },
+    {
+      "word": "ele",
+      "start": 34.014416,
+      "duration": 0.16825
+    },
+    {
+      "word": "y",
+      "start": 34.21875,
+      "duration": 0.072125
+    },
+    {
+      "word": "únete",
+      "start": 34.302875,
+      "duration": 0.276458
+    },
+    {
+      "word": "a",
+      "start": 34.579333,
+      "duration": 0.048083
+    },
+    {
+      "word": "nuestro",
+      "start": 34.651458,
+      "duration": 0.240375
+    },
+    {
+      "word": "Discord",
+      "start": 34.927875,
+      "duration": 0.384625
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "id": "short_customgui_es",
+  "title": "Maquinaria 3D y GUIs en Minecraft 1.21 sin Mods",
+  "lang": "es",
+  "file": "short_customgui_es.mp3",
+  "duration": 30.84,
+  "words": [
+    {
+      "word": "Cómo",
+      "start": 0.098083,
+      "duration": 0.204333
+    },
+    {
+      "word": "logramos",
+      "start": 0.326458,
+      "duration": 0.360583
+    },
+    {
+      "word": "que",
+      "start": 0.723083,
+      "duration": 0.072125
+    },
+    {
+      "word": "reactores",
+      "start": 0.81925,
+      "duration": 0.420666
+    },
+    {
+      "word": "nucleares",
+      "start": 1.263958,
+      "duration": 0.48075
+    },
+    {
+      "word": "y",
+      "start": 1.744708,
+      "duration": 0.0
+    },
+    {
+      "word": "maquinaria",
+      "start": 1.78075,
+      "duration": 0.432708
+    },
+    {
+      "word": "industrial",
+      "start": 2.2255,
+      "duration": 0.420666
+    },
+    {
+      "word": "funcionen",
+      "start": 2.670208,
+      "duration": 0.456708
+    },
+    {
+      "word": "en",
+      "start": 3.126916,
+      "duration": 0.096166
+    },
+    {
+      "word": "Minecraft",
+      "start": 3.271166,
+      "duration": 0.420666
+    },
+    {
+      "word": "sin",
+      "start": 3.703833,
+      "duration": 0.15625
+    },
+    {
+      "word": "obligar",
+      "start": 3.860083,
+      "duration": 0.360583
+    },
+    {
+      "word": "a",
+      "start": 4.220666,
+      "duration": 0.060083
+    },
+    {
+      "word": "los",
+      "start": 4.292791,
+      "duration": 0.120208
+    },
+    {
+      "word": "jugadores",
+      "start": 4.449041,
+      "duration": 0.528833
+    },
+    {
+      "word": "a",
+      "start": 4.977875,
+      "duration": 0.024041
+    },
+    {
+      "word": "instalar",
+      "start": 5.038,
+      "duration": 0.408666
+    },
+    {
+      "word": "Forge",
+      "start": 5.470666,
+      "duration": 0.3005
+    },
+    {
+      "word": "o",
+      "start": 5.783166,
+      "duration": 0.048083
+    },
+    {
+      "word": "Fabric",
+      "start": 5.855291,
+      "duration": 0.360583
+    },
+    {
+      "word": "En",
+      "start": 7.103375,
+      "duration": 0.132208
+    },
+    {
+      "word": "DrakesCraft",
+      "start": 7.295666,
+      "duration": 0.564916
+    },
+    {
+      "word": "usamos",
+      "start": 7.884625,
+      "duration": 0.3245
+    },
+    {
+      "word": "la",
+      "start": 8.245208,
+      "duration": 0.060083
+    },
+    {
+      "word": "potencia",
+      "start": 8.365375,
+      "duration": 0.360583
+    },
+    {
+      "word": "de",
+      "start": 8.75,
+      "duration": 0.060083
+    },
+    {
+      "word": "CustomModelData",
+      "start": 8.870208,
+      "duration": 0.841333
+    },
+    {
+      "word": "y",
+      "start": 9.747583,
+      "duration": 0.0360409
+    },
+    {
+      "word": "Resource",
+      "start": 9.807708,
+      "duration": 0.360583
+    },
+    {
+      "word": "Packs",
+      "start": 10.252416,
+      "duration": 0.180291
+    },
+    {
+      "word": "optimizados",
+      "start": 10.432708,
+      "duration": 0.576916
+    },
+    {
+      "word": "por",
+      "start": 11.08175,
+      "duration": 0.096166
+    },
+    {
+      "word": "servidor",
+      "start": 11.189916,
+      "duration": 0.516833
+    },
+    {
+      "word": "El",
+      "start": 12.572125,
+      "duration": 0.15625
+    },
+    {
+      "word": "servidor",
+      "start": 12.728375,
+      "duration": 0.384625
+    },
+    {
+      "word": "mapea",
+      "start": 13.137,
+      "duration": 0.264416
+    },
+    {
+      "word": "dinámicamente",
+      "start": 13.4255,
+      "duration": 0.661041
+    },
+    {
+      "word": "cada",
+      "start": 14.158666,
+      "duration": 0.192291
+    },
+    {
+      "word": "ítem",
+      "start": 14.399041,
+      "duration": 0.240375
+    },
+    {
+      "word": "y",
+      "start": 14.663458,
+      "duration": 0.024041
+    },
+    {
+      "word": "bloque",
+      "start": 14.735583,
+      "duration": 0.276458
+    },
+    {
+      "word": "de",
+      "start": 15.048083,
+      "duration": 0.048083
+    },
+    {
+      "word": "Slimefun",
+      "start": 15.16825,
+      "duration": 0.46875
+    },
+    {
+      "word": "a",
+      "start": 15.637,
+      "duration": 0.060083
+    },
+    {
+      "word": "geometrías",
+      "start": 15.721166,
+      "duration": 0.528833
+    },
+    {
+      "word": "tridimensionales",
+      "start": 16.298083,
+      "duration": 0.745166
+    },
+    {
+      "word": "reales",
+      "start": 17.04325,
+      "duration": 0.46875
+    },
+    {
+      "word": "Cualquier",
+      "start": 18.389416,
+      "duration": 0.3245
+    },
+    {
+      "word": "cliente",
+      "start": 18.774041,
+      "duration": 0.288458
+    },
+    {
+      "word": "vanilla",
+      "start": 19.098541,
+      "duration": 0.3005
+    },
+    {
+      "word": "en",
+      "start": 19.399041,
+      "duration": 0.060083
+    },
+    {
+      "word": "versión",
+      "start": 19.495208,
+      "duration": 0.288458
+    },
+    {
+      "word": "uno",
+      "start": 19.795666,
+      "duration": 0.132208
+    },
+    {
+      "word": "veintidós",
+      "start": 19.951916,
+      "duration": 0.408666
+    },
+    {
+      "word": "se",
+      "start": 20.360583,
+      "duration": 0.108166
+    },
+    {
+      "word": "conecta",
+      "start": 20.516833,
+      "duration": 0.360583
+    },
+    {
+      "word": "al",
+      "start": 20.889416,
+      "duration": 0.072125
+    },
+    {
+      "word": "instante",
+      "start": 20.973541,
+      "duration": 0.48075
+    },
+    {
+      "word": "abre",
+      "start": 21.670666,
+      "duration": 0.180291
+    },
+    {
+      "word": "interfaces",
+      "start": 21.863,
+      "duration": 0.504791
+    },
+    {
+      "word": "visuales",
+      "start": 22.403833,
+      "duration": 0.384625
+    },
+    {
+      "word": "complejas",
+      "start": 22.836541,
+      "duration": 0.48075
+    },
+    {
+      "word": "y",
+      "start": 23.329333,
+      "duration": 0.024041
+    },
+    {
+      "word": "procesa",
+      "start": 23.413458,
+      "duration": 0.360583
+    },
+    {
+      "word": "energía",
+      "start": 23.786041,
+      "duration": 0.408666
+    },
+    {
+      "word": "en",
+      "start": 24.194708,
+      "duration": 0.14425
+    },
+    {
+      "word": "tiempo",
+      "start": 24.350958,
+      "duration": 0.276458
+    },
+    {
+      "word": "real",
+      "start": 24.639416,
+      "duration": 0.288458
+    },
+    {
+      "word": "Pruébalo",
+      "start": 25.76925,
+      "duration": 0.336541
+    },
+    {
+      "word": "sin",
+      "start": 26.117791,
+      "duration": 0.14425
+    },
+    {
+      "word": "mods",
+      "start": 26.298083,
+      "duration": 0.204333
+    },
+    {
+      "word": "en",
+      "start": 26.502416,
+      "duration": 0.132208
+    },
+    {
+      "word": "play",
+      "start": 26.658666,
+      "duration": 0.120208
+    },
+    {
+      "word": "punto",
+      "start": 26.863,
+      "duration": 0.240375
+    },
+    {
+      "word": "drakescraft",
+      "start": 27.127416,
+      "duration": 0.528833
+    },
+    {
+      "word": "punto",
+      "start": 27.752416,
+      "duration": 0.240375
+    },
+    {
+      "word": "ce",
+      "start": 28.004791,
+      "duration": 0.240375
+    },
+    {
+      "word": "ele",
+      "start": 28.29325,
+      "duration": 0.16825
+    },
+    {
+      "word": "y",
+      "start": 28.485583,
+      "duration": 0.084125
+    },
+    {
+      "word": "entra",
+      "start": 28.569708,
+      "duration": 0.252416
+    },
+    {
+      "word": "a",
+      "start": 28.822125,
+      "duration": 0.024041
+    },
+    {
+      "word": "nuestro",
+      "start": 28.870208,
+      "duration": 0.264416
+    },
+    {
+      "word": "Discord",
+      "start": 29.170666,
+      "duration": 0.360583
+    },
+    {
+      "word": "oficial",
+      "start": 29.54325,
+      "duration": 0.444708
+    }
+  ]
+}

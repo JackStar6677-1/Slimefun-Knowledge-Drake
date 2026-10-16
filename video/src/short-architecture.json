@@ -1,0 +1,419 @@
+{
+  "id": "short_architecture_en",
+  "title": "Why We Decoupled Minecraft Compute from Orchestration",
+  "lang": "en",
+  "file": "short_architecture_en.mp3",
+  "duration": 35.088,
+  "words": [
+    {
+      "word": "Running",
+      "start": 0.098083,
+      "duration": 0.3245
+    },
+    {
+      "word": "modern",
+      "start": 0.446625,
+      "duration": 0.288458
+    },
+    {
+      "word": "Minecraft",
+      "start": 0.759125,
+      "duration": 0.528833
+    },
+    {
+      "word": "with",
+      "start": 1.312,
+      "duration": 0.120208
+    },
+    {
+      "word": "eighty",
+      "start": 1.45625,
+      "duration": 0.204333
+    },
+    {
+      "word": "Slimefun",
+      "start": 1.672583,
+      "duration": 0.504791
+    },
+    {
+      "word": "addons",
+      "start": 2.201458,
+      "duration": 0.408666
+    },
+    {
+      "word": "on",
+      "start": 2.634125,
+      "duration": 0.096166
+    },
+    {
+      "word": "a",
+      "start": 2.754333,
+      "duration": 0.048083
+    },
+    {
+      "word": "single",
+      "start": 2.826458,
+      "duration": 0.3005
+    },
+    {
+      "word": "VPS",
+      "start": 3.150958,
+      "duration": 0.528833
+    },
+    {
+      "word": "is",
+      "start": 3.691833,
+      "duration": 0.108166
+    },
+    {
+      "word": "a",
+      "start": 3.824041,
+      "duration": 0.060083
+    },
+    {
+      "word": "recipe",
+      "start": 3.908166,
+      "duration": 0.408666
+    },
+    {
+      "word": "for",
+      "start": 4.340875,
+      "duration": 0.132208
+    },
+    {
+      "word": "disaster",
+      "start": 4.485083,
+      "duration": 0.600958
+    },
+    {
+      "word": "At",
+      "start": 5.9375,
+      "duration": 0.192291
+    },
+    {
+      "word": "DrakesCraft",
+      "start": 6.153833,
+      "duration": 0.649041
+    },
+    {
+      "word": "we",
+      "start": 7.007208,
+      "duration": 0.120208
+    },
+    {
+      "word": "segregated",
+      "start": 7.151458,
+      "duration": 0.564916
+    },
+    {
+      "word": "the",
+      "start": 7.740375,
+      "duration": 0.096166
+    },
+    {
+      "word": "system",
+      "start": 7.860583,
+      "duration": 0.384625
+    },
+    {
+      "word": "into",
+      "start": 8.26925,
+      "duration": 0.16825
+    },
+    {
+      "word": "isolated",
+      "start": 8.461541,
+      "duration": 0.576916
+    },
+    {
+      "word": "fault",
+      "start": 9.0625,
+      "duration": 0.228375
+    },
+    {
+      "word": "domains",
+      "start": 9.302875,
+      "duration": 0.564916
+    },
+    {
+      "word": "The",
+      "start": 10.709125,
+      "duration": 0.132208
+    },
+    {
+      "word": "pure",
+      "start": 10.865375,
+      "duration": 0.240375
+    },
+    {
+      "word": "game",
+      "start": 11.129791,
+      "duration": 0.204333
+    },
+    {
+      "word": "tick",
+      "start": 11.358166,
+      "duration": 0.180291
+    },
+    {
+      "word": "loop",
+      "start": 11.5625,
+      "duration": 0.180291
+    },
+    {
+      "word": "executes",
+      "start": 11.766833,
+      "duration": 0.528833
+    },
+    {
+      "word": "on",
+      "start": 12.319708,
+      "duration": 0.108166
+    },
+    {
+      "word": "high",
+      "start": 12.451916,
+      "duration": 0.15625
+    },
+    {
+      "word": "frequency",
+      "start": 12.632208,
+      "duration": 0.528833
+    },
+    {
+      "word": "cores",
+      "start": 13.185083,
+      "duration": 0.3005
+    },
+    {
+      "word": "at",
+      "start": 13.497583,
+      "duration": 0.084125
+    },
+    {
+      "word": "our",
+      "start": 13.60575,
+      "duration": 0.096166
+    },
+    {
+      "word": "Dallas",
+      "start": 13.725958,
+      "duration": 0.3245
+    },
+    {
+      "word": "compute",
+      "start": 14.0625,
+      "duration": 0.372583
+    },
+    {
+      "word": "node",
+      "start": 14.459125,
+      "duration": 0.228375
+    },
+    {
+      "word": "with",
+      "start": 14.711541,
+      "duration": 0.132208
+    },
+    {
+      "word": "Generational",
+      "start": 14.85575,
+      "duration": 0.625
+    },
+    {
+      "word": "ZGC",
+      "start": 15.504791,
+      "duration": 0.709125
+    },
+    {
+      "word": "Meanwhile",
+      "start": 17.067291,
+      "duration": 0.504791
+    },
+    {
+      "word": "relational",
+      "start": 17.728375,
+      "duration": 0.492791
+    },
+    {
+      "word": "databases",
+      "start": 18.233166,
+      "duration": 0.637
+    },
+    {
+      "word": "telemetry",
+      "start": 19.038458,
+      "duration": 0.540875
+    },
+    {
+      "word": "bots",
+      "start": 19.603375,
+      "duration": 0.288458
+    },
+    {
+      "word": "and",
+      "start": 20.060083,
+      "duration": 0.108166
+    },
+    {
+      "word": "Docker",
+      "start": 20.192291,
+      "duration": 0.348541
+    },
+    {
+      "word": "microservices",
+      "start": 20.552875,
+      "duration": 0.817291
+    },
+    {
+      "word": "reside",
+      "start": 21.39425,
+      "duration": 0.384625
+    },
+    {
+      "word": "on",
+      "start": 21.802875,
+      "duration": 0.120208
+    },
+    {
+      "word": "our",
+      "start": 21.947125,
+      "duration": 0.108166
+    },
+    {
+      "word": "Linux",
+      "start": 22.079333,
+      "duration": 0.3245
+    },
+    {
+      "word": "orchestration",
+      "start": 22.415875,
+      "duration": 0.649041
+    },
+    {
+      "word": "server",
+      "start": 23.088958,
+      "duration": 0.444708
+    },
+    {
+      "word": "Even",
+      "start": 24.387,
+      "duration": 0.276458
+    },
+    {
+      "word": "if",
+      "start": 24.6875,
+      "duration": 0.120208
+    },
+    {
+      "word": "web",
+      "start": 24.83175,
+      "duration": 0.192291
+    },
+    {
+      "word": "APIs",
+      "start": 25.048083,
+      "duration": 0.432708
+    },
+    {
+      "word": "experience",
+      "start": 25.504791,
+      "duration": 0.564916
+    },
+    {
+      "word": "heavy",
+      "start": 26.09375,
+      "duration": 0.228375
+    },
+    {
+      "word": "load",
+      "start": 26.346166,
+      "duration": 0.264416
+    },
+    {
+      "word": "Minecraft",
+      "start": 26.826916,
+      "duration": 0.564916
+    },
+    {
+      "word": "maintains",
+      "start": 27.415875,
+      "duration": 0.48075
+    },
+    {
+      "word": "rock",
+      "start": 27.908666,
+      "duration": 0.216333
+    },
+    {
+      "word": "solid",
+      "start": 28.149041,
+      "duration": 0.348541
+    },
+    {
+      "word": "twenty",
+      "start": 28.521625,
+      "duration": 0.276458
+    },
+    {
+      "word": "point",
+      "start": 28.822125,
+      "duration": 0.240375
+    },
+    {
+      "word": "zero",
+      "start": 29.0745,
+      "duration": 0.264416
+    },
+    {
+      "word": "TPS",
+      "start": 29.363,
+      "duration": 0.625
+    },
+    {
+      "word": "Experience",
+      "start": 30.841333,
+      "duration": 0.600958
+    },
+    {
+      "word": "high",
+      "start": 31.466333,
+      "duration": 0.14425
+    },
+    {
+      "word": "availability",
+      "start": 31.634625,
+      "duration": 0.685083
+    },
+    {
+      "word": "at",
+      "start": 32.34375,
+      "duration": 0.084125
+    },
+    {
+      "word": "play",
+      "start": 32.439916,
+      "duration": 0.192291
+    },
+    {
+      "word": "dot",
+      "start": 32.64425,
+      "duration": 0.228375
+    },
+    {
+      "word": "drakescraft",
+      "start": 32.896625,
+      "duration": 0.625
+    },
+    {
+      "word": "dot",
+      "start": 33.545666,
+      "duration": 0.192291
+    },
+    {
+      "word": "cl",
+      "start": 33.762,
+      "duration": 0.46875
+    }
+  ]
+}

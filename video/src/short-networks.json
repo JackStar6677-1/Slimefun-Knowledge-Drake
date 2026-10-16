@@ -1,0 +1,454 @@
+{
+  "id": "short_networks_en",
+  "title": "Fixing the Networks v6 Infinity Dupe in Minecraft 1.21",
+  "lang": "en",
+  "file": "short_networks_en.mp3",
+  "duration": 33.72,
+  "words": [
+    {
+      "word": "If",
+      "start": 0.098083,
+      "duration": 0.180291
+    },
+    {
+      "word": "you",
+      "start": 0.302416,
+      "duration": 0.108166
+    },
+    {
+      "word": "have",
+      "start": 0.434625,
+      "duration": 0.120208
+    },
+    {
+      "word": "ever",
+      "start": 0.578833,
+      "duration": 0.180291
+    },
+    {
+      "word": "managed",
+      "start": 0.771166,
+      "duration": 0.384625
+    },
+    {
+      "word": "a",
+      "start": 1.179791,
+      "duration": 0.060083
+    },
+    {
+      "word": "Slimefun",
+      "start": 1.263958,
+      "duration": 0.48075
+    },
+    {
+      "word": "server",
+      "start": 1.76875,
+      "duration": 0.336541
+    },
+    {
+      "word": "you",
+      "start": 2.297583,
+      "duration": 0.084125
+    },
+    {
+      "word": "know",
+      "start": 2.40575,
+      "duration": 0.132208
+    },
+    {
+      "word": "the",
+      "start": 2.55,
+      "duration": 0.096166
+    },
+    {
+      "word": "nightmare",
+      "start": 2.658166,
+      "duration": 0.396625
+    },
+    {
+      "word": "of",
+      "start": 3.078833,
+      "duration": 0.084125
+    },
+    {
+      "word": "Networks",
+      "start": 3.187,
+      "duration": 0.45675
+    },
+    {
+      "word": "version",
+      "start": 3.667791,
+      "duration": 0.336541
+    },
+    {
+      "word": "six",
+      "start": 4.028375,
+      "duration": 0.432708
+    },
+    {
+      "word": "Under",
+      "start": 5.3005,
+      "duration": 0.288458
+    },
+    {
+      "word": "concurrent",
+      "start": 5.613,
+      "duration": 0.48075
+    },
+    {
+      "word": "tick",
+      "start": 6.117791,
+      "duration": 0.180291
+    },
+    {
+      "word": "loads",
+      "start": 6.310083,
+      "duration": 0.264416
+    },
+    {
+      "word": "in",
+      "start": 6.598541,
+      "duration": 0.084125
+    },
+    {
+      "word": "modern",
+      "start": 6.70675,
+      "duration": 0.288458
+    },
+    {
+      "word": "Minecraft",
+      "start": 7.01925,
+      "duration": 0.540875
+    },
+    {
+      "word": "item",
+      "start": 7.788458,
+      "duration": 0.228375
+    },
+    {
+      "word": "synchronization",
+      "start": 8.040875,
+      "duration": 0.733166
+    },
+    {
+      "word": "between",
+      "start": 8.786041,
+      "duration": 0.288458
+    },
+    {
+      "word": "Infinity",
+      "start": 9.086541,
+      "duration": 0.45675
+    },
+    {
+      "word": "Expansion",
+      "start": 9.567291,
+      "duration": 0.540875
+    },
+    {
+      "word": "and",
+      "start": 10.132208,
+      "duration": 0.084125
+    },
+    {
+      "word": "Fluffy",
+      "start": 10.240375,
+      "duration": 0.3245
+    },
+    {
+      "word": "barrels",
+      "start": 10.588958,
+      "duration": 0.384625
+    },
+    {
+      "word": "could",
+      "start": 10.997583,
+      "duration": 0.15625
+    },
+    {
+      "word": "trigger",
+      "start": 11.177875,
+      "duration": 0.3005
+    },
+    {
+      "word": "massive",
+      "start": 11.490375,
+      "duration": 0.360583
+    },
+    {
+      "word": "dupe",
+      "start": 11.863,
+      "duration": 0.180291
+    },
+    {
+      "word": "glitches",
+      "start": 12.055291,
+      "duration": 0.48075
+    },
+    {
+      "word": "Most",
+      "start": 13.389416,
+      "duration": 0.336541
+    },
+    {
+      "word": "server",
+      "start": 13.738,
+      "duration": 0.360583
+    },
+    {
+      "word": "owners",
+      "start": 14.122583,
+      "duration": 0.3005
+    },
+    {
+      "word": "just",
+      "start": 14.447125,
+      "duration": 0.240375
+    },
+    {
+      "word": "ban",
+      "start": 14.711541,
+      "duration": 0.204333
+    },
+    {
+      "word": "the",
+      "start": 14.939916,
+      "duration": 0.108166
+    },
+    {
+      "word": "addons",
+      "start": 15.072125,
+      "duration": 0.564916
+    },
+    {
+      "word": "At",
+      "start": 16.478375,
+      "duration": 0.16825
+    },
+    {
+      "word": "DrakesCraft",
+      "start": 16.670666,
+      "duration": 0.600958
+    },
+    {
+      "word": "we",
+      "start": 17.439916,
+      "duration": 0.108166
+    },
+    {
+      "word": "patched",
+      "start": 17.572125,
+      "duration": 0.3245
+    },
+    {
+      "word": "the",
+      "start": 17.920666,
+      "duration": 0.084125
+    },
+    {
+      "word": "transaction",
+      "start": 18.028833,
+      "duration": 0.625
+    },
+    {
+      "word": "commit",
+      "start": 18.677875,
+      "duration": 0.3005
+    },
+    {
+      "word": "layer",
+      "start": 19.002416,
+      "duration": 0.240375
+    },
+    {
+      "word": "inside",
+      "start": 19.254791,
+      "duration": 0.372583
+    },
+    {
+      "word": "Networks",
+      "start": 19.651458,
+      "duration": 0.45675
+    },
+    {
+      "word": "with",
+      "start": 20.132208,
+      "duration": 0.132208
+    },
+    {
+      "word": "atomic",
+      "start": 20.288458,
+      "duration": 0.372583
+    },
+    {
+      "word": "verification",
+      "start": 20.685083,
+      "duration": 0.733166
+    },
+    {
+      "word": "and",
+      "start": 21.442291,
+      "duration": 0.108166
+    },
+    {
+      "word": "zero",
+      "start": 21.5745,
+      "duration": 0.3005
+    },
+    {
+      "word": "dupe",
+      "start": 21.899041,
+      "duration": 0.216333
+    },
+    {
+      "word": "buffers",
+      "start": 22.127416,
+      "duration": 0.45675
+    },
+    {
+      "word": "The",
+      "start": 23.4375,
+      "duration": 0.120208
+    },
+    {
+      "word": "result",
+      "start": 23.58175,
+      "duration": 0.348541
+    },
+    {
+      "word": "is",
+      "start": 23.954333,
+      "duration": 0.120208
+    },
+    {
+      "word": "infinite",
+      "start": 24.098541,
+      "duration": 0.384625
+    },
+    {
+      "word": "digital",
+      "start": 24.507208,
+      "duration": 0.348541
+    },
+    {
+      "word": "storage",
+      "start": 24.879791,
+      "duration": 0.396625
+    },
+    {
+      "word": "and",
+      "start": 25.3005,
+      "duration": 0.084125
+    },
+    {
+      "word": "stable",
+      "start": 25.408666,
+      "duration": 0.360583
+    },
+    {
+      "word": "twenty",
+      "start": 25.78125,
+      "duration": 0.276458
+    },
+    {
+      "word": "point",
+      "start": 26.08175,
+      "duration": 0.228375
+    },
+    {
+      "word": "zero",
+      "start": 26.322125,
+      "duration": 0.264416
+    },
+    {
+      "word": "TPS",
+      "start": 26.610583,
+      "duration": 0.552875
+    },
+    {
+      "word": "on",
+      "start": 27.1875,
+      "duration": 0.120208
+    },
+    {
+      "word": "Paper",
+      "start": 27.33175,
+      "duration": 0.336541
+    },
+    {
+      "word": "one",
+      "start": 27.692291,
+      "duration": 0.15625
+    },
+    {
+      "word": "twenty-one",
+      "start": 27.860583,
+      "duration": 0.564916
+    },
+    {
+      "word": "Join",
+      "start": 29.278833,
+      "duration": 0.3005
+    },
+    {
+      "word": "the",
+      "start": 29.603375,
+      "duration": 0.096166
+    },
+    {
+      "word": "lab",
+      "start": 29.723541,
+      "duration": 0.240375
+    },
+    {
+      "word": "at",
+      "start": 29.975958,
+      "duration": 0.084125
+    },
+    {
+      "word": "play",
+      "start": 30.084125,
+      "duration": 0.192291
+    },
+    {
+      "word": "dot",
+      "start": 30.288458,
+      "duration": 0.192291
+    },
+    {
+      "word": "drakescraft",
+      "start": 30.504791,
+      "duration": 0.625
+    },
+    {
+      "word": "dot",
+      "start": 31.153833,
+      "duration": 0.204333
+    },
+    {
+      "word": "cl",
+      "start": 31.382208,
+      "duration": 0.46875
+    },
+    {
+      "word": "and",
+      "start": 31.863,
+      "duration": 0.096166
+    },
+    {
+      "word": "check",
+      "start": 31.983166,
+      "duration": 0.216333
+    },
+    {
+      "word": "our",
+      "start": 32.223541,
+      "duration": 0.108166
+    },
+    {
+      "word": "Discord",
+      "start": 32.35575,
+      "duration": 0.516833
+    }
+  ]
+}
