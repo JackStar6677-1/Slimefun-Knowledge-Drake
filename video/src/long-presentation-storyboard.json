@@ -1,0 +1,1335 @@
+{
+  "sections": [
+    {
+      "id": "intro",
+      "title": "INTRODUCCIÓN & VISIÓN DE DRAKES",
+      "file": "long_p1_intro.mp3",
+      "duration": 18.0,
+      "words": [
+        {
+          "word": "Hola",
+          "start": 0.098083,
+          "duration": 0.216333
+        },
+        {
+          "word": "a",
+          "start": 0.338458,
+          "duration": 0.024041
+        },
+        {
+          "word": "todos",
+          "start": 0.434625,
+          "duration": 0.3005
+        },
+        {
+          "word": "soy",
+          "start": 0.915375,
+          "duration": 0.192291
+        },
+        {
+          "word": "Jack",
+          "start": 1.15575,
+          "duration": 0.288458
+        },
+        {
+          "word": "dueño",
+          "start": 1.720666,
+          "duration": 0.216333
+        },
+        {
+          "word": "de",
+          "start": 1.961041,
+          "duration": 0.072125
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 2.06925,
+          "duration": 0.600958
+        },
+        {
+          "word": "Bienvenidos",
+          "start": 3.509625,
+          "duration": 0.612958
+        },
+        {
+          "word": "a",
+          "start": 4.122583,
+          "duration": 0.048083
+        },
+        {
+          "word": "esta",
+          "start": 4.21875,
+          "duration": 0.180291
+        },
+        {
+          "word": "presentación",
+          "start": 4.459125,
+          "duration": 0.564916
+        },
+        {
+          "word": "completa",
+          "start": 5.036041,
+          "duration": 0.384625
+        },
+        {
+          "word": "del",
+          "start": 5.444708,
+          "duration": 0.096166
+        },
+        {
+          "word": "proyecto",
+          "start": 5.600958,
+          "duration": 0.432708
+        },
+        {
+          "word": "Muchos",
+          "start": 6.899041,
+          "duration": 0.3125
+        },
+        {
+          "word": "nos",
+          "start": 7.235583,
+          "duration": 0.108166
+        },
+        {
+          "word": "conocen",
+          "start": 7.391833,
+          "duration": 0.372583
+        },
+        {
+          "word": "como",
+          "start": 7.764416,
+          "duration": 0.180291
+        },
+        {
+          "word": "un",
+          "start": 7.944708,
+          "duration": 0.096166
+        },
+        {
+          "word": "servidor",
+          "start": 8.052875,
+          "duration": 0.396625
+        },
+        {
+          "word": "técnico",
+          "start": 8.533666,
+          "duration": 0.348541
+        },
+        {
+          "word": "de",
+          "start": 8.90625,
+          "duration": 0.072125
+        },
+        {
+          "word": "Minecraft",
+          "start": 9.014416,
+          "duration": 0.45675
+        },
+        {
+          "word": "pero",
+          "start": 9.759625,
+          "duration": 0.14425
+        },
+        {
+          "word": "detrás",
+          "start": 9.939916,
+          "duration": 0.360583
+        },
+        {
+          "word": "hay",
+          "start": 10.3005,
+          "duration": 0.096166
+        },
+        {
+          "word": "toda",
+          "start": 10.504791,
+          "duration": 0.192291
+        },
+        {
+          "word": "una",
+          "start": 10.721166,
+          "duration": 0.108166
+        },
+        {
+          "word": "infraestructura",
+          "start": 10.853375,
+          "duration": 0.649041
+        },
+        {
+          "word": "de",
+          "start": 11.526458,
+          "duration": 0.060083
+        },
+        {
+          "word": "desarrollo",
+          "start": 11.622583,
+          "duration": 0.504791
+        },
+        {
+          "word": "y",
+          "start": 12.163458,
+          "duration": 0.072125
+        },
+        {
+          "word": "experimentación",
+          "start": 12.247583,
+          "duration": 0.745208
+        },
+        {
+          "word": "orientada",
+          "start": 13.004791,
+          "duration": 0.516833
+        },
+        {
+          "word": "a",
+          "start": 13.557708,
+          "duration": 0.024041
+        },
+        {
+          "word": "resolver",
+          "start": 13.60575,
+          "duration": 0.408666
+        },
+        {
+          "word": "problemas",
+          "start": 14.086541,
+          "duration": 0.384625
+        },
+        {
+          "word": "reales",
+          "start": 14.483166,
+          "duration": 0.3245
+        },
+        {
+          "word": "de",
+          "start": 14.85575,
+          "duration": 0.0360409
+        },
+        {
+          "word": "estabilidad",
+          "start": 14.951916,
+          "duration": 0.540875
+        },
+        {
+          "word": "automatización",
+          "start": 15.721166,
+          "duration": 0.757208
+        },
+        {
+          "word": "y",
+          "start": 16.490375,
+          "duration": 0.060083
+        },
+        {
+          "word": "rendimiento",
+          "start": 16.5745,
+          "duration": 0.564916
+        }
+      ]
+    },
+    {
+      "id": "slimefun",
+      "title": "RESURRECCIÓN DE SLIMEFUN 1.21.11",
+      "file": "long_p2_slimefun.mp3",
+      "duration": 25.512,
+      "words": [
+        {
+          "word": "Durante",
+          "start": 0.098083,
+          "duration": 0.372583
+        },
+        {
+          "word": "años",
+          "start": 0.482708,
+          "duration": 0.3005
+        },
+        {
+          "word": "la",
+          "start": 1.047583,
+          "duration": 0.096166
+        },
+        {
+          "word": "comunidad",
+          "start": 1.203833,
+          "duration": 0.408666
+        },
+        {
+          "word": "dio",
+          "start": 1.636541,
+          "duration": 0.132208
+        },
+        {
+          "word": "a",
+          "start": 1.76875,
+          "duration": 0.0360409
+        },
+        {
+          "word": "Slimefun",
+          "start": 1.816833,
+          "duration": 0.528833
+        },
+        {
+          "word": "por",
+          "start": 2.369708,
+          "duration": 0.096166
+        },
+        {
+          "word": "estancado",
+          "start": 2.465875,
+          "duration": 0.528833
+        },
+        {
+          "word": "o",
+          "start": 3.00675,
+          "duration": 0.024041
+        },
+        {
+          "word": "prácticamente",
+          "start": 3.102875,
+          "duration": 0.576916
+        },
+        {
+          "word": "inviable",
+          "start": 3.703833,
+          "duration": 0.348541
+        },
+        {
+          "word": "en",
+          "start": 4.076458,
+          "duration": 0.048083
+        },
+        {
+          "word": "versiones",
+          "start": 4.172583,
+          "duration": 0.396625
+        },
+        {
+          "word": "recientes",
+          "start": 4.56925,
+          "duration": 0.444708
+        },
+        {
+          "word": "debido",
+          "start": 5.062,
+          "duration": 0.264416
+        },
+        {
+          "word": "a",
+          "start": 5.326458,
+          "duration": 0.0360409
+        },
+        {
+          "word": "fugas",
+          "start": 5.398541,
+          "duration": 0.276458
+        },
+        {
+          "word": "de",
+          "start": 5.711041,
+          "duration": 0.0360409
+        },
+        {
+          "word": "memoria",
+          "start": 5.783166,
+          "duration": 0.444708
+        },
+        {
+          "word": "bloqueos",
+          "start": 6.45625,
+          "duration": 0.348541
+        },
+        {
+          "word": "de",
+          "start": 6.852875,
+          "duration": 0.072125
+        },
+        {
+          "word": "hilos",
+          "start": 6.973083,
+          "duration": 0.264416
+        },
+        {
+          "word": "y",
+          "start": 7.261541,
+          "duration": 0.0360409
+        },
+        {
+          "word": "lag",
+          "start": 7.333666,
+          "duration": 0.15625
+        },
+        {
+          "word": "de",
+          "start": 7.525958,
+          "duration": 0.060083
+        },
+        {
+          "word": "entidades",
+          "start": 7.610083,
+          "duration": 0.576916
+        },
+        {
+          "word": "En",
+          "start": 9.0745,
+          "duration": 0.120208
+        },
+        {
+          "word": "nuestro",
+          "start": 9.20675,
+          "duration": 0.276458
+        },
+        {
+          "word": "laboratorio",
+          "start": 9.507208,
+          "duration": 0.492791
+        },
+        {
+          "word": "tomamos",
+          "start": 10.060083,
+          "duration": 0.360583
+        },
+        {
+          "word": "el",
+          "start": 10.420666,
+          "duration": 0.060083
+        },
+        {
+          "word": "desafío",
+          "start": 10.528833,
+          "duration": 0.408666
+        },
+        {
+          "word": "de",
+          "start": 10.961541,
+          "duration": 0.084125
+        },
+        {
+          "word": "revivirlo",
+          "start": 11.069708,
+          "duration": 0.432708
+        },
+        {
+          "word": "por",
+          "start": 11.5625,
+          "duration": 0.084125
+        },
+        {
+          "word": "completo",
+          "start": 11.694708,
+          "duration": 0.384625
+        },
+        {
+          "word": "en",
+          "start": 12.079333,
+          "duration": 0.060083
+        },
+        {
+          "word": "la",
+          "start": 12.1755,
+          "duration": 0.060083
+        },
+        {
+          "word": "versión",
+          "start": 12.271625,
+          "duration": 0.3125
+        },
+        {
+          "word": "uno",
+          "start": 12.596166,
+          "duration": 0.132208
+        },
+        {
+          "word": "punto",
+          "start": 12.8245,
+          "duration": 0.228375
+        },
+        {
+          "word": "veintiuno",
+          "start": 13.076916,
+          "duration": 0.396625
+        },
+        {
+          "word": "punto",
+          "start": 13.557708,
+          "duration": 0.276416
+        },
+        {
+          "word": "once",
+          "start": 13.834125,
+          "duration": 0.3125
+        },
+        {
+          "word": "optimizando",
+          "start": 14.350958,
+          "duration": 0.552875
+        },
+        {
+          "word": "el",
+          "start": 14.903833,
+          "duration": 0.060083
+        },
+        {
+          "word": "bucle",
+          "start": 15.012,
+          "duration": 0.240375
+        },
+        {
+          "word": "de",
+          "start": 15.288458,
+          "duration": 0.084125
+        },
+        {
+          "word": "ticks",
+          "start": 15.45675,
+          "duration": 0.216333
+        },
+        {
+          "word": "y",
+          "start": 15.673083,
+          "duration": 0.024041
+        },
+        {
+          "word": "soportando",
+          "start": 15.733166,
+          "duration": 0.552875
+        },
+        {
+          "word": "un",
+          "start": 16.310083,
+          "duration": 0.084125
+        },
+        {
+          "word": "ecosistema",
+          "start": 16.39425,
+          "duration": 0.564916
+        },
+        {
+          "word": "activo",
+          "start": 16.971166,
+          "duration": 0.3125
+        },
+        {
+          "word": "de",
+          "start": 17.319708,
+          "duration": 0.072125
+        },
+        {
+          "word": "más",
+          "start": 17.415875,
+          "duration": 0.16825
+        },
+        {
+          "word": "de",
+          "start": 17.632208,
+          "duration": 0.0360409
+        },
+        {
+          "word": "ochenta",
+          "start": 17.680291,
+          "duration": 0.336541
+        },
+        {
+          "word": "expansiones",
+          "start": 18.028833,
+          "duration": 0.613
+        },
+        {
+          "word": "incluyendo",
+          "start": 18.858166,
+          "duration": 0.504791
+        },
+        {
+          "word": "Networks",
+          "start": 19.399041,
+          "duration": 0.372583
+        },
+        {
+          "word": "versión",
+          "start": 19.807708,
+          "duration": 0.3245
+        },
+        {
+          "word": "seis",
+          "start": 20.15625,
+          "duration": 0.3245
+        },
+        {
+          "word": "Infinity",
+          "start": 20.673083,
+          "duration": 0.564916
+        },
+        {
+          "word": "Magic",
+          "start": 21.40625,
+          "duration": 0.360583
+        },
+        {
+          "word": "y",
+          "start": 21.766833,
+          "duration": 0.0360409
+        },
+        {
+          "word": "sistemas",
+          "start": 21.838958,
+          "duration": 0.408666
+        },
+        {
+          "word": "de",
+          "start": 22.295666,
+          "duration": 0.0360409
+        },
+        {
+          "word": "almacenamiento",
+          "start": 22.33175,
+          "duration": 0.661041
+        },
+        {
+          "word": "masivo",
+          "start": 23.016833,
+          "duration": 0.348541
+        },
+        {
+          "word": "sin",
+          "start": 23.389416,
+          "duration": 0.216333
+        },
+        {
+          "word": "caídas",
+          "start": 23.60575,
+          "duration": 0.348541
+        },
+        {
+          "word": "de",
+          "start": 24.002416,
+          "duration": 0.048083
+        },
+        {
+          "word": "rendimiento",
+          "start": 24.086541,
+          "duration": 0.576916
+        }
+      ]
+    },
+    {
+      "id": "sre",
+      "title": "INFRAESTRUCTURA SRE & CERO PÉRDIDAS",
+      "file": "long_p3_sre.mp3",
+      "duration": 17.832,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.098083,
+          "duration": 0.192291
+        },
+        {
+          "word": "sostener",
+          "start": 0.290375,
+          "duration": 0.420666
+        },
+        {
+          "word": "esto",
+          "start": 0.711041,
+          "duration": 0.192291
+        },
+        {
+          "word": "implementamos",
+          "start": 0.903375,
+          "duration": 0.600958
+        },
+        {
+          "word": "una",
+          "start": 1.528375,
+          "duration": 0.132208
+        },
+        {
+          "word": "arquitectura",
+          "start": 1.660583,
+          "duration": 0.540875
+        },
+        {
+          "word": "SRE",
+          "start": 2.261541,
+          "duration": 0.408666
+        },
+        {
+          "word": "totalmente",
+          "start": 2.742291,
+          "duration": 0.492791
+        },
+        {
+          "word": "automatizada",
+          "start": 3.235083,
+          "duration": 0.661041
+        },
+        {
+          "word": "que",
+          "start": 3.95625,
+          "duration": 0.060083
+        },
+        {
+          "word": "supervisa",
+          "start": 4.040375,
+          "duration": 0.576916
+        },
+        {
+          "word": "el",
+          "start": 4.617291,
+          "duration": 0.072125
+        },
+        {
+          "word": "estado",
+          "start": 4.689416,
+          "duration": 0.348541
+        },
+        {
+          "word": "del",
+          "start": 5.062,
+          "duration": 0.120208
+        },
+        {
+          "word": "clúster",
+          "start": 5.254333,
+          "duration": 0.360583
+        },
+        {
+          "word": "las",
+          "start": 5.626916,
+          "duration": 0.120208
+        },
+        {
+          "word": "veinticuatro",
+          "start": 5.783166,
+          "duration": 0.540875
+        },
+        {
+          "word": "horas",
+          "start": 6.336041,
+          "duration": 0.204333
+        },
+        {
+          "word": "del",
+          "start": 6.576458,
+          "duration": 0.120208
+        },
+        {
+          "word": "día",
+          "start": 6.744708,
+          "duration": 0.252416
+        },
+        {
+          "word": "Contamos",
+          "start": 7.848541,
+          "duration": 0.408666
+        },
+        {
+          "word": "con",
+          "start": 8.305291,
+          "duration": 0.108166
+        },
+        {
+          "word": "sincronización",
+          "start": 8.4255,
+          "duration": 0.661041
+        },
+        {
+          "word": "atómica",
+          "start": 9.086541,
+          "duration": 0.45675
+        },
+        {
+          "word": "de",
+          "start": 9.567291,
+          "duration": 0.060083
+        },
+        {
+          "word": "datos",
+          "start": 9.6755,
+          "duration": 0.264416
+        },
+        {
+          "word": "para",
+          "start": 10.012,
+          "duration": 0.14425
+        },
+        {
+          "word": "garantizar",
+          "start": 10.180291,
+          "duration": 0.48075
+        },
+        {
+          "word": "cero",
+          "start": 10.673083,
+          "duration": 0.240375
+        },
+        {
+          "word": "pérdidas",
+          "start": 10.997583,
+          "duration": 0.360583
+        },
+        {
+          "word": "de",
+          "start": 11.41825,
+          "duration": 0.0360409
+        },
+        {
+          "word": "inventario",
+          "start": 11.478375,
+          "duration": 0.528833
+        },
+        {
+          "word": "o",
+          "start": 12.01925,
+          "duration": 0.024041
+        },
+        {
+          "word": "máquinas",
+          "start": 12.067291,
+          "duration": 0.46875
+        },
+        {
+          "word": "junto",
+          "start": 12.776458,
+          "duration": 0.264416
+        },
+        {
+          "word": "a",
+          "start": 13.040875,
+          "duration": 0.0360409
+        },
+        {
+          "word": "un",
+          "start": 13.100958,
+          "duration": 0.084125
+        },
+        {
+          "word": "equipo",
+          "start": 13.185083,
+          "duration": 0.348541
+        },
+        {
+          "word": "humano",
+          "start": 13.545666,
+          "duration": 0.276458
+        },
+        {
+          "word": "de",
+          "start": 13.846166,
+          "duration": 0.072125
+        },
+        {
+          "word": "soporte",
+          "start": 13.942291,
+          "duration": 0.444708
+        },
+        {
+          "word": "que",
+          "start": 14.447125,
+          "duration": 0.0360409
+        },
+        {
+          "word": "acompaña",
+          "start": 14.483166,
+          "duration": 0.528833
+        },
+        {
+          "word": "a",
+          "start": 15.024041,
+          "duration": 0.0360409
+        },
+        {
+          "word": "los",
+          "start": 15.072125,
+          "duration": 0.108166
+        },
+        {
+          "word": "jugadores",
+          "start": 15.216333,
+          "duration": 0.540875
+        },
+        {
+          "word": "en",
+          "start": 15.757208,
+          "duration": 0.060083
+        },
+        {
+          "word": "su",
+          "start": 15.841333,
+          "duration": 0.096166
+        },
+        {
+          "word": "progresión",
+          "start": 15.997583,
+          "duration": 0.492791
+        },
+        {
+          "word": "técnica",
+          "start": 16.514416,
+          "duration": 0.444708
+        }
+      ]
+    },
+    {
+      "id": "season2",
+      "title": "TIENDA WEB & TEMPORADA 2 (2027)",
+      "file": "long_p4_season2.mp3",
+      "duration": 15.24,
+      "words": [
+        {
+          "word": "Contamos",
+          "start": 0.098083,
+          "duration": 0.396625
+        },
+        {
+          "word": "con",
+          "start": 0.542791,
+          "duration": 0.120208
+        },
+        {
+          "word": "múltiples",
+          "start": 0.699041,
+          "duration": 0.420666
+        },
+        {
+          "word": "modos",
+          "start": 1.15575,
+          "duration": 0.264416
+        },
+        {
+          "word": "de",
+          "start": 1.44425,
+          "duration": 0.048083
+        },
+        {
+          "word": "juego",
+          "start": 1.516333,
+          "duration": 0.336541
+        },
+        {
+          "word": "wiki",
+          "start": 2.09325,
+          "duration": 0.204333
+        },
+        {
+          "word": "técnica",
+          "start": 2.38175,
+          "duration": 0.3245
+        },
+        {
+          "word": "integrada",
+          "start": 2.730291,
+          "duration": 0.444708
+        },
+        {
+          "word": "y",
+          "start": 3.211041,
+          "duration": 0.024041
+        },
+        {
+          "word": "tienda",
+          "start": 3.31925,
+          "duration": 0.264416
+        },
+        {
+          "word": "web",
+          "start": 3.607708,
+          "duration": 0.16825
+        },
+        {
+          "word": "oficial",
+          "start": 3.788,
+          "duration": 0.45675
+        },
+        {
+          "word": "Y",
+          "start": 5.084125,
+          "duration": 0.096166
+        },
+        {
+          "word": "mirando",
+          "start": 5.204333,
+          "duration": 0.336541
+        },
+        {
+          "word": "hacia",
+          "start": 5.552875,
+          "duration": 0.204333
+        },
+        {
+          "word": "adelante",
+          "start": 5.757208,
+          "duration": 0.45675
+        },
+        {
+          "word": "nos",
+          "start": 6.454333,
+          "duration": 0.132208
+        },
+        {
+          "word": "preparamos",
+          "start": 6.646625,
+          "duration": 0.48075
+        },
+        {
+          "word": "para",
+          "start": 7.1995,
+          "duration": 0.132208
+        },
+        {
+          "word": "el",
+          "start": 7.34375,
+          "duration": 0.048083
+        },
+        {
+          "word": "lanzamiento",
+          "start": 7.391833,
+          "duration": 0.516833
+        },
+        {
+          "word": "de",
+          "start": 7.932708,
+          "duration": 0.072125
+        },
+        {
+          "word": "la",
+          "start": 8.028833,
+          "duration": 0.072125
+        },
+        {
+          "word": "gran",
+          "start": 8.137,
+          "duration": 0.204333
+        },
+        {
+          "word": "Temporada",
+          "start": 8.341333,
+          "duration": 0.46875
+        },
+        {
+          "word": "Dos",
+          "start": 8.834125,
+          "duration": 0.14425
+        },
+        {
+          "word": "proyectada",
+          "start": 9.0505,
+          "duration": 0.444708
+        },
+        {
+          "word": "para",
+          "start": 9.567291,
+          "duration": 0.132208
+        },
+        {
+          "word": "mediados",
+          "start": 9.723541,
+          "duration": 0.408666
+        },
+        {
+          "word": "de",
+          "start": 10.16825,
+          "duration": 0.060083
+        },
+        {
+          "word": "dos",
+          "start": 10.264416,
+          "duration": 0.132208
+        },
+        {
+          "word": "mil",
+          "start": 10.432708,
+          "duration": 0.132208
+        },
+        {
+          "word": "veintisiete",
+          "start": 10.600958,
+          "duration": 0.613
+        },
+        {
+          "word": "con",
+          "start": 11.490375,
+          "duration": 0.132208
+        },
+        {
+          "word": "reingeniería",
+          "start": 11.622583,
+          "duration": 0.637
+        },
+        {
+          "word": "de",
+          "start": 12.283666,
+          "duration": 0.072125
+        },
+        {
+          "word": "mundos",
+          "start": 12.379791,
+          "duration": 0.336541
+        },
+        {
+          "word": "y",
+          "start": 12.728375,
+          "duration": 0.024041
+        },
+        {
+          "word": "nuevas",
+          "start": 12.788458,
+          "duration": 0.276458
+        },
+        {
+          "word": "mecánicas",
+          "start": 13.100958,
+          "duration": 0.564916
+        },
+        {
+          "word": "exclusivas",
+          "start": 13.665875,
+          "duration": 0.697125
+        }
+      ]
+    },
+    {
+      "id": "tutorials_cta",
+      "title": "TUTORIALES EN EL CANAL & CONEXIÓN",
+      "file": "long_p5_cta.mp3",
+      "duration": 17.088,
+      "words": [
+        {
+          "word": "En",
+          "start": 0.098083,
+          "duration": 0.144208
+        },
+        {
+          "word": "este",
+          "start": 0.242291,
+          "duration": 0.180291
+        },
+        {
+          "word": "canal",
+          "start": 0.470666,
+          "duration": 0.216333
+        },
+        {
+          "word": "publicaremos",
+          "start": 0.747125,
+          "duration": 0.552875
+        },
+        {
+          "word": "guías",
+          "start": 1.336041,
+          "duration": 0.288458
+        },
+        {
+          "word": "y",
+          "start": 1.636541,
+          "duration": 0.012
+        },
+        {
+          "word": "tutoriales",
+          "start": 1.720666,
+          "duration": 0.504791
+        },
+        {
+          "word": "exhaustivos",
+          "start": 2.2255,
+          "duration": 0.564916
+        },
+        {
+          "word": "paso",
+          "start": 2.8745,
+          "duration": 0.204333
+        },
+        {
+          "word": "a",
+          "start": 3.078833,
+          "duration": 0.024041
+        },
+        {
+          "word": "paso",
+          "start": 3.187,
+          "duration": 0.228375
+        },
+        {
+          "word": "de",
+          "start": 3.451458,
+          "duration": 0.060083
+        },
+        {
+          "word": "cada",
+          "start": 3.583666,
+          "duration": 0.180291
+        },
+        {
+          "word": "máquina",
+          "start": 3.788,
+          "duration": 0.408666
+        },
+        {
+          "word": "receta",
+          "start": 4.376916,
+          "duration": 0.384625
+        },
+        {
+          "word": "y",
+          "start": 4.785583,
+          "duration": 0.048083
+        },
+        {
+          "word": "addon",
+          "start": 4.845666,
+          "duration": 0.240375
+        },
+        {
+          "word": "del",
+          "start": 5.110083,
+          "duration": 0.108166
+        },
+        {
+          "word": "servidor",
+          "start": 5.21825,
+          "duration": 0.504791
+        },
+        {
+          "word": "Puedes",
+          "start": 6.5745,
+          "duration": 0.3005
+        },
+        {
+          "word": "unirte",
+          "start": 6.887,
+          "duration": 0.3005
+        },
+        {
+          "word": "ahora",
+          "start": 7.1875,
+          "duration": 0.228375
+        },
+        {
+          "word": "mismo",
+          "start": 7.439916,
+          "duration": 0.276458
+        },
+        {
+          "word": "desde",
+          "start": 7.740375,
+          "duration": 0.204333
+        },
+        {
+          "word": "Java",
+          "start": 7.95675,
+          "duration": 0.264416
+        },
+        {
+          "word": "o",
+          "start": 8.233166,
+          "duration": 0.0360409
+        },
+        {
+          "word": "Bedrock",
+          "start": 8.305291,
+          "duration": 0.348541
+        },
+        {
+          "word": "en",
+          "start": 8.653833,
+          "duration": 0.060083
+        },
+        {
+          "word": "la",
+          "start": 8.75,
+          "duration": 0.060083
+        },
+        {
+          "word": "dirección",
+          "start": 8.834125,
+          "duration": 0.396625
+        },
+        {
+          "word": "mc",
+          "start": 9.242791,
+          "duration": 0.276458
+        },
+        {
+          "word": "punto",
+          "start": 9.615375,
+          "duration": 0.216333
+        },
+        {
+          "word": "drakescraft",
+          "start": 9.867791,
+          "duration": 0.528833
+        },
+        {
+          "word": "punto",
+          "start": 10.492791,
+          "duration": 0.228375
+        },
+        {
+          "word": "cl",
+          "start": 10.745208,
+          "duration": 0.372583
+        },
+        {
+          "word": "utilizando",
+          "start": 11.346166,
+          "duration": 0.516833
+        },
+        {
+          "word": "el",
+          "start": 11.863,
+          "duration": 0.048083
+        },
+        {
+          "word": "puerto",
+          "start": 12.007208,
+          "duration": 0.240375
+        },
+        {
+          "word": "veinticinco",
+          "start": 12.271625,
+          "duration": 0.528833
+        },
+        {
+          "word": "quinientos",
+          "start": 12.860583,
+          "duration": 0.408666
+        },
+        {
+          "word": "sesenta",
+          "start": 13.26925,
+          "duration": 0.372583
+        },
+        {
+          "word": "y",
+          "start": 13.689916,
+          "duration": 0.012
+        },
+        {
+          "word": "cinco",
+          "start": 13.738,
+          "duration": 0.348541
+        },
+        {
+          "word": "Te",
+          "start": 14.939916,
+          "duration": 0.084125
+        },
+        {
+          "word": "esperamos",
+          "start": 15.024041,
+          "duration": 0.46875
+        },
+        {
+          "word": "en",
+          "start": 15.492791,
+          "duration": 0.084125
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 15.625,
+          "duration": 0.600958
+        }
+      ]
+    }
+  ],
+  "total_duration": 93.672
+}

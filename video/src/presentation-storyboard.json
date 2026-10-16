@@ -3,7 +3,7 @@
     {
       "id": "p1_hook",
       "file": "pres_p1_hook.mp3",
-      "duration": 11.592,
+      "duration": 11.784,
       "words": [
         {
           "word": "Hola",
@@ -17,123 +17,158 @@
         },
         {
           "word": "Jack",
-          "start": 0.781125,
+          "start": 0.792916,
           "duration": 0.271208
         },
         {
-          "word": "creador",
-          "start": 1.311791,
-          "duration": 0.318416
+          "word": "dueño",
+          "start": 1.323583,
+          "duration": 0.224041
         },
         {
           "word": "de",
-          "start": 1.665583,
-          "duration": 0.082541
+          "start": 1.571208,
+          "duration": 0.07075
         },
         {
           "word": "DrakesCraft",
-          "start": 1.7835,
-          "duration": 0.625
+          "start": 1.677375,
+          "duration": 0.613208
         },
         {
           "word": "Muchos",
-          "start": 3.231125,
+          "start": 3.113208,
           "duration": 0.283
         },
         {
           "word": "decían",
-          "start": 3.549541,
-          "duration": 0.35375
+          "start": 3.431583,
+          "duration": 0.353791
         },
         {
           "word": "que",
-          "start": 3.903291,
+          "start": 3.785375,
           "duration": 0.0471659
         },
         {
           "word": "Slimefun",
-          "start": 3.997625,
+          "start": 3.879708,
           "duration": 0.424541
         },
         {
           "word": "estaba",
-          "start": 4.433958,
+          "start": 4.316041,
           "duration": 0.271208
         },
         {
           "word": "muerto",
-          "start": 4.728791,
+          "start": 4.610833,
           "duration": 0.330208
         },
         {
           "word": "pero",
-          "start": 5.342,
+          "start": 5.224041,
           "duration": 0.106125
         },
         {
           "word": "en",
-          "start": 5.448125,
+          "start": 5.330208,
           "duration": 0.07075
         },
         {
           "word": "nuestro",
-          "start": 5.530666,
+          "start": 5.41275,
           "duration": 0.259416
         },
         {
           "word": "laboratorio",
-          "start": 5.813666,
+          "start": 5.69575,
           "duration": 0.518875
         },
         {
           "word": "lo",
-          "start": 6.356125,
+          "start": 6.238208,
           "duration": 0.094333
         },
         {
           "word": "revivimos",
-          "start": 6.46225,
-          "duration": 0.495291
+          "start": 6.344333,
+          "duration": 0.4835
         },
         {
           "word": "y",
-          "start": 6.981125,
-          "duration": 0.0235829
+          "start": 6.851416,
+          "duration": 0.035375
         },
         {
           "word": "optimizamos",
-          "start": 7.0165,
-          "duration": 0.601416
+          "start": 6.898583,
+          "duration": 0.625
         },
         {
           "word": "en",
-          "start": 7.617916,
-          "duration": 0.058958
+          "start": 7.523583,
+          "duration": 0.0471659
         },
         {
-          "word": "la 1.21.11",
-          "start": 7.724041,
-          "duration": 1.533042
+          "word": "la",
+          "start": 7.606125,
+          "duration": 0.0471659
+        },
+        {
+          "word": "versión",
+          "start": 7.688666,
+          "duration": 0.306583
+        },
+        {
+          "word": "uno",
+          "start": 8.007083,
+          "duration": 0.129708
+        },
+        {
+          "word": "punto",
+          "start": 8.231125,
+          "duration": 0.224041
+        },
+        {
+          "word": "veintiuno",
+          "start": 8.490583,
+          "duration": 0.389166
+        },
+        {
+          "word": "punto",
+          "start": 8.974041,
+          "duration": 0.283
+        },
+        {
+          "word": "once",
+          "start": 9.257083,
+          "duration": 0.224041
         },
         {
           "word": "con",
-          "start": 9.316041,
+          "start": 9.540083,
           "duration": 0.106125
         },
         {
           "word": "más",
-          "start": 9.469333,
+          "start": 9.693416,
           "duration": 0.1415
         },
         {
           "word": "de",
-          "start": 9.658,
-          "duration": 0.0471659
+          "start": 9.882083,
+          "duration": 0.035375
         },
         {
-          "word": "80 expansiones",
-          "start": 9.717,
-          "duration": 1.002333
+          "word": "ochenta",
+          "start": 9.92925,
+          "duration": 0.342
+        },
+        {
+          "word": "expansiones",
+          "start": 10.283,
+          "duration": 0.636791
         }
       ]
     },
@@ -350,9 +385,19 @@
           "duration": 0.058958
         },
         {
-          "word": "2027",
+          "word": "dos",
           "start": 5.035375,
-          "duration": 0.837291
+          "duration": 0.117916
+        },
+        {
+          "word": "mil",
+          "start": 5.188666,
+          "duration": 0.129708
+        },
+        {
+          "word": "veintisiete",
+          "start": 5.353791,
+          "duration": 0.518875
         },
         {
           "word": "lanzamos",
@@ -375,7 +420,7 @@
           "duration": 0.459916
         },
         {
-          "word": "2",
+          "word": "Dos",
           "start": 7.181583,
           "duration": 0.153291
         },
@@ -491,7 +536,7 @@
     {
       "id": "p5_cta",
       "file": "pres_p5_cta.mp3",
-      "duration": 8.856,
+      "duration": 9.264,
       "words": [
         {
           "word": "Únete",
@@ -515,38 +560,58 @@
         },
         {
           "word": "técnica",
-          "start": 0.757541,
+          "start": 0.74575,
           "duration": 0.389166
         },
         {
           "word": "en",
-          "start": 1.146708,
+          "start": 1.134916,
           "duration": 0.082541
         },
         {
-          "word": "mc.drakescraft.cl,",
-          "start": 1.22925,
-          "duration": 1.839624
+          "word": "mc",
+          "start": 1.217458,
+          "duration": 0.294791
+        },
+        {
+          "word": "punto",
+          "start": 1.594791,
+          "duration": 0.224041
+        },
+        {
+          "word": "drakescraft",
+          "start": 1.842458,
+          "duration": 0.518875
+        },
+        {
+          "word": "punto",
+          "start": 2.455666,
+          "duration": 0.224041
+        },
+        {
+          "word": "cl",
+          "start": 2.703291,
+          "duration": 0.342
         },
         {
           "word": "para",
-          "start": 3.304708,
+          "start": 3.3165,
           "duration": 0.165083
         },
         {
           "word": "Java",
-          "start": 3.481583,
+          "start": 3.493416,
           "duration": 0.247625
         },
         {
           "word": "y",
           "start": 3.776416,
-          "duration": 0.0235829
+          "duration": 0.035375
         },
         {
           "word": "Bedrock",
-          "start": 3.847166,
-          "duration": 0.330208
+          "start": 3.858958,
+          "duration": 0.318416
         },
         {
           "word": "en",
@@ -559,32 +624,57 @@
           "duration": 0.094333
         },
         {
-          "word": "puerto 25565",
+          "word": "puerto",
           "start": 4.436791,
-          "duration": 1.6273749
+          "duration": 0.235833
+        },
+        {
+          "word": "veinticinco",
+          "start": 4.696208,
+          "duration": 0.518875
+        },
+        {
+          "word": "quinientos",
+          "start": 5.274041,
+          "duration": 0.389166
+        },
+        {
+          "word": "sesenta",
+          "start": 5.663208,
+          "duration": 0.353791
+        },
+        {
+          "word": "y",
+          "start": 6.064166,
+          "duration": 0.011791
+        },
+        {
+          "word": "cinco",
+          "start": 6.111333,
+          "duration": 0.353791
         },
         {
           "word": "Te",
-          "start": 6.898583,
+          "start": 7.311333,
           "duration": 0.094333
         },
         {
           "word": "espero",
-          "start": 7.004708,
+          "start": 7.417458,
           "duration": 0.283
         },
         {
           "word": "en",
-          "start": 7.28775,
+          "start": 7.700458,
           "duration": 0.07075
         },
         {
           "word": "DrakesCraft",
-          "start": 7.405666,
+          "start": 7.818416,
           "duration": 0.589625
         }
       ]
     }
   ],
-  "total_duration": 44.784
+  "total_duration": 45.384
 }

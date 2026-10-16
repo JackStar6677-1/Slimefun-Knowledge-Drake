@@ -155,13 +155,13 @@ export const PresentationShort: React.FC = () => {
 
   // 5 Fases exactas
   const phase =
-    frame < 350
+    frame < 360
       ? "hook"
       : frame < 620
       ? "tech"
-      : frame < 910
+      : frame < 905
       ? "season2"
-      : frame < 1110
+      : frame < 1100
       ? "tutorials"
       : "cta";
 
@@ -200,7 +200,7 @@ export const PresentationShort: React.FC = () => {
               letterSpacing: 2,
             }}
           >
-            👑 JACK · FUNDADOR
+            👑 JACK · DUEÑO DE DRAKES
           </span>
           <span style={{ color: "#2ed573", fontSize: 24, fontWeight: 900, letterSpacing: 1.5 }}>
             DRAKES · 1.21.11
@@ -322,19 +322,19 @@ export const PresentationShort: React.FC = () => {
       </Sequence>
 
       {/* 9. Pistas de Voz de Jack */}
-      <Sequence from={0} durationInFrames={350}>
+      <Sequence from={0} durationInFrames={360}>
         <Audio src={staticFile("audio/pres_p1_hook.mp3")} />
       </Sequence>
-      <Sequence from={350} durationInFrames={270}>
+      <Sequence from={360} durationInFrames={260}>
         <Audio src={staticFile("audio/pres_p2_tech.mp3")} />
       </Sequence>
-      <Sequence from={620} durationInFrames={290}>
+      <Sequence from={620} durationInFrames={285}>
         <Audio src={staticFile("audio/pres_p3_season2.mp3")} />
       </Sequence>
-      <Sequence from={910} durationInFrames={200}>
+      <Sequence from={905} durationInFrames={195}>
         <Audio src={staticFile("audio/pres_p4_tutorials.mp3")} />
       </Sequence>
-      <Sequence from={1110} durationInFrames={330}>
+      <Sequence from={1100} durationInFrames={340}>
         <Audio src={staticFile("audio/pres_p5_cta.mp3")} />
       </Sequence>
 
