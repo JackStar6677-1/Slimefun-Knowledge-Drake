@@ -31,16 +31,26 @@ def get_authenticated_service():
 
 def set_privacy(video_id: str, privacy: str = "unlisted"):
     yt = get_authenticated_service()
+    curr = yt.videos().list(part="snippet,status", id=video_id).execute()
+    if not curr.get("items"):
+        print(f"[ERROR] Video {video_id} no encontrado.")
+        return
+    item = curr["items"][0]
     res = yt.videos().update(
-        part="status",
+        part="snippet,status",
         body={
             "id": video_id,
+            "snippet": {
+                "title": item["snippet"]["title"],
+                "categoryId": item["snippet"]["categoryId"]
+            },
             "status": {
-                "privacyStatus": privacy
+                "privacyStatus": privacy,
+                "selfDeclaredMadeForKids": item["status"].get("selfDeclaredMadeForKids", False)
             }
         }
     ).execute()
-    print(f"[OK] Video {video_id} actualizado a estado: {res['status']['privacyStatus']}")
+    print(f"[OK] Video {video_id} ({item['snippet']['title'][:40]}) actualizado a estado: {res['status']['privacyStatus']}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
