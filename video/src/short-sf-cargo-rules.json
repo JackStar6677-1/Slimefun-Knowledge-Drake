@@ -1,0 +1,446 @@
+{
+  "id": "short_sf_cargo_rules",
+  "voice": "en-US-ChristopherNeural",
+  "duration": 45.072,
+  "frames": 1382,
+  "audio_file": "short_sf_cargo_rules.mp3",
+  "text": "The SRE Rules of Slimefun Cargo Logistics:\n1. Avoid feedback loops to stop CPU tree traversal.\n2. Segregate 16 frequency channels by item type.\n3. Use round-robin output nodes to prevent buffer saturation.\nZero-lag engineering on play.drakescraft.cl!",
+  "spoken_text": "If you want high-throughput industrial automation without tanking your server ticks, follow these SRE rules for Slimefun cargo. First: avoid closed cargo feedback loops. Items circulating indefinitely consume CPU cycles traversing graph trees. Second: segregate your cargo channels. Slimefun provides sixteen independent frequency channels. Keep channel zero strictly for raw ores, channel one for dusts, and channel two for ingots. Third: connect Cargo Output Nodes directly to auto-crafters with round-robin distribution to prevent buffer saturation. Experience zero-lag industrial engineering right now on play dot drakescraft dot cl.",
+  "words": [
+    {
+      "word": "If",
+      "start": 0.099,
+      "duration": 0.159333
+    },
+    {
+      "word": "you",
+      "start": 0.270583,
+      "duration": 0.110291
+    },
+    {
+      "word": "want",
+      "start": 0.393125,
+      "duration": 0.183833
+    },
+    {
+      "word": "high-throughput",
+      "start": 0.589208,
+      "duration": 0.63725
+    },
+    {
+      "word": "industrial",
+      "start": 1.238708,
+      "duration": 0.563708
+    },
+    {
+      "word": "automation",
+      "start": 1.814708,
+      "duration": 0.576
+    },
+    {
+      "word": "without",
+      "start": 2.402958,
+      "duration": 0.343125
+    },
+    {
+      "word": "tanking",
+      "start": 2.758333,
+      "duration": 0.355375
+    },
+    {
+      "word": "your",
+      "start": 3.126,
+      "duration": 0.122541
+    },
+    {
+      "word": "server",
+      "start": 3.260791,
+      "duration": 0.355375
+    },
+    {
+      "word": "ticks",
+      "start": 3.628416,
+      "duration": 0.428916
+    },
+    {
+      "word": "follow",
+      "start": 4.339208,
+      "duration": 0.318625
+    },
+    {
+      "word": "these",
+      "start": 4.670083,
+      "duration": 0.269625
+    },
+    {
+      "word": "SRE",
+      "start": 4.951958,
+      "duration": 0.404416
+    },
+    {
+      "word": "rules",
+      "start": 5.368625,
+      "duration": 0.355375
+    },
+    {
+      "word": "for",
+      "start": 5.736291,
+      "duration": 0.147041
+    },
+    {
+      "word": "Slimefun",
+      "start": 5.895583,
+      "duration": 0.58825
+    },
+    {
+      "word": "cargo",
+      "start": 6.496083,
+      "duration": 0.514708
+    },
+    {
+      "word": "First",
+      "start": 7.855375,
+      "duration": 0.514708
+    },
+    {
+      "word": "avoid",
+      "start": 8.590666,
+      "duration": 0.441166
+    },
+    {
+      "word": "closed",
+      "start": 9.044125,
+      "duration": 0.404416
+    },
+    {
+      "word": "cargo",
+      "start": 9.460791,
+      "duration": 0.416666
+    },
+    {
+      "word": "feedback",
+      "start": 9.889708,
+      "duration": 0.514708
+    },
+    {
+      "word": "loops",
+      "start": 10.416666,
+      "duration": 0.514708
+    },
+    {
+      "word": "Items",
+      "start": 11.776958,
+      "duration": 0.416666
+    },
+    {
+      "word": "circulating",
+      "start": 12.205875,
+      "duration": 0.625
+    },
+    {
+      "word": "indefinitely",
+      "start": 12.843125,
+      "duration": 0.6005
+    },
+    {
+      "word": "consume",
+      "start": 13.455875,
+      "duration": 0.453416
+    },
+    {
+      "word": "CPU",
+      "start": 13.921583,
+      "duration": 0.563708
+    },
+    {
+      "word": "cycles",
+      "start": 14.497541,
+      "duration": 0.441166
+    },
+    {
+      "word": "traversing",
+      "start": 14.951,
+      "duration": 0.514708
+    },
+    {
+      "word": "graph",
+      "start": 15.477958,
+      "duration": 0.318625
+    },
+    {
+      "word": "trees",
+      "start": 15.808833,
+      "duration": 0.576
+    },
+    {
+      "word": "Second",
+      "start": 17.230375,
+      "duration": 0.551458
+    },
+    {
+      "word": "segregate",
+      "start": 18.026958,
+      "duration": 0.539208
+    },
+    {
+      "word": "your",
+      "start": 18.578416,
+      "duration": 0.122541
+    },
+    {
+      "word": "cargo",
+      "start": 18.71325,
+      "duration": 0.404416
+    },
+    {
+      "word": "channels",
+      "start": 19.129916,
+      "duration": 0.63725
+    },
+    {
+      "word": "Slimefun",
+      "start": 20.61275,
+      "duration": 0.747541
+    },
+    {
+      "word": "provides",
+      "start": 21.372541,
+      "duration": 0.441166
+    },
+    {
+      "word": "sixteen",
+      "start": 21.826,
+      "duration": 0.551458
+    },
+    {
+      "word": "independent",
+      "start": 22.389708,
+      "duration": 0.551458
+    },
+    {
+      "word": "frequency",
+      "start": 22.953416,
+      "duration": 0.526958
+    },
+    {
+      "word": "channels",
+      "start": 23.492666,
+      "duration": 0.63725
+    },
+    {
+      "word": "Keep",
+      "start": 24.9755,
+      "duration": 0.269625
+    },
+    {
+      "word": "channel",
+      "start": 25.257333,
+      "duration": 0.367666
+    },
+    {
+      "word": "zero",
+      "start": 25.63725,
+      "duration": 0.355375
+    },
+    {
+      "word": "strictly",
+      "start": 26.004916,
+      "duration": 0.416666
+    },
+    {
+      "word": "for",
+      "start": 26.433833,
+      "duration": 0.196083
+    },
+    {
+      "word": "raw",
+      "start": 26.642166,
+      "duration": 0.232833
+    },
+    {
+      "word": "ores",
+      "start": 26.88725,
+      "duration": 0.416666
+    },
+    {
+      "word": "channel",
+      "start": 27.4755,
+      "duration": 0.404416
+    },
+    {
+      "word": "one",
+      "start": 27.892166,
+      "duration": 0.220583
+    },
+    {
+      "word": "for",
+      "start": 28.125,
+      "duration": 0.147041
+    },
+    {
+      "word": "dusts",
+      "start": 28.284333,
+      "duration": 0.453416
+    },
+    {
+      "word": "and",
+      "start": 28.921583,
+      "duration": 0.171583
+    },
+    {
+      "word": "channel",
+      "start": 29.105375,
+      "duration": 0.379916
+    },
+    {
+      "word": "two",
+      "start": 29.497541,
+      "duration": 0.257333
+    },
+    {
+      "word": "for",
+      "start": 29.767166,
+      "duration": 0.159333
+    },
+    {
+      "word": "ingots",
+      "start": 29.938708,
+      "duration": 0.526958
+    },
+    {
+      "word": "Third",
+      "start": 31.311291,
+      "duration": 0.465666
+    },
+    {
+      "word": "connect",
+      "start": 32.046583,
+      "duration": 0.367666
+    },
+    {
+      "word": "Cargo",
+      "start": 32.426458,
+      "duration": 0.441166
+    },
+    {
+      "word": "Output",
+      "start": 32.879916,
+      "duration": 0.404416
+    },
+    {
+      "word": "Nodes",
+      "start": 33.296583,
+      "duration": 0.330875
+    },
+    {
+      "word": "directly",
+      "start": 33.639708,
+      "duration": 0.490208
+    },
+    {
+      "word": "to",
+      "start": 34.142166,
+      "duration": 0.122541
+    },
+    {
+      "word": "auto-crafters",
+      "start": 34.276958,
+      "duration": 0.833333
+    },
+    {
+      "word": "with",
+      "start": 35.122541,
+      "duration": 0.159333
+    },
+    {
+      "word": "round-robin",
+      "start": 35.294125,
+      "duration": 0.61275
+    },
+    {
+      "word": "distribution",
+      "start": 35.919125,
+      "duration": 0.66175
+    },
+    {
+      "word": "to",
+      "start": 36.593125,
+      "duration": 0.110291
+    },
+    {
+      "word": "prevent",
+      "start": 36.715666,
+      "duration": 0.392166
+    },
+    {
+      "word": "buffer",
+      "start": 37.120083,
+      "duration": 0.294125
+    },
+    {
+      "word": "saturation",
+      "start": 37.426458,
+      "duration": 0.796583
+    },
+    {
+      "word": "Experience",
+      "start": 39.068625,
+      "duration": 0.698541
+    },
+    {
+      "word": "zero-lag",
+      "start": 39.779416,
+      "duration": 0.58825
+    },
+    {
+      "word": "industrial",
+      "start": 40.379916,
+      "duration": 0.551458
+    },
+    {
+      "word": "engineering",
+      "start": 40.943625,
+      "duration": 0.576
+    },
+    {
+      "word": "right",
+      "start": 41.531875,
+      "duration": 0.220583
+    },
+    {
+      "word": "now",
+      "start": 41.764708,
+      "duration": 0.269625
+    },
+    {
+      "word": "on",
+      "start": 42.046583,
+      "duration": 0.122541
+    },
+    {
+      "word": "play",
+      "start": 42.181375,
+      "duration": 0.306375
+    },
+    {
+      "word": "dot",
+      "start": 42.5,
+      "duration": 0.220583
+    },
+    {
+      "word": "drakescraft",
+      "start": 42.732833,
+      "duration": 0.686291
+    },
+    {
+      "word": "dot",
+      "start": 43.431375,
+      "duration": 0.208333
+    },
+    {
+      "word": "cl",
+      "start": 43.651958,
+      "duration": 0.576
+    }
+  ]
+}

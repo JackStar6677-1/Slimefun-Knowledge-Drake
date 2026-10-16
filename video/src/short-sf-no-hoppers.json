@@ -1,0 +1,431 @@
+{
+  "id": "short_sf_no_hoppers",
+  "voice": "es-CL-LorenzoNeural",
+  "duration": 33.6,
+  "frames": 1038,
+  "audio_file": "short_sf_no_hoppers.mp3",
+  "text": "¿Por Qué NO Usar Tolvas en Slimefun?\n1. Tolvas vanilla = escaneo por tick y lag masivo.\n2. Cargo Management = transferencia directa en memoria RAM.\n3. 16 canales de frecuencia y filtrado inteligente.\n¡Ingeniería zero-lag en play.drakescraft.cl!",
+  "spoken_text": "¿Por qué está estrictamente prohibido usar tolvas comunes para automatizar Slimefun en DrakesCraft? Una sola tolva vanilla escanea el mundo cada tick buscando entidades flotantes y contenedores vecinos. Si colocas cincuenta tolvas en tu fábrica, la JVM sufrirá picos de lag y desincronización de inventario. La solución oficial es Cargo Management. Los Cargo Nodes transfieren ítems directamente en memoria, usando canales de frecuencia cero lag y filtrado inteligente sin generar entidades físicas. Automatiza como un verdadero ingeniero en play punto drakescraft punto ce ele.",
+  "words": [
+    {
+      "word": "Por",
+      "start": 0.099,
+      "duration": 0.147041
+    },
+    {
+      "word": "qué",
+      "start": 0.282833,
+      "duration": 0.073541
+    },
+    {
+      "word": "está",
+      "start": 0.380875,
+      "duration": 0.183833
+    },
+    {
+      "word": "estrictamente",
+      "start": 0.564708,
+      "duration": 0.61275
+    },
+    {
+      "word": "prohibido",
+      "start": 1.238708,
+      "duration": 0.330875
+    },
+    {
+      "word": "usar",
+      "start": 1.581875,
+      "duration": 0.257333
+    },
+    {
+      "word": "tolvas",
+      "start": 1.925,
+      "duration": 0.257333
+    },
+    {
+      "word": "comunes",
+      "start": 2.231375,
+      "duration": 0.367666
+    },
+    {
+      "word": "para",
+      "start": 2.672541,
+      "duration": 0.134791
+    },
+    {
+      "word": "automatizar",
+      "start": 2.819625,
+      "duration": 0.551458
+    },
+    {
+      "word": "Slimefun",
+      "start": 3.371083,
+      "duration": 0.514708
+    },
+    {
+      "word": "en",
+      "start": 3.885791,
+      "duration": 0.098041
+    },
+    {
+      "word": "DrakesCraft",
+      "start": 4.032833,
+      "duration": 0.625
+    },
+    {
+      "word": "Una",
+      "start": 5.502458,
+      "duration": 0.183833
+    },
+    {
+      "word": "sola",
+      "start": 5.686291,
+      "duration": 0.245083
+    },
+    {
+      "word": "tolva",
+      "start": 6.004916,
+      "duration": 0.208333
+    },
+    {
+      "word": "vanilla",
+      "start": 6.23775,
+      "duration": 0.281875
+    },
+    {
+      "word": "escanea",
+      "start": 6.519625,
+      "duration": 0.355375
+    },
+    {
+      "word": "el",
+      "start": 6.88725,
+      "duration": 0.061291
+    },
+    {
+      "word": "mundo",
+      "start": 6.973041,
+      "duration": 0.245083
+    },
+    {
+      "word": "cada",
+      "start": 7.279416,
+      "duration": 0.183833
+    },
+    {
+      "word": "tick",
+      "start": 7.53675,
+      "duration": 0.122541
+    },
+    {
+      "word": "buscando",
+      "start": 7.708333,
+      "duration": 0.355375
+    },
+    {
+      "word": "entidades",
+      "start": 8.063708,
+      "duration": 0.477958
+    },
+    {
+      "word": "flotantes",
+      "start": 8.566166,
+      "duration": 0.514708
+    },
+    {
+      "word": "y",
+      "start": 9.093125,
+      "duration": 0.01225
+    },
+    {
+      "word": "contenedores",
+      "start": 9.166666,
+      "duration": 0.576
+    },
+    {
+      "word": "vecinos",
+      "start": 9.767166,
+      "duration": 0.490208
+    },
+    {
+      "word": "Si",
+      "start": 11.176458,
+      "duration": 0.159333
+    },
+    {
+      "word": "colocas",
+      "start": 11.397041,
+      "duration": 0.343125
+    },
+    {
+      "word": "cincuenta",
+      "start": 11.740208,
+      "duration": 0.441166
+    },
+    {
+      "word": "tolvas",
+      "start": 12.254916,
+      "duration": 0.318625
+    },
+    {
+      "word": "en",
+      "start": 12.573541,
+      "duration": 0.110291
+    },
+    {
+      "word": "tu",
+      "start": 12.683833,
+      "duration": 0.061291
+    },
+    {
+      "word": "fábrica",
+      "start": 12.769625,
+      "duration": 0.441166
+    },
+    {
+      "word": "la",
+      "start": 13.419125,
+      "duration": 0.122541
+    },
+    {
+      "word": "JVM",
+      "start": 13.566166,
+      "duration": 0.66175
+    },
+    {
+      "word": "sufrirá",
+      "start": 14.252458,
+      "duration": 0.367666
+    },
+    {
+      "word": "picos",
+      "start": 14.693625,
+      "duration": 0.257333
+    },
+    {
+      "word": "de",
+      "start": 14.98775,
+      "duration": 0.061291
+    },
+    {
+      "word": "lag",
+      "start": 15.085791,
+      "duration": 0.171583
+    },
+    {
+      "word": "y",
+      "start": 15.269625,
+      "duration": 0.0245
+    },
+    {
+      "word": "desincronización",
+      "start": 15.343125,
+      "duration": 0.796583
+    },
+    {
+      "word": "de",
+      "start": 16.188708,
+      "duration": 0.049
+    },
+    {
+      "word": "inventario",
+      "start": 16.2745,
+      "duration": 0.551458
+    },
+    {
+      "word": "La",
+      "start": 17.708333,
+      "duration": 0.110291
+    },
+    {
+      "word": "solución",
+      "start": 17.818625,
+      "duration": 0.392166
+    },
+    {
+      "word": "oficial",
+      "start": 18.223041,
+      "duration": 0.392166
+    },
+    {
+      "word": "es",
+      "start": 18.615208,
+      "duration": 0.110291
+    },
+    {
+      "word": "Cargo",
+      "start": 18.7745,
+      "duration": 0.245083
+    },
+    {
+      "word": "Management",
+      "start": 19.044125,
+      "duration": 0.502458
+    },
+    {
+      "word": "Los",
+      "start": 20.416666,
+      "duration": 0.196083
+    },
+    {
+      "word": "Cargo",
+      "start": 20.6495,
+      "duration": 0.232833
+    },
+    {
+      "word": "Nodes",
+      "start": 20.906875,
+      "duration": 0.232833
+    },
+    {
+      "word": "transfieren",
+      "start": 21.201,
+      "duration": 0.441166
+    },
+    {
+      "word": "ítems",
+      "start": 21.654416,
+      "duration": 0.269625
+    },
+    {
+      "word": "directamente",
+      "start": 21.960791,
+      "duration": 0.58825
+    },
+    {
+      "word": "en",
+      "start": 22.561291,
+      "duration": 0.061291
+    },
+    {
+      "word": "memoria",
+      "start": 22.671583,
+      "duration": 0.404416
+    },
+    {
+      "word": "usando",
+      "start": 23.308833,
+      "duration": 0.343125
+    },
+    {
+      "word": "canales",
+      "start": 23.701,
+      "duration": 0.355375
+    },
+    {
+      "word": "de",
+      "start": 24.093125,
+      "duration": 0.049
+    },
+    {
+      "word": "frecuencia",
+      "start": 24.178916,
+      "duration": 0.453416
+    },
+    {
+      "word": "cero",
+      "start": 24.632333,
+      "duration": 0.257333
+    },
+    {
+      "word": "lag",
+      "start": 24.914208,
+      "duration": 0.171583
+    },
+    {
+      "word": "y",
+      "start": 25.110291,
+      "duration": 0.03675
+    },
+    {
+      "word": "filtrado",
+      "start": 25.183833,
+      "duration": 0.404416
+    },
+    {
+      "word": "inteligente",
+      "start": 25.61275,
+      "duration": 0.563708
+    },
+    {
+      "word": "sin",
+      "start": 26.201,
+      "duration": 0.196041
+    },
+    {
+      "word": "generar",
+      "start": 26.397041,
+      "duration": 0.379916
+    },
+    {
+      "word": "entidades",
+      "start": 26.776958,
+      "duration": 0.539208
+    },
+    {
+      "word": "físicas",
+      "start": 27.340666,
+      "duration": 0.514708
+    },
+    {
+      "word": "Automatiza",
+      "start": 28.75,
+      "duration": 0.6005
+    },
+    {
+      "word": "como",
+      "start": 29.41175,
+      "duration": 0.196083
+    },
+    {
+      "word": "un",
+      "start": 29.607833,
+      "duration": 0.110291
+    },
+    {
+      "word": "verdadero",
+      "start": 29.742666,
+      "duration": 0.428916
+    },
+    {
+      "word": "ingeniero",
+      "start": 30.196083,
+      "duration": 0.428916
+    },
+    {
+      "word": "en",
+      "start": 30.63725,
+      "duration": 0.110291
+    },
+    {
+      "word": "play",
+      "start": 30.772041,
+      "duration": 0.134791
+    },
+    {
+      "word": "punto",
+      "start": 30.992666,
+      "duration": 0.232833
+    },
+    {
+      "word": "drakescraft",
+      "start": 31.26225,
+      "duration": 0.563708
+    },
+    {
+      "word": "punto",
+      "start": 31.924,
+      "duration": 0.269625
+    },
+    {
+      "word": "ce",
+      "start": 32.218125,
+      "duration": 0.245083
+    },
+    {
+      "word": "ele",
+      "start": 32.48775,
+      "duration": 0.220583
+    }
+  ]
+}

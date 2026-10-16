@@ -18,12 +18,15 @@ import { ShortCustomGui, CUSTOMGUI_FRAMES } from "./ShortCustomGui";
 import { ShortArchitecture, ARCH_FRAMES } from "./ShortArchitecture";
 import { ShortSfStart, SF_START_FRAMES } from "./ShortSfStart";
 import { ShortSfEnergyRule, SF_ENERGY_RULE_FRAMES } from "./ShortSfEnergyRule";
+import { ShortSfNoHoppers, SF_NO_HOPPERS_FRAMES } from "./ShortSfNoHoppers";
+import { ShortSfCargoRules, SF_CARGO_RULES_FRAMES } from "./ShortSfCargoRules";
 import { Capitulo3, TOTAL_CAPITULO3_FRAMES } from "./Capitulo3";
 import { Capitulo4, TOTAL_CAPITULO4_FRAMES } from "./Capitulo4";
 import { SlimefunCapitulo1, TOTAL_SF_CAPITULO1_FRAMES } from "./SlimefunCapitulo1";
 import { SlimefunCapitulo2, TOTAL_SF_CAPITULO2_FRAMES } from "./SlimefunCapitulo2";
 import { SlimefunCapitulo3, TOTAL_SF_CAPITULO3_FRAMES } from "./SlimefunCapitulo3";
 import { SlimefunCapitulo4, TOTAL_SF_CAPITULO4_FRAMES } from "./SlimefunCapitulo4";
+import { SlimefunCapitulo5, TOTAL_SF_CAPITULO5_FRAMES } from "./SlimefunCapitulo5";
 
 export const Root = () => (
   <>
@@ -47,12 +50,15 @@ export const Root = () => (
     <Composition id="SlimefunCapitulo2" component={SlimefunCapitulo2} durationInFrames={TOTAL_SF_CAPITULO2_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="SlimefunCapitulo3" component={SlimefunCapitulo3} durationInFrames={TOTAL_SF_CAPITULO3_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="SlimefunCapitulo4" component={SlimefunCapitulo4} durationInFrames={TOTAL_SF_CAPITULO4_FRAMES} fps={30} width={1280} height={720} />
+    <Composition id="SlimefunCapitulo5" component={SlimefunCapitulo5} durationInFrames={TOTAL_SF_CAPITULO5_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="ShortSaori" component={ShortSaori} durationInFrames={SAORI_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortNetworksDupe" component={ShortNetworksDupe} durationInFrames={NETWORKS_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortCustomGui" component={ShortCustomGui} durationInFrames={CUSTOMGUI_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortArchitecture" component={ShortArchitecture} durationInFrames={ARCH_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortSfStart" component={ShortSfStart} durationInFrames={SF_START_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortSfEnergyRule" component={ShortSfEnergyRule} durationInFrames={SF_ENERGY_RULE_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="ShortSfNoHoppers" component={ShortSfNoHoppers} durationInFrames={SF_NO_HOPPERS_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="ShortSfCargoRules" component={ShortSfCargoRules} durationInFrames={SF_CARGO_RULES_FRAMES} fps={30} width={1080} height={1920} />
   </>
 );
 

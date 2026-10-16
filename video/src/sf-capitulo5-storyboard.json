@@ -1,0 +1,2230 @@
+{
+  "title": "Slimefun en DrakesCraft — Capítulo 5: Reactores Nucleares & Refrigeración Criogénica",
+  "server": "play.drakescraft.cl",
+  "total_frames": 5069,
+  "total_duration": 168.96666666666667,
+  "scenes": [
+    {
+      "id": "sf5_p01_intro",
+      "title": "LA FRONTERA NUCLEAR DE SLIMEFUN",
+      "subtitle": "De la generación solar y fósil al poder atómico de fisión",
+      "badge": "01 // INTRODUCCIÓN A LA ENERGÍA NUCLEAR",
+      "text": "Bienvenidos al Capítulo 5 de Slimefun en DrakesCraft. Con redes eléctricas y logística listas, las máquinas pesadas demandan energía extrema. Los paneles solares y generadores básicos ya no son suficientes. Hoy ingresamos a la era atómica: Reactores Nucleares y refrigeración criogénica.",
+      "spoken_text": "Bienvenidos al Capítulo cinco de nuestra guía de Slimefun en DrakesCraft. Si has seguido la serie, tu base ya cuenta con redes eléctricas estables y logística de carga automatizada. Pero cuando comienzas a operar reactores de infusión, compresores de diamante y máquinas industriales masivas, los paneles solares y generadores de combustión ya no dan abasto. Ha llegado el momento de ingresar a la era atómica con Reactores Nucleares.",
+      "audio_file": "sf5_p01_intro.mp3",
+      "duration": 24.504,
+      "frames": 765,
+      "action": "idle",
+      "camera": "close",
+      "diagram": "nuclear_intro",
+      "words": [
+        {
+          "word": "Bienvenidos",
+          "start": 0.099,
+          "duration": 0.563708
+        },
+        {
+          "word": "al",
+          "start": 0.66275,
+          "duration": 0.073541
+        },
+        {
+          "word": "Capítulo",
+          "start": 0.785291,
+          "duration": 0.416666
+        },
+        {
+          "word": "cinco",
+          "start": 1.226458,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 1.569625,
+          "duration": 0.073541
+        },
+        {
+          "word": "nuestra",
+          "start": 1.667666,
+          "duration": 0.257333
+        },
+        {
+          "word": "guía",
+          "start": 1.96175,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 2.206875,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.341666,
+          "duration": 0.514708
+        },
+        {
+          "word": "en",
+          "start": 2.856375,
+          "duration": 0.098041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 3.003416,
+          "duration": 0.61275
+        },
+        {
+          "word": "Si",
+          "start": 4.473041,
+          "duration": 0.171583
+        },
+        {
+          "word": "has",
+          "start": 4.669125,
+          "duration": 0.073541
+        },
+        {
+          "word": "seguido",
+          "start": 4.742666,
+          "duration": 0.355375
+        },
+        {
+          "word": "la",
+          "start": 5.122541,
+          "duration": 0.085791
+        },
+        {
+          "word": "serie",
+          "start": 5.220583,
+          "duration": 0.367666
+        },
+        {
+          "word": "tu",
+          "start": 5.870083,
+          "duration": 0.061291
+        },
+        {
+          "word": "base",
+          "start": 5.968125,
+          "duration": 0.232833
+        },
+        {
+          "word": "ya",
+          "start": 6.23775,
+          "duration": 0.098041
+        },
+        {
+          "word": "cuenta",
+          "start": 6.409333,
+          "duration": 0.220583
+        },
+        {
+          "word": "con",
+          "start": 6.691166,
+          "duration": 0.159333
+        },
+        {
+          "word": "redes",
+          "start": 6.8505,
+          "duration": 0.294125
+        },
+        {
+          "word": "eléctricas",
+          "start": 7.144625,
+          "duration": 0.514708
+        },
+        {
+          "word": "estables",
+          "start": 7.659333,
+          "duration": 0.465666
+        },
+        {
+          "word": "y",
+          "start": 8.13725,
+          "duration": 0.01225
+        },
+        {
+          "word": "logística",
+          "start": 8.186291,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 8.75,
+          "duration": 0.061291
+        },
+        {
+          "word": "carga",
+          "start": 8.884791,
+          "duration": 0.257333
+        },
+        {
+          "word": "automatizada",
+          "start": 9.142166,
+          "duration": 0.747541
+        },
+        {
+          "word": "Pero",
+          "start": 10.759791,
+          "duration": 0.183833
+        },
+        {
+          "word": "cuando",
+          "start": 10.992666,
+          "duration": 0.208333
+        },
+        {
+          "word": "comienzas",
+          "start": 11.25,
+          "duration": 0.465666
+        },
+        {
+          "word": "a",
+          "start": 11.715666,
+          "duration": 0.03675
+        },
+        {
+          "word": "operar",
+          "start": 11.776958,
+          "duration": 0.294125
+        },
+        {
+          "word": "reactores",
+          "start": 12.071083,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 12.561291,
+          "duration": 0.03675
+        },
+        {
+          "word": "infusión",
+          "start": 12.622541,
+          "duration": 0.465666
+        },
+        {
+          "word": "compresores",
+          "start": 13.333333,
+          "duration": 0.490208
+        },
+        {
+          "word": "de",
+          "start": 13.860291,
+          "duration": 0.061291
+        },
+        {
+          "word": "diamante",
+          "start": 13.958333,
+          "duration": 0.416666
+        },
+        {
+          "word": "y",
+          "start": 14.3995,
+          "duration": 0.0245
+        },
+        {
+          "word": "máquinas",
+          "start": 14.448541,
+          "duration": 0.392166
+        },
+        {
+          "word": "industriales",
+          "start": 14.865208,
+          "duration": 0.551458
+        },
+        {
+          "word": "masivas",
+          "start": 15.453416,
+          "duration": 0.453416
+        },
+        {
+          "word": "los",
+          "start": 16.139708,
+          "duration": 0.122541
+        },
+        {
+          "word": "paneles",
+          "start": 16.335791,
+          "duration": 0.281875
+        },
+        {
+          "word": "solares",
+          "start": 16.617666,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 17.107833,
+          "duration": 0.0245
+        },
+        {
+          "word": "generadores",
+          "start": 17.156875,
+          "duration": 0.563708
+        },
+        {
+          "word": "de",
+          "start": 17.757333,
+          "duration": 0.049
+        },
+        {
+          "word": "combustión",
+          "start": 17.843125,
+          "duration": 0.502458
+        },
+        {
+          "word": "ya",
+          "start": 18.382333,
+          "duration": 0.122541
+        },
+        {
+          "word": "no",
+          "start": 18.541666,
+          "duration": 0.110291
+        },
+        {
+          "word": "dan",
+          "start": 18.676458,
+          "duration": 0.134791
+        },
+        {
+          "word": "abasto",
+          "start": 18.823541,
+          "duration": 0.416666
+        },
+        {
+          "word": "Ha",
+          "start": 20.122541,
+          "duration": 0.110291
+        },
+        {
+          "word": "llegado",
+          "start": 20.257333,
+          "duration": 0.318625
+        },
+        {
+          "word": "el",
+          "start": 20.576,
+          "duration": 0.049
+        },
+        {
+          "word": "momento",
+          "start": 20.66175,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 21.041666,
+          "duration": 0.073541
+        },
+        {
+          "word": "ingresar",
+          "start": 21.139708,
+          "duration": 0.416666
+        },
+        {
+          "word": "a",
+          "start": 21.556375,
+          "duration": 0.073541
+        },
+        {
+          "word": "la",
+          "start": 21.642166,
+          "duration": 0.098041
+        },
+        {
+          "word": "era",
+          "start": 21.789208,
+          "duration": 0.147041
+        },
+        {
+          "word": "atómica",
+          "start": 21.960791,
+          "duration": 0.392166
+        },
+        {
+          "word": "con",
+          "start": 22.414208,
+          "duration": 0.134791
+        },
+        {
+          "word": "Reactores",
+          "start": 22.549,
+          "duration": 0.453416
+        },
+        {
+          "word": "Nucleares",
+          "start": 23.026958,
+          "duration": 0.563708
+        }
+      ]
+    },
+    {
+      "id": "sf5_p02_radiation",
+      "title": "SEGURIDAD Y TRAJE HAZMAT",
+      "subtitle": "Protocolo biológico estricto: la radiación no perdona descuidos",
+      "badge": "02 // BIOSEGURIDAD SRE: TRAJE HAZMAT",
+      "text": "Protocolo Obligatorio: Traje Hazmat Completo. Sostener Uranio o Neptunio sin protección causa envenenamiento radiológico instantáneo. Fabricado con tela Scuba, placas de plomo y filtros de respiración. Las 4 piezas deben estar equipadas antes de manipular combustible.",
+      "spoken_text": "Antes de tocar un solo gramo de material fisible, la regla número uno es equiparte con un Traje Hazmat completo. En DrakesCraft, los minerales radiactivos como el Uranio y el Neptunio infligen daño letal directo si los sostienes sin protección. El traje Hazmat se fabrica con tela Scuba, plomo reforzado y filtros especiales. Nunca abras un cofre con uranio sin tener puestas las cuatro piezas del traje protector.",
+      "audio_file": "sf5_p02_radiation.mp3",
+      "duration": 23.376,
+      "frames": 731,
+      "action": "point",
+      "camera": "mid",
+      "diagram": "hazmat_suit",
+      "words": [
+        {
+          "word": "Antes",
+          "start": 0.099,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 0.417666,
+          "duration": 0.049
+        },
+        {
+          "word": "tocar",
+          "start": 0.515666,
+          "duration": 0.232833
+        },
+        {
+          "word": "un",
+          "start": 0.760791,
+          "duration": 0.110291
+        },
+        {
+          "word": "solo",
+          "start": 0.883333,
+          "duration": 0.232833
+        },
+        {
+          "word": "gramo",
+          "start": 1.152958,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 1.410291,
+          "duration": 0.049
+        },
+        {
+          "word": "material",
+          "start": 1.496083,
+          "duration": 0.367666
+        },
+        {
+          "word": "fisible",
+          "start": 1.88825,
+          "duration": 0.416666
+        },
+        {
+          "word": "la",
+          "start": 2.53775,
+          "duration": 0.122541
+        },
+        {
+          "word": "regla",
+          "start": 2.672541,
+          "duration": 0.269625
+        },
+        {
+          "word": "número",
+          "start": 2.966666,
+          "duration": 0.318625
+        },
+        {
+          "word": "uno",
+          "start": 3.297541,
+          "duration": 0.159333
+        },
+        {
+          "word": "es",
+          "start": 3.481375,
+          "duration": 0.122541
+        },
+        {
+          "word": "equiparte",
+          "start": 3.603916,
+          "duration": 0.453416
+        },
+        {
+          "word": "con",
+          "start": 4.118625,
+          "duration": 0.110291
+        },
+        {
+          "word": "un",
+          "start": 4.228916,
+          "duration": 0.171583
+        },
+        {
+          "word": "Traje",
+          "start": 4.41275,
+          "duration": 0.220583
+        },
+        {
+          "word": "Hazmat",
+          "start": 4.633333,
+          "duration": 0.281875
+        },
+        {
+          "word": "completo",
+          "start": 4.976458,
+          "duration": 0.465666
+        },
+        {
+          "word": "En",
+          "start": 6.299,
+          "duration": 0.134791
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 6.482833,
+          "duration": 0.61275
+        },
+        {
+          "word": "los",
+          "start": 7.328416,
+          "duration": 0.122541
+        },
+        {
+          "word": "minerales",
+          "start": 7.48775,
+          "duration": 0.465666
+        },
+        {
+          "word": "radiactivos",
+          "start": 7.953416,
+          "duration": 0.551458
+        },
+        {
+          "word": "como",
+          "start": 8.553916,
+          "duration": 0.159333
+        },
+        {
+          "word": "el",
+          "start": 8.75,
+          "duration": 0.049
+        },
+        {
+          "word": "Uranio",
+          "start": 8.823541,
+          "duration": 0.343125
+        },
+        {
+          "word": "y",
+          "start": 9.203416,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 9.276958,
+          "duration": 0.085791
+        },
+        {
+          "word": "Neptunio",
+          "start": 9.375,
+          "duration": 0.330875
+        },
+        {
+          "word": "infligen",
+          "start": 9.730375,
+          "duration": 0.367666
+        },
+        {
+          "word": "daño",
+          "start": 10.171583,
+          "duration": 0.208333
+        },
+        {
+          "word": "letal",
+          "start": 10.404416,
+          "duration": 0.294125
+        },
+        {
+          "word": "directo",
+          "start": 10.735291,
+          "duration": 0.343125
+        },
+        {
+          "word": "si",
+          "start": 11.090666,
+          "duration": 0.110291
+        },
+        {
+          "word": "los",
+          "start": 11.23775,
+          "duration": 0.098041
+        },
+        {
+          "word": "sostienes",
+          "start": 11.335791,
+          "duration": 0.477916
+        },
+        {
+          "word": "sin",
+          "start": 11.813708,
+          "duration": 0.196083
+        },
+        {
+          "word": "protección",
+          "start": 12.009791,
+          "duration": 0.477958
+        },
+        {
+          "word": "El",
+          "start": 13.345583,
+          "duration": 0.171583
+        },
+        {
+          "word": "traje",
+          "start": 13.566166,
+          "duration": 0.220583
+        },
+        {
+          "word": "Hazmat",
+          "start": 13.78675,
+          "duration": 0.269625
+        },
+        {
+          "word": "se",
+          "start": 14.068625,
+          "duration": 0.110291
+        },
+        {
+          "word": "fabrica",
+          "start": 14.203416,
+          "duration": 0.379916
+        },
+        {
+          "word": "con",
+          "start": 14.632333,
+          "duration": 0.171583
+        },
+        {
+          "word": "tela",
+          "start": 14.816166,
+          "duration": 0.171583
+        },
+        {
+          "word": "Scuba",
+          "start": 15.0,
+          "duration": 0.330875
+        },
+        {
+          "word": "plomo",
+          "start": 15.58825,
+          "duration": 0.208333
+        },
+        {
+          "word": "reforzado",
+          "start": 15.808833,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 16.372541,
+          "duration": 0.0245
+        },
+        {
+          "word": "filtros",
+          "start": 16.433833,
+          "duration": 0.404416
+        },
+        {
+          "word": "especiales",
+          "start": 16.83825,
+          "duration": 0.6495
+        },
+        {
+          "word": "Nunca",
+          "start": 18.394625,
+          "duration": 0.367625
+        },
+        {
+          "word": "abras",
+          "start": 18.76225,
+          "duration": 0.245083
+        },
+        {
+          "word": "un",
+          "start": 19.031875,
+          "duration": 0.147041
+        },
+        {
+          "word": "cofre",
+          "start": 19.191166,
+          "duration": 0.208333
+        },
+        {
+          "word": "con",
+          "start": 19.460791,
+          "duration": 0.110291
+        },
+        {
+          "word": "uranio",
+          "start": 19.583333,
+          "duration": 0.330875
+        },
+        {
+          "word": "sin",
+          "start": 19.926458,
+          "duration": 0.208333
+        },
+        {
+          "word": "tener",
+          "start": 20.134791,
+          "duration": 0.220583
+        },
+        {
+          "word": "puestas",
+          "start": 20.453416,
+          "duration": 0.269625
+        },
+        {
+          "word": "las",
+          "start": 20.759791,
+          "duration": 0.110291
+        },
+        {
+          "word": "cuatro",
+          "start": 20.919125,
+          "duration": 0.220583
+        },
+        {
+          "word": "piezas",
+          "start": 21.21325,
+          "duration": 0.294125
+        },
+        {
+          "word": "del",
+          "start": 21.556375,
+          "duration": 0.110291
+        },
+        {
+          "word": "traje",
+          "start": 21.715666,
+          "duration": 0.245083
+        },
+        {
+          "word": "protector",
+          "start": 22.022041,
+          "duration": 0.465666
+        }
+      ]
+    },
+    {
+      "id": "sf5_p03_uranium",
+      "title": "ENRIQUECIMIENTO DE URANIO-235",
+      "subtitle": "Centrifugado y purificación de polvo radiactivo",
+      "badge": "03 // CICLO DEL COMBUSTIBLE: U-235",
+      "text": "Ciclo del Combustible: Uranio-235. 1. Centrifugado: procesa polvo de uranio en la Centrífuga Nuclear. 2. Aislamiento: obtén Uranio-235 enriquecido de alta pureza. 3. Compresión: sella las Varillas de Combustible con plomo reforzado.",
+      "spoken_text": "Para alimentar un reactor nuclear no basta con uranio en bruto. Necesitas procesar Polvo de Uranio en una Centrífuga Nuclear para separar los isótopos y obtener Uranio-235. Luego, en el Compresor Eléctrico, combinas el combustible enriquecido con placas de plomo para moldear las Varillas de Combustible Nuclear estables, listas para ser insertadas en el núcleo del reactor.",
+      "audio_file": "sf5_p03_uranium.mp3",
+      "duration": 21.912,
+      "frames": 687,
+      "action": "interact",
+      "camera": "close",
+      "diagram": "uranium_cycle",
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.196083
+        },
+        {
+          "word": "alimentar",
+          "start": 0.307333,
+          "duration": 0.465666
+        },
+        {
+          "word": "un",
+          "start": 0.785291,
+          "duration": 0.122541
+        },
+        {
+          "word": "reactor",
+          "start": 0.907833,
+          "duration": 0.343125
+        },
+        {
+          "word": "nuclear",
+          "start": 1.2755,
+          "duration": 0.379916
+        },
+        {
+          "word": "no",
+          "start": 1.667666,
+          "duration": 0.122541
+        },
+        {
+          "word": "basta",
+          "start": 1.826958,
+          "duration": 0.245083
+        },
+        {
+          "word": "con",
+          "start": 2.133333,
+          "duration": 0.110291
+        },
+        {
+          "word": "uranio",
+          "start": 2.255875,
+          "duration": 0.318625
+        },
+        {
+          "word": "en",
+          "start": 2.58675,
+          "duration": 0.073541
+        },
+        {
+          "word": "bruto",
+          "start": 2.684791,
+          "duration": 0.306375
+        },
+        {
+          "word": "Necesitas",
+          "start": 3.848041,
+          "duration": 0.526958
+        },
+        {
+          "word": "procesar",
+          "start": 4.436291,
+          "duration": 0.392166
+        },
+        {
+          "word": "Polvo",
+          "start": 4.914208,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 5.171583,
+          "duration": 0.085791
+        },
+        {
+          "word": "Uranio",
+          "start": 5.269625,
+          "duration": 0.330875
+        },
+        {
+          "word": "en",
+          "start": 5.6005,
+          "duration": 0.085791
+        },
+        {
+          "word": "una",
+          "start": 5.698541,
+          "duration": 0.159333
+        },
+        {
+          "word": "Centrífuga",
+          "start": 5.870083,
+          "duration": 0.551458
+        },
+        {
+          "word": "Nuclear",
+          "start": 6.446083,
+          "duration": 0.343125
+        },
+        {
+          "word": "para",
+          "start": 6.86275,
+          "duration": 0.147041
+        },
+        {
+          "word": "separar",
+          "start": 7.022041,
+          "duration": 0.428916
+        },
+        {
+          "word": "los",
+          "start": 7.46325,
+          "duration": 0.147041
+        },
+        {
+          "word": "isótopos",
+          "start": 7.622541,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 8.125,
+          "duration": 0.0245
+        },
+        {
+          "word": "obtener",
+          "start": 8.16175,
+          "duration": 0.343125
+        },
+        {
+          "word": "Uranio-235",
+          "start": 8.517166,
+          "duration": 1.764708
+        },
+        {
+          "word": "Luego",
+          "start": 11.151958,
+          "duration": 0.367666
+        },
+        {
+          "word": "en",
+          "start": 11.752458,
+          "duration": 0.098041
+        },
+        {
+          "word": "el",
+          "start": 11.8505,
+          "duration": 0.085791
+        },
+        {
+          "word": "Compresor",
+          "start": 11.973041,
+          "duration": 0.404416
+        },
+        {
+          "word": "Eléctrico",
+          "start": 12.377458,
+          "duration": 0.539208
+        },
+        {
+          "word": "combinas",
+          "start": 13.186291,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 13.615208,
+          "duration": 0.049
+        },
+        {
+          "word": "combustible",
+          "start": 13.7255,
+          "duration": 0.490208
+        },
+        {
+          "word": "enriquecido",
+          "start": 14.227958,
+          "duration": 0.576
+        },
+        {
+          "word": "con",
+          "start": 14.852958,
+          "duration": 0.183833
+        },
+        {
+          "word": "placas",
+          "start": 15.061291,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 15.379916,
+          "duration": 0.049
+        },
+        {
+          "word": "plomo",
+          "start": 15.502458,
+          "duration": 0.220583
+        },
+        {
+          "word": "para",
+          "start": 15.796583,
+          "duration": 0.134791
+        },
+        {
+          "word": "moldear",
+          "start": 15.955875,
+          "duration": 0.379916
+        },
+        {
+          "word": "las",
+          "start": 16.348041,
+          "duration": 0.122541
+        },
+        {
+          "word": "Varillas",
+          "start": 16.507333,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 16.8995,
+          "duration": 0.049
+        },
+        {
+          "word": "Combustible",
+          "start": 16.985291,
+          "duration": 0.514708
+        },
+        {
+          "word": "Nuclear",
+          "start": 17.53675,
+          "duration": 0.318625
+        },
+        {
+          "word": "estables",
+          "start": 17.855375,
+          "duration": 0.502458
+        },
+        {
+          "word": "listas",
+          "start": 18.553916,
+          "duration": 0.343125
+        },
+        {
+          "word": "para",
+          "start": 18.970583,
+          "duration": 0.147041
+        },
+        {
+          "word": "ser",
+          "start": 19.129916,
+          "duration": 0.171541
+        },
+        {
+          "word": "insertadas",
+          "start": 19.301458,
+          "duration": 0.58825
+        },
+        {
+          "word": "en",
+          "start": 19.889708,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 19.9755,
+          "duration": 0.110291
+        },
+        {
+          "word": "núcleo",
+          "start": 20.098041,
+          "duration": 0.343125
+        },
+        {
+          "word": "del",
+          "start": 20.465666,
+          "duration": 0.134791
+        },
+        {
+          "word": "reactor",
+          "start": 20.61275,
+          "duration": 0.428916
+        }
+      ]
+    },
+    {
+      "id": "sf5_p04_reactor",
+      "title": "ARQUITECTURA DEL REACTOR NUCLEAR",
+      "subtitle": "Generación de hasta mil doscientos Joules por segundo",
+      "badge": "04 // EL NÚCLEO: REACTOR NUCLEAR",
+      "text": "Reactor Nuclear: Potencia Pura. Genera hasta 1,200 J/s continuos de energía limpia para macro-factorías. Sustituye granjas enteras de paneles solares reduciendo entidades en el chunk. Requisito ineludible: refrigeración criogénica ininterrumpida.",
+      "spoken_text": "El Reactor Nuclear es una maravilla de ingeniería de Slimefun. Es capaz de entregar hasta mil doscientos Joules por segundo de forma continua, suficiente para abastecer una ciudad industrial completa. Sin embargo, este enorme poder conlleva una responsabilidad crítica: el reactor genera calor masivo en cada ciclo operativo y requiere refrigeración ininterrumpida.",
+      "audio_file": "sf5_p04_reactor.mp3",
+      "duration": 20.736,
+      "frames": 652,
+      "action": "cheer",
+      "camera": "wide",
+      "diagram": "nuclear_reactor",
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.159333
+        },
+        {
+          "word": "Reactor",
+          "start": 0.270583,
+          "duration": 0.343125
+        },
+        {
+          "word": "Nuclear",
+          "start": 0.626,
+          "duration": 0.343125
+        },
+        {
+          "word": "es",
+          "start": 0.969125,
+          "duration": 0.122541
+        },
+        {
+          "word": "una",
+          "start": 1.116166,
+          "duration": 0.122541
+        },
+        {
+          "word": "maravilla",
+          "start": 1.26325,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 1.704416,
+          "duration": 0.061291
+        },
+        {
+          "word": "ingeniería",
+          "start": 1.802458,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 2.366166,
+          "duration": 0.073541
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.51325,
+          "duration": 0.551458
+        },
+        {
+          "word": "Es",
+          "start": 3.933833,
+          "duration": 0.134791
+        },
+        {
+          "word": "capaz",
+          "start": 4.117666,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 4.41175,
+          "duration": 0.03675
+        },
+        {
+          "word": "entregar",
+          "start": 4.448541,
+          "duration": 0.367625
+        },
+        {
+          "word": "hasta",
+          "start": 4.816166,
+          "duration": 0.196083
+        },
+        {
+          "word": "mil",
+          "start": 5.03675,
+          "duration": 0.147041
+        },
+        {
+          "word": "doscientos",
+          "start": 5.232833,
+          "duration": 0.416666
+        },
+        {
+          "word": "Joules",
+          "start": 5.674,
+          "duration": 0.306375
+        },
+        {
+          "word": "por",
+          "start": 6.053916,
+          "duration": 0.073541
+        },
+        {
+          "word": "segundo",
+          "start": 6.139708,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 6.519625,
+          "duration": 0.073541
+        },
+        {
+          "word": "forma",
+          "start": 6.617666,
+          "duration": 0.269625
+        },
+        {
+          "word": "continua",
+          "start": 6.936291,
+          "duration": 0.465666
+        },
+        {
+          "word": "suficiente",
+          "start": 7.610291,
+          "duration": 0.539208
+        },
+        {
+          "word": "para",
+          "start": 8.235291,
+          "duration": 0.134791
+        },
+        {
+          "word": "abastecer",
+          "start": 8.406875,
+          "duration": 0.477958
+        },
+        {
+          "word": "una",
+          "start": 8.897041,
+          "duration": 0.147041
+        },
+        {
+          "word": "ciudad",
+          "start": 9.056375,
+          "duration": 0.318625
+        },
+        {
+          "word": "industrial",
+          "start": 9.3995,
+          "duration": 0.453416
+        },
+        {
+          "word": "completa",
+          "start": 9.901958,
+          "duration": 0.477958
+        },
+        {
+          "word": "Sin",
+          "start": 11.25,
+          "duration": 0.196083
+        },
+        {
+          "word": "embargo",
+          "start": 11.446083,
+          "duration": 0.416666
+        },
+        {
+          "word": "este",
+          "start": 12.107833,
+          "duration": 0.208333
+        },
+        {
+          "word": "enorme",
+          "start": 12.316166,
+          "duration": 0.318625
+        },
+        {
+          "word": "poder",
+          "start": 12.708333,
+          "duration": 0.208333
+        },
+        {
+          "word": "conlleva",
+          "start": 12.990208,
+          "duration": 0.379916
+        },
+        {
+          "word": "una",
+          "start": 13.394625,
+          "duration": 0.159333
+        },
+        {
+          "word": "responsabilidad",
+          "start": 13.566166,
+          "duration": 0.747541
+        },
+        {
+          "word": "crítica",
+          "start": 14.38725,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 15.049,
+          "duration": 0.110291
+        },
+        {
+          "word": "reactor",
+          "start": 15.171583,
+          "duration": 0.343125
+        },
+        {
+          "word": "genera",
+          "start": 15.539208,
+          "duration": 0.306375
+        },
+        {
+          "word": "calor",
+          "start": 15.906875,
+          "duration": 0.269625
+        },
+        {
+          "word": "masivo",
+          "start": 16.201,
+          "duration": 0.379916
+        },
+        {
+          "word": "en",
+          "start": 16.593125,
+          "duration": 0.134791
+        },
+        {
+          "word": "cada",
+          "start": 16.740208,
+          "duration": 0.196083
+        },
+        {
+          "word": "ciclo",
+          "start": 16.948541,
+          "duration": 0.306375
+        },
+        {
+          "word": "operativo",
+          "start": 17.267166,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 17.855375,
+          "duration": 0.049
+        },
+        {
+          "word": "requiere",
+          "start": 17.916666,
+          "duration": 0.379916
+        },
+        {
+          "word": "refrigeración",
+          "start": 18.321083,
+          "duration": 0.686291
+        },
+        {
+          "word": "ininterrumpida",
+          "start": 19.019625,
+          "duration": 0.821083
+        }
+      ]
+    },
+    {
+      "id": "sf5_p05_coolant",
+      "title": "REFRIGERACIÓN CRIOGÉNICA Y MELTDOWN",
+      "subtitle": "Varillas de enfriamiento y prevención de explosiones catastróficas",
+      "badge": "05 // SEGURIDAD TÉRMICA: COOLANT",
+      "text": "Prevención de Meltdown (Colapso Nuclear). Sin refrigeración, el núcleo detona y vaporiza la estructura circundante. Varillas de Refrigerante Criogénico: suministro continuo vía Cargo Nodes. Regla SRE: monitoreo de buffer y redundancia de suministro 100% automatizada.",
+      "spoken_text": "La regla dorada de un reactor Slimefun es simple: si se queda sin refrigerante, sufrirá un colapso térmico. Un reactor sobrecalentado detonará violentamente, vaporizando los bloques circundantes y liberando una nube radiactiva mortal. Para evitarlo, debes automatizar el suministro de Varillas de Refrigerante Criogénico mediante Cargo Nodes. Mientras el reactor reciba refrigerante a tiempo, operará al cien por ciento de eficiencia con total seguridad.",
+      "audio_file": "sf5_p05_coolant.mp3",
+      "duration": 26.232,
+      "frames": 816,
+      "action": "point",
+      "camera": "mid",
+      "diagram": "coolant_system",
+      "words": [
+        {
+          "word": "La",
+          "start": 0.099,
+          "duration": 0.159333
+        },
+        {
+          "word": "regla",
+          "start": 0.282833,
+          "duration": 0.245083
+        },
+        {
+          "word": "dorada",
+          "start": 0.552458,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 0.883333,
+          "duration": 0.085791
+        },
+        {
+          "word": "un",
+          "start": 1.005875,
+          "duration": 0.122541
+        },
+        {
+          "word": "reactor",
+          "start": 1.128416,
+          "duration": 0.330875
+        },
+        {
+          "word": "Slimefun",
+          "start": 1.459333,
+          "duration": 0.502458
+        },
+        {
+          "word": "es",
+          "start": 1.974,
+          "duration": 0.073541
+        },
+        {
+          "word": "simple",
+          "start": 2.047541,
+          "duration": 0.367666
+        },
+        {
+          "word": "si",
+          "start": 2.635791,
+          "duration": 0.110291
+        },
+        {
+          "word": "se",
+          "start": 2.782833,
+          "duration": 0.098041
+        },
+        {
+          "word": "queda",
+          "start": 2.954416,
+          "duration": 0.183833
+        },
+        {
+          "word": "sin",
+          "start": 3.1505,
+          "duration": 0.196083
+        },
+        {
+          "word": "refrigerante",
+          "start": 3.346583,
+          "duration": 0.66175
+        },
+        {
+          "word": "sufrirá",
+          "start": 4.204416,
+          "duration": 0.416666
+        },
+        {
+          "word": "un",
+          "start": 4.645583,
+          "duration": 0.122541
+        },
+        {
+          "word": "colapso",
+          "start": 4.768125,
+          "duration": 0.379916
+        },
+        {
+          "word": "térmico",
+          "start": 5.221583,
+          "duration": 0.416666
+        },
+        {
+          "word": "Un",
+          "start": 6.519625,
+          "duration": 0.159291
+        },
+        {
+          "word": "reactor",
+          "start": 6.678916,
+          "duration": 0.330875
+        },
+        {
+          "word": "sobrecalentado",
+          "start": 7.022041,
+          "duration": 0.735291
+        },
+        {
+          "word": "detonará",
+          "start": 7.781875,
+          "duration": 0.428916
+        },
+        {
+          "word": "violentamente",
+          "start": 8.247541,
+          "duration": 0.710791
+        },
+        {
+          "word": "vaporizando",
+          "start": 9.215666,
+          "duration": 0.563708
+        },
+        {
+          "word": "los",
+          "start": 9.803916,
+          "duration": 0.122541
+        },
+        {
+          "word": "bloques",
+          "start": 9.96325,
+          "duration": 0.281833
+        },
+        {
+          "word": "circundantes",
+          "start": 10.245083,
+          "duration": 0.698541
+        },
+        {
+          "word": "y",
+          "start": 10.943625,
+          "duration": 0.0245
+        },
+        {
+          "word": "liberando",
+          "start": 11.004916,
+          "duration": 0.477958
+        },
+        {
+          "word": "una",
+          "start": 11.495083,
+          "duration": 0.171583
+        },
+        {
+          "word": "nube",
+          "start": 11.703416,
+          "duration": 0.232833
+        },
+        {
+          "word": "radiactiva",
+          "start": 11.960791,
+          "duration": 0.514708
+        },
+        {
+          "word": "mortal",
+          "start": 12.5,
+          "duration": 0.416666
+        },
+        {
+          "word": "Para",
+          "start": 13.7745,
+          "duration": 0.171583
+        },
+        {
+          "word": "evitarlo",
+          "start": 13.982833,
+          "duration": 0.453416
+        },
+        {
+          "word": "debes",
+          "start": 14.705875,
+          "duration": 0.245083
+        },
+        {
+          "word": "automatizar",
+          "start": 14.951,
+          "duration": 0.551458
+        },
+        {
+          "word": "el",
+          "start": 15.502458,
+          "duration": 0.073541
+        },
+        {
+          "word": "suministro",
+          "start": 15.58825,
+          "duration": 0.490208
+        },
+        {
+          "word": "de",
+          "start": 16.115208,
+          "duration": 0.061291
+        },
+        {
+          "word": "Varillas",
+          "start": 16.21325,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 16.629916,
+          "duration": 0.049
+        },
+        {
+          "word": "Refrigerante",
+          "start": 16.715666,
+          "duration": 0.61275
+        },
+        {
+          "word": "Criogénico",
+          "start": 17.389708,
+          "duration": 0.526958
+        },
+        {
+          "word": "mediante",
+          "start": 17.941166,
+          "duration": 0.404416
+        },
+        {
+          "word": "Cargo",
+          "start": 18.419125,
+          "duration": 0.245083
+        },
+        {
+          "word": "Nodes",
+          "start": 18.701,
+          "duration": 0.392166
+        },
+        {
+          "word": "Mientras",
+          "start": 20.0,
+          "duration": 0.404416
+        },
+        {
+          "word": "el",
+          "start": 20.404416,
+          "duration": 0.073541
+        },
+        {
+          "word": "reactor",
+          "start": 20.490208,
+          "duration": 0.330875
+        },
+        {
+          "word": "reciba",
+          "start": 20.821083,
+          "duration": 0.343125
+        },
+        {
+          "word": "refrigerante",
+          "start": 21.176458,
+          "duration": 0.576
+        },
+        {
+          "word": "a",
+          "start": 21.764708,
+          "duration": 0.03675
+        },
+        {
+          "word": "tiempo",
+          "start": 21.86275,
+          "duration": 0.330875
+        },
+        {
+          "word": "operará",
+          "start": 22.426458,
+          "duration": 0.416666
+        },
+        {
+          "word": "al",
+          "start": 22.855375,
+          "duration": 0.073541
+        },
+        {
+          "word": "cien",
+          "start": 22.953416,
+          "duration": 0.232833
+        },
+        {
+          "word": "por",
+          "start": 23.210791,
+          "duration": 0.110291
+        },
+        {
+          "word": "ciento",
+          "start": 23.333333,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 23.688708,
+          "duration": 0.061291
+        },
+        {
+          "word": "eficiencia",
+          "start": 23.823541,
+          "duration": 0.465666
+        },
+        {
+          "word": "con",
+          "start": 24.3505,
+          "duration": 0.159333
+        },
+        {
+          "word": "total",
+          "start": 24.522041,
+          "duration": 0.269625
+        },
+        {
+          "word": "seguridad",
+          "start": 24.791666,
+          "duration": 0.526958
+        }
+      ]
+    },
+    {
+      "id": "sf5_p06_waste",
+      "title": "GESTIÓN DE RESIDUOS RADIACTIVOS",
+      "subtitle": "Subproductos, almacenamiento en plomo y reciclaje nuclear",
+      "badge": "06 // TRATAMIENTO DE RESIDUOS",
+      "text": "Gestión de Residuos Nucleares. El subproducto tóxico no puede destruirse en lava ni liberarse al entorno. Extracción obligatoria por Cargo Node hacia cofres blindados de plomo. Reciclaje futuro: insumo clave para tecnología cuántica y aleaciones exóticas.",
+      "spoken_text": "Tras consumir cada varilla de combustible, el reactor produce Residuos Nucleares altamente tóxicos. No puedes tirarlos al suelo ni destruirlos con lava común. Debes canalizarlos hacia un Contenedor Blindado de Plomo utilizando tu red de carga. Más adelante, estos residuos pueden ser reprocesados para fabricar aleaciones exóticas y armamento avanzado.",
+      "audio_file": "sf5_p06_waste.mp3",
+      "duration": 21.072,
+      "frames": 662,
+      "action": "interact",
+      "camera": "close",
+      "diagram": "nuclear_waste",
+      "words": [
+        {
+          "word": "Tras",
+          "start": 0.099,
+          "duration": 0.196083
+        },
+        {
+          "word": "consumir",
+          "start": 0.331875,
+          "duration": 0.379916
+        },
+        {
+          "word": "cada",
+          "start": 0.785291,
+          "duration": 0.171583
+        },
+        {
+          "word": "varilla",
+          "start": 0.981375,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 1.31225,
+          "duration": 0.061291
+        },
+        {
+          "word": "combustible",
+          "start": 1.422541,
+          "duration": 0.58825
+        },
+        {
+          "word": "el",
+          "start": 2.255875,
+          "duration": 0.122541
+        },
+        {
+          "word": "reactor",
+          "start": 2.390666,
+          "duration": 0.330875
+        },
+        {
+          "word": "produce",
+          "start": 2.795083,
+          "duration": 0.330875
+        },
+        {
+          "word": "Residuos",
+          "start": 3.1505,
+          "duration": 0.441166
+        },
+        {
+          "word": "Nucleares",
+          "start": 3.616166,
+          "duration": 0.526958
+        },
+        {
+          "word": "altamente",
+          "start": 4.143125,
+          "duration": 0.453416
+        },
+        {
+          "word": "tóxicos",
+          "start": 4.670083,
+          "duration": 0.514708
+        },
+        {
+          "word": "No",
+          "start": 6.090666,
+          "duration": 0.147041
+        },
+        {
+          "word": "puedes",
+          "start": 6.311291,
+          "duration": 0.220583
+        },
+        {
+          "word": "tirarlos",
+          "start": 6.580875,
+          "duration": 0.404416
+        },
+        {
+          "word": "al",
+          "start": 6.985291,
+          "duration": 0.085791
+        },
+        {
+          "word": "suelo",
+          "start": 7.095583,
+          "duration": 0.281875
+        },
+        {
+          "word": "ni",
+          "start": 7.414208,
+          "duration": 0.073541
+        },
+        {
+          "word": "destruirlos",
+          "start": 7.5245,
+          "duration": 0.551458
+        },
+        {
+          "word": "con",
+          "start": 8.13725,
+          "duration": 0.110291
+        },
+        {
+          "word": "lava",
+          "start": 8.259791,
+          "duration": 0.196083
+        },
+        {
+          "word": "común",
+          "start": 8.517166,
+          "duration": 0.318625
+        },
+        {
+          "word": "Debes",
+          "start": 9.705875,
+          "duration": 0.294125
+        },
+        {
+          "word": "canalizarlos",
+          "start": 10.03675,
+          "duration": 0.66175
+        },
+        {
+          "word": "hacia",
+          "start": 10.698541,
+          "duration": 0.208333
+        },
+        {
+          "word": "un",
+          "start": 10.931375,
+          "duration": 0.134791
+        },
+        {
+          "word": "Contenedor",
+          "start": 11.066166,
+          "duration": 0.465666
+        },
+        {
+          "word": "Blindado",
+          "start": 11.568625,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 11.960791,
+          "duration": 0.073541
+        },
+        {
+          "word": "Plomo",
+          "start": 12.107833,
+          "duration": 0.232833
+        },
+        {
+          "word": "utilizando",
+          "start": 12.352958,
+          "duration": 0.539208
+        },
+        {
+          "word": "tu",
+          "start": 12.965666,
+          "duration": 0.085791
+        },
+        {
+          "word": "red",
+          "start": 13.063708,
+          "duration": 0.171583
+        },
+        {
+          "word": "de",
+          "start": 13.272041,
+          "duration": 0.061291
+        },
+        {
+          "word": "carga",
+          "start": 13.406875,
+          "duration": 0.330875
+        },
+        {
+          "word": "Más",
+          "start": 14.620083,
+          "duration": 0.257333
+        },
+        {
+          "word": "adelante",
+          "start": 14.877458,
+          "duration": 0.490208
+        },
+        {
+          "word": "estos",
+          "start": 15.625,
+          "duration": 0.269625
+        },
+        {
+          "word": "residuos",
+          "start": 15.894625,
+          "duration": 0.367666
+        },
+        {
+          "word": "pueden",
+          "start": 16.348041,
+          "duration": 0.208333
+        },
+        {
+          "word": "ser",
+          "start": 16.568625,
+          "duration": 0.183833
+        },
+        {
+          "word": "reprocesados",
+          "start": 16.764708,
+          "duration": 0.63725
+        },
+        {
+          "word": "para",
+          "start": 17.4755,
+          "duration": 0.147041
+        },
+        {
+          "word": "fabricar",
+          "start": 17.647041,
+          "duration": 0.416666
+        },
+        {
+          "word": "aleaciones",
+          "start": 18.063708,
+          "duration": 0.539208
+        },
+        {
+          "word": "exóticas",
+          "start": 18.602958,
+          "duration": 0.551458
+        },
+        {
+          "word": "y",
+          "start": 19.166666,
+          "duration": 0.0245
+        },
+        {
+          "word": "armamento",
+          "start": 19.203416,
+          "duration": 0.465666
+        },
+        {
+          "word": "avanzado",
+          "start": 19.669125,
+          "duration": 0.514708
+        }
+      ]
+    },
+    {
+      "id": "sf5_p07_summary",
+      "title": "ENERGÍA INFINITA Y SEGURA",
+      "subtitle": "Conéctate a DrakesCraft y construye tu imperio atómico",
+      "badge": "07 // CONCLUSIÓN Y RED DRAKES",
+      "text": "Dominio de la Fisión Nuclear en Slimefun. Bioseguridad Hazmat + Enriquecimiento U-235 + Refrigeración Segura. Potencia infinita para macro-factorías a 20.0 TPS impecables. ¡Conéctate en play.drakescraft.cl:25565 y únete a la comunidad!",
+      "spoken_text": "Ahora dominas el ciclo completo de la energía nuclear: protección biológica, combustible enriquecido, refrigeración criogénica automatizada y control seguro de residuos. Tu base en DrakesCraft está lista para las tecnologías más avanzadas del servidor sin caídas de tensión ni lag. Conéctate ahora mismo en play punto drakescraft punto ce ele y únete a nuestra comunidad en Discord. Nos vemos en el próximo capítulo.",
+      "audio_file": "sf5_p07_summary.mp3",
+      "duration": 24.216,
+      "frames": 756,
+      "action": "cheer",
+      "camera": "wide",
+      "diagram": "summary_network",
+      "words": [
+        {
+          "word": "Ahora",
+          "start": 0.099,
+          "duration": 0.281875
+        },
+        {
+          "word": "dominas",
+          "start": 0.405375,
+          "duration": 0.404416
+        },
+        {
+          "word": "el",
+          "start": 0.809791,
+          "duration": 0.098041
+        },
+        {
+          "word": "ciclo",
+          "start": 0.932333,
+          "duration": 0.281875
+        },
+        {
+          "word": "completo",
+          "start": 1.26325,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 1.679916,
+          "duration": 0.073541
+        },
+        {
+          "word": "la",
+          "start": 1.777958,
+          "duration": 0.061291
+        },
+        {
+          "word": "energía",
+          "start": 1.88825,
+          "duration": 0.367666
+        },
+        {
+          "word": "nuclear",
+          "start": 2.280375,
+          "duration": 0.379916
+        },
+        {
+          "word": "protección",
+          "start": 2.917666,
+          "duration": 0.392166
+        },
+        {
+          "word": "biológica",
+          "start": 3.358833,
+          "duration": 0.551458
+        },
+        {
+          "word": "combustible",
+          "start": 4.143125,
+          "duration": 0.502458
+        },
+        {
+          "word": "enriquecido",
+          "start": 4.657833,
+          "duration": 0.6495
+        },
+        {
+          "word": "refrigeración",
+          "start": 5.527958,
+          "duration": 0.698541
+        },
+        {
+          "word": "criogénica",
+          "start": 6.238708,
+          "duration": 0.526958
+        },
+        {
+          "word": "automatizada",
+          "start": 6.765666,
+          "duration": 0.674
+        },
+        {
+          "word": "y",
+          "start": 7.476458,
+          "duration": 0.01225
+        },
+        {
+          "word": "control",
+          "start": 7.56225,
+          "duration": 0.330875
+        },
+        {
+          "word": "seguro",
+          "start": 7.905375,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 8.297541,
+          "duration": 0.085791
+        },
+        {
+          "word": "residuos",
+          "start": 8.407833,
+          "duration": 0.514708
+        },
+        {
+          "word": "Tu",
+          "start": 9.828416,
+          "duration": 0.085791
+        },
+        {
+          "word": "base",
+          "start": 9.938708,
+          "duration": 0.220583
+        },
+        {
+          "word": "en",
+          "start": 10.159333,
+          "duration": 0.061291
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 10.269625,
+          "duration": 0.563708
+        },
+        {
+          "word": "está",
+          "start": 10.833333,
+          "duration": 0.232833
+        },
+        {
+          "word": "lista",
+          "start": 11.078416,
+          "duration": 0.281875
+        },
+        {
+          "word": "para",
+          "start": 11.421583,
+          "duration": 0.171583
+        },
+        {
+          "word": "las",
+          "start": 11.605375,
+          "duration": 0.122541
+        },
+        {
+          "word": "tecnologías",
+          "start": 11.789208,
+          "duration": 0.6005
+        },
+        {
+          "word": "más",
+          "start": 12.414208,
+          "duration": 0.183833
+        },
+        {
+          "word": "avanzadas",
+          "start": 12.598041,
+          "duration": 0.502458
+        },
+        {
+          "word": "del",
+          "start": 13.13725,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 13.235291,
+          "duration": 0.441166
+        },
+        {
+          "word": "sin",
+          "start": 13.701,
+          "duration": 0.220583
+        },
+        {
+          "word": "caídas",
+          "start": 13.921583,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 14.326,
+          "duration": 0.049
+        },
+        {
+          "word": "tensión",
+          "start": 14.436291,
+          "duration": 0.367625
+        },
+        {
+          "word": "ni",
+          "start": 14.803916,
+          "duration": 0.098041
+        },
+        {
+          "word": "lag",
+          "start": 14.938708,
+          "duration": 0.245083
+        },
+        {
+          "word": "Conéctate",
+          "start": 16.066166,
+          "duration": 0.502458
+        },
+        {
+          "word": "ahora",
+          "start": 16.568625,
+          "duration": 0.232833
+        },
+        {
+          "word": "mismo",
+          "start": 16.83825,
+          "duration": 0.269625
+        },
+        {
+          "word": "en",
+          "start": 17.120083,
+          "duration": 0.110291
+        },
+        {
+          "word": "play",
+          "start": 17.254916,
+          "duration": 0.122541
+        },
+        {
+          "word": "punto",
+          "start": 17.46325,
+          "duration": 0.232833
+        },
+        {
+          "word": "drakescraft",
+          "start": 17.720583,
+          "duration": 0.539208
+        },
+        {
+          "word": "punto",
+          "start": 18.357833,
+          "duration": 0.245083
+        },
+        {
+          "word": "ce",
+          "start": 18.615208,
+          "duration": 0.245083
+        },
+        {
+          "word": "ele",
+          "start": 18.909333,
+          "duration": 0.171583
+        },
+        {
+          "word": "y",
+          "start": 19.117666,
+          "duration": 0.073541
+        },
+        {
+          "word": "únete",
+          "start": 19.203416,
+          "duration": 0.281875
+        },
+        {
+          "word": "a",
+          "start": 19.485291,
+          "duration": 0.049
+        },
+        {
+          "word": "nuestra",
+          "start": 19.558833,
+          "duration": 0.220583
+        },
+        {
+          "word": "comunidad",
+          "start": 19.828416,
+          "duration": 0.453416
+        },
+        {
+          "word": "en",
+          "start": 20.294125,
+          "duration": 0.098041
+        },
+        {
+          "word": "Discord",
+          "start": 20.428916,
+          "duration": 0.392166
+        },
+        {
+          "word": "Nos",
+          "start": 21.703416,
+          "duration": 0.183833
+        },
+        {
+          "word": "vemos",
+          "start": 21.924,
+          "duration": 0.281875
+        },
+        {
+          "word": "en",
+          "start": 22.205875,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 22.279416,
+          "duration": 0.098041
+        },
+        {
+          "word": "próximo",
+          "start": 22.451,
+          "duration": 0.318625
+        },
+        {
+          "word": "capítulo",
+          "start": 22.818625,
+          "duration": 0.502458
+        }
+      ]
+    }
+  ]
+}

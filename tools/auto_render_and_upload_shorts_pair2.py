@@ -1,0 +1,194 @@
+#!/usr/bin/env python3
+"""
+tools/auto_render_and_upload_shorts_pair2.py — Pipeline de render y subida automática para la tercera pareja de Shorts:
+  - Short 7 (ShortSfNoHoppers - ES): ¿Por Qué NO Usar Tolvas en Slimefun? (Cero Lag)
+  - Short 8 (ShortSfCargoRules - EN): The SRE Rules of Slimefun Cargo Logistics
+"""
+import os
+import sys
+import time
+import subprocess
+import pathlib
+import pickle
+from datetime import datetime
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
+from google.auth.transport.requests import Request
+import googleapiclient.discovery
+from googleapiclient.http import MediaFileUpload
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+VIDEO_DIR = ROOT / "video"
+OUT_DIR = VIDEO_DIR / "out"
+TOKEN_PATH = ROOT / "tools" / "token.pickle"
+LOG_FILE = OUT_DIR / "sf_shorts_pair2_pipeline.log"
+
+def log(msg):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"[{ts}] {msg}"
+    try:
+        print(line)
+    except Exception:
+        print(line.encode("ascii", "replace").decode("ascii"))
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
+
+def get_authenticated_service():
+    if not TOKEN_PATH.exists():
+        raise FileNotFoundError(f"OAuth token not found at {TOKEN_PATH}")
+    with open(TOKEN_PATH, "rb") as f:
+        credentials = pickle.load(f)
+    if credentials.expired and credentials.refresh_token:
+        log("[OAuth] Token expirado, renovando...")
+        credentials.refresh(Request())
+        with open(TOKEN_PATH, "wb") as f:
+            pickle.dump(credentials, f)
+        log("[OAuth] Token renovado exitosamente.")
+    return googleapiclient.discovery.build("youtube", "v3", credentials=credentials)
+
+def upload_short(file_path, title, description, tags, privacy="public", category_id="20"):
+    file_path = pathlib.Path(file_path)
+    if not file_path.is_file():
+        raise FileNotFoundError(f"Archivo de video no encontrado: {file_path}")
+
+    if "#Shorts" not in title and "#shorts" not in title:
+        title = f"{title} #Shorts"
+    if "#Shorts" not in description and "#shorts" not in description:
+        description = f"{description}\n\n#Shorts #Minecraft #Slimefun #DrakesCraft"
+
+    clean_desc = description.replace("<", "sub-").replace(">", "")
+    youtube = get_authenticated_service()
+
+    body = {
+        "snippet": {
+            "title": title[:100],
+            "description": clean_desc[:5000],
+            "tags": [t.strip() for t in tags.split(",") if t.strip()],
+            "categoryId": str(category_id)
+        },
+        "status": {
+            "privacyStatus": privacy,
+            "selfDeclaredMadeForKids": False
+        }
+    }
+
+    media = MediaFileUpload(
+        str(file_path),
+        mimetype="video/mp4",
+        resumable=True,
+        chunksize=1024 * 1024 * 2
+    )
+
+    log(f"Iniciando subida de Short: {file_path.name}")
+    log(f"  Título: {title}")
+    log(f"  Privacidad: {privacy}")
+
+    insert_request = youtube.videos().insert(
+        part="snippet,status",
+        body=body,
+        media_body=media
+    )
+
+    response = None
+    while response is None:
+        status, response = insert_request.next_chunk()
+        if status:
+            pct = int(status.progress() * 100)
+            log(f"  Progreso de subida: {pct}%")
+
+    video_id = response.get("id")
+    video_url = f"https://youtube.com/shorts/{video_id}"
+    log(f"[OK] Short subido exitosamente: {video_url}")
+    return video_id, video_url
+
+def render_short(comp_id, out_file):
+    out_path = OUT_DIR / out_file
+    log(f"Iniciando render de {comp_id} -> {out_file}...")
+    cmd = [
+        "npx.cmd", "remotion", "render", comp_id,
+        f"out/{out_file}",
+        "--concurrency=4"
+    ]
+    t0 = time.time()
+    res = subprocess.run(cmd, cwd=str(VIDEO_DIR), capture_output=True, text=True, shell=True)
+    dt = time.time() - t0
+    if res.returncode != 0:
+        log(f"[ERROR] Error en render de {comp_id} (codigo {res.returncode}):\n{res.stderr[-1000:]}")
+        raise RuntimeError(f"Fallo al renderizar {comp_id}")
+    log(f"[OK] Render completado en {dt:.1f}s: {out_file} ({out_path.stat().st_size / (1024*1024):.2f} MB)")
+    return out_path
+
+SHORTS_QUEUE = [
+    {
+        "comp_id": "ShortSfNoHoppers",
+        "out_file": "short_sf_no_hoppers.mp4",
+        "lang": "ES",
+        "title": "¿Por Qué NO Usar Tolvas en Slimefun? (Cero Lag)",
+        "description": (
+            "¿Por qué está estrictamente prohibido usar tolvas comunes para automatizar Slimefun en DrakesCraft?\n\n"
+            "Una tolva vanilla escanea el mundo cada tick buscando entidades flotantes y contenedores vecinos. 50 tolvas colapsan los ticks del servidor.\n\n"
+            "La solución oficial: Slimefun Cargo Nodes. Transfieren ítems directamente en RAM con 16 canales de frecuencia y filtrado inteligente sin generar entidades físicas.\n\n"
+            "Servidor Oficial DrakesCraft:\n"
+            "IP: play.drakescraft.cl:25565 (Java & Bedrock)\n"
+            "Discord: https://discord.gg/drakescraft"
+        ),
+        "tags": "minecraft,slimefun,drakescraft,cargo,anti lag,hopper,sre,tps,tutorial,shorts"
+    },
+    {
+        "comp_id": "ShortSfCargoRules",
+        "out_file": "short_sf_cargo_rules.mp4",
+        "lang": "EN",
+        "title": "The SRE Rules of Slimefun Cargo Logistics",
+        "description": (
+            "Follow these SRE golden rules for high-throughput, zero-lag Slimefun cargo automation:\n\n"
+            "1. Zero Feedback Loops: avoid cyclical paths that force the JVM into recursive BFS graph traversals.\n"
+            "2. 16-Channel Segregation: isolate raw ores (Ch 0), dusts (Ch 1), and ingots (Ch 2).\n"
+            "3. Round-Robin Distribution: connect Cargo Output Nodes directly to multi-block crafters to balance load evenly.\n\n"
+            "Official Server:\n"
+            "IP: play.drakescraft.cl:25565 (Java & Bedrock)\n"
+            "Discord: https://discord.gg/drakescraft"
+        ),
+        "tags": "minecraft,slimefun,drakescraft,cargo,automation,sre,logistics,gaming,shorts"
+    }
+]
+
+def main():
+    log("=" * 60)
+    log("INICIANDO PIPELINE DE SHORTS 7 & 8 SLIMEFUN (ES & EN)")
+    log("=" * 60)
+
+    for idx, item in enumerate(SHORTS_QUEUE):
+        short_num = idx + 7
+        log(f"\n--- Procesando Short {short_num} [{item['lang']}]: {item['title']} ---")
+        out_file = item["out_file"]
+        comp_id = item["comp_id"]
+        video_path = OUT_DIR / out_file
+
+        if not video_path.exists():
+            render_short(comp_id, out_file)
+        else:
+            log(f"El archivo {out_file} ya existe. Omitiendo render.")
+
+        log(f"Subiendo a YouTube: {item['title']}...")
+        try:
+            vid_id, url = upload_short(
+                file_path=video_path,
+                title=item["title"],
+                description=item["description"],
+                tags=item["tags"],
+                privacy="public"
+            )
+            log(f"[OK] Short {short_num} publicado: {url}")
+        except Exception as e:
+            log(f"[ERROR] Error al subir Short {short_num}: {e}")
+
+    log("\n============================================================")
+    log("PIPELINE DE SHORTS 7 & 8 COMPLETADO CON EXITO")
+    log("============================================================")
+
+if __name__ == "__main__":
+    main()
