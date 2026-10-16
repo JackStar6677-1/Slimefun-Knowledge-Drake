@@ -30,6 +30,7 @@ import { SlimefunCapitulo3, TOTAL_SF_CAPITULO3_FRAMES } from "./SlimefunCapitulo
 import { SlimefunCapitulo4, TOTAL_SF_CAPITULO4_FRAMES } from "./SlimefunCapitulo4";
 import { SlimefunCapitulo5, TOTAL_SF_CAPITULO5_FRAMES } from "./SlimefunCapitulo5";
 import { SlimefunCapitulo6, TOTAL_SF_CAPITULO6_FRAMES } from "./SlimefunCapitulo6";
+import { SlimefunCapitulo7, TOTAL_SF_CAPITULO7_FRAMES } from "./SlimefunCapitulo7";
 
 export const Root = () => (
   <>
@@ -55,6 +56,7 @@ export const Root = () => (
     <Composition id="SlimefunCapitulo4" component={SlimefunCapitulo4} durationInFrames={TOTAL_SF_CAPITULO4_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="SlimefunCapitulo5" component={SlimefunCapitulo5} durationInFrames={TOTAL_SF_CAPITULO5_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="SlimefunCapitulo6" component={SlimefunCapitulo6} durationInFrames={TOTAL_SF_CAPITULO6_FRAMES} fps={30} width={1280} height={720} />
+    <Composition id="SlimefunCapitulo7" component={SlimefunCapitulo7} durationInFrames={TOTAL_SF_CAPITULO7_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="ShortSaori" component={ShortSaori} durationInFrames={SAORI_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortNetworksDupe" component={ShortNetworksDupe} durationInFrames={NETWORKS_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortCustomGui" component={ShortCustomGui} durationInFrames={CUSTOMGUI_FRAMES} fps={30} width={1080} height={1920} />

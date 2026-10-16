@@ -1,0 +1,2794 @@
+{
+  "title": "Slimefun en DrakesCraft — Capítulo 7: Addons Avanzados, Automatización Infinita & Mitigación de Lag",
+  "server": "play.drakescraft.cl",
+  "total_frames": 6052,
+  "total_duration": 201.73333333333332,
+  "scenes": [
+    {
+      "id": "sf7_p01_intro",
+      "title": "LA FRONTERA INDUSTRIAL: ADDONS DE SLIMEFUN",
+      "subtitle": "Infinity Expansion, Fluffy Machines y Redes v6 a escala",
+      "badge": "01 // ERA DE LOS ADDONS: MÁS ALLÁ DEL LÍMITE",
+      "text": "Bienvenidos al Capítulo 7 de Slimefun en DrakesCraft. Superada la era nuclear y cuántica, cruzamos la frontera de los Addons. Infinity Expansion, Fluffy Machines y Redes de Almacenamiento v6. Automatización total sin comprometer el rendimiento del servidor a 20 TPS.",
+      "spoken_text": "Bienvenidos al Capítulo siete de nuestra guía de Slimefun en DrakesCraft. Si ya dominas la energía cuántica y los reactores nucleares, estás listo para cruzar la última frontera. En DrakesCraft llevamos la jugabilidad técnica al extremo integrando tres de los addons más potentes del ecosistema: Infinity Expansion para la generación infinita de recursos y singularidades, Fluffy Machines para el crafteo automático masivo, y Redes versión seis para el almacenamiento digital instantáneo. Hoy veremos cómo opera este ecosistema y los secretos de ingeniería que implementamos para mantener el servidor en veinte TPS.",
+      "audio_file": "sf7_p01_intro.mp3",
+      "duration": 33.624,
+      "frames": 1038,
+      "action": "idle",
+      "camera": "close",
+      "diagram": "infinity_intro",
+      "words": [
+        {
+          "word": "Bienvenidos",
+          "start": 0.099,
+          "duration": 0.551458
+        },
+        {
+          "word": "al",
+          "start": 0.6505,
+          "duration": 0.073541
+        },
+        {
+          "word": "Capítulo",
+          "start": 0.773041,
+          "duration": 0.428916
+        },
+        {
+          "word": "siete",
+          "start": 1.226458,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 1.545083,
+          "duration": 0.073541
+        },
+        {
+          "word": "nuestra",
+          "start": 1.643125,
+          "duration": 0.257333
+        },
+        {
+          "word": "guía",
+          "start": 1.93725,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 2.182333,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.317166,
+          "duration": 0.514708
+        },
+        {
+          "word": "en",
+          "start": 2.831875,
+          "duration": 0.098041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 2.978916,
+          "duration": 0.61275
+        },
+        {
+          "word": "Si",
+          "start": 4.460791,
+          "duration": 0.171583
+        },
+        {
+          "word": "ya",
+          "start": 4.681375,
+          "duration": 0.110291
+        },
+        {
+          "word": "dominas",
+          "start": 4.816166,
+          "duration": 0.355375
+        },
+        {
+          "word": "la",
+          "start": 5.208333,
+          "duration": 0.073541
+        },
+        {
+          "word": "energía",
+          "start": 5.330875,
+          "duration": 0.392166
+        },
+        {
+          "word": "cuántica",
+          "start": 5.784333,
+          "duration": 0.404416
+        },
+        {
+          "word": "y",
+          "start": 6.201,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 6.2745,
+          "duration": 0.122541
+        },
+        {
+          "word": "reactores",
+          "start": 6.397041,
+          "duration": 0.416666
+        },
+        {
+          "word": "nucleares",
+          "start": 6.83825,
+          "duration": 0.465666
+        },
+        {
+          "word": "estás",
+          "start": 7.4755,
+          "duration": 0.294125
+        },
+        {
+          "word": "listo",
+          "start": 7.781875,
+          "duration": 0.269625
+        },
+        {
+          "word": "para",
+          "start": 8.125,
+          "duration": 0.134791
+        },
+        {
+          "word": "cruzar",
+          "start": 8.321083,
+          "duration": 0.343125
+        },
+        {
+          "word": "la",
+          "start": 8.676458,
+          "duration": 0.085791
+        },
+        {
+          "word": "última",
+          "start": 8.78675,
+          "duration": 0.330875
+        },
+        {
+          "word": "frontera",
+          "start": 9.142166,
+          "duration": 0.502458
+        },
+        {
+          "word": "En",
+          "start": 10.514708,
+          "duration": 0.134791
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 10.710791,
+          "duration": 0.563708
+        },
+        {
+          "word": "llevamos",
+          "start": 11.28675,
+          "duration": 0.343125
+        },
+        {
+          "word": "la",
+          "start": 11.666666,
+          "duration": 0.061291
+        },
+        {
+          "word": "jugabilidad",
+          "start": 11.752458,
+          "duration": 0.58825
+        },
+        {
+          "word": "técnica",
+          "start": 12.401958,
+          "duration": 0.367666
+        },
+        {
+          "word": "al",
+          "start": 12.781875,
+          "duration": 0.06125
+        },
+        {
+          "word": "extremo",
+          "start": 12.843125,
+          "duration": 0.343125
+        },
+        {
+          "word": "integrando",
+          "start": 13.210791,
+          "duration": 0.465666
+        },
+        {
+          "word": "tres",
+          "start": 13.75,
+          "duration": 0.159333
+        },
+        {
+          "word": "de",
+          "start": 13.946083,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 14.019625,
+          "duration": 0.159291
+        },
+        {
+          "word": "addons",
+          "start": 14.178916,
+          "duration": 0.330875
+        },
+        {
+          "word": "más",
+          "start": 14.534333,
+          "duration": 0.134791
+        },
+        {
+          "word": "potentes",
+          "start": 14.742666,
+          "duration": 0.404416
+        },
+        {
+          "word": "del",
+          "start": 15.183833,
+          "duration": 0.098041
+        },
+        {
+          "word": "ecosistema",
+          "start": 15.281875,
+          "duration": 0.66175
+        },
+        {
+          "word": "Infinity",
+          "start": 16.127458,
+          "duration": 0.477958
+        },
+        {
+          "word": "Expansion",
+          "start": 16.629916,
+          "duration": 0.514708
+        },
+        {
+          "word": "para",
+          "start": 17.169125,
+          "duration": 0.147041
+        },
+        {
+          "word": "la",
+          "start": 17.328416,
+          "duration": 0.085791
+        },
+        {
+          "word": "generación",
+          "start": 17.426458,
+          "duration": 0.502458
+        },
+        {
+          "word": "infinita",
+          "start": 17.928916,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 18.406875,
+          "duration": 0.085791
+        },
+        {
+          "word": "recursos",
+          "start": 18.517166,
+          "duration": 0.490208
+        },
+        {
+          "word": "y",
+          "start": 19.019625,
+          "duration": 0.0245
+        },
+        {
+          "word": "singularidades",
+          "start": 19.080875,
+          "duration": 0.796583
+        },
+        {
+          "word": "Fluffy",
+          "start": 20.098041,
+          "duration": 0.269625
+        },
+        {
+          "word": "Machines",
+          "start": 20.404416,
+          "duration": 0.453416
+        },
+        {
+          "word": "para",
+          "start": 20.931375,
+          "duration": 0.110291
+        },
+        {
+          "word": "el",
+          "start": 21.053916,
+          "duration": 0.085791
+        },
+        {
+          "word": "crafteo",
+          "start": 21.151958,
+          "duration": 0.379916
+        },
+        {
+          "word": "automático",
+          "start": 21.531875,
+          "duration": 0.539208
+        },
+        {
+          "word": "masivo",
+          "start": 22.095583,
+          "duration": 0.416666
+        },
+        {
+          "word": "y",
+          "start": 22.769625,
+          "duration": 0.085791
+        },
+        {
+          "word": "Redes",
+          "start": 22.879916,
+          "duration": 0.245083
+        },
+        {
+          "word": "versión",
+          "start": 23.16175,
+          "duration": 0.343125
+        },
+        {
+          "word": "seis",
+          "start": 23.529416,
+          "duration": 0.257333
+        },
+        {
+          "word": "para",
+          "start": 23.848041,
+          "duration": 0.134791
+        },
+        {
+          "word": "el",
+          "start": 23.995083,
+          "duration": 0.085791
+        },
+        {
+          "word": "almacenamiento",
+          "start": 24.080875,
+          "duration": 0.686291
+        },
+        {
+          "word": "digital",
+          "start": 24.803916,
+          "duration": 0.379916
+        },
+        {
+          "word": "instantáneo",
+          "start": 25.183833,
+          "duration": 0.61275
+        },
+        {
+          "word": "Hoy",
+          "start": 26.666666,
+          "duration": 0.134791
+        },
+        {
+          "word": "veremos",
+          "start": 26.83825,
+          "duration": 0.318625
+        },
+        {
+          "word": "cómo",
+          "start": 27.205875,
+          "duration": 0.171583
+        },
+        {
+          "word": "opera",
+          "start": 27.377458,
+          "duration": 0.257333
+        },
+        {
+          "word": "este",
+          "start": 27.671583,
+          "duration": 0.147041
+        },
+        {
+          "word": "ecosistema",
+          "start": 27.830875,
+          "duration": 0.563708
+        },
+        {
+          "word": "y",
+          "start": 28.419125,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 28.492666,
+          "duration": 0.098
+        },
+        {
+          "word": "secretos",
+          "start": 28.590666,
+          "duration": 0.465666
+        },
+        {
+          "word": "de",
+          "start": 29.093125,
+          "duration": 0.049
+        },
+        {
+          "word": "ingeniería",
+          "start": 29.166666,
+          "duration": 0.551458
+        },
+        {
+          "word": "que",
+          "start": 29.791666,
+          "duration": 0.061291
+        },
+        {
+          "word": "implementamos",
+          "start": 29.877458,
+          "duration": 0.66175
+        },
+        {
+          "word": "para",
+          "start": 30.625,
+          "duration": 0.134791
+        },
+        {
+          "word": "mantener",
+          "start": 30.784333,
+          "duration": 0.416666
+        },
+        {
+          "word": "el",
+          "start": 31.201,
+          "duration": 0.110291
+        },
+        {
+          "word": "servidor",
+          "start": 31.311291,
+          "duration": 0.416666
+        },
+        {
+          "word": "en",
+          "start": 31.727958,
+          "duration": 0.098041
+        },
+        {
+          "word": "veinte",
+          "start": 31.88725,
+          "duration": 0.245083
+        },
+        {
+          "word": "TPS",
+          "start": 32.205875,
+          "duration": 0.502458
+        }
+      ]
+    },
+    {
+      "id": "sf7_p02_infinity_expansion",
+      "title": "INFINITY EXPANSION: EL FIN DEL GRIND MANUAL",
+      "subtitle": "Singularidades, Cámaras de Simulación y Lingotes Infinitos",
+      "badge": "02 // END-GAME: INFINITY EXPANSION",
+      "text": "Infinity Expansion: Fin del Grind Manual. Generadores de Singularidades: compresión de millones de recursos en núcleos estables. Cámaras de Simulación: farmeo computado en memoria sin spawnear entidades. Estrellas del Nether y Shulker Shells a coste computacional cero.",
+      "spoken_text": "Infinity Expansion redefine lo que significa el juego tardío. Su núcleo son los Generadores de Singularidades, máquinas que comprimen miles de lingotes de cobre, hierro o netherite en una sola esfera hiperdensa de materia. Pero su mayor genialidad son las Cámaras de Simulación de Mobs. En lugar de construir granjas tradicionales que saturan el servidor con cientos de entidades de esqueletos o withers, estas cámaras simulan las muertes matemáticamente en memoria virtual y te entregan los drops limpios, produciendo estrellas del nether y shulkers sin generar una sola partícula de lag.",
+      "audio_file": "sf7_p02_infinity_expansion.mp3",
+      "duration": 31.176,
+      "frames": 965,
+      "action": "point",
+      "camera": "mid",
+      "diagram": "simulation_chamber",
+      "words": [
+        {
+          "word": "Infinity",
+          "start": 0.099,
+          "duration": 0.502458
+        },
+        {
+          "word": "Expansion",
+          "start": 0.613708,
+          "duration": 0.490208
+        },
+        {
+          "word": "redefine",
+          "start": 1.103916,
+          "duration": 0.453416
+        },
+        {
+          "word": "lo",
+          "start": 1.581875,
+          "duration": 0.073541
+        },
+        {
+          "word": "que",
+          "start": 1.716666,
+          "duration": 0.073541
+        },
+        {
+          "word": "significa",
+          "start": 1.814708,
+          "duration": 0.514708
+        },
+        {
+          "word": "el",
+          "start": 2.341666,
+          "duration": 0.061291
+        },
+        {
+          "word": "juego",
+          "start": 2.415208,
+          "duration": 0.257333
+        },
+        {
+          "word": "tardío",
+          "start": 2.746083,
+          "duration": 0.355375
+        },
+        {
+          "word": "Su",
+          "start": 4.007333,
+          "duration": 0.183833
+        },
+        {
+          "word": "núcleo",
+          "start": 4.215666,
+          "duration": 0.306375
+        },
+        {
+          "word": "son",
+          "start": 4.534333,
+          "duration": 0.159333
+        },
+        {
+          "word": "los",
+          "start": 4.705875,
+          "duration": 0.110291
+        },
+        {
+          "word": "Generadores",
+          "start": 4.840666,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 5.416666,
+          "duration": 0.061291
+        },
+        {
+          "word": "Singularidades",
+          "start": 5.490208,
+          "duration": 0.772041
+        },
+        {
+          "word": "máquinas",
+          "start": 6.495083,
+          "duration": 0.404416
+        },
+        {
+          "word": "que",
+          "start": 6.948541,
+          "duration": 0.049
+        },
+        {
+          "word": "comprimen",
+          "start": 7.046583,
+          "duration": 0.404416
+        },
+        {
+          "word": "miles",
+          "start": 7.5,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 7.781875,
+          "duration": 0.061291
+        },
+        {
+          "word": "lingotes",
+          "start": 7.879916,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 8.321083,
+          "duration": 0.049
+        },
+        {
+          "word": "cobre",
+          "start": 8.431375,
+          "duration": 0.306375
+        },
+        {
+          "word": "hierro",
+          "start": 8.970583,
+          "duration": 0.281875
+        },
+        {
+          "word": "o",
+          "start": 9.264708,
+          "duration": 0.03675
+        },
+        {
+          "word": "netherite",
+          "start": 9.33825,
+          "duration": 0.441166
+        },
+        {
+          "word": "en",
+          "start": 9.791666,
+          "duration": 0.073541
+        },
+        {
+          "word": "una",
+          "start": 9.889708,
+          "duration": 0.183833
+        },
+        {
+          "word": "sola",
+          "start": 10.073541,
+          "duration": 0.245083
+        },
+        {
+          "word": "esfera",
+          "start": 10.330875,
+          "duration": 0.281875
+        },
+        {
+          "word": "hiperdensa",
+          "start": 10.66175,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 11.188708,
+          "duration": 0.049
+        },
+        {
+          "word": "materia",
+          "start": 11.26225,
+          "duration": 0.465666
+        },
+        {
+          "word": "Pero",
+          "start": 12.610291,
+          "duration": 0.171583
+        },
+        {
+          "word": "su",
+          "start": 12.794125,
+          "duration": 0.110291
+        },
+        {
+          "word": "mayor",
+          "start": 12.928916,
+          "duration": 0.245083
+        },
+        {
+          "word": "genialidad",
+          "start": 13.186291,
+          "duration": 0.514708
+        },
+        {
+          "word": "son",
+          "start": 13.7255,
+          "duration": 0.147041
+        },
+        {
+          "word": "las",
+          "start": 13.884791,
+          "duration": 0.134791
+        },
+        {
+          "word": "Cámaras",
+          "start": 14.068625,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 14.436291,
+          "duration": 0.061291
+        },
+        {
+          "word": "Simulación",
+          "start": 14.522041,
+          "duration": 0.514708
+        },
+        {
+          "word": "de",
+          "start": 15.085791,
+          "duration": 0.049
+        },
+        {
+          "word": "Mobs",
+          "start": 15.171583,
+          "duration": 0.318625
+        },
+        {
+          "word": "En",
+          "start": 16.372541,
+          "duration": 0.134791
+        },
+        {
+          "word": "lugar",
+          "start": 16.544125,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 16.801458,
+          "duration": 0.061291
+        },
+        {
+          "word": "construir",
+          "start": 16.91175,
+          "duration": 0.441166
+        },
+        {
+          "word": "granjas",
+          "start": 17.389708,
+          "duration": 0.343125
+        },
+        {
+          "word": "tradicionales",
+          "start": 17.794125,
+          "duration": 0.61275
+        },
+        {
+          "word": "que",
+          "start": 18.455875,
+          "duration": 0.061291
+        },
+        {
+          "word": "saturan",
+          "start": 18.529416,
+          "duration": 0.392166
+        },
+        {
+          "word": "el",
+          "start": 18.933833,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 19.031875,
+          "duration": 0.428916
+        },
+        {
+          "word": "con",
+          "start": 19.509791,
+          "duration": 0.134791
+        },
+        {
+          "word": "cientos",
+          "start": 19.669125,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 20.049,
+          "duration": 0.049
+        },
+        {
+          "word": "entidades",
+          "start": 20.098041,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 20.625,
+          "duration": 0.03675
+        },
+        {
+          "word": "esqueletos",
+          "start": 20.710791,
+          "duration": 0.539208
+        },
+        {
+          "word": "o",
+          "start": 21.25,
+          "duration": 0.03675
+        },
+        {
+          "word": "withers",
+          "start": 21.323541,
+          "duration": 0.392166
+        },
+        {
+          "word": "estas",
+          "start": 21.91175,
+          "duration": 0.281875
+        },
+        {
+          "word": "cámaras",
+          "start": 22.242666,
+          "duration": 0.281833
+        },
+        {
+          "word": "simulan",
+          "start": 22.5245,
+          "duration": 0.367666
+        },
+        {
+          "word": "las",
+          "start": 22.928916,
+          "duration": 0.134791
+        },
+        {
+          "word": "muertes",
+          "start": 23.08825,
+          "duration": 0.330875
+        },
+        {
+          "word": "matemáticamente",
+          "start": 23.443625,
+          "duration": 0.821083
+        },
+        {
+          "word": "en",
+          "start": 24.276958,
+          "duration": 0.061291
+        },
+        {
+          "word": "memoria",
+          "start": 24.38725,
+          "duration": 0.343125
+        },
+        {
+          "word": "virtual",
+          "start": 24.754916,
+          "duration": 0.404416
+        },
+        {
+          "word": "y",
+          "start": 25.171583,
+          "duration": 0.03675
+        },
+        {
+          "word": "te",
+          "start": 25.294125,
+          "duration": 0.03675
+        },
+        {
+          "word": "entregan",
+          "start": 25.330875,
+          "duration": 0.392166
+        },
+        {
+          "word": "los",
+          "start": 25.747541,
+          "duration": 0.098041
+        },
+        {
+          "word": "drops",
+          "start": 25.882333,
+          "duration": 0.220583
+        },
+        {
+          "word": "limpios",
+          "start": 26.115208,
+          "duration": 0.392166
+        },
+        {
+          "word": "produciendo",
+          "start": 26.764708,
+          "duration": 0.465666
+        },
+        {
+          "word": "estrellas",
+          "start": 27.230375,
+          "duration": 0.392166
+        },
+        {
+          "word": "del",
+          "start": 27.659333,
+          "duration": 0.110291
+        },
+        {
+          "word": "nether",
+          "start": 27.794125,
+          "duration": 0.232833
+        },
+        {
+          "word": "y",
+          "start": 28.026958,
+          "duration": 0.03675
+        },
+        {
+          "word": "shulkers",
+          "start": 28.08825,
+          "duration": 0.367625
+        },
+        {
+          "word": "sin",
+          "start": 28.455875,
+          "duration": 0.171583
+        },
+        {
+          "word": "generar",
+          "start": 28.627458,
+          "duration": 0.355375
+        },
+        {
+          "word": "una",
+          "start": 28.995083,
+          "duration": 0.159333
+        },
+        {
+          "word": "sola",
+          "start": 29.154416,
+          "duration": 0.245083
+        },
+        {
+          "word": "partícula",
+          "start": 29.473041,
+          "duration": 0.465666
+        },
+        {
+          "word": "de",
+          "start": 29.96325,
+          "duration": 0.061291
+        },
+        {
+          "word": "lag",
+          "start": 30.061291,
+          "duration": 0.245083
+        }
+      ]
+    },
+    {
+      "id": "sf7_p03_fluffy_machines",
+      "title": "FLUFFY MACHINES & AUTO-CRAFTERS",
+      "subtitle": "Ensamblado industrial recursivo sin intervención del jugador",
+      "badge": "03 // INDUSTRIA PESADA: FLUFFY MACHINES",
+      "text": "Fluffy Machines: Crafteo Autónomo en Cadena. Auto-Crafter Eléctrico: memorización de recetas complejas de Slimefun. Líneas de ensamblado continuas conectadas a barriles de suministros. De polvo de mineral a componentes cuánticos sin tocar una mesa manual.",
+      "spoken_text": "¿Cansado de hacer click derecho durante horas para fabricar componentes avanzados? Aquí es donde entra Fluffy Machines. Su joya de la corona es el Auto-Crafter Eléctrico. Esta máquina memoriza cualquier receta de Slimefun o Minecraft Vanilla, absorbe los ingredientes de tus barriles y fabrica piezas en cadena a velocidades industriales. Combinado con hornos eléctricos de alta temperatura y mesas de lavado automáticas, puedes transformar menas crudas en circuitos cuánticos terminados de forma cien por ciento desatendida.",
+      "audio_file": "sf7_p03_fluffy_machines.mp3",
+      "duration": 29.544,
+      "frames": 916,
+      "action": "interact",
+      "camera": "close",
+      "diagram": "autocrafter",
+      "words": [
+        {
+          "word": "Cansado",
+          "start": 0.099,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 0.540208,
+          "duration": 0.073541
+        },
+        {
+          "word": "hacer",
+          "start": 0.626,
+          "duration": 0.245083
+        },
+        {
+          "word": "click",
+          "start": 0.944625,
+          "duration": 0.147041
+        },
+        {
+          "word": "derecho",
+          "start": 1.140666,
+          "duration": 0.343125
+        },
+        {
+          "word": "durante",
+          "start": 1.508333,
+          "duration": 0.318625
+        },
+        {
+          "word": "horas",
+          "start": 1.839208,
+          "duration": 0.245083
+        },
+        {
+          "word": "para",
+          "start": 2.145583,
+          "duration": 0.134791
+        },
+        {
+          "word": "fabricar",
+          "start": 2.304916,
+          "duration": 0.428916
+        },
+        {
+          "word": "componentes",
+          "start": 2.770583,
+          "duration": 0.58825
+        },
+        {
+          "word": "avanzados",
+          "start": 3.358833,
+          "duration": 0.625
+        },
+        {
+          "word": "Aquí",
+          "start": 4.889708,
+          "duration": 0.294125
+        },
+        {
+          "word": "es",
+          "start": 5.196083,
+          "duration": 0.098041
+        },
+        {
+          "word": "donde",
+          "start": 5.330875,
+          "duration": 0.208333
+        },
+        {
+          "word": "entra",
+          "start": 5.539208,
+          "duration": 0.208333
+        },
+        {
+          "word": "Fluffy",
+          "start": 5.772041,
+          "duration": 0.269625
+        },
+        {
+          "word": "Machines",
+          "start": 6.078416,
+          "duration": 0.526958
+        },
+        {
+          "word": "Su",
+          "start": 7.51225,
+          "duration": 0.171583
+        },
+        {
+          "word": "joya",
+          "start": 7.708333,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 7.977958,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 8.063708,
+          "duration": 0.061291
+        },
+        {
+          "word": "corona",
+          "start": 8.186291,
+          "duration": 0.306375
+        },
+        {
+          "word": "es",
+          "start": 8.517166,
+          "duration": 0.122541
+        },
+        {
+          "word": "el",
+          "start": 8.639708,
+          "duration": 0.085791
+        },
+        {
+          "word": "Auto-Crafter",
+          "start": 8.7255,
+          "duration": 0.588208
+        },
+        {
+          "word": "Eléctrico",
+          "start": 9.313708,
+          "duration": 0.526958
+        },
+        {
+          "word": "Esta",
+          "start": 10.723041,
+          "duration": 0.245083
+        },
+        {
+          "word": "máquina",
+          "start": 10.992666,
+          "duration": 0.318625
+        },
+        {
+          "word": "memoriza",
+          "start": 11.335791,
+          "duration": 0.416666
+        },
+        {
+          "word": "cualquier",
+          "start": 11.801458,
+          "duration": 0.318625
+        },
+        {
+          "word": "receta",
+          "start": 12.120083,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 12.5245,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 12.659333,
+          "duration": 0.477958
+        },
+        {
+          "word": "o",
+          "start": 13.1495,
+          "duration": 0.049
+        },
+        {
+          "word": "Minecraft",
+          "start": 13.223041,
+          "duration": 0.441166
+        },
+        {
+          "word": "Vanilla",
+          "start": 13.7255,
+          "duration": 0.392166
+        },
+        {
+          "word": "absorbe",
+          "start": 14.33825,
+          "duration": 0.404416
+        },
+        {
+          "word": "los",
+          "start": 14.779416,
+          "duration": 0.147041
+        },
+        {
+          "word": "ingredientes",
+          "start": 14.938708,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 15.526958,
+          "duration": 0.049
+        },
+        {
+          "word": "tus",
+          "start": 15.63725,
+          "duration": 0.110291
+        },
+        {
+          "word": "barriles",
+          "start": 15.784333,
+          "duration": 0.428916
+        },
+        {
+          "word": "y",
+          "start": 16.2255,
+          "duration": 0.01225
+        },
+        {
+          "word": "fabrica",
+          "start": 16.2745,
+          "duration": 0.392166
+        },
+        {
+          "word": "piezas",
+          "start": 16.752458,
+          "duration": 0.355375
+        },
+        {
+          "word": "en",
+          "start": 17.107833,
+          "duration": 0.147041
+        },
+        {
+          "word": "cadena",
+          "start": 17.254916,
+          "duration": 0.330875
+        },
+        {
+          "word": "a",
+          "start": 17.622541,
+          "duration": 0.01225
+        },
+        {
+          "word": "velocidades",
+          "start": 17.671583,
+          "duration": 0.58825
+        },
+        {
+          "word": "industriales",
+          "start": 18.272041,
+          "duration": 0.686291
+        },
+        {
+          "word": "Combinado",
+          "start": 19.865208,
+          "duration": 0.441166
+        },
+        {
+          "word": "con",
+          "start": 20.355375,
+          "duration": 0.122541
+        },
+        {
+          "word": "hornos",
+          "start": 20.477958,
+          "duration": 0.269583
+        },
+        {
+          "word": "eléctricos",
+          "start": 20.747541,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 21.28675,
+          "duration": 0.061291
+        },
+        {
+          "word": "alta",
+          "start": 21.372541,
+          "duration": 0.220583
+        },
+        {
+          "word": "temperatura",
+          "start": 21.642166,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 22.193625,
+          "duration": 0.03675
+        },
+        {
+          "word": "mesas",
+          "start": 22.267166,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 22.598041,
+          "duration": 0.03675
+        },
+        {
+          "word": "lavado",
+          "start": 22.671583,
+          "duration": 0.269583
+        },
+        {
+          "word": "automáticas",
+          "start": 22.941166,
+          "duration": 0.674
+        },
+        {
+          "word": "puedes",
+          "start": 23.897041,
+          "duration": 0.196083
+        },
+        {
+          "word": "transformar",
+          "start": 24.142166,
+          "duration": 0.514708
+        },
+        {
+          "word": "menas",
+          "start": 24.681375,
+          "duration": 0.245083
+        },
+        {
+          "word": "crudas",
+          "start": 24.9755,
+          "duration": 0.306375
+        },
+        {
+          "word": "en",
+          "start": 25.281875,
+          "duration": 0.073541
+        },
+        {
+          "word": "circuitos",
+          "start": 25.367666,
+          "duration": 0.465666
+        },
+        {
+          "word": "cuánticos",
+          "start": 25.882333,
+          "duration": 0.404416
+        },
+        {
+          "word": "terminados",
+          "start": 26.348041,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 26.86275,
+          "duration": 0.061291
+        },
+        {
+          "word": "forma",
+          "start": 26.948541,
+          "duration": 0.294125
+        },
+        {
+          "word": "cien",
+          "start": 27.254916,
+          "duration": 0.269625
+        },
+        {
+          "word": "por",
+          "start": 27.549,
+          "duration": 0.110291
+        },
+        {
+          "word": "ciento",
+          "start": 27.671583,
+          "duration": 0.318625
+        },
+        {
+          "word": "desatendida",
+          "start": 28.014708,
+          "duration": 0.63725
+        }
+      ]
+    },
+    {
+      "id": "sf7_p04_networks_v6",
+      "title": "REDES v6 & MITIGACIÓN CRÍTICA DE DUPES",
+      "subtitle": "La auditoría técnica del plugin más desafiante de Minecraft",
+      "badge": "04 // ARQUITECTURA SRE: NETWORKS v6",
+      "text": "Redes v6: Almacenamiento Digital Blindado. Historial técnico: desincronización de barriles y dupes en chunk unloads. Auditoría DrakesCraft: corrección de race conditions en código fuente. Almacenamiento masivo instantáneo, ultra-eficiente y cien por ciento seguro.",
+      "spoken_text": "Hablemos ahora de Redes versión seis, el plugin de almacenamiento digital. A nivel técnico, Redes es una obra de arte, pero históricamente fue el dolor de cabeza de todos los servidores técnicos. En versiones anteriores, los barriles de Fluffy e Infinity se desincronizaban al descargar chunks rápidamente, generando duplicaciones masivas conocidas en la comunidad. En DrakesCraft auditamos los commits directamente en el código fuente, parcheamos los puntos de race conditions y blindamos la sincronización de inventarios. El resultado es una red de almacenamiento masivo instantánea, totalmente segura y libre de glitches.",
+      "audio_file": "sf7_p04_networks_v6.mp3",
+      "duration": 35.4,
+      "frames": 1092,
+      "action": "point",
+      "camera": "mid",
+      "diagram": "networks_core",
+      "words": [
+        {
+          "word": "Hablemos",
+          "start": 0.099,
+          "duration": 0.428916
+        },
+        {
+          "word": "ahora",
+          "start": 0.527958,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 0.785291,
+          "duration": 0.085791
+        },
+        {
+          "word": "Redes",
+          "start": 0.895583,
+          "duration": 0.257333
+        },
+        {
+          "word": "versión",
+          "start": 1.189708,
+          "duration": 0.330875
+        },
+        {
+          "word": "seis",
+          "start": 1.545083,
+          "duration": 0.318625
+        },
+        {
+          "word": "el",
+          "start": 2.096583,
+          "duration": 0.110291
+        },
+        {
+          "word": "plugin",
+          "start": 2.292666,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 2.611291,
+          "duration": 0.03675
+        },
+        {
+          "word": "almacenamiento",
+          "start": 2.648041,
+          "duration": 0.698541
+        },
+        {
+          "word": "digital",
+          "start": 3.383333,
+          "duration": 0.465666
+        },
+        {
+          "word": "A",
+          "start": 4.718125,
+          "duration": 0.085791
+        },
+        {
+          "word": "nivel",
+          "start": 4.840666,
+          "duration": 0.257333
+        },
+        {
+          "word": "técnico",
+          "start": 5.159333,
+          "duration": 0.465666
+        },
+        {
+          "word": "Redes",
+          "start": 5.870083,
+          "duration": 0.294125
+        },
+        {
+          "word": "es",
+          "start": 6.164208,
+          "duration": 0.098041
+        },
+        {
+          "word": "una",
+          "start": 6.28675,
+          "duration": 0.171583
+        },
+        {
+          "word": "obra",
+          "start": 6.470583,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 6.703416,
+          "duration": 0.085791
+        },
+        {
+          "word": "arte",
+          "start": 6.826,
+          "duration": 0.294125
+        },
+        {
+          "word": "pero",
+          "start": 7.401958,
+          "duration": 0.110291
+        },
+        {
+          "word": "históricamente",
+          "start": 7.53675,
+          "duration": 0.66175
+        },
+        {
+          "word": "fue",
+          "start": 8.235291,
+          "duration": 0.159333
+        },
+        {
+          "word": "el",
+          "start": 8.406875,
+          "duration": 0.061291
+        },
+        {
+          "word": "dolor",
+          "start": 8.517166,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 8.78675,
+          "duration": 0.061291
+        },
+        {
+          "word": "cabeza",
+          "start": 8.909333,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 9.289208,
+          "duration": 0.085791
+        },
+        {
+          "word": "todos",
+          "start": 9.485291,
+          "duration": 0.208333
+        },
+        {
+          "word": "los",
+          "start": 9.742666,
+          "duration": 0.0735
+        },
+        {
+          "word": "servidores",
+          "start": 9.816166,
+          "duration": 0.502458
+        },
+        {
+          "word": "técnicos",
+          "start": 10.379916,
+          "duration": 0.514708
+        },
+        {
+          "word": "En",
+          "start": 11.813708,
+          "duration": 0.134791
+        },
+        {
+          "word": "versiones",
+          "start": 11.997541,
+          "duration": 0.416666
+        },
+        {
+          "word": "anteriores",
+          "start": 12.414208,
+          "duration": 0.539208
+        },
+        {
+          "word": "los",
+          "start": 13.210791,
+          "duration": 0.122541
+        },
+        {
+          "word": "barriles",
+          "start": 13.370083,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 13.76225,
+          "duration": 0.049
+        },
+        {
+          "word": "Fluffy",
+          "start": 13.835791,
+          "duration": 0.330875
+        },
+        {
+          "word": "e",
+          "start": 14.191166,
+          "duration": 0.01225
+        },
+        {
+          "word": "Infinity",
+          "start": 14.227958,
+          "duration": 0.441166
+        },
+        {
+          "word": "se",
+          "start": 14.705875,
+          "duration": 0.098041
+        },
+        {
+          "word": "desincronizaban",
+          "start": 14.840666,
+          "duration": 0.784333
+        },
+        {
+          "word": "al",
+          "start": 15.63725,
+          "duration": 0.110291
+        },
+        {
+          "word": "descargar",
+          "start": 15.772041,
+          "duration": 0.453416
+        },
+        {
+          "word": "chunks",
+          "start": 16.299,
+          "duration": 0.281875
+        },
+        {
+          "word": "rápidamente",
+          "start": 16.605375,
+          "duration": 0.6495
+        },
+        {
+          "word": "generando",
+          "start": 17.4755,
+          "duration": 0.465666
+        },
+        {
+          "word": "duplicaciones",
+          "start": 17.965666,
+          "duration": 0.63725
+        },
+        {
+          "word": "masivas",
+          "start": 18.639708,
+          "duration": 0.379916
+        },
+        {
+          "word": "conocidas",
+          "start": 19.068625,
+          "duration": 0.526958
+        },
+        {
+          "word": "en",
+          "start": 19.595583,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 19.681375,
+          "duration": 0.049
+        },
+        {
+          "word": "comunidad",
+          "start": 19.791666,
+          "duration": 0.502458
+        },
+        {
+          "word": "En",
+          "start": 21.188708,
+          "duration": 0.134791
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 21.384791,
+          "duration": 0.576
+        },
+        {
+          "word": "auditamos",
+          "start": 21.960791,
+          "duration": 0.477958
+        },
+        {
+          "word": "los",
+          "start": 22.4755,
+          "duration": 0.110291
+        },
+        {
+          "word": "commits",
+          "start": 22.634791,
+          "duration": 0.257333
+        },
+        {
+          "word": "directamente",
+          "start": 22.928916,
+          "duration": 0.6005
+        },
+        {
+          "word": "en",
+          "start": 23.541666,
+          "duration": 0.061291
+        },
+        {
+          "word": "el",
+          "start": 23.602958,
+          "duration": 0.098041
+        },
+        {
+          "word": "código",
+          "start": 23.76225,
+          "duration": 0.318625
+        },
+        {
+          "word": "fuente",
+          "start": 24.117666,
+          "duration": 0.343125
+        },
+        {
+          "word": "parcheamos",
+          "start": 24.730375,
+          "duration": 0.441166
+        },
+        {
+          "word": "los",
+          "start": 25.208333,
+          "duration": 0.098041
+        },
+        {
+          "word": "puntos",
+          "start": 25.392166,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 25.723041,
+          "duration": 0.061291
+        },
+        {
+          "word": "race",
+          "start": 25.808833,
+          "duration": 0.171583
+        },
+        {
+          "word": "conditions",
+          "start": 26.029416,
+          "duration": 0.551458
+        },
+        {
+          "word": "y",
+          "start": 26.593125,
+          "duration": 0.01225
+        },
+        {
+          "word": "blindamos",
+          "start": 26.654416,
+          "duration": 0.404416
+        },
+        {
+          "word": "la",
+          "start": 27.095583,
+          "duration": 0.073541
+        },
+        {
+          "word": "sincronización",
+          "start": 27.181375,
+          "duration": 0.710791
+        },
+        {
+          "word": "de",
+          "start": 27.941166,
+          "duration": 0.049
+        },
+        {
+          "word": "inventarios",
+          "start": 28.014708,
+          "duration": 0.6495
+        },
+        {
+          "word": "El",
+          "start": 29.571083,
+          "duration": 0.147041
+        },
+        {
+          "word": "resultado",
+          "start": 29.730375,
+          "duration": 0.465666
+        },
+        {
+          "word": "es",
+          "start": 30.208333,
+          "duration": 0.098041
+        },
+        {
+          "word": "una",
+          "start": 30.330875,
+          "duration": 0.159333
+        },
+        {
+          "word": "red",
+          "start": 30.502458,
+          "duration": 0.159333
+        },
+        {
+          "word": "de",
+          "start": 30.710791,
+          "duration": 0.049
+        },
+        {
+          "word": "almacenamiento",
+          "start": 30.759791,
+          "duration": 0.66175
+        },
+        {
+          "word": "masivo",
+          "start": 31.446083,
+          "duration": 0.306375
+        },
+        {
+          "word": "instantánea",
+          "start": 31.776958,
+          "duration": 0.6005
+        },
+        {
+          "word": "totalmente",
+          "start": 32.610291,
+          "duration": 0.502458
+        },
+        {
+          "word": "segura",
+          "start": 33.13725,
+          "duration": 0.355375
+        },
+        {
+          "word": "y",
+          "start": 33.541666,
+          "duration": 0.049
+        },
+        {
+          "word": "libre",
+          "start": 33.602958,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 33.897041,
+          "duration": 0.073541
+        },
+        {
+          "word": "glitches",
+          "start": 34.007333,
+          "duration": 0.477958
+        }
+      ]
+    },
+    {
+      "id": "sf7_p05_sre_lag_mitigation",
+      "title": "CÓMO AUTOMATIZAR SIN LAG: REGLAS SRE",
+      "subtitle": "Por qué las tolvas de Vanilla ahogan el CPU a gran escala",
+      "badge": "05 // INGENIERÍA: CERO LAG A 20.0 TPS",
+      "text": "Reglas SRE Anti-Lag para Bases Industriales. El peligro de las tolvas: escaneos continuos en el hilo principal del servidor. Solución Slimefun & Redes: transferencia atómica por punteros en memoria RAM. Mantén tu factoría masiva a 20.0 TPS estables sin penalizar el rendimiento.",
+      "spoken_text": "La regla de oro de DrakesCraft es simple: cero lag para todos. Muchas personas intentan conectar tolvas de Minecraft Vanilla a sus máquinas de Slimefun, sin saber que una tolva vacía consulta el inventario veinte veces por segundo en el hilo principal del servidor. Cincuenta tolvas pueden congelar un servidor entero. En cambio, los Nodos de Carga de Slimefun y los cables de Redes v6 operan mediante punteros en memoria RAM, moviendo miles de ítems por tick sin crear entidades de bloque. Automatiza con lógica SRE: menos tolvas físicas, más redes directas.",
+      "audio_file": "sf7_p05_sre_lag_mitigation.mp3",
+      "duration": 32.976,
+      "frames": 1019,
+      "action": "interact",
+      "camera": "close",
+      "diagram": "lag_architecture",
+      "words": [
+        {
+          "word": "La",
+          "start": 0.099,
+          "duration": 0.171583
+        },
+        {
+          "word": "regla",
+          "start": 0.295083,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 0.564708,
+          "duration": 0.098041
+        },
+        {
+          "word": "oro",
+          "start": 0.68725,
+          "duration": 0.159333
+        },
+        {
+          "word": "de",
+          "start": 0.871083,
+          "duration": 0.073541
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 0.981375,
+          "duration": 0.625
+        },
+        {
+          "word": "es",
+          "start": 1.618625,
+          "duration": 0.073541
+        },
+        {
+          "word": "simple",
+          "start": 1.692166,
+          "duration": 0.379916
+        },
+        {
+          "word": "cero",
+          "start": 2.268125,
+          "duration": 0.245083
+        },
+        {
+          "word": "lag",
+          "start": 2.53775,
+          "duration": 0.171583
+        },
+        {
+          "word": "para",
+          "start": 2.770583,
+          "duration": 0.147041
+        },
+        {
+          "word": "todos",
+          "start": 2.991166,
+          "duration": 0.355375
+        },
+        {
+          "word": "Muchas",
+          "start": 4.252458,
+          "duration": 0.306375
+        },
+        {
+          "word": "personas",
+          "start": 4.620083,
+          "duration": 0.367666
+        },
+        {
+          "word": "intentan",
+          "start": 5.0,
+          "duration": 0.416666
+        },
+        {
+          "word": "conectar",
+          "start": 5.416666,
+          "duration": 0.367666
+        },
+        {
+          "word": "tolvas",
+          "start": 5.870083,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 6.164208,
+          "duration": 0.049
+        },
+        {
+          "word": "Minecraft",
+          "start": 6.25,
+          "duration": 0.453416
+        },
+        {
+          "word": "Vanilla",
+          "start": 6.764708,
+          "duration": 0.306375
+        },
+        {
+          "word": "a",
+          "start": 7.095583,
+          "duration": 0.0245
+        },
+        {
+          "word": "sus",
+          "start": 7.120083,
+          "duration": 0.183833
+        },
+        {
+          "word": "máquinas",
+          "start": 7.340666,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 7.769625,
+          "duration": 0.03675
+        },
+        {
+          "word": "Slimefun",
+          "start": 7.867666,
+          "duration": 0.551458
+        },
+        {
+          "word": "sin",
+          "start": 8.627458,
+          "duration": 0.183833
+        },
+        {
+          "word": "saber",
+          "start": 8.811291,
+          "duration": 0.269625
+        },
+        {
+          "word": "que",
+          "start": 9.142166,
+          "duration": 0.073541
+        },
+        {
+          "word": "una",
+          "start": 9.252458,
+          "duration": 0.159333
+        },
+        {
+          "word": "tolva",
+          "start": 9.497541,
+          "duration": 0.196083
+        },
+        {
+          "word": "vacía",
+          "start": 9.718125,
+          "duration": 0.306375
+        },
+        {
+          "word": "consulta",
+          "start": 10.085791,
+          "duration": 0.441166
+        },
+        {
+          "word": "el",
+          "start": 10.526958,
+          "duration": 0.061291
+        },
+        {
+          "word": "inventario",
+          "start": 10.58825,
+          "duration": 0.539208
+        },
+        {
+          "word": "veinte",
+          "start": 11.164208,
+          "duration": 0.269625
+        },
+        {
+          "word": "veces",
+          "start": 11.470583,
+          "duration": 0.281875
+        },
+        {
+          "word": "por",
+          "start": 11.826,
+          "duration": 0.098041
+        },
+        {
+          "word": "segundo",
+          "start": 11.936291,
+          "duration": 0.367625
+        },
+        {
+          "word": "en",
+          "start": 12.303916,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 12.389708,
+          "duration": 0.122541
+        },
+        {
+          "word": "hilo",
+          "start": 12.5245,
+          "duration": 0.171583
+        },
+        {
+          "word": "principal",
+          "start": 12.757333,
+          "duration": 0.453416
+        },
+        {
+          "word": "del",
+          "start": 13.247541,
+          "duration": 0.122541
+        },
+        {
+          "word": "servidor",
+          "start": 13.370083,
+          "duration": 0.514708
+        },
+        {
+          "word": "Cincuenta",
+          "start": 14.754916,
+          "duration": 0.477958
+        },
+        {
+          "word": "tolvas",
+          "start": 15.306375,
+          "duration": 0.269625
+        },
+        {
+          "word": "pueden",
+          "start": 15.66175,
+          "duration": 0.245083
+        },
+        {
+          "word": "congelar",
+          "start": 15.906875,
+          "duration": 0.404416
+        },
+        {
+          "word": "un",
+          "start": 16.323541,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 16.433833,
+          "duration": 0.428916
+        },
+        {
+          "word": "entero",
+          "start": 16.86275,
+          "duration": 0.367666
+        },
+        {
+          "word": "En",
+          "start": 18.11275,
+          "duration": 0.208333
+        },
+        {
+          "word": "cambio",
+          "start": 18.333333,
+          "duration": 0.330875
+        },
+        {
+          "word": "los",
+          "start": 18.909333,
+          "duration": 0.147041
+        },
+        {
+          "word": "Nodos",
+          "start": 19.080875,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 19.36275,
+          "duration": 0.049
+        },
+        {
+          "word": "Carga",
+          "start": 19.485291,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 19.767166,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 19.889708,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 20.379916,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 20.453416,
+          "duration": 0.122541
+        },
+        {
+          "word": "cables",
+          "start": 20.625,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 20.943625,
+          "duration": 0.073541
+        },
+        {
+          "word": "Redes",
+          "start": 21.053916,
+          "duration": 0.294125
+        },
+        {
+          "word": "v6",
+          "start": 21.360291,
+          "duration": 0.4411669
+        },
+        {
+          "word": "operan",
+          "start": 21.801458,
+          "duration": 0.306375
+        },
+        {
+          "word": "mediante",
+          "start": 22.169125,
+          "duration": 0.343125
+        },
+        {
+          "word": "punteros",
+          "start": 22.585791,
+          "duration": 0.441166
+        },
+        {
+          "word": "en",
+          "start": 23.026958,
+          "duration": 0.061291
+        },
+        {
+          "word": "memoria",
+          "start": 23.13725,
+          "duration": 0.379916
+        },
+        {
+          "word": "RAM",
+          "start": 23.541666,
+          "duration": 0.257333
+        },
+        {
+          "word": "moviendo",
+          "start": 24.007333,
+          "duration": 0.379916
+        },
+        {
+          "word": "miles",
+          "start": 24.424,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 24.742666,
+          "duration": 0.073541
+        },
+        {
+          "word": "ítems",
+          "start": 24.865208,
+          "duration": 0.269625
+        },
+        {
+          "word": "por",
+          "start": 25.208333,
+          "duration": 0.110291
+        },
+        {
+          "word": "tick",
+          "start": 25.416666,
+          "duration": 0.134791
+        },
+        {
+          "word": "sin",
+          "start": 25.576,
+          "duration": 0.220583
+        },
+        {
+          "word": "crear",
+          "start": 25.796583,
+          "duration": 0.208333
+        },
+        {
+          "word": "entidades",
+          "start": 26.004916,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 26.507333,
+          "duration": 0.061291
+        },
+        {
+          "word": "bloque",
+          "start": 26.605375,
+          "duration": 0.330875
+        },
+        {
+          "word": "Automatiza",
+          "start": 27.830875,
+          "duration": 0.6005
+        },
+        {
+          "word": "con",
+          "start": 28.492666,
+          "duration": 0.110291
+        },
+        {
+          "word": "lógica",
+          "start": 28.627458,
+          "duration": 0.404416
+        },
+        {
+          "word": "SRE",
+          "start": 29.080875,
+          "duration": 0.453416
+        },
+        {
+          "word": "menos",
+          "start": 29.767166,
+          "duration": 0.281875
+        },
+        {
+          "word": "tolvas",
+          "start": 30.122541,
+          "duration": 0.257333
+        },
+        {
+          "word": "físicas",
+          "start": 30.404416,
+          "duration": 0.465666
+        },
+        {
+          "word": "más",
+          "start": 31.090666,
+          "duration": 0.196083
+        },
+        {
+          "word": "redes",
+          "start": 31.28675,
+          "duration": 0.257333
+        },
+        {
+          "word": "directas",
+          "start": 31.580875,
+          "duration": 0.502458
+        }
+      ]
+    },
+    {
+      "id": "sf7_p06_starter_commands",
+      "title": "COMANDOS DE INICIO & COMUNIDAD DRAKES",
+      "subtitle": "/pwarp xp, protección de tierras y soporte autónomo SAORI",
+      "badge": "06 // COMUNIDAD: DRAKES & SAORI",
+      "text": "Inicio Rápido & Comunidad DrakesCraft. /pwarp xp: granja comunitaria para encantar tus primeros ítems. Protección de Tierras: claims blindados contra griefing y robos. SAORI 24/7 en Discord (discord.gg/drakescraft) | IP: play.drakescraft.cl",
+      "spoken_text": "Si estás recién comenzando en DrakesCraft, no tienes que empezar desde cero ni temer que te roben tus máquinas. Usa el comando barra pe warp xp para acceder de inmediato a la granja pública de experiencia comunitaria. Protege tu zona con los bloques de protección de tierras para que tu factoría sea inexpugnable. Y recuerda: nuestro sistema de inteligencia artificial SAORI está monitoreando la red veinticuatro siete, respondiendo dudas en nuestro Discord oficial y vigilando la salud de la infraestructura. Únete hoy en play punto drakescraft punto ce ele y forma parte de la mejor comunidad técnica.",
+      "audio_file": "sf7_p06_starter_commands.mp3",
+      "duration": 33.096,
+      "frames": 1022,
+      "action": "wave",
+      "camera": "mid",
+      "diagram": "community_drakes",
+      "words": [
+        {
+          "word": "Si",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "estás",
+          "start": 0.295083,
+          "duration": 0.232833
+        },
+        {
+          "word": "recién",
+          "start": 0.527958,
+          "duration": 0.318625
+        },
+        {
+          "word": "comenzando",
+          "start": 0.846583,
+          "duration": 0.465666
+        },
+        {
+          "word": "en",
+          "start": 1.31225,
+          "duration": 0.073541
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 1.434791,
+          "duration": 0.58825
+        },
+        {
+          "word": "no",
+          "start": 2.255875,
+          "duration": 0.122541
+        },
+        {
+          "word": "tienes",
+          "start": 2.439708,
+          "duration": 0.220583
+        },
+        {
+          "word": "que",
+          "start": 2.709333,
+          "duration": 0.03675
+        },
+        {
+          "word": "empezar",
+          "start": 2.758333,
+          "duration": 0.392166
+        },
+        {
+          "word": "desde",
+          "start": 3.18725,
+          "duration": 0.220583
+        },
+        {
+          "word": "cero",
+          "start": 3.432333,
+          "duration": 0.220583
+        },
+        {
+          "word": "ni",
+          "start": 3.689708,
+          "duration": 0.073541
+        },
+        {
+          "word": "temer",
+          "start": 3.83675,
+          "duration": 0.232833
+        },
+        {
+          "word": "que",
+          "start": 4.130875,
+          "duration": 0.073541
+        },
+        {
+          "word": "te",
+          "start": 4.277958,
+          "duration": 0.049
+        },
+        {
+          "word": "roben",
+          "start": 4.363708,
+          "duration": 0.330875
+        },
+        {
+          "word": "tus",
+          "start": 4.694625,
+          "duration": 0.122541
+        },
+        {
+          "word": "máquinas",
+          "start": 4.853916,
+          "duration": 0.502458
+        },
+        {
+          "word": "Usa",
+          "start": 6.25,
+          "duration": 0.196083
+        },
+        {
+          "word": "el",
+          "start": 6.446083,
+          "duration": 0.061291
+        },
+        {
+          "word": "comando",
+          "start": 6.556375,
+          "duration": 0.330875
+        },
+        {
+          "word": "barra",
+          "start": 6.91175,
+          "duration": 0.232833
+        },
+        {
+          "word": "pe",
+          "start": 7.218125,
+          "duration": 0.049
+        },
+        {
+          "word": "warp",
+          "start": 7.303916,
+          "duration": 0.257333
+        },
+        {
+          "word": "xp",
+          "start": 7.573541,
+          "duration": 0.392166
+        },
+        {
+          "word": "para",
+          "start": 8.051458,
+          "duration": 0.134791
+        },
+        {
+          "word": "acceder",
+          "start": 8.210791,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 8.590666,
+          "duration": 0.073541
+        },
+        {
+          "word": "inmediato",
+          "start": 8.701,
+          "duration": 0.428916
+        },
+        {
+          "word": "a",
+          "start": 9.129916,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 9.191166,
+          "duration": 0.085791
+        },
+        {
+          "word": "granja",
+          "start": 9.313708,
+          "duration": 0.294125
+        },
+        {
+          "word": "pública",
+          "start": 9.693625,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 10.085791,
+          "duration": 0.061291
+        },
+        {
+          "word": "experiencia",
+          "start": 10.208333,
+          "duration": 0.526958
+        },
+        {
+          "word": "comunitaria",
+          "start": 10.796583,
+          "duration": 0.61275
+        },
+        {
+          "word": "Protege",
+          "start": 12.279416,
+          "duration": 0.379916
+        },
+        {
+          "word": "tu",
+          "start": 12.732833,
+          "duration": 0.073541
+        },
+        {
+          "word": "zona",
+          "start": 12.830875,
+          "duration": 0.220583
+        },
+        {
+          "word": "con",
+          "start": 13.1005,
+          "duration": 0.073541
+        },
+        {
+          "word": "los",
+          "start": 13.198541,
+          "duration": 0.110291
+        },
+        {
+          "word": "bloques",
+          "start": 13.357833,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 13.676458,
+          "duration": 0.049
+        },
+        {
+          "word": "protección",
+          "start": 13.7745,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 14.215666,
+          "duration": 0.049
+        },
+        {
+          "word": "tierras",
+          "start": 14.3505,
+          "duration": 0.281875
+        },
+        {
+          "word": "para",
+          "start": 14.705875,
+          "duration": 0.134791
+        },
+        {
+          "word": "que",
+          "start": 14.901958,
+          "duration": 0.049
+        },
+        {
+          "word": "tu",
+          "start": 15.0,
+          "duration": 0.049
+        },
+        {
+          "word": "factoría",
+          "start": 15.073541,
+          "duration": 0.490208
+        },
+        {
+          "word": "sea",
+          "start": 15.576,
+          "duration": 0.220583
+        },
+        {
+          "word": "inexpugnable",
+          "start": 15.833333,
+          "duration": 0.686291
+        },
+        {
+          "word": "Y",
+          "start": 17.401958,
+          "duration": 0.098041
+        },
+        {
+          "word": "recuerda",
+          "start": 17.5245,
+          "duration": 0.477958
+        },
+        {
+          "word": "nuestro",
+          "start": 18.198541,
+          "duration": 0.269625
+        },
+        {
+          "word": "sistema",
+          "start": 18.492666,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 18.897041,
+          "duration": 0.073541
+        },
+        {
+          "word": "inteligencia",
+          "start": 18.995083,
+          "duration": 0.551458
+        },
+        {
+          "word": "artificial",
+          "start": 19.546583,
+          "duration": 0.526958
+        },
+        {
+          "word": "SAORI",
+          "start": 20.085791,
+          "duration": 0.330875
+        },
+        {
+          "word": "está",
+          "start": 20.453416,
+          "duration": 0.171583
+        },
+        {
+          "word": "monitoreando",
+          "start": 20.6495,
+          "duration": 0.58825
+        },
+        {
+          "word": "la",
+          "start": 21.2745,
+          "duration": 0.098041
+        },
+        {
+          "word": "red",
+          "start": 21.384791,
+          "duration": 0.159333
+        },
+        {
+          "word": "veinticuatro",
+          "start": 21.580875,
+          "duration": 0.514708
+        },
+        {
+          "word": "siete",
+          "start": 22.120083,
+          "duration": 0.355375
+        },
+        {
+          "word": "respondiendo",
+          "start": 22.720583,
+          "duration": 0.563708
+        },
+        {
+          "word": "dudas",
+          "start": 23.308833,
+          "duration": 0.318625
+        },
+        {
+          "word": "en",
+          "start": 23.627458,
+          "duration": 0.061291
+        },
+        {
+          "word": "nuestro",
+          "start": 23.701,
+          "duration": 0.257333
+        },
+        {
+          "word": "Discord",
+          "start": 23.995083,
+          "duration": 0.392166
+        },
+        {
+          "word": "oficial",
+          "start": 24.3995,
+          "duration": 0.404416
+        },
+        {
+          "word": "y",
+          "start": 24.803916,
+          "duration": 0.03675
+        },
+        {
+          "word": "vigilando",
+          "start": 24.889708,
+          "duration": 0.465666
+        },
+        {
+          "word": "la",
+          "start": 25.379916,
+          "duration": 0.098041
+        },
+        {
+          "word": "salud",
+          "start": 25.477958,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 25.808833,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 25.894625,
+          "duration": 0.03675
+        },
+        {
+          "word": "infraestructura",
+          "start": 25.980375,
+          "duration": 0.747541
+        },
+        {
+          "word": "Únete",
+          "start": 27.598041,
+          "duration": 0.318625
+        },
+        {
+          "word": "hoy",
+          "start": 27.928916,
+          "duration": 0.110291
+        },
+        {
+          "word": "en",
+          "start": 28.063708,
+          "duration": 0.134791
+        },
+        {
+          "word": "play",
+          "start": 28.210791,
+          "duration": 0.134791
+        },
+        {
+          "word": "punto",
+          "start": 28.431375,
+          "duration": 0.245083
+        },
+        {
+          "word": "drakescraft",
+          "start": 28.701,
+          "duration": 0.539208
+        },
+        {
+          "word": "punto",
+          "start": 29.326,
+          "duration": 0.245083
+        },
+        {
+          "word": "ce",
+          "start": 29.583333,
+          "duration": 0.232833
+        },
+        {
+          "word": "ele",
+          "start": 29.865208,
+          "duration": 0.147041
+        },
+        {
+          "word": "y",
+          "start": 30.049,
+          "duration": 0.0245
+        },
+        {
+          "word": "forma",
+          "start": 30.098041,
+          "duration": 0.294125
+        },
+        {
+          "word": "parte",
+          "start": 30.477958,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 30.759791,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 30.857833,
+          "duration": 0.061291
+        },
+        {
+          "word": "mejor",
+          "start": 30.943625,
+          "duration": 0.294125
+        },
+        {
+          "word": "comunidad",
+          "start": 31.299,
+          "duration": 0.441166
+        },
+        {
+          "word": "técnica",
+          "start": 31.789208,
+          "duration": 0.441166
+        }
+      ]
+    }
+  ]
+}
