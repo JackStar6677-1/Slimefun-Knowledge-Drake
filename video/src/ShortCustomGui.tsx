@@ -5,6 +5,7 @@ import { T } from "./std/theme";
 import { Steve3D, SteveAction } from "./std/Steve3D";
 import { Captions } from "./std/Captions";
 import { ThreeCanvas } from "@remotion/three";
+import { SatisfyingPhysicsWidget } from "./std/SatisfyingPhysicsWidget";
 import customGuiData from "./short-customgui.json";
 
 export const CUSTOMGUI_FRAMES = Math.round(customGuiData.duration * 30) + 45; // ~970 frames
@@ -80,18 +81,28 @@ export const ShortCustomGui: React.FC = () => {
         </div>
       </div>
 
-      {/* 3. Escena 3D Superior (Jack + Reactor Nuclear 3D + Items flotantes) */}
-      <div style={{ position: "absolute", top: 120, left: 0, width: 1080, height: 860, zIndex: 10 }}>
+      {/* 3. Escena 3D Superior (Jack + Reactor Nuclear 3D + Pedestal tech) */}
+      <div style={{ position: "absolute", top: 120, left: 0, width: 680, height: 820, zIndex: 10 }}>
         <ThreeCanvas
-          width={1080}
-          height={860}
-          camera={{ position: [0, 1.6, 4.0], fov: 40 }}
+          width={680}
+          height={820}
+          camera={{ position: [0, 1.25, 4.3], fov: 38 }}
           style={{ background: "transparent" }}
         >
           <ambientLight intensity={1.3} />
           <directionalLight position={[4, 6, 4]} intensity={1.8} color="#ffffff" />
           <pointLight position={[-3, 2, 2]} color="#10b981" intensity={2.4} distance={8} />
           <pointLight position={[3, -1, 1]} color="#38bdf8" intensity={1.6} distance={6} />
+
+          {/* Pedestal tech flotante */}
+          <mesh position={[0, -0.9, 0]}>
+            <cylinderGeometry args={[1.3, 1.45, 0.15, 32]} />
+            <meshStandardMaterial color="#0f172a" roughness={0.3} metalness={0.8} />
+          </mesh>
+          <mesh position={[0, -0.81, 0]}>
+            <cylinderGeometry args={[1.25, 1.25, 0.02, 32]} />
+            <meshBasicMaterial color="#10b981" />
+          </mesh>
 
           {/* Bloque 3D de Reactor Nuclear a la derecha */}
           <group position={[0.65, 0.25, 0.8]} rotation={[frame * 0.015, frame * 0.02, 0]}>
@@ -112,11 +123,16 @@ export const ShortCustomGui: React.FC = () => {
               position={pos}
               rotation={rot}
               action={action}
-              scale={1.3}
+              scale={1.05}
               skinPartPath="skins_parts/JackStar6677"
             />
           </group>
         </ThreeCanvas>
+      </div>
+
+      {/* Widget Viral de Entretenimiento y Física */}
+      <div style={{ position: "absolute", top: 130, right: 50, zIndex: 35 }}>
+        <SatisfyingPhysicsWidget width={370} height={370} />
       </div>
 
       {/* 4. Panel Técnico Central (Explicación NBT / Resource Pack) */}

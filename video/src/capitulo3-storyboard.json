@@ -1,0 +1,2085 @@
+{
+  "chapter": 3,
+  "title": "Capítulo 3 — El Enjambre Centinela: SAORI & Resiliencia en Tiempo Real",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "c3_p01_intro",
+      "title": "EL DESAFÍO DE LA ESTABILIDAD 24/7",
+      "subtitle": "La falacia del reinicio a ciegas en clusters de juego",
+      "badge": "01 // SRE PRINCIPLE: ZERO BLIND RESTARTS",
+      "text": "En la mayoría de servidores comunitarios, cuando la latencia sube, la respuesta habitual es reiniciar a ciegas. En DrakesCraft consideramos esa práctica inaceptable. Reiniciar sin investigar destruye la evidencia forense y castiga al jugador.",
+      "spoken_text": "En la mayoría de los servidores comunitarios, cuando el rendimiento se degrada o la latencia sube, la respuesta habitual de los administradores suele ser reiniciar la máquina a ciegas. En DrakesCraft consideramos esa práctica inaceptable. Reiniciar sin investigar destruye la evidencia forense y castiga a los jugadores.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "sentinel_loop",
+      "audio_file": "cap3_p01_intro.mp3",
+      "duration": 18.12,
+      "frames": 558,
+      "words": [
+        {
+          "word": "En",
+          "start": 0.099,
+          "duration": 0.110291
+        },
+        {
+          "word": "la",
+          "start": 0.246083,
+          "duration": 0.073541
+        },
+        {
+          "word": "mayoría",
+          "start": 0.344125,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 0.736291,
+          "duration": 0.073541
+        },
+        {
+          "word": "los",
+          "start": 0.834333,
+          "duration": 0.110291
+        },
+        {
+          "word": "servidores",
+          "start": 0.944625,
+          "duration": 0.465666
+        },
+        {
+          "word": "comunitarios",
+          "start": 1.447041,
+          "duration": 0.63725
+        },
+        {
+          "word": "cuando",
+          "start": 2.353916,
+          "duration": 0.171583
+        },
+        {
+          "word": "el",
+          "start": 2.5255,
+          "duration": 0.073541
+        },
+        {
+          "word": "rendimiento",
+          "start": 2.611291,
+          "duration": 0.502458
+        },
+        {
+          "word": "se",
+          "start": 3.126,
+          "duration": 0.110291
+        },
+        {
+          "word": "degrada",
+          "start": 3.273041,
+          "duration": 0.367666
+        },
+        {
+          "word": "o",
+          "start": 3.652958,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 3.726458,
+          "duration": 0.098041
+        },
+        {
+          "word": "latencia",
+          "start": 3.83675,
+          "duration": 0.416666
+        },
+        {
+          "word": "sube",
+          "start": 4.265666,
+          "duration": 0.330875
+        },
+        {
+          "word": "la",
+          "start": 4.804916,
+          "duration": 0.122541
+        },
+        {
+          "word": "respuesta",
+          "start": 4.939708,
+          "duration": 0.428916
+        },
+        {
+          "word": "habitual",
+          "start": 5.368625,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 5.748541,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 5.822041,
+          "duration": 0.159333
+        },
+        {
+          "word": "administradores",
+          "start": 5.981375,
+          "duration": 0.710791
+        },
+        {
+          "word": "suele",
+          "start": 6.692166,
+          "duration": 0.257333
+        },
+        {
+          "word": "ser",
+          "start": 6.974,
+          "duration": 0.196083
+        },
+        {
+          "word": "reiniciar",
+          "start": 7.170083,
+          "duration": 0.490208
+        },
+        {
+          "word": "la",
+          "start": 7.672541,
+          "duration": 0.085791
+        },
+        {
+          "word": "máquina",
+          "start": 7.782833,
+          "duration": 0.343125
+        },
+        {
+          "word": "a",
+          "start": 8.16275,
+          "duration": 0.03675
+        },
+        {
+          "word": "ciegas",
+          "start": 8.21175,
+          "duration": 0.465666
+        },
+        {
+          "word": "En",
+          "start": 9.583333,
+          "duration": 0.134791
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 9.779416,
+          "duration": 0.563708
+        },
+        {
+          "word": "consideramos",
+          "start": 10.416666,
+          "duration": 0.63725
+        },
+        {
+          "word": "esa",
+          "start": 11.053916,
+          "duration": 0.196083
+        },
+        {
+          "word": "práctica",
+          "start": 11.335791,
+          "duration": 0.379916
+        },
+        {
+          "word": "inaceptable",
+          "start": 11.740208,
+          "duration": 0.625
+        },
+        {
+          "word": "Reiniciar",
+          "start": 13.259791,
+          "duration": 0.477958
+        },
+        {
+          "word": "sin",
+          "start": 13.76225,
+          "duration": 0.147041
+        },
+        {
+          "word": "investigar",
+          "start": 13.909333,
+          "duration": 0.477958
+        },
+        {
+          "word": "destruye",
+          "start": 14.41175,
+          "duration": 0.428916
+        },
+        {
+          "word": "la",
+          "start": 14.865208,
+          "duration": 0.061291
+        },
+        {
+          "word": "evidencia",
+          "start": 14.98775,
+          "duration": 0.416666
+        },
+        {
+          "word": "forense",
+          "start": 15.428916,
+          "duration": 0.416666
+        },
+        {
+          "word": "y",
+          "start": 15.870083,
+          "duration": 0.0245
+        },
+        {
+          "word": "castiga",
+          "start": 15.955875,
+          "duration": 0.441166
+        },
+        {
+          "word": "a",
+          "start": 16.409333,
+          "duration": 0.03675
+        },
+        {
+          "word": "los",
+          "start": 16.446083,
+          "duration": 0.122541
+        },
+        {
+          "word": "jugadores",
+          "start": 16.605375,
+          "duration": 0.61275
+        }
+      ]
+    },
+    {
+      "id": "c3_p02_acronym",
+      "title": "QUÉ ES EXACTAMENTE SAORI",
+      "subtitle": "Server Autonomous Orchestrator for Resilient Infrastructure",
+      "badge": "02 // ARCHITECTURE: S.A.O.R.I. SYSTEM",
+      "text": "Para resolver este dilema diseñamos SAORI. No es un simple bot decorativo. Son siglas: Server Autonomous Orchestrator for Resilient Infrastructure. Un enjambre de servicios desarrollado a medida que supervisa el clúster de forma ininterrumpida.",
+      "spoken_text": "Para resolver este dilema diseñamos SAORI. No es un simple bot de discord ni un nombre decorativo. Son las siglas de Server Autonomous Orchestrator for Resilient Infrastructure. Es un enjambre de servicios desarrollado a medida que supervisa todo el clúster de forma ininterrumpida.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "saori_architecture",
+      "audio_file": "cap3_p02_acronym.mp3",
+      "duration": 16.656,
+      "frames": 514,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.183833
+        },
+        {
+          "word": "resolver",
+          "start": 0.307333,
+          "duration": 0.392166
+        },
+        {
+          "word": "este",
+          "start": 0.6995,
+          "duration": 0.208333
+        },
+        {
+          "word": "dilema",
+          "start": 0.944625,
+          "duration": 0.294125
+        },
+        {
+          "word": "diseñamos",
+          "start": 1.26325,
+          "duration": 0.490166
+        },
+        {
+          "word": "SAORI",
+          "start": 1.753416,
+          "duration": 0.355375
+        },
+        {
+          "word": "No",
+          "start": 2.977958,
+          "duration": 0.183833
+        },
+        {
+          "word": "es",
+          "start": 3.198541,
+          "duration": 0.110291
+        },
+        {
+          "word": "un",
+          "start": 3.321083,
+          "duration": 0.098041
+        },
+        {
+          "word": "simple",
+          "start": 3.431375,
+          "duration": 0.306375
+        },
+        {
+          "word": "bot",
+          "start": 3.7745,
+          "duration": 0.134791
+        },
+        {
+          "word": "de",
+          "start": 3.946083,
+          "duration": 0.061291
+        },
+        {
+          "word": "discord",
+          "start": 4.044125,
+          "duration": 0.404416
+        },
+        {
+          "word": "ni",
+          "start": 4.473041,
+          "duration": 0.085791
+        },
+        {
+          "word": "un",
+          "start": 4.571083,
+          "duration": 0.110291
+        },
+        {
+          "word": "nombre",
+          "start": 4.693625,
+          "duration": 0.269625
+        },
+        {
+          "word": "decorativo",
+          "start": 4.98775,
+          "duration": 0.58825
+        },
+        {
+          "word": "Son",
+          "start": 6.458333,
+          "duration": 0.245083
+        },
+        {
+          "word": "las",
+          "start": 6.715666,
+          "duration": 0.098041
+        },
+        {
+          "word": "siglas",
+          "start": 6.813708,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 7.156875,
+          "duration": 0.061291
+        },
+        {
+          "word": "Server",
+          "start": 7.242666,
+          "duration": 0.318625
+        },
+        {
+          "word": "Autonomous",
+          "start": 7.573541,
+          "duration": 0.477916
+        },
+        {
+          "word": "Orchestrator",
+          "start": 8.051458,
+          "duration": 0.551458
+        },
+        {
+          "word": "for",
+          "start": 8.639708,
+          "duration": 0.159333
+        },
+        {
+          "word": "Resilient",
+          "start": 8.823541,
+          "duration": 0.477958
+        },
+        {
+          "word": "Infrastructure",
+          "start": 9.313708,
+          "duration": 0.674
+        },
+        {
+          "word": "Es",
+          "start": 10.870083,
+          "duration": 0.147041
+        },
+        {
+          "word": "un",
+          "start": 11.041666,
+          "duration": 0.073541
+        },
+        {
+          "word": "enjambre",
+          "start": 11.115208,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 11.556375,
+          "duration": 0.073541
+        },
+        {
+          "word": "servicios",
+          "start": 11.642166,
+          "duration": 0.441166
+        },
+        {
+          "word": "desarrollado",
+          "start": 12.120083,
+          "duration": 0.58825
+        },
+        {
+          "word": "a",
+          "start": 12.708333,
+          "duration": 0.0245
+        },
+        {
+          "word": "medida",
+          "start": 12.757333,
+          "duration": 0.318625
+        },
+        {
+          "word": "que",
+          "start": 13.13725,
+          "duration": 0.061291
+        },
+        {
+          "word": "supervisa",
+          "start": 13.223041,
+          "duration": 0.576
+        },
+        {
+          "word": "todo",
+          "start": 13.884791,
+          "duration": 0.171583
+        },
+        {
+          "word": "el",
+          "start": 14.056375,
+          "duration": 0.073541
+        },
+        {
+          "word": "clúster",
+          "start": 14.203416,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 14.583333,
+          "duration": 0.085791
+        },
+        {
+          "word": "forma",
+          "start": 14.693625,
+          "duration": 0.257333
+        },
+        {
+          "word": "ininterrumpida",
+          "start": 14.98775,
+          "duration": 0.784333
+        }
+      ]
+    },
+    {
+      "id": "c3_p03_telemetry",
+      "title": "TELEMETRÍA DE RED EN TIEMPO REAL",
+      "subtitle": "Sondeo de socket raw cada segundo sobre el puerto 25565",
+      "badge": "03 // TELEMETRY: RAW SOCKET POLLING",
+      "text": "Desde nuestro servidor central Linux, SAORI mantiene un sondeo constante contra el socket de Dallas. Cada segundo valida el protocolo de enlace, mide latencia y audita el jitter. Si un hilo se cuelga, el centinela lo detecta milisegundos antes de que el jugador note un corte.",
+      "spoken_text": "Desde nuestro servidor central Linux, SAORI mantiene un sondeo constante contra el socket de red en Dallas. Cada segundo valida la respuesta del protocolo de enlace, mide los tiempos de respuesta y audita el jitter de conexión. Si un hilo secundario se cuelga o el socket se satura, el centinela lo detecta milisegundos antes de que el jugador note un corte.",
+      "action": "interact",
+      "camera": "wide",
+      "diagram": "network_socket",
+      "audio_file": "cap3_p03_telemetry.mp3",
+      "duration": 19.944,
+      "frames": 613,
+      "words": [
+        {
+          "word": "Desde",
+          "start": 0.099,
+          "duration": 0.257333
+        },
+        {
+          "word": "nuestro",
+          "start": 0.393125,
+          "duration": 0.257333
+        },
+        {
+          "word": "servidor",
+          "start": 0.66275,
+          "duration": 0.379916
+        },
+        {
+          "word": "central",
+          "start": 1.054916,
+          "duration": 0.355375
+        },
+        {
+          "word": "Linux",
+          "start": 1.410291,
+          "duration": 0.392166
+        },
+        {
+          "word": "SAORI",
+          "start": 1.986291,
+          "duration": 0.330875
+        },
+        {
+          "word": "mantiene",
+          "start": 2.353916,
+          "duration": 0.355375
+        },
+        {
+          "word": "un",
+          "start": 2.733833,
+          "duration": 0.098041
+        },
+        {
+          "word": "sondeo",
+          "start": 2.844125,
+          "duration": 0.343125
+        },
+        {
+          "word": "constante",
+          "start": 3.248541,
+          "duration": 0.477958
+        },
+        {
+          "word": "contra",
+          "start": 3.78775,
+          "duration": 0.232833
+        },
+        {
+          "word": "el",
+          "start": 4.045083,
+          "duration": 0.061291
+        },
+        {
+          "word": "socket",
+          "start": 4.130875,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 4.510791,
+          "duration": 0.073541
+        },
+        {
+          "word": "red",
+          "start": 4.608833,
+          "duration": 0.183833
+        },
+        {
+          "word": "en",
+          "start": 4.804916,
+          "duration": 0.073541
+        },
+        {
+          "word": "Dallas",
+          "start": 4.927458,
+          "duration": 0.367666
+        },
+        {
+          "word": "Cada",
+          "start": 6.188708,
+          "duration": 0.208333
+        },
+        {
+          "word": "segundo",
+          "start": 6.409333,
+          "duration": 0.355375
+        },
+        {
+          "word": "valida",
+          "start": 6.789208,
+          "duration": 0.318625
+        },
+        {
+          "word": "la",
+          "start": 7.107833,
+          "duration": 0.085791
+        },
+        {
+          "word": "respuesta",
+          "start": 7.218125,
+          "duration": 0.428916
+        },
+        {
+          "word": "del",
+          "start": 7.671583,
+          "duration": 0.085791
+        },
+        {
+          "word": "protocolo",
+          "start": 7.830875,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 8.284333,
+          "duration": 0.061291
+        },
+        {
+          "word": "enlace",
+          "start": 8.382333,
+          "duration": 0.379916
+        },
+        {
+          "word": "mide",
+          "start": 9.007333,
+          "duration": 0.220583
+        },
+        {
+          "word": "los",
+          "start": 9.252458,
+          "duration": 0.110291
+        },
+        {
+          "word": "tiempos",
+          "start": 9.424,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 9.791666,
+          "duration": 0.049
+        },
+        {
+          "word": "respuesta",
+          "start": 9.877458,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 10.355375,
+          "duration": 0.049
+        },
+        {
+          "word": "audita",
+          "start": 10.416666,
+          "duration": 0.355375
+        },
+        {
+          "word": "el",
+          "start": 10.784333,
+          "duration": 0.073541
+        },
+        {
+          "word": "jitter",
+          "start": 10.870083,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 11.23775,
+          "duration": 0.061291
+        },
+        {
+          "word": "conexión",
+          "start": 11.348041,
+          "duration": 0.477958
+        },
+        {
+          "word": "Si",
+          "start": 12.696083,
+          "duration": 0.196083
+        },
+        {
+          "word": "un",
+          "start": 12.916666,
+          "duration": 0.098041
+        },
+        {
+          "word": "hilo",
+          "start": 13.026958,
+          "duration": 0.159333
+        },
+        {
+          "word": "secundario",
+          "start": 13.198541,
+          "duration": 0.526958
+        },
+        {
+          "word": "se",
+          "start": 13.73775,
+          "duration": 0.122541
+        },
+        {
+          "word": "cuelga",
+          "start": 13.921583,
+          "duration": 0.294083
+        },
+        {
+          "word": "o",
+          "start": 14.215666,
+          "duration": 0.061291
+        },
+        {
+          "word": "el",
+          "start": 14.301458,
+          "duration": 0.073541
+        },
+        {
+          "word": "socket",
+          "start": 14.38725,
+          "duration": 0.330875
+        },
+        {
+          "word": "se",
+          "start": 14.730375,
+          "duration": 0.098041
+        },
+        {
+          "word": "satura",
+          "start": 14.840666,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 15.490208,
+          "duration": 0.110291
+        },
+        {
+          "word": "centinela",
+          "start": 15.6005,
+          "duration": 0.477958
+        },
+        {
+          "word": "lo",
+          "start": 16.090666,
+          "duration": 0.085791
+        },
+        {
+          "word": "detecta",
+          "start": 16.201,
+          "duration": 0.367666
+        },
+        {
+          "word": "milisegundos",
+          "start": 16.593125,
+          "duration": 0.66175
+        },
+        {
+          "word": "antes",
+          "start": 17.254916,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 17.573541,
+          "duration": 0.049
+        },
+        {
+          "word": "que",
+          "start": 17.683833,
+          "duration": 0.049
+        },
+        {
+          "word": "el",
+          "start": 17.769625,
+          "duration": 0.073541
+        },
+        {
+          "word": "jugador",
+          "start": 17.855375,
+          "duration": 0.428916
+        },
+        {
+          "word": "note",
+          "start": 18.296583,
+          "duration": 0.257333
+        },
+        {
+          "word": "un",
+          "start": 18.578416,
+          "duration": 0.147041
+        },
+        {
+          "word": "corte",
+          "start": 18.7255,
+          "duration": 0.306375
+        }
+      ]
+    },
+    {
+      "id": "c3_p04_jvm_audit",
+      "title": "AUDITORÍA INTERNA DE LA JVM",
+      "subtitle": "Monitoreo continuo de memoria off-heap y pausas de ZGC",
+      "badge": "04 // RUNTIME: JVM METRICS & GC PAUSES",
+      "text": "En paralelo, el agente extrae métricas directas de la JVM. Monitorea memoria off-heap, tasa de asignación por segundo y pausas de ZGC. Si una fábrica de Slimefun genera acumulación anómala de objetos, SAORI aísla el chunk responsable.",
+      "spoken_text": "En paralelo al socket de red, el agente extrae métricas directas de la máquina virtual de Java. Monitorea la memoria fuera del montículo, la tasa de asignación por segundo y los tiempos de pausa de ZGC. Si una fábrica de Slimefun genera una acumulación anómala de objetos efímeros, SAORI aísla el chunk responsable.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "jvm_profiling",
+      "audio_file": "cap3_p04_jvm_audit.mp3",
+      "duration": 18.672,
+      "frames": 575,
+      "words": [
+        {
+          "word": "En",
+          "start": 0.099,
+          "duration": 0.183833
+        },
+        {
+          "word": "paralelo",
+          "start": 0.307333,
+          "duration": 0.379916
+        },
+        {
+          "word": "al",
+          "start": 0.68725,
+          "duration": 0.073541
+        },
+        {
+          "word": "socket",
+          "start": 0.773041,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 1.140666,
+          "duration": 0.073541
+        },
+        {
+          "word": "red",
+          "start": 1.238708,
+          "duration": 0.196083
+        },
+        {
+          "word": "el",
+          "start": 1.692166,
+          "duration": 0.098041
+        },
+        {
+          "word": "agente",
+          "start": 1.790208,
+          "duration": 0.330875
+        },
+        {
+          "word": "extrae",
+          "start": 2.133333,
+          "duration": 0.294125
+        },
+        {
+          "word": "métricas",
+          "start": 2.451958,
+          "duration": 0.428916
+        },
+        {
+          "word": "directas",
+          "start": 2.929916,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 3.334333,
+          "duration": 0.03675
+        },
+        {
+          "word": "la",
+          "start": 3.407833,
+          "duration": 0.073541
+        },
+        {
+          "word": "máquina",
+          "start": 3.493625,
+          "duration": 0.343125
+        },
+        {
+          "word": "virtual",
+          "start": 3.873541,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 4.277958,
+          "duration": 0.061291
+        },
+        {
+          "word": "Java",
+          "start": 4.363708,
+          "duration": 0.330875
+        },
+        {
+          "word": "Monitorea",
+          "start": 5.576,
+          "duration": 0.514708
+        },
+        {
+          "word": "la",
+          "start": 6.102958,
+          "duration": 0.073541
+        },
+        {
+          "word": "memoria",
+          "start": 6.201,
+          "duration": 0.367666
+        },
+        {
+          "word": "fuera",
+          "start": 6.593125,
+          "duration": 0.232833
+        },
+        {
+          "word": "del",
+          "start": 6.8505,
+          "duration": 0.110291
+        },
+        {
+          "word": "montículo",
+          "start": 6.997541,
+          "duration": 0.563708
+        },
+        {
+          "word": "la",
+          "start": 7.781875,
+          "duration": 0.122541
+        },
+        {
+          "word": "tasa",
+          "start": 7.977958,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 8.210791,
+          "duration": 0.061291
+        },
+        {
+          "word": "asignación",
+          "start": 8.284333,
+          "duration": 0.563708
+        },
+        {
+          "word": "por",
+          "start": 8.884791,
+          "duration": 0.085791
+        },
+        {
+          "word": "segundo",
+          "start": 8.982833,
+          "duration": 0.379916
+        },
+        {
+          "word": "y",
+          "start": 9.41175,
+          "duration": 0.03675
+        },
+        {
+          "word": "los",
+          "start": 9.473041,
+          "duration": 0.122541
+        },
+        {
+          "word": "tiempos",
+          "start": 9.656875,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 10.0245,
+          "duration": 0.049
+        },
+        {
+          "word": "pausa",
+          "start": 10.159333,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 10.453416,
+          "duration": 0.073541
+        },
+        {
+          "word": "ZGC",
+          "start": 10.551458,
+          "duration": 0.576
+        },
+        {
+          "word": "Si",
+          "start": 12.022041,
+          "duration": 0.171583
+        },
+        {
+          "word": "una",
+          "start": 12.218125,
+          "duration": 0.147041
+        },
+        {
+          "word": "fábrica",
+          "start": 12.389708,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 12.818625,
+          "duration": 0.073541
+        },
+        {
+          "word": "Slimefun",
+          "start": 12.941166,
+          "duration": 0.490208
+        },
+        {
+          "word": "genera",
+          "start": 13.431375,
+          "duration": 0.330875
+        },
+        {
+          "word": "una",
+          "start": 13.78675,
+          "duration": 0.147041
+        },
+        {
+          "word": "acumulación",
+          "start": 13.933833,
+          "duration": 0.551458
+        },
+        {
+          "word": "anómala",
+          "start": 14.485291,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 14.914208,
+          "duration": 0.061291
+        },
+        {
+          "word": "objetos",
+          "start": 14.98775,
+          "duration": 0.379916
+        },
+        {
+          "word": "efímeros",
+          "start": 15.367666,
+          "duration": 0.490208
+        },
+        {
+          "word": "SAORI",
+          "start": 16.053916,
+          "duration": 0.367666
+        },
+        {
+          "word": "aísla",
+          "start": 16.433833,
+          "duration": 0.343125
+        },
+        {
+          "word": "el",
+          "start": 16.789208,
+          "duration": 0.110291
+        },
+        {
+          "word": "chunk",
+          "start": 16.91175,
+          "duration": 0.245083
+        },
+        {
+          "word": "responsable",
+          "start": 17.169125,
+          "duration": 0.61275
+        }
+      ]
+    },
+    {
+      "id": "c3_p05_forensics",
+      "title": "DIAGNÓSTICO FORENSE Y MITIGACIÓN",
+      "subtitle": "Captura automática de Thread Dumps y perfilado con Spark",
+      "badge": "05 // FORENSICS: AUTO THREAD DUMPS",
+      "text": "Cuando se detecta degradación, el centinela dispara mitigaciones automáticas y programadas. Captura volcados de hilos en tiempo real y perfiles de CPU con Spark. Esto permite solucionar la causa raíz en el código del plugin sin detener la partida.",
+      "spoken_text": "Cuando se detecta un patrón de degradación, el centinela dispara mitigaciones automáticas y programadas. Captura volcados de hilos de ejecución en tiempo real y perfiles de consumo de cpu mediante Spark. Esto nos permite solucionar la causa raíz en el código del plugin sin detener la partida de nadie.",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "thread_dumps",
+      "audio_file": "cap3_p05_forensics.mp3",
+      "duration": 17.424,
+      "frames": 537,
+      "words": [
+        {
+          "word": "Cuando",
+          "start": 0.099,
+          "duration": 0.257333
+        },
+        {
+          "word": "se",
+          "start": 0.368625,
+          "duration": 0.098041
+        },
+        {
+          "word": "detecta",
+          "start": 0.503416,
+          "duration": 0.355375
+        },
+        {
+          "word": "un",
+          "start": 0.883333,
+          "duration": 0.110291
+        },
+        {
+          "word": "patrón",
+          "start": 1.005875,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 1.3,
+          "duration": 0.049
+        },
+        {
+          "word": "degradación",
+          "start": 1.385791,
+          "duration": 0.576
+        },
+        {
+          "word": "el",
+          "start": 2.182333,
+          "duration": 0.110291
+        },
+        {
+          "word": "centinela",
+          "start": 2.292666,
+          "duration": 0.441166
+        },
+        {
+          "word": "dispara",
+          "start": 2.758333,
+          "duration": 0.355375
+        },
+        {
+          "word": "mitigaciones",
+          "start": 3.13825,
+          "duration": 0.6495
+        },
+        {
+          "word": "automáticas",
+          "start": 3.78775,
+          "duration": 0.66175
+        },
+        {
+          "word": "y",
+          "start": 4.46175,
+          "duration": 0.0245
+        },
+        {
+          "word": "programadas",
+          "start": 4.559791,
+          "duration": 0.66175
+        },
+        {
+          "word": "Captura",
+          "start": 6.115208,
+          "duration": 0.379916
+        },
+        {
+          "word": "volcados",
+          "start": 6.519625,
+          "duration": 0.428916
+        },
+        {
+          "word": "de",
+          "start": 6.997541,
+          "duration": 0.073541
+        },
+        {
+          "word": "hilos",
+          "start": 7.107833,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 7.352958,
+          "duration": 0.061291
+        },
+        {
+          "word": "ejecución",
+          "start": 7.46325,
+          "duration": 0.465666
+        },
+        {
+          "word": "en",
+          "start": 7.928916,
+          "duration": 0.147041
+        },
+        {
+          "word": "tiempo",
+          "start": 8.1005,
+          "duration": 0.257333
+        },
+        {
+          "word": "real",
+          "start": 8.370083,
+          "duration": 0.269625
+        },
+        {
+          "word": "y",
+          "start": 8.651958,
+          "duration": 0.049
+        },
+        {
+          "word": "perfiles",
+          "start": 8.7745,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 9.178916,
+          "duration": 0.049
+        },
+        {
+          "word": "consumo",
+          "start": 9.276958,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 9.669125,
+          "duration": 0.085791
+        },
+        {
+          "word": "cpu",
+          "start": 9.791666,
+          "duration": 0.379916
+        },
+        {
+          "word": "mediante",
+          "start": 10.196083,
+          "duration": 0.392166
+        },
+        {
+          "word": "Spark",
+          "start": 10.61275,
+          "duration": 0.306375
+        },
+        {
+          "word": "Esto",
+          "start": 11.801458,
+          "duration": 0.257333
+        },
+        {
+          "word": "nos",
+          "start": 12.083333,
+          "duration": 0.110291
+        },
+        {
+          "word": "permite",
+          "start": 12.254916,
+          "duration": 0.330875
+        },
+        {
+          "word": "solucionar",
+          "start": 12.598041,
+          "duration": 0.514708
+        },
+        {
+          "word": "la",
+          "start": 13.125,
+          "duration": 0.073541
+        },
+        {
+          "word": "causa",
+          "start": 13.272041,
+          "duration": 0.306375
+        },
+        {
+          "word": "raíz",
+          "start": 13.602958,
+          "duration": 0.330875
+        },
+        {
+          "word": "en",
+          "start": 13.933833,
+          "duration": 0.0735
+        },
+        {
+          "word": "el",
+          "start": 14.007333,
+          "duration": 0.098041
+        },
+        {
+          "word": "código",
+          "start": 14.178916,
+          "duration": 0.294125
+        },
+        {
+          "word": "del",
+          "start": 14.497541,
+          "duration": 0.110291
+        },
+        {
+          "word": "plugin",
+          "start": 14.693625,
+          "duration": 0.281875
+        },
+        {
+          "word": "sin",
+          "start": 14.98775,
+          "duration": 0.147041
+        },
+        {
+          "word": "detener",
+          "start": 15.183833,
+          "duration": 0.355375
+        },
+        {
+          "word": "la",
+          "start": 15.551458,
+          "duration": 0.073541
+        },
+        {
+          "word": "partida",
+          "start": 15.698541,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 16.102958,
+          "duration": 0.073541
+        },
+        {
+          "word": "nadie",
+          "start": 16.21325,
+          "duration": 0.318625
+        }
+      ]
+    },
+    {
+      "id": "c3_p06_bridge",
+      "title": "INTEROPERABILIDAD JAVA Y BEDROCK",
+      "subtitle": "Puerto unificado 25565 con Geyser y Floodgate",
+      "badge": "06 // PROTOCOL: UNIFIED PORT 25565",
+      "text": "Otro pilar fundamental es la interoperabilidad multiplataforma. Implementamos traducción de paquetes mediante Geyser y Floodgate sobre el puerto 25565 unificado. Jugadores de PC, consolas y móviles interactúan en el mismo mundo sin desincronizaciones.",
+      "spoken_text": "Otro pilar fundamental de la red es la interoperabilidad multiplataforma. Implementamos una capa de traducción de paquetes de red mediante Geyser y Floodgate sobre el mismo puerto dos cinco cinco seis cinco. Tanto jugadores de computadora como de consolas y celulares interactúan en el mismo mundo sin desincronizaciones.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "geyser_bridge",
+      "audio_file": "cap3_p06_bridge.mp3",
+      "duration": 17.76,
+      "frames": 547,
+      "words": [
+        {
+          "word": "Otro",
+          "start": 0.099,
+          "duration": 0.232833
+        },
+        {
+          "word": "pilar",
+          "start": 0.393125,
+          "duration": 0.245083
+        },
+        {
+          "word": "fundamental",
+          "start": 0.66275,
+          "duration": 0.576
+        },
+        {
+          "word": "de",
+          "start": 1.2755,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 1.361291,
+          "duration": 0.098041
+        },
+        {
+          "word": "red",
+          "start": 1.483833,
+          "duration": 0.196083
+        },
+        {
+          "word": "es",
+          "start": 1.692166,
+          "duration": 0.098041
+        },
+        {
+          "word": "la",
+          "start": 1.826958,
+          "duration": 0.049
+        },
+        {
+          "word": "interoperabilidad",
+          "start": 1.91275,
+          "duration": 0.772041
+        },
+        {
+          "word": "multiplataforma",
+          "start": 2.721583,
+          "duration": 0.821083
+        },
+        {
+          "word": "Implementamos",
+          "start": 4.424,
+          "duration": 0.686291
+        },
+        {
+          "word": "una",
+          "start": 5.122541,
+          "duration": 0.122541
+        },
+        {
+          "word": "capa",
+          "start": 5.318625,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 5.551458,
+          "duration": 0.073541
+        },
+        {
+          "word": "traducción",
+          "start": 5.674,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 6.127458,
+          "duration": 0.049
+        },
+        {
+          "word": "paquetes",
+          "start": 6.23775,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 6.642166,
+          "duration": 0.073541
+        },
+        {
+          "word": "red",
+          "start": 6.752458,
+          "duration": 0.159333
+        },
+        {
+          "word": "mediante",
+          "start": 6.948541,
+          "duration": 0.367666
+        },
+        {
+          "word": "Geyser",
+          "start": 7.340666,
+          "duration": 0.355375
+        },
+        {
+          "word": "y",
+          "start": 7.708333,
+          "duration": 0.03675
+        },
+        {
+          "word": "Floodgate",
+          "start": 7.769625,
+          "duration": 0.477958
+        },
+        {
+          "word": "sobre",
+          "start": 8.272041,
+          "duration": 0.232833
+        },
+        {
+          "word": "el",
+          "start": 8.517166,
+          "duration": 0.061291
+        },
+        {
+          "word": "mismo",
+          "start": 8.615208,
+          "duration": 0.257333
+        },
+        {
+          "word": "puerto",
+          "start": 8.958333,
+          "duration": 0.269625
+        },
+        {
+          "word": "dos",
+          "start": 9.252458,
+          "duration": 0.159291
+        },
+        {
+          "word": "cinco",
+          "start": 9.41175,
+          "duration": 0.294125
+        },
+        {
+          "word": "cinco",
+          "start": 9.730375,
+          "duration": 0.306375
+        },
+        {
+          "word": "seis",
+          "start": 10.061291,
+          "duration": 0.232833
+        },
+        {
+          "word": "cinco",
+          "start": 10.294125,
+          "duration": 0.379916
+        },
+        {
+          "word": "Tanto",
+          "start": 11.544125,
+          "duration": 0.232833
+        },
+        {
+          "word": "jugadores",
+          "start": 11.789208,
+          "duration": 0.441166
+        },
+        {
+          "word": "de",
+          "start": 12.254916,
+          "duration": 0.049
+        },
+        {
+          "word": "computadora",
+          "start": 12.340666,
+          "duration": 0.551458
+        },
+        {
+          "word": "como",
+          "start": 12.941166,
+          "duration": 0.159333
+        },
+        {
+          "word": "de",
+          "start": 13.125,
+          "duration": 0.061291
+        },
+        {
+          "word": "consolas",
+          "start": 13.235291,
+          "duration": 0.465666
+        },
+        {
+          "word": "y",
+          "start": 13.71325,
+          "duration": 0.0245
+        },
+        {
+          "word": "celulares",
+          "start": 13.76225,
+          "duration": 0.514708
+        },
+        {
+          "word": "interactúan",
+          "start": 14.276958,
+          "duration": 0.551458
+        },
+        {
+          "word": "en",
+          "start": 14.828416,
+          "duration": 0.098041
+        },
+        {
+          "word": "el",
+          "start": 14.926458,
+          "duration": 0.098041
+        },
+        {
+          "word": "mismo",
+          "start": 15.061291,
+          "duration": 0.269625
+        },
+        {
+          "word": "mundo",
+          "start": 15.355375,
+          "duration": 0.269625
+        },
+        {
+          "word": "sin",
+          "start": 15.6495,
+          "duration": 0.171583
+        },
+        {
+          "word": "desincronizaciones",
+          "start": 15.845583,
+          "duration": 1.004916
+        }
+      ]
+    },
+    {
+      "id": "c3_p07_community",
+      "title": "TRANSPARENCIA CON LA COMUNIDAD",
+      "subtitle": "Sincronización de telemetría y changelog en Discord",
+      "badge": "07 // SRE OPS: LIVE AUDIT & DISCORD SYNC",
+      "text": "La disciplina SRE no se queda en la consola. SAORI sincroniza el estado del servidor, avisos técnicos y cambios de configuración directamente en Discord. Cada mantenimiento es transparente, predecible y con documentación verificable.",
+      "spoken_text": "La disciplina SRE no se queda encerrada en la consola de Linux. SAORI sincroniza el estado del servidor, los avisos técnicos y los cambios de configuración directamente con nuestra comunidad en Discord. Cada mantenimiento es transparente, predecible y con documentación verificable.",
+      "action": "interact",
+      "camera": "wide",
+      "diagram": "discord_sync",
+      "audio_file": "cap3_p07_community.mp3",
+      "duration": 16.44,
+      "frames": 508,
+      "words": [
+        {
+          "word": "La",
+          "start": 0.099,
+          "duration": 0.122541
+        },
+        {
+          "word": "disciplina",
+          "start": 0.246083,
+          "duration": 0.465666
+        },
+        {
+          "word": "SRE",
+          "start": 0.724,
+          "duration": 0.490208
+        },
+        {
+          "word": "no",
+          "start": 1.238708,
+          "duration": 0.134791
+        },
+        {
+          "word": "se",
+          "start": 1.385791,
+          "duration": 0.098041
+        },
+        {
+          "word": "queda",
+          "start": 1.557333,
+          "duration": 0.159333
+        },
+        {
+          "word": "encerrada",
+          "start": 1.716666,
+          "duration": 0.477958
+        },
+        {
+          "word": "en",
+          "start": 2.194625,
+          "duration": 0.03675
+        },
+        {
+          "word": "la",
+          "start": 2.268125,
+          "duration": 0.061291
+        },
+        {
+          "word": "consola",
+          "start": 2.390666,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 2.807333,
+          "duration": 0.073541
+        },
+        {
+          "word": "Linux",
+          "start": 2.905375,
+          "duration": 0.428916
+        },
+        {
+          "word": "SAORI",
+          "start": 4.252458,
+          "duration": 0.367666
+        },
+        {
+          "word": "sincroniza",
+          "start": 4.644625,
+          "duration": 0.551458
+        },
+        {
+          "word": "el",
+          "start": 5.196083,
+          "duration": 0.085791
+        },
+        {
+          "word": "estado",
+          "start": 5.281875,
+          "duration": 0.343125
+        },
+        {
+          "word": "del",
+          "start": 5.6495,
+          "duration": 0.122541
+        },
+        {
+          "word": "servidor",
+          "start": 5.772041,
+          "duration": 0.441166
+        },
+        {
+          "word": "los",
+          "start": 6.470583,
+          "duration": 0.171583
+        },
+        {
+          "word": "avisos",
+          "start": 6.642166,
+          "duration": 0.330875
+        },
+        {
+          "word": "técnicos",
+          "start": 7.046583,
+          "duration": 0.465666
+        },
+        {
+          "word": "y",
+          "start": 7.5245,
+          "duration": 0.0245
+        },
+        {
+          "word": "los",
+          "start": 7.585791,
+          "duration": 0.122541
+        },
+        {
+          "word": "cambios",
+          "start": 7.757333,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 8.08825,
+          "duration": 0.049
+        },
+        {
+          "word": "configuración",
+          "start": 8.186291,
+          "duration": 0.6005
+        },
+        {
+          "word": "directamente",
+          "start": 8.835791,
+          "duration": 0.576
+        },
+        {
+          "word": "con",
+          "start": 9.473041,
+          "duration": 0.098041
+        },
+        {
+          "word": "nuestra",
+          "start": 9.583333,
+          "duration": 0.232833
+        },
+        {
+          "word": "comunidad",
+          "start": 9.865208,
+          "duration": 0.453416
+        },
+        {
+          "word": "en",
+          "start": 10.330875,
+          "duration": 0.110291
+        },
+        {
+          "word": "Discord",
+          "start": 10.465666,
+          "duration": 0.392166
+        },
+        {
+          "word": "Cada",
+          "start": 11.727958,
+          "duration": 0.183833
+        },
+        {
+          "word": "mantenimiento",
+          "start": 11.936291,
+          "duration": 0.600458
+        },
+        {
+          "word": "es",
+          "start": 12.53675,
+          "duration": 0.073541
+        },
+        {
+          "word": "transparente",
+          "start": 12.659333,
+          "duration": 0.63725
+        },
+        {
+          "word": "predecible",
+          "start": 13.566166,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 14.093125,
+          "duration": 0.01225
+        },
+        {
+          "word": "con",
+          "start": 14.178916,
+          "duration": 0.098041
+        },
+        {
+          "word": "documentación",
+          "start": 14.326,
+          "duration": 0.6005
+        },
+        {
+          "word": "verificable",
+          "start": 14.9755,
+          "duration": 0.563708
+        }
+      ]
+    },
+    {
+      "id": "c3_p08_conclusion",
+      "title": "EL CENTINELA NO DUERME",
+      "subtitle": "Infraestructura robusta lista para la compilación de código",
+      "badge": "08 // STATUS: CLUSTER 100% NOMINAL",
+      "text": "Con SAORI protegiendo la disponibilidad en caliente, la infraestructura es inexpugnable. Pero un entorno robusto sólo tiene valor si el software que ejecuta está a la misma altura. En el siguiente capítulo analizaremos cómo desarrollamos nuestros propios plugins para garantizar cero rollbacks.",
+      "spoken_text": "Con SAORI protegiendo la disponibilidad y conteniendo cualquier anomalía en caliente, la infraestructura es inexpugnable. Pero un entorno robusto sólo tiene valor si el software que ejecuta está a la misma altura. En el próximo capítulo, analizaremos cómo desarrollamos y compilamos nuestros propios plugins para garantizar cero rollbacks.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "next_bridge",
+      "audio_file": "cap3_p08_conclusion.mp3",
+      "duration": 18.984,
+      "frames": 584,
+      "words": [
+        {
+          "word": "Con",
+          "start": 0.099,
+          "duration": 0.171583
+        },
+        {
+          "word": "SAORI",
+          "start": 0.282833,
+          "duration": 0.306375
+        },
+        {
+          "word": "protegiendo",
+          "start": 0.66275,
+          "duration": 0.490208
+        },
+        {
+          "word": "la",
+          "start": 1.177458,
+          "duration": 0.061291
+        },
+        {
+          "word": "disponibilidad",
+          "start": 1.26325,
+          "duration": 0.686291
+        },
+        {
+          "word": "y",
+          "start": 1.96175,
+          "duration": 0.0245
+        },
+        {
+          "word": "conteniendo",
+          "start": 2.047541,
+          "duration": 0.477958
+        },
+        {
+          "word": "cualquier",
+          "start": 2.5745,
+          "duration": 0.306375
+        },
+        {
+          "word": "anomalía",
+          "start": 2.880875,
+          "duration": 0.453416
+        },
+        {
+          "word": "en",
+          "start": 3.334333,
+          "duration": 0.122541
+        },
+        {
+          "word": "caliente",
+          "start": 3.456875,
+          "duration": 0.490208
+        },
+        {
+          "word": "la",
+          "start": 4.167666,
+          "duration": 0.098041
+        },
+        {
+          "word": "infraestructura",
+          "start": 4.290208,
+          "duration": 0.698541
+        },
+        {
+          "word": "es",
+          "start": 5.0255,
+          "duration": 0.098041
+        },
+        {
+          "word": "inexpugnable",
+          "start": 5.135791,
+          "duration": 0.698541
+        },
+        {
+          "word": "Pero",
+          "start": 6.727958,
+          "duration": 0.183833
+        },
+        {
+          "word": "un",
+          "start": 6.924,
+          "duration": 0.073541
+        },
+        {
+          "word": "entorno",
+          "start": 6.997541,
+          "duration": 0.392166
+        },
+        {
+          "word": "robusto",
+          "start": 7.401958,
+          "duration": 0.392166
+        },
+        {
+          "word": "sólo",
+          "start": 7.806375,
+          "duration": 0.245083
+        },
+        {
+          "word": "tiene",
+          "start": 8.11275,
+          "duration": 0.183833
+        },
+        {
+          "word": "valor",
+          "start": 8.321083,
+          "duration": 0.232833
+        },
+        {
+          "word": "si",
+          "start": 8.578416,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 8.676458,
+          "duration": 0.085791
+        },
+        {
+          "word": "software",
+          "start": 8.78675,
+          "duration": 0.355375
+        },
+        {
+          "word": "que",
+          "start": 9.215666,
+          "duration": 0.049
+        },
+        {
+          "word": "ejecuta",
+          "start": 9.33825,
+          "duration": 0.441166
+        },
+        {
+          "word": "está",
+          "start": 9.791666,
+          "duration": 0.232833
+        },
+        {
+          "word": "a",
+          "start": 10.0245,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 10.098041,
+          "duration": 0.085791
+        },
+        {
+          "word": "misma",
+          "start": 10.208333,
+          "duration": 0.269625
+        },
+        {
+          "word": "altura",
+          "start": 10.490208,
+          "duration": 0.404416
+        },
+        {
+          "word": "En",
+          "start": 11.776958,
+          "duration": 0.134791
+        },
+        {
+          "word": "el",
+          "start": 11.91175,
+          "duration": 0.085791
+        },
+        {
+          "word": "próximo",
+          "start": 12.071083,
+          "duration": 0.330875
+        },
+        {
+          "word": "capítulo",
+          "start": 12.451,
+          "duration": 0.477958
+        },
+        {
+          "word": "analizaremos",
+          "start": 13.1495,
+          "duration": 0.674
+        },
+        {
+          "word": "cómo",
+          "start": 13.872541,
+          "duration": 0.171583
+        },
+        {
+          "word": "desarrollamos",
+          "start": 14.068625,
+          "duration": 0.674
+        },
+        {
+          "word": "y",
+          "start": 14.767166,
+          "duration": 0.01225
+        },
+        {
+          "word": "compilamos",
+          "start": 14.840666,
+          "duration": 0.514708
+        },
+        {
+          "word": "nuestros",
+          "start": 15.392166,
+          "duration": 0.306375
+        },
+        {
+          "word": "propios",
+          "start": 15.772041,
+          "duration": 0.281875
+        },
+        {
+          "word": "plugins",
+          "start": 16.127458,
+          "duration": 0.355375
+        },
+        {
+          "word": "para",
+          "start": 16.556375,
+          "duration": 0.134791
+        },
+        {
+          "word": "garantizar",
+          "start": 16.727958,
+          "duration": 0.514708
+        },
+        {
+          "word": "cero",
+          "start": 17.254916,
+          "duration": 0.257333
+        },
+        {
+          "word": "rollbacks",
+          "start": 17.5245,
+          "duration": 0.551458
+        }
+      ]
+    }
+  ]
+}

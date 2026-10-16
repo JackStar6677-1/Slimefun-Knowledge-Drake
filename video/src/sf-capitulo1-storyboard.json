@@ -1,0 +1,4633 @@
+{
+  "chapter": 1,
+  "series": "Slimefun Masterclass",
+  "title": "Slimefun en DrakesCraft: Capítulo 1 — La Guía Maestra, Multibloques & Comandos Iniciales",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "sf1_p01_bienvenida",
+      "title": "BIENVENIDOS A DRAKESCRAFT",
+      "subtitle": "Conexión oficial: play.drakescraft.cl:25565 (Java & Bedrock)",
+      "badge": "01 // CONEXIÓN: PLAY.DRAKESCRAFT.CL",
+      "text": "Bienvenidos al verdadero capítulo 1 de nuestra guía técnica en DrakesCraft. A partir de hoy aprenderás, paso a paso, a dominar Slimefun y sobrevivir en nuestro clúster técnico. Conéctate desde Java o Bedrock en el puerto 25565.",
+      "spoken_text": "Bienvenidos al verdadero capítulo uno de nuestra guía técnica en DrakesCraft. A partir de este episodio dejamos atrás los diagnósticos de servidor para enseñarte, paso a paso, a dominar Slimefun y sobrevivir en nuestro clúster técnico. Recuerda que puedes conectarte tanto desde Java como desde Bedrock en el puerto dos cinco cinco seis cinco.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "welcome_screen",
+      "audio_file": "sf1_p01_bienvenida.mp3",
+      "duration": 19.368,
+      "frames": 596,
+      "words": [
+        {
+          "word": "Bienvenidos",
+          "start": 0.099,
+          "duration": 0.58825
+        },
+        {
+          "word": "al",
+          "start": 0.68725,
+          "duration": 0.073541
+        },
+        {
+          "word": "verdadero",
+          "start": 0.797541,
+          "duration": 0.441166
+        },
+        {
+          "word": "capítulo",
+          "start": 1.28775,
+          "duration": 0.453416
+        },
+        {
+          "word": "uno",
+          "start": 1.765666,
+          "duration": 0.171583
+        },
+        {
+          "word": "de",
+          "start": 1.96175,
+          "duration": 0.073541
+        },
+        {
+          "word": "nuestra",
+          "start": 2.059791,
+          "duration": 0.269625
+        },
+        {
+          "word": "guía",
+          "start": 2.366166,
+          "duration": 0.183833
+        },
+        {
+          "word": "técnica",
+          "start": 2.635791,
+          "duration": 0.392166
+        },
+        {
+          "word": "en",
+          "start": 3.064708,
+          "duration": 0.061291
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 3.175,
+          "duration": 0.61275
+        },
+        {
+          "word": "A",
+          "start": 4.656875,
+          "duration": 0.110291
+        },
+        {
+          "word": "partir",
+          "start": 4.828416,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 5.196083,
+          "duration": 0.085791
+        },
+        {
+          "word": "este",
+          "start": 5.343125,
+          "duration": 0.159333
+        },
+        {
+          "word": "episodio",
+          "start": 5.502458,
+          "duration": 0.465666
+        },
+        {
+          "word": "dejamos",
+          "start": 5.992666,
+          "duration": 0.392125
+        },
+        {
+          "word": "atrás",
+          "start": 6.384791,
+          "duration": 0.257333
+        },
+        {
+          "word": "los",
+          "start": 6.691166,
+          "duration": 0.110291
+        },
+        {
+          "word": "diagnósticos",
+          "start": 6.83825,
+          "duration": 0.58825
+        },
+        {
+          "word": "de",
+          "start": 7.46325,
+          "duration": 0.049
+        },
+        {
+          "word": "servidor",
+          "start": 7.5245,
+          "duration": 0.428916
+        },
+        {
+          "word": "para",
+          "start": 8.026958,
+          "duration": 0.110291
+        },
+        {
+          "word": "enseñarte",
+          "start": 8.1495,
+          "duration": 0.526958
+        },
+        {
+          "word": "paso",
+          "start": 8.946083,
+          "duration": 0.208333
+        },
+        {
+          "word": "a",
+          "start": 9.154416,
+          "duration": 0.03675
+        },
+        {
+          "word": "paso",
+          "start": 9.276958,
+          "duration": 0.294125
+        },
+        {
+          "word": "a",
+          "start": 9.779416,
+          "duration": 0.061291
+        },
+        {
+          "word": "dominar",
+          "start": 9.865208,
+          "duration": 0.367625
+        },
+        {
+          "word": "Slimefun",
+          "start": 10.232833,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 10.772041,
+          "duration": 0.03675
+        },
+        {
+          "word": "sobrevivir",
+          "start": 10.845583,
+          "duration": 0.502458
+        },
+        {
+          "word": "en",
+          "start": 11.348041,
+          "duration": 0.098041
+        },
+        {
+          "word": "nuestro",
+          "start": 11.470583,
+          "duration": 0.257333
+        },
+        {
+          "word": "clúster",
+          "start": 11.789208,
+          "duration": 0.343125
+        },
+        {
+          "word": "técnico",
+          "start": 12.218125,
+          "duration": 0.416666
+        },
+        {
+          "word": "Recuerda",
+          "start": 13.517166,
+          "duration": 0.416666
+        },
+        {
+          "word": "que",
+          "start": 13.982833,
+          "duration": 0.073541
+        },
+        {
+          "word": "puedes",
+          "start": 14.129916,
+          "duration": 0.208333
+        },
+        {
+          "word": "conectarte",
+          "start": 14.375,
+          "duration": 0.490208
+        },
+        {
+          "word": "tanto",
+          "start": 14.951,
+          "duration": 0.232833
+        },
+        {
+          "word": "desde",
+          "start": 15.208333,
+          "duration": 0.208333
+        },
+        {
+          "word": "Java",
+          "start": 15.441166,
+          "duration": 0.220583
+        },
+        {
+          "word": "como",
+          "start": 15.723041,
+          "duration": 0.183833
+        },
+        {
+          "word": "desde",
+          "start": 15.931375,
+          "duration": 0.208333
+        },
+        {
+          "word": "Bedrock",
+          "start": 16.176458,
+          "duration": 0.330875
+        },
+        {
+          "word": "en",
+          "start": 16.507333,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 16.593125,
+          "duration": 0.098041
+        },
+        {
+          "word": "puerto",
+          "start": 16.776958,
+          "duration": 0.257333
+        },
+        {
+          "word": "dos",
+          "start": 17.058833,
+          "duration": 0.171541
+        },
+        {
+          "word": "cinco",
+          "start": 17.230375,
+          "duration": 0.306375
+        },
+        {
+          "word": "cinco",
+          "start": 17.561291,
+          "duration": 0.318625
+        },
+        {
+          "word": "seis",
+          "start": 17.904416,
+          "duration": 0.220583
+        },
+        {
+          "word": "cinco",
+          "start": 18.125,
+          "duration": 0.367666
+        }
+      ]
+    },
+    {
+      "id": "sf1_p02_comandos_inicio",
+      "title": "COMANDOS DE SUPERVIVENCIA ESENCIALES",
+      "subtitle": "/rtp para mundo abierto, /sethome y /spawn",
+      "badge": "02 // COMANDOS BÁSICOS: /RTP & /SETHOME",
+      "text": "Al entrar aparecerás en el Spawn. Para comenzar, escribe /rtp en el chat. Te teletransportará de forma aleatoria y segura a una zona virgen del mundo de supervivencia. Fija tu base con /sethome y regresa cuando quieras con /home.",
+      "spoken_text": "Al entrar al servidor aparecerás en el Spawn principal. Para comenzar tu aventura, escribe barra rtp en el chat. Este comando te teletransportará de forma aleatoria y completamente segura a una zona virgen del mundo de supervivencia. Una vez encuentres un terreno que te guste, utiliza barra sethome para fijar tu base y regresar cuando quieras con barra home.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "commands_hud",
+      "audio_file": "sf1_p02_comandos_inicio.mp3",
+      "duration": 20.928,
+      "frames": 642,
+      "words": [
+        {
+          "word": "Al",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "entrar",
+          "start": 0.246083,
+          "duration": 0.318625
+        },
+        {
+          "word": "al",
+          "start": 0.564708,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 0.66275,
+          "duration": 0.392166
+        },
+        {
+          "word": "aparecerás",
+          "start": 1.054916,
+          "duration": 0.600458
+        },
+        {
+          "word": "en",
+          "start": 1.655375,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 1.728916,
+          "duration": 0.098041
+        },
+        {
+          "word": "Spawn",
+          "start": 1.851458,
+          "duration": 0.281875
+        },
+        {
+          "word": "principal",
+          "start": 2.145583,
+          "duration": 0.490208
+        },
+        {
+          "word": "Para",
+          "start": 3.492666,
+          "duration": 0.183833
+        },
+        {
+          "word": "comenzar",
+          "start": 3.73775,
+          "duration": 0.404416
+        },
+        {
+          "word": "tu",
+          "start": 4.215666,
+          "duration": 0.049
+        },
+        {
+          "word": "aventura",
+          "start": 4.264708,
+          "duration": 0.502458
+        },
+        {
+          "word": "escribe",
+          "start": 4.96325,
+          "duration": 0.392166
+        },
+        {
+          "word": "barra",
+          "start": 5.392166,
+          "duration": 0.232833
+        },
+        {
+          "word": "rtp",
+          "start": 5.686291,
+          "duration": 0.502458
+        },
+        {
+          "word": "en",
+          "start": 6.21325,
+          "duration": 0.06125
+        },
+        {
+          "word": "el",
+          "start": 6.2745,
+          "duration": 0.147041
+        },
+        {
+          "word": "chat",
+          "start": 6.433833,
+          "duration": 0.220583
+        },
+        {
+          "word": "Este",
+          "start": 7.53675,
+          "duration": 0.245083
+        },
+        {
+          "word": "comando",
+          "start": 7.830875,
+          "duration": 0.343125
+        },
+        {
+          "word": "te",
+          "start": 8.223041,
+          "duration": 0.061291
+        },
+        {
+          "word": "teletransportará",
+          "start": 8.345583,
+          "duration": 0.759791
+        },
+        {
+          "word": "de",
+          "start": 9.129916,
+          "duration": 0.085791
+        },
+        {
+          "word": "forma",
+          "start": 9.240208,
+          "duration": 0.281875
+        },
+        {
+          "word": "aleatoria",
+          "start": 9.546583,
+          "duration": 0.441166
+        },
+        {
+          "word": "y",
+          "start": 10.01225,
+          "duration": 0.0245
+        },
+        {
+          "word": "completamente",
+          "start": 10.110291,
+          "duration": 0.6005
+        },
+        {
+          "word": "segura",
+          "start": 10.735291,
+          "duration": 0.416666
+        },
+        {
+          "word": "a",
+          "start": 11.164208,
+          "duration": 0.03675
+        },
+        {
+          "word": "una",
+          "start": 11.2255,
+          "duration": 0.183833
+        },
+        {
+          "word": "zona",
+          "start": 11.421583,
+          "duration": 0.245083
+        },
+        {
+          "word": "virgen",
+          "start": 11.703416,
+          "duration": 0.294125
+        },
+        {
+          "word": "del",
+          "start": 12.046583,
+          "duration": 0.098041
+        },
+        {
+          "word": "mundo",
+          "start": 12.169125,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 12.451,
+          "duration": 0.073541
+        },
+        {
+          "word": "supervivencia",
+          "start": 12.549,
+          "duration": 0.759791
+        },
+        {
+          "word": "Una",
+          "start": 14.178916,
+          "duration": 0.171583
+        },
+        {
+          "word": "vez",
+          "start": 14.375,
+          "duration": 0.159333
+        },
+        {
+          "word": "encuentres",
+          "start": 14.534333,
+          "duration": 0.465666
+        },
+        {
+          "word": "un",
+          "start": 15.01225,
+          "duration": 0.122541
+        },
+        {
+          "word": "terreno",
+          "start": 15.147041,
+          "duration": 0.294125
+        },
+        {
+          "word": "que",
+          "start": 15.490208,
+          "duration": 0.049
+        },
+        {
+          "word": "te",
+          "start": 15.58825,
+          "duration": 0.049
+        },
+        {
+          "word": "guste",
+          "start": 15.674,
+          "duration": 0.330875
+        },
+        {
+          "word": "utiliza",
+          "start": 16.25,
+          "duration": 0.404416
+        },
+        {
+          "word": "barra",
+          "start": 16.691166,
+          "duration": 0.220583
+        },
+        {
+          "word": "sethome",
+          "start": 16.924,
+          "duration": 0.379916
+        },
+        {
+          "word": "para",
+          "start": 17.377458,
+          "duration": 0.134791
+        },
+        {
+          "word": "fijar",
+          "start": 17.53675,
+          "duration": 0.269625
+        },
+        {
+          "word": "tu",
+          "start": 17.892166,
+          "duration": 0.049
+        },
+        {
+          "word": "base",
+          "start": 17.977958,
+          "duration": 0.257333
+        },
+        {
+          "word": "y",
+          "start": 18.272041,
+          "duration": 0.049
+        },
+        {
+          "word": "regresar",
+          "start": 18.345583,
+          "duration": 0.441166
+        },
+        {
+          "word": "cuando",
+          "start": 18.860291,
+          "duration": 0.208333
+        },
+        {
+          "word": "quieras",
+          "start": 19.142166,
+          "duration": 0.232833
+        },
+        {
+          "word": "con",
+          "start": 19.424,
+          "duration": 0.122541
+        },
+        {
+          "word": "barra",
+          "start": 19.607833,
+          "duration": 0.183833
+        },
+        {
+          "word": "home",
+          "start": 19.816166,
+          "duration": 0.245083
+        }
+      ]
+    },
+    {
+      "id": "sf1_p03_protecciones",
+      "title": "PROTECCIÓN DE TERRENO Y COFRES",
+      "subtitle": "Sistema ProtectionStones (/ps) para blindar tu territorio",
+      "badge": "03 // SEGURIDAD: /PS PROTECTION STONES",
+      "text": "Proteger tus recursos es primordial. En DrakesCraft usamos ProtectionStones (/ps). Al colocar tu bloque de protección en el suelo, se crea un cubo blindado donde nadie puede romper bloques, abrir cofres ni tocar tus máquinas. Escribe /ps para añadir amigos o gestionar límites.",
+      "spoken_text": "En un servidor técnico con reactores y almacenamiento digital, proteger tus recursos es primordial. En DrakesCraft usamos ProtectionStones. Al colocar tu bloque de protección en el suelo, se creará automáticamente un cubo protegido donde ningún extraño puede romper bloques, abrir cofres ni usar tus máquinas. Escribe barra ps para abrir el menú de gestión, añadir amigos o ajustar los límites de tu terreno.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "protection_zone",
+      "audio_file": "sf1_p03_protecciones.mp3",
+      "duration": 24.12,
+      "frames": 738,
+      "words": [
+        {
+          "word": "En",
+          "start": 0.099,
+          "duration": 0.134791
+        },
+        {
+          "word": "un",
+          "start": 0.246083,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 0.356375,
+          "duration": 0.404416
+        },
+        {
+          "word": "técnico",
+          "start": 0.858833,
+          "duration": 0.343125
+        },
+        {
+          "word": "con",
+          "start": 1.251,
+          "duration": 0.147041
+        },
+        {
+          "word": "reactores",
+          "start": 1.398041,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 1.88825,
+          "duration": 0.01225
+        },
+        {
+          "word": "almacenamiento",
+          "start": 1.91275,
+          "duration": 0.66175
+        },
+        {
+          "word": "digital",
+          "start": 2.599,
+          "duration": 0.441166
+        },
+        {
+          "word": "proteger",
+          "start": 3.285291,
+          "duration": 0.355375
+        },
+        {
+          "word": "tus",
+          "start": 3.726458,
+          "duration": 0.134791
+        },
+        {
+          "word": "recursos",
+          "start": 3.861291,
+          "duration": 0.502416
+        },
+        {
+          "word": "es",
+          "start": 4.363708,
+          "duration": 0.073541
+        },
+        {
+          "word": "primordial",
+          "start": 4.510791,
+          "duration": 0.514708
+        },
+        {
+          "word": "En",
+          "start": 5.894625,
+          "duration": 0.134791
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 6.078416,
+          "duration": 0.576
+        },
+        {
+          "word": "usamos",
+          "start": 6.691166,
+          "duration": 0.355375
+        },
+        {
+          "word": "ProtectionStones",
+          "start": 7.120083,
+          "duration": 0.833333
+        },
+        {
+          "word": "Al",
+          "start": 8.848041,
+          "duration": 0.122541
+        },
+        {
+          "word": "colocar",
+          "start": 9.019625,
+          "duration": 0.330875
+        },
+        {
+          "word": "tu",
+          "start": 9.436291,
+          "duration": 0.061291
+        },
+        {
+          "word": "bloque",
+          "start": 9.534333,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 9.828416,
+          "duration": 0.061291
+        },
+        {
+          "word": "protección",
+          "start": 9.951,
+          "duration": 0.392125
+        },
+        {
+          "word": "en",
+          "start": 10.343125,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 10.428916,
+          "duration": 0.098041
+        },
+        {
+          "word": "suelo",
+          "start": 10.551458,
+          "duration": 0.306375
+        },
+        {
+          "word": "se",
+          "start": 11.078416,
+          "duration": 0.122541
+        },
+        {
+          "word": "creará",
+          "start": 11.25,
+          "duration": 0.269625
+        },
+        {
+          "word": "automáticamente",
+          "start": 11.531875,
+          "duration": 0.747541
+        },
+        {
+          "word": "un",
+          "start": 12.303916,
+          "duration": 0.147041
+        },
+        {
+          "word": "cubo",
+          "start": 12.46325,
+          "duration": 0.171583
+        },
+        {
+          "word": "protegido",
+          "start": 12.696083,
+          "duration": 0.490208
+        },
+        {
+          "word": "donde",
+          "start": 13.210791,
+          "duration": 0.220583
+        },
+        {
+          "word": "ningún",
+          "start": 13.468125,
+          "duration": 0.257333
+        },
+        {
+          "word": "extraño",
+          "start": 13.7255,
+          "duration": 0.441166
+        },
+        {
+          "word": "puede",
+          "start": 14.252458,
+          "duration": 0.183833
+        },
+        {
+          "word": "romper",
+          "start": 14.460791,
+          "duration": 0.343125
+        },
+        {
+          "word": "bloques",
+          "start": 14.840666,
+          "duration": 0.416666
+        },
+        {
+          "word": "abrir",
+          "start": 15.428916,
+          "duration": 0.294125
+        },
+        {
+          "word": "cofres",
+          "start": 15.796583,
+          "duration": 0.343125
+        },
+        {
+          "word": "ni",
+          "start": 16.176458,
+          "duration": 0.085791
+        },
+        {
+          "word": "usar",
+          "start": 16.2745,
+          "duration": 0.269625
+        },
+        {
+          "word": "tus",
+          "start": 16.617666,
+          "duration": 0.122541
+        },
+        {
+          "word": "máquinas",
+          "start": 16.776958,
+          "duration": 0.502458
+        },
+        {
+          "word": "Escribe",
+          "start": 18.186291,
+          "duration": 0.392166
+        },
+        {
+          "word": "barra",
+          "start": 18.615208,
+          "duration": 0.208333
+        },
+        {
+          "word": "ps",
+          "start": 18.909333,
+          "duration": 0.294125
+        },
+        {
+          "word": "para",
+          "start": 19.276958,
+          "duration": 0.159333
+        },
+        {
+          "word": "abrir",
+          "start": 19.485291,
+          "duration": 0.232833
+        },
+        {
+          "word": "el",
+          "start": 19.718125,
+          "duration": 0.085791
+        },
+        {
+          "word": "menú",
+          "start": 19.828416,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 20.073541,
+          "duration": 0.061291
+        },
+        {
+          "word": "gestión",
+          "start": 20.147041,
+          "duration": 0.428916
+        },
+        {
+          "word": "añadir",
+          "start": 20.808833,
+          "duration": 0.330875
+        },
+        {
+          "word": "amigos",
+          "start": 21.139708,
+          "duration": 0.416666
+        },
+        {
+          "word": "o",
+          "start": 21.568625,
+          "duration": 0.0245
+        },
+        {
+          "word": "ajustar",
+          "start": 21.617666,
+          "duration": 0.404416
+        },
+        {
+          "word": "los",
+          "start": 22.046583,
+          "duration": 0.134791
+        },
+        {
+          "word": "límites",
+          "start": 22.218125,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 22.622541,
+          "duration": 0.061291
+        },
+        {
+          "word": "tu",
+          "start": 22.745083,
+          "duration": 0.061291
+        },
+        {
+          "word": "terreno",
+          "start": 22.867666,
+          "duration": 0.367666
+        }
+      ]
+    },
+    {
+      "id": "sf1_p04_pwarp_xp",
+      "title": "WARPS COMUNITARIOS Y GRANJAS DE EXPERIENCIA",
+      "subtitle": "Acceso a granjas públicas de XP mediante /pwarp",
+      "badge": "04 // ECONOMÍA: /PWARP GRANJAS DE XP",
+      "text": "Slimefun exige niveles de experiencia para desbloquear tecnologías. No pases horas matando mobs: escribe /pwarp para explorar warps comunitarios. Allí encontrarás granjas masivas de XP para subir a nivel 30 en cuestión de minutos.",
+      "spoken_text": "Slimefun exige niveles de experiencia de Minecraft para desbloquear tecnologías. No necesitas pasar horas matando monstruos en la oscuridad: escribe barra pwarp en el chat para explorar los warps públicos creados por la comunidad. Allí encontrarás granjas de experiencia masivas y abiertas donde podrás subir a nivel treinta en cuestión de minutos.",
+      "action": "interact",
+      "camera": "wide",
+      "diagram": "pwarp_menu",
+      "audio_file": "sf1_p04_pwarp_xp.mp3",
+      "duration": 19.296,
+      "frames": 593,
+      "words": [
+        {
+          "word": "Slimefun",
+          "start": 0.099,
+          "duration": 0.514708
+        },
+        {
+          "word": "exige",
+          "start": 0.613708,
+          "duration": 0.343125
+        },
+        {
+          "word": "niveles",
+          "start": 0.993625,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 1.373541,
+          "duration": 0.049
+        },
+        {
+          "word": "experiencia",
+          "start": 1.434791,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 2.010791,
+          "duration": 0.073541
+        },
+        {
+          "word": "Minecraft",
+          "start": 2.121083,
+          "duration": 0.465666
+        },
+        {
+          "word": "para",
+          "start": 2.684791,
+          "duration": 0.147041
+        },
+        {
+          "word": "desbloquear",
+          "start": 2.856375,
+          "duration": 0.465666
+        },
+        {
+          "word": "tecnologías",
+          "start": 3.395583,
+          "duration": 0.747541
+        },
+        {
+          "word": "No",
+          "start": 5.049,
+          "duration": 0.171583
+        },
+        {
+          "word": "necesitas",
+          "start": 5.245083,
+          "duration": 0.502458
+        },
+        {
+          "word": "pasar",
+          "start": 5.821083,
+          "duration": 0.257333
+        },
+        {
+          "word": "horas",
+          "start": 6.078416,
+          "duration": 0.196083
+        },
+        {
+          "word": "matando",
+          "start": 6.311291,
+          "duration": 0.343125
+        },
+        {
+          "word": "monstruos",
+          "start": 6.678916,
+          "duration": 0.453416
+        },
+        {
+          "word": "en",
+          "start": 7.132333,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 7.218125,
+          "duration": 0.049
+        },
+        {
+          "word": "oscuridad",
+          "start": 7.291666,
+          "duration": 0.441166
+        },
+        {
+          "word": "escribe",
+          "start": 7.916666,
+          "duration": 0.367666
+        },
+        {
+          "word": "barra",
+          "start": 8.321083,
+          "duration": 0.220583
+        },
+        {
+          "word": "pwarp",
+          "start": 8.627458,
+          "duration": 0.159333
+        },
+        {
+          "word": "en",
+          "start": 8.835791,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 8.921583,
+          "duration": 0.134791
+        },
+        {
+          "word": "chat",
+          "start": 9.068625,
+          "duration": 0.183833
+        },
+        {
+          "word": "para",
+          "start": 9.326,
+          "duration": 0.110291
+        },
+        {
+          "word": "explorar",
+          "start": 9.460791,
+          "duration": 0.416666
+        },
+        {
+          "word": "los",
+          "start": 9.901958,
+          "duration": 0.122541
+        },
+        {
+          "word": "warps",
+          "start": 10.049,
+          "duration": 0.269625
+        },
+        {
+          "word": "públicos",
+          "start": 10.404416,
+          "duration": 0.416666
+        },
+        {
+          "word": "creados",
+          "start": 10.870083,
+          "duration": 0.355375
+        },
+        {
+          "word": "por",
+          "start": 11.311291,
+          "duration": 0.110291
+        },
+        {
+          "word": "la",
+          "start": 11.446083,
+          "duration": 0.049
+        },
+        {
+          "word": "comunidad",
+          "start": 11.544125,
+          "duration": 0.502458
+        },
+        {
+          "word": "Allí",
+          "start": 12.941166,
+          "duration": 0.257333
+        },
+        {
+          "word": "encontrarás",
+          "start": 13.198541,
+          "duration": 0.563708
+        },
+        {
+          "word": "granjas",
+          "start": 13.78675,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 14.154416,
+          "duration": 0.049
+        },
+        {
+          "word": "experiencia",
+          "start": 14.215666,
+          "duration": 0.526958
+        },
+        {
+          "word": "masivas",
+          "start": 14.767166,
+          "duration": 0.465666
+        },
+        {
+          "word": "y",
+          "start": 15.245083,
+          "duration": 0.0245
+        },
+        {
+          "word": "abiertas",
+          "start": 15.281875,
+          "duration": 0.441166
+        },
+        {
+          "word": "donde",
+          "start": 15.784333,
+          "duration": 0.196083
+        },
+        {
+          "word": "podrás",
+          "start": 16.053916,
+          "duration": 0.269625
+        },
+        {
+          "word": "subir",
+          "start": 16.323541,
+          "duration": 0.294125
+        },
+        {
+          "word": "a",
+          "start": 16.617666,
+          "duration": 0.061291
+        },
+        {
+          "word": "nivel",
+          "start": 16.715666,
+          "duration": 0.281875
+        },
+        {
+          "word": "treinta",
+          "start": 17.046583,
+          "duration": 0.281833
+        },
+        {
+          "word": "en",
+          "start": 17.328416,
+          "duration": 0.122541
+        },
+        {
+          "word": "cuestión",
+          "start": 17.451,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 17.843125,
+          "duration": 0.049
+        },
+        {
+          "word": "minutos",
+          "start": 17.928916,
+          "duration": 0.453416
+        }
+      ]
+    },
+    {
+      "id": "sf1_p05_sf_guide",
+      "title": "LA GUÍA MAESTRA DE SLIMEFUN",
+      "subtitle": "El comando /sf guide y el libro enciclopédico",
+      "badge": "05 // MANUAL: /SF GUIDE EN VIVO",
+      "text": "El corazón tecnológico es la Guía de Slimefun. Ábrela con /sf guide o con tu libro inicial. Se despliega en la GUI nativa de Minecraft, organizada en categorías: Herramientas, Armaduras, Máquinas Básicas, Electricidad, Logística y Almacenamiento.",
+      "spoken_text": "El corazón de toda la tecnología es la Guía de Slimefun. Puedes abrirla en cualquier momento escribiendo barra sf guide, o usando el libro de Slimefun que recibes al iniciar. La guía se despliega dentro de la interfaz gráfica real de Minecraft, con iconos nativos organizados en categorías como Herramientas, Armaduras, Máquinas Básicas, Electricidad y Logística.",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "guide_categories",
+      "audio_file": "sf1_p05_sf_guide.mp3",
+      "duration": 21.0,
+      "frames": 645,
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.122541
+        },
+        {
+          "word": "corazón",
+          "start": 0.282833,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 0.66275,
+          "duration": 0.061291
+        },
+        {
+          "word": "toda",
+          "start": 0.822041,
+          "duration": 0.196083
+        },
+        {
+          "word": "la",
+          "start": 1.030375,
+          "duration": 0.073541
+        },
+        {
+          "word": "tecnología",
+          "start": 1.165208,
+          "duration": 0.563708
+        },
+        {
+          "word": "es",
+          "start": 1.741166,
+          "duration": 0.085791
+        },
+        {
+          "word": "la",
+          "start": 1.863708,
+          "duration": 0.085791
+        },
+        {
+          "word": "Guía",
+          "start": 1.986291,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 2.231375,
+          "duration": 0.073541
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.378416,
+          "duration": 0.526958
+        },
+        {
+          "word": "Puedes",
+          "start": 3.7745,
+          "duration": 0.294125
+        },
+        {
+          "word": "abrirla",
+          "start": 4.068625,
+          "duration": 0.343125
+        },
+        {
+          "word": "en",
+          "start": 4.41175,
+          "duration": 0.110291
+        },
+        {
+          "word": "cualquier",
+          "start": 4.522041,
+          "duration": 0.306375
+        },
+        {
+          "word": "momento",
+          "start": 4.852958,
+          "duration": 0.343125
+        },
+        {
+          "word": "escribiendo",
+          "start": 5.196083,
+          "duration": 0.477958
+        },
+        {
+          "word": "barra",
+          "start": 5.710791,
+          "duration": 0.245083
+        },
+        {
+          "word": "sf",
+          "start": 6.017166,
+          "duration": 0.232833
+        },
+        {
+          "word": "guide",
+          "start": 6.299,
+          "duration": 0.257333
+        },
+        {
+          "word": "o",
+          "start": 6.801458,
+          "duration": 0.085791
+        },
+        {
+          "word": "usando",
+          "start": 6.88725,
+          "duration": 0.355375
+        },
+        {
+          "word": "el",
+          "start": 7.254916,
+          "duration": 0.049
+        },
+        {
+          "word": "libro",
+          "start": 7.303916,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 7.598041,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 7.732833,
+          "duration": 0.502458
+        },
+        {
+          "word": "que",
+          "start": 8.247541,
+          "duration": 0.061291
+        },
+        {
+          "word": "recibes",
+          "start": 8.345583,
+          "duration": 0.453416
+        },
+        {
+          "word": "al",
+          "start": 8.799,
+          "duration": 0.085791
+        },
+        {
+          "word": "iniciar",
+          "start": 8.909333,
+          "duration": 0.453416
+        },
+        {
+          "word": "La",
+          "start": 10.245083,
+          "duration": 0.159333
+        },
+        {
+          "word": "guía",
+          "start": 10.441166,
+          "duration": 0.196083
+        },
+        {
+          "word": "se",
+          "start": 10.63725,
+          "duration": 0.110291
+        },
+        {
+          "word": "despliega",
+          "start": 10.784333,
+          "duration": 0.453416
+        },
+        {
+          "word": "dentro",
+          "start": 11.26225,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 11.580875,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 11.666666,
+          "duration": 0.049
+        },
+        {
+          "word": "interfaz",
+          "start": 11.740208,
+          "duration": 0.428916
+        },
+        {
+          "word": "gráfica",
+          "start": 12.193625,
+          "duration": 0.379916
+        },
+        {
+          "word": "real",
+          "start": 12.585791,
+          "duration": 0.196083
+        },
+        {
+          "word": "de",
+          "start": 12.806375,
+          "duration": 0.049
+        },
+        {
+          "word": "Minecraft",
+          "start": 12.892166,
+          "duration": 0.477958
+        },
+        {
+          "word": "con",
+          "start": 13.627458,
+          "duration": 0.110291
+        },
+        {
+          "word": "iconos",
+          "start": 13.73775,
+          "duration": 0.330875
+        },
+        {
+          "word": "nativos",
+          "start": 14.093125,
+          "duration": 0.392166
+        },
+        {
+          "word": "organizados",
+          "start": 14.485291,
+          "duration": 0.6495
+        },
+        {
+          "word": "en",
+          "start": 15.134791,
+          "duration": 0.122541
+        },
+        {
+          "word": "categorías",
+          "start": 15.257333,
+          "duration": 0.551458
+        },
+        {
+          "word": "como",
+          "start": 15.857833,
+          "duration": 0.159333
+        },
+        {
+          "word": "Herramientas",
+          "start": 16.053916,
+          "duration": 0.551458
+        },
+        {
+          "word": "Armaduras",
+          "start": 16.801458,
+          "duration": 0.58825
+        },
+        {
+          "word": "Máquinas",
+          "start": 17.598041,
+          "duration": 0.441166
+        },
+        {
+          "word": "Básicas",
+          "start": 18.076,
+          "duration": 0.514708
+        },
+        {
+          "word": "Electricidad",
+          "start": 18.78675,
+          "duration": 0.66175
+        },
+        {
+          "word": "y",
+          "start": 19.460791,
+          "duration": 0.0245
+        },
+        {
+          "word": "Logística",
+          "start": 19.522041,
+          "duration": 0.6005
+        }
+      ]
+    },
+    {
+      "id": "sf1_p06_investigaciones",
+      "title": "EL SISTEMA DE INVESTIGACIÓN",
+      "subtitle": "Canje de niveles de experiencia para desbloquear tecnología",
+      "badge": "06 // PROGRESSION: RESEARCH TREES",
+      "text": "Al abrir una categoría, verás ítems bloqueados. Haz clic sobre ellos para investigarlos. El servidor consumirá niveles de XP y desbloqueará la receta permanentemente. Por eso es fundamental aprovechar las granjas de /pwarp.",
+      "spoken_text": "Al abrir cualquier categoría notarás que muchos ítems aparecen marcados como bloqueados. Para aprender a fabricarlos, simplemente haz clic sobre el ítem. El servidor consumirá una cantidad determinada de niveles de experiencia y desbloqueará la receta de forma permanente. Por eso es tan útil visitar antes las granjas públicas de experiencia con barra pwarp.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "research_tree",
+      "audio_file": "sf1_p06_investigaciones.mp3",
+      "duration": 20.4,
+      "frames": 627,
+      "words": [
+        {
+          "word": "Al",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "abrir",
+          "start": 0.246083,
+          "duration": 0.269625
+        },
+        {
+          "word": "cualquier",
+          "start": 0.576958,
+          "duration": 0.306375
+        },
+        {
+          "word": "categoría",
+          "start": 0.932333,
+          "duration": 0.477958
+        },
+        {
+          "word": "notarás",
+          "start": 1.434791,
+          "duration": 0.355375
+        },
+        {
+          "word": "que",
+          "start": 1.851458,
+          "duration": 0.073541
+        },
+        {
+          "word": "muchos",
+          "start": 1.9495,
+          "duration": 0.330875
+        },
+        {
+          "word": "ítems",
+          "start": 2.292666,
+          "duration": 0.281833
+        },
+        {
+          "word": "aparecen",
+          "start": 2.5745,
+          "duration": 0.428916
+        },
+        {
+          "word": "marcados",
+          "start": 3.040208,
+          "duration": 0.416666
+        },
+        {
+          "word": "como",
+          "start": 3.505875,
+          "duration": 0.171583
+        },
+        {
+          "word": "bloqueados",
+          "start": 3.714208,
+          "duration": 0.563708
+        },
+        {
+          "word": "Para",
+          "start": 5.196083,
+          "duration": 0.208333
+        },
+        {
+          "word": "aprender",
+          "start": 5.416666,
+          "duration": 0.343125
+        },
+        {
+          "word": "a",
+          "start": 5.759791,
+          "duration": 0.049
+        },
+        {
+          "word": "fabricarlos",
+          "start": 5.833333,
+          "duration": 0.625
+        },
+        {
+          "word": "simplemente",
+          "start": 6.678916,
+          "duration": 0.58825
+        },
+        {
+          "word": "haz",
+          "start": 7.279416,
+          "duration": 0.098041
+        },
+        {
+          "word": "clic",
+          "start": 7.426458,
+          "duration": 0.147041
+        },
+        {
+          "word": "sobre",
+          "start": 7.610291,
+          "duration": 0.232833
+        },
+        {
+          "word": "el",
+          "start": 7.904416,
+          "duration": 0.049
+        },
+        {
+          "word": "ítem",
+          "start": 7.965666,
+          "duration": 0.318625
+        },
+        {
+          "word": "El",
+          "start": 9.142166,
+          "duration": 0.147041
+        },
+        {
+          "word": "servidor",
+          "start": 9.289208,
+          "duration": 0.379916
+        },
+        {
+          "word": "consumirá",
+          "start": 9.718125,
+          "duration": 0.441166
+        },
+        {
+          "word": "una",
+          "start": 10.171583,
+          "duration": 0.147041
+        },
+        {
+          "word": "cantidad",
+          "start": 10.367666,
+          "duration": 0.379916
+        },
+        {
+          "word": "determinada",
+          "start": 10.772041,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 11.335791,
+          "duration": 0.073541
+        },
+        {
+          "word": "niveles",
+          "start": 11.446083,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 11.83825,
+          "duration": 0.049
+        },
+        {
+          "word": "experiencia",
+          "start": 11.936291,
+          "duration": 0.58825
+        },
+        {
+          "word": "y",
+          "start": 12.549,
+          "duration": 0.03675
+        },
+        {
+          "word": "desbloqueará",
+          "start": 12.622541,
+          "duration": 0.563708
+        },
+        {
+          "word": "la",
+          "start": 13.186291,
+          "duration": 0.110291
+        },
+        {
+          "word": "receta",
+          "start": 13.308833,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 13.71325,
+          "duration": 0.085791
+        },
+        {
+          "word": "forma",
+          "start": 13.823541,
+          "duration": 0.294125
+        },
+        {
+          "word": "permanente",
+          "start": 14.191166,
+          "duration": 0.526958
+        },
+        {
+          "word": "Por",
+          "start": 15.61275,
+          "duration": 0.159291
+        },
+        {
+          "word": "eso",
+          "start": 15.772041,
+          "duration": 0.208333
+        },
+        {
+          "word": "es",
+          "start": 15.992666,
+          "duration": 0.073541
+        },
+        {
+          "word": "tan",
+          "start": 16.115208,
+          "duration": 0.110291
+        },
+        {
+          "word": "útil",
+          "start": 16.23775,
+          "duration": 0.220583
+        },
+        {
+          "word": "visitar",
+          "start": 16.495083,
+          "duration": 0.379916
+        },
+        {
+          "word": "antes",
+          "start": 16.875,
+          "duration": 0.269625
+        },
+        {
+          "word": "las",
+          "start": 17.181375,
+          "duration": 0.122541
+        },
+        {
+          "word": "granjas",
+          "start": 17.340666,
+          "duration": 0.318625
+        },
+        {
+          "word": "públicas",
+          "start": 17.732833,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 18.125,
+          "duration": 0.049
+        },
+        {
+          "word": "experiencia",
+          "start": 18.223041,
+          "duration": 0.539208
+        },
+        {
+          "word": "con",
+          "start": 18.823541,
+          "duration": 0.122541
+        },
+        {
+          "word": "barra",
+          "start": 19.007333,
+          "duration": 0.220583
+        },
+        {
+          "word": "pwarp",
+          "start": 19.301458,
+          "duration": 0.208333
+        }
+      ]
+    },
+    {
+      "id": "sf1_p07_recetas_gui",
+      "title": "CÓMO LEER UNA RECETA DE SLIMEFUN",
+      "subtitle": "Matriz de 3x3, ingredientes y la máquina requerida",
+      "badge": "07 // CRAFTING: RECIPE MATRIX & MACHINES",
+      "text": "Al hacer clic en un ítem investigado, verás su ficha técnica: matriz 3x3 con componentes y la máquina multibloque exacta donde debe fabricarse. Los ítems de Slimefun requieren multibloques especializados, no la mesa vanilla.",
+      "spoken_text": "Cuando haces clic en un ítem ya investigado, la guía te mostrará su ficha técnica. A la izquierda verás la matriz de tres por tres con los componentes exactos, y en el centro te indicará en qué máquina multibloque debes fabricarlo. Los ítems de Slimefun no se craftean en una mesa de crafteo común de Minecraft: requieren multibloques especializados.",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "recipe_gui",
+      "audio_file": "sf1_p07_recetas_gui.mp3",
+      "duration": 19.32,
+      "frames": 594,
+      "words": [
+        {
+          "word": "Cuando",
+          "start": 0.099,
+          "duration": 0.257333
+        },
+        {
+          "word": "haces",
+          "start": 0.356375,
+          "duration": 0.232833
+        },
+        {
+          "word": "clic",
+          "start": 0.63825,
+          "duration": 0.196083
+        },
+        {
+          "word": "en",
+          "start": 0.834333,
+          "duration": 0.085791
+        },
+        {
+          "word": "un",
+          "start": 0.932333,
+          "duration": 0.098041
+        },
+        {
+          "word": "ítem",
+          "start": 1.042666,
+          "duration": 0.245083
+        },
+        {
+          "word": "ya",
+          "start": 1.3245,
+          "duration": 0.085791
+        },
+        {
+          "word": "investigado",
+          "start": 1.434791,
+          "duration": 0.563708
+        },
+        {
+          "word": "la",
+          "start": 2.206875,
+          "duration": 0.134791
+        },
+        {
+          "word": "guía",
+          "start": 2.378416,
+          "duration": 0.183833
+        },
+        {
+          "word": "te",
+          "start": 2.611291,
+          "duration": 0.049
+        },
+        {
+          "word": "mostrará",
+          "start": 2.684791,
+          "duration": 0.404416
+        },
+        {
+          "word": "su",
+          "start": 3.101458,
+          "duration": 0.122541
+        },
+        {
+          "word": "ficha",
+          "start": 3.248541,
+          "duration": 0.269625
+        },
+        {
+          "word": "técnica",
+          "start": 3.591666,
+          "duration": 0.441166
+        },
+        {
+          "word": "A",
+          "start": 4.901958,
+          "duration": 0.122541
+        },
+        {
+          "word": "la",
+          "start": 5.0245,
+          "duration": 0.061291
+        },
+        {
+          "word": "izquierda",
+          "start": 5.110291,
+          "duration": 0.367666
+        },
+        {
+          "word": "verás",
+          "start": 5.502458,
+          "duration": 0.245083
+        },
+        {
+          "word": "la",
+          "start": 5.784333,
+          "duration": 0.073541
+        },
+        {
+          "word": "matriz",
+          "start": 5.882333,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 6.25,
+          "duration": 0.061291
+        },
+        {
+          "word": "tres",
+          "start": 6.384791,
+          "duration": 0.171583
+        },
+        {
+          "word": "por",
+          "start": 6.629916,
+          "duration": 0.098041
+        },
+        {
+          "word": "tres",
+          "start": 6.813708,
+          "duration": 0.171583
+        },
+        {
+          "word": "con",
+          "start": 7.022041,
+          "duration": 0.098041
+        },
+        {
+          "word": "los",
+          "start": 7.144625,
+          "duration": 0.098041
+        },
+        {
+          "word": "componentes",
+          "start": 7.279416,
+          "duration": 0.551458
+        },
+        {
+          "word": "exactos",
+          "start": 7.830875,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 8.541666,
+          "duration": 0.073541
+        },
+        {
+          "word": "en",
+          "start": 8.615208,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 8.701,
+          "duration": 0.110291
+        },
+        {
+          "word": "centro",
+          "start": 8.823541,
+          "duration": 0.306375
+        },
+        {
+          "word": "te",
+          "start": 9.191166,
+          "duration": 0.049
+        },
+        {
+          "word": "indicará",
+          "start": 9.264708,
+          "duration": 0.441166
+        },
+        {
+          "word": "en",
+          "start": 9.705875,
+          "duration": 0.122541
+        },
+        {
+          "word": "qué",
+          "start": 9.828416,
+          "duration": 0.061291
+        },
+        {
+          "word": "máquina",
+          "start": 9.914208,
+          "duration": 0.330875
+        },
+        {
+          "word": "multibloque",
+          "start": 10.269625,
+          "duration": 0.539208
+        },
+        {
+          "word": "debes",
+          "start": 10.845583,
+          "duration": 0.245083
+        },
+        {
+          "word": "fabricarlo",
+          "start": 11.115208,
+          "duration": 0.58825
+        },
+        {
+          "word": "Los",
+          "start": 12.585791,
+          "duration": 0.220583
+        },
+        {
+          "word": "ítems",
+          "start": 12.806375,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 13.11275,
+          "duration": 0.049
+        },
+        {
+          "word": "Slimefun",
+          "start": 13.186291,
+          "duration": 0.502458
+        },
+        {
+          "word": "no",
+          "start": 13.701,
+          "duration": 0.110291
+        },
+        {
+          "word": "se",
+          "start": 13.823541,
+          "duration": 0.098041
+        },
+        {
+          "word": "craftean",
+          "start": 13.970583,
+          "duration": 0.392166
+        },
+        {
+          "word": "en",
+          "start": 14.36275,
+          "duration": 0.098041
+        },
+        {
+          "word": "una",
+          "start": 14.473041,
+          "duration": 0.171583
+        },
+        {
+          "word": "mesa",
+          "start": 14.669125,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 14.938708,
+          "duration": 0.061291
+        },
+        {
+          "word": "crafteo",
+          "start": 15.049,
+          "duration": 0.318625
+        },
+        {
+          "word": "común",
+          "start": 15.428916,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 15.710791,
+          "duration": 0.049
+        },
+        {
+          "word": "Minecraft",
+          "start": 15.796583,
+          "duration": 0.502458
+        },
+        {
+          "word": "requieren",
+          "start": 16.519625,
+          "duration": 0.379916
+        },
+        {
+          "word": "multibloques",
+          "start": 16.936291,
+          "duration": 0.600458
+        },
+        {
+          "word": "especializados",
+          "start": 17.53675,
+          "duration": 0.870083
+        }
+      ]
+    },
+    {
+      "id": "sf1_p08_multibloques_intro",
+      "title": "QUÉ ES UN MULTIBLOQUE",
+      "subtitle": "Estructuras en el mundo real que cobran vida mediante interacción",
+      "badge": "08 // WORLD BUILD: MULTIBLOCK ESSENTIALS",
+      "text": "Un multibloque es una máquina construida en el mundo combinando bloques vanilla en una disposición fija. No son un solo bloque: la estructura completa cobra vida al interactuar. Colocas los materiales en el dispensador y haces clic derecho en la pieza de activación.",
+      "spoken_text": "Un multibloque es una máquina construida directamente en el mundo colocando bloques vanilla de Minecraft en una disposición específica. No tienen un bloque único de bloque de máquina: la combinación física de bloques normales forma la estructura. Para usarlos, introduces los ingredientes dentro del dispensador y haces clic derecho en la pieza de interacción para fabricar.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "multiblock_concept",
+      "audio_file": "sf1_p08_multibloques_intro.mp3",
+      "duration": 20.28,
+      "frames": 623,
+      "words": [
+        {
+          "word": "Un",
+          "start": 0.099,
+          "duration": 0.110291
+        },
+        {
+          "word": "multibloque",
+          "start": 0.246083,
+          "duration": 0.514708
+        },
+        {
+          "word": "es",
+          "start": 0.834333,
+          "duration": 0.073541
+        },
+        {
+          "word": "una",
+          "start": 0.932333,
+          "duration": 0.134791
+        },
+        {
+          "word": "máquina",
+          "start": 1.091666,
+          "duration": 0.318625
+        },
+        {
+          "word": "construida",
+          "start": 1.459333,
+          "duration": 0.477958
+        },
+        {
+          "word": "directamente",
+          "start": 1.96175,
+          "duration": 0.6005
+        },
+        {
+          "word": "en",
+          "start": 2.5745,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 2.648041,
+          "duration": 0.098041
+        },
+        {
+          "word": "mundo",
+          "start": 2.770583,
+          "duration": 0.245083
+        },
+        {
+          "word": "colocando",
+          "start": 3.052458,
+          "duration": 0.416666
+        },
+        {
+          "word": "bloques",
+          "start": 3.505875,
+          "duration": 0.306375
+        },
+        {
+          "word": "vanilla",
+          "start": 3.849,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 4.204416,
+          "duration": 0.073541
+        },
+        {
+          "word": "Minecraft",
+          "start": 4.314708,
+          "duration": 0.477958
+        },
+        {
+          "word": "en",
+          "start": 4.792666,
+          "duration": 0.098041
+        },
+        {
+          "word": "una",
+          "start": 4.902958,
+          "duration": 0.147041
+        },
+        {
+          "word": "disposición",
+          "start": 5.0745,
+          "duration": 0.539208
+        },
+        {
+          "word": "específica",
+          "start": 5.626,
+          "duration": 0.66175
+        },
+        {
+          "word": "No",
+          "start": 7.156875,
+          "duration": 0.159333
+        },
+        {
+          "word": "tienen",
+          "start": 7.389708,
+          "duration": 0.232833
+        },
+        {
+          "word": "un",
+          "start": 7.634791,
+          "duration": 0.110291
+        },
+        {
+          "word": "bloque",
+          "start": 7.757333,
+          "duration": 0.257333
+        },
+        {
+          "word": "único",
+          "start": 8.039208,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 8.357833,
+          "duration": 0.061291
+        },
+        {
+          "word": "bloque",
+          "start": 8.455875,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 8.71325,
+          "duration": 0.061291
+        },
+        {
+          "word": "máquina",
+          "start": 8.799,
+          "duration": 0.416666
+        },
+        {
+          "word": "la",
+          "start": 9.424,
+          "duration": 0.110291
+        },
+        {
+          "word": "combinación",
+          "start": 9.595583,
+          "duration": 0.539208
+        },
+        {
+          "word": "física",
+          "start": 10.147041,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 10.539208,
+          "duration": 0.061291
+        },
+        {
+          "word": "bloques",
+          "start": 10.63725,
+          "duration": 0.318625
+        },
+        {
+          "word": "normales",
+          "start": 10.980375,
+          "duration": 0.465666
+        },
+        {
+          "word": "forma",
+          "start": 11.470583,
+          "duration": 0.294125
+        },
+        {
+          "word": "la",
+          "start": 11.764708,
+          "duration": 0.061291
+        },
+        {
+          "word": "estructura",
+          "start": 11.875,
+          "duration": 0.539208
+        },
+        {
+          "word": "Para",
+          "start": 13.284333,
+          "duration": 0.183833
+        },
+        {
+          "word": "usarlos",
+          "start": 13.504916,
+          "duration": 0.453416
+        },
+        {
+          "word": "introduces",
+          "start": 14.203416,
+          "duration": 0.551458
+        },
+        {
+          "word": "los",
+          "start": 14.791666,
+          "duration": 0.147041
+        },
+        {
+          "word": "ingredientes",
+          "start": 14.951,
+          "duration": 0.526958
+        },
+        {
+          "word": "dentro",
+          "start": 15.526958,
+          "duration": 0.257333
+        },
+        {
+          "word": "del",
+          "start": 15.808833,
+          "duration": 0.110291
+        },
+        {
+          "word": "dispensador",
+          "start": 15.968125,
+          "duration": 0.576
+        },
+        {
+          "word": "y",
+          "start": 16.568625,
+          "duration": 0.073541
+        },
+        {
+          "word": "haces",
+          "start": 16.654416,
+          "duration": 0.257333
+        },
+        {
+          "word": "clic",
+          "start": 16.973041,
+          "duration": 0.147041
+        },
+        {
+          "word": "derecho",
+          "start": 17.169125,
+          "duration": 0.330875
+        },
+        {
+          "word": "en",
+          "start": 17.5,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 17.598041,
+          "duration": 0.061291
+        },
+        {
+          "word": "pieza",
+          "start": 17.745083,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 18.051458,
+          "duration": 0.061291
+        },
+        {
+          "word": "interacción",
+          "start": 18.1495,
+          "duration": 0.551458
+        },
+        {
+          "word": "para",
+          "start": 18.7255,
+          "duration": 0.122541
+        },
+        {
+          "word": "fabricar",
+          "start": 18.872541,
+          "duration": 0.514708
+        }
+      ]
+    },
+    {
+      "id": "sf1_p09_enhanced_table",
+      "title": "MULTIBLOQUE 1: MESA DE TRABAJO MEJORADA",
+      "subtitle": "Dispensador en la base + Mesa de crafteo encima",
+      "badge": "09 // CORE MACHINE: ENHANCED CRAFTING TABLE",
+      "text": "El primer multibloque obligatorio: Mesa de Trabajo Mejorada. Coloca un dispensador en el suelo y una mesa de crafteo justo encima. Pon los ingredientes dentro del dispensador y haz clic derecho en la mesa de crafteo. El resultado aparecerá dentro del dispensador. Es la base de casi todo Slimefun.",
+      "spoken_text": "El primer multibloque que debes construir obligatoriamente es la Mesa de Trabajo Mejorada. Coloca un dispensador en el suelo mirando hacia arriba o al frente, y pon una mesa de crafteo justo encima. Dentro del dispensador colocas los ingredientes siguiendo la receta de la guía, y haces clic derecho en la mesa de crafteo. El ítem resultante aparecerá en el dispensador. Es el corazón del noventa por ciento de los componentes iniciales.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "enhanced_crafting_table",
+      "audio_file": "sf1_p09_enhanced_table.mp3",
+      "duration": 24.96,
+      "frames": 763,
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.134791
+        },
+        {
+          "word": "primer",
+          "start": 0.282833,
+          "duration": 0.232833
+        },
+        {
+          "word": "multibloque",
+          "start": 0.540208,
+          "duration": 0.502458
+        },
+        {
+          "word": "que",
+          "start": 1.103916,
+          "duration": 0.073541
+        },
+        {
+          "word": "debes",
+          "start": 1.214208,
+          "duration": 0.232833
+        },
+        {
+          "word": "construir",
+          "start": 1.496083,
+          "duration": 0.428916
+        },
+        {
+          "word": "obligatoriamente",
+          "start": 1.925,
+          "duration": 0.833333
+        },
+        {
+          "word": "es",
+          "start": 2.831875,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 2.929916,
+          "duration": 0.085791
+        },
+        {
+          "word": "Mesa",
+          "start": 3.040208,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 3.346583,
+          "duration": 0.073541
+        },
+        {
+          "word": "Trabajo",
+          "start": 3.481375,
+          "duration": 0.330875
+        },
+        {
+          "word": "Mejorada",
+          "start": 3.83675,
+          "duration": 0.526958
+        },
+        {
+          "word": "Coloca",
+          "start": 5.257333,
+          "duration": 0.379916
+        },
+        {
+          "word": "un",
+          "start": 5.66175,
+          "duration": 0.049
+        },
+        {
+          "word": "dispensador",
+          "start": 5.747541,
+          "duration": 0.539208
+        },
+        {
+          "word": "en",
+          "start": 6.28675,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 6.372541,
+          "duration": 0.098041
+        },
+        {
+          "word": "suelo",
+          "start": 6.495083,
+          "duration": 0.232833
+        },
+        {
+          "word": "mirando",
+          "start": 6.752458,
+          "duration": 0.343125
+        },
+        {
+          "word": "hacia",
+          "start": 7.107833,
+          "duration": 0.196083
+        },
+        {
+          "word": "arriba",
+          "start": 7.303916,
+          "duration": 0.343125
+        },
+        {
+          "word": "o",
+          "start": 7.647041,
+          "duration": 0.049
+        },
+        {
+          "word": "al",
+          "start": 7.708333,
+          "duration": 0.073541
+        },
+        {
+          "word": "frente",
+          "start": 7.806375,
+          "duration": 0.355375
+        },
+        {
+          "word": "y",
+          "start": 8.394625,
+          "duration": 0.061291
+        },
+        {
+          "word": "pon",
+          "start": 8.541666,
+          "duration": 0.110291
+        },
+        {
+          "word": "una",
+          "start": 8.664208,
+          "duration": 0.159333
+        },
+        {
+          "word": "mesa",
+          "start": 8.848041,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 9.129916,
+          "duration": 0.061291
+        },
+        {
+          "word": "crafteo",
+          "start": 9.240208,
+          "duration": 0.379916
+        },
+        {
+          "word": "justo",
+          "start": 9.644625,
+          "duration": 0.294083
+        },
+        {
+          "word": "encima",
+          "start": 9.938708,
+          "duration": 0.416666
+        },
+        {
+          "word": "Dentro",
+          "start": 11.2255,
+          "duration": 0.318625
+        },
+        {
+          "word": "del",
+          "start": 11.568625,
+          "duration": 0.110291
+        },
+        {
+          "word": "dispensador",
+          "start": 11.715666,
+          "duration": 0.514708
+        },
+        {
+          "word": "colocas",
+          "start": 12.279416,
+          "duration": 0.367666
+        },
+        {
+          "word": "los",
+          "start": 12.683833,
+          "duration": 0.134791
+        },
+        {
+          "word": "ingredientes",
+          "start": 12.830875,
+          "duration": 0.514708
+        },
+        {
+          "word": "siguiendo",
+          "start": 13.345583,
+          "duration": 0.404416
+        },
+        {
+          "word": "la",
+          "start": 13.78675,
+          "duration": 0.098041
+        },
+        {
+          "word": "receta",
+          "start": 13.897041,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 14.276958,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 14.36275,
+          "duration": 0.073541
+        },
+        {
+          "word": "guía",
+          "start": 14.473041,
+          "duration": 0.294125
+        },
+        {
+          "word": "y",
+          "start": 15.0,
+          "duration": 0.098041
+        },
+        {
+          "word": "haces",
+          "start": 15.110291,
+          "duration": 0.245083
+        },
+        {
+          "word": "clic",
+          "start": 15.416666,
+          "duration": 0.147041
+        },
+        {
+          "word": "derecho",
+          "start": 15.61275,
+          "duration": 0.318625
+        },
+        {
+          "word": "en",
+          "start": 15.931375,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 16.017166,
+          "duration": 0.061291
+        },
+        {
+          "word": "mesa",
+          "start": 16.102958,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 16.397041,
+          "duration": 0.061291
+        },
+        {
+          "word": "crafteo",
+          "start": 16.507333,
+          "duration": 0.428916
+        },
+        {
+          "word": "El",
+          "start": 17.843125,
+          "duration": 0.147041
+        },
+        {
+          "word": "ítem",
+          "start": 18.002458,
+          "duration": 0.257333
+        },
+        {
+          "word": "resultante",
+          "start": 18.259791,
+          "duration": 0.502458
+        },
+        {
+          "word": "aparecerá",
+          "start": 18.76225,
+          "duration": 0.526958
+        },
+        {
+          "word": "en",
+          "start": 19.289208,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 19.36275,
+          "duration": 0.098041
+        },
+        {
+          "word": "dispensador",
+          "start": 19.485291,
+          "duration": 0.6495
+        },
+        {
+          "word": "Es",
+          "start": 21.017166,
+          "duration": 0.171541
+        },
+        {
+          "word": "el",
+          "start": 21.188708,
+          "duration": 0.073541
+        },
+        {
+          "word": "corazón",
+          "start": 21.323541,
+          "duration": 0.330875
+        },
+        {
+          "word": "del",
+          "start": 21.691166,
+          "duration": 0.085791
+        },
+        {
+          "word": "noventa",
+          "start": 21.801458,
+          "duration": 0.306375
+        },
+        {
+          "word": "por",
+          "start": 22.169125,
+          "duration": 0.098041
+        },
+        {
+          "word": "ciento",
+          "start": 22.279416,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 22.610291,
+          "duration": 0.073541
+        },
+        {
+          "word": "los",
+          "start": 22.708333,
+          "duration": 0.110291
+        },
+        {
+          "word": "componentes",
+          "start": 22.855375,
+          "duration": 0.576
+        },
+        {
+          "word": "iniciales",
+          "start": 23.443625,
+          "duration": 0.6005
+        }
+      ]
+    },
+    {
+      "id": "sf1_p10_grindstone",
+      "title": "MULTIBLOQUE 2: TRITURADORA",
+      "subtitle": "Dispensador en la base + Valla de roble encima",
+      "badge": "10 // PROCESSING: GRIND STONE",
+      "text": "Segundo multibloque: Trituradora (Grind Stone). Coloca un dispensador en el suelo y una valla de roble encima. Muele trigo en harina, huesos en polvo eficiente y procesa recursos iniciales. Coloca el material en el dispensador y haz clic derecho en la valla.",
+      "spoken_text": "El segundo multibloque es la Trituradora o Grindstone. Se construye colocando un dispensador en el suelo y una valla de roble encima. Sirve para moler trigo en harina de trigo para comida avanzada, triturar huesos en polvo de hueso eficiente, y pulverizar materiales geológicos básicos. Basta con poner el material en el dispensador y hacer clic derecho en la valla.",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "grind_stone",
+      "audio_file": "sf1_p10_grindstone.mp3",
+      "duration": 21.288,
+      "frames": 653,
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.159333
+        },
+        {
+          "word": "segundo",
+          "start": 0.258333,
+          "duration": 0.330875
+        },
+        {
+          "word": "multibloque",
+          "start": 0.601458,
+          "duration": 0.514708
+        },
+        {
+          "word": "es",
+          "start": 1.189708,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 1.28775,
+          "duration": 0.073541
+        },
+        {
+          "word": "Trituradora",
+          "start": 1.410291,
+          "duration": 0.6005
+        },
+        {
+          "word": "o",
+          "start": 2.035291,
+          "duration": 0.0245
+        },
+        {
+          "word": "Grindstone",
+          "start": 2.096583,
+          "duration": 0.514708
+        },
+        {
+          "word": "Se",
+          "start": 3.504916,
+          "duration": 0.159333
+        },
+        {
+          "word": "construye",
+          "start": 3.71325,
+          "duration": 0.428916
+        },
+        {
+          "word": "colocando",
+          "start": 4.191166,
+          "duration": 0.453416
+        },
+        {
+          "word": "un",
+          "start": 4.656875,
+          "duration": 0.085791
+        },
+        {
+          "word": "dispensador",
+          "start": 4.779416,
+          "duration": 0.575958
+        },
+        {
+          "word": "en",
+          "start": 5.355375,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 5.441166,
+          "duration": 0.098041
+        },
+        {
+          "word": "suelo",
+          "start": 5.563708,
+          "duration": 0.306375
+        },
+        {
+          "word": "y",
+          "start": 5.906875,
+          "duration": 0.061291
+        },
+        {
+          "word": "una",
+          "start": 5.980375,
+          "duration": 0.183833
+        },
+        {
+          "word": "valla",
+          "start": 6.201,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 6.458333,
+          "duration": 0.085791
+        },
+        {
+          "word": "roble",
+          "start": 6.580875,
+          "duration": 0.245083
+        },
+        {
+          "word": "encima",
+          "start": 6.86275,
+          "duration": 0.428916
+        },
+        {
+          "word": "Sirve",
+          "start": 8.174,
+          "duration": 0.330875
+        },
+        {
+          "word": "para",
+          "start": 8.578416,
+          "duration": 0.134791
+        },
+        {
+          "word": "moler",
+          "start": 8.73775,
+          "duration": 0.245083
+        },
+        {
+          "word": "trigo",
+          "start": 9.068625,
+          "duration": 0.232833
+        },
+        {
+          "word": "en",
+          "start": 9.313708,
+          "duration": 0.061291
+        },
+        {
+          "word": "harina",
+          "start": 9.375,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 9.705875,
+          "duration": 0.085791
+        },
+        {
+          "word": "trigo",
+          "start": 9.877458,
+          "duration": 0.232833
+        },
+        {
+          "word": "para",
+          "start": 10.183833,
+          "duration": 0.134791
+        },
+        {
+          "word": "comida",
+          "start": 10.379916,
+          "duration": 0.318625
+        },
+        {
+          "word": "avanzada",
+          "start": 10.710791,
+          "duration": 0.539208
+        },
+        {
+          "word": "triturar",
+          "start": 11.507333,
+          "duration": 0.367666
+        },
+        {
+          "word": "huesos",
+          "start": 11.91175,
+          "duration": 0.306375
+        },
+        {
+          "word": "en",
+          "start": 12.218125,
+          "duration": 0.134791
+        },
+        {
+          "word": "polvo",
+          "start": 12.401958,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 12.683833,
+          "duration": 0.061291
+        },
+        {
+          "word": "hueso",
+          "start": 12.781875,
+          "duration": 0.196083
+        },
+        {
+          "word": "eficiente",
+          "start": 12.977958,
+          "duration": 0.502458
+        },
+        {
+          "word": "y",
+          "start": 13.701,
+          "duration": 0.061291
+        },
+        {
+          "word": "pulverizar",
+          "start": 13.835791,
+          "duration": 0.477958
+        },
+        {
+          "word": "materiales",
+          "start": 14.326,
+          "duration": 0.526958
+        },
+        {
+          "word": "geológicos",
+          "start": 14.877458,
+          "duration": 0.539208
+        },
+        {
+          "word": "básicos",
+          "start": 15.453416,
+          "duration": 0.526958
+        },
+        {
+          "word": "Basta",
+          "start": 16.88725,
+          "duration": 0.294125
+        },
+        {
+          "word": "con",
+          "start": 17.230375,
+          "duration": 0.159333
+        },
+        {
+          "word": "poner",
+          "start": 17.401958,
+          "duration": 0.220583
+        },
+        {
+          "word": "el",
+          "start": 17.622541,
+          "duration": 0.098041
+        },
+        {
+          "word": "material",
+          "start": 17.745083,
+          "duration": 0.404416
+        },
+        {
+          "word": "en",
+          "start": 18.1495,
+          "duration": 0.098041
+        },
+        {
+          "word": "el",
+          "start": 18.247541,
+          "duration": 0.098041
+        },
+        {
+          "word": "dispensador",
+          "start": 18.370083,
+          "duration": 0.58825
+        },
+        {
+          "word": "y",
+          "start": 18.982833,
+          "duration": 0.049
+        },
+        {
+          "word": "hacer",
+          "start": 19.044125,
+          "duration": 0.245083
+        },
+        {
+          "word": "clic",
+          "start": 19.375,
+          "duration": 0.159333
+        },
+        {
+          "word": "derecho",
+          "start": 19.583333,
+          "duration": 0.330875
+        },
+        {
+          "word": "en",
+          "start": 19.914208,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 20.0,
+          "duration": 0.073541
+        },
+        {
+          "word": "valla",
+          "start": 20.110291,
+          "duration": 0.281875
+        }
+      ]
+    },
+    {
+      "id": "sf1_p11_armor_forge",
+      "title": "MULTIBLOQUE 3: FORJA DE ARMADURAS",
+      "subtitle": "Dispensador en la base + Yunque encima",
+      "badge": "11 // METALLURGY: ARMOR FORGE",
+      "text": "Para equipo defensivo superior necesitas la Forja de Armaduras: dispensador con un yunque encima. Permite forjar armaduras de acero de Damasco, aleaciones reforzadas y trajes con protección contra radiación para ambientes industriales hostiles.",
+      "spoken_text": "Para fabricar equipamiento defensivo de alto nivel necesitarás la Forja de Armaduras. Se arma colocando un dispensador y un yunque normal encima de él. Aquí podrás forjar armaduras de acero de Damasco, armaduras reforzadas y trajes con resistencia química que te protegerán contra la radiación y los ambientes hostiles de los reactores.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "armor_forge",
+      "audio_file": "sf1_p11_armor_forge.mp3",
+      "duration": 18.96,
+      "frames": 583,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.196083
+        },
+        {
+          "word": "fabricar",
+          "start": 0.319625,
+          "duration": 0.416666
+        },
+        {
+          "word": "equipamiento",
+          "start": 0.736291,
+          "duration": 0.563708
+        },
+        {
+          "word": "defensivo",
+          "start": 1.3245,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 1.863708,
+          "duration": 0.085791
+        },
+        {
+          "word": "alto",
+          "start": 1.986291,
+          "duration": 0.208333
+        },
+        {
+          "word": "nivel",
+          "start": 2.231375,
+          "duration": 0.245083
+        },
+        {
+          "word": "necesitarás",
+          "start": 2.488708,
+          "duration": 0.63725
+        },
+        {
+          "word": "la",
+          "start": 3.16275,
+          "duration": 0.085791
+        },
+        {
+          "word": "Forja",
+          "start": 3.273041,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 3.603916,
+          "duration": 0.073541
+        },
+        {
+          "word": "Armaduras",
+          "start": 3.689708,
+          "duration": 0.58825
+        },
+        {
+          "word": "Se",
+          "start": 5.183833,
+          "duration": 0.196083
+        },
+        {
+          "word": "arma",
+          "start": 5.392166,
+          "duration": 0.208333
+        },
+        {
+          "word": "colocando",
+          "start": 5.6495,
+          "duration": 0.453416
+        },
+        {
+          "word": "un",
+          "start": 6.115208,
+          "duration": 0.085791
+        },
+        {
+          "word": "dispensador",
+          "start": 6.23775,
+          "duration": 0.551458
+        },
+        {
+          "word": "y",
+          "start": 6.813708,
+          "duration": 0.061291
+        },
+        {
+          "word": "un",
+          "start": 6.88725,
+          "duration": 0.122541
+        },
+        {
+          "word": "yunque",
+          "start": 7.022041,
+          "duration": 0.257333
+        },
+        {
+          "word": "normal",
+          "start": 7.316166,
+          "duration": 0.343125
+        },
+        {
+          "word": "encima",
+          "start": 7.659333,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 8.076,
+          "duration": 0.085791
+        },
+        {
+          "word": "él",
+          "start": 8.235291,
+          "duration": 0.134791
+        },
+        {
+          "word": "Aquí",
+          "start": 9.227958,
+          "duration": 0.257333
+        },
+        {
+          "word": "podrás",
+          "start": 9.546583,
+          "duration": 0.257333
+        },
+        {
+          "word": "forjar",
+          "start": 9.828416,
+          "duration": 0.330875
+        },
+        {
+          "word": "armaduras",
+          "start": 10.159333,
+          "duration": 0.465666
+        },
+        {
+          "word": "de",
+          "start": 10.66175,
+          "duration": 0.03675
+        },
+        {
+          "word": "acero",
+          "start": 10.710791,
+          "duration": 0.318625
+        },
+        {
+          "word": "de",
+          "start": 11.066166,
+          "duration": 0.061291
+        },
+        {
+          "word": "Damasco",
+          "start": 11.164208,
+          "duration": 0.428916
+        },
+        {
+          "word": "armaduras",
+          "start": 11.83825,
+          "duration": 0.477958
+        },
+        {
+          "word": "reforzadas",
+          "start": 12.328416,
+          "duration": 0.539208
+        },
+        {
+          "word": "y",
+          "start": 12.879916,
+          "duration": 0.01225
+        },
+        {
+          "word": "trajes",
+          "start": 12.977958,
+          "duration": 0.306375
+        },
+        {
+          "word": "con",
+          "start": 13.333333,
+          "duration": 0.147041
+        },
+        {
+          "word": "resistencia",
+          "start": 13.480375,
+          "duration": 0.526958
+        },
+        {
+          "word": "química",
+          "start": 14.080875,
+          "duration": 0.330875
+        },
+        {
+          "word": "que",
+          "start": 14.473041,
+          "duration": 0.049
+        },
+        {
+          "word": "te",
+          "start": 14.583333,
+          "duration": 0.049
+        },
+        {
+          "word": "protegerán",
+          "start": 14.693625,
+          "duration": 0.502458
+        },
+        {
+          "word": "contra",
+          "start": 15.196083,
+          "duration": 0.294125
+        },
+        {
+          "word": "la",
+          "start": 15.502458,
+          "duration": 0.098041
+        },
+        {
+          "word": "radiación",
+          "start": 15.625,
+          "duration": 0.465666
+        },
+        {
+          "word": "y",
+          "start": 16.102958,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 16.176458,
+          "duration": 0.159333
+        },
+        {
+          "word": "ambientes",
+          "start": 16.335791,
+          "duration": 0.465666
+        },
+        {
+          "word": "hostiles",
+          "start": 16.801458,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 17.267166,
+          "duration": 0.061291
+        },
+        {
+          "word": "los",
+          "start": 17.365208,
+          "duration": 0.122541
+        },
+        {
+          "word": "reactores",
+          "start": 17.48775,
+          "duration": 0.563708
+        }
+      ]
+    },
+    {
+      "id": "sf1_p12_ore_crusher",
+      "title": "MULTIBLOQUE 4: TRITURADOR DE MINERALES",
+      "subtitle": "Dispensador + Valla del Nether + 2 Barrotes de Hierro",
+      "badge": "12 // RESOURCES: ORE CRUSHER",
+      "text": "El Triturador de Minerales multiplica recursos: dispensador, valla de ladrillo del Nether encima y dos barrotes de hierro a los lados. Convierte menas en polvos duplicados, rindiendo el doble de lingotes y polvos esenciales para aleaciones.",
+      "spoken_text": "El Triturador de Minerales es tu primera máquina de multiplicación de recursos. Se construye con un dispensador, una valla de ladrillo del Nether encima, y dos barrotes de hierro a los lados. Al procesar menas de hierro, oro o cobre, las convierte en polvos minerales duplicados, otorgándote el doble de lingotes y generando los polvos necesarios para sintetizar aleaciones metálicas.",
+      "action": "interact",
+      "camera": "wide",
+      "diagram": "ore_crusher",
+      "audio_file": "sf1_p12_ore_crusher.mp3",
+      "duration": 21.744,
+      "frames": 667,
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "Triturador",
+          "start": 0.270583,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 0.785291,
+          "duration": 0.061291
+        },
+        {
+          "word": "Minerales",
+          "start": 0.883333,
+          "duration": 0.539208
+        },
+        {
+          "word": "es",
+          "start": 1.422541,
+          "duration": 0.073541
+        },
+        {
+          "word": "tu",
+          "start": 1.557333,
+          "duration": 0.061291
+        },
+        {
+          "word": "primera",
+          "start": 1.679916,
+          "duration": 0.281875
+        },
+        {
+          "word": "máquina",
+          "start": 1.986291,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 2.366166,
+          "duration": 0.073541
+        },
+        {
+          "word": "multiplicación",
+          "start": 2.464208,
+          "duration": 0.674
+        },
+        {
+          "word": "de",
+          "start": 3.18725,
+          "duration": 0.061291
+        },
+        {
+          "word": "recursos",
+          "start": 3.273041,
+          "duration": 0.551458
+        },
+        {
+          "word": "Se",
+          "start": 4.730375,
+          "duration": 0.159333
+        },
+        {
+          "word": "construye",
+          "start": 4.938708,
+          "duration": 0.428916
+        },
+        {
+          "word": "con",
+          "start": 5.428916,
+          "duration": 0.110291
+        },
+        {
+          "word": "un",
+          "start": 5.539208,
+          "duration": 0.098041
+        },
+        {
+          "word": "dispensador",
+          "start": 5.66175,
+          "duration": 0.563708
+        },
+        {
+          "word": "una",
+          "start": 6.470583,
+          "duration": 0.159333
+        },
+        {
+          "word": "valla",
+          "start": 6.654416,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 6.8995,
+          "duration": 0.073541
+        },
+        {
+          "word": "ladrillo",
+          "start": 6.997541,
+          "duration": 0.355375
+        },
+        {
+          "word": "del",
+          "start": 7.377458,
+          "duration": 0.122541
+        },
+        {
+          "word": "Nether",
+          "start": 7.5245,
+          "duration": 0.220583
+        },
+        {
+          "word": "encima",
+          "start": 7.745083,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 8.419125,
+          "duration": 0.073541
+        },
+        {
+          "word": "dos",
+          "start": 8.541666,
+          "duration": 0.159333
+        },
+        {
+          "word": "barrotes",
+          "start": 8.73775,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 9.166666,
+          "duration": 0.049
+        },
+        {
+          "word": "hierro",
+          "start": 9.264708,
+          "duration": 0.245083
+        },
+        {
+          "word": "a",
+          "start": 9.509791,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 9.571083,
+          "duration": 0.134791
+        },
+        {
+          "word": "lados",
+          "start": 9.730375,
+          "duration": 0.404416
+        },
+        {
+          "word": "Al",
+          "start": 11.041666,
+          "duration": 0.134791
+        },
+        {
+          "word": "procesar",
+          "start": 11.2255,
+          "duration": 0.392166
+        },
+        {
+          "word": "menas",
+          "start": 11.642166,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 11.8995,
+          "duration": 0.049
+        },
+        {
+          "word": "hierro",
+          "start": 11.985291,
+          "duration": 0.294125
+        },
+        {
+          "word": "oro",
+          "start": 12.5245,
+          "duration": 0.196083
+        },
+        {
+          "word": "o",
+          "start": 12.732833,
+          "duration": 0.0245
+        },
+        {
+          "word": "cobre",
+          "start": 12.830875,
+          "duration": 0.306375
+        },
+        {
+          "word": "las",
+          "start": 13.357833,
+          "duration": 0.134791
+        },
+        {
+          "word": "convierte",
+          "start": 13.541666,
+          "duration": 0.416666
+        },
+        {
+          "word": "en",
+          "start": 13.970583,
+          "duration": 0.122541
+        },
+        {
+          "word": "polvos",
+          "start": 14.129916,
+          "duration": 0.294125
+        },
+        {
+          "word": "minerales",
+          "start": 14.460791,
+          "duration": 0.441166
+        },
+        {
+          "word": "duplicados",
+          "start": 14.938708,
+          "duration": 0.563708
+        },
+        {
+          "word": "otorgándote",
+          "start": 15.698541,
+          "duration": 0.66175
+        },
+        {
+          "word": "el",
+          "start": 16.384791,
+          "duration": 0.049
+        },
+        {
+          "word": "doble",
+          "start": 16.495083,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 16.727958,
+          "duration": 0.073541
+        },
+        {
+          "word": "lingotes",
+          "start": 16.826,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 17.316166,
+          "duration": 0.01225
+        },
+        {
+          "word": "generando",
+          "start": 17.352958,
+          "duration": 0.477958
+        },
+        {
+          "word": "los",
+          "start": 17.855375,
+          "duration": 0.110291
+        },
+        {
+          "word": "polvos",
+          "start": 18.051458,
+          "duration": 0.269625
+        },
+        {
+          "word": "necesarios",
+          "start": 18.357833,
+          "duration": 0.551458
+        },
+        {
+          "word": "para",
+          "start": 18.982833,
+          "duration": 0.159333
+        },
+        {
+          "word": "sintetizar",
+          "start": 19.154416,
+          "duration": 0.539208
+        },
+        {
+          "word": "aleaciones",
+          "start": 19.693625,
+          "duration": 0.526958
+        },
+        {
+          "word": "metálicas",
+          "start": 20.245083,
+          "duration": 0.6005
+        }
+      ]
+    },
+    {
+      "id": "sf1_p13_smeltery",
+      "title": "MULTIBLOQUE 5: HORNO DE FUNDICIÓN",
+      "subtitle": "Fuego inferior + Caldero + Valla del Nether + Dispensador",
+      "badge": "13 // FOUNDRY: THE SMELTERY",
+      "text": "La Smeltery es la fundición industrial: fuego en el suelo, caldero encima, valla del Nether y dispensador arriba. Combina polvos de cobre y estaño para fundir bronce, crear duraluminio, oro sintético y aleaciones de alta conductividad eléctrica.",
+      "spoken_text": "La Smeltery o Horno de Fundición es la fundición industrial por excelencia. Requiere encender fuego en el suelo con pedernal y acero, colocar un caldero encima del fuego, una valla de ladrillo del Nether encima del caldero, y un dispensador arriba mirando hacia abajo. Aquí combinarás polvos de cobre y estaño para fundir bronce, crear duraluminio, oro sintético y aleaciones de alta conductividad.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "smeltery",
+      "audio_file": "sf1_p13_smeltery.mp3",
+      "duration": 22.128,
+      "frames": 678,
+      "words": [
+        {
+          "word": "La",
+          "start": 0.099,
+          "duration": 0.110291
+        },
+        {
+          "word": "Smeltery",
+          "start": 0.246083,
+          "duration": 0.453416
+        },
+        {
+          "word": "o",
+          "start": 0.71175,
+          "duration": 0.085791
+        },
+        {
+          "word": "Horno",
+          "start": 0.809791,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 1.054916,
+          "duration": 0.061291
+        },
+        {
+          "word": "Fundición",
+          "start": 1.140666,
+          "duration": 0.441166
+        },
+        {
+          "word": "es",
+          "start": 1.594125,
+          "duration": 0.098041
+        },
+        {
+          "word": "la",
+          "start": 1.728916,
+          "duration": 0.061291
+        },
+        {
+          "word": "fundición",
+          "start": 1.814708,
+          "duration": 0.428916
+        },
+        {
+          "word": "industrial",
+          "start": 2.255875,
+          "duration": 0.477958
+        },
+        {
+          "word": "por",
+          "start": 2.819625,
+          "duration": 0.08575
+        },
+        {
+          "word": "excelencia",
+          "start": 2.905375,
+          "duration": 0.6005
+        },
+        {
+          "word": "Requiere",
+          "start": 4.38725,
+          "duration": 0.343125
+        },
+        {
+          "word": "encender",
+          "start": 4.730375,
+          "duration": 0.379916
+        },
+        {
+          "word": "fuego",
+          "start": 5.134791,
+          "duration": 0.269625
+        },
+        {
+          "word": "en",
+          "start": 5.404416,
+          "duration": 0.06125
+        },
+        {
+          "word": "el",
+          "start": 5.465666,
+          "duration": 0.085791
+        },
+        {
+          "word": "suelo",
+          "start": 5.576,
+          "duration": 0.232833
+        },
+        {
+          "word": "con",
+          "start": 5.857833,
+          "duration": 0.171583
+        },
+        {
+          "word": "pedernal",
+          "start": 6.041666,
+          "duration": 0.441166
+        },
+        {
+          "word": "y",
+          "start": 6.495083,
+          "duration": 0.049
+        },
+        {
+          "word": "acero",
+          "start": 6.556375,
+          "duration": 0.367666
+        },
+        {
+          "word": "colocar",
+          "start": 7.169125,
+          "duration": 0.343125
+        },
+        {
+          "word": "un",
+          "start": 7.5245,
+          "duration": 0.134791
+        },
+        {
+          "word": "caldero",
+          "start": 7.659333,
+          "duration": 0.306333
+        },
+        {
+          "word": "encima",
+          "start": 7.965666,
+          "duration": 0.343125
+        },
+        {
+          "word": "del",
+          "start": 8.333333,
+          "duration": 0.110291
+        },
+        {
+          "word": "fuego",
+          "start": 8.468125,
+          "duration": 0.306375
+        },
+        {
+          "word": "una",
+          "start": 9.007333,
+          "duration": 0.171583
+        },
+        {
+          "word": "valla",
+          "start": 9.203416,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 9.448541,
+          "duration": 0.073541
+        },
+        {
+          "word": "ladrillo",
+          "start": 9.558833,
+          "duration": 0.355375
+        },
+        {
+          "word": "del",
+          "start": 9.938708,
+          "duration": 0.122541
+        },
+        {
+          "word": "Nether",
+          "start": 10.073541,
+          "duration": 0.232833
+        },
+        {
+          "word": "encima",
+          "start": 10.306375,
+          "duration": 0.367666
+        },
+        {
+          "word": "del",
+          "start": 10.698541,
+          "duration": 0.122541
+        },
+        {
+          "word": "caldero",
+          "start": 10.857833,
+          "duration": 0.441166
+        },
+        {
+          "word": "y",
+          "start": 11.544125,
+          "duration": 0.073541
+        },
+        {
+          "word": "un",
+          "start": 11.642166,
+          "duration": 0.098041
+        },
+        {
+          "word": "dispensador",
+          "start": 11.752458,
+          "duration": 0.551458
+        },
+        {
+          "word": "arriba",
+          "start": 12.303916,
+          "duration": 0.330875
+        },
+        {
+          "word": "mirando",
+          "start": 12.671583,
+          "duration": 0.367666
+        },
+        {
+          "word": "hacia",
+          "start": 13.051458,
+          "duration": 0.196083
+        },
+        {
+          "word": "abajo",
+          "start": 13.272041,
+          "duration": 0.330875
+        },
+        {
+          "word": "Aquí",
+          "start": 14.497541,
+          "duration": 0.257333
+        },
+        {
+          "word": "combinarás",
+          "start": 14.816166,
+          "duration": 0.477958
+        },
+        {
+          "word": "polvos",
+          "start": 15.379916,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 15.66175,
+          "duration": 0.061291
+        },
+        {
+          "word": "cobre",
+          "start": 15.796583,
+          "duration": 0.257333
+        },
+        {
+          "word": "y",
+          "start": 16.066166,
+          "duration": 0.049
+        },
+        {
+          "word": "estaño",
+          "start": 16.127458,
+          "duration": 0.343125
+        },
+        {
+          "word": "para",
+          "start": 16.531875,
+          "duration": 0.134791
+        },
+        {
+          "word": "fundir",
+          "start": 16.691166,
+          "duration": 0.318625
+        },
+        {
+          "word": "bronce",
+          "start": 17.046583,
+          "duration": 0.355375
+        },
+        {
+          "word": "crear",
+          "start": 17.659333,
+          "duration": 0.245083
+        },
+        {
+          "word": "duraluminio",
+          "start": 17.941166,
+          "duration": 0.625
+        },
+        {
+          "word": "oro",
+          "start": 18.7745,
+          "duration": 0.147041
+        },
+        {
+          "word": "sintético",
+          "start": 18.946083,
+          "duration": 0.551458
+        },
+        {
+          "word": "y",
+          "start": 19.534333,
+          "duration": 0.061291
+        },
+        {
+          "word": "aleaciones",
+          "start": 19.607833,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 20.196083,
+          "duration": 0.073541
+        },
+        {
+          "word": "alta",
+          "start": 20.294125,
+          "duration": 0.208333
+        },
+        {
+          "word": "conductividad",
+          "start": 20.551458,
+          "duration": 0.66175
+        }
+      ]
+    },
+    {
+      "id": "sf1_p14_pressure_chamber",
+      "title": "CALDERO DE PRESIÓN Y MESA MÁGICA",
+      "subtitle": "Síntesis de diamantes, plásticos y catalizadores mágicos",
+      "badge": "14 // SYNTHESIS: PRESSURE & MAGIC",
+      "text": "Para completar tu taller: el Caldero de Presión sintetiza diamantes y plásticos industriales. La Mesa de Trabajo Mágica (estantería + dispensador + mesa de crafteo) crea talismanes mágicos con visión nocturna, resistencia al fuego y caída de pluma permanente.",
+      "spoken_text": "Para completar el taller básico, el Caldero de Presión comprime carbono en diamantes sintéticos y produce plásticos industriales. Y la Mesa de Trabajo Mágica, compuesta por una estantería, dispensador y mesa de crafteo, te permite crear talismanes mágicos y catalizadores que te otorgarán visión nocturna, resistencia al fuego y caída de pluma permanente.",
+      "action": "idle",
+      "camera": "normal",
+      "diagram": "magic_and_pressure",
+      "audio_file": "sf1_p14_pressure_chamber.mp3",
+      "duration": 19.968,
+      "frames": 614,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.183833
+        },
+        {
+          "word": "completar",
+          "start": 0.331875,
+          "duration": 0.379875
+        },
+        {
+          "word": "el",
+          "start": 0.71175,
+          "duration": 0.110291
+        },
+        {
+          "word": "taller",
+          "start": 0.858833,
+          "duration": 0.220583
+        },
+        {
+          "word": "básico",
+          "start": 1.116166,
+          "duration": 0.416666
+        },
+        {
+          "word": "el",
+          "start": 1.790208,
+          "duration": 0.122541
+        },
+        {
+          "word": "Caldero",
+          "start": 1.9495,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 2.317166,
+          "duration": 0.061291
+        },
+        {
+          "word": "Presión",
+          "start": 2.439708,
+          "duration": 0.306375
+        },
+        {
+          "word": "comprime",
+          "start": 2.758333,
+          "duration": 0.343125
+        },
+        {
+          "word": "carbono",
+          "start": 3.16275,
+          "duration": 0.343125
+        },
+        {
+          "word": "en",
+          "start": 3.518125,
+          "duration": 0.061291
+        },
+        {
+          "word": "diamantes",
+          "start": 3.628416,
+          "duration": 0.416666
+        },
+        {
+          "word": "sintéticos",
+          "start": 4.045083,
+          "duration": 0.6495
+        },
+        {
+          "word": "y",
+          "start": 4.706875,
+          "duration": 0.0245
+        },
+        {
+          "word": "produce",
+          "start": 4.804916,
+          "duration": 0.343125
+        },
+        {
+          "word": "plásticos",
+          "start": 5.233833,
+          "duration": 0.477958
+        },
+        {
+          "word": "industriales",
+          "start": 5.736291,
+          "duration": 0.698541
+        },
+        {
+          "word": "Y",
+          "start": 7.328416,
+          "duration": 0.110291
+        },
+        {
+          "word": "la",
+          "start": 7.46325,
+          "duration": 0.073541
+        },
+        {
+          "word": "Mesa",
+          "start": 7.561291,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 7.843125,
+          "duration": 0.061291
+        },
+        {
+          "word": "Trabajo",
+          "start": 7.953416,
+          "duration": 0.318625
+        },
+        {
+          "word": "Mágica",
+          "start": 8.296583,
+          "duration": 0.490208
+        },
+        {
+          "word": "compuesta",
+          "start": 9.031875,
+          "duration": 0.416666
+        },
+        {
+          "word": "por",
+          "start": 9.522041,
+          "duration": 0.085791
+        },
+        {
+          "word": "una",
+          "start": 9.620083,
+          "duration": 0.110291
+        },
+        {
+          "word": "estantería",
+          "start": 9.730375,
+          "duration": 0.58825
+        },
+        {
+          "word": "dispensador",
+          "start": 10.539208,
+          "duration": 0.551458
+        },
+        {
+          "word": "y",
+          "start": 11.102958,
+          "duration": 0.03675
+        },
+        {
+          "word": "mesa",
+          "start": 11.176458,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 11.458333,
+          "duration": 0.061291
+        },
+        {
+          "word": "crafteo",
+          "start": 11.568625,
+          "duration": 0.453416
+        },
+        {
+          "word": "te",
+          "start": 12.279416,
+          "duration": 0.049
+        },
+        {
+          "word": "permite",
+          "start": 12.401958,
+          "duration": 0.306375
+        },
+        {
+          "word": "crear",
+          "start": 12.769625,
+          "duration": 0.245083
+        },
+        {
+          "word": "talismanes",
+          "start": 13.076,
+          "duration": 0.502458
+        },
+        {
+          "word": "mágicos",
+          "start": 13.615208,
+          "duration": 0.490208
+        },
+        {
+          "word": "y",
+          "start": 14.117666,
+          "duration": 0.01225
+        },
+        {
+          "word": "catalizadores",
+          "start": 14.203416,
+          "duration": 0.723041
+        },
+        {
+          "word": "que",
+          "start": 14.9755,
+          "duration": 0.061291
+        },
+        {
+          "word": "te",
+          "start": 15.098041,
+          "duration": 0.03675
+        },
+        {
+          "word": "otorgarán",
+          "start": 15.134791,
+          "duration": 0.490208
+        },
+        {
+          "word": "visión",
+          "start": 15.6495,
+          "duration": 0.294125
+        },
+        {
+          "word": "nocturna",
+          "start": 15.955875,
+          "duration": 0.502458
+        },
+        {
+          "word": "resistencia",
+          "start": 16.678916,
+          "duration": 0.551458
+        },
+        {
+          "word": "al",
+          "start": 17.242666,
+          "duration": 0.073541
+        },
+        {
+          "word": "fuego",
+          "start": 17.340666,
+          "duration": 0.269625
+        },
+        {
+          "word": "y",
+          "start": 17.659333,
+          "duration": 0.01225
+        },
+        {
+          "word": "caída",
+          "start": 17.757333,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 18.11275,
+          "duration": 0.085791
+        },
+        {
+          "word": "pluma",
+          "start": 18.284333,
+          "duration": 0.183833
+        },
+        {
+          "word": "permanente",
+          "start": 18.529416,
+          "duration": 0.539208
+        }
+      ]
+    },
+    {
+      "id": "sf1_p15_hoja_de_ruta",
+      "title": "TU HOJA DE RUTA PARA LA PRIMERA SESIÓN",
+      "subtitle": "De la madera básica a la primera red eléctrica en DrakesCraft",
+      "badge": "15 // ROADMAP: YOUR FIRST INDUSTRIAL BASE",
+      "text": "Tu plan de acción: entra a play.drakescraft.cl, usa /rtp, asegura con /ps, sube XP en /pwarp, abre /sf guide y monta tu Mesa Mejorada y Smeltery. Estarás listo para el Capítulo 2: energía solar y redes eléctricas. ¡Te esperamos en DrakesCraft!",
+      "spoken_text": "Tu plan de acción para hoy es directo: entra al servidor, usa barra rtp, coloca tu ProtectionStone, visita barra pwarp para subir nivel de experiencia, abre barra sf guide y monta tu Mesa Mejorada y tu Smeltery. Con estas máquinas estarás listo para el Capítulo dos, donde construiremos generadores solares y redes de energía automáticas. Te esperamos en play punto drakescraft punto ce ele.",
+      "action": "interact",
+      "camera": "close",
+      "diagram": "roadmap_final",
+      "audio_file": "sf1_p15_hoja_de_ruta.mp3",
+      "duration": 23.04,
+      "frames": 706,
+      "words": [
+        {
+          "word": "Tu",
+          "start": 0.099,
+          "duration": 0.110291
+        },
+        {
+          "word": "plan",
+          "start": 0.270583,
+          "duration": 0.147041
+        },
+        {
+          "word": "de",
+          "start": 0.466666,
+          "duration": 0.049
+        },
+        {
+          "word": "acción",
+          "start": 0.515666,
+          "duration": 0.343125
+        },
+        {
+          "word": "para",
+          "start": 0.883333,
+          "duration": 0.183833
+        },
+        {
+          "word": "hoy",
+          "start": 1.079416,
+          "duration": 0.134791
+        },
+        {
+          "word": "es",
+          "start": 1.238708,
+          "duration": 0.073541
+        },
+        {
+          "word": "directo",
+          "start": 1.349,
+          "duration": 0.392166
+        },
+        {
+          "word": "entra",
+          "start": 1.96175,
+          "duration": 0.220583
+        },
+        {
+          "word": "al",
+          "start": 2.182333,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 2.280375,
+          "duration": 0.453416
+        },
+        {
+          "word": "usa",
+          "start": 2.978916,
+          "duration": 0.208333
+        },
+        {
+          "word": "barra",
+          "start": 3.224,
+          "duration": 0.220583
+        },
+        {
+          "word": "rtp",
+          "start": 3.505875,
+          "duration": 0.502458
+        },
+        {
+          "word": "coloca",
+          "start": 4.241166,
+          "duration": 0.318625
+        },
+        {
+          "word": "tu",
+          "start": 4.621083,
+          "duration": 0.061291
+        },
+        {
+          "word": "ProtectionStone",
+          "start": 4.731375,
+          "duration": 0.796583
+        },
+        {
+          "word": "visita",
+          "start": 5.760791,
+          "duration": 0.343125
+        },
+        {
+          "word": "barra",
+          "start": 6.128416,
+          "duration": 0.208333
+        },
+        {
+          "word": "pwarp",
+          "start": 6.422541,
+          "duration": 0.171583
+        },
+        {
+          "word": "para",
+          "start": 6.667666,
+          "duration": 0.147041
+        },
+        {
+          "word": "subir",
+          "start": 6.826958,
+          "duration": 0.281875
+        },
+        {
+          "word": "nivel",
+          "start": 7.133333,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 7.439708,
+          "duration": 0.049
+        },
+        {
+          "word": "experiencia",
+          "start": 7.53775,
+          "duration": 0.6495
+        },
+        {
+          "word": "abre",
+          "start": 8.395583,
+          "duration": 0.232833
+        },
+        {
+          "word": "barra",
+          "start": 8.665208,
+          "duration": 0.269625
+        },
+        {
+          "word": "sf",
+          "start": 8.996083,
+          "duration": 0.257333
+        },
+        {
+          "word": "guide",
+          "start": 9.290208,
+          "duration": 0.220583
+        },
+        {
+          "word": "y",
+          "start": 9.523041,
+          "duration": 0.0245
+        },
+        {
+          "word": "monta",
+          "start": 9.584333,
+          "duration": 0.306375
+        },
+        {
+          "word": "tu",
+          "start": 9.964208,
+          "duration": 0.061291
+        },
+        {
+          "word": "Mesa",
+          "start": 10.05,
+          "duration": 0.245083
+        },
+        {
+          "word": "Mejorada",
+          "start": 10.319625,
+          "duration": 0.465666
+        },
+        {
+          "word": "y",
+          "start": 10.822041,
+          "duration": 0.01225
+        },
+        {
+          "word": "tu",
+          "start": 10.907833,
+          "duration": 0.049
+        },
+        {
+          "word": "Smeltery",
+          "start": 10.969125,
+          "duration": 0.514708
+        },
+        {
+          "word": "Con",
+          "start": 12.352958,
+          "duration": 0.171541
+        },
+        {
+          "word": "estas",
+          "start": 12.5245,
+          "duration": 0.269625
+        },
+        {
+          "word": "máquinas",
+          "start": 12.830875,
+          "duration": 0.392166
+        },
+        {
+          "word": "estarás",
+          "start": 13.223041,
+          "duration": 0.367666
+        },
+        {
+          "word": "listo",
+          "start": 13.615208,
+          "duration": 0.269625
+        },
+        {
+          "word": "para",
+          "start": 13.946083,
+          "duration": 0.122541
+        },
+        {
+          "word": "el",
+          "start": 14.080875,
+          "duration": 0.098041
+        },
+        {
+          "word": "Capítulo",
+          "start": 14.203416,
+          "duration": 0.441166
+        },
+        {
+          "word": "dos",
+          "start": 14.669125,
+          "duration": 0.232833
+        },
+        {
+          "word": "donde",
+          "start": 15.159333,
+          "duration": 0.196083
+        },
+        {
+          "word": "construiremos",
+          "start": 15.404416,
+          "duration": 0.539208
+        },
+        {
+          "word": "generadores",
+          "start": 15.968125,
+          "duration": 0.502458
+        },
+        {
+          "word": "solares",
+          "start": 16.470583,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 16.973041,
+          "duration": 0.049
+        },
+        {
+          "word": "redes",
+          "start": 17.046583,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 17.377458,
+          "duration": 0.049
+        },
+        {
+          "word": "energía",
+          "start": 17.48775,
+          "duration": 0.416666
+        },
+        {
+          "word": "automáticas",
+          "start": 17.904416,
+          "duration": 0.747541
+        },
+        {
+          "word": "Te",
+          "start": 19.546583,
+          "duration": 0.098041
+        },
+        {
+          "word": "esperamos",
+          "start": 19.644625,
+          "duration": 0.477916
+        },
+        {
+          "word": "en",
+          "start": 20.122541,
+          "duration": 0.122541
+        },
+        {
+          "word": "play",
+          "start": 20.257333,
+          "duration": 0.122541
+        },
+        {
+          "word": "punto",
+          "start": 20.465666,
+          "duration": 0.245083
+        },
+        {
+          "word": "drakescraft",
+          "start": 20.735291,
+          "duration": 0.551458
+        },
+        {
+          "word": "punto",
+          "start": 21.372541,
+          "duration": 0.269625
+        },
+        {
+          "word": "ce",
+          "start": 21.666666,
+          "duration": 0.245083
+        },
+        {
+          "word": "ele",
+          "start": 21.936291,
+          "duration": 0.208333
+        }
+      ]
+    }
+  ]
+}
