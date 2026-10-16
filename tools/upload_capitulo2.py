@@ -113,7 +113,7 @@ Una inmersión profunda y forense en los sistemas de DrakesCraft: cómo operar M
 01:34 - El Subsistema Slimefun 4 & Lógica por Bloque Server-Side
 01:49 - El Punto de Ruptura en 1.21.x: Fugas de Memoria & Pausas GC
 02:16 - 80+ Addons Concurrentes Activos en 1.21.11
-02:34 - Tuning JVM: ZGC Generacional & Latencia < 1ms
+02:34 - Tuning JVM: ZGC Generacional & Latencia sub-1ms
 02:49 - Topología Distribuida: Nodo Dallas & Orquestador Linux
 03:00 - Agente Centinela SRE (SAORI) & Mitigación Forense 24/7
 03:25 - Política de Persistencia Atómica: Write-Ahead Logging (WAL)
