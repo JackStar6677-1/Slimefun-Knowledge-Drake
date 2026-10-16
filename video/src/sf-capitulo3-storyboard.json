@@ -1,0 +1,2411 @@
+{
+  "chapter": 3,
+  "series": "Slimefun Masterclass",
+  "title": "Slimefun en DrakesCraft: Capítulo 3 — Metalurgia Avanzada, Aleaciones & Armería de Precisión",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "sf3_p01_intro",
+      "title": "LA ERA DE LOS METALES",
+      "subtitle": "Superando las limitaciones del hierro y diamante vainilla",
+      "badge": "01 // METALURGIA: FUNDAMENTOS",
+      "text": "Bienvenidos al Capítulo 3 de Slimefun en DrakesCraft. Con tus primeros multibloques y red de energía operativa, el hierro y diamante vainilla ya no bastan para la alta tecnología. Hoy dominaremos la metalurgia avanzada: aleaciones industriales y armería especializada.",
+      "spoken_text": "Bienvenidos al Capítulo tres de nuestra guía de Slimefun en DrakesCraft. Una vez que cuentas con tus primeros multibloques y tu red eléctrica básica, descubrirás que el hierro, el oro y los diamantes convencionales no son suficientes para la alta tecnología. Hoy dominaremos la metalurgia avanzada: aleaciones industriales, la forja de armaduras y componentes de alta resistencia.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "metallurgy_intro",
+      "audio_file": "sf3_p01_intro.mp3",
+      "duration": 21.192,
+      "frames": 650,
+      "words": [
+        {
+          "word": "Bienvenidos",
+          "start": 0.099,
+          "duration": 0.551458
+        },
+        {
+          "word": "al",
+          "start": 0.6505,
+          "duration": 0.073541
+        },
+        {
+          "word": "Capítulo",
+          "start": 0.773041,
+          "duration": 0.416666
+        },
+        {
+          "word": "tres",
+          "start": 1.26325,
+          "duration": 0.159333
+        },
+        {
+          "word": "de",
+          "start": 1.447041,
+          "duration": 0.061291
+        },
+        {
+          "word": "nuestra",
+          "start": 1.532833,
+          "duration": 0.257333
+        },
+        {
+          "word": "guía",
+          "start": 1.826958,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 2.072041,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.206875,
+          "duration": 0.514708
+        },
+        {
+          "word": "en",
+          "start": 2.721583,
+          "duration": 0.098041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 2.868625,
+          "duration": 0.625
+        },
+        {
+          "word": "Una",
+          "start": 4.3505,
+          "duration": 0.159333
+        },
+        {
+          "word": "vez",
+          "start": 4.534333,
+          "duration": 0.134791
+        },
+        {
+          "word": "que",
+          "start": 4.718125,
+          "duration": 0.061291
+        },
+        {
+          "word": "cuentas",
+          "start": 4.840666,
+          "duration": 0.281875
+        },
+        {
+          "word": "con",
+          "start": 5.171583,
+          "duration": 0.159291
+        },
+        {
+          "word": "tus",
+          "start": 5.330875,
+          "duration": 0.110291
+        },
+        {
+          "word": "primeros",
+          "start": 5.514708,
+          "duration": 0.318625
+        },
+        {
+          "word": "multibloques",
+          "start": 5.870083,
+          "duration": 0.6005
+        },
+        {
+          "word": "y",
+          "start": 6.470583,
+          "duration": 0.01225
+        },
+        {
+          "word": "tu",
+          "start": 6.556375,
+          "duration": 0.085791
+        },
+        {
+          "word": "red",
+          "start": 6.654416,
+          "duration": 0.171583
+        },
+        {
+          "word": "eléctrica",
+          "start": 6.83825,
+          "duration": 0.428916
+        },
+        {
+          "word": "básica",
+          "start": 7.291666,
+          "duration": 0.428916
+        },
+        {
+          "word": "descubrirás",
+          "start": 7.916666,
+          "duration": 0.526958
+        },
+        {
+          "word": "que",
+          "start": 8.504916,
+          "duration": 0.049
+        },
+        {
+          "word": "el",
+          "start": 8.627458,
+          "duration": 0.061291
+        },
+        {
+          "word": "hierro",
+          "start": 8.701,
+          "duration": 0.306375
+        },
+        {
+          "word": "el",
+          "start": 9.276958,
+          "duration": 0.122541
+        },
+        {
+          "word": "oro",
+          "start": 9.424,
+          "duration": 0.159333
+        },
+        {
+          "word": "y",
+          "start": 9.632333,
+          "duration": 0.049
+        },
+        {
+          "word": "los",
+          "start": 9.705875,
+          "duration": 0.110291
+        },
+        {
+          "word": "diamantes",
+          "start": 9.852958,
+          "duration": 0.416666
+        },
+        {
+          "word": "convencionales",
+          "start": 10.318625,
+          "duration": 0.698541
+        },
+        {
+          "word": "no",
+          "start": 11.041666,
+          "duration": 0.134791
+        },
+        {
+          "word": "son",
+          "start": 11.188708,
+          "duration": 0.171583
+        },
+        {
+          "word": "suficientes",
+          "start": 11.372541,
+          "duration": 0.563708
+        },
+        {
+          "word": "para",
+          "start": 12.009791,
+          "duration": 0.159333
+        },
+        {
+          "word": "la",
+          "start": 12.181375,
+          "duration": 0.110291
+        },
+        {
+          "word": "alta",
+          "start": 12.303916,
+          "duration": 0.208333
+        },
+        {
+          "word": "tecnología",
+          "start": 12.573541,
+          "duration": 0.625
+        },
+        {
+          "word": "Hoy",
+          "start": 14.068625,
+          "duration": 0.122541
+        },
+        {
+          "word": "dominaremos",
+          "start": 14.227958,
+          "duration": 0.551458
+        },
+        {
+          "word": "la",
+          "start": 14.816166,
+          "duration": 0.061291
+        },
+        {
+          "word": "metalurgia",
+          "start": 14.914208,
+          "duration": 0.526958
+        },
+        {
+          "word": "avanzada",
+          "start": 15.441166,
+          "duration": 0.551458
+        },
+        {
+          "word": "aleaciones",
+          "start": 16.151958,
+          "duration": 0.551458
+        },
+        {
+          "word": "industriales",
+          "start": 16.715666,
+          "duration": 0.63725
+        },
+        {
+          "word": "la",
+          "start": 17.549,
+          "duration": 0.122541
+        },
+        {
+          "word": "forja",
+          "start": 17.696083,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 18.026958,
+          "duration": 0.073541
+        },
+        {
+          "word": "armaduras",
+          "start": 18.1005,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 18.639708,
+          "duration": 0.01225
+        },
+        {
+          "word": "componentes",
+          "start": 18.71325,
+          "duration": 0.563708
+        },
+        {
+          "word": "de",
+          "start": 19.326,
+          "duration": 0.061291
+        },
+        {
+          "word": "alta",
+          "start": 19.41175,
+          "duration": 0.220583
+        },
+        {
+          "word": "resistencia",
+          "start": 19.656875,
+          "duration": 0.66175
+        }
+      ]
+    },
+    {
+      "id": "sf3_p02_smeltery",
+      "title": "EL FUNDIDOR (SMELTERY)",
+      "subtitle": "El corazón pirometalúrgico para fusionar polvos y metales",
+      "badge": "02 // MULTIBLOQUE: THE SMELTERY",
+      "text": "El Fundidor (Smeltery) es la máquina pirometalúrgica central. Se construye con un dispensador, vallas del Nether refractarias y fuego inferior. Combina polvos minerales de la grava lavada para fundir lingotes compuestos.",
+      "spoken_text": "El Fundidor, o Smeltery, es la máquina central de la metalurgia en Slimefun. Se construye con un dispensador central, vallas del Nether como soporte refractario y una fuente de lava o fuego en la base. Aquí combinas polvos metálicos extraídos de la grava lavada para crear lingotes compuestos imposibles de fundir en un horno ordinario.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "smeltery",
+      "audio_file": "sf3_p02_smeltery.mp3",
+      "duration": 19.272,
+      "frames": 593,
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "Fundidor",
+          "start": 0.258333,
+          "duration": 0.441166
+        },
+        {
+          "word": "o",
+          "start": 0.932333,
+          "duration": 0.061291
+        },
+        {
+          "word": "Smeltery",
+          "start": 1.005875,
+          "duration": 0.526958
+        },
+        {
+          "word": "es",
+          "start": 1.753416,
+          "duration": 0.122541
+        },
+        {
+          "word": "la",
+          "start": 1.91275,
+          "duration": 0.085791
+        },
+        {
+          "word": "máquina",
+          "start": 2.023041,
+          "duration": 0.367625
+        },
+        {
+          "word": "central",
+          "start": 2.390666,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 2.807333,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 2.893125,
+          "duration": 0.061291
+        },
+        {
+          "word": "metalurgia",
+          "start": 2.978916,
+          "duration": 0.551458
+        },
+        {
+          "word": "en",
+          "start": 3.542666,
+          "duration": 0.049
+        },
+        {
+          "word": "Slimefun",
+          "start": 3.603916,
+          "duration": 0.6005
+        },
+        {
+          "word": "Se",
+          "start": 5.073541,
+          "duration": 0.147041
+        },
+        {
+          "word": "construye",
+          "start": 5.269625,
+          "duration": 0.428916
+        },
+        {
+          "word": "con",
+          "start": 5.747541,
+          "duration": 0.110291
+        },
+        {
+          "word": "un",
+          "start": 5.857833,
+          "duration": 0.098041
+        },
+        {
+          "word": "dispensador",
+          "start": 5.980375,
+          "duration": 0.526958
+        },
+        {
+          "word": "central",
+          "start": 6.519625,
+          "duration": 0.441166
+        },
+        {
+          "word": "vallas",
+          "start": 7.254916,
+          "duration": 0.220583
+        },
+        {
+          "word": "del",
+          "start": 7.51225,
+          "duration": 0.110291
+        },
+        {
+          "word": "Nether",
+          "start": 7.647041,
+          "duration": 0.208333
+        },
+        {
+          "word": "como",
+          "start": 7.916666,
+          "duration": 0.159333
+        },
+        {
+          "word": "soporte",
+          "start": 8.076,
+          "duration": 0.428916
+        },
+        {
+          "word": "refractario",
+          "start": 8.529416,
+          "duration": 0.61275
+        },
+        {
+          "word": "y",
+          "start": 9.191166,
+          "duration": 0.061291
+        },
+        {
+          "word": "una",
+          "start": 9.264708,
+          "duration": 0.171583
+        },
+        {
+          "word": "fuente",
+          "start": 9.460791,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 9.791666,
+          "duration": 0.073541
+        },
+        {
+          "word": "lava",
+          "start": 9.901958,
+          "duration": 0.269625
+        },
+        {
+          "word": "o",
+          "start": 10.183833,
+          "duration": 0.03675
+        },
+        {
+          "word": "fuego",
+          "start": 10.245083,
+          "duration": 0.294125
+        },
+        {
+          "word": "en",
+          "start": 10.563708,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 10.6495,
+          "duration": 0.073541
+        },
+        {
+          "word": "base",
+          "start": 10.759791,
+          "duration": 0.294125
+        },
+        {
+          "word": "Aquí",
+          "start": 11.960791,
+          "duration": 0.257333
+        },
+        {
+          "word": "combinas",
+          "start": 12.279416,
+          "duration": 0.404416
+        },
+        {
+          "word": "polvos",
+          "start": 12.769625,
+          "duration": 0.257333
+        },
+        {
+          "word": "metálicos",
+          "start": 13.063708,
+          "duration": 0.539208
+        },
+        {
+          "word": "extraídos",
+          "start": 13.602958,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 14.142166,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 14.227958,
+          "duration": 0.073541
+        },
+        {
+          "word": "grava",
+          "start": 14.33825,
+          "duration": 0.232833
+        },
+        {
+          "word": "lavada",
+          "start": 14.583333,
+          "duration": 0.330875
+        },
+        {
+          "word": "para",
+          "start": 14.98775,
+          "duration": 0.134791
+        },
+        {
+          "word": "crear",
+          "start": 15.183833,
+          "duration": 0.245083
+        },
+        {
+          "word": "lingotes",
+          "start": 15.441166,
+          "duration": 0.416666
+        },
+        {
+          "word": "compuestos",
+          "start": 15.906875,
+          "duration": 0.477958
+        },
+        {
+          "word": "imposibles",
+          "start": 16.409333,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 16.948541,
+          "duration": 0.061291
+        },
+        {
+          "word": "fundir",
+          "start": 17.034333,
+          "duration": 0.343125
+        },
+        {
+          "word": "en",
+          "start": 17.377458,
+          "duration": 0.098041
+        },
+        {
+          "word": "un",
+          "start": 17.48775,
+          "duration": 0.159291
+        },
+        {
+          "word": "horno",
+          "start": 17.647041,
+          "duration": 0.220583
+        },
+        {
+          "word": "ordinario",
+          "start": 17.879916,
+          "duration": 0.502458
+        }
+      ]
+    },
+    {
+      "id": "sf3_p03_basic_alloys",
+      "title": "BRONCE, DURALUMINIO Y LATÓN",
+      "subtitle": "Las primeras tres aleaciones fundamentales del sistema",
+      "badge": "03 // ALEACIONES BÁSICAS: TIER 1",
+      "text": "Tus primeras 3 aleaciones base: 1. Bronce: Cobre + Estaño (componentes mecánicos iniciales). 2. Duraluminio: Aluminio + Cobre (estructuras ligeras e ingeniería). 3. Latón: Cobre + Zinc. Automatiza tu tamiz para producción continua.",
+      "spoken_text": "Tus primeras aleaciones son tres pilares industriales. Primero, el Bronce: combinando polvo de cobre y estaño en el fundidor. Segundo, el Duraluminio: combinando aluminio y cobre, vital para estructuras aeroespaciales y máquinas ligeras. Y tercero, el Latón, obtenido de cobre y zinc. Asegúrate de tener un tamiz automático para no quedarte sin polvos base.",
+      "action": "explain",
+      "camera": "dynamic",
+      "diagram": "basic_alloys",
+      "audio_file": "sf3_p03_basic_alloys.mp3",
+      "duration": 23.664,
+      "frames": 724,
+      "words": [
+        {
+          "word": "Tus",
+          "start": 0.099,
+          "duration": 0.159333
+        },
+        {
+          "word": "primeras",
+          "start": 0.319625,
+          "duration": 0.379875
+        },
+        {
+          "word": "aleaciones",
+          "start": 0.6995,
+          "duration": 0.490208
+        },
+        {
+          "word": "son",
+          "start": 1.189708,
+          "duration": 0.220583
+        },
+        {
+          "word": "tres",
+          "start": 1.434791,
+          "duration": 0.159333
+        },
+        {
+          "word": "pilares",
+          "start": 1.667666,
+          "duration": 0.355375
+        },
+        {
+          "word": "industriales",
+          "start": 2.035291,
+          "duration": 0.686291
+        },
+        {
+          "word": "Primero",
+          "start": 3.627458,
+          "duration": 0.404416
+        },
+        {
+          "word": "el",
+          "start": 4.289208,
+          "duration": 0.122541
+        },
+        {
+          "word": "Bronce",
+          "start": 4.448541,
+          "duration": 0.404416
+        },
+        {
+          "word": "combinando",
+          "start": 5.122541,
+          "duration": 0.453416
+        },
+        {
+          "word": "polvo",
+          "start": 5.674,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 5.931375,
+          "duration": 0.061291
+        },
+        {
+          "word": "cobre",
+          "start": 6.066166,
+          "duration": 0.269625
+        },
+        {
+          "word": "y",
+          "start": 6.360291,
+          "duration": 0.049
+        },
+        {
+          "word": "estaño",
+          "start": 6.421583,
+          "duration": 0.343125
+        },
+        {
+          "word": "en",
+          "start": 6.764708,
+          "duration": 0.061291
+        },
+        {
+          "word": "el",
+          "start": 6.826,
+          "duration": 0.085791
+        },
+        {
+          "word": "fundidor",
+          "start": 6.924,
+          "duration": 0.514708
+        },
+        {
+          "word": "Segundo",
+          "start": 8.321083,
+          "duration": 0.502458
+        },
+        {
+          "word": "el",
+          "start": 9.068625,
+          "duration": 0.110291
+        },
+        {
+          "word": "Duraluminio",
+          "start": 9.227958,
+          "duration": 0.625
+        },
+        {
+          "word": "combinando",
+          "start": 10.110291,
+          "duration": 0.428916
+        },
+        {
+          "word": "aluminio",
+          "start": 10.539208,
+          "duration": 0.416666
+        },
+        {
+          "word": "y",
+          "start": 10.992666,
+          "duration": 0.0245
+        },
+        {
+          "word": "cobre",
+          "start": 11.090666,
+          "duration": 0.306375
+        },
+        {
+          "word": "vital",
+          "start": 11.654416,
+          "duration": 0.269625
+        },
+        {
+          "word": "para",
+          "start": 11.997541,
+          "duration": 0.122541
+        },
+        {
+          "word": "estructuras",
+          "start": 12.132333,
+          "duration": 0.551458
+        },
+        {
+          "word": "aeroespaciales",
+          "start": 12.683833,
+          "duration": 0.796583
+        },
+        {
+          "word": "y",
+          "start": 13.492666,
+          "duration": 0.0245
+        },
+        {
+          "word": "máquinas",
+          "start": 13.553916,
+          "duration": 0.416666
+        },
+        {
+          "word": "ligeras",
+          "start": 14.007333,
+          "duration": 0.502458
+        },
+        {
+          "word": "Y",
+          "start": 15.404416,
+          "duration": 0.098041
+        },
+        {
+          "word": "tercero",
+          "start": 15.576,
+          "duration": 0.441166
+        },
+        {
+          "word": "el",
+          "start": 16.25,
+          "duration": 0.098041
+        },
+        {
+          "word": "Latón",
+          "start": 16.348041,
+          "duration": 0.404416
+        },
+        {
+          "word": "obtenido",
+          "start": 16.973041,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 17.451,
+          "duration": 0.061291
+        },
+        {
+          "word": "cobre",
+          "start": 17.585791,
+          "duration": 0.220583
+        },
+        {
+          "word": "y",
+          "start": 17.855375,
+          "duration": 0.0245
+        },
+        {
+          "word": "zinc",
+          "start": 17.916666,
+          "duration": 0.281875
+        },
+        {
+          "word": "Asegúrate",
+          "start": 19.093125,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 19.656875,
+          "duration": 0.073541
+        },
+        {
+          "word": "tener",
+          "start": 19.791666,
+          "duration": 0.220583
+        },
+        {
+          "word": "un",
+          "start": 20.0245,
+          "duration": 0.147041
+        },
+        {
+          "word": "tamiz",
+          "start": 20.171583,
+          "duration": 0.281833
+        },
+        {
+          "word": "automático",
+          "start": 20.453416,
+          "duration": 0.576
+        },
+        {
+          "word": "para",
+          "start": 21.102958,
+          "duration": 0.159333
+        },
+        {
+          "word": "no",
+          "start": 21.28675,
+          "duration": 0.098041
+        },
+        {
+          "word": "quedarte",
+          "start": 21.446083,
+          "duration": 0.379916
+        },
+        {
+          "word": "sin",
+          "start": 21.8505,
+          "duration": 0.232833
+        },
+        {
+          "word": "polvos",
+          "start": 22.120083,
+          "duration": 0.281875
+        },
+        {
+          "word": "base",
+          "start": 22.438708,
+          "duration": 0.306375
+        }
+      ]
+    },
+    {
+      "id": "sf3_p04_steel_damascus",
+      "title": "ACERO Y ACERO DE DAMASCO",
+      "subtitle": "Resistencia estructural superior para maquinaria pesada",
+      "badge": "04 // ACERO: ESTRUCTURA PESADA",
+      "text": "Para maquinaria pesada necesitas Acero: Hierro + Carbono en el Fundidor. Al refinarlo con capas adicionales obtienes el Acero de Damasco. Es el estándar para pistones industriales, armazones y blindajes resistentes.",
+      "spoken_text": "Para maquinaria de alto rendimiento necesitas Acero. Se produce combinando lingotes de hierro con carbono concentrado en el fundidor. Al refinar el acero con capas adicionales de hierro y carbono obtienes el mítico Acero de Damasco. Este metal es el estándar para pistones industriales, placas de blindaje y armaduras de alta durabilidad.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "steel_damascus",
+      "audio_file": "sf3_p04_steel_damascus.mp3",
+      "duration": 19.728,
+      "frames": 606,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.171583
+        },
+        {
+          "word": "maquinaria",
+          "start": 0.295083,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 0.797541,
+          "duration": 0.085791
+        },
+        {
+          "word": "alto",
+          "start": 0.907833,
+          "duration": 0.220583
+        },
+        {
+          "word": "rendimiento",
+          "start": 1.152958,
+          "duration": 0.502458
+        },
+        {
+          "word": "necesitas",
+          "start": 1.692166,
+          "duration": 0.563708
+        },
+        {
+          "word": "Acero",
+          "start": 2.255875,
+          "duration": 0.343125
+        },
+        {
+          "word": "Se",
+          "start": 3.492666,
+          "duration": 0.159333
+        },
+        {
+          "word": "produce",
+          "start": 3.71325,
+          "duration": 0.294125
+        },
+        {
+          "word": "combinando",
+          "start": 4.056375,
+          "duration": 0.453416
+        },
+        {
+          "word": "lingotes",
+          "start": 4.534333,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 4.98775,
+          "duration": 0.061291
+        },
+        {
+          "word": "hierro",
+          "start": 5.085791,
+          "duration": 0.220583
+        },
+        {
+          "word": "con",
+          "start": 5.355375,
+          "duration": 0.171583
+        },
+        {
+          "word": "carbono",
+          "start": 5.526958,
+          "duration": 0.355375
+        },
+        {
+          "word": "concentrado",
+          "start": 5.931375,
+          "duration": 0.575958
+        },
+        {
+          "word": "en",
+          "start": 6.507333,
+          "duration": 0.061291
+        },
+        {
+          "word": "el",
+          "start": 6.568625,
+          "duration": 0.085791
+        },
+        {
+          "word": "fundidor",
+          "start": 6.666666,
+          "duration": 0.514708
+        },
+        {
+          "word": "Al",
+          "start": 8.063708,
+          "duration": 0.171583
+        },
+        {
+          "word": "refinar",
+          "start": 8.247541,
+          "duration": 0.343125
+        },
+        {
+          "word": "el",
+          "start": 8.590666,
+          "duration": 0.098041
+        },
+        {
+          "word": "acero",
+          "start": 8.688708,
+          "duration": 0.294125
+        },
+        {
+          "word": "con",
+          "start": 9.031875,
+          "duration": 0.183833
+        },
+        {
+          "word": "capas",
+          "start": 9.227958,
+          "duration": 0.294083
+        },
+        {
+          "word": "adicionales",
+          "start": 9.522041,
+          "duration": 0.563708
+        },
+        {
+          "word": "de",
+          "start": 10.122541,
+          "duration": 0.061291
+        },
+        {
+          "word": "hierro",
+          "start": 10.232833,
+          "duration": 0.257333
+        },
+        {
+          "word": "y",
+          "start": 10.526958,
+          "duration": 0.0245
+        },
+        {
+          "word": "carbono",
+          "start": 10.625,
+          "duration": 0.355375
+        },
+        {
+          "word": "obtienes",
+          "start": 10.980375,
+          "duration": 0.441166
+        },
+        {
+          "word": "el",
+          "start": 11.421583,
+          "duration": 0.098041
+        },
+        {
+          "word": "mítico",
+          "start": 11.556375,
+          "duration": 0.343125
+        },
+        {
+          "word": "Acero",
+          "start": 11.8995,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 12.267166,
+          "duration": 0.073541
+        },
+        {
+          "word": "Damasco",
+          "start": 12.377458,
+          "duration": 0.477958
+        },
+        {
+          "word": "Este",
+          "start": 13.7255,
+          "duration": 0.245083
+        },
+        {
+          "word": "metal",
+          "start": 13.995083,
+          "duration": 0.281875
+        },
+        {
+          "word": "es",
+          "start": 14.276958,
+          "duration": 0.147041
+        },
+        {
+          "word": "el",
+          "start": 14.424,
+          "duration": 0.073541
+        },
+        {
+          "word": "estándar",
+          "start": 14.497541,
+          "duration": 0.367666
+        },
+        {
+          "word": "para",
+          "start": 14.938708,
+          "duration": 0.122541
+        },
+        {
+          "word": "pistones",
+          "start": 15.122541,
+          "duration": 0.404416
+        },
+        {
+          "word": "industriales",
+          "start": 15.539208,
+          "duration": 0.58825
+        },
+        {
+          "word": "placas",
+          "start": 16.372541,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 16.703416,
+          "duration": 0.049
+        },
+        {
+          "word": "blindaje",
+          "start": 16.789208,
+          "duration": 0.441166
+        },
+        {
+          "word": "y",
+          "start": 17.242666,
+          "duration": 0.0735
+        },
+        {
+          "word": "armaduras",
+          "start": 17.316166,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 17.843125,
+          "duration": 0.061291
+        },
+        {
+          "word": "alta",
+          "start": 17.941166,
+          "duration": 0.232833
+        },
+        {
+          "word": "durabilidad",
+          "start": 18.198541,
+          "duration": 0.63725
+        }
+      ]
+    },
+    {
+      "id": "sf3_p05_armor_forge",
+      "title": "LA FORJA DE ARMADURAS",
+      "subtitle": "Ensamblando equipamiento de protección avanzada",
+      "badge": "05 // MULTIBLOQUE: ARMOR FORGE",
+      "text": "Las aleaciones no se craftean en mesas normales. Usa la Forja de Armaduras: Yunque sobre Dispensador. Inserta el patrón con lingotes de Damasco o Aleación Reforzada. Obtienes equipamiento táctico con durabilidad y mitigación de daño superior.",
+      "spoken_text": "Los lingotes de aleación especial no se pueden transformar en armaduras en la mesa de crafteo común. Debes ensamblar la Forja de Armaduras, compuesta por un yunque sobre un dispensador. Colocas el patrón exacto con lingotes de Damasco o Aleación Reforzada y activas el dispensador. El resultado es un equipo táctico con reducciones de daño muy superiores al diamante.",
+      "action": "explain",
+      "camera": "dynamic",
+      "diagram": "armor_forge",
+      "audio_file": "sf3_p05_armor_forge.mp3",
+      "duration": 21.048,
+      "frames": 646,
+      "words": [
+        {
+          "word": "Los",
+          "start": 0.099,
+          "duration": 0.183833
+        },
+        {
+          "word": "lingotes",
+          "start": 0.307333,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 0.736291,
+          "duration": 0.03675
+        },
+        {
+          "word": "aleación",
+          "start": 0.773041,
+          "duration": 0.367625
+        },
+        {
+          "word": "especial",
+          "start": 1.140666,
+          "duration": 0.477958
+        },
+        {
+          "word": "no",
+          "start": 1.618625,
+          "duration": 0.147041
+        },
+        {
+          "word": "se",
+          "start": 1.777958,
+          "duration": 0.098041
+        },
+        {
+          "word": "pueden",
+          "start": 1.9495,
+          "duration": 0.232833
+        },
+        {
+          "word": "transformar",
+          "start": 2.182333,
+          "duration": 0.514708
+        },
+        {
+          "word": "en",
+          "start": 2.697041,
+          "duration": 0.098041
+        },
+        {
+          "word": "armaduras",
+          "start": 2.795083,
+          "duration": 0.539208
+        },
+        {
+          "word": "en",
+          "start": 3.334333,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 3.420083,
+          "duration": 0.061291
+        },
+        {
+          "word": "mesa",
+          "start": 3.505875,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 3.81225,
+          "duration": 0.061291
+        },
+        {
+          "word": "crafteo",
+          "start": 3.922541,
+          "duration": 0.367666
+        },
+        {
+          "word": "común",
+          "start": 4.339208,
+          "duration": 0.330875
+        },
+        {
+          "word": "Debes",
+          "start": 5.539208,
+          "duration": 0.355375
+        },
+        {
+          "word": "ensamblar",
+          "start": 5.894625,
+          "duration": 0.453416
+        },
+        {
+          "word": "la",
+          "start": 6.360291,
+          "duration": 0.085791
+        },
+        {
+          "word": "Forja",
+          "start": 6.470583,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 6.776958,
+          "duration": 0.061291
+        },
+        {
+          "word": "Armaduras",
+          "start": 6.83825,
+          "duration": 0.526958
+        },
+        {
+          "word": "compuesta",
+          "start": 7.610291,
+          "duration": 0.404416
+        },
+        {
+          "word": "por",
+          "start": 8.08825,
+          "duration": 0.085791
+        },
+        {
+          "word": "un",
+          "start": 8.186291,
+          "duration": 0.134791
+        },
+        {
+          "word": "yunque",
+          "start": 8.333333,
+          "duration": 0.269625
+        },
+        {
+          "word": "sobre",
+          "start": 8.627458,
+          "duration": 0.269625
+        },
+        {
+          "word": "un",
+          "start": 8.921583,
+          "duration": 0.085791
+        },
+        {
+          "word": "dispensador",
+          "start": 9.044125,
+          "duration": 0.6495
+        },
+        {
+          "word": "Colocas",
+          "start": 10.563708,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 10.992666,
+          "duration": 0.061291
+        },
+        {
+          "word": "patrón",
+          "start": 11.127458,
+          "duration": 0.257333
+        },
+        {
+          "word": "exacto",
+          "start": 11.384791,
+          "duration": 0.392166
+        },
+        {
+          "word": "con",
+          "start": 11.826,
+          "duration": 0.098041
+        },
+        {
+          "word": "lingotes",
+          "start": 11.960791,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 12.377458,
+          "duration": 0.049
+        },
+        {
+          "word": "Damasco",
+          "start": 12.46325,
+          "duration": 0.490208
+        },
+        {
+          "word": "o",
+          "start": 12.965666,
+          "duration": 0.049
+        },
+        {
+          "word": "Aleación",
+          "start": 13.039208,
+          "duration": 0.404416
+        },
+        {
+          "word": "Reforzada",
+          "start": 13.443625,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 13.995083,
+          "duration": 0.061291
+        },
+        {
+          "word": "activas",
+          "start": 14.068625,
+          "duration": 0.441166
+        },
+        {
+          "word": "el",
+          "start": 14.509791,
+          "duration": 0.073541
+        },
+        {
+          "word": "dispensador",
+          "start": 14.620083,
+          "duration": 0.674
+        },
+        {
+          "word": "El",
+          "start": 16.164208,
+          "duration": 0.147041
+        },
+        {
+          "word": "resultado",
+          "start": 16.323541,
+          "duration": 0.465666
+        },
+        {
+          "word": "es",
+          "start": 16.801458,
+          "duration": 0.098041
+        },
+        {
+          "word": "un",
+          "start": 16.924,
+          "duration": 0.073541
+        },
+        {
+          "word": "equipo",
+          "start": 16.997541,
+          "duration": 0.330875
+        },
+        {
+          "word": "táctico",
+          "start": 17.414208,
+          "duration": 0.330875
+        },
+        {
+          "word": "con",
+          "start": 17.794125,
+          "duration": 0.147041
+        },
+        {
+          "word": "reducciones",
+          "start": 17.941166,
+          "duration": 0.514708
+        },
+        {
+          "word": "de",
+          "start": 18.492666,
+          "duration": 0.061291
+        },
+        {
+          "word": "daño",
+          "start": 18.590666,
+          "duration": 0.220583
+        },
+        {
+          "word": "muy",
+          "start": 18.835791,
+          "duration": 0.159333
+        },
+        {
+          "word": "superiores",
+          "start": 19.031875,
+          "duration": 0.575958
+        },
+        {
+          "word": "al",
+          "start": 19.607833,
+          "duration": 0.085791
+        },
+        {
+          "word": "diamante",
+          "start": 19.718125,
+          "duration": 0.441166
+        }
+      ]
+    },
+    {
+      "id": "sf3_p06_high_tech_alloys",
+      "title": "ALEACIONES DE ALTA TECNOLOGÍA",
+      "subtitle": "Aleación Reforzada, Lingotes de Redstone y Oro Sintético",
+      "badge": "06 // TECH METALS: REACTORES Y CIRCUITOS",
+      "text": "Metales de grado nuclear y alta tecnología: 1. Aleación Reforzada: blindaje indispensable para reactores nucleares. 2. Lingote de Redstone: superconductor para circuitos y placas lógicas. 3. Oro Sintético: abastecimiento ilimitado para componentes electrónicos.",
+      "spoken_text": "En la cúspide de la metalurgia encontramos los metales de grado nuclear. La Aleación Reforzada, combinando placas endurecidas de acero y corindón, es indispensable para contenedores de reactores nucleares. El Lingote de Redstone es el super-conductor que enlaza chips avanzados. Y el Oro Sintético te permite independizarte de las minas naturales para crafteos masivos.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "high_tech_alloys",
+      "audio_file": "sf3_p06_high_tech_alloys.mp3",
+      "duration": 21.864,
+      "frames": 670,
+      "words": [
+        {
+          "word": "En",
+          "start": 0.099,
+          "duration": 0.110291
+        },
+        {
+          "word": "la",
+          "start": 0.246083,
+          "duration": 0.061291
+        },
+        {
+          "word": "cúspide",
+          "start": 0.380875,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 0.773041,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 0.871083,
+          "duration": 0.061291
+        },
+        {
+          "word": "metalurgia",
+          "start": 0.956875,
+          "duration": 0.514708
+        },
+        {
+          "word": "encontramos",
+          "start": 1.471583,
+          "duration": 0.526958
+        },
+        {
+          "word": "los",
+          "start": 2.035291,
+          "duration": 0.098041
+        },
+        {
+          "word": "metales",
+          "start": 2.170083,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 2.58675,
+          "duration": 0.073541
+        },
+        {
+          "word": "grado",
+          "start": 2.697041,
+          "duration": 0.257333
+        },
+        {
+          "word": "nuclear",
+          "start": 2.991166,
+          "duration": 0.416666
+        },
+        {
+          "word": "La",
+          "start": 4.301458,
+          "duration": 0.159333
+        },
+        {
+          "word": "Aleación",
+          "start": 4.509791,
+          "duration": 0.392166
+        },
+        {
+          "word": "Reforzada",
+          "start": 4.901958,
+          "duration": 0.576
+        },
+        {
+          "word": "combinando",
+          "start": 5.723041,
+          "duration": 0.453416
+        },
+        {
+          "word": "placas",
+          "start": 6.25,
+          "duration": 0.318625
+        },
+        {
+          "word": "endurecidas",
+          "start": 6.568625,
+          "duration": 0.526958
+        },
+        {
+          "word": "de",
+          "start": 7.144625,
+          "duration": 0.03675
+        },
+        {
+          "word": "acero",
+          "start": 7.193625,
+          "duration": 0.306375
+        },
+        {
+          "word": "y",
+          "start": 7.549,
+          "duration": 0.01225
+        },
+        {
+          "word": "corindón",
+          "start": 7.634791,
+          "duration": 0.465666
+        },
+        {
+          "word": "es",
+          "start": 8.284333,
+          "duration": 0.134791
+        },
+        {
+          "word": "indispensable",
+          "start": 8.431375,
+          "duration": 0.6495
+        },
+        {
+          "word": "para",
+          "start": 9.154416,
+          "duration": 0.122541
+        },
+        {
+          "word": "contenedores",
+          "start": 9.33825,
+          "duration": 0.576
+        },
+        {
+          "word": "de",
+          "start": 9.951,
+          "duration": 0.073541
+        },
+        {
+          "word": "reactores",
+          "start": 10.061291,
+          "duration": 0.477958
+        },
+        {
+          "word": "nucleares",
+          "start": 10.563708,
+          "duration": 0.563708
+        },
+        {
+          "word": "El",
+          "start": 12.034333,
+          "duration": 0.134791
+        },
+        {
+          "word": "Lingote",
+          "start": 12.169125,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 12.573541,
+          "duration": 0.085791
+        },
+        {
+          "word": "Redstone",
+          "start": 12.683833,
+          "duration": 0.428916
+        },
+        {
+          "word": "es",
+          "start": 13.16175,
+          "duration": 0.110291
+        },
+        {
+          "word": "el",
+          "start": 13.272041,
+          "duration": 0.085791
+        },
+        {
+          "word": "super-conductor",
+          "start": 13.382333,
+          "duration": 0.772041
+        },
+        {
+          "word": "que",
+          "start": 14.227958,
+          "duration": 0.06125
+        },
+        {
+          "word": "enlaza",
+          "start": 14.289208,
+          "duration": 0.367666
+        },
+        {
+          "word": "chips",
+          "start": 14.718125,
+          "duration": 0.232833
+        },
+        {
+          "word": "avanzados",
+          "start": 14.951,
+          "duration": 0.63725
+        },
+        {
+          "word": "Y",
+          "start": 16.507333,
+          "duration": 0.134791
+        },
+        {
+          "word": "el",
+          "start": 16.642166,
+          "duration": 0.098041
+        },
+        {
+          "word": "Oro",
+          "start": 16.752458,
+          "duration": 0.147041
+        },
+        {
+          "word": "Sintético",
+          "start": 16.924,
+          "duration": 0.551458
+        },
+        {
+          "word": "te",
+          "start": 17.53675,
+          "duration": 0.061291
+        },
+        {
+          "word": "permite",
+          "start": 17.671583,
+          "duration": 0.330875
+        },
+        {
+          "word": "independizarte",
+          "start": 18.014708,
+          "duration": 0.686291
+        },
+        {
+          "word": "de",
+          "start": 18.7255,
+          "duration": 0.073541
+        },
+        {
+          "word": "las",
+          "start": 18.835791,
+          "duration": 0.134791
+        },
+        {
+          "word": "minas",
+          "start": 18.995083,
+          "duration": 0.245083
+        },
+        {
+          "word": "naturales",
+          "start": 19.264708,
+          "duration": 0.477958
+        },
+        {
+          "word": "para",
+          "start": 19.816166,
+          "duration": 0.134791
+        },
+        {
+          "word": "crafteos",
+          "start": 20.01225,
+          "duration": 0.392166
+        },
+        {
+          "word": "masivos",
+          "start": 20.441166,
+          "duration": 0.502458
+        }
+      ]
+    },
+    {
+      "id": "sf3_p07_efficiency_sre",
+      "title": "BUENAS PRÁCTICAS SRE EN METALURGIA",
+      "subtitle": "Ratios de compresión, trituración y gestión de inventario",
+      "badge": "07 // SRE OPTIMIZATION: METALS PIPELINE",
+      "text": "Buenas prácticas de ingeniería en DrakesCraft: 1. Nunca fundas menas crudas: usa el Triturador Eléctrico para duplicar polvos. 2. Automatiza el Compresor para lingotes de carbono. 3. Mantén los dispensadores limpios para evitar cuellos de botella.",
+      "spoken_text": "Desde el enfoque de estabilidad de DrakesCraft, nunca fundas minerales crudos de forma directa. Pasa siempre tus menas por un Triturador de Minerales eléctrico para duplicar la producción de polvos. Utiliza el Compresor automático para lingotes de carbono y mantén tus dispensadores de fundición abastecidos de forma limpia. Optimizar el flujo de entrada evita la saturación de cofres y cuello de botella en tu base.",
+      "action": "explain",
+      "camera": "close",
+      "diagram": "efficiency_pipeline",
+      "audio_file": "sf3_p07_efficiency_sre.mp3",
+      "duration": 23.304,
+      "frames": 714,
+      "words": [
+        {
+          "word": "Desde",
+          "start": 0.099,
+          "duration": 0.269625
+        },
+        {
+          "word": "el",
+          "start": 0.368625,
+          "duration": 0.073541
+        },
+        {
+          "word": "enfoque",
+          "start": 0.442166,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 0.846583,
+          "duration": 0.061291
+        },
+        {
+          "word": "estabilidad",
+          "start": 0.944625,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 1.471583,
+          "duration": 0.061291
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 1.569625,
+          "duration": 0.61275
+        },
+        {
+          "word": "nunca",
+          "start": 2.415208,
+          "duration": 0.281875
+        },
+        {
+          "word": "fundas",
+          "start": 2.721583,
+          "duration": 0.306375
+        },
+        {
+          "word": "minerales",
+          "start": 3.064708,
+          "duration": 0.477958
+        },
+        {
+          "word": "crudos",
+          "start": 3.603916,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 3.934791,
+          "duration": 0.061291
+        },
+        {
+          "word": "forma",
+          "start": 4.020583,
+          "duration": 0.269625
+        },
+        {
+          "word": "directa",
+          "start": 4.314708,
+          "duration": 0.416666
+        },
+        {
+          "word": "Pasa",
+          "start": 5.6005,
+          "duration": 0.245083
+        },
+        {
+          "word": "siempre",
+          "start": 5.857833,
+          "duration": 0.306375
+        },
+        {
+          "word": "tus",
+          "start": 6.2255,
+          "duration": 0.122541
+        },
+        {
+          "word": "menas",
+          "start": 6.384791,
+          "duration": 0.269625
+        },
+        {
+          "word": "por",
+          "start": 6.727958,
+          "duration": 0.085791
+        },
+        {
+          "word": "un",
+          "start": 6.826,
+          "duration": 0.147041
+        },
+        {
+          "word": "Triturador",
+          "start": 6.973041,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 7.51225,
+          "duration": 0.061291
+        },
+        {
+          "word": "Minerales",
+          "start": 7.610291,
+          "duration": 0.514708
+        },
+        {
+          "word": "eléctrico",
+          "start": 8.125,
+          "duration": 0.465666
+        },
+        {
+          "word": "para",
+          "start": 8.664208,
+          "duration": 0.147041
+        },
+        {
+          "word": "duplicar",
+          "start": 8.835791,
+          "duration": 0.453416
+        },
+        {
+          "word": "la",
+          "start": 9.301458,
+          "duration": 0.073541
+        },
+        {
+          "word": "producción",
+          "start": 9.436291,
+          "duration": 0.441166
+        },
+        {
+          "word": "de",
+          "start": 9.914208,
+          "duration": 0.061291
+        },
+        {
+          "word": "polvos",
+          "start": 10.061291,
+          "duration": 0.392166
+        },
+        {
+          "word": "Utiliza",
+          "start": 11.360291,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 11.789208,
+          "duration": 0.049
+        },
+        {
+          "word": "Compresor",
+          "start": 11.88725,
+          "duration": 0.404416
+        },
+        {
+          "word": "automático",
+          "start": 12.291666,
+          "duration": 0.563708
+        },
+        {
+          "word": "para",
+          "start": 12.916666,
+          "duration": 0.147041
+        },
+        {
+          "word": "lingotes",
+          "start": 13.08825,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 13.541666,
+          "duration": 0.049
+        },
+        {
+          "word": "carbono",
+          "start": 13.651958,
+          "duration": 0.367666
+        },
+        {
+          "word": "y",
+          "start": 14.068625,
+          "duration": 0.03675
+        },
+        {
+          "word": "mantén",
+          "start": 14.142166,
+          "duration": 0.379916
+        },
+        {
+          "word": "tus",
+          "start": 14.534333,
+          "duration": 0.098041
+        },
+        {
+          "word": "dispensadores",
+          "start": 14.681375,
+          "duration": 0.686291
+        },
+        {
+          "word": "de",
+          "start": 15.392166,
+          "duration": 0.049
+        },
+        {
+          "word": "fundición",
+          "start": 15.465666,
+          "duration": 0.441166
+        },
+        {
+          "word": "abastecidos",
+          "start": 15.906875,
+          "duration": 0.6495
+        },
+        {
+          "word": "de",
+          "start": 16.593125,
+          "duration": 0.061291
+        },
+        {
+          "word": "forma",
+          "start": 16.678916,
+          "duration": 0.281875
+        },
+        {
+          "word": "limpia",
+          "start": 16.985291,
+          "duration": 0.404416
+        },
+        {
+          "word": "Optimizar",
+          "start": 18.259791,
+          "duration": 0.477958
+        },
+        {
+          "word": "el",
+          "start": 18.73775,
+          "duration": 0.098041
+        },
+        {
+          "word": "flujo",
+          "start": 18.860291,
+          "duration": 0.281875
+        },
+        {
+          "word": "de",
+          "start": 19.178916,
+          "duration": 0.061291
+        },
+        {
+          "word": "entrada",
+          "start": 19.240208,
+          "duration": 0.343125
+        },
+        {
+          "word": "evita",
+          "start": 19.607833,
+          "duration": 0.281875
+        },
+        {
+          "word": "la",
+          "start": 19.901958,
+          "duration": 0.085791
+        },
+        {
+          "word": "saturación",
+          "start": 19.98775,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 20.539208,
+          "duration": 0.049
+        },
+        {
+          "word": "cofres",
+          "start": 20.66175,
+          "duration": 0.355375
+        },
+        {
+          "word": "y",
+          "start": 21.029416,
+          "duration": 0.01225
+        },
+        {
+          "word": "cuello",
+          "start": 21.127458,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 21.397041,
+          "duration": 0.073541
+        },
+        {
+          "word": "botella",
+          "start": 21.507333,
+          "duration": 0.367666
+        },
+        {
+          "word": "en",
+          "start": 21.88725,
+          "duration": 0.110291
+        },
+        {
+          "word": "tu",
+          "start": 21.997541,
+          "duration": 0.061291
+        },
+        {
+          "word": "base",
+          "start": 22.083333,
+          "duration": 0.306375
+        }
+      ]
+    },
+    {
+      "id": "sf3_p08_conclusion",
+      "title": "CONCLUSIÓN Y CAPÍTULO 4",
+      "subtitle": "El próximo paso: Logística automatizada con Cargo Management",
+      "badge": "08 // NEXT STEP: CARGO SYSTEMS",
+      "text": "Tienes el dominio de la metalurgia y aleaciones en Slimefun. Tus herramientas, blindajes y reactores tienen la base material lista. En el Capítulo 4 veremos Cargo Management: logística de ítems sin lag de entidades. Conéctate en play.drakescraft.cl:25565.",
+      "spoken_text": "Ahora cuentas con el dominio completo de los metales y aleaciones en Slimefun. Tus herramientas, armaduras y futuros reactores tienen ahora la base material necesaria. En el Capítulo cuatro abordaremos el sistema más potente y peligroso si se malconfigura: el sistema de Cargo y transporte de ítems sin generar lag de entidades en el servidor. Nos vemos en DrakesCraft.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "cargo_preview",
+      "audio_file": "sf3_p08_conclusion.mp3",
+      "duration": 21.408,
+      "frames": 657,
+      "words": [
+        {
+          "word": "Ahora",
+          "start": 0.099,
+          "duration": 0.281875
+        },
+        {
+          "word": "cuentas",
+          "start": 0.442166,
+          "duration": 0.294125
+        },
+        {
+          "word": "con",
+          "start": 0.797541,
+          "duration": 0.098041
+        },
+        {
+          "word": "el",
+          "start": 0.895583,
+          "duration": 0.073541
+        },
+        {
+          "word": "dominio",
+          "start": 1.005875,
+          "duration": 0.318625
+        },
+        {
+          "word": "completo",
+          "start": 1.361291,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 1.790208,
+          "duration": 0.073541
+        },
+        {
+          "word": "los",
+          "start": 1.88825,
+          "duration": 0.110291
+        },
+        {
+          "word": "metales",
+          "start": 2.023041,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 2.488708,
+          "duration": 0.0245
+        },
+        {
+          "word": "aleaciones",
+          "start": 2.5255,
+          "duration": 0.588208
+        },
+        {
+          "word": "en",
+          "start": 3.113708,
+          "duration": 0.073541
+        },
+        {
+          "word": "Slimefun",
+          "start": 3.1995,
+          "duration": 0.58825
+        },
+        {
+          "word": "Tus",
+          "start": 4.656875,
+          "duration": 0.183791
+        },
+        {
+          "word": "herramientas",
+          "start": 4.840666,
+          "duration": 0.563708
+        },
+        {
+          "word": "armaduras",
+          "start": 5.6495,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 6.176458,
+          "duration": 0.0245
+        },
+        {
+          "word": "futuros",
+          "start": 6.23775,
+          "duration": 0.392166
+        },
+        {
+          "word": "reactores",
+          "start": 6.629916,
+          "duration": 0.441166
+        },
+        {
+          "word": "tienen",
+          "start": 7.132333,
+          "duration": 0.269625
+        },
+        {
+          "word": "ahora",
+          "start": 7.401958,
+          "duration": 0.281875
+        },
+        {
+          "word": "la",
+          "start": 7.696083,
+          "duration": 0.085791
+        },
+        {
+          "word": "base",
+          "start": 7.818625,
+          "duration": 0.208333
+        },
+        {
+          "word": "material",
+          "start": 8.051458,
+          "duration": 0.416666
+        },
+        {
+          "word": "necesaria",
+          "start": 8.468125,
+          "duration": 0.6005
+        },
+        {
+          "word": "En",
+          "start": 9.951,
+          "duration": 0.147041
+        },
+        {
+          "word": "el",
+          "start": 10.098041,
+          "duration": 0.110291
+        },
+        {
+          "word": "Capítulo",
+          "start": 10.208333,
+          "duration": 0.416666
+        },
+        {
+          "word": "cuatro",
+          "start": 10.698541,
+          "duration": 0.208333
+        },
+        {
+          "word": "abordaremos",
+          "start": 10.919125,
+          "duration": 0.551458
+        },
+        {
+          "word": "el",
+          "start": 11.470583,
+          "duration": 0.085791
+        },
+        {
+          "word": "sistema",
+          "start": 11.568625,
+          "duration": 0.379916
+        },
+        {
+          "word": "más",
+          "start": 11.973041,
+          "duration": 0.171583
+        },
+        {
+          "word": "potente",
+          "start": 12.218125,
+          "duration": 0.343125
+        },
+        {
+          "word": "y",
+          "start": 12.573541,
+          "duration": 0.0245
+        },
+        {
+          "word": "peligroso",
+          "start": 12.671583,
+          "duration": 0.441166
+        },
+        {
+          "word": "si",
+          "start": 13.13725,
+          "duration": 0.085791
+        },
+        {
+          "word": "se",
+          "start": 13.259791,
+          "duration": 0.098041
+        },
+        {
+          "word": "malconfigura",
+          "start": 13.382333,
+          "duration": 0.66175
+        },
+        {
+          "word": "el",
+          "start": 14.264708,
+          "duration": 0.122541
+        },
+        {
+          "word": "sistema",
+          "start": 14.3995,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 14.803916,
+          "duration": 0.073541
+        },
+        {
+          "word": "Cargo",
+          "start": 14.951,
+          "duration": 0.257333
+        },
+        {
+          "word": "y",
+          "start": 15.245083,
+          "duration": 0.0245
+        },
+        {
+          "word": "transporte",
+          "start": 15.330875,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 15.870083,
+          "duration": 0.073541
+        },
+        {
+          "word": "ítems",
+          "start": 16.017166,
+          "duration": 0.245083
+        },
+        {
+          "word": "sin",
+          "start": 16.26225,
+          "duration": 0.196083
+        },
+        {
+          "word": "generar",
+          "start": 16.458333,
+          "duration": 0.404416
+        },
+        {
+          "word": "lag",
+          "start": 16.875,
+          "duration": 0.183833
+        },
+        {
+          "word": "de",
+          "start": 17.107833,
+          "duration": 0.049
+        },
+        {
+          "word": "entidades",
+          "start": 17.181375,
+          "duration": 0.551458
+        },
+        {
+          "word": "en",
+          "start": 17.732833,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 17.806375,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 17.904416,
+          "duration": 0.502458
+        },
+        {
+          "word": "Nos",
+          "start": 19.276958,
+          "duration": 0.196083
+        },
+        {
+          "word": "vemos",
+          "start": 19.509791,
+          "duration": 0.281875
+        },
+        {
+          "word": "en",
+          "start": 19.791666,
+          "duration": 0.085791
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 19.926458,
+          "duration": 0.61275
+        }
+      ]
+    }
+  ]
+}

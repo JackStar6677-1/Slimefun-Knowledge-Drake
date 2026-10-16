@@ -1,0 +1,451 @@
+{
+  "id": "short_sf_start",
+  "voice": "es-CL-LorenzoNeural",
+  "duration": 35.832,
+  "frames": 1104,
+  "audio_file": "short_sf_start.mp3",
+  "text": "¿Cómo empezar en Slimefun sin morir en el intento? 1. /sf guide para abrir el manual interactivo. 2. /rtp y /ps get para proteger tu base de grifeos. 3. Monta tu Mesa Mejorada: Mesa sobre Dispensador. ¡100% vanilla sin mods en play.drakescraft.cl!",
+  "spoken_text": "¿Quieres empezar en Slimefun sin frustrarte en DrakesCraft? Sigue esta ruta rápida de tres pasos. Paso uno: usa barra sf guide para abrir la guía interactiva y navegar las ramas de tecnología. Paso dos: escribe barra rtp para teletransportarte al mundo survival, y asegura tu territorio con barra ps get para obtener bloques de protección automáticos. Paso tres: construye tu primer multibloque: la Mesa de Trabajo Mejorada, colocando una mesa de crafteo sobre un dispensador apuntando arriba. Cero mods requeridos. Conéctate en play punto drakescraft punto ce ele.",
+  "words": [
+    {
+      "word": "Quieres",
+      "start": 0.099,
+      "duration": 0.281875
+    },
+    {
+      "word": "empezar",
+      "start": 0.380875,
+      "duration": 0.355375
+    },
+    {
+      "word": "en",
+      "start": 0.736291,
+      "duration": 0.098041
+    },
+    {
+      "word": "Slimefun",
+      "start": 0.834333,
+      "duration": 0.490208
+    },
+    {
+      "word": "sin",
+      "start": 1.33675,
+      "duration": 0.171583
+    },
+    {
+      "word": "frustrarte",
+      "start": 1.508333,
+      "duration": 0.502458
+    },
+    {
+      "word": "en",
+      "start": 2.010791,
+      "duration": 0.061291
+    },
+    {
+      "word": "DrakesCraft",
+      "start": 2.121083,
+      "duration": 0.6005
+    },
+    {
+      "word": "Sigue",
+      "start": 3.590666,
+      "duration": 0.343125
+    },
+    {
+      "word": "esta",
+      "start": 3.958333,
+      "duration": 0.196083
+    },
+    {
+      "word": "ruta",
+      "start": 4.178916,
+      "duration": 0.269625
+    },
+    {
+      "word": "rápida",
+      "start": 4.473041,
+      "duration": 0.367666
+    },
+    {
+      "word": "de",
+      "start": 4.852958,
+      "duration": 0.085791
+    },
+    {
+      "word": "tres",
+      "start": 5.01225,
+      "duration": 0.171583
+    },
+    {
+      "word": "pasos",
+      "start": 5.245083,
+      "duration": 0.404416
+    },
+    {
+      "word": "Paso",
+      "start": 6.568625,
+      "duration": 0.281875
+    },
+    {
+      "word": "uno",
+      "start": 6.88725,
+      "duration": 0.232833
+    },
+    {
+      "word": "usa",
+      "start": 7.328416,
+      "duration": 0.208333
+    },
+    {
+      "word": "barra",
+      "start": 7.573541,
+      "duration": 0.208333
+    },
+    {
+      "word": "sf",
+      "start": 7.830875,
+      "duration": 0.232833
+    },
+    {
+      "word": "guide",
+      "start": 8.11275,
+      "duration": 0.208333
+    },
+    {
+      "word": "para",
+      "start": 8.394625,
+      "duration": 0.147041
+    },
+    {
+      "word": "abrir",
+      "start": 8.590666,
+      "duration": 0.257333
+    },
+    {
+      "word": "la",
+      "start": 8.872541,
+      "duration": 0.085791
+    },
+    {
+      "word": "guía",
+      "start": 8.995083,
+      "duration": 0.171583
+    },
+    {
+      "word": "interactiva",
+      "start": 9.191166,
+      "duration": 0.563708
+    },
+    {
+      "word": "y",
+      "start": 9.779416,
+      "duration": 0.03675
+    },
+    {
+      "word": "navegar",
+      "start": 9.852958,
+      "duration": 0.355375
+    },
+    {
+      "word": "las",
+      "start": 10.220583,
+      "duration": 0.147041
+    },
+    {
+      "word": "ramas",
+      "start": 10.367666,
+      "duration": 0.281875
+    },
+    {
+      "word": "de",
+      "start": 10.698541,
+      "duration": 0.049
+    },
+    {
+      "word": "tecnología",
+      "start": 10.808833,
+      "duration": 0.625
+    },
+    {
+      "word": "Paso",
+      "start": 12.303916,
+      "duration": 0.257333
+    },
+    {
+      "word": "dos",
+      "start": 12.598041,
+      "duration": 0.245083
+    },
+    {
+      "word": "escribe",
+      "start": 13.063708,
+      "duration": 0.355375
+    },
+    {
+      "word": "barra",
+      "start": 13.455875,
+      "duration": 0.232833
+    },
+    {
+      "word": "rtp",
+      "start": 13.75,
+      "duration": 0.477958
+    },
+    {
+      "word": "para",
+      "start": 14.313708,
+      "duration": 0.134791
+    },
+    {
+      "word": "teletransportarte",
+      "start": 14.509791,
+      "duration": 0.808833
+    },
+    {
+      "word": "al",
+      "start": 15.318625,
+      "duration": 0.085791
+    },
+    {
+      "word": "mundo",
+      "start": 15.441166,
+      "duration": 0.257333
+    },
+    {
+      "word": "survival",
+      "start": 15.710791,
+      "duration": 0.576
+    },
+    {
+      "word": "y",
+      "start": 16.544125,
+      "duration": 0.073541
+    },
+    {
+      "word": "asegura",
+      "start": 16.629916,
+      "duration": 0.416666
+    },
+    {
+      "word": "tu",
+      "start": 17.107833,
+      "duration": 0.061291
+    },
+    {
+      "word": "territorio",
+      "start": 17.230375,
+      "duration": 0.477958
+    },
+    {
+      "word": "con",
+      "start": 17.769625,
+      "duration": 0.122541
+    },
+    {
+      "word": "barra",
+      "start": 17.953416,
+      "duration": 0.220583
+    },
+    {
+      "word": "ps",
+      "start": 18.272041,
+      "duration": 0.306375
+    },
+    {
+      "word": "get",
+      "start": 18.615208,
+      "duration": 0.159333
+    },
+    {
+      "word": "para",
+      "start": 18.860291,
+      "duration": 0.134791
+    },
+    {
+      "word": "obtener",
+      "start": 19.019625,
+      "duration": 0.343125
+    },
+    {
+      "word": "bloques",
+      "start": 19.3995,
+      "duration": 0.318625
+    },
+    {
+      "word": "de",
+      "start": 19.754916,
+      "duration": 0.061291
+    },
+    {
+      "word": "protección",
+      "start": 19.877458,
+      "duration": 0.416666
+    },
+    {
+      "word": "automáticos",
+      "start": 20.306375,
+      "duration": 0.710791
+    },
+    {
+      "word": "Paso",
+      "start": 21.924,
+      "duration": 0.245083
+    },
+    {
+      "word": "tres",
+      "start": 22.230375,
+      "duration": 0.306375
+    },
+    {
+      "word": "construye",
+      "start": 22.769625,
+      "duration": 0.416666
+    },
+    {
+      "word": "tu",
+      "start": 23.247541,
+      "duration": 0.061291
+    },
+    {
+      "word": "primer",
+      "start": 23.370083,
+      "duration": 0.232833
+    },
+    {
+      "word": "multibloque",
+      "start": 23.627458,
+      "duration": 0.576
+    },
+    {
+      "word": "la",
+      "start": 24.41175,
+      "duration": 0.122541
+    },
+    {
+      "word": "Mesa",
+      "start": 24.558833,
+      "duration": 0.257333
+    },
+    {
+      "word": "de",
+      "start": 24.840666,
+      "duration": 0.073541
+    },
+    {
+      "word": "Trabajo",
+      "start": 24.96325,
+      "duration": 0.318625
+    },
+    {
+      "word": "Mejorada",
+      "start": 25.306375,
+      "duration": 0.514708
+    },
+    {
+      "word": "colocando",
+      "start": 26.053916,
+      "duration": 0.453416
+    },
+    {
+      "word": "una",
+      "start": 26.531875,
+      "duration": 0.171583
+    },
+    {
+      "word": "mesa",
+      "start": 26.727958,
+      "duration": 0.269625
+    },
+    {
+      "word": "de",
+      "start": 27.022041,
+      "duration": 0.061291
+    },
+    {
+      "word": "crafteo",
+      "start": 27.144625,
+      "duration": 0.404416
+    },
+    {
+      "word": "sobre",
+      "start": 27.561291,
+      "duration": 0.269625
+    },
+    {
+      "word": "un",
+      "start": 27.855375,
+      "duration": 0.085791
+    },
+    {
+      "word": "dispensador",
+      "start": 27.977958,
+      "duration": 0.551458
+    },
+    {
+      "word": "apuntando",
+      "start": 28.529416,
+      "duration": 0.514708
+    },
+    {
+      "word": "arriba",
+      "start": 29.044125,
+      "duration": 0.392166
+    },
+    {
+      "word": "Cero",
+      "start": 30.306375,
+      "duration": 0.281875
+    },
+    {
+      "word": "mods",
+      "start": 30.61275,
+      "duration": 0.257333
+    },
+    {
+      "word": "requeridos",
+      "start": 30.882333,
+      "duration": 0.58825
+    },
+    {
+      "word": "Conéctate",
+      "start": 32.377458,
+      "duration": 0.514708
+    },
+    {
+      "word": "en",
+      "start": 32.892166,
+      "duration": 0.122541
+    },
+    {
+      "word": "play",
+      "start": 33.026958,
+      "duration": 0.134791
+    },
+    {
+      "word": "punto",
+      "start": 33.247541,
+      "duration": 0.245083
+    },
+    {
+      "word": "drakescraft",
+      "start": 33.517166,
+      "duration": 0.551458
+    },
+    {
+      "word": "punto",
+      "start": 34.154416,
+      "duration": 0.269625
+    },
+    {
+      "word": "ce",
+      "start": 34.448541,
+      "duration": 0.245083
+    },
+    {
+      "word": "ele",
+      "start": 34.718125,
+      "duration": 0.208333
+    }
+  ]
+}

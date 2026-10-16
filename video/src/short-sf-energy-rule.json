@@ -1,0 +1,411 @@
+{
+  "id": "short_sf_energy_rule",
+  "voice": "en-US-ChristopherNeural",
+  "duration": 35.904,
+  "frames": 1107,
+  "audio_file": "short_sf_energy_rule.mp3",
+  "text": "The 1 Energy Regulator Rule for Zero Lag: Slimefun uses graph traversal each tick to distribute Joules. Two regulators in one circuit trigger recursive JVM recalculations. Exactly 1 regulator per circuit = 20.0 flawless TPS. Test it on play.drakescraft.cl!",
+  "spoken_text": "Here is the golden engineering rule for zero-lag Slimefun networks: never place two Energy Regulators on the same connected circuit. During every server tick, Slimefun performs a breadth-first search to traverse the network graph and distribute Joules. When multiple regulators share connected cables or machines, the JVM recalculates the graph repeatedly, creating exponential tick lag. Keep exactly one regulator per isolated energy grid for twenty point zero flawless TPS. Play lag-free Slimefun right now on play dot drakescraft dot cl.",
+  "words": [
+    {
+      "word": "Here",
+      "start": 0.099,
+      "duration": 0.220583
+    },
+    {
+      "word": "is",
+      "start": 0.331875,
+      "duration": 0.122541
+    },
+    {
+      "word": "the",
+      "start": 0.466666,
+      "duration": 0.110291
+    },
+    {
+      "word": "golden",
+      "start": 0.589208,
+      "duration": 0.404416
+    },
+    {
+      "word": "engineering",
+      "start": 1.005875,
+      "duration": 0.576
+    },
+    {
+      "word": "rule",
+      "start": 1.594125,
+      "duration": 0.257333
+    },
+    {
+      "word": "for",
+      "start": 1.863708,
+      "duration": 0.147041
+    },
+    {
+      "word": "zero-lag",
+      "start": 2.023041,
+      "duration": 0.563708
+    },
+    {
+      "word": "Slimefun",
+      "start": 2.599,
+      "duration": 0.58825
+    },
+    {
+      "word": "networks",
+      "start": 3.1995,
+      "duration": 0.539208
+    },
+    {
+      "word": "never",
+      "start": 4.069625,
+      "duration": 0.281875
+    },
+    {
+      "word": "place",
+      "start": 4.363708,
+      "duration": 0.306375
+    },
+    {
+      "word": "two",
+      "start": 4.682333,
+      "duration": 0.220583
+    },
+    {
+      "word": "Energy",
+      "start": 4.915208,
+      "duration": 0.379916
+    },
+    {
+      "word": "Regulators",
+      "start": 5.307333,
+      "duration": 0.61275
+    },
+    {
+      "word": "on",
+      "start": 5.932333,
+      "duration": 0.085791
+    },
+    {
+      "word": "the",
+      "start": 6.030375,
+      "duration": 0.061291
+    },
+    {
+      "word": "same",
+      "start": 6.103916,
+      "duration": 0.294125
+    },
+    {
+      "word": "connected",
+      "start": 6.410291,
+      "duration": 0.392166
+    },
+    {
+      "word": "circuit",
+      "start": 6.814708,
+      "duration": 0.453416
+    },
+    {
+      "word": "During",
+      "start": 8.11275,
+      "duration": 0.392166
+    },
+    {
+      "word": "every",
+      "start": 8.517166,
+      "duration": 0.245083
+    },
+    {
+      "word": "server",
+      "start": 8.7745,
+      "duration": 0.367666
+    },
+    {
+      "word": "tick",
+      "start": 9.154416,
+      "duration": 0.330875
+    },
+    {
+      "word": "Slimefun",
+      "start": 9.742666,
+      "duration": 0.6495
+    },
+    {
+      "word": "performs",
+      "start": 10.404416,
+      "duration": 0.477958
+    },
+    {
+      "word": "a",
+      "start": 10.894625,
+      "duration": 0.061291
+    },
+    {
+      "word": "breadth-first",
+      "start": 10.968125,
+      "duration": 0.625
+    },
+    {
+      "word": "search",
+      "start": 11.605375,
+      "duration": 0.343125
+    },
+    {
+      "word": "to",
+      "start": 11.960791,
+      "duration": 0.098041
+    },
+    {
+      "word": "traverse",
+      "start": 12.071083,
+      "duration": 0.465666
+    },
+    {
+      "word": "the",
+      "start": 12.549,
+      "duration": 0.085791
+    },
+    {
+      "word": "network",
+      "start": 12.647041,
+      "duration": 0.367666
+    },
+    {
+      "word": "graph",
+      "start": 13.026958,
+      "duration": 0.343125
+    },
+    {
+      "word": "and",
+      "start": 13.382333,
+      "duration": 0.073541
+    },
+    {
+      "word": "distribute",
+      "start": 13.468125,
+      "duration": 0.441166
+    },
+    {
+      "word": "Joules",
+      "start": 13.921583,
+      "duration": 0.58825
+    },
+    {
+      "word": "When",
+      "start": 15.355375,
+      "duration": 0.208333
+    },
+    {
+      "word": "multiple",
+      "start": 15.576,
+      "duration": 0.465666
+    },
+    {
+      "word": "regulators",
+      "start": 16.053916,
+      "duration": 0.551458
+    },
+    {
+      "word": "share",
+      "start": 16.617666,
+      "duration": 0.306375
+    },
+    {
+      "word": "connected",
+      "start": 16.936291,
+      "duration": 0.441166
+    },
+    {
+      "word": "cables",
+      "start": 17.389708,
+      "duration": 0.477958
+    },
+    {
+      "word": "or",
+      "start": 17.879916,
+      "duration": 0.122541
+    },
+    {
+      "word": "machines",
+      "start": 18.014708,
+      "duration": 0.6005
+    },
+    {
+      "word": "the",
+      "start": 18.884791,
+      "duration": 0.122541
+    },
+    {
+      "word": "JVM",
+      "start": 19.019625,
+      "duration": 0.6005
+    },
+    {
+      "word": "recalculates",
+      "start": 19.632333,
+      "duration": 0.772041
+    },
+    {
+      "word": "the",
+      "start": 20.416666,
+      "duration": 0.098041
+    },
+    {
+      "word": "graph",
+      "start": 20.526958,
+      "duration": 0.343125
+    },
+    {
+      "word": "repeatedly",
+      "start": 20.882333,
+      "duration": 0.6495
+    },
+    {
+      "word": "creating",
+      "start": 21.776958,
+      "duration": 0.465666
+    },
+    {
+      "word": "exponential",
+      "start": 22.254916,
+      "duration": 0.63725
+    },
+    {
+      "word": "tick",
+      "start": 22.904416,
+      "duration": 0.220583
+    },
+    {
+      "word": "lag",
+      "start": 23.13725,
+      "duration": 0.441166
+    },
+    {
+      "word": "Keep",
+      "start": 24.424,
+      "duration": 0.245083
+    },
+    {
+      "word": "exactly",
+      "start": 24.681375,
+      "duration": 0.526958
+    },
+    {
+      "word": "one",
+      "start": 25.220583,
+      "duration": 0.294125
+    },
+    {
+      "word": "regulator",
+      "start": 25.526958,
+      "duration": 0.526958
+    },
+    {
+      "word": "per",
+      "start": 26.066166,
+      "duration": 0.208333
+    },
+    {
+      "word": "isolated",
+      "start": 26.28675,
+      "duration": 0.61275
+    },
+    {
+      "word": "energy",
+      "start": 26.91175,
+      "duration": 0.392166
+    },
+    {
+      "word": "grid",
+      "start": 27.316166,
+      "duration": 0.318625
+    },
+    {
+      "word": "for",
+      "start": 27.647041,
+      "duration": 0.134791
+    },
+    {
+      "word": "twenty",
+      "start": 27.794125,
+      "duration": 0.269625
+    },
+    {
+      "word": "point",
+      "start": 28.076,
+      "duration": 0.269625
+    },
+    {
+      "word": "zero",
+      "start": 28.357833,
+      "duration": 0.379916
+    },
+    {
+      "word": "flawless",
+      "start": 28.75,
+      "duration": 0.465666
+    },
+    {
+      "word": "TPS",
+      "start": 29.227958,
+      "duration": 0.808833
+    },
+    {
+      "word": "Play",
+      "start": 30.882333,
+      "duration": 0.257333
+    },
+    {
+      "word": "lag-free",
+      "start": 31.151958,
+      "duration": 0.551458
+    },
+    {
+      "word": "Slimefun",
+      "start": 31.715666,
+      "duration": 0.66175
+    },
+    {
+      "word": "right",
+      "start": 32.389708,
+      "duration": 0.196083
+    },
+    {
+      "word": "now",
+      "start": 32.598041,
+      "duration": 0.269625
+    },
+    {
+      "word": "on",
+      "start": 32.879916,
+      "duration": 0.122541
+    },
+    {
+      "word": "play",
+      "start": 33.014708,
+      "duration": 0.281875
+    },
+    {
+      "word": "dot",
+      "start": 33.308833,
+      "duration": 0.208333
+    },
+    {
+      "word": "drakescraft",
+      "start": 33.529416,
+      "duration": 0.698541
+    },
+    {
+      "word": "dot",
+      "start": 34.240208,
+      "duration": 0.220583
+    },
+    {
+      "word": "cl",
+      "start": 34.473041,
+      "duration": 0.576
+    }
+  ]
+}

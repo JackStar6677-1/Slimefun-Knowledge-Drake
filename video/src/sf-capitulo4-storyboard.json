@@ -1,0 +1,2516 @@
+{
+  "chapter": 4,
+  "series": "Slimefun Masterclass",
+  "title": "Slimefun en DrakesCraft: Capítulo 4 — Logística, Cargo Management & Optimización Anti-Lag",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "sf4_p01_intro",
+      "title": "EL CUELLO DE BOTELLA LOGÍSTICO",
+      "subtitle": "Por qué las tolvas vainilla y corrientes de agua colapsan un servidor",
+      "badge": "01 // LOGÍSTICA: EL RETO SRE",
+      "text": "Bienvenidos al Capítulo 4 de Slimefun en DrakesCraft. Con energía y fundición operativa, el transporte de ítems es el verdadero reto. Las tolvas y corrientes de agua vainilla causan un severo lag en el servidor. Hoy implementaremos la solución más limpia y eficiente: Cargo Management.",
+      "spoken_text": "Bienvenidos al Capítulo cuatro de nuestra guía de Slimefun en DrakesCraft. Tienes energía eléctrica abundante y fundidores procesando lingotes a toda máquina. Pero ahora enfrentas el mayor desafío de cualquier base industrial: el transporte de ítems. Usar cientos de tolvas o corrientes de agua genera una sobrecarga severa en la CPU del servidor. Hoy aprenderás a implementar el sistema de transporte más veloz y eficiente: Cargo Management.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "cargo_intro",
+      "audio_file": "sf4_p01_intro.mp3",
+      "duration": 25.416,
+      "frames": 777,
+      "words": [
+        {
+          "word": "Bienvenidos",
+          "start": 0.099,
+          "duration": 0.551458
+        },
+        {
+          "word": "al",
+          "start": 0.6505,
+          "duration": 0.073541
+        },
+        {
+          "word": "Capítulo",
+          "start": 0.773041,
+          "duration": 0.404416
+        },
+        {
+          "word": "cuatro",
+          "start": 1.251,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 1.545083,
+          "duration": 0.073541
+        },
+        {
+          "word": "nuestra",
+          "start": 1.643125,
+          "duration": 0.257333
+        },
+        {
+          "word": "guía",
+          "start": 1.93725,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 2.182333,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.317166,
+          "duration": 0.502458
+        },
+        {
+          "word": "en",
+          "start": 2.819625,
+          "duration": 0.098041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 2.966666,
+          "duration": 0.61275
+        },
+        {
+          "word": "Tienes",
+          "start": 4.448541,
+          "duration": 0.306375
+        },
+        {
+          "word": "energía",
+          "start": 4.754916,
+          "duration": 0.416666
+        },
+        {
+          "word": "eléctrica",
+          "start": 5.171583,
+          "duration": 0.453416
+        },
+        {
+          "word": "abundante",
+          "start": 5.625,
+          "duration": 0.428916
+        },
+        {
+          "word": "y",
+          "start": 6.078416,
+          "duration": 0.0245
+        },
+        {
+          "word": "fundidores",
+          "start": 6.127458,
+          "duration": 0.502458
+        },
+        {
+          "word": "procesando",
+          "start": 6.691166,
+          "duration": 0.477958
+        },
+        {
+          "word": "lingotes",
+          "start": 7.205875,
+          "duration": 0.490208
+        },
+        {
+          "word": "a",
+          "start": 7.696083,
+          "duration": 0.061291
+        },
+        {
+          "word": "toda",
+          "start": 7.843125,
+          "duration": 0.171583
+        },
+        {
+          "word": "máquina",
+          "start": 8.039208,
+          "duration": 0.404416
+        },
+        {
+          "word": "Pero",
+          "start": 9.313708,
+          "duration": 0.196083
+        },
+        {
+          "word": "ahora",
+          "start": 9.509791,
+          "duration": 0.196083
+        },
+        {
+          "word": "enfrentas",
+          "start": 9.705875,
+          "duration": 0.428916
+        },
+        {
+          "word": "el",
+          "start": 10.134791,
+          "duration": 0.061291
+        },
+        {
+          "word": "mayor",
+          "start": 10.232833,
+          "duration": 0.245083
+        },
+        {
+          "word": "desafío",
+          "start": 10.514708,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 10.955875,
+          "duration": 0.061291
+        },
+        {
+          "word": "cualquier",
+          "start": 11.066166,
+          "duration": 0.343125
+        },
+        {
+          "word": "base",
+          "start": 11.446083,
+          "duration": 0.220583
+        },
+        {
+          "word": "industrial",
+          "start": 11.691166,
+          "duration": 0.490208
+        },
+        {
+          "word": "el",
+          "start": 12.377458,
+          "duration": 0.122541
+        },
+        {
+          "word": "transporte",
+          "start": 12.53675,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 13.051458,
+          "duration": 0.085791
+        },
+        {
+          "word": "ítems",
+          "start": 13.198541,
+          "duration": 0.416666
+        },
+        {
+          "word": "Usar",
+          "start": 14.522041,
+          "duration": 0.294125
+        },
+        {
+          "word": "cientos",
+          "start": 14.828416,
+          "duration": 0.367666
+        },
+        {
+          "word": "de",
+          "start": 15.232833,
+          "duration": 0.061291
+        },
+        {
+          "word": "tolvas",
+          "start": 15.379916,
+          "duration": 0.318625
+        },
+        {
+          "word": "o",
+          "start": 15.698541,
+          "duration": 0.0245
+        },
+        {
+          "word": "corrientes",
+          "start": 15.784333,
+          "duration": 0.428916
+        },
+        {
+          "word": "de",
+          "start": 16.26225,
+          "duration": 0.073541
+        },
+        {
+          "word": "agua",
+          "start": 16.348041,
+          "duration": 0.220583
+        },
+        {
+          "word": "genera",
+          "start": 16.593125,
+          "duration": 0.343125
+        },
+        {
+          "word": "una",
+          "start": 16.960791,
+          "duration": 0.159291
+        },
+        {
+          "word": "sobrecarga",
+          "start": 17.120083,
+          "duration": 0.539208
+        },
+        {
+          "word": "severa",
+          "start": 17.671583,
+          "duration": 0.343125
+        },
+        {
+          "word": "en",
+          "start": 18.014708,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 18.1005,
+          "duration": 0.073541
+        },
+        {
+          "word": "CPU",
+          "start": 18.186291,
+          "duration": 0.404416
+        },
+        {
+          "word": "del",
+          "start": 18.627458,
+          "duration": 0.134791
+        },
+        {
+          "word": "servidor",
+          "start": 18.76225,
+          "duration": 0.514708
+        },
+        {
+          "word": "Hoy",
+          "start": 20.159333,
+          "duration": 0.134791
+        },
+        {
+          "word": "aprenderás",
+          "start": 20.318625,
+          "duration": 0.502458
+        },
+        {
+          "word": "a",
+          "start": 20.821083,
+          "duration": 0.0245
+        },
+        {
+          "word": "implementar",
+          "start": 20.870083,
+          "duration": 0.477958
+        },
+        {
+          "word": "el",
+          "start": 21.348041,
+          "duration": 0.098041
+        },
+        {
+          "word": "sistema",
+          "start": 21.446083,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 21.8505,
+          "duration": 0.073541
+        },
+        {
+          "word": "transporte",
+          "start": 21.973041,
+          "duration": 0.465666
+        },
+        {
+          "word": "más",
+          "start": 22.46325,
+          "duration": 0.159333
+        },
+        {
+          "word": "veloz",
+          "start": 22.659333,
+          "duration": 0.294125
+        },
+        {
+          "word": "y",
+          "start": 22.977958,
+          "duration": 0.01225
+        },
+        {
+          "word": "eficiente",
+          "start": 23.026958,
+          "duration": 0.502458
+        },
+        {
+          "word": "Cargo",
+          "start": 23.75,
+          "duration": 0.257333
+        },
+        {
+          "word": "Management",
+          "start": 24.031875,
+          "duration": 0.502458
+        }
+      ]
+    },
+    {
+      "id": "sf4_p02_manager",
+      "title": "EL ADMINISTRADOR DE CARGA",
+      "subtitle": "El nodo coordinador que enlaza el grafo de transporte",
+      "badge": "02 // CORE COMPONENT: CARGO MANAGER",
+      "text": "El Administrador de Carga (Cargo Manager) es el cerebro de la red. Transfiere ítems directamente en memoria sin generar entidades ni partículas. Elimina el costoso escaneo continuo de tolvas y soporta cientos de contenedores.",
+      "spoken_text": "El Administrador de Carga, o Cargo Manager, es el corazón de la logística. A diferencia de las tolvas que revisan inventarios cada cuatro ticks, este nodo gestiona la transferencia instantánea de ítems directamente en memoria, sin spawnear entidades en el mundo y sin generar partículas innecesarias. Es una pieza compacta capaz de gobernar cientos de contenedores conectados.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "cargo_manager",
+      "audio_file": "sf4_p02_manager.mp3",
+      "duration": 21.48,
+      "frames": 659,
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "Administrador",
+          "start": 0.246083,
+          "duration": 0.61275
+        },
+        {
+          "word": "de",
+          "start": 0.895583,
+          "duration": 0.061291
+        },
+        {
+          "word": "Carga",
+          "start": 1.030375,
+          "duration": 0.367666
+        },
+        {
+          "word": "o",
+          "start": 1.606375,
+          "duration": 0.061291
+        },
+        {
+          "word": "Cargo",
+          "start": 1.741166,
+          "duration": 0.257333
+        },
+        {
+          "word": "Manager",
+          "start": 2.023041,
+          "duration": 0.477958
+        },
+        {
+          "word": "es",
+          "start": 2.758333,
+          "duration": 0.147041
+        },
+        {
+          "word": "el",
+          "start": 2.905375,
+          "duration": 0.073541
+        },
+        {
+          "word": "corazón",
+          "start": 3.040208,
+          "duration": 0.379916
+        },
+        {
+          "word": "de",
+          "start": 3.469125,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 3.554916,
+          "duration": 0.073541
+        },
+        {
+          "word": "logística",
+          "start": 3.652958,
+          "duration": 0.576
+        },
+        {
+          "word": "A",
+          "start": 5.098041,
+          "duration": 0.085791
+        },
+        {
+          "word": "diferencia",
+          "start": 5.208333,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 5.710791,
+          "duration": 0.073541
+        },
+        {
+          "word": "las",
+          "start": 5.808833,
+          "duration": 0.098041
+        },
+        {
+          "word": "tolvas",
+          "start": 5.968125,
+          "duration": 0.294125
+        },
+        {
+          "word": "que",
+          "start": 6.323541,
+          "duration": 0.061291
+        },
+        {
+          "word": "revisan",
+          "start": 6.421583,
+          "duration": 0.355375
+        },
+        {
+          "word": "inventarios",
+          "start": 6.789208,
+          "duration": 0.563708
+        },
+        {
+          "word": "cada",
+          "start": 7.401958,
+          "duration": 0.183833
+        },
+        {
+          "word": "cuatro",
+          "start": 7.659333,
+          "duration": 0.232833
+        },
+        {
+          "word": "ticks",
+          "start": 7.965666,
+          "duration": 0.232833
+        },
+        {
+          "word": "este",
+          "start": 8.443625,
+          "duration": 0.220583
+        },
+        {
+          "word": "nodo",
+          "start": 8.701,
+          "duration": 0.183833
+        },
+        {
+          "word": "gestiona",
+          "start": 8.909333,
+          "duration": 0.453416
+        },
+        {
+          "word": "la",
+          "start": 9.36275,
+          "duration": 0.085791
+        },
+        {
+          "word": "transferencia",
+          "start": 9.497541,
+          "duration": 0.539208
+        },
+        {
+          "word": "instantánea",
+          "start": 10.061291,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 10.63725,
+          "duration": 0.073541
+        },
+        {
+          "word": "ítems",
+          "start": 10.784333,
+          "duration": 0.245083
+        },
+        {
+          "word": "directamente",
+          "start": 11.078416,
+          "duration": 0.61275
+        },
+        {
+          "word": "en",
+          "start": 11.703416,
+          "duration": 0.061291
+        },
+        {
+          "word": "memoria",
+          "start": 11.813708,
+          "duration": 0.416666
+        },
+        {
+          "word": "sin",
+          "start": 12.426458,
+          "duration": 0.171583
+        },
+        {
+          "word": "spawnear",
+          "start": 12.598041,
+          "duration": 0.477958
+        },
+        {
+          "word": "entidades",
+          "start": 13.076,
+          "duration": 0.539208
+        },
+        {
+          "word": "en",
+          "start": 13.615208,
+          "duration": 0.085791
+        },
+        {
+          "word": "el",
+          "start": 13.701,
+          "duration": 0.110291
+        },
+        {
+          "word": "mundo",
+          "start": 13.835791,
+          "duration": 0.245083
+        },
+        {
+          "word": "y",
+          "start": 14.117666,
+          "duration": 0.03675
+        },
+        {
+          "word": "sin",
+          "start": 14.178916,
+          "duration": 0.183833
+        },
+        {
+          "word": "generar",
+          "start": 14.36275,
+          "duration": 0.404416
+        },
+        {
+          "word": "partículas",
+          "start": 14.840666,
+          "duration": 0.514708
+        },
+        {
+          "word": "innecesarias",
+          "start": 15.367666,
+          "duration": 0.735291
+        },
+        {
+          "word": "Es",
+          "start": 17.009791,
+          "duration": 0.147041
+        },
+        {
+          "word": "una",
+          "start": 17.181375,
+          "duration": 0.134791
+        },
+        {
+          "word": "pieza",
+          "start": 17.389708,
+          "duration": 0.220583
+        },
+        {
+          "word": "compacta",
+          "start": 17.659333,
+          "duration": 0.379916
+        },
+        {
+          "word": "capaz",
+          "start": 18.08825,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 18.394625,
+          "duration": 0.03675
+        },
+        {
+          "word": "gobernar",
+          "start": 18.455875,
+          "duration": 0.416666
+        },
+        {
+          "word": "cientos",
+          "start": 18.897041,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 19.276958,
+          "duration": 0.049
+        },
+        {
+          "word": "contenedores",
+          "start": 19.375,
+          "duration": 0.576
+        },
+        {
+          "word": "conectados",
+          "start": 19.98775,
+          "duration": 0.58825
+        }
+      ]
+    },
+    {
+      "id": "sf4_p03_nodes",
+      "title": "NODOS DE ENTRADA Y SALIDA",
+      "subtitle": "La anatomía de extracción e inserción en contenedores",
+      "badge": "03 // NODOS: INPUT & OUTPUT",
+      "text": "Conectores de red especializados: 1. Nodo de Entrada (Input Node): extrae ítems desde cofres y máquinas. 2. Nodo de Salida (Output Node): inserta ítems en el contenedor de destino. Se colocan junto a los contenedores y viajan por cables o bloques contiguos.",
+      "spoken_text": "Para conectar tus máquinas a la red utilizas dos tipos de nodos especializados. El Nodo de Entrada, o Input Node, extrae materiales desde cofres o máquinas hacia el circuito. El Nodo de Salida, u Output Node, recibe los ítems y los deposita en su destino. Se colocan adyacentes a cualquier contenedor y se comunican a través de cables de red o bloques contiguos.",
+      "action": "explain",
+      "camera": "dynamic",
+      "diagram": "input_output_nodes",
+      "audio_file": "sf4_p03_nodes.mp3",
+      "duration": 21.84,
+      "frames": 670,
+      "words": [
+        {
+          "word": "Para",
+          "start": 0.099,
+          "duration": 0.183833
+        },
+        {
+          "word": "conectar",
+          "start": 0.344125,
+          "duration": 0.343125
+        },
+        {
+          "word": "tus",
+          "start": 0.760791,
+          "duration": 0.110291
+        },
+        {
+          "word": "máquinas",
+          "start": 0.907833,
+          "duration": 0.416666
+        },
+        {
+          "word": "a",
+          "start": 1.3245,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 1.398041,
+          "duration": 0.098041
+        },
+        {
+          "word": "red",
+          "start": 1.520583,
+          "duration": 0.159333
+        },
+        {
+          "word": "utilizas",
+          "start": 1.704416,
+          "duration": 0.453416
+        },
+        {
+          "word": "dos",
+          "start": 2.219125,
+          "duration": 0.122541
+        },
+        {
+          "word": "tipos",
+          "start": 2.415208,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 2.709333,
+          "duration": 0.073541
+        },
+        {
+          "word": "nodos",
+          "start": 2.807333,
+          "duration": 0.294125
+        },
+        {
+          "word": "especializados",
+          "start": 3.101458,
+          "duration": 0.882333
+        },
+        {
+          "word": "El",
+          "start": 4.889708,
+          "duration": 0.183833
+        },
+        {
+          "word": "Nodo",
+          "start": 5.073541,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 5.330875,
+          "duration": 0.061291
+        },
+        {
+          "word": "Entrada",
+          "start": 5.392166,
+          "duration": 0.441166
+        },
+        {
+          "word": "o",
+          "start": 6.053916,
+          "duration": 0.085791
+        },
+        {
+          "word": "Input",
+          "start": 6.176458,
+          "duration": 0.257333
+        },
+        {
+          "word": "Node",
+          "start": 6.470583,
+          "duration": 0.294125
+        },
+        {
+          "word": "extrae",
+          "start": 6.997541,
+          "duration": 0.355375
+        },
+        {
+          "word": "materiales",
+          "start": 7.389708,
+          "duration": 0.514708
+        },
+        {
+          "word": "desde",
+          "start": 7.953416,
+          "duration": 0.196083
+        },
+        {
+          "word": "cofres",
+          "start": 8.223041,
+          "duration": 0.367625
+        },
+        {
+          "word": "o",
+          "start": 8.590666,
+          "duration": 0.049
+        },
+        {
+          "word": "máquinas",
+          "start": 8.664208,
+          "duration": 0.465666
+        },
+        {
+          "word": "hacia",
+          "start": 9.129916,
+          "duration": 0.196083
+        },
+        {
+          "word": "el",
+          "start": 9.3505,
+          "duration": 0.073541
+        },
+        {
+          "word": "circuito",
+          "start": 9.436291,
+          "duration": 0.477958
+        },
+        {
+          "word": "El",
+          "start": 10.772041,
+          "duration": 0.171583
+        },
+        {
+          "word": "Nodo",
+          "start": 10.943625,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 11.188708,
+          "duration": 0.085791
+        },
+        {
+          "word": "Salida",
+          "start": 11.28675,
+          "duration": 0.428916
+        },
+        {
+          "word": "u",
+          "start": 11.936291,
+          "duration": 0.098041
+        },
+        {
+          "word": "Output",
+          "start": 12.046583,
+          "duration": 0.281875
+        },
+        {
+          "word": "Node",
+          "start": 12.365208,
+          "duration": 0.306375
+        },
+        {
+          "word": "recibe",
+          "start": 12.941166,
+          "duration": 0.343125
+        },
+        {
+          "word": "los",
+          "start": 13.308833,
+          "duration": 0.159333
+        },
+        {
+          "word": "ítems",
+          "start": 13.480375,
+          "duration": 0.330875
+        },
+        {
+          "word": "y",
+          "start": 13.823541,
+          "duration": 0.0245
+        },
+        {
+          "word": "los",
+          "start": 13.872541,
+          "duration": 0.098041
+        },
+        {
+          "word": "deposita",
+          "start": 14.007333,
+          "duration": 0.477958
+        },
+        {
+          "word": "en",
+          "start": 14.485291,
+          "duration": 0.061291
+        },
+        {
+          "word": "su",
+          "start": 14.558833,
+          "duration": 0.073541
+        },
+        {
+          "word": "destino",
+          "start": 14.669125,
+          "duration": 0.441166
+        },
+        {
+          "word": "Se",
+          "start": 15.980375,
+          "duration": 0.147041
+        },
+        {
+          "word": "colocan",
+          "start": 16.176458,
+          "duration": 0.330875
+        },
+        {
+          "word": "adyacentes",
+          "start": 16.507333,
+          "duration": 0.563708
+        },
+        {
+          "word": "a",
+          "start": 17.071083,
+          "duration": 0.03675
+        },
+        {
+          "word": "cualquier",
+          "start": 17.169125,
+          "duration": 0.318625
+        },
+        {
+          "word": "contenedor",
+          "start": 17.53675,
+          "duration": 0.514708
+        },
+        {
+          "word": "y",
+          "start": 18.063708,
+          "duration": 0.049
+        },
+        {
+          "word": "se",
+          "start": 18.13725,
+          "duration": 0.098041
+        },
+        {
+          "word": "comunican",
+          "start": 18.284333,
+          "duration": 0.465666
+        },
+        {
+          "word": "a",
+          "start": 18.75,
+          "duration": 0.061291
+        },
+        {
+          "word": "través",
+          "start": 18.860291,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 19.166666,
+          "duration": 0.049
+        },
+        {
+          "word": "cables",
+          "start": 19.301458,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 19.632333,
+          "duration": 0.085791
+        },
+        {
+          "word": "red",
+          "start": 19.754916,
+          "duration": 0.183833
+        },
+        {
+          "word": "o",
+          "start": 19.951,
+          "duration": 0.049
+        },
+        {
+          "word": "bloques",
+          "start": 20.03675,
+          "duration": 0.330875
+        },
+        {
+          "word": "contiguos",
+          "start": 20.404416,
+          "duration": 0.526958
+        }
+      ]
+    },
+    {
+      "id": "sf4_p04_channels",
+      "title": "CANALES DE FRECUENCIA (1 AL 16)",
+      "subtitle": "Aislamiento de tráfico para evitar contaminación de materiales",
+      "badge": "04 // CANALES: AISLAMIENTO DE TRÁFICO",
+      "text": "Para que los materiales no se mezclen, cuentas con 16 canales de frecuencia. Al interactuar con cada nodo seleccionas un canal del 1 al 16. Los nodos del Canal 1 (Azul) solo interactúan con receptores del Canal 1.",
+      "spoken_text": "Imagina que tus generadores de lava necesitan carbón, pero tus fundidores necesitan polvo de hierro. Para evitar que los ítems se mezclen en los mismos cofres, el sistema cuenta con dieciséis canales de frecuencia. Al hacer clic derecho en un nodo, asignas un color o canal del uno al dieciséis. Los nodos del canal azul jamás enviarán materiales a un receptor configurado en canal rojo.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "frequency_channels",
+      "audio_file": "sf4_p04_channels.mp3",
+      "duration": 22.056,
+      "frames": 676,
+      "words": [
+        {
+          "word": "Imagina",
+          "start": 0.099,
+          "duration": 0.441166
+        },
+        {
+          "word": "que",
+          "start": 0.589208,
+          "duration": 0.061291
+        },
+        {
+          "word": "tus",
+          "start": 0.71175,
+          "duration": 0.122541
+        },
+        {
+          "word": "generadores",
+          "start": 0.858833,
+          "duration": 0.551458
+        },
+        {
+          "word": "de",
+          "start": 1.434791,
+          "duration": 0.061291
+        },
+        {
+          "word": "lava",
+          "start": 1.532833,
+          "duration": 0.183833
+        },
+        {
+          "word": "necesitan",
+          "start": 1.753416,
+          "duration": 0.514708
+        },
+        {
+          "word": "carbón",
+          "start": 2.268125,
+          "duration": 0.343125
+        },
+        {
+          "word": "pero",
+          "start": 2.868625,
+          "duration": 0.122541
+        },
+        {
+          "word": "tus",
+          "start": 3.040208,
+          "duration": 0.110291
+        },
+        {
+          "word": "fundidores",
+          "start": 3.175,
+          "duration": 0.465666
+        },
+        {
+          "word": "necesitan",
+          "start": 3.665208,
+          "duration": 0.58825
+        },
+        {
+          "word": "polvo",
+          "start": 4.290208,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 4.572041,
+          "duration": 0.061291
+        },
+        {
+          "word": "hierro",
+          "start": 4.682333,
+          "duration": 0.294125
+        },
+        {
+          "word": "Para",
+          "start": 5.845583,
+          "duration": 0.183833
+        },
+        {
+          "word": "evitar",
+          "start": 6.066166,
+          "duration": 0.269625
+        },
+        {
+          "word": "que",
+          "start": 6.384791,
+          "duration": 0.061291
+        },
+        {
+          "word": "los",
+          "start": 6.470583,
+          "duration": 0.159333
+        },
+        {
+          "word": "ítems",
+          "start": 6.629916,
+          "duration": 0.269583
+        },
+        {
+          "word": "se",
+          "start": 6.8995,
+          "duration": 0.110291
+        },
+        {
+          "word": "mezclen",
+          "start": 7.034333,
+          "duration": 0.330875
+        },
+        {
+          "word": "en",
+          "start": 7.365208,
+          "duration": 0.073541
+        },
+        {
+          "word": "los",
+          "start": 7.46325,
+          "duration": 0.098041
+        },
+        {
+          "word": "mismos",
+          "start": 7.598041,
+          "duration": 0.269625
+        },
+        {
+          "word": "cofres",
+          "start": 7.916666,
+          "duration": 0.343125
+        },
+        {
+          "word": "el",
+          "start": 8.443625,
+          "duration": 0.122541
+        },
+        {
+          "word": "sistema",
+          "start": 8.566166,
+          "duration": 0.379916
+        },
+        {
+          "word": "cuenta",
+          "start": 9.019625,
+          "duration": 0.220583
+        },
+        {
+          "word": "con",
+          "start": 9.289208,
+          "duration": 0.110291
+        },
+        {
+          "word": "dieciséis",
+          "start": 9.448541,
+          "duration": 0.428916
+        },
+        {
+          "word": "canales",
+          "start": 9.938708,
+          "duration": 0.355375
+        },
+        {
+          "word": "de",
+          "start": 10.330875,
+          "duration": 0.061291
+        },
+        {
+          "word": "frecuencia",
+          "start": 10.428916,
+          "duration": 0.526958
+        },
+        {
+          "word": "Al",
+          "start": 11.826,
+          "duration": 0.159291
+        },
+        {
+          "word": "hacer",
+          "start": 11.985291,
+          "duration": 0.257333
+        },
+        {
+          "word": "clic",
+          "start": 12.316166,
+          "duration": 0.159333
+        },
+        {
+          "word": "derecho",
+          "start": 12.5245,
+          "duration": 0.318625
+        },
+        {
+          "word": "en",
+          "start": 12.843125,
+          "duration": 0.073541
+        },
+        {
+          "word": "un",
+          "start": 12.928916,
+          "duration": 0.110291
+        },
+        {
+          "word": "nodo",
+          "start": 13.039208,
+          "duration": 0.294125
+        },
+        {
+          "word": "asignas",
+          "start": 13.553916,
+          "duration": 0.465666
+        },
+        {
+          "word": "un",
+          "start": 14.044125,
+          "duration": 0.122541
+        },
+        {
+          "word": "color",
+          "start": 14.178916,
+          "duration": 0.257333
+        },
+        {
+          "word": "o",
+          "start": 14.436291,
+          "duration": 0.049
+        },
+        {
+          "word": "canal",
+          "start": 14.546583,
+          "duration": 0.269625
+        },
+        {
+          "word": "del",
+          "start": 14.852958,
+          "duration": 0.098041
+        },
+        {
+          "word": "uno",
+          "start": 14.9755,
+          "duration": 0.183833
+        },
+        {
+          "word": "al",
+          "start": 15.159333,
+          "duration": 0.085791
+        },
+        {
+          "word": "dieciséis",
+          "start": 15.269625,
+          "duration": 0.539208
+        },
+        {
+          "word": "Los",
+          "start": 16.703416,
+          "duration": 0.208333
+        },
+        {
+          "word": "nodos",
+          "start": 16.924,
+          "duration": 0.257333
+        },
+        {
+          "word": "del",
+          "start": 17.205875,
+          "duration": 0.098041
+        },
+        {
+          "word": "canal",
+          "start": 17.340666,
+          "duration": 0.257333
+        },
+        {
+          "word": "azul",
+          "start": 17.598041,
+          "duration": 0.245083
+        },
+        {
+          "word": "jamás",
+          "start": 17.867666,
+          "duration": 0.330875
+        },
+        {
+          "word": "enviarán",
+          "start": 18.198541,
+          "duration": 0.392166
+        },
+        {
+          "word": "materiales",
+          "start": 18.639708,
+          "duration": 0.563708
+        },
+        {
+          "word": "a",
+          "start": 19.203416,
+          "duration": 0.049
+        },
+        {
+          "word": "un",
+          "start": 19.276958,
+          "duration": 0.134791
+        },
+        {
+          "word": "receptor",
+          "start": 19.41175,
+          "duration": 0.392166
+        },
+        {
+          "word": "configurado",
+          "start": 19.852958,
+          "duration": 0.563708
+        },
+        {
+          "word": "en",
+          "start": 20.416666,
+          "duration": 0.134791
+        },
+        {
+          "word": "canal",
+          "start": 20.551458,
+          "duration": 0.257333
+        },
+        {
+          "word": "rojo",
+          "start": 20.821083,
+          "duration": 0.343125
+        }
+      ]
+    },
+    {
+      "id": "sf4_p05_filters",
+      "title": "FILTROS AVANZADOS Y ROUND-ROBIN",
+      "subtitle": "Whitelists, blacklists y balanceo equitativo de carga",
+      "badge": "05 // FILTROS: DISTRIBUCIÓN EQUITATIVA",
+      "text": "Filtros avanzados en cada nodo: 1. Listas Blancas (Whitelist) y Negras (Blacklist) para controlar cada ítem. 2. Modo Round-Robin: balancea recursos equitativamente entre múltiples hornos.",
+      "spoken_text": "Cada nodo de transporte permite configurar filtros avanzados mediante listas blancas o listas negras. Puedes especificar exactamente qué lingotes o polvos transferir y en qué cantidades. Además, el modo Round-Robin distribuye los ítems equitativamente entre múltiples destinos, permitiéndote abastecer una batería de ocho hornos eléctricos en paralelo sin saturar el primero.",
+      "action": "explain",
+      "camera": "dynamic",
+      "diagram": "filters_roundrobin",
+      "audio_file": "sf4_p05_filters.mp3",
+      "duration": 21.288,
+      "frames": 653,
+      "words": [
+        {
+          "word": "Cada",
+          "start": 0.099,
+          "duration": 0.208333
+        },
+        {
+          "word": "nodo",
+          "start": 0.331875,
+          "duration": 0.208333
+        },
+        {
+          "word": "de",
+          "start": 0.564708,
+          "duration": 0.073541
+        },
+        {
+          "word": "transporte",
+          "start": 0.68725,
+          "duration": 0.465666
+        },
+        {
+          "word": "permite",
+          "start": 1.226458,
+          "duration": 0.330875
+        },
+        {
+          "word": "configurar",
+          "start": 1.606375,
+          "duration": 0.490208
+        },
+        {
+          "word": "filtros",
+          "start": 2.121083,
+          "duration": 0.404416
+        },
+        {
+          "word": "avanzados",
+          "start": 2.5255,
+          "duration": 0.514708
+        },
+        {
+          "word": "mediante",
+          "start": 3.076958,
+          "duration": 0.355375
+        },
+        {
+          "word": "listas",
+          "start": 3.456875,
+          "duration": 0.318625
+        },
+        {
+          "word": "blancas",
+          "start": 3.81225,
+          "duration": 0.404416
+        },
+        {
+          "word": "o",
+          "start": 4.216666,
+          "duration": 0.049
+        },
+        {
+          "word": "listas",
+          "start": 4.277958,
+          "duration": 0.330875
+        },
+        {
+          "word": "negras",
+          "start": 4.633333,
+          "duration": 0.416666
+        },
+        {
+          "word": "Puedes",
+          "start": 5.955875,
+          "duration": 0.281875
+        },
+        {
+          "word": "especificar",
+          "start": 6.23775,
+          "duration": 0.551458
+        },
+        {
+          "word": "exactamente",
+          "start": 6.789208,
+          "duration": 0.625
+        },
+        {
+          "word": "qué",
+          "start": 7.4755,
+          "duration": 0.061291
+        },
+        {
+          "word": "lingotes",
+          "start": 7.561291,
+          "duration": 0.477916
+        },
+        {
+          "word": "o",
+          "start": 8.039208,
+          "duration": 0.03675
+        },
+        {
+          "word": "polvos",
+          "start": 8.16175,
+          "duration": 0.281875
+        },
+        {
+          "word": "transferir",
+          "start": 8.492666,
+          "duration": 0.477958
+        },
+        {
+          "word": "y",
+          "start": 8.982833,
+          "duration": 0.061291
+        },
+        {
+          "word": "en",
+          "start": 9.044125,
+          "duration": 0.134791
+        },
+        {
+          "word": "qué",
+          "start": 9.178916,
+          "duration": 0.061291
+        },
+        {
+          "word": "cantidades",
+          "start": 9.289208,
+          "duration": 0.674
+        },
+        {
+          "word": "Además",
+          "start": 10.857833,
+          "duration": 0.453416
+        },
+        {
+          "word": "el",
+          "start": 11.568625,
+          "duration": 0.122541
+        },
+        {
+          "word": "modo",
+          "start": 11.715666,
+          "duration": 0.245083
+        },
+        {
+          "word": "Round-Robin",
+          "start": 11.985291,
+          "duration": 0.490208
+        },
+        {
+          "word": "distribuye",
+          "start": 12.51225,
+          "duration": 0.453416
+        },
+        {
+          "word": "los",
+          "start": 12.990208,
+          "duration": 0.171583
+        },
+        {
+          "word": "ítems",
+          "start": 13.174,
+          "duration": 0.294125
+        },
+        {
+          "word": "equitativamente",
+          "start": 13.468125,
+          "duration": 0.808833
+        },
+        {
+          "word": "entre",
+          "start": 14.276958,
+          "duration": 0.208333
+        },
+        {
+          "word": "múltiples",
+          "start": 14.522041,
+          "duration": 0.404416
+        },
+        {
+          "word": "destinos",
+          "start": 14.96325,
+          "duration": 0.465666
+        },
+        {
+          "word": "permitiéndote",
+          "start": 15.723041,
+          "duration": 0.58825
+        },
+        {
+          "word": "abastecer",
+          "start": 16.311291,
+          "duration": 0.477958
+        },
+        {
+          "word": "una",
+          "start": 16.801458,
+          "duration": 0.134791
+        },
+        {
+          "word": "batería",
+          "start": 16.960791,
+          "duration": 0.428916
+        },
+        {
+          "word": "de",
+          "start": 17.414208,
+          "duration": 0.085791
+        },
+        {
+          "word": "ocho",
+          "start": 17.53675,
+          "duration": 0.257333
+        },
+        {
+          "word": "hornos",
+          "start": 17.806375,
+          "duration": 0.294125
+        },
+        {
+          "word": "eléctricos",
+          "start": 18.1005,
+          "duration": 0.575958
+        },
+        {
+          "word": "en",
+          "start": 18.676458,
+          "duration": 0.122541
+        },
+        {
+          "word": "paralelo",
+          "start": 18.823541,
+          "duration": 0.428916
+        },
+        {
+          "word": "sin",
+          "start": 19.276958,
+          "duration": 0.183833
+        },
+        {
+          "word": "saturar",
+          "start": 19.473041,
+          "duration": 0.392166
+        },
+        {
+          "word": "el",
+          "start": 19.865208,
+          "duration": 0.085791
+        },
+        {
+          "word": "primero",
+          "start": 20.01225,
+          "duration": 0.379916
+        }
+      ]
+    },
+    {
+      "id": "sf4_p06_autocrafting",
+      "title": "AUTOMATIZACIÓN DE CRAFTEO Y LOGÍSTICA",
+      "subtitle": "Llegando a la autonomía total de procesamiento de menas",
+      "badge": "06 // PIPELINE COMPLETO: CERO INTERVENCIÓN",
+      "text": "El pipeline de autonomía total: Menas crudas ingresan al cofre -> Triturador eléctrico (2x polvos) -> Nodos de Cargo por canal específico -> Fundidores -> Almacén clasificado.",
+      "spoken_text": "Al combinar el triturador de minerales, el lavador y los fundidores con Cargo Management, logras el sueño de todo ingeniero: minas crudas ingresan por un cofre inicial, se duplican automáticamente en polvos, viajan por canal específico al fundidor, y se depositan convertidas en lingotes de acero o bronce en tu almacén central sin tocar un solo botón.",
+      "action": "interact",
+      "camera": "normal",
+      "diagram": "full_pipeline",
+      "audio_file": "sf4_p06_autocrafting.mp3",
+      "duration": 18.84,
+      "frames": 580,
+      "words": [
+        {
+          "word": "Al",
+          "start": 0.099,
+          "duration": 0.122541
+        },
+        {
+          "word": "combinar",
+          "start": 0.282833,
+          "duration": 0.343125
+        },
+        {
+          "word": "el",
+          "start": 0.626,
+          "duration": 0.110291
+        },
+        {
+          "word": "triturador",
+          "start": 0.760791,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 1.2755,
+          "duration": 0.061291
+        },
+        {
+          "word": "minerales",
+          "start": 1.373541,
+          "duration": 0.551458
+        },
+        {
+          "word": "el",
+          "start": 2.157833,
+          "duration": 0.085791
+        },
+        {
+          "word": "lavador",
+          "start": 2.243625,
+          "duration": 0.355375
+        },
+        {
+          "word": "y",
+          "start": 2.611291,
+          "duration": 0.03675
+        },
+        {
+          "word": "los",
+          "start": 2.684791,
+          "duration": 0.110291
+        },
+        {
+          "word": "fundidores",
+          "start": 2.819625,
+          "duration": 0.465666
+        },
+        {
+          "word": "con",
+          "start": 3.322041,
+          "duration": 0.196083
+        },
+        {
+          "word": "Cargo",
+          "start": 3.530375,
+          "duration": 0.257333
+        },
+        {
+          "word": "Management",
+          "start": 3.81225,
+          "duration": 0.514708
+        },
+        {
+          "word": "logras",
+          "start": 4.559791,
+          "duration": 0.355375
+        },
+        {
+          "word": "el",
+          "start": 4.915208,
+          "duration": 0.085791
+        },
+        {
+          "word": "sueño",
+          "start": 5.0255,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 5.319625,
+          "duration": 0.085791
+        },
+        {
+          "word": "todo",
+          "start": 5.515666,
+          "duration": 0.159333
+        },
+        {
+          "word": "ingeniero",
+          "start": 5.6995,
+          "duration": 0.514708
+        },
+        {
+          "word": "minas",
+          "start": 6.422541,
+          "duration": 0.269625
+        },
+        {
+          "word": "crudas",
+          "start": 6.753416,
+          "duration": 0.318625
+        },
+        {
+          "word": "ingresan",
+          "start": 7.084333,
+          "duration": 0.441166
+        },
+        {
+          "word": "por",
+          "start": 7.55,
+          "duration": 0.110291
+        },
+        {
+          "word": "un",
+          "start": 7.672541,
+          "duration": 0.171583
+        },
+        {
+          "word": "cofre",
+          "start": 7.856375,
+          "duration": 0.220583
+        },
+        {
+          "word": "inicial",
+          "start": 8.13825,
+          "duration": 0.453416
+        },
+        {
+          "word": "se",
+          "start": 8.8,
+          "duration": 0.122541
+        },
+        {
+          "word": "duplican",
+          "start": 8.959333,
+          "duration": 0.392125
+        },
+        {
+          "word": "automáticamente",
+          "start": 9.351458,
+          "duration": 0.845583
+        },
+        {
+          "word": "en",
+          "start": 10.209333,
+          "duration": 0.134791
+        },
+        {
+          "word": "polvos",
+          "start": 10.356375,
+          "duration": 0.355375
+        },
+        {
+          "word": "viajan",
+          "start": 10.969125,
+          "duration": 0.367666
+        },
+        {
+          "word": "por",
+          "start": 11.349,
+          "duration": 0.098041
+        },
+        {
+          "word": "canal",
+          "start": 11.496083,
+          "duration": 0.232833
+        },
+        {
+          "word": "específico",
+          "start": 11.728916,
+          "duration": 0.6005
+        },
+        {
+          "word": "al",
+          "start": 12.329416,
+          "duration": 0.085791
+        },
+        {
+          "word": "fundidor",
+          "start": 12.439708,
+          "duration": 0.441166
+        },
+        {
+          "word": "y",
+          "start": 13.13825,
+          "duration": 0.073541
+        },
+        {
+          "word": "se",
+          "start": 13.248541,
+          "duration": 0.098041
+        },
+        {
+          "word": "depositan",
+          "start": 13.383333,
+          "duration": 0.551458
+        },
+        {
+          "word": "convertidas",
+          "start": 13.934791,
+          "duration": 0.563708
+        },
+        {
+          "word": "en",
+          "start": 14.498541,
+          "duration": 0.061291
+        },
+        {
+          "word": "lingotes",
+          "start": 14.596583,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 15.0255,
+          "duration": 0.03675
+        },
+        {
+          "word": "acero",
+          "start": 15.06225,
+          "duration": 0.343125
+        },
+        {
+          "word": "o",
+          "start": 15.417666,
+          "duration": 0.03675
+        },
+        {
+          "word": "bronce",
+          "start": 15.503416,
+          "duration": 0.306375
+        },
+        {
+          "word": "en",
+          "start": 15.809791,
+          "duration": 0.110291
+        },
+        {
+          "word": "tu",
+          "start": 15.920083,
+          "duration": 0.03675
+        },
+        {
+          "word": "almacén",
+          "start": 15.956875,
+          "duration": 0.392166
+        },
+        {
+          "word": "central",
+          "start": 16.361291,
+          "duration": 0.404416
+        },
+        {
+          "word": "sin",
+          "start": 16.777958,
+          "duration": 0.208333
+        },
+        {
+          "word": "tocar",
+          "start": 16.998541,
+          "duration": 0.245083
+        },
+        {
+          "word": "un",
+          "start": 17.255875,
+          "duration": 0.110291
+        },
+        {
+          "word": "solo",
+          "start": 17.378416,
+          "duration": 0.220583
+        },
+        {
+          "word": "botón",
+          "start": 17.623541,
+          "duration": 0.343125
+        }
+      ]
+    },
+    {
+      "id": "sf4_p07_sre_rules",
+      "title": "REGLAS DE ORO SRE CONTRA EL LAG",
+      "subtitle": "Prevención de bucles infinitos y saturación de grafos",
+      "badge": "07 // SRE PROTOCOL: EVITANDO BUCLES",
+      "text": "Reglas de Oro de estabilidad en DrakesCraft: 1. Cero bucles cerrados: jamás enlaces dos cofres que se extraigan mutuamente. 2. Flujo unidireccional estricto: Origen -> Proceso -> Destino final. 3. Mantén los canales segregados por función para proteger los 20.0 TPS.",
+      "spoken_text": "La regla número uno en DrakesCraft para sistemas de carga: nunca configures dos nodos en bucle cerrado. Si un cofre A envía al cofre B y el B reenvía al A en el mismo canal sin filtro de parada, generarás millones de lecturas de inventario en pocos segundos. Diseña siempre flujos unidireccionales con un origen claro y un destino final delimitado.",
+      "action": "explain",
+      "camera": "close",
+      "diagram": "sre_loop_prevention",
+      "audio_file": "sf4_p07_sre_rules.mp3",
+      "duration": 20.04,
+      "frames": 616,
+      "words": [
+        {
+          "word": "La",
+          "start": 0.099,
+          "duration": 0.159333
+        },
+        {
+          "word": "regla",
+          "start": 0.282833,
+          "duration": 0.257333
+        },
+        {
+          "word": "número",
+          "start": 0.564708,
+          "duration": 0.306375
+        },
+        {
+          "word": "uno",
+          "start": 0.895583,
+          "duration": 0.134791
+        },
+        {
+          "word": "en",
+          "start": 1.030375,
+          "duration": 0.073541
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 1.152958,
+          "duration": 0.576
+        },
+        {
+          "word": "para",
+          "start": 1.802458,
+          "duration": 0.147041
+        },
+        {
+          "word": "sistemas",
+          "start": 1.96175,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 2.415208,
+          "duration": 0.049
+        },
+        {
+          "word": "carga",
+          "start": 2.53775,
+          "duration": 0.330875
+        },
+        {
+          "word": "nunca",
+          "start": 3.113708,
+          "duration": 0.281875
+        },
+        {
+          "word": "configures",
+          "start": 3.444625,
+          "duration": 0.526958
+        },
+        {
+          "word": "dos",
+          "start": 4.020583,
+          "duration": 0.159333
+        },
+        {
+          "word": "nodos",
+          "start": 4.204416,
+          "duration": 0.330875
+        },
+        {
+          "word": "en",
+          "start": 4.535291,
+          "duration": 0.085791
+        },
+        {
+          "word": "bucle",
+          "start": 4.682333,
+          "duration": 0.245083
+        },
+        {
+          "word": "cerrado",
+          "start": 4.939708,
+          "duration": 0.453416
+        },
+        {
+          "word": "Si",
+          "start": 6.28675,
+          "duration": 0.171583
+        },
+        {
+          "word": "un",
+          "start": 6.482833,
+          "duration": 0.134791
+        },
+        {
+          "word": "cofre",
+          "start": 6.629916,
+          "duration": 0.232833
+        },
+        {
+          "word": "A",
+          "start": 6.86275,
+          "duration": 0.049
+        },
+        {
+          "word": "envía",
+          "start": 6.91175,
+          "duration": 0.318625
+        },
+        {
+          "word": "al",
+          "start": 7.230375,
+          "duration": 0.073541
+        },
+        {
+          "word": "cofre",
+          "start": 7.377458,
+          "duration": 0.269625
+        },
+        {
+          "word": "B",
+          "start": 7.671583,
+          "duration": 0.110291
+        },
+        {
+          "word": "y",
+          "start": 7.794125,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 7.867666,
+          "duration": 0.098041
+        },
+        {
+          "word": "B",
+          "start": 8.002458,
+          "duration": 0.110291
+        },
+        {
+          "word": "reenvía",
+          "start": 8.125,
+          "duration": 0.428916
+        },
+        {
+          "word": "al",
+          "start": 8.566166,
+          "duration": 0.110291
+        },
+        {
+          "word": "A",
+          "start": 8.676458,
+          "duration": 0.073541
+        },
+        {
+          "word": "en",
+          "start": 8.76225,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 8.835791,
+          "duration": 0.098041
+        },
+        {
+          "word": "mismo",
+          "start": 8.970583,
+          "duration": 0.245083
+        },
+        {
+          "word": "canal",
+          "start": 9.264708,
+          "duration": 0.269625
+        },
+        {
+          "word": "sin",
+          "start": 9.546583,
+          "duration": 0.220583
+        },
+        {
+          "word": "filtro",
+          "start": 9.767166,
+          "duration": 0.306375
+        },
+        {
+          "word": "de",
+          "start": 10.110291,
+          "duration": 0.061291
+        },
+        {
+          "word": "parada",
+          "start": 10.232833,
+          "duration": 0.379916
+        },
+        {
+          "word": "generarás",
+          "start": 10.833333,
+          "duration": 0.490208
+        },
+        {
+          "word": "millones",
+          "start": 11.348041,
+          "duration": 0.330875
+        },
+        {
+          "word": "de",
+          "start": 11.727958,
+          "duration": 0.049
+        },
+        {
+          "word": "lecturas",
+          "start": 11.813708,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 12.254916,
+          "duration": 0.03675
+        },
+        {
+          "word": "inventario",
+          "start": 12.316166,
+          "duration": 0.539208
+        },
+        {
+          "word": "en",
+          "start": 12.867666,
+          "duration": 0.122541
+        },
+        {
+          "word": "pocos",
+          "start": 13.014708,
+          "duration": 0.232833
+        },
+        {
+          "word": "segundos",
+          "start": 13.247541,
+          "duration": 0.502458
+        },
+        {
+          "word": "Diseña",
+          "start": 14.656875,
+          "duration": 0.428916
+        },
+        {
+          "word": "siempre",
+          "start": 15.098041,
+          "duration": 0.318625
+        },
+        {
+          "word": "flujos",
+          "start": 15.453416,
+          "duration": 0.355375
+        },
+        {
+          "word": "unidireccionales",
+          "start": 15.821083,
+          "duration": 0.784333
+        },
+        {
+          "word": "con",
+          "start": 16.666666,
+          "duration": 0.134791
+        },
+        {
+          "word": "un",
+          "start": 16.813708,
+          "duration": 0.122541
+        },
+        {
+          "word": "origen",
+          "start": 16.936291,
+          "duration": 0.404375
+        },
+        {
+          "word": "claro",
+          "start": 17.340666,
+          "duration": 0.269625
+        },
+        {
+          "word": "y",
+          "start": 17.659333,
+          "duration": 0.049
+        },
+        {
+          "word": "un",
+          "start": 17.732833,
+          "duration": 0.098041
+        },
+        {
+          "word": "destino",
+          "start": 17.867666,
+          "duration": 0.343125
+        },
+        {
+          "word": "final",
+          "start": 18.235291,
+          "duration": 0.294125
+        },
+        {
+          "word": "delimitado",
+          "start": 18.566166,
+          "duration": 0.58825
+        }
+      ]
+    },
+    {
+      "id": "sf4_p08_conclusion",
+      "title": "CONCLUSIÓN DE LA MASTERCLASS",
+      "subtitle": "Tu base industrial está lista para dominar Slimefun",
+      "badge": "08 // DRAKES PROTOCOL: DOMINIO TOTAL",
+      "text": "¡Dominio total de los 4 pilares de Slimefun! 1. Multibloques base // 2. EnergyNet // 3. Metalurgia // 4. Cargo Logistics. Tu factoría opera a máxima velocidad y cero impacto en el rendimiento. ¡Únete ya en play.drakescraft.cl:25565!",
+      "spoken_text": "Con la logística de Cargo completada, has dominado los cuatro pilares fundamentales de Slimefun: multibloques iniciales, red eléctrica EnergyNet, metalurgia avanzada y transporte automatizado. Tu base ahora opera con la máxima eficiencia de recursos y cero impacto en el rendimiento del servidor. Construye tu imperio industrial hoy mismo en play punto drakescraft punto ce ele.",
+      "action": "idle",
+      "camera": "close",
+      "diagram": "final_summary",
+      "audio_file": "sf4_p08_conclusion.mp3",
+      "duration": 21.384,
+      "frames": 656,
+      "words": [
+        {
+          "word": "Con",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "la",
+          "start": 0.258333,
+          "duration": 0.073541
+        },
+        {
+          "word": "logística",
+          "start": 0.356375,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 0.907833,
+          "duration": 0.061291
+        },
+        {
+          "word": "Cargo",
+          "start": 1.042666,
+          "duration": 0.245083
+        },
+        {
+          "word": "completada",
+          "start": 1.31225,
+          "duration": 0.563708
+        },
+        {
+          "word": "has",
+          "start": 2.096583,
+          "duration": 0.110291
+        },
+        {
+          "word": "dominado",
+          "start": 2.243625,
+          "duration": 0.404416
+        },
+        {
+          "word": "los",
+          "start": 2.672541,
+          "duration": 0.122541
+        },
+        {
+          "word": "cuatro",
+          "start": 2.831875,
+          "duration": 0.208333
+        },
+        {
+          "word": "pilares",
+          "start": 3.101458,
+          "duration": 0.343125
+        },
+        {
+          "word": "fundamentales",
+          "start": 3.469125,
+          "duration": 0.6495
+        },
+        {
+          "word": "de",
+          "start": 4.167666,
+          "duration": 0.03675
+        },
+        {
+          "word": "Slimefun",
+          "start": 4.265666,
+          "duration": 0.539208
+        },
+        {
+          "word": "multibloques",
+          "start": 4.988708,
+          "duration": 0.6005
+        },
+        {
+          "word": "iniciales",
+          "start": 5.601458,
+          "duration": 0.539208
+        },
+        {
+          "word": "red",
+          "start": 6.361291,
+          "duration": 0.183833
+        },
+        {
+          "word": "eléctrica",
+          "start": 6.557333,
+          "duration": 0.477958
+        },
+        {
+          "word": "EnergyNet",
+          "start": 7.047541,
+          "duration": 0.490208
+        },
+        {
+          "word": "metalurgia",
+          "start": 7.770583,
+          "duration": 0.576
+        },
+        {
+          "word": "avanzada",
+          "start": 8.358833,
+          "duration": 0.453416
+        },
+        {
+          "word": "y",
+          "start": 8.849,
+          "duration": 0.01225
+        },
+        {
+          "word": "transporte",
+          "start": 8.934791,
+          "duration": 0.502458
+        },
+        {
+          "word": "automatizado",
+          "start": 9.43725,
+          "duration": 0.698541
+        },
+        {
+          "word": "Tu",
+          "start": 11.017166,
+          "duration": 0.085791
+        },
+        {
+          "word": "base",
+          "start": 11.127458,
+          "duration": 0.220583
+        },
+        {
+          "word": "ahora",
+          "start": 11.348041,
+          "duration": 0.245083
+        },
+        {
+          "word": "opera",
+          "start": 11.617666,
+          "duration": 0.232833
+        },
+        {
+          "word": "con",
+          "start": 11.8995,
+          "duration": 0.098041
+        },
+        {
+          "word": "la",
+          "start": 12.022041,
+          "duration": 0.073541
+        },
+        {
+          "word": "máxima",
+          "start": 12.120083,
+          "duration": 0.343125
+        },
+        {
+          "word": "eficiencia",
+          "start": 12.51225,
+          "duration": 0.477958
+        },
+        {
+          "word": "de",
+          "start": 13.014708,
+          "duration": 0.073541
+        },
+        {
+          "word": "recursos",
+          "start": 13.125,
+          "duration": 0.514708
+        },
+        {
+          "word": "y",
+          "start": 13.664208,
+          "duration": 0.03675
+        },
+        {
+          "word": "cero",
+          "start": 13.73775,
+          "duration": 0.171583
+        },
+        {
+          "word": "impacto",
+          "start": 13.933833,
+          "duration": 0.392166
+        },
+        {
+          "word": "en",
+          "start": 14.326,
+          "duration": 0.061291
+        },
+        {
+          "word": "el",
+          "start": 14.3995,
+          "duration": 0.122541
+        },
+        {
+          "word": "rendimiento",
+          "start": 14.522041,
+          "duration": 0.526958
+        },
+        {
+          "word": "del",
+          "start": 15.085791,
+          "duration": 0.134791
+        },
+        {
+          "word": "servidor",
+          "start": 15.220583,
+          "duration": 0.514708
+        },
+        {
+          "word": "Construye",
+          "start": 16.605375,
+          "duration": 0.465666
+        },
+        {
+          "word": "tu",
+          "start": 17.132333,
+          "duration": 0.049
+        },
+        {
+          "word": "imperio",
+          "start": 17.193625,
+          "duration": 0.306375
+        },
+        {
+          "word": "industrial",
+          "start": 17.5,
+          "duration": 0.490208
+        },
+        {
+          "word": "hoy",
+          "start": 18.002458,
+          "duration": 0.098041
+        },
+        {
+          "word": "mismo",
+          "start": 18.13725,
+          "duration": 0.269625
+        },
+        {
+          "word": "en",
+          "start": 18.431375,
+          "duration": 0.110291
+        },
+        {
+          "word": "play",
+          "start": 18.566166,
+          "duration": 0.122541
+        },
+        {
+          "word": "punto",
+          "start": 18.7745,
+          "duration": 0.245083
+        },
+        {
+          "word": "drakescraft",
+          "start": 19.056375,
+          "duration": 0.551458
+        },
+        {
+          "word": "punto",
+          "start": 19.705875,
+          "duration": 0.269625
+        },
+        {
+          "word": "ce",
+          "start": 20.0,
+          "duration": 0.245083
+        },
+        {
+          "word": "ele",
+          "start": 20.269625,
+          "duration": 0.220583
+        }
+      ]
+    }
+  ]
+}
