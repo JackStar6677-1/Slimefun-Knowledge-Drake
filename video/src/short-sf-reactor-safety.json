@@ -1,0 +1,401 @@
+{
+  "id": "short_sf_reactor_safety",
+  "voice": "es-CL-LorenzoNeural",
+  "duration": 30.432,
+  "frames": 942,
+  "audio_file": "short_sf_reactor_safety.mp3",
+  "text": "¿Cómo Evitar que tu Reactor Explote en Slimefun?\n1. Jamás confíes en una sola línea de refrigerante.\n2. Configura 2 Cargo Nodes con redundancia N+1.\n3. Contenedores separados de varillas criogénicas.\n¡Genera 1,200 J/s seguro en play.drakescraft.cl!",
+  "spoken_text": "¿Quieres generar mil doscientos Joules por segundo con un reactor nuclear en Slimefun sin volar tu base en pedazos? Sigue esta regla de seguridad crítica. Un reactor jamás debe depender de una sola línea de refrigerante. Configura dos Cargo Nodes independientes abasteciendo Varillas Criogénicas desde contenedores separados. Si un contenedor se vacía, la línea secundaria mantendrá la temperatura bajo control mientras Saori te alerta en Discord. Ingeniería a prueba de fallos en play punto drakescraft punto ce ele.",
+  "words": [
+    {
+      "word": "Quieres",
+      "start": 0.099,
+      "duration": 0.269625
+    },
+    {
+      "word": "generar",
+      "start": 0.380875,
+      "duration": 0.318625
+    },
+    {
+      "word": "mil",
+      "start": 0.71175,
+      "duration": 0.171583
+    },
+    {
+      "word": "doscientos",
+      "start": 0.932333,
+      "duration": 0.428916
+    },
+    {
+      "word": "Joules",
+      "start": 1.385791,
+      "duration": 0.318625
+    },
+    {
+      "word": "por",
+      "start": 1.777958,
+      "duration": 0.085791
+    },
+    {
+      "word": "segundo",
+      "start": 1.876,
+      "duration": 0.367666
+    },
+    {
+      "word": "con",
+      "start": 2.304916,
+      "duration": 0.134791
+    },
+    {
+      "word": "un",
+      "start": 2.439708,
+      "duration": 0.134791
+    },
+    {
+      "word": "reactor",
+      "start": 2.5745,
+      "duration": 0.367666
+    },
+    {
+      "word": "nuclear",
+      "start": 2.954416,
+      "duration": 0.343125
+    },
+    {
+      "word": "en",
+      "start": 3.297541,
+      "duration": 0.098041
+    },
+    {
+      "word": "Slimefun",
+      "start": 3.395583,
+      "duration": 0.514708
+    },
+    {
+      "word": "sin",
+      "start": 3.934791,
+      "duration": 0.159333
+    },
+    {
+      "word": "volar",
+      "start": 4.130875,
+      "duration": 0.257333
+    },
+    {
+      "word": "tu",
+      "start": 4.46175,
+      "duration": 0.073541
+    },
+    {
+      "word": "base",
+      "start": 4.572041,
+      "duration": 0.232833
+    },
+    {
+      "word": "en",
+      "start": 4.817166,
+      "duration": 0.098041
+    },
+    {
+      "word": "pedazos",
+      "start": 4.927458,
+      "duration": 0.477958
+    },
+    {
+      "word": "Sigue",
+      "start": 6.28675,
+      "duration": 0.343125
+    },
+    {
+      "word": "esta",
+      "start": 6.654416,
+      "duration": 0.208333
+    },
+    {
+      "word": "regla",
+      "start": 6.88725,
+      "duration": 0.269625
+    },
+    {
+      "word": "de",
+      "start": 7.181375,
+      "duration": 0.073541
+    },
+    {
+      "word": "seguridad",
+      "start": 7.267166,
+      "duration": 0.453416
+    },
+    {
+      "word": "crítica",
+      "start": 7.781875,
+      "duration": 0.428916
+    },
+    {
+      "word": "Un",
+      "start": 9.080875,
+      "duration": 0.159333
+    },
+    {
+      "word": "reactor",
+      "start": 9.240208,
+      "duration": 0.343125
+    },
+    {
+      "word": "jamás",
+      "start": 9.595583,
+      "duration": 0.306375
+    },
+    {
+      "word": "debe",
+      "start": 9.951,
+      "duration": 0.159333
+    },
+    {
+      "word": "depender",
+      "start": 10.147041,
+      "duration": 0.404416
+    },
+    {
+      "word": "de",
+      "start": 10.58825,
+      "duration": 0.098041
+    },
+    {
+      "word": "una",
+      "start": 10.698541,
+      "duration": 0.183791
+    },
+    {
+      "word": "sola",
+      "start": 10.882333,
+      "duration": 0.294125
+    },
+    {
+      "word": "línea",
+      "start": 11.188708,
+      "duration": 0.281875
+    },
+    {
+      "word": "de",
+      "start": 11.495083,
+      "duration": 0.073541
+    },
+    {
+      "word": "refrigerante",
+      "start": 11.605375,
+      "duration": 0.6495
+    },
+    {
+      "word": "Configura",
+      "start": 13.13725,
+      "duration": 0.490208
+    },
+    {
+      "word": "dos",
+      "start": 13.639708,
+      "duration": 0.171583
+    },
+    {
+      "word": "Cargo",
+      "start": 13.860291,
+      "duration": 0.232833
+    },
+    {
+      "word": "Nodes",
+      "start": 14.117666,
+      "duration": 0.281875
+    },
+    {
+      "word": "independientes",
+      "start": 14.41175,
+      "duration": 0.6495
+    },
+    {
+      "word": "abasteciendo",
+      "start": 15.061291,
+      "duration": 0.58825
+    },
+    {
+      "word": "Varillas",
+      "start": 15.686291,
+      "duration": 0.367666
+    },
+    {
+      "word": "Criogénicas",
+      "start": 16.102958,
+      "duration": 0.58825
+    },
+    {
+      "word": "desde",
+      "start": 16.740208,
+      "duration": 0.196083
+    },
+    {
+      "word": "contenedores",
+      "start": 16.985291,
+      "duration": 0.551458
+    },
+    {
+      "word": "separados",
+      "start": 17.53675,
+      "duration": 0.6495
+    },
+    {
+      "word": "Si",
+      "start": 19.093125,
+      "duration": 0.183833
+    },
+    {
+      "word": "un",
+      "start": 19.301458,
+      "duration": 0.122541
+    },
+    {
+      "word": "contenedor",
+      "start": 19.424,
+      "duration": 0.465666
+    },
+    {
+      "word": "se",
+      "start": 19.901958,
+      "duration": 0.098041
+    },
+    {
+      "word": "vacía",
+      "start": 20.0245,
+      "duration": 0.404416
+    },
+    {
+      "word": "la",
+      "start": 20.66175,
+      "duration": 0.122541
+    },
+    {
+      "word": "línea",
+      "start": 20.808833,
+      "duration": 0.245083
+    },
+    {
+      "word": "secundaria",
+      "start": 21.066166,
+      "duration": 0.514708
+    },
+    {
+      "word": "mantendrá",
+      "start": 21.605375,
+      "duration": 0.477958
+    },
+    {
+      "word": "la",
+      "start": 22.083333,
+      "duration": 0.085791
+    },
+    {
+      "word": "temperatura",
+      "start": 22.230375,
+      "duration": 0.539208
+    },
+    {
+      "word": "bajo",
+      "start": 22.794125,
+      "duration": 0.220583
+    },
+    {
+      "word": "control",
+      "start": 23.063708,
+      "duration": 0.355375
+    },
+    {
+      "word": "mientras",
+      "start": 23.455875,
+      "duration": 0.294125
+    },
+    {
+      "word": "Saori",
+      "start": 23.75,
+      "duration": 0.343125
+    },
+    {
+      "word": "te",
+      "start": 24.178916,
+      "duration": 0.049
+    },
+    {
+      "word": "alerta",
+      "start": 24.227958,
+      "duration": 0.392166
+    },
+    {
+      "word": "en",
+      "start": 24.632333,
+      "duration": 0.085791
+    },
+    {
+      "word": "Discord",
+      "start": 24.742666,
+      "duration": 0.404416
+    },
+    {
+      "word": "Ingeniería",
+      "start": 26.017166,
+      "duration": 0.625
+    },
+    {
+      "word": "a",
+      "start": 26.642166,
+      "duration": 0.01225
+    },
+    {
+      "word": "prueba",
+      "start": 26.727958,
+      "duration": 0.245083
+    },
+    {
+      "word": "de",
+      "start": 26.997541,
+      "duration": 0.073541
+    },
+    {
+      "word": "fallos",
+      "start": 27.095583,
+      "duration": 0.367666
+    },
+    {
+      "word": "en",
+      "start": 27.46325,
+      "duration": 0.122541
+    },
+    {
+      "word": "play",
+      "start": 27.610291,
+      "duration": 0.122541
+    },
+    {
+      "word": "punto",
+      "start": 27.818625,
+      "duration": 0.245083
+    },
+    {
+      "word": "drakescraft",
+      "start": 28.08825,
+      "duration": 0.551458
+    },
+    {
+      "word": "punto",
+      "start": 28.73775,
+      "duration": 0.269625
+    },
+    {
+      "word": "ce",
+      "start": 29.031875,
+      "duration": 0.257333
+    },
+    {
+      "word": "ele",
+      "start": 29.313708,
+      "duration": 0.208333
+    }
+  ]
+}

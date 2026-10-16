@@ -1,0 +1,2335 @@
+{
+  "title": "Slimefun en DrakesCraft — Capítulo 6: Mecánica Cuántica, GPS & Teletransportación",
+  "server": "play.drakescraft.cl",
+  "total_frames": 5405,
+  "total_duration": 180.16666666666666,
+  "scenes": [
+    {
+      "id": "sf6_p01_intro",
+      "title": "LA CÚSPIDE TECNOLÓGICA DE SLIMEFUN",
+      "subtitle": "De la fisión nuclear a la manipulación cuántica del espacio",
+      "badge": "01 // ERA CUÁNTICA: EL PINÁCULO",
+      "text": "Bienvenidos al Capítulo 6 de Slimefun en DrakesCraft. Superada la energía nuclear, ingresamos al pináculo: Mecánica Cuántica y GPS. Satélites orbitales, teletransportadores cuánticos y geo-escáneres de recursos. Manipula el hiperespacio y viaja instantáneamente sin comandos.",
+      "spoken_text": "Bienvenidos al Capítulo seis de nuestra guía de Slimefun en DrakesCraft. Has conquistado la energía nuclear y dominas la logística automatizada. Ahora ingresamos a la cúspide tecnológica de todo el plugin: la categoría de Mecánica Cuántica y GPS. Hoy aprenderás a poner satélites en órbita, escanear el subsuelo mediante satélites geoestacionarios y construir redes de teletransportación instantánea para moverte por el mapa en cero segundos.",
+      "audio_file": "sf6_p01_intro.mp3",
+      "duration": 25.416,
+      "frames": 792,
+      "action": "idle",
+      "camera": "close",
+      "diagram": "quantum_intro",
+      "words": [
+        {
+          "word": "Bienvenidos",
+          "start": 0.099,
+          "duration": 0.563708
+        },
+        {
+          "word": "al",
+          "start": 0.66275,
+          "duration": 0.073541
+        },
+        {
+          "word": "Capítulo",
+          "start": 0.785291,
+          "duration": 0.428916
+        },
+        {
+          "word": "seis",
+          "start": 1.226458,
+          "duration": 0.232833
+        },
+        {
+          "word": "de",
+          "start": 1.496083,
+          "duration": 0.061291
+        },
+        {
+          "word": "nuestra",
+          "start": 1.581875,
+          "duration": 0.257333
+        },
+        {
+          "word": "guía",
+          "start": 1.876,
+          "duration": 0.220583
+        },
+        {
+          "word": "de",
+          "start": 2.121083,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.255875,
+          "duration": 0.514708
+        },
+        {
+          "word": "en",
+          "start": 2.770583,
+          "duration": 0.098041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 2.917666,
+          "duration": 0.61275
+        },
+        {
+          "word": "Has",
+          "start": 4.38725,
+          "duration": 0.147041
+        },
+        {
+          "word": "conquistado",
+          "start": 4.583333,
+          "duration": 0.502458
+        },
+        {
+          "word": "la",
+          "start": 5.110291,
+          "duration": 0.073541
+        },
+        {
+          "word": "energía",
+          "start": 5.220583,
+          "duration": 0.392166
+        },
+        {
+          "word": "nuclear",
+          "start": 5.63725,
+          "duration": 0.343125
+        },
+        {
+          "word": "y",
+          "start": 5.992666,
+          "duration": 0.0245
+        },
+        {
+          "word": "dominas",
+          "start": 6.053916,
+          "duration": 0.355375
+        },
+        {
+          "word": "la",
+          "start": 6.446083,
+          "duration": 0.061291
+        },
+        {
+          "word": "logística",
+          "start": 6.531875,
+          "duration": 0.526958
+        },
+        {
+          "word": "automatizada",
+          "start": 7.058833,
+          "duration": 0.747541
+        },
+        {
+          "word": "Ahora",
+          "start": 8.688708,
+          "duration": 0.281875
+        },
+        {
+          "word": "ingresamos",
+          "start": 8.995083,
+          "duration": 0.514708
+        },
+        {
+          "word": "a",
+          "start": 9.509791,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 9.571083,
+          "duration": 0.061291
+        },
+        {
+          "word": "cúspide",
+          "start": 9.705875,
+          "duration": 0.355375
+        },
+        {
+          "word": "tecnológica",
+          "start": 10.122541,
+          "duration": 0.6005
+        },
+        {
+          "word": "de",
+          "start": 10.747541,
+          "duration": 0.085791
+        },
+        {
+          "word": "todo",
+          "start": 10.931375,
+          "duration": 0.147041
+        },
+        {
+          "word": "el",
+          "start": 11.078416,
+          "duration": 0.049
+        },
+        {
+          "word": "plugin",
+          "start": 11.21325,
+          "duration": 0.355375
+        },
+        {
+          "word": "la",
+          "start": 11.715666,
+          "duration": 0.098041
+        },
+        {
+          "word": "categoría",
+          "start": 11.875,
+          "duration": 0.502458
+        },
+        {
+          "word": "de",
+          "start": 12.401958,
+          "duration": 0.073541
+        },
+        {
+          "word": "Mecánica",
+          "start": 12.5,
+          "duration": 0.490208
+        },
+        {
+          "word": "Cuántica",
+          "start": 13.063708,
+          "duration": 0.416666
+        },
+        {
+          "word": "y",
+          "start": 13.517166,
+          "duration": 0.049
+        },
+        {
+          "word": "GPS",
+          "start": 13.590666,
+          "duration": 0.6005
+        },
+        {
+          "word": "Hoy",
+          "start": 15.098041,
+          "duration": 0.134791
+        },
+        {
+          "word": "aprenderás",
+          "start": 15.257333,
+          "duration": 0.490208
+        },
+        {
+          "word": "a",
+          "start": 15.747541,
+          "duration": 0.03675
+        },
+        {
+          "word": "poner",
+          "start": 15.857833,
+          "duration": 0.220583
+        },
+        {
+          "word": "satélites",
+          "start": 16.078416,
+          "duration": 0.576
+        },
+        {
+          "word": "en",
+          "start": 16.654416,
+          "duration": 0.073541
+        },
+        {
+          "word": "órbita",
+          "start": 16.740208,
+          "duration": 0.392166
+        },
+        {
+          "word": "escanear",
+          "start": 17.352958,
+          "duration": 0.379875
+        },
+        {
+          "word": "el",
+          "start": 17.732833,
+          "duration": 0.085791
+        },
+        {
+          "word": "subsuelo",
+          "start": 17.843125,
+          "duration": 0.416666
+        },
+        {
+          "word": "mediante",
+          "start": 18.284333,
+          "duration": 0.355375
+        },
+        {
+          "word": "satélites",
+          "start": 18.664208,
+          "duration": 0.502458
+        },
+        {
+          "word": "geoestacionarios",
+          "start": 19.178916,
+          "duration": 0.821083
+        },
+        {
+          "word": "y",
+          "start": 20.01225,
+          "duration": 0.01225
+        },
+        {
+          "word": "construir",
+          "start": 20.098041,
+          "duration": 0.453416
+        },
+        {
+          "word": "redes",
+          "start": 20.551458,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 20.857833,
+          "duration": 0.049
+        },
+        {
+          "word": "teletransportación",
+          "start": 20.968125,
+          "duration": 0.833333
+        },
+        {
+          "word": "instantánea",
+          "start": 21.813708,
+          "duration": 0.576
+        },
+        {
+          "word": "para",
+          "start": 22.451,
+          "duration": 0.134791
+        },
+        {
+          "word": "moverte",
+          "start": 22.610291,
+          "duration": 0.404416
+        },
+        {
+          "word": "por",
+          "start": 23.08825,
+          "duration": 0.098041
+        },
+        {
+          "word": "el",
+          "start": 23.186291,
+          "duration": 0.085791
+        },
+        {
+          "word": "mapa",
+          "start": 23.296583,
+          "duration": 0.294125
+        },
+        {
+          "word": "en",
+          "start": 23.627458,
+          "duration": 0.085791
+        },
+        {
+          "word": "cero",
+          "start": 23.73775,
+          "duration": 0.220583
+        },
+        {
+          "word": "segundos",
+          "start": 23.982833,
+          "duration": 0.514708
+        }
+      ]
+    },
+    {
+      "id": "sf6_p02_gps_network",
+      "title": "RED DE SATÉLITES GPS",
+      "subtitle": "Constelación orbital, transmisores y cálculo de cobertura",
+      "badge": "02 // INFRAESTRUCTURA: RED GPS",
+      "text": "La Red GPS Orbital de DrakesCraft. Componentes: Circuitos avanzados, oro reforzado y paneles solares. Transmisor GPS: lanza satélites a la estratosfera para generar señal orbital. A mayor índice de señal GPS, mayor velocidad y alcance de teletransporte.",
+      "spoken_text": "El corazón de toda la tecnología cuántica es la Red GPS. Para que un teletransportador o escáner funcione, necesitas cobertura satelital activa. Los satélites GPS se fabrican con componentes de oro reforzado, circuitos avanzados y paneles solares. Al lanzarlos con un Transmisor GPS en tu base, se elevan a la estratosfera y añaden puntos de señal orbital. A mayor complejidad de señal, mayor precisión y rango de teletransporte tendrás en el mundo.",
+      "audio_file": "sf6_p02_gps_network.mp3",
+      "duration": 27.768,
+      "frames": 863,
+      "action": "point",
+      "camera": "mid",
+      "diagram": "gps_satellite",
+      "words": [
+        {
+          "word": "El",
+          "start": 0.099,
+          "duration": 0.134791
+        },
+        {
+          "word": "corazón",
+          "start": 0.295083,
+          "duration": 0.343125
+        },
+        {
+          "word": "de",
+          "start": 0.675,
+          "duration": 0.061291
+        },
+        {
+          "word": "toda",
+          "start": 0.834333,
+          "duration": 0.196083
+        },
+        {
+          "word": "la",
+          "start": 1.042666,
+          "duration": 0.061291
+        },
+        {
+          "word": "tecnología",
+          "start": 1.165208,
+          "duration": 0.526958
+        },
+        {
+          "word": "cuántica",
+          "start": 1.765666,
+          "duration": 0.428916
+        },
+        {
+          "word": "es",
+          "start": 2.231375,
+          "duration": 0.085791
+        },
+        {
+          "word": "la",
+          "start": 2.341666,
+          "duration": 0.098041
+        },
+        {
+          "word": "Red",
+          "start": 2.464208,
+          "duration": 0.159333
+        },
+        {
+          "word": "GPS",
+          "start": 2.660291,
+          "duration": 0.563708
+        },
+        {
+          "word": "Para",
+          "start": 4.129916,
+          "duration": 0.183833
+        },
+        {
+          "word": "que",
+          "start": 4.375,
+          "duration": 0.061291
+        },
+        {
+          "word": "un",
+          "start": 4.460791,
+          "duration": 0.122541
+        },
+        {
+          "word": "teletransportador",
+          "start": 4.583333,
+          "duration": 0.808833
+        },
+        {
+          "word": "o",
+          "start": 5.404416,
+          "duration": 0.03675
+        },
+        {
+          "word": "escáner",
+          "start": 5.465666,
+          "duration": 0.318625
+        },
+        {
+          "word": "funcione",
+          "start": 5.821083,
+          "duration": 0.502458
+        },
+        {
+          "word": "necesitas",
+          "start": 6.556375,
+          "duration": 0.526958
+        },
+        {
+          "word": "cobertura",
+          "start": 7.144625,
+          "duration": 0.465666
+        },
+        {
+          "word": "satelital",
+          "start": 7.610291,
+          "duration": 0.514708
+        },
+        {
+          "word": "activa",
+          "start": 8.125,
+          "duration": 0.404416
+        },
+        {
+          "word": "Los",
+          "start": 9.41175,
+          "duration": 0.147041
+        },
+        {
+          "word": "satélites",
+          "start": 9.558833,
+          "duration": 0.526958
+        },
+        {
+          "word": "GPS",
+          "start": 10.098041,
+          "duration": 0.453416
+        },
+        {
+          "word": "se",
+          "start": 10.563708,
+          "duration": 0.098041
+        },
+        {
+          "word": "fabrican",
+          "start": 10.686291,
+          "duration": 0.453416
+        },
+        {
+          "word": "con",
+          "start": 11.139708,
+          "duration": 0.159291
+        },
+        {
+          "word": "componentes",
+          "start": 11.299,
+          "duration": 0.539208
+        },
+        {
+          "word": "de",
+          "start": 11.88725,
+          "duration": 0.085791
+        },
+        {
+          "word": "oro",
+          "start": 11.997541,
+          "duration": 0.171583
+        },
+        {
+          "word": "reforzado",
+          "start": 12.181375,
+          "duration": 0.539208
+        },
+        {
+          "word": "circuitos",
+          "start": 12.941166,
+          "duration": 0.539208
+        },
+        {
+          "word": "avanzados",
+          "start": 13.480375,
+          "duration": 0.576
+        },
+        {
+          "word": "y",
+          "start": 14.068625,
+          "duration": 0.0245
+        },
+        {
+          "word": "paneles",
+          "start": 14.166666,
+          "duration": 0.330875
+        },
+        {
+          "word": "solares",
+          "start": 14.497541,
+          "duration": 0.539208
+        },
+        {
+          "word": "Al",
+          "start": 15.943625,
+          "duration": 0.147041
+        },
+        {
+          "word": "lanzarlos",
+          "start": 16.090666,
+          "duration": 0.477958
+        },
+        {
+          "word": "con",
+          "start": 16.617666,
+          "duration": 0.110291
+        },
+        {
+          "word": "un",
+          "start": 16.727958,
+          "duration": 0.134791
+        },
+        {
+          "word": "Transmisor",
+          "start": 16.86275,
+          "duration": 0.453416
+        },
+        {
+          "word": "GPS",
+          "start": 17.340666,
+          "duration": 0.514708
+        },
+        {
+          "word": "en",
+          "start": 17.855375,
+          "duration": 0.122541
+        },
+        {
+          "word": "tu",
+          "start": 17.977958,
+          "duration": 0.061291
+        },
+        {
+          "word": "base",
+          "start": 18.063708,
+          "duration": 0.306375
+        },
+        {
+          "word": "se",
+          "start": 18.615208,
+          "duration": 0.110291
+        },
+        {
+          "word": "elevan",
+          "start": 18.7255,
+          "duration": 0.306375
+        },
+        {
+          "word": "a",
+          "start": 19.044125,
+          "duration": 0.073541
+        },
+        {
+          "word": "la",
+          "start": 19.117666,
+          "duration": 0.049
+        },
+        {
+          "word": "estratosfera",
+          "start": 19.203416,
+          "duration": 0.58825
+        },
+        {
+          "word": "y",
+          "start": 19.816166,
+          "duration": 0.073541
+        },
+        {
+          "word": "añaden",
+          "start": 19.889708,
+          "duration": 0.441166
+        },
+        {
+          "word": "puntos",
+          "start": 20.355375,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 20.66175,
+          "duration": 0.061291
+        },
+        {
+          "word": "señal",
+          "start": 20.747541,
+          "duration": 0.318625
+        },
+        {
+          "word": "orbital",
+          "start": 21.078416,
+          "duration": 0.453416
+        },
+        {
+          "word": "A",
+          "start": 22.389708,
+          "duration": 0.098041
+        },
+        {
+          "word": "mayor",
+          "start": 22.51225,
+          "duration": 0.245083
+        },
+        {
+          "word": "complejidad",
+          "start": 22.806375,
+          "duration": 0.514708
+        },
+        {
+          "word": "de",
+          "start": 23.345583,
+          "duration": 0.049
+        },
+        {
+          "word": "señal",
+          "start": 23.419125,
+          "duration": 0.379916
+        },
+        {
+          "word": "mayor",
+          "start": 24.031875,
+          "duration": 0.257333
+        },
+        {
+          "word": "precisión",
+          "start": 24.3505,
+          "duration": 0.416666
+        },
+        {
+          "word": "y",
+          "start": 24.791666,
+          "duration": 0.061291
+        },
+        {
+          "word": "rango",
+          "start": 24.877458,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 25.171583,
+          "duration": 0.085791
+        },
+        {
+          "word": "teletransporte",
+          "start": 25.318625,
+          "duration": 0.674
+        },
+        {
+          "word": "tendrás",
+          "start": 26.053916,
+          "duration": 0.355375
+        },
+        {
+          "word": "en",
+          "start": 26.409333,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 26.495083,
+          "duration": 0.085791
+        },
+        {
+          "word": "mundo",
+          "start": 26.605375,
+          "duration": 0.294125
+        }
+      ]
+    },
+    {
+      "id": "sf6_p03_geo_scanner",
+      "title": "GEO-SCANNER Y RECURSOS DEL SUBSUELO",
+      "subtitle": "Mapeo de yacimientos de petróleo y menas subterráneas",
+      "badge": "03 // PROSPECCIÓN: GEO-SCANNER",
+      "text": "Geo-Scanner: Prospección Satelital. Escanea el subsuelo del chunk en busca de petróleo y yacimientos minerales. Elimina el minado manual a ciegas mediante telemetría satelital precisa. Coordenadas exactas para desplegar Taladros Mineros Automáticos.",
+      "spoken_text": "Con tu red GPS en línea, puedes operar el Geo-Scanner. Esta máquina analiza los chunks circundantes en busca de vetas de petróleo subterráneo, núcleos de hierro enriquecido y yacimientos minerales profundos. Ya no necesitas picar a ciegas durante horas. El escáner te entrega las coordenadas exactas para instalar tus Taladros Mineros Automáticos y extraer riqueza en piloto automático.",
+      "audio_file": "sf6_p03_geo_scanner.mp3",
+      "duration": 22.632,
+      "frames": 708,
+      "action": "interact",
+      "camera": "close",
+      "diagram": "geo_scanner",
+      "words": [
+        {
+          "word": "Con",
+          "start": 0.099,
+          "duration": 0.196083
+        },
+        {
+          "word": "tu",
+          "start": 0.307333,
+          "duration": 0.073541
+        },
+        {
+          "word": "red",
+          "start": 0.405375,
+          "duration": 0.159333
+        },
+        {
+          "word": "GPS",
+          "start": 0.601458,
+          "duration": 0.453416
+        },
+        {
+          "word": "en",
+          "start": 1.054916,
+          "duration": 0.073541
+        },
+        {
+          "word": "línea",
+          "start": 1.140666,
+          "duration": 0.330875
+        },
+        {
+          "word": "puedes",
+          "start": 1.728916,
+          "duration": 0.257333
+        },
+        {
+          "word": "operar",
+          "start": 1.986291,
+          "duration": 0.306375
+        },
+        {
+          "word": "el",
+          "start": 2.292666,
+          "duration": 0.110291
+        },
+        {
+          "word": "Geo-Scanner",
+          "start": 2.415208,
+          "duration": 0.61275
+        },
+        {
+          "word": "Esta",
+          "start": 3.921583,
+          "duration": 0.245083
+        },
+        {
+          "word": "máquina",
+          "start": 4.191166,
+          "duration": 0.343125
+        },
+        {
+          "word": "analiza",
+          "start": 4.534333,
+          "duration": 0.428916
+        },
+        {
+          "word": "los",
+          "start": 4.9755,
+          "duration": 0.122541
+        },
+        {
+          "word": "chunks",
+          "start": 5.147041,
+          "duration": 0.245083
+        },
+        {
+          "word": "circundantes",
+          "start": 5.392166,
+          "duration": 0.6495
+        },
+        {
+          "word": "en",
+          "start": 6.041666,
+          "duration": 0.073541
+        },
+        {
+          "word": "busca",
+          "start": 6.176458,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 6.458333,
+          "duration": 0.061291
+        },
+        {
+          "word": "vetas",
+          "start": 6.556375,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 6.86275,
+          "duration": 0.049
+        },
+        {
+          "word": "petróleo",
+          "start": 6.973041,
+          "duration": 0.392166
+        },
+        {
+          "word": "subterráneo",
+          "start": 7.377458,
+          "duration": 0.625
+        },
+        {
+          "word": "núcleos",
+          "start": 8.210791,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 8.651958,
+          "duration": 0.061291
+        },
+        {
+          "word": "hierro",
+          "start": 8.75,
+          "duration": 0.220583
+        },
+        {
+          "word": "enriquecido",
+          "start": 8.970583,
+          "duration": 0.63725
+        },
+        {
+          "word": "y",
+          "start": 9.644625,
+          "duration": 0.0245
+        },
+        {
+          "word": "yacimientos",
+          "start": 9.718125,
+          "duration": 0.563708
+        },
+        {
+          "word": "minerales",
+          "start": 10.318625,
+          "duration": 0.453416
+        },
+        {
+          "word": "profundos",
+          "start": 10.833333,
+          "duration": 0.502458
+        },
+        {
+          "word": "Ya",
+          "start": 12.242666,
+          "duration": 0.159333
+        },
+        {
+          "word": "no",
+          "start": 12.426458,
+          "duration": 0.073541
+        },
+        {
+          "word": "necesitas",
+          "start": 12.5245,
+          "duration": 0.526958
+        },
+        {
+          "word": "picar",
+          "start": 13.11275,
+          "duration": 0.245083
+        },
+        {
+          "word": "a",
+          "start": 13.357833,
+          "duration": 0.061291
+        },
+        {
+          "word": "ciegas",
+          "start": 13.443625,
+          "duration": 0.306375
+        },
+        {
+          "word": "durante",
+          "start": 13.799,
+          "duration": 0.330875
+        },
+        {
+          "word": "horas",
+          "start": 14.142166,
+          "duration": 0.367666
+        },
+        {
+          "word": "El",
+          "start": 15.404416,
+          "duration": 0.147041
+        },
+        {
+          "word": "escáner",
+          "start": 15.551458,
+          "duration": 0.367666
+        },
+        {
+          "word": "te",
+          "start": 15.992666,
+          "duration": 0.03675
+        },
+        {
+          "word": "entrega",
+          "start": 16.029416,
+          "duration": 0.355375
+        },
+        {
+          "word": "las",
+          "start": 16.384791,
+          "duration": 0.110291
+        },
+        {
+          "word": "coordenadas",
+          "start": 16.544125,
+          "duration": 0.563708
+        },
+        {
+          "word": "exactas",
+          "start": 17.107833,
+          "duration": 0.428916
+        },
+        {
+          "word": "para",
+          "start": 17.610291,
+          "duration": 0.122541
+        },
+        {
+          "word": "instalar",
+          "start": 17.769625,
+          "duration": 0.392166
+        },
+        {
+          "word": "tus",
+          "start": 18.235291,
+          "duration": 0.098041
+        },
+        {
+          "word": "Taladros",
+          "start": 18.394625,
+          "duration": 0.367666
+        },
+        {
+          "word": "Mineros",
+          "start": 18.799,
+          "duration": 0.367666
+        },
+        {
+          "word": "Automáticos",
+          "start": 19.166666,
+          "duration": 0.674
+        },
+        {
+          "word": "y",
+          "start": 19.852958,
+          "duration": 0.049
+        },
+        {
+          "word": "extraer",
+          "start": 19.914208,
+          "duration": 0.404416
+        },
+        {
+          "word": "riqueza",
+          "start": 20.318625,
+          "duration": 0.392166
+        },
+        {
+          "word": "en",
+          "start": 20.723041,
+          "duration": 0.110291
+        },
+        {
+          "word": "piloto",
+          "start": 20.845583,
+          "duration": 0.306375
+        },
+        {
+          "word": "automático",
+          "start": 21.151958,
+          "duration": 0.58825
+        }
+      ]
+    },
+    {
+      "id": "sf6_p04_teleporter",
+      "title": "MATRICES DE TELETRANSPORTACIÓN",
+      "subtitle": "Viajes instantáneos entre bases, granjas y minas",
+      "badge": "04 // HIPERESPACIO: TELETRANSPORTADORES",
+      "text": "Teletransportadores Cuánticos de Slimefun. Matriz de obsidiana reforzada, perlas de ender cuánticas y anclaje GPS. Desmaterialización instantánea hacia waypoints sintonizados. Viajes inmediatos entre bases y macro-granjas sin comandos de servidor.",
+      "spoken_text": "Los Teletransportadores Cuánticos son la obra maestra de la movilidad en Slimefun. Construidos con obsidiana reforzada, perlas de ender modificadas y un Ancla Cuántica central. Cada teletransportador se conecta a la red GPS y permite sintonizar destinos específicos mediante waypoints. Al pararte sobre la plataforma, eres desmaterializado y ensamblado en tu destino de forma instantánea, sin consumir puntos de experiencia ni depender de permisos de moderación.",
+      "audio_file": "sf6_p04_teleporter.mp3",
+      "duration": 26.592,
+      "frames": 827,
+      "action": "cheer",
+      "camera": "wide",
+      "diagram": "teleporter_matrix",
+      "words": [
+        {
+          "word": "Los",
+          "start": 0.099,
+          "duration": 0.159333
+        },
+        {
+          "word": "Teletransportadores",
+          "start": 0.307333,
+          "duration": 0.906875
+        },
+        {
+          "word": "Cuánticos",
+          "start": 1.251,
+          "duration": 0.416666
+        },
+        {
+          "word": "son",
+          "start": 1.667666,
+          "duration": 0.183833
+        },
+        {
+          "word": "la",
+          "start": 1.876,
+          "duration": 0.110291
+        },
+        {
+          "word": "obra",
+          "start": 1.998541,
+          "duration": 0.208333
+        },
+        {
+          "word": "maestra",
+          "start": 2.231375,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 2.648041,
+          "duration": 0.061291
+        },
+        {
+          "word": "la",
+          "start": 2.746083,
+          "duration": 0.061291
+        },
+        {
+          "word": "movilidad",
+          "start": 2.831875,
+          "duration": 0.465666
+        },
+        {
+          "word": "en",
+          "start": 3.309791,
+          "duration": 0.073541
+        },
+        {
+          "word": "Slimefun",
+          "start": 3.395583,
+          "duration": 0.6005
+        },
+        {
+          "word": "Construidos",
+          "start": 4.865208,
+          "duration": 0.563708
+        },
+        {
+          "word": "con",
+          "start": 5.465666,
+          "duration": 0.110291
+        },
+        {
+          "word": "obsidiana",
+          "start": 5.576,
+          "duration": 0.465666
+        },
+        {
+          "word": "reforzada",
+          "start": 6.053916,
+          "duration": 0.58825
+        },
+        {
+          "word": "perlas",
+          "start": 6.88725,
+          "duration": 0.257333
+        },
+        {
+          "word": "de",
+          "start": 7.193625,
+          "duration": 0.061291
+        },
+        {
+          "word": "ender",
+          "start": 7.316166,
+          "duration": 0.147041
+        },
+        {
+          "word": "modificadas",
+          "start": 7.5,
+          "duration": 0.6495
+        },
+        {
+          "word": "y",
+          "start": 8.174,
+          "duration": 0.03675
+        },
+        {
+          "word": "un",
+          "start": 8.235291,
+          "duration": 0.122541
+        },
+        {
+          "word": "Ancla",
+          "start": 8.357833,
+          "duration": 0.269625
+        },
+        {
+          "word": "Cuántica",
+          "start": 8.701,
+          "duration": 0.379916
+        },
+        {
+          "word": "central",
+          "start": 9.093125,
+          "duration": 0.465666
+        },
+        {
+          "word": "Cada",
+          "start": 10.416666,
+          "duration": 0.208333
+        },
+        {
+          "word": "teletransportador",
+          "start": 10.686291,
+          "duration": 0.772041
+        },
+        {
+          "word": "se",
+          "start": 11.470583,
+          "duration": 0.110291
+        },
+        {
+          "word": "conecta",
+          "start": 11.629916,
+          "duration": 0.355375
+        },
+        {
+          "word": "a",
+          "start": 11.985291,
+          "duration": 0.073541
+        },
+        {
+          "word": "la",
+          "start": 12.058833,
+          "duration": 0.098041
+        },
+        {
+          "word": "red",
+          "start": 12.169125,
+          "duration": 0.171583
+        },
+        {
+          "word": "GPS",
+          "start": 12.377458,
+          "duration": 0.526958
+        },
+        {
+          "word": "y",
+          "start": 12.928916,
+          "duration": 0.049
+        },
+        {
+          "word": "permite",
+          "start": 13.051458,
+          "duration": 0.330875
+        },
+        {
+          "word": "sintonizar",
+          "start": 13.406875,
+          "duration": 0.539208
+        },
+        {
+          "word": "destinos",
+          "start": 13.982833,
+          "duration": 0.453416
+        },
+        {
+          "word": "específicos",
+          "start": 14.436291,
+          "duration": 0.6495
+        },
+        {
+          "word": "mediante",
+          "start": 15.122541,
+          "duration": 0.379916
+        },
+        {
+          "word": "waypoints",
+          "start": 15.539208,
+          "duration": 0.563708
+        },
+        {
+          "word": "Al",
+          "start": 16.997541,
+          "duration": 0.147041
+        },
+        {
+          "word": "pararte",
+          "start": 17.218125,
+          "duration": 0.355375
+        },
+        {
+          "word": "sobre",
+          "start": 17.585791,
+          "duration": 0.220583
+        },
+        {
+          "word": "la",
+          "start": 17.843125,
+          "duration": 0.061291
+        },
+        {
+          "word": "plataforma",
+          "start": 17.965666,
+          "duration": 0.551458
+        },
+        {
+          "word": "eres",
+          "start": 18.73775,
+          "duration": 0.196083
+        },
+        {
+          "word": "desmaterializado",
+          "start": 18.958333,
+          "duration": 0.833333
+        },
+        {
+          "word": "y",
+          "start": 19.816166,
+          "duration": 0.061291
+        },
+        {
+          "word": "ensamblado",
+          "start": 19.889708,
+          "duration": 0.477958
+        },
+        {
+          "word": "en",
+          "start": 20.367666,
+          "duration": 0.110291
+        },
+        {
+          "word": "tu",
+          "start": 20.490208,
+          "duration": 0.049
+        },
+        {
+          "word": "destino",
+          "start": 20.576,
+          "duration": 0.392166
+        },
+        {
+          "word": "de",
+          "start": 20.992666,
+          "duration": 0.073541
+        },
+        {
+          "word": "forma",
+          "start": 21.090666,
+          "duration": 0.257333
+        },
+        {
+          "word": "instantánea",
+          "start": 21.372541,
+          "duration": 0.6005
+        },
+        {
+          "word": "sin",
+          "start": 22.193625,
+          "duration": 0.208333
+        },
+        {
+          "word": "consumir",
+          "start": 22.401958,
+          "duration": 0.379916
+        },
+        {
+          "word": "puntos",
+          "start": 22.879916,
+          "duration": 0.269625
+        },
+        {
+          "word": "de",
+          "start": 23.186291,
+          "duration": 0.049
+        },
+        {
+          "word": "experiencia",
+          "start": 23.272041,
+          "duration": 0.576
+        },
+        {
+          "word": "ni",
+          "start": 23.884791,
+          "duration": 0.073541
+        },
+        {
+          "word": "depender",
+          "start": 24.007333,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 24.460791,
+          "duration": 0.061291
+        },
+        {
+          "word": "permisos",
+          "start": 24.595583,
+          "duration": 0.428916
+        },
+        {
+          "word": "de",
+          "start": 25.061291,
+          "duration": 0.061291
+        },
+        {
+          "word": "moderación",
+          "start": 25.147041,
+          "duration": 0.576
+        }
+      ]
+    },
+    {
+      "id": "sf6_p05_elevators",
+      "title": "ASCENSORES CUÁNTICOS VERTICALES",
+      "subtitle": "Tránsito veloz entre pisos sin escaleras ni corrientes de agua",
+      "badge": "05 // MOVILIDAD VERTICAL: ELEVADORES",
+      "text": "Ascensores Cuánticos Verticales. Misma coordenada X/Z en diferentes niveles de altura. Saltar = ascenso instantáneo al siguiente nivel superior. Agacharse = descenso suave e inmediato sin daño por caída.",
+      "spoken_text": "Si tu base industrial tiene múltiples pisos subterráneos o torres verticales, las escaleras y corrientes de agua son lentas y arruinan la estética. Los Elevadores Cuánticos de Slimefun resuelven esto a la perfección. Coloca una placa de elevador en la misma coordenada X y Z en diferentes alturas. Al saltar subes instantáneamente al piso superior, y al agacharte desciendes suavemente al nivel inferior.",
+      "audio_file": "sf6_p05_elevators.mp3",
+      "duration": 23.304,
+      "frames": 729,
+      "action": "point",
+      "camera": "mid",
+      "diagram": "quantum_elevator",
+      "words": [
+        {
+          "word": "Si",
+          "start": 0.099,
+          "duration": 0.171583
+        },
+        {
+          "word": "tu",
+          "start": 0.331875,
+          "duration": 0.061291
+        },
+        {
+          "word": "base",
+          "start": 0.417666,
+          "duration": 0.208333
+        },
+        {
+          "word": "industrial",
+          "start": 0.63825,
+          "duration": 0.453416
+        },
+        {
+          "word": "tiene",
+          "start": 1.152958,
+          "duration": 0.171583
+        },
+        {
+          "word": "múltiples",
+          "start": 1.361291,
+          "duration": 0.441166
+        },
+        {
+          "word": "pisos",
+          "start": 1.876,
+          "duration": 0.208333
+        },
+        {
+          "word": "subterráneos",
+          "start": 2.084333,
+          "duration": 0.674
+        },
+        {
+          "word": "o",
+          "start": 2.770583,
+          "duration": 0.049
+        },
+        {
+          "word": "torres",
+          "start": 2.893125,
+          "duration": 0.232833
+        },
+        {
+          "word": "verticales",
+          "start": 3.16275,
+          "duration": 0.58825
+        },
+        {
+          "word": "las",
+          "start": 3.996083,
+          "duration": 0.171583
+        },
+        {
+          "word": "escaleras",
+          "start": 4.167666,
+          "duration": 0.490208
+        },
+        {
+          "word": "y",
+          "start": 4.670083,
+          "duration": 0.01225
+        },
+        {
+          "word": "corrientes",
+          "start": 4.755875,
+          "duration": 0.465666
+        },
+        {
+          "word": "de",
+          "start": 5.270583,
+          "duration": 0.085791
+        },
+        {
+          "word": "agua",
+          "start": 5.368625,
+          "duration": 0.220583
+        },
+        {
+          "word": "son",
+          "start": 5.601458,
+          "duration": 0.196083
+        },
+        {
+          "word": "lentas",
+          "start": 5.809791,
+          "duration": 0.367666
+        },
+        {
+          "word": "y",
+          "start": 6.189708,
+          "duration": 0.0245
+        },
+        {
+          "word": "arruinan",
+          "start": 6.226458,
+          "duration": 0.367666
+        },
+        {
+          "word": "la",
+          "start": 6.630875,
+          "duration": 0.03675
+        },
+        {
+          "word": "estética",
+          "start": 6.728916,
+          "duration": 0.502458
+        },
+        {
+          "word": "Los",
+          "start": 8.1005,
+          "duration": 0.183833
+        },
+        {
+          "word": "Elevadores",
+          "start": 8.284333,
+          "duration": 0.490208
+        },
+        {
+          "word": "Cuánticos",
+          "start": 8.811291,
+          "duration": 0.416666
+        },
+        {
+          "word": "de",
+          "start": 9.264708,
+          "duration": 0.049
+        },
+        {
+          "word": "Slimefun",
+          "start": 9.3505,
+          "duration": 0.477916
+        },
+        {
+          "word": "resuelven",
+          "start": 9.828416,
+          "duration": 0.441166
+        },
+        {
+          "word": "esto",
+          "start": 10.281875,
+          "duration": 0.196083
+        },
+        {
+          "word": "a",
+          "start": 10.477958,
+          "duration": 0.049
+        },
+        {
+          "word": "la",
+          "start": 10.539208,
+          "duration": 0.073541
+        },
+        {
+          "word": "perfección",
+          "start": 10.674,
+          "duration": 0.514708
+        },
+        {
+          "word": "Coloca",
+          "start": 12.071083,
+          "duration": 0.379916
+        },
+        {
+          "word": "una",
+          "start": 12.4755,
+          "duration": 0.134791
+        },
+        {
+          "word": "placa",
+          "start": 12.696083,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 12.965666,
+          "duration": 0.073541
+        },
+        {
+          "word": "elevador",
+          "start": 13.076,
+          "duration": 0.392125
+        },
+        {
+          "word": "en",
+          "start": 13.468125,
+          "duration": 0.073541
+        },
+        {
+          "word": "la",
+          "start": 13.578416,
+          "duration": 0.061291
+        },
+        {
+          "word": "misma",
+          "start": 13.664208,
+          "duration": 0.257333
+        },
+        {
+          "word": "coordenada",
+          "start": 13.982833,
+          "duration": 0.490208
+        },
+        {
+          "word": "X",
+          "start": 14.546583,
+          "duration": 0.281875
+        },
+        {
+          "word": "y",
+          "start": 14.840666,
+          "duration": 0.0245
+        },
+        {
+          "word": "Z",
+          "start": 14.901958,
+          "duration": 0.257333
+        },
+        {
+          "word": "en",
+          "start": 15.159333,
+          "duration": 0.049
+        },
+        {
+          "word": "diferentes",
+          "start": 15.257333,
+          "duration": 0.514708
+        },
+        {
+          "word": "alturas",
+          "start": 15.772041,
+          "duration": 0.514708
+        },
+        {
+          "word": "Al",
+          "start": 17.193625,
+          "duration": 0.159333
+        },
+        {
+          "word": "saltar",
+          "start": 17.352958,
+          "duration": 0.318625
+        },
+        {
+          "word": "subes",
+          "start": 17.683833,
+          "duration": 0.330875
+        },
+        {
+          "word": "instantáneamente",
+          "start": 18.014708,
+          "duration": 0.808833
+        },
+        {
+          "word": "al",
+          "start": 18.823541,
+          "duration": 0.085791
+        },
+        {
+          "word": "piso",
+          "start": 18.995083,
+          "duration": 0.183833
+        },
+        {
+          "word": "superior",
+          "start": 19.191166,
+          "duration": 0.428916
+        },
+        {
+          "word": "y",
+          "start": 19.901958,
+          "duration": 0.073541
+        },
+        {
+          "word": "al",
+          "start": 19.9755,
+          "duration": 0.098041
+        },
+        {
+          "word": "agacharte",
+          "start": 20.073541,
+          "duration": 0.502458
+        },
+        {
+          "word": "desciendes",
+          "start": 20.6005,
+          "duration": 0.441166
+        },
+        {
+          "word": "suavemente",
+          "start": 21.041666,
+          "duration": 0.551458
+        },
+        {
+          "word": "al",
+          "start": 21.593125,
+          "duration": 0.098041
+        },
+        {
+          "word": "nivel",
+          "start": 21.703416,
+          "duration": 0.232833
+        },
+        {
+          "word": "inferior",
+          "start": 21.948541,
+          "duration": 0.465666
+        }
+      ]
+    },
+    {
+      "id": "sf6_p06_security",
+      "title": "SEGURIDAD Y PRIVACIDAD DE WAYPOINTS",
+      "subtitle": "Protección contra intrusos y cifrado de coordenadas",
+      "badge": "06 // SEGURIDAD SRE: ENLACE PRIVADO",
+      "text": "Seguridad y Cifrado de Coordenadas. Bloqueo de waypoints privados para miembros autorizados del clan. Integración con bloques de protección /ps get contra intrusos. Santuario tecnológico 100% blindado contra accesos hostiles.",
+      "spoken_text": "En un servidor survival competitivo como DrakesCraft, la seguridad es prioritaria. Nunca dejes tus coordenadas cuánticas en modo público si no quieres visitas inesperadas. Slimefun te permite bloquear teletransportadores para que solo miembros autorizados de tu clan puedan enlazarse. Combina esto con tus bloques de protección PS para garantizar que tu santuario tecnológico permanezca inexpugnable.",
+      "audio_file": "sf6_p06_security.mp3",
+      "duration": 23.16,
+      "frames": 724,
+      "action": "interact",
+      "camera": "close",
+      "diagram": "security_encryption",
+      "words": [
+        {
+          "word": "En",
+          "start": 0.099,
+          "duration": 0.134791
+        },
+        {
+          "word": "un",
+          "start": 0.246083,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 0.356375,
+          "duration": 0.392166
+        },
+        {
+          "word": "survival",
+          "start": 0.760791,
+          "duration": 0.502458
+        },
+        {
+          "word": "competitivo",
+          "start": 1.31225,
+          "duration": 0.576
+        },
+        {
+          "word": "como",
+          "start": 1.9495,
+          "duration": 0.183833
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 2.170083,
+          "duration": 0.6005
+        },
+        {
+          "word": "la",
+          "start": 2.978916,
+          "duration": 0.110291
+        },
+        {
+          "word": "seguridad",
+          "start": 3.089208,
+          "duration": 0.490208
+        },
+        {
+          "word": "es",
+          "start": 3.591666,
+          "duration": 0.085791
+        },
+        {
+          "word": "prioritaria",
+          "start": 3.738708,
+          "duration": 0.58825
+        },
+        {
+          "word": "Nunca",
+          "start": 5.208333,
+          "duration": 0.294125
+        },
+        {
+          "word": "dejes",
+          "start": 5.526958,
+          "duration": 0.257333
+        },
+        {
+          "word": "tus",
+          "start": 5.845583,
+          "duration": 0.110291
+        },
+        {
+          "word": "coordenadas",
+          "start": 6.017166,
+          "duration": 0.526958
+        },
+        {
+          "word": "cuánticas",
+          "start": 6.593125,
+          "duration": 0.453416
+        },
+        {
+          "word": "en",
+          "start": 7.046583,
+          "duration": 0.085791
+        },
+        {
+          "word": "modo",
+          "start": 7.181375,
+          "duration": 0.208333
+        },
+        {
+          "word": "público",
+          "start": 7.4755,
+          "duration": 0.330875
+        },
+        {
+          "word": "si",
+          "start": 7.818625,
+          "duration": 0.110291
+        },
+        {
+          "word": "no",
+          "start": 7.965666,
+          "duration": 0.110291
+        },
+        {
+          "word": "quieres",
+          "start": 8.1495,
+          "duration": 0.257333
+        },
+        {
+          "word": "visitas",
+          "start": 8.443625,
+          "duration": 0.416666
+        },
+        {
+          "word": "inesperadas",
+          "start": 8.884791,
+          "duration": 0.710791
+        },
+        {
+          "word": "Slimefun",
+          "start": 10.490208,
+          "duration": 0.539208
+        },
+        {
+          "word": "te",
+          "start": 11.041666,
+          "duration": 0.061291
+        },
+        {
+          "word": "permite",
+          "start": 11.176458,
+          "duration": 0.330875
+        },
+        {
+          "word": "bloquear",
+          "start": 11.544125,
+          "duration": 0.318625
+        },
+        {
+          "word": "teletransportadores",
+          "start": 11.936291,
+          "duration": 0.894625
+        },
+        {
+          "word": "para",
+          "start": 12.904416,
+          "duration": 0.134791
+        },
+        {
+          "word": "que",
+          "start": 13.1005,
+          "duration": 0.073541
+        },
+        {
+          "word": "solo",
+          "start": 13.198541,
+          "duration": 0.245083
+        },
+        {
+          "word": "miembros",
+          "start": 13.480375,
+          "duration": 0.379916
+        },
+        {
+          "word": "autorizados",
+          "start": 13.860291,
+          "duration": 0.61275
+        },
+        {
+          "word": "de",
+          "start": 14.509791,
+          "duration": 0.049
+        },
+        {
+          "word": "tu",
+          "start": 14.620083,
+          "duration": 0.049
+        },
+        {
+          "word": "clan",
+          "start": 14.730375,
+          "duration": 0.232833
+        },
+        {
+          "word": "puedan",
+          "start": 15.0,
+          "duration": 0.257333
+        },
+        {
+          "word": "enlazarse",
+          "start": 15.257333,
+          "duration": 0.539208
+        },
+        {
+          "word": "Combina",
+          "start": 16.703416,
+          "duration": 0.392166
+        },
+        {
+          "word": "esto",
+          "start": 17.107833,
+          "duration": 0.183833
+        },
+        {
+          "word": "con",
+          "start": 17.340666,
+          "duration": 0.147041
+        },
+        {
+          "word": "tus",
+          "start": 17.48775,
+          "duration": 0.122541
+        },
+        {
+          "word": "bloques",
+          "start": 17.659333,
+          "duration": 0.294125
+        },
+        {
+          "word": "de",
+          "start": 17.977958,
+          "duration": 0.049
+        },
+        {
+          "word": "protección",
+          "start": 18.076,
+          "duration": 0.441166
+        },
+        {
+          "word": "PS",
+          "start": 18.566166,
+          "duration": 0.294125
+        },
+        {
+          "word": "para",
+          "start": 18.933833,
+          "duration": 0.147041
+        },
+        {
+          "word": "garantizar",
+          "start": 19.105375,
+          "duration": 0.502458
+        },
+        {
+          "word": "que",
+          "start": 19.681375,
+          "duration": 0.049
+        },
+        {
+          "word": "tu",
+          "start": 19.791666,
+          "duration": 0.061291
+        },
+        {
+          "word": "santuario",
+          "start": 19.877458,
+          "duration": 0.453416
+        },
+        {
+          "word": "tecnológico",
+          "start": 20.392166,
+          "duration": 0.6005
+        },
+        {
+          "word": "permanezca",
+          "start": 21.066166,
+          "duration": 0.465666
+        },
+        {
+          "word": "inexpugnable",
+          "start": 21.568625,
+          "duration": 0.698541
+        }
+      ]
+    },
+    {
+      "id": "sf6_p07_conclusion",
+      "title": "EL DOMINIO TOTAL DE SLIMEFUN",
+      "subtitle": "Conéctate a play.drakescraft.cl y lidera la era industrial",
+      "badge": "07 // CONCLUSIÓN Y RED DRAKES",
+      "text": "Dominio Total de Slimefun en DrakesCraft. De la Mesa Mejorada a Satélites GPS y Fisión Nuclear a 20.0 TPS. Construye el imperio industrial definitivo sin mods. ¡Conéctate en play.drakescraft.cl:25565 y únete a la leyenda!",
+      "spoken_text": "Has completado la formación tecnológica completa de Slimefun en DrakesCraft. Desde la humilde mesa mejorada hasta redes de satélites GPS y reactores de fisión a veinte punto cero TPS. Ahora el límite es tu propia imaginación ingenieril. Conéctate hoy mismo en play punto drakescraft punto ce ele, forma tu clan, automatiza tu producción y domina el survival más avanzado. Nos vemos en el servidor.",
+      "audio_file": "sf6_p07_conclusion.mp3",
+      "duration": 24.408,
+      "frames": 762,
+      "action": "cheer",
+      "camera": "wide",
+      "diagram": "master_summary",
+      "words": [
+        {
+          "word": "Has",
+          "start": 0.099,
+          "duration": 0.147041
+        },
+        {
+          "word": "completado",
+          "start": 0.295083,
+          "duration": 0.428916
+        },
+        {
+          "word": "la",
+          "start": 0.748541,
+          "duration": 0.061291
+        },
+        {
+          "word": "formación",
+          "start": 0.834333,
+          "duration": 0.490208
+        },
+        {
+          "word": "tecnológica",
+          "start": 1.33675,
+          "duration": 0.58825
+        },
+        {
+          "word": "completa",
+          "start": 1.974,
+          "duration": 0.404416
+        },
+        {
+          "word": "de",
+          "start": 2.402958,
+          "duration": 0.061291
+        },
+        {
+          "word": "Slimefun",
+          "start": 2.53775,
+          "duration": 0.502458
+        },
+        {
+          "word": "en",
+          "start": 3.040208,
+          "duration": 0.098041
+        },
+        {
+          "word": "DrakesCraft",
+          "start": 3.18725,
+          "duration": 0.6005
+        },
+        {
+          "word": "Desde",
+          "start": 4.644625,
+          "duration": 0.257333
+        },
+        {
+          "word": "la",
+          "start": 4.938708,
+          "duration": 0.073541
+        },
+        {
+          "word": "humilde",
+          "start": 5.03675,
+          "duration": 0.294125
+        },
+        {
+          "word": "mesa",
+          "start": 5.367666,
+          "duration": 0.208333
+        },
+        {
+          "word": "mejorada",
+          "start": 5.6005,
+          "duration": 0.490208
+        },
+        {
+          "word": "hasta",
+          "start": 6.102958,
+          "duration": 0.183833
+        },
+        {
+          "word": "redes",
+          "start": 6.311291,
+          "duration": 0.245083
+        },
+        {
+          "word": "de",
+          "start": 6.593125,
+          "duration": 0.061291
+        },
+        {
+          "word": "satélites",
+          "start": 6.678916,
+          "duration": 0.514708
+        },
+        {
+          "word": "GPS",
+          "start": 7.205875,
+          "duration": 0.490208
+        },
+        {
+          "word": "y",
+          "start": 7.732833,
+          "duration": 0.049
+        },
+        {
+          "word": "reactores",
+          "start": 7.794125,
+          "duration": 0.453416
+        },
+        {
+          "word": "de",
+          "start": 8.272041,
+          "duration": 0.049
+        },
+        {
+          "word": "fisión",
+          "start": 8.357833,
+          "duration": 0.330875
+        },
+        {
+          "word": "a",
+          "start": 8.701,
+          "duration": 0.061291
+        },
+        {
+          "word": "veinte",
+          "start": 8.799,
+          "duration": 0.269625
+        },
+        {
+          "word": "punto",
+          "start": 9.166666,
+          "duration": 0.245083
+        },
+        {
+          "word": "cero",
+          "start": 9.424,
+          "duration": 0.245083
+        },
+        {
+          "word": "TPS",
+          "start": 9.742666,
+          "duration": 0.502458
+        },
+        {
+          "word": "Ahora",
+          "start": 11.164208,
+          "duration": 0.318625
+        },
+        {
+          "word": "el",
+          "start": 11.482833,
+          "duration": 0.061291
+        },
+        {
+          "word": "límite",
+          "start": 11.544125,
+          "duration": 0.343125
+        },
+        {
+          "word": "es",
+          "start": 11.924,
+          "duration": 0.049
+        },
+        {
+          "word": "tu",
+          "start": 12.034333,
+          "duration": 0.061291
+        },
+        {
+          "word": "propia",
+          "start": 12.169125,
+          "duration": 0.245083
+        },
+        {
+          "word": "imaginación",
+          "start": 12.426458,
+          "duration": 0.576
+        },
+        {
+          "word": "ingenieril",
+          "start": 13.014708,
+          "duration": 0.551458
+        },
+        {
+          "word": "Conéctate",
+          "start": 14.436291,
+          "duration": 0.514708
+        },
+        {
+          "word": "hoy",
+          "start": 14.96325,
+          "duration": 0.085791
+        },
+        {
+          "word": "mismo",
+          "start": 15.085791,
+          "duration": 0.269625
+        },
+        {
+          "word": "en",
+          "start": 15.367666,
+          "duration": 0.110291
+        },
+        {
+          "word": "play",
+          "start": 15.502458,
+          "duration": 0.122541
+        },
+        {
+          "word": "punto",
+          "start": 15.710791,
+          "duration": 0.232833
+        },
+        {
+          "word": "drakescraft",
+          "start": 15.968125,
+          "duration": 0.539208
+        },
+        {
+          "word": "punto",
+          "start": 16.593125,
+          "duration": 0.245083
+        },
+        {
+          "word": "ce",
+          "start": 16.8505,
+          "duration": 0.232833
+        },
+        {
+          "word": "ele",
+          "start": 17.120083,
+          "duration": 0.183833
+        },
+        {
+          "word": "forma",
+          "start": 17.549,
+          "duration": 0.269625
+        },
+        {
+          "word": "tu",
+          "start": 17.879916,
+          "duration": 0.061291
+        },
+        {
+          "word": "clan",
+          "start": 18.002458,
+          "duration": 0.245083
+        },
+        {
+          "word": "automatiza",
+          "start": 18.443625,
+          "duration": 0.61275
+        },
+        {
+          "word": "tu",
+          "start": 19.117666,
+          "duration": 0.049
+        },
+        {
+          "word": "producción",
+          "start": 19.215666,
+          "duration": 0.416666
+        },
+        {
+          "word": "y",
+          "start": 19.644625,
+          "duration": 0.03675
+        },
+        {
+          "word": "domina",
+          "start": 19.718125,
+          "duration": 0.318625
+        },
+        {
+          "word": "el",
+          "start": 20.049,
+          "duration": 0.085791
+        },
+        {
+          "word": "survival",
+          "start": 20.134791,
+          "duration": 0.539208
+        },
+        {
+          "word": "más",
+          "start": 20.698541,
+          "duration": 0.220583
+        },
+        {
+          "word": "avanzado",
+          "start": 20.919125,
+          "duration": 0.526958
+        },
+        {
+          "word": "Nos",
+          "start": 22.328416,
+          "duration": 0.196083
+        },
+        {
+          "word": "vemos",
+          "start": 22.561291,
+          "duration": 0.281833
+        },
+        {
+          "word": "en",
+          "start": 22.843125,
+          "duration": 0.073541
+        },
+        {
+          "word": "el",
+          "start": 22.916666,
+          "duration": 0.098041
+        },
+        {
+          "word": "servidor",
+          "start": 23.014708,
+          "duration": 0.514708
+        }
+      ]
+    }
+  ]
+}

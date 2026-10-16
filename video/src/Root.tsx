@@ -20,6 +20,8 @@ import { ShortSfStart, SF_START_FRAMES } from "./ShortSfStart";
 import { ShortSfEnergyRule, SF_ENERGY_RULE_FRAMES } from "./ShortSfEnergyRule";
 import { ShortSfNoHoppers, SF_NO_HOPPERS_FRAMES } from "./ShortSfNoHoppers";
 import { ShortSfCargoRules, SF_CARGO_RULES_FRAMES } from "./ShortSfCargoRules";
+import { ShortSfReactorSafety, SF_REACTOR_SAFETY_FRAMES } from "./ShortSfReactorSafety";
+import { ShortSfMemoryPointers, SF_MEMORY_POINTERS_FRAMES } from "./ShortSfMemoryPointers";
 import { Capitulo3, TOTAL_CAPITULO3_FRAMES } from "./Capitulo3";
 import { Capitulo4, TOTAL_CAPITULO4_FRAMES } from "./Capitulo4";
 import { SlimefunCapitulo1, TOTAL_SF_CAPITULO1_FRAMES } from "./SlimefunCapitulo1";
@@ -27,6 +29,7 @@ import { SlimefunCapitulo2, TOTAL_SF_CAPITULO2_FRAMES } from "./SlimefunCapitulo
 import { SlimefunCapitulo3, TOTAL_SF_CAPITULO3_FRAMES } from "./SlimefunCapitulo3";
 import { SlimefunCapitulo4, TOTAL_SF_CAPITULO4_FRAMES } from "./SlimefunCapitulo4";
 import { SlimefunCapitulo5, TOTAL_SF_CAPITULO5_FRAMES } from "./SlimefunCapitulo5";
+import { SlimefunCapitulo6, TOTAL_SF_CAPITULO6_FRAMES } from "./SlimefunCapitulo6";
 
 export const Root = () => (
   <>
@@ -51,6 +54,7 @@ export const Root = () => (
     <Composition id="SlimefunCapitulo3" component={SlimefunCapitulo3} durationInFrames={TOTAL_SF_CAPITULO3_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="SlimefunCapitulo4" component={SlimefunCapitulo4} durationInFrames={TOTAL_SF_CAPITULO4_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="SlimefunCapitulo5" component={SlimefunCapitulo5} durationInFrames={TOTAL_SF_CAPITULO5_FRAMES} fps={30} width={1280} height={720} />
+    <Composition id="SlimefunCapitulo6" component={SlimefunCapitulo6} durationInFrames={TOTAL_SF_CAPITULO6_FRAMES} fps={30} width={1280} height={720} />
     <Composition id="ShortSaori" component={ShortSaori} durationInFrames={SAORI_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortNetworksDupe" component={ShortNetworksDupe} durationInFrames={NETWORKS_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortCustomGui" component={ShortCustomGui} durationInFrames={CUSTOMGUI_FRAMES} fps={30} width={1080} height={1920} />
@@ -59,6 +63,8 @@ export const Root = () => (
     <Composition id="ShortSfEnergyRule" component={ShortSfEnergyRule} durationInFrames={SF_ENERGY_RULE_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortSfNoHoppers" component={ShortSfNoHoppers} durationInFrames={SF_NO_HOPPERS_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="ShortSfCargoRules" component={ShortSfCargoRules} durationInFrames={SF_CARGO_RULES_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="ShortSfReactorSafety" component={ShortSfReactorSafety} durationInFrames={SF_REACTOR_SAFETY_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="ShortSfMemoryPointers" component={ShortSfMemoryPointers} durationInFrames={SF_MEMORY_POINTERS_FRAMES} fps={30} width={1080} height={1920} />
   </>
 );
 

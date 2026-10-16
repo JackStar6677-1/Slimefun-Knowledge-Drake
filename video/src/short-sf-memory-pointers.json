@@ -1,0 +1,446 @@
+{
+  "id": "short_sf_memory_pointers",
+  "voice": "en-US-ChristopherNeural",
+  "duration": 38.688,
+  "frames": 1190,
+  "audio_file": "short_sf_memory_pointers.mp3",
+  "text": "Why JVM Memory Pointers Beat Entities in Minecraft:\n1. Vanilla = tile-entity tick lag & entity drops.\n2. Custom Networks v6 = direct RAM pointer updates.\n3. Millions of items with 0 physical entity spawns.\nFlawless 20.0 TPS on play.drakescraft.cl!",
+  "spoken_text": "Here is why custom inventory plugins like Networks v6 and Fluffy Barrels beat vanilla entities every single time. Vanilla storage creates entity drops, tile-entity tick listeners, and chunk re-renders that ruin server performance. In DrakesCraft, we engineered custom data pointers directly inside the Java Virtual Machine heap. When millions of items move through our cargo pipelines, zero physical entities are spawned in the Minecraft world. The result is twenty point zero flawless ticks per second under extreme load. Experience high-performance Minecraft on play dot drakescraft dot cl.",
+  "words": [
+    {
+      "word": "Here",
+      "start": 0.099,
+      "duration": 0.220583
+    },
+    {
+      "word": "is",
+      "start": 0.331875,
+      "duration": 0.122541
+    },
+    {
+      "word": "why",
+      "start": 0.466666,
+      "duration": 0.208333
+    },
+    {
+      "word": "custom",
+      "start": 0.68725,
+      "duration": 0.379916
+    },
+    {
+      "word": "inventory",
+      "start": 1.079416,
+      "duration": 0.551458
+    },
+    {
+      "word": "plugins",
+      "start": 1.643125,
+      "duration": 0.490208
+    },
+    {
+      "word": "like",
+      "start": 2.145583,
+      "duration": 0.171583
+    },
+    {
+      "word": "Networks",
+      "start": 2.329416,
+      "duration": 0.465666
+    },
+    {
+      "word": "v6",
+      "start": 2.807333,
+      "duration": 0.600499
+    },
+    {
+      "word": "and",
+      "start": 3.420083,
+      "duration": 0.110291
+    },
+    {
+      "word": "Fluffy",
+      "start": 3.542666,
+      "duration": 0.379916
+    },
+    {
+      "word": "Barrels",
+      "start": 3.934791,
+      "duration": 0.428916
+    },
+    {
+      "word": "beat",
+      "start": 4.376,
+      "duration": 0.208333
+    },
+    {
+      "word": "vanilla",
+      "start": 4.596583,
+      "duration": 0.428916
+    },
+    {
+      "word": "entities",
+      "start": 5.03775,
+      "duration": 0.465666
+    },
+    {
+      "word": "every",
+      "start": 5.515666,
+      "duration": 0.245083
+    },
+    {
+      "word": "single",
+      "start": 5.773041,
+      "duration": 0.330875
+    },
+    {
+      "word": "time",
+      "start": 6.116166,
+      "duration": 0.428916
+    },
+    {
+      "word": "Vanilla",
+      "start": 7.389708,
+      "duration": 0.441166
+    },
+    {
+      "word": "storage",
+      "start": 7.843125,
+      "duration": 0.453416
+    },
+    {
+      "word": "creates",
+      "start": 8.308833,
+      "duration": 0.404416
+    },
+    {
+      "word": "entity",
+      "start": 8.7255,
+      "duration": 0.306375
+    },
+    {
+      "word": "drops",
+      "start": 9.044125,
+      "duration": 0.490208
+    },
+    {
+      "word": "tile-entity",
+      "start": 9.730375,
+      "duration": 0.6005
+    },
+    {
+      "word": "tick",
+      "start": 10.343125,
+      "duration": 0.232833
+    },
+    {
+      "word": "listeners",
+      "start": 10.58825,
+      "duration": 0.576
+    },
+    {
+      "word": "and",
+      "start": 11.409333,
+      "duration": 0.183833
+    },
+    {
+      "word": "chunk",
+      "start": 11.605375,
+      "duration": 0.294125
+    },
+    {
+      "word": "re-renders",
+      "start": 11.91175,
+      "duration": 0.576
+    },
+    {
+      "word": "that",
+      "start": 12.5,
+      "duration": 0.196083
+    },
+    {
+      "word": "ruin",
+      "start": 12.708333,
+      "duration": 0.269625
+    },
+    {
+      "word": "server",
+      "start": 12.990208,
+      "duration": 0.343125
+    },
+    {
+      "word": "performance",
+      "start": 13.345583,
+      "duration": 0.710791
+    },
+    {
+      "word": "In",
+      "start": 14.901958,
+      "duration": 0.159333
+    },
+    {
+      "word": "DrakesCraft",
+      "start": 15.073541,
+      "duration": 0.857833
+    },
+    {
+      "word": "we",
+      "start": 16.151958,
+      "duration": 0.171583
+    },
+    {
+      "word": "engineered",
+      "start": 16.335791,
+      "duration": 0.502458
+    },
+    {
+      "word": "custom",
+      "start": 16.8505,
+      "duration": 0.416666
+    },
+    {
+      "word": "data",
+      "start": 17.279416,
+      "duration": 0.269625
+    },
+    {
+      "word": "pointers",
+      "start": 17.561291,
+      "duration": 0.428916
+    },
+    {
+      "word": "directly",
+      "start": 18.002458,
+      "duration": 0.502458
+    },
+    {
+      "word": "inside",
+      "start": 18.517166,
+      "duration": 0.441166
+    },
+    {
+      "word": "the",
+      "start": 18.970583,
+      "duration": 0.073541
+    },
+    {
+      "word": "Java",
+      "start": 19.056375,
+      "duration": 0.355375
+    },
+    {
+      "word": "Virtual",
+      "start": 19.424,
+      "duration": 0.441166
+    },
+    {
+      "word": "Machine",
+      "start": 19.877458,
+      "duration": 0.367666
+    },
+    {
+      "word": "heap",
+      "start": 20.257333,
+      "duration": 0.367666
+    },
+    {
+      "word": "When",
+      "start": 21.470583,
+      "duration": 0.220583
+    },
+    {
+      "word": "millions",
+      "start": 21.703416,
+      "duration": 0.416666
+    },
+    {
+      "word": "of",
+      "start": 22.132333,
+      "duration": 0.098041
+    },
+    {
+      "word": "items",
+      "start": 22.242666,
+      "duration": 0.367666
+    },
+    {
+      "word": "move",
+      "start": 22.622541,
+      "duration": 0.281875
+    },
+    {
+      "word": "through",
+      "start": 22.916666,
+      "duration": 0.220583
+    },
+    {
+      "word": "our",
+      "start": 23.1495,
+      "duration": 0.147041
+    },
+    {
+      "word": "cargo",
+      "start": 23.308833,
+      "duration": 0.379916
+    },
+    {
+      "word": "pipelines",
+      "start": 23.701,
+      "duration": 0.686291
+    },
+    {
+      "word": "zero",
+      "start": 24.632333,
+      "duration": 0.379916
+    },
+    {
+      "word": "physical",
+      "start": 25.0245,
+      "duration": 0.441166
+    },
+    {
+      "word": "entities",
+      "start": 25.477958,
+      "duration": 0.416666
+    },
+    {
+      "word": "are",
+      "start": 25.906875,
+      "duration": 0.122541
+    },
+    {
+      "word": "spawned",
+      "start": 26.041666,
+      "duration": 0.453416
+    },
+    {
+      "word": "in",
+      "start": 26.507333,
+      "duration": 0.049
+    },
+    {
+      "word": "the",
+      "start": 26.568625,
+      "duration": 0.049
+    },
+    {
+      "word": "Minecraft",
+      "start": 26.629916,
+      "duration": 0.61275
+    },
+    {
+      "word": "world",
+      "start": 27.254916,
+      "duration": 0.465666
+    },
+    {
+      "word": "The",
+      "start": 28.566166,
+      "duration": 0.122541
+    },
+    {
+      "word": "result",
+      "start": 28.701,
+      "duration": 0.441166
+    },
+    {
+      "word": "is",
+      "start": 29.154416,
+      "duration": 0.147041
+    },
+    {
+      "word": "twenty",
+      "start": 29.313708,
+      "duration": 0.318625
+    },
+    {
+      "word": "point",
+      "start": 29.644625,
+      "duration": 0.269625
+    },
+    {
+      "word": "zero",
+      "start": 29.926458,
+      "duration": 0.367666
+    },
+    {
+      "word": "flawless",
+      "start": 30.306375,
+      "duration": 0.502458
+    },
+    {
+      "word": "ticks",
+      "start": 30.821083,
+      "duration": 0.269625
+    },
+    {
+      "word": "per",
+      "start": 31.102958,
+      "duration": 0.171583
+    },
+    {
+      "word": "second",
+      "start": 31.28675,
+      "duration": 0.367666
+    },
+    {
+      "word": "under",
+      "start": 31.666666,
+      "duration": 0.220583
+    },
+    {
+      "word": "extreme",
+      "start": 31.8995,
+      "duration": 0.453416
+    },
+    {
+      "word": "load",
+      "start": 32.365208,
+      "duration": 0.392166
+    },
+    {
+      "word": "Experience",
+      "start": 33.602958,
+      "duration": 0.66175
+    },
+    {
+      "word": "high-performance",
+      "start": 34.276958,
+      "duration": 0.698541
+    },
+    {
+      "word": "Minecraft",
+      "start": 34.98775,
+      "duration": 0.674
+    },
+    {
+      "word": "on",
+      "start": 35.674,
+      "duration": 0.134791
+    },
+    {
+      "word": "play",
+      "start": 35.821083,
+      "duration": 0.294125
+    },
+    {
+      "word": "dot",
+      "start": 36.127458,
+      "duration": 0.208333
+    },
+    {
+      "word": "drakescraft",
+      "start": 36.348041,
+      "duration": 0.686291
+    },
+    {
+      "word": "dot",
+      "start": 37.046583,
+      "duration": 0.220583
+    },
+    {
+      "word": "cl",
+      "start": 37.279416,
+      "duration": 0.563708
+    }
+  ]
+}

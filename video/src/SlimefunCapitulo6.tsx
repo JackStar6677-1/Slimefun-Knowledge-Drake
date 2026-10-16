@@ -1,0 +1,531 @@
+import React, { useMemo } from "react";
+import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { T } from "./std/theme";
+import { Steve3D, SteveAction } from "./std/Steve3D";
+import { Captions } from "./std/Captions";
+import { ThreeCanvas } from "@remotion/three";
+import storyboardData from "./sf-capitulo6-storyboard.json";
+import skinRotation from "./skin_rotation.json";
+
+export const SCENES_SF6 = storyboardData.scenes;
+
+let accFramesSF6 = 0;
+export const SCENE_RANGES_SF6 = SCENES_SF6.map((sec: any) => {
+  const durationFrames = Math.round(sec.duration * 30);
+  const start = accFramesSF6;
+  accFramesSF6 += durationFrames;
+  return {
+    ...sec,
+    startFrame: start,
+    durationFrames,
+    endFrame: accFramesSF6,
+  };
+});
+
+export const TOTAL_SF_CAPITULO6_FRAMES = accFramesSF6 + 90; // ~5,495 frames (~3.0 min)
+
+// Maquinaria 3D y Componentes Cuánticos & GPS
+const Quantum3D: React.FC<{ type: string; frame: number }> = ({ type, frame }) => {
+  const rotY = frame * 0.02;
+
+  return (
+    <group rotation={[0.2, rotY, 0]}>
+      {type === "quantum_intro" && (
+        <group position={[0, -0.2, 0]}>
+          {/* Núcleo Cuántico Tesseract */}
+          <mesh position={[0, 0.4, 0]} rotation={[frame * 0.03, frame * 0.04, 0]}>
+            <octahedronGeometry args={[0.55, 0]} />
+            <meshStandardMaterial color="#a855f7" emissive="#7e22ce" emissiveIntensity={0.8} wireframe />
+          </mesh>
+          <mesh position={[0, 0.4, 0]} rotation={[-frame * 0.02, 0, frame * 0.03]}>
+            <boxGeometry args={[0.45, 0.45, 0.45]} />
+            <meshStandardMaterial color="#38bdf8" emissive="#0284c7" emissiveIntensity={0.6} wireframe />
+          </mesh>
+          {/* Anillos de salto orbital */}
+          <mesh position={[0, 0.4, 0]} rotation={[Math.PI / 3, frame * 0.05, 0]}>
+            <torusGeometry args={[0.85, 0.025, 8, 32]} />
+            <meshBasicMaterial color="#c084fc" />
+          </mesh>
+          {/* Base cuántica */}
+          <mesh position={[0, -0.6, 0]}>
+            <cylinderGeometry args={[1.1, 1.25, 0.35, 16]} />
+            <meshStandardMaterial color="#1e1b4b" roughness={0.3} metalness={0.9} />
+          </mesh>
+        </group>
+      )}
+
+      {type === "gps_satellite" && (
+        <group position={[0, -0.1, 0]}>
+          {/* Cuerpo Central del Satélite GPS */}
+          <mesh position={[0, 0.3, 0]}>
+            <boxGeometry args={[0.6, 0.7, 0.6]} />
+            <meshStandardMaterial color="#e2e8f0" metalness={0.9} roughness={0.2} />
+          </mesh>
+          {/* Paneles Solares Dorados Laterales */}
+          <mesh position={[-1.0, 0.3, 0]}>
+            <boxGeometry args={[1.2, 0.45, 0.04]} />
+            <meshStandardMaterial color="#eab308" roughness={0.2} metalness={0.8} />
+          </mesh>
+          <mesh position={[1.0, 0.3, 0]}>
+            <boxGeometry args={[1.2, 0.45, 0.04]} />
+            <meshStandardMaterial color="#eab308" roughness={0.2} metalness={0.8} />
+          </mesh>
+          {/* Antena Parabólica de Transmisión */}
+          <mesh position={[0, 0.8, 0]} rotation={[0, 0, 0]}>
+            <cylinderGeometry args={[0.4, 0.05, 0.25, 16]} />
+            <meshStandardMaterial color="#38bdf8" metalness={0.9} />
+          </mesh>
+          {/* Baliza de Telemetría Láser */}
+          <mesh position={[0, 1.0, 0]}>
+            <sphereGeometry args={[0.07, 12, 12]} />
+            <meshBasicMaterial color={frame % 30 < 15 ? "#a855f7" : "#38bdf8"} />
+          </mesh>
+        </group>
+      )}
+
+      {type === "geo_scanner" && (
+        <group position={[0, -0.3, 0]}>
+          {/* Base del Geo-Scanner */}
+          <mesh position={[0, 0, 0]}>
+            <boxGeometry args={[1.3, 0.5, 1.3]} />
+            <meshStandardMaterial color="#1e293b" roughness={0.4} metalness={0.8} />
+          </mesh>
+          {/* Pantalla Holográfica de Escaneo de Subsuelo */}
+          <mesh position={[0, 0.6, 0]} rotation={[0.3, frame * 0.04, 0]}>
+            <planeGeometry args={[0.9, 0.6]} />
+            <meshStandardMaterial color="#06b6d4" emissive="#0891b2" emissiveIntensity={0.7} wireframe />
+          </mesh>
+          {/* Sensor Sísmico Inferior */}
+          <mesh position={[0, -0.4, 0]}>
+            <cylinderGeometry args={[0.2, 0.05, 0.5, 12]} />
+            <meshStandardMaterial color="#94a3b8" metalness={0.9} />
+          </mesh>
+        </group>
+      )}
+
+      {type === "teleporter_matrix" && (
+        <group position={[0, -0.2, 0]}>
+          {/* Plataforma de Obsidiana Reforzada */}
+          <mesh position={[0, -0.5, 0]}>
+            <cylinderGeometry args={[1.3, 1.45, 0.3, 16]} />
+            <meshStandardMaterial color="#0f172a" roughness={0.2} metalness={0.8} />
+          </mesh>
+          {/* Anillo de Salto Ender (Púrpura Neón) */}
+          <mesh position={[0, -0.34, 0]}>
+            <cylinderGeometry args={[1.15, 1.15, 0.02, 16]} />
+            <meshBasicMaterial color="#a855f7" />
+          </mesh>
+          {/* Pilares Estabilizadores Cuánticos */}
+          {[-0.8, 0.8].map((px, ix) =>
+            [-0.8, 0.8].map((pz, iz) => (
+              <mesh key={`${ix}-${iz}`} position={[px, 0.2, pz]}>
+                <boxGeometry args={[0.18, 1.2, 0.18]} />
+                <meshStandardMaterial color="#334155" metalness={0.9} />
+              </mesh>
+            ))
+          )}
+          {/* Columna de Luz de Teletransporte */}
+          <mesh position={[0, 0.5, 0]}>
+            <cylinderGeometry args={[0.6, 0.6, 1.5, 16]} />
+            <meshBasicMaterial color="#c084fc" transparent opacity={0.35 + Math.sin(frame * 0.1) * 0.15} />
+          </mesh>
+        </group>
+      )}
+
+      {type === "quantum_elevator" && (
+        <group position={[0, -0.2, 0]}>
+          {/* Placa de Ascensor Inferior */}
+          <mesh position={[0, -0.6, 0]}>
+            <boxGeometry args={[1.2, 0.15, 1.2]} />
+            <meshStandardMaterial color="#1e1b4b" roughness={0.3} metalness={0.8} />
+          </mesh>
+          {/* Placa de Ascensor Superior */}
+          <mesh position={[0, 0.8, 0]}>
+            <boxGeometry args={[1.2, 0.15, 1.2]} />
+            <meshStandardMaterial color="#1e1b4b" roughness={0.3} metalness={0.8} />
+          </mesh>
+          {/* Rayo de Elevación Rápida */}
+          <mesh position={[0, 0.1, 0]}>
+            <cylinderGeometry args={[0.2, 0.2, 1.3, 12]} />
+            <meshBasicMaterial color="#38bdf8" transparent opacity={0.6} />
+          </mesh>
+          {/* Flecha indicadora vertical */}
+          <mesh position={[0, 0.1 + Math.sin(frame * 0.1) * 0.3, 0.65]}>
+            <coneGeometry args={[0.15, 0.3, 8]} />
+            <meshBasicMaterial color="#a855f7" />
+          </mesh>
+        </group>
+      )}
+
+      {type === "security_encryption" && (
+        <group position={[0, -0.2, 0]}>
+          {/* Escudo de Cifrado Cuántico */}
+          <mesh position={[0, 0.2, 0]} rotation={[0, frame * 0.03, 0]}>
+            <icosahedronGeometry args={[0.75, 0]} />
+            <meshStandardMaterial color="#a855f7" emissive="#6b21a8" emissiveIntensity={0.6} wireframe />
+          </mesh>
+          {/* Candado Central Holográfico */}
+          <mesh position={[0, 0.2, 0]}>
+            <boxGeometry args={[0.45, 0.45, 0.2]} />
+            <meshStandardMaterial color="#facc15" metalness={0.8} roughness={0.2} />
+          </mesh>
+          <mesh position={[0, 0.5, 0]}>
+            <torusGeometry args={[0.2, 0.05, 8, 16, Math.PI]} />
+            <meshStandardMaterial color="#e2e8f0" metalness={0.9} />
+          </mesh>
+        </group>
+      )}
+
+      {type === "master_summary" && (
+        <group position={[0, -0.3, 0]}>
+          {/* Complejo Cuántico & Red GPS */}
+          <mesh position={[-0.8, 0, 0]}>
+            <cylinderGeometry args={[0.55, 0.65, 1.0, 16]} />
+            <meshStandardMaterial color="#0f172a" metalness={0.9} />
+          </mesh>
+          {/* Viga Láser hacia el Espacio */}
+          <mesh position={[0, 0.8, 0]}>
+            <cylinderGeometry args={[0.08, 0.08, 1.8, 8]} />
+            <meshBasicMaterial color="#a855f7" />
+          </mesh>
+          {/* Baliza Satelital */}
+          <mesh position={[0.8, 0.2, 0]}>
+            <boxGeometry args={[0.7, 0.7, 0.7]} />
+            <meshStandardMaterial color="#1e1b4b" metalness={0.8} />
+          </mesh>
+        </group>
+      )}
+    </group>
+  );
+};
+
+export const SlimefunCapitulo6: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+
+  // Escena activa
+  const currentSceneIndex = useMemo(() => {
+    let acc = 0;
+    for (let i = 0; i < SCENE_RANGES_SF6.length; i++) {
+      const dur = SCENE_RANGES_SF6[i].durationFrames;
+      if (frame >= acc && frame < acc + dur) return i;
+      acc += dur;
+    }
+    return SCENE_RANGES_SF6.length - 1;
+  }, [frame]);
+
+  const scene = SCENE_RANGES_SF6[currentSceneIndex] || SCENE_RANGES_SF6[0];
+  const sceneLocalFrame = frame - scene.startFrame;
+
+  // Rotación de skins namemc
+  const skinFolder = useMemo(() => {
+    return skinRotation[(currentSceneIndex + 3) % skinRotation.length] || "skins_parts/skin_08_parts";
+  }, [currentSceneIndex]);
+
+  // Captions
+  const captionWords = useMemo(() => {
+    if (!scene.words) return [];
+    return scene.words.map((w: any) => ({
+      w: w.word,
+      t: w.start,
+      d: w.duration,
+    }));
+  }, [scene]);
+
+  // Movimiento de cámara 3D
+  const cameraPos = useMemo(() => {
+    if (scene.camera === "close") return [0, 1.4, 2.7] as [number, number, number];
+    if (scene.camera === "mid") return [0, 1.25, 3.8] as [number, number, number];
+    return [0, 1.15, 4.8] as [number, number, number];
+  }, [scene.camera]);
+
+  const steveAction = (scene.action || "idle") as SteveAction;
+
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#060411", fontFamily: T.font, color: "#ffffff", width: 1280, height: 720 }}>
+      {/* Pistas de Audio Secuenciales */}
+      {SCENE_RANGES_SF6.map((sc: any) => (
+        <Sequence key={sc.id} from={sc.startFrame} durationInFrames={sc.durationFrames}>
+          <Audio src={staticFile(`audio/${sc.audio_file}`)} />
+        </Sequence>
+      ))}
+
+      {/* Grid de Fondo Púrpura Cuántico */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          backgroundImage:
+            "linear-gradient(to right, rgba(168, 85, 247, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(168, 85, 247, 0.05) 1px, transparent 1px)",
+          backgroundSize: "40px 40px",
+          opacity: 0.8,
+        }}
+      />
+
+      {/* Header Superior Tecnológico */}
+      <div
+        style={{
+          position: "absolute",
+          top: 24,
+          left: 40,
+          right: 40,
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          borderBottom: "1px solid rgba(168, 85, 247, 0.25)",
+          paddingBottom: 14,
+          zIndex: 40,
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+          <span
+            style={{
+              backgroundColor: "#a855f7",
+              color: "#020617",
+              fontWeight: 900,
+              fontSize: 16,
+              padding: "4px 12px",
+              borderRadius: 6,
+              letterSpacing: 1.5,
+            }}
+          >
+            DRAKESCRAFT
+          </span>
+          <span style={{ color: "#c084fc", fontSize: 16, fontWeight: 800, letterSpacing: 1 }}>
+            SLIMEFUN GUIDE // EP. 06
+          </span>
+        </div>
+
+        <div style={{ display: "flex", gap: 20, alignItems: "center" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <span
+              style={{
+                width: 10,
+                height: 10,
+                borderRadius: "50%",
+                backgroundColor: "#a855f7",
+                boxShadow: "0 0 10px #a855f7",
+              }}
+            />
+            <span style={{ fontSize: 14, color: "#e9d5ff", fontWeight: 700 }}>GPS SATELLITES: ONLINE</span>
+          </div>
+          <span
+            style={{
+              backgroundColor: "rgba(168, 85, 247, 0.15)",
+              border: "1px solid #a855f7",
+              borderRadius: 6,
+              padding: "4px 10px",
+              color: "#c084fc",
+              fontWeight: 800,
+              fontSize: 13,
+            }}
+          >
+            TPS: 20.0
+          </span>
+        </div>
+      </div>
+
+      {/* Lado Izquierdo: Contenido Informativo y Storyboard */}
+      <div
+        style={{
+          position: "absolute",
+          top: 90,
+          left: 40,
+          width: 580,
+          zIndex: 30,
+        }}
+      >
+        {/* Badge de sección */}
+        <div
+          style={{
+            display: "inline-block",
+            color: "#c084fc",
+            fontSize: 14,
+            fontWeight: 800,
+            letterSpacing: 2,
+            marginBottom: 8,
+            backgroundColor: "rgba(168, 85, 247, 0.12)",
+            padding: "4px 12px",
+            borderRadius: 6,
+            border: "1px solid rgba(168, 85, 247, 0.3)",
+          }}
+        >
+          {scene.badge}
+        </div>
+
+        {/* Título Principal */}
+        <h1
+          style={{
+            fontSize: 34,
+            fontWeight: 900,
+            color: "#ffffff",
+            margin: "0 0 8px 0",
+            lineHeight: 1.15,
+            letterSpacing: 0.5,
+          }}
+        >
+          {scene.title}
+        </h1>
+
+        {/* Subtítulo */}
+        <p
+          style={{
+            fontSize: 16,
+            color: "#e9d5ff",
+            margin: "0 0 20px 0",
+            lineHeight: 1.4,
+            fontWeight: 600,
+          }}
+        >
+          {scene.subtitle}
+        </p>
+
+        {/* Tarjeta de Especificaciones Técnicas */}
+        <div
+          style={{
+            backgroundColor: "rgba(18, 12, 36, 0.85)",
+            border: "1.5px solid rgba(168, 85, 247, 0.4)",
+            borderRadius: 16,
+            padding: "18px 22px",
+            boxShadow: "0 10px 30px rgba(0,0,0,0.6)",
+          }}
+        >
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {scene.text.split(". ").map((bullet: string, bIdx: number) => {
+              if (!bullet.trim()) return null;
+              return (
+                <div key={bIdx} style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
+                  <span style={{ color: "#a855f7", fontSize: 16, fontWeight: 900, marginTop: 1 }}>▶</span>
+                  <span style={{ color: "#e2e8f0", fontSize: 15, lineHeight: 1.4, fontWeight: 500 }}>
+                    {bullet.trim()}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Barra de Progreso de la Masterclass */}
+        <div style={{ marginTop: 20 }}>
+          <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, color: "#64748b", marginBottom: 6 }}>
+            <span>PROGRESIÓN CAPÍTULO 6</span>
+            <span>
+              ESCENA {currentSceneIndex + 1} DE {SCENE_RANGES_SF6.length}
+            </span>
+          </div>
+          <div
+            style={{
+              width: "100%",
+              height: 6,
+              backgroundColor: "rgba(255, 255, 255, 0.1)",
+              borderRadius: 3,
+              overflow: "hidden",
+            }}
+          >
+            <div
+              style={{
+                width: `${((currentSceneIndex + 1) / SCENE_RANGES_SF6.length) * 100}%`,
+                height: "100%",
+                backgroundColor: "#a855f7",
+                borderRadius: 3,
+                transition: "width 0.3s ease",
+              }}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Lado Derecho: Escenario 3D con Jack Presentador + Maquinaria Cuántica */}
+      <div
+        style={{
+          position: "absolute",
+          top: 75,
+          right: 30,
+          width: 630,
+          height: 520,
+          zIndex: 20,
+        }}
+      >
+        <ThreeCanvas
+          width={630}
+          height={520}
+          camera={{ position: cameraPos, fov: 42 }}
+          style={{ background: "transparent" }}
+        >
+          <ambientLight intensity={1.2} />
+          <directionalLight position={[5, 8, 5]} intensity={1.8} color="#ffffff" />
+          <pointLight position={[-3, 2, 2]} color="#a855f7" intensity={2.5} distance={8} />
+          <pointLight position={[3, -1, 1]} color="#38bdf8" intensity={1.8} distance={6} />
+
+          {/* Pedestal tech de soporte */}
+          <mesh position={[0, -0.95, 0]}>
+            <cylinderGeometry args={[2.2, 2.4, 0.2, 32]} />
+            <meshStandardMaterial color="#0c0a1a" roughness={0.3} metalness={0.9} />
+          </mesh>
+          <mesh position={[0, -0.84, 0]}>
+            <cylinderGeometry args={[2.1, 2.1, 0.02, 32]} />
+            <meshBasicMaterial color="#a855f7" />
+          </mesh>
+
+          {/* Presentador Jack (Steve3D) a la izquierda del pedestal */}
+          <group position={[-0.8, -0.15, 0.3]}>
+            <Steve3D
+              position={[0, -0.1, 0]}
+              rotation={[0, 0.35 + Math.sin(frame * 0.03) * 0.1, 0]}
+              scale={0.95}
+              action={steveAction}
+              skinFolder={skinFolder}
+            />
+          </group>
+
+          {/* Maquinaria Cuántica 3D a la derecha del pedestal */}
+          <group position={[0.75, 0.05, 0]}>
+            <Quantum3D type={scene.diagram} frame={frame} />
+          </group>
+        </ThreeCanvas>
+      </div>
+
+      {/* Subtítulos Dinámicos Inferiores */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: 45,
+          left: 40,
+          right: 40,
+          zIndex: 40,
+          minHeight: 55,
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <Captions
+          text={scene.spoken_text}
+          frame={sceneLocalFrame}
+          words={captionWords}
+        />
+      </div>
+
+      {/* Footer de Marca e IP */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: 12,
+          left: 40,
+          right: 40,
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          borderTop: "1px solid rgba(255, 255, 255, 0.08)",
+          paddingTop: 8,
+          fontSize: 13,
+          color: "#64748b",
+          zIndex: 40,
+        }}
+      >
+        <span>CONÉCTATE: play.drakescraft.cl:25565 (Java & Bedrock)</span>
+        <span>DISCORD: https://discord.gg/drakescraft</span>
+        <span>SRE INFRASTRUCTURE // ZERO LAG</span>
+      </div>
+    </AbsoluteFill>
+  );
+};
