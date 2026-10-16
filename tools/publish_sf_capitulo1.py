@@ -109,7 +109,7 @@ def upload_sf1(video_path):
         "4:41 - Multibloque 3: Forja de Armaduras (Armor Forge) y acero de Damasco\n"
         "5:00 - Multibloque 4: Triturador de Minerales (Ore Crusher) para duplicar menas\n"
         "5:22 - Multibloque 5: Horno de Fundición (The Smeltery) y aleaciones pirometalúrgicas\n"
-        "5:44 - Multibloques Avanzados: Caldero de Presión (Diamantes) y Mesa Mágica (Runas)\n"
+        "5:44 - Multibloques Avanzados: Cámara de Presión 3x3 (Diamantes) y Mesa Mágica 1x3\n"
         "6:04 - Hoja de Ruta para tu Primera Sesión en DrakesCraft\n\n"
         "Conéctate al Servidor Oficial:\n"
         "IP: play.drakescraft.cl:25565 (Java & Bedrock)\n"

@@ -28,7 +28,7 @@ export const SCENE_RANGES_SF1 = SCENES_SF1.map((sec: any) => {
 
 export const TOTAL_SF_CAPITULO1_FRAMES = accFramesSF1 + 90; // ~9,700 frames (~5.4 min)
 
-// Multibloques 3D de Slimefun con celdas y materiales oficiales
+// Multibloques 3D de Slimefun con celdas y materiales 100% canónicos (Slimefun4-Drake)
 const MULTIBLOCK_CELLS: Record<string, VoxelCell[]> = {
   enhanced_crafting_table: [
     { x: 0, y: 0, material: "DISPENSER" },
@@ -43,27 +43,37 @@ const MULTIBLOCK_CELLS: Record<string, VoxelCell[]> = {
     { x: 0, y: 1, material: "ANVIL" },
   ],
   ore_crusher: [
-    { x: 0, y: 0, material: "DISPENSER" },
-    { x: 0, y: 1, material: "NETHER_BRICK_FENCE" },
     { x: -1, y: 0, material: "IRON_BARS" },
+    { x: 0, y: 0, material: "DISPENSER" },
     { x: 1, y: 0, material: "IRON_BARS" },
+    { x: 0, y: 1, material: "NETHER_BRICK_FENCE" },
   ],
   smeltery: [
-    { x: 0, y: -1, material: "FLINT_AND_STEEL" },
-    { x: 0, y: 0, material: "CAULDRON" },
-    { x: 0, y: 1, material: "NETHER_BRICK_FENCE" },
-    { x: 0, y: 2, material: "DISPENSER" },
+    { x: 0, y: 0, material: "FLINT_AND_STEEL" },
+    { x: -1, y: 1, material: "NETHER_BRICKS" },
+    { x: 0, y: 1, material: "DISPENSER" },
+    { x: 1, y: 1, material: "NETHER_BRICKS" },
+    { x: 0, y: 2, material: "NETHER_BRICK_FENCE" },
   ],
   pressure_chamber: [
-    { x: 0, y: -1, material: "DISPENSER" },
+    // Fila inferior (y = 0): Pistón - Caldero - Pistón
+    { x: -1, y: 0, material: "PISTON" },
     { x: 0, y: 0, material: "CAULDRON" },
+    { x: 1, y: 0, material: "PISTON" },
+    // Fila media (y = 1): Pistón - Cristal - Pistón
+    { x: -1, y: 1, material: "PISTON" },
     { x: 0, y: 1, material: "GLASS" },
-    { x: 0, y: 2, material: "PISTON" },
+    { x: 1, y: 1, material: "PISTON" },
+    // Fila superior (y = 2): Losa - Dispensador - Losa
+    { x: -1, y: 2, material: "SMOOTH_STONE_SLAB" },
+    { x: 0, y: 2, material: "DISPENSER" },
+    { x: 1, y: 2, material: "SMOOTH_STONE_SLAB" },
   ],
   magic_workbench: [
-    { x: 0, y: -1, material: "DISPENSER" },
+    // Fila en el suelo (y = 0): Librería - Mesa de Trabajo - Dispensador
+    { x: -1, y: 0, material: "BOOKSHELF" },
     { x: 0, y: 0, material: "CRAFTING_TABLE" },
-    { x: 0, y: 1, material: "BOOKSHELF" },
+    { x: 1, y: 0, material: "DISPENSER" },
   ],
 };
 
@@ -81,24 +91,33 @@ const TexturedMultiblock3D: React.FC<{ type: string; frame: number }> = ({ type,
   const tex = useTextures(ALL_MB_PATHS);
   const cells = MULTIBLOCK_CELLS[type] || MULTIBLOCK_CELLS["enhanced_crafting_table"];
   const minY = Math.min(...cells.map((c) => c.y));
-  const maxY = Math.max(...cells.map((c) => c.y));
-  const heightSpan = maxY - minY + 1;
-  const mbScale = heightSpan >= 4 ? 0.44 : heightSpan >= 3 ? 0.54 : 0.62;
 
-  // El pedestal está en Y = -0.81.
-  // La base inferior del bloque más bajo está en (minY - 0.5) * mbScale.
-  // Para que repose exactamente sobre el pedestal sin traspasarlo jamás:
-  const groupY = -0.81 - (minY - 0.5) * mbScale;
+  // Escalas optimizadas para que cada multibloque luzca imponente pero quepa con holgura
+  const mbScale =
+    type === "pressure_chamber"
+      ? 0.38
+      : type === "smeltery"
+      ? 0.40
+      : type === "magic_workbench"
+      ? 0.46
+      : type === "ore_crusher"
+      ? 0.46
+      : 0.54;
+
+  // El pedestal está en Y = -0.80.
+  // Con rotación pura sobre el eje Y (sin inclinación en X), la base se mantiene 100% horizontal y plana.
+  // Colocamos la base del bloque inferior a Y = -0.78, reposando limpiamente sobre la superficie sin traspasarla jamás.
+  const groupY = -0.78 - (minY - 0.5) * mbScale;
 
   return (
     <group
-      rotation={[0.15, 0.4 + frame * 0.016, 0]}
+      rotation={[0, 0.4 + frame * 0.016, 0]}
       position={[0, groupY, 0]}
       scale={[mbScale, mbScale, mbScale]}
     >
       {cells.map((cell, idx) => (
         <Block
-          key={`${cell.material}-${cell.x}-${cell.y}-${idx}`}
+          key={`${cell.material}-${cell.x}-${cell.y}-${cell.z ?? 0}-${idx}`}
           cell={cell}
           tex={tex}
           scale={1}
