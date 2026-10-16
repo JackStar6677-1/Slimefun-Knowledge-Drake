@@ -8,6 +8,7 @@ import { PromoV2, promoFrames } from "./Promo";
 import { StartYT, StartReel, startYtFrames, startReelFrames } from "./Start";
 import { NetworksEpisode } from "./NetworksEpisode";
 import { NetworksReel } from "./NetworksReel";
+import { PresentationShort } from "./PresentationShort";
 
 export const Root = () => (
   <>
@@ -21,5 +22,6 @@ export const Root = () => (
     <Composition id="PromoV2" component={PromoV2} durationInFrames={promoFrames()} fps={FPS} width={1080} height={1920} />
     <Composition id="NetworksTutorial" component={NetworksEpisode} durationInFrames={900} fps={30} width={1920} height={1080} />
     <Composition id="NetworksReel" component={NetworksReel} durationInFrames={900} fps={30} width={1080} height={1920} />
+    <Composition id="PresentationShort" component={PresentationShort} durationInFrames={1440} fps={30} width={1080} height={1920} />
   </>
 );
