@@ -271,10 +271,15 @@ export const NetworksReel: React.FC = () => {
         </div>
       </div>
 
-      {/* 8. Simulación RingLab interactiva en la mitad inferior (y = 1190 a 1920) */}
-      <BottomLoop name="ring" top={1190} seed="halloween-networks" />
+      {/* 8. Simulación destructiva satisfactoria con 3 bolas (100% bloques rotos al final) */}
+      <BottomLoop name="satisfying_breaker" top={1190} seed="halloween-networks" />
 
-      {/* 9. Audio de los pasos del tutorial */}
+      {/* 9. Música de fondo procedural tecnológica Lo-Fi suave */}
+      <Sequence from={0} durationInFrames={900}>
+        <Audio src={staticFile("audio/bg_tech_chill.wav")} volume={0.16} />
+      </Sequence>
+
+      {/* 10. Audio de los pasos del tutorial */}
       <Sequence from={0} durationInFrames={180}>
         <Audio src={staticFile("audio/step1_intro.mp3")} />
       </Sequence>

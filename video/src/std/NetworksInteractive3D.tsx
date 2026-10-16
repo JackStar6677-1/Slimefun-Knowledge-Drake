@@ -225,40 +225,44 @@ export const NetworksInteractive3D: React.FC<NetworksInteractiveProps> = ({
           <pointLight color="#ff4757" intensity={1.0} distance={1.8} />
         </group>
 
-        {/* --- 3. INFRAESTRUCTURA DE CABLE / NETWORK BRIDGE CANÓNICO (x = -1.0 a +1.0) --- */}
+        {/* --- 3. INFRAESTRUCTURA DE CABLE / NETWORK CABLE & BRIDGE CANÓNICO (x = -1.0 a +1.0) --- */}
         <group position={[0, 0.5, 0]}>
+          {/* Tubo de cristal translúcido izquierdo */}
           <mesh position={[-0.6, 0, 0]}>
-            <boxGeometry args={[0.85, 0.22, 0.22]} />
-            <meshLambertMaterial color="#1e272e" />
+            <boxGeometry args={[0.85, 0.3, 0.3]} />
+            <meshLambertMaterial color="#00d2d3" transparent={true} opacity={0.55} />
           </mesh>
+          {/* Núcleo de fibra óptica brillante interior */}
           <mesh position={[-0.6, 0, 0]}>
             <boxGeometry args={[0.85, 0.1, 0.1]} />
-            <meshBasicMaterial color="#3867d6" />
+            <meshBasicMaterial color="#00ffff" />
           </mesh>
 
-          {/* NODO CENTRAL: NETWORK BRIDGE */}
+          {/* NODO CENTRAL: NETWORK BRIDGE / CONTROLLER EN BLOQUE DE CRISTAL PURPURA */}
           <mesh position={[0, 0, 0]}>
-            <boxGeometry args={[0.42, 0.42, 0.42]} />
-            <meshLambertMaterial color="#34495e" />
+            <boxGeometry args={[0.46, 0.46, 0.46]} />
+            <meshLambertMaterial color="#a55eea" transparent={true} opacity={0.65} />
           </mesh>
           <mesh position={[0, 0, 0]}>
             <boxGeometry args={[0.26, 0.26, 0.26]} />
-            <meshBasicMaterial color={activeStep === "transferring" ? "#00d2d3" : "#ffa801"} />
+            <meshBasicMaterial color={activeStep === "transferring" ? "#00ffff" : "#ffa801"} />
           </mesh>
           <pointLight
             position={[0, 0, 0]}
-            color={activeStep === "transferring" ? "#00d2d3" : "#ffa801"}
-            intensity={1.2}
-            distance={2.5}
+            color={activeStep === "transferring" ? "#00ffff" : "#ffa801"}
+            intensity={1.4}
+            distance={2.8}
           />
 
+          {/* Tubo de cristal translúcido derecho */}
           <mesh position={[0.6, 0, 0]}>
-            <boxGeometry args={[0.85, 0.22, 0.22]} />
-            <meshLambertMaterial color="#1e272e" />
+            <boxGeometry args={[0.85, 0.3, 0.3]} />
+            <meshLambertMaterial color="#00d2d3" transparent={true} opacity={0.55} />
           </mesh>
+          {/* Núcleo de fibra óptica brillante derecho */}
           <mesh position={[0.6, 0, 0]}>
             <boxGeometry args={[0.85, 0.1, 0.1]} />
-            <meshBasicMaterial color="#3867d6" />
+            <meshBasicMaterial color="#00ffff" />
           </mesh>
         </group>
 

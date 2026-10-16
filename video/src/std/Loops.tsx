@@ -241,14 +241,17 @@ export const BottomVideo: React.FC<{ file: string }> = ({ file }) => (
   </AbsoluteFill>
 );
 
-export type LoopName = "dust" | "ring" | `video:${string}`;
-export const BottomLoop: React.FC<{ name: LoopName; top?: number; seed?: string }> = ({ name, top = 1230, seed = "drakescraft" }) => {
-  const { width, height } = useVideoConfig();
+import { SatisfyingBallBreaker } from "./SatisfyingBallBreaker";
+
+export type LoopName = "dust" | "ring" | "satisfying_breaker" | `video:${string}`;
+export const BottomLoop: React.FC<{ name: LoopName; top?: number; seed?: string }> = ({ name = "satisfying_breaker", top = 1230, seed = "drakescraft" }) => {
+  const { width, height, durationInFrames } = useVideoConfig();
   const h = height - top;
   return (
     <div style={{ position: "absolute", left: 0, right: 0, top, height: h, overflow: "hidden", borderTop: "4px solid rgba(255,210,74,.5)", background: "linear-gradient(#0a1c16, #06110d)" }}>
       {name === "dust" && <DustPile w={width} h={h} />}
       {name === "ring" && <RingLab w={width} h={h} seed={seed} />}
+      {name === "satisfying_breaker" && <SatisfyingBallBreaker w={width} h={h} seed={seed} totalDuration={durationInFrames} />}
       {name.startsWith("video:") && <BottomVideo file={name.slice(6)} />}
     </div>
   );
