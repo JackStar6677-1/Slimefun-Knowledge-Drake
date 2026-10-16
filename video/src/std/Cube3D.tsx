@@ -55,7 +55,8 @@ const Block: React.FC<{ cell: VoxelCell; tex: Record<string, THREE.Texture>; sca
     const glass = info?.shape === "glass";
     const extra = glass ? { transparent: true, alphaTest: 0.2 } : info?.shape === "bars" ? { transparent: true, alphaTest: 0.5 } : {};
     const front = t("north", ["south", "east", "up"]);
-    return [t("east", ["north"]), t("west", ["east", "north"]), t("up", ["north"]), t("down", ["up"]), front, front].map((m) => mat(m, cell.material === "FLINT_AND_STEEL" ? "#ff8a1f" : "#5a5a5a", extra));
+    const back = t("south", ["north", "east", "up"]);
+    return [t("east", ["north"]), t("west", ["east", "north"]), t("up", ["north"]), t("down", ["up"]), front, back].map((m) => mat(m, cell.material === "FLINT_AND_STEEL" ? "#ff8a1f" : "#5a5a5a", extra));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tex, cell.material]);
   const shape = cell.material === "FLINT_AND_STEEL" ? "fire" : info?.shape ?? "cube";
@@ -81,6 +82,8 @@ const Block: React.FC<{ cell: VoxelCell; tex: Record<string, THREE.Texture>; sca
         </>
       ) : shape === "fire" ? (
         <mesh material={mat(undefined, "#ff8a1f", { emissive: new THREE.Color("#ff5a00"), emissiveIntensity: 0.8 })}><boxGeometry args={[0.7, 0.8, 0.7]} /></mesh>
+      ) : shape === "chest" ? (
+        <mesh material={materials} position={[0, -0.0625, 0]}><boxGeometry args={[0.875, 0.875, 0.875]} /></mesh>
       ) : (
         <mesh material={materials}><boxGeometry args={[shape === "cauldron" ? 0.96 : 1, 1, shape === "cauldron" ? 0.96 : 1]} /></mesh>
       )}

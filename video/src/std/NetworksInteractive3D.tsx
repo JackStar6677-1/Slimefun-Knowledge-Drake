@@ -84,7 +84,9 @@ export const NetworksInteractive3D: React.FC<NetworksInteractiveProps> = ({
     const side = m(`blocks/${folder}/east.png`);
     const top = m(`blocks/${folder}/up.png`);
     const front = m(`blocks/${folder}/${frontFace}`);
-    return [side, side, top, top, front, side];
+    const bottom = m(`blocks/${folder}/down.png`);
+    const back = m(`blocks/${folder}/south.png`);
+    return [side, side, top, bottom, front, back];
   };
 
   const chestMats = useMemo(() => createCubeMat("CHEST", "#8b5a2b"), [textures]);
@@ -204,9 +206,9 @@ export const NetworksInteractive3D: React.FC<NetworksInteractiveProps> = ({
         })}
 
         {/* --- 1. COFRE ORIGEN (x = -1.95) --- */}
-        <group position={[-1.95, 0.5, 0]}>
+        <group position={[-1.95, 0.44, 0]}>
           <mesh material={chestMats}>
-            <boxGeometry args={[0.96, 0.96, 0.96]} />
+            <boxGeometry args={[0.875, 0.875, 0.875]} />
           </mesh>
         </group>
 

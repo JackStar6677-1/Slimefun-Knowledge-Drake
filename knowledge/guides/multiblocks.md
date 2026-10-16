@@ -2,25 +2,25 @@
 
 Generated from the runtime dump (Slimefun `11.0-Drake-1.21.11-SNAPSHOT`) and the core source. Every statement below cites the line it comes from; `review in code` means the pattern was not detected automatically.
 
-Only lines that assign the dispenser block are used (`possibleDispenser`/`dispBlock = b.getRelative(...)`); `review in code` means the machine does not follow that pattern (for example the Smeltery uses the block below for its fire, not for a dispenser).
+Only lines that assign the dispenser block or internal container are used; every entry below is verified directly against Slimefun4-Drake source code.
 
-| Multiblock | Dispenser is | Uses Output Chest | Recipes | Recipes with output > 1 | Source |
+| Multiblock | Dispenser / Container | Uses Output Chest | Recipes | Recipes with output > 1 | Source |
 |---|---|---|---|---|---|
-| Advanced Industrial Miner (`ADVANCED_INDUSTRIAL_MINER`) | review in code | review in code | 0 | 0 | - |
+| Advanced Industrial Miner (`ADVANCED_INDUSTRIAL_MINER`) | none (chest above clicked blast furnace) | no (uses integrated chest) | 0 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/miner/IndustrialMiner.java:184` |
 | Armor Forge (`ARMOR_FORGE`) | below the clicked block | yes | 119 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/ArmorForge.java:38` |
-| Automated Panning Machine (`AUTOMATED_PANNING_MACHINE`) | review in code | yes | 0 | 0 | - |
+| Automated Panning Machine (`AUTOMATED_PANNING_MACHINE`) | none (hand input on oak trapdoor) | yes (adjacent to cauldron) | 0 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/AutomatedPanningMachine.java:96` |
 | Compressor (`COMPRESSOR`) | below the clicked block | yes | 18 | 1 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/Compressor.java:61` |
 | Enhanced Crafting Table (`ENHANCED_CRAFTING_TABLE`) | below the clicked block | yes | 2069 | 83 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/EnhancedCraftingTable.java:39` |
 | Grind Stone (`GRIND_STONE`) | below the clicked block | yes | 19 | 13 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/GrindStone.java:121` |
-| Industrial Miner (`INDUSTRIAL_MINER`) | review in code | review in code | 0 | 0 | - |
+| Industrial Miner (`INDUSTRIAL_MINER`) | none (chest above clicked blast furnace) | no (uses integrated chest) | 0 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/miner/IndustrialMiner.java:184` |
 | Juicer (`JUICER`) | below the clicked block | yes | 29 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/Juicer.java:57` |
-| Magic Workbench (`MAGIC_WORKBENCH`) | review in code | yes | 181 | 19 | - |
-| Makeshift Smeltery (`MAKESHIFT_SMELTERY`) | review in code | review in code | 0 | 0 | - |
+| Magic Workbench (`MAGIC_WORKBENCH`) | horizontally adjacent to crafting table | yes | 181 | 19 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/MagicWorkbench.java:78,120` |
+| Makeshift Smeltery (`MAKESHIFT_SMELTERY`) | below the clicked block | yes | 0 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/AbstractSmeltery.java:44` |
 | Ore Crusher (`ORE_CRUSHER`) | below the clicked block | yes | 16 | 2 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/OreCrusher.java:185` |
 | Ore Washer (`ORE_WASHER`) | above the clicked block | yes | 11 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/OreWasher.java:95` |
 | Pressure Chamber (`PRESSURE_CHAMBER`) | above the clicked block | yes | 3 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/PressureChamber.java:46` |
-| Smeltery (`SMELTERY`) | review in code | review in code | 119 | 1 | - |
-| Table Saw (`TABLE_SAW`) | review in code | yes | 0 | 0 | - |
+| Smeltery (`SMELTERY`) | below the clicked block | yes | 119 | 1 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/AbstractSmeltery.java:44` |
+| Table Saw (`TABLE_SAW`) | none (hand input on stonecutter) | yes (adjacent to stonecutter) | 0 | 0 | `Slimefun4-Drake/src/main/java/com/github/drakescraft_labs/slimefun4/implementation/items/multiblocks/TableSaw.java:144` |
 
 ## Patterns (front view, top row first; `·` = empty)
 
