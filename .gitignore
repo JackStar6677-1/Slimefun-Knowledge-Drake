@@ -30,3 +30,6 @@ video/out/
 # Generated video outputs
 video/out/
 video/scripts/__pycache__/
+*.pickle
+tools/token.pickle
+video/public/skins/
