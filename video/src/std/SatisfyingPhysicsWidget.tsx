@@ -4,6 +4,7 @@ import { useCurrentFrame } from "remotion";
 interface Props {
   width?: number;
   height?: number;
+  compact?: boolean;
   style?: React.CSSProperties;
 }
 
@@ -25,6 +26,7 @@ interface TrailPoint {
 export const SatisfyingPhysicsWidget: React.FC<Props> = ({
   width = 380,
   height = 380,
+  compact = false,
   style,
 }) => {
   const frame = useCurrentFrame();
@@ -55,8 +57,8 @@ export const SatisfyingPhysicsWidget: React.FC<Props> = ({
     const trailHistory: { x: number; y: number }[] = [];
     const recentSparks: Particle[] = [];
 
-    // Simular desde frame 0 hasta frame actual
-    const maxF = Math.min(frame, 3600);
+    // Simular loop continuo de 900 frames (30s) para que nunca se congele en videos largos
+    const maxF = frame % 900;
     for (let f = 0; f <= maxF; f++) {
       // Gravedad sutil constante hacia abajo
       vy += 0.17;
@@ -206,17 +208,19 @@ export const SatisfyingPhysicsWidget: React.FC<Props> = ({
 
   const { ball, trail, sparks, rings, stats } = simulation;
 
+  const isCompact = compact || (height !== undefined && height < 250);
+
   return (
     <div
       style={{
         width,
         height,
         backgroundColor: "rgba(10, 15, 30, 0.94)",
-        border: "2px solid rgba(56, 189, 248, 0.5)",
-        borderRadius: 22,
-        padding: 12,
+        border: isCompact ? "1.5px solid rgba(56, 189, 248, 0.4)" : "2px solid rgba(56, 189, 248, 0.5)",
+        borderRadius: isCompact ? 14 : 22,
+        padding: isCompact ? 8 : 12,
         boxSizing: "border-box",
-        boxShadow: "0 12px 35px rgba(0,0,0,0.8), inset 0 0 25px rgba(56,189,248,0.15)",
+        boxShadow: "0 10px 30px rgba(0,0,0,0.8), inset 0 0 20px rgba(56,189,248,0.12)",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
@@ -232,14 +236,14 @@ export const SatisfyingPhysicsWidget: React.FC<Props> = ({
           justifyContent: "space-between",
           alignItems: "center",
           borderBottom: "1px solid rgba(255,255,255,0.1)",
-          paddingBottom: 6,
+          paddingBottom: isCompact ? 4 : 6,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 7 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: isCompact ? 5 : 7 }}>
           <div
             style={{
-              width: 9,
-              height: 9,
+              width: isCompact ? 6 : 9,
+              height: isCompact ? 6 : 9,
               borderRadius: "50%",
               backgroundColor: "#10b981",
               boxShadow: "0 0 8px #10b981",
@@ -248,24 +252,24 @@ export const SatisfyingPhysicsWidget: React.FC<Props> = ({
           <span
             style={{
               color: "#38bdf8",
-              fontSize: 12,
+              fontSize: isCompact ? 9 : 12,
               fontWeight: 900,
-              letterSpacing: 1.5,
+              letterSpacing: isCompact ? 1 : 1.5,
               fontFamily: "monospace",
             }}
           >
             PHYSICS LOOP · 60 FPS
           </span>
         </div>
-        <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+        <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
           <span
             style={{
               color: "#facc15",
-              fontSize: 11,
+              fontSize: isCompact ? 9 : 11,
               fontWeight: 900,
               fontFamily: "monospace",
               backgroundColor: "rgba(250, 204, 21, 0.15)",
-              padding: "2px 6px",
+              padding: isCompact ? "1px 4px" : "2px 6px",
               borderRadius: 4,
             }}
           >
@@ -279,13 +283,20 @@ export const SatisfyingPhysicsWidget: React.FC<Props> = ({
         style={{
           position: "relative",
           width: "100%",
-          height: 260,
+          flex: 1,
+          minHeight: 0,
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          overflow: "hidden",
         }}
       >
-        <svg width="340" height="260" viewBox="0 0 380 380">
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 380 380"
+          preserveAspectRatio="xMidYMid meet"
+        >
           <defs>
             <radialGradient id="arenaGlow" cx="50%" cy="50%" r="50%">
               <stop offset="0%" stopColor="#0284c7" stopOpacity="0.15" />
@@ -408,19 +419,19 @@ export const SatisfyingPhysicsWidget: React.FC<Props> = ({
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr 1fr",
-          gap: 6,
+          gap: isCompact ? 4 : 6,
           backgroundColor: "rgba(15, 23, 42, 0.85)",
-          borderRadius: 10,
-          padding: "6px 8px",
+          borderRadius: isCompact ? 6 : 10,
+          padding: isCompact ? "3px 6px" : "6px 8px",
           border: "1px solid rgba(255,255,255,0.08)",
           fontFamily: "monospace",
-          fontSize: 11,
+          fontSize: isCompact ? 9 : 11,
           textAlign: "center",
         }}
       >
         <div>
           <span style={{ color: "#64748b" }}>VEL: </span>
-          <span style={{ color: "#38bdf8", fontWeight: 800 }}>{stats.vMag} m/s</span>
+          <span style={{ color: "#38bdf8", fontWeight: 800 }}>{stats.vMag}</span>
         </div>
         <div>
           <span style={{ color: "#64748b" }}>DIR: </span>
@@ -428,7 +439,7 @@ export const SatisfyingPhysicsWidget: React.FC<Props> = ({
         </div>
         <div>
           <span style={{ color: "#64748b" }}>EK: </span>
-          <span style={{ color: "#4ade80", fontWeight: 800 }}>{stats.energy} J</span>
+          <span style={{ color: "#4ade80", fontWeight: 800 }}>{stats.energy}J</span>
         </div>
       </div>
     </div>

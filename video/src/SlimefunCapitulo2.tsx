@@ -6,6 +6,8 @@ import { Captions } from "./std/Captions";
 import { ThreeCanvas } from "@remotion/three";
 import storyboardData from "./sf-capitulo2-storyboard.json";
 import skinRotation from "./skin_rotation.json";
+import { StandardMasterclassBackground } from "./std/MasterclassLayout";
+import { SatisfyingPhysicsWidget } from "./std/SatisfyingPhysicsWidget";
 
 export const SCENES_SF2 = storyboardData.scenes;
 
@@ -164,51 +166,62 @@ export const SlimefunCapitulo2: React.FC = () => {
   }, [currentScene]);
 
   return (
-    <AbsoluteFill style={{ backgroundColor: "#040d1a", fontFamily: T.font, color: "#ffffff", width: 1280, height: 720 }}>
-      {/* Header Superior Técnico */}
+    <AbsoluteFill style={{ backgroundColor: "#02060a", fontFamily: T.font, color: "#ffffff", width: 1280, height: 720 }}>
+      {/* 1. Fondo Animado Estandarizado (Cyber Grid + Slimefun Floating Items + Nebula Glow) */}
+      <StandardMasterclassBackground frame={frame} />
+
+      {/* 2. Audio Lo-Fi Continuo de Fondo */}
+      <Audio src={staticFile("audio/bg_tech_chill.wav")} volume={0.12} loop />
+
+      {/* 3. Widget de Física Real con Círculos y Bolas (Esquina Superior Derecha) */}
+      <div style={{ position: "absolute", top: 12, right: 35, zIndex: 50 }}>
+        <SatisfyingPhysicsWidget width={195} height={100} compact={true} />
+      </div>
+
+      {/* 4. Header Superior Técnico */}
       <div
         style={{
           position: "absolute",
-          top: 24,
+          top: 20,
           left: 40,
-          right: 40,
+          right: 245,
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
           borderBottom: "1.5px solid rgba(245, 158, 11, 0.3)",
-          paddingBottom: 14,
+          paddingBottom: 12,
           zIndex: 40,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <span
             style={{
               backgroundColor: "#d97706",
               color: "#ffffff",
               fontWeight: 900,
-              fontSize: 15,
-              padding: "4px 14px",
+              fontSize: 14,
+              padding: "4px 12px",
               borderRadius: 6,
-              letterSpacing: 2,
+              letterSpacing: 1.5,
             }}
           >
             SLIMEFUN GUÍA MAESTRA
           </span>
-          <span style={{ color: "#fbbf24", fontSize: 16, fontWeight: 900, letterSpacing: 1.5 }}>
+          <span style={{ color: "#fbbf24", fontSize: 15, fontWeight: 900, letterSpacing: 1 }}>
             CAPÍTULO 2 // REDES ELÉCTRICAS & ENERGÍA
           </span>
         </div>
 
-        <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+        <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
           <div
             style={{
               backgroundColor: "rgba(245, 158, 11, 0.15)",
               border: "1px solid #f59e0b",
               borderRadius: 14,
-              padding: "4px 12px",
+              padding: "3px 10px",
               color: "#fbbf24",
               fontWeight: 900,
-              fontSize: 14,
+              fontSize: 12,
             }}
           >
             ENERGYNET JOULES
@@ -218,10 +231,10 @@ export const SlimefunCapitulo2: React.FC = () => {
               backgroundColor: "rgba(34, 197, 94, 0.15)",
               border: "1px solid #22c55e",
               borderRadius: 14,
-              padding: "4px 12px",
+              padding: "3px 10px",
               color: "#4ade80",
               fontWeight: 900,
-              fontSize: 14,
+              fontSize: 12,
             }}
           >
             20.0 TPS · ZERO LAG
@@ -350,37 +363,46 @@ export const SlimefunCapitulo2: React.FC = () => {
           <ThreeCanvas
             width={520}
             height={460}
-            camera={{ position: [0, 1.3, 4.0], fov: 40 }}
+            camera={{ position: [0, 0.72, 4.2], fov: 36 }}
             style={{ background: "transparent" }}
           >
-            <ambientLight intensity={1.4} />
+            <ambientLight intensity={1.35} />
             <directionalLight position={[4, 6, 4]} intensity={1.8} color="#ffffff" />
             <pointLight position={[-3, 2, 2]} color="#f59e0b" intensity={2.5} distance={8} />
             <pointLight position={[3, -1, 1]} color="#06b6d4" intensity={1.6} distance={6} />
 
-            {/* Pedestal tech */}
-            <mesh position={[0, -0.9, 0]}>
+            {/* Pedestal tech estilizado de Minecraft */}
+            <mesh position={[0, -0.92, 0]}>
               <cylinderGeometry args={[1.5, 1.7, 0.2, 32]} />
-              <meshStandardMaterial color="#0f172a" roughness={0.3} metalness={0.8} />
+              <meshStandardMaterial color="#0b131e" roughness={0.3} metalness={0.8} />
             </mesh>
-            <mesh position={[0, -0.79, 0]}>
-              <cylinderGeometry args={[1.45, 1.45, 0.02, 32]} />
+            <mesh position={[0, -0.815, 0]}>
+              <cylinderGeometry args={[1.45, 1.45, 0.01, 32]} />
+              <meshStandardMaterial color="#111c2a" roughness={0.4} metalness={0.6} />
+            </mesh>
+            {/* Anillos de neón integrados en el suelo */}
+            <mesh position={[0, -0.805, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+              <ringGeometry args={[1.30, 1.36, 32]} />
               <meshBasicMaterial color="#f59e0b" />
             </mesh>
+            <mesh position={[0, -0.805, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+              <ringGeometry args={[0.92, 0.96, 32]} />
+              <meshBasicMaterial color="#06b6d4" />
+            </mesh>
 
-            {/* Jack 3D a la izquierda */}
+            {/* Jack 3D a la izquierda con escala 0.58: cabeza segura con >50% margen superior */}
             <group position={[-0.45, -0.15, 0]}>
               <Steve3D
                 position={pos}
                 rotation={rot}
                 action={action}
-                scale={1.1}
-                skinPartPath={currentSkinPart}
+                scale={0.58}
+                skinFolder="skins_parts/skin_01_parts"
               />
             </group>
 
-            {/* Máquina 3D a la derecha */}
-            <group position={[0.7, 0.2, 0.4]}>
+            {/* Máquina 3D a la derecha con base apoyada en Y = -0.81 */}
+            <group position={[0.62, -0.41, 0.2]}>
               <EnergyMachine3D type={machineType} frame={frame} />
             </group>
           </ThreeCanvas>

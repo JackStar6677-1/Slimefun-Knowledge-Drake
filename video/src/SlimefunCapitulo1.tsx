@@ -8,6 +8,8 @@ import { Block, INDEX, useTextures, VoxelCell } from "./std/Cube3D";
 import { ChestGui, Icon, SlotData } from "./Guide";
 import storyboardData from "./sf-capitulo1-storyboard.json";
 import skinRotation from "./skin_rotation.json";
+import { StandardMasterclassBackground } from "./std/MasterclassLayout";
+import { SatisfyingPhysicsWidget } from "./std/SatisfyingPhysicsWidget";
 
 export const SCENES_SF1 = storyboardData.scenes;
 
@@ -80,14 +82,18 @@ const TexturedMultiblock3D: React.FC<{ type: string; frame: number }> = ({ type,
   const cells = MULTIBLOCK_CELLS[type] || MULTIBLOCK_CELLS["enhanced_crafting_table"];
   const minY = Math.min(...cells.map((c) => c.y));
   const maxY = Math.max(...cells.map((c) => c.y));
-  const cy = (minY + maxY) / 2;
   const heightSpan = maxY - minY + 1;
-  const mbScale = heightSpan >= 4 ? 0.46 : heightSpan >= 3 ? 0.58 : 0.68;
+  const mbScale = heightSpan >= 4 ? 0.44 : heightSpan >= 3 ? 0.54 : 0.62;
+
+  // El pedestal está en Y = -0.81.
+  // La base inferior del bloque más bajo está en (minY - 0.5) * mbScale.
+  // Para que repose exactamente sobre el pedestal sin traspasarlo jamás:
+  const groupY = -0.81 - (minY - 0.5) * mbScale;
 
   return (
     <group
       rotation={[0.15, 0.4 + frame * 0.016, 0]}
-      position={[0, -cy * mbScale - 0.05, 0]}
+      position={[0, groupY, 0]}
       scale={[mbScale, mbScale, mbScale]}
     >
       {cells.map((cell, idx) => (
@@ -316,51 +322,62 @@ export const SlimefunCapitulo1: React.FC = () => {
   }, []);
 
   return (
-    <AbsoluteFill style={{ backgroundColor: "#040d1a", fontFamily: T.font, color: "#ffffff", width: 1280, height: 720 }}>
-      {/* Header Superior Técnico */}
+    <AbsoluteFill style={{ backgroundColor: "#02060a", fontFamily: T.font, color: "#ffffff", width: 1280, height: 720 }}>
+      {/* 1. Fondo Animado Estandarizado (Cyber Grid + Slimefun Floating Items + Nebula Glow) */}
+      <StandardMasterclassBackground frame={frame} />
+
+      {/* 2. Audio Lo-Fi Continuo de Fondo */}
+      <Audio src={staticFile("audio/bg_tech_chill.wav")} volume={0.11} loop />
+
+      {/* 3. Widget de Física Real con Círculos y Bolas (Esquina Superior Derecha) */}
+      <div style={{ position: "absolute", top: 12, right: 35, zIndex: 50 }}>
+        <SatisfyingPhysicsWidget width={195} height={100} compact={true} />
+      </div>
+
+      {/* 4. Header Superior Técnico */}
       <div
         style={{
           position: "absolute",
-          top: 24,
+          top: 20,
           left: 40,
-          right: 40,
+          right: 245,
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
           borderBottom: "1.5px solid rgba(16, 185, 129, 0.3)",
-          paddingBottom: 14,
+          paddingBottom: 12,
           zIndex: 40,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <span
             style={{
               backgroundColor: "#059669",
               color: "#ffffff",
               fontWeight: 900,
-              fontSize: 15,
-              padding: "4px 14px",
+              fontSize: 14,
+              padding: "4px 12px",
               borderRadius: 6,
-              letterSpacing: 2,
+              letterSpacing: 1.5,
             }}
           >
             SLIMEFUN GUÍA MAESTRA
           </span>
-          <span style={{ color: "#34d399", fontSize: 16, fontWeight: 900, letterSpacing: 1.5 }}>
+          <span style={{ color: "#34d399", fontSize: 15, fontWeight: 900, letterSpacing: 1 }}>
             CAPÍTULO 1 // GUÍA, MULTIBLOQUES & COMANDOS
           </span>
         </div>
 
-        <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+        <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
           <div
             style={{
               backgroundColor: "rgba(16, 185, 129, 0.15)",
               border: "1px solid #10b981",
               borderRadius: 14,
-              padding: "4px 12px",
+              padding: "3px 10px",
               color: "#34d399",
               fontWeight: 900,
-              fontSize: 14,
+              fontSize: 12,
             }}
           >
             MC 1.21.x · VANILLA
@@ -370,10 +387,10 @@ export const SlimefunCapitulo1: React.FC = () => {
               backgroundColor: "rgba(56, 189, 248, 0.15)",
               border: "1px solid #38bdf8",
               borderRadius: 14,
-              padding: "4px 12px",
+              padding: "3px 10px",
               color: "#38bdf8",
               fontWeight: 900,
-              fontSize: 14,
+              fontSize: 12,
             }}
           >
             PLAY.DRAKESCRAFT.CL
@@ -653,14 +670,23 @@ export const SlimefunCapitulo1: React.FC = () => {
             <pointLight position={[-3, 2, 2]} color="#10b981" intensity={2.4} distance={8} />
             <pointLight position={[3, -1, 1]} color="#f59e0b" intensity={1.6} distance={6} />
 
-            {/* Pedestal tech circular flotante */}
+            {/* Pedestal tech estilizado de Minecraft */}
             <mesh position={[0, -0.92, 0]}>
-              <cylinderGeometry args={[1.5, 1.7, 0.18, 32]} />
-              <meshStandardMaterial color="#0f172a" roughness={0.3} metalness={0.8} />
+              <cylinderGeometry args={[1.5, 1.7, 0.2, 32]} />
+              <meshStandardMaterial color="#0b131e" roughness={0.3} metalness={0.8} />
             </mesh>
-            <mesh position={[0, -0.82, 0]}>
-              <cylinderGeometry args={[1.45, 1.45, 0.02, 32]} />
+            <mesh position={[0, -0.815, 0]}>
+              <cylinderGeometry args={[1.45, 1.45, 0.01, 32]} />
+              <meshStandardMaterial color="#111c2a" roughness={0.4} metalness={0.6} />
+            </mesh>
+            {/* Anillos de neón integrados en el suelo */}
+            <mesh position={[0, -0.805, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+              <ringGeometry args={[1.30, 1.36, 32]} />
               <meshBasicMaterial color="#10b981" />
+            </mesh>
+            <mesh position={[0, -0.805, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+              <ringGeometry args={[0.92, 0.96, 32]} />
+              <meshBasicMaterial color="#38bdf8" />
             </mesh>
 
             {/* Steve3D a la izquierda con escala 0.58: cabeza segura con >50% de margen superior */}
