@@ -229,11 +229,11 @@ export const ShortSaori: React.FC = () => {
       >
         <div>
           <div style={{ color: "#94a3b8", fontSize: 16, fontWeight: 700 }}>IP MINECRAFT (JAVA & BEDROCK)</div>
-          <div style={{ color: "#22d3ee", fontSize: 26, fontWeight: 900 }}>play.drakescraft.cl:25565</div>
+          <div style={{ color: "#22d3ee", fontSize: 26, fontWeight: 900 }}>mc.drakescraft.cl:25565</div>
         </div>
         <div style={{ textAlign: "right" }}>
           <div style={{ color: "#94a3b8", fontSize: 16, fontWeight: 700 }}>DISCORD OFICIAL</div>
-          <div style={{ color: "#fbbf24", fontSize: 24, fontWeight: 900 }}>discord.gg/drakescraft</div>
+          <div style={{ color: "#fbbf24", fontSize: 24, fontWeight: 900 }}>discord.gg/rv3vtXZTk7</div>
         </div>
       </div>
 
